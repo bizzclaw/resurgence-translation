@@ -1,11 +1,17 @@
-local lang = RSRG.Languages["English"]
+local lang = RSRG.Languages["en"]
 lang["#UI_LEVEL"] = "Level"
 
 -- Classes
 lang["#UI_UTILITY"] = "Utility"
 lang["#UI_COMBAT"] = "Combat"
 
--- Specials
+--███████╗██████╗ ███████╗ ██████╗██╗ █████╗ ██╗     ███████╗
+--██╔════╝██╔══██╗██╔════╝██╔════╝██║██╔══██╗██║     ██╔════╝
+--███████╗██████╔╝█████╗  ██║     ██║███████║██║     ███████╗
+--╚════██║██╔═══╝ ██╔══╝  ██║     ██║██╔══██║██║     ╚════██║
+--███████║██║     ███████╗╚██████╗██║██║  ██║███████╗███████║
+--╚══════╝╚═╝     ╚══════╝ ╚═════╝╚═╝╚═╝  ╚═╝╚══════╝╚══════╝
+
 lang["#SPC_STR"] = "Strength" -- for Specials, keep the first half of the name in english so it matches with the S.P.E.C.I.A.L Acronym
 lang["#SPC_STRDESC"] = "Raw Physical Power, A high Strength is good for physical acts.\n\n- Affects base melee attack strength.\n- Affects the ability to carry things\n- Heftier Weapons are wielded more easily."
 
@@ -27,7 +33,13 @@ lang["#SPC_AGLDESC"] = "The ability to be fast. A high Agility grants speed to m
 lang["#SPC_LCK"] = "Luck"
 lang["#SPC_LCKDESC"] = "One will find that Luck works out situations for them in the strangest of ways.\n\n- Affects Item discovery.\n- Affects all Skills.\n -Affects all scenarios."
 
--- Specials
+--███████╗██╗  ██╗██╗██╗     ██╗     ███████╗
+--██╔════╝██║ ██╔╝██║██║     ██║     ██╔════╝
+--███████╗█████╔╝ ██║██║     ██║     ███████╗
+--╚════██║██╔═██╗ ██║██║     ██║     ╚════██║
+--███████║██║  ██╗██║███████╗███████╗███████║
+--╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝
+
 lang["#SKL_PISTOLS"] = "Gunslinger" -- for skills, no need to keep the english word.
 lang["#SKL_PISTOLSDESC"] = "Efficiency with pistol-type weaponry."
 
@@ -98,21 +110,36 @@ lang["#STAT_WG"] = "Carry Weight"
 lang["#STAT_WGSHORT"] = "WG"
 lang["#STAT_WGDESC"] = "The maximum amount of weight you can haul in items."
 
---Perks
+--██████╗ ███████╗██████╗ ██╗  ██╗███████╗
+--██╔══██╗██╔════╝██╔══██╗██║ ██╔╝██╔════╝
+--██████╔╝█████╗  ██████╔╝█████╔╝ ███████╗
+--██╔═══╝ ██╔══╝  ██╔══██╗██╔═██╗ ╚════██║
+--██║     ███████╗██║  ██║██║  ██╗███████║
+--╚═╝     ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
+
 lang["#PERK_RUNNGUN"] = "Run'n Gun"
 lang["#PERK_RUNNGUNDESC"] = "When using any one-handed weapon, your spread is greatly reduced while moving."
 lang["#PERK_WILDWEST"] = "Wild West"
 lang["#PERK_WILDWESTDESC"] = "When using Revolvers, lever or break action rifles, your accuracy is inreased and you reload twice as fast."
 lang["#PERK_SHOTGUNSURGEON"] = "Shotgun Surgeon"
-lang["#PERK_SHOTGUNSURGEONDESC"] = "When using a scattergun, you know just where to aim. Your precision allows you to ignore 10 of your target's DT when using buckshot-type weapons on non-humanoid enemies."
+lang["#PERK_SHOTGUNSURGEONDESC"] = "When using a scattergun, you know just where to aim. Your precision allows you to ignore 10 of your target's DT when using buckshot-type weapons on non-player enemies."
 lang["#PERK_COMBATANT"] = "Combatant"
-lang["#PERK_COMBATANTDESC"] = "You know what you're doing when it comes combat. Gain two more skill points every time you level up in combat, however you cannot take the Educated perk."
+lang["#PERK_COMBATANTDESC"] = "You know what you're doing when it comes combat. Gain 5 more skill points every time you level up in combat, however you cannot take the Educated perk."
 lang["#PERK_EDUCATED"] = "Educated"
-lang["#PERK_EDUCATEDDESC"] = "You're quite the learner. Gain Two more utility skill points every time you level up in utility, however you cannot take the Combatant perk."
+lang["#PERK_EDUCATEDDESC"] = "You're quite the learner. Gain 5 more utility skill points every time you level up in utility, however you cannot take the Combatant perk."
 lang["#PERK_CANNIBAL"] = "Cannibal"
 lang["#PERK_CANNIBALDESC_1"] = ""
-lang["#PERK_GREENTHUMB"] = "Green Thumb"
-lang["#PERK_GREENTHUMBDESC"] = "You have a natural affinity for plants. Gain a 20% chance to gain an extra yield for most picked plants"
+lang["#PERK_GREENTHUMB"] = "Green Thumb" 
+lang["#PERK_GREENTHUMBDESC"] = "You have a natural affinity for plants. Gain a 50% chance to gain an extra yield for most picked plants"
+lang["#PERK_GECKOSKINNINGNAME"] = "Gecko Skinning"
+lang["#PERK_GECKOSKINNINGDESC"] = "You have gained the knowledge of how to skin scaled creatures properly to get their hides!\n\nAllows one to skin Geckos (excluding Fire Geckos) and Deathclaws for pelts, which can then be sold for profit."
+lang["#PERK_GECKOSKINNING2DESC"] = "You have uncovered the hidden technique to skinning Fire Geckos!\n\nAllows one to skin Fire Geckos for pelts, which can then be sold for profit."
+lang["#PERK_MADBOMBER_NAME"] = "Mad Bomber"
+lang["#PERK_MADBOMBER_DESC"] = "Specialized training is now available for wastelanders with a talent for Repair and a love of Explosives!\n\nCrafting Tin Grenades, Fat Mines, and even devastating Nuka-Grenades are a snap for those with the materials and talent."
+lang["#PERK_HANDLOADER_NAME"] = "Hand Loader"
+lang["#PERK_HANDLOADER_DESC"] = "You know your way around a reloading bench and don't let good brass and hulls go to waste!\n\nWhen you use Guns, you are more likely to recover cases and hulls. You also have additional hand load recipes unlocked at reloading benches."
+lang["#PERK_JUNKROUNDS_NAME"] = "Junk Rounds"
+lang["#PERK_JUNKROUNDS_DESC"] = "Who needs factory loaded brass anyway?\n\nYou have unlocked recipies for loading steel-cased ammunition and the ability to craft steel casings at a reloading bench."
 
 lang["#PERKREQ_COST"] = "Not Enough Perk Points"
 lang["#PERKREQ_MAXED"] = "Perk Maxed Out"
@@ -124,3 +151,7 @@ lang["#PERKPOINT"] = "Perk Point"
 lang["#PERKPOINTS"] = "Perk Points"
 
 lang["#PERK_COMFIRM"] = "Take this Perk?"
+
+
+
+RELOADWEAPONS = true

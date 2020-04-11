@@ -1,4 +1,4 @@
-local lang = RSRG.Languages["English"]
+local lang = RSRG.Languages["en"]
 
 -- Factions
 lang["#FACTION_NCR_NAME"] = "New California Republic"

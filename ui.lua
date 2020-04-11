@@ -1,5 +1,5 @@
 -- UI TABS
-local lang = RSRG.Languages["English"]
+local lang = RSRG.Languages["en"]
 
 --Main menu
 lang["#GAMEMODE_NAME"] = "Fallout Resurgence"
@@ -84,6 +84,7 @@ lang["#UI_COMBATSKILLPOINTS"] = "Combat Skill Points"
 lang["#UI_POINTSABAILABLE"] = "Character Points"
 lang["#UI_TAGSKILLS"] = "Tag Skills:"
 lang["#UI_SKILL"] = "Skill"
+lang["#UI_PERK"] = "Perk"
 lang["#UI_SKILLUP"] = "@+jump Progress Skill"
 lang["#UI_SKILLDOWN"] = "@+reload Regress Skill"
 lang["#UI_APPLY"] = "Apply"
@@ -95,6 +96,8 @@ lang["#UI_OKAY"] = "Okay"
 lang["#UI_HOWMANY"] = "How Many?" -- used in the bulk drop menu.
 lang["#UI_ACTIVEEFFECTS"] = "Active Effects" -- Effects char
 
+
+-- Effects. All effects will start with NOW_SICK or NO_LONGER_SICK
 -- Radiation Sickness
 lang["#NOW_SICK"] = "You now have"
 lang["#NO_LONGER_SICK"] = "You no longer have"
@@ -107,10 +110,21 @@ lang["#RAD4_NAME"] = "Deadly Radiation Poisoning"
 lang["#RAD5_NAME"] = "Fatal Radiation Poisoning"
 
 -- Non Harmful Radiation effects (Super Mutant / Ghoul)
-lang["#GOODRAD1_NAME"] = "a Minor Radiation Dosage"
-lang["#GOODRAD2_NAME"] = "a Medium Radiation Dosage"
-lang["#GOODRAD3_NAME"] = "a High Radiation Dosage"
-lang["#GOODRAD4_NAME"] = "a Maximum Radiation Dosage"
+lang["#GOODRAD1_NAME"] = "Minor Radiation Dosage"
+lang["#GOODRAD2_NAME"] = "Medium Radiation Dosage"
+lang["#GOODRAD3_NAME"] = "High Radiation Dosage"
+lang["#GOODRAD4_NAME"] = "Maximum Radiation Dosage"
+
+-- Ailments
+lang['#VENOM_RADSCORPION'] = "Radscorpion Sting"
+lang['#DISEASE_JUMBLES'] = "the Jumbles"
+lang['#DISEASE_LIMPWRIST'] = "Limp Wrist"
+lang['#DISEASE_FUMIGATIONS'] = "Fumigations"
+lang['#DISEASE_VAPORS'] = "the Vapors"
+lang['#DISEASE_WATERBRAIN'] = "Water Brain"
+lang['#DISEASE_CALAMITOUS'] = "Calamitous Rash"
+lang['#DISEASE_MYOPIA'] = "Myopia"
+lang['#DISEASE_BONEITIS'] = "Bonitis"
 
 --Notifications
 lang["#NOTIFY_WEAPON_BROKEN"] = "Weapon broken!"
@@ -128,7 +142,7 @@ lang["#UI_HPFULL"] = "HP Full."
 lang["#UI_STIMPAKACTIVE"] = "Your last stimpak is still active."
 
 --PARTY
-lang["#HASINVITED"] = "Has invited you to join a party."
+lang["#HASINVITED"] = "has invited you to join their party."
 
 --ToolTips
 lang["#TOOLTIP_RELOAD"] = "@+reload Reload."
@@ -234,9 +248,9 @@ lang["#RACE_GHOUL"] = "Ghoul"
 lang["#RACE_SUPERMUTANT"] = "Super Mutant"
 
 lang['#RACE_HUMAN_DESC'] = [[
-A Human born and raised in the wasteland.
+A Human born and raised in the wasteland. 
 
-Life in the wasteland has made you more adaptable to harsh conditions.
+Life in the wasteland has made you more adaptable to harsh conditions. 
 ]]
 
 lang["#RACE_VAULTDWELLER_DESC"] = [[
@@ -244,11 +258,13 @@ lang["#RACE_VAULTDWELLER_DESC"] = [[
 ]]
 
 lang["#RACE_GHOUL_DESC"] = [[
-	Ghoul Description Goes here
+A Ghoul is a human that, thanks to some genetic quirk, instead of dying from prolonged radiation exposure, has been irreversably mutated, causing necrosis of skin, hair loss and a 'zombie' like appearance.
+
+As a ghoul, you will take an increased amount of damage no matter your endurance, but you are completely immune to radiation. In fact, radiation will almost completely lessen your increased damage, while giving you buffs to Agility and Strength.
 ]]
 
 lang["#RACE_SUPERMUTANT_DESC"] = [[
-	Super Mutant Description Goes here
+	Super mutants
 ]]
 
 --World Map
@@ -258,6 +274,9 @@ lang["#UI_WORLDMAPLOADIN"] = "You have entered a loadable region.\nClick on the 
 
 -- Name`
 lang["#WORLDNAME"] = "Frontier Wasteland"
+
+-- Statistics
+lang["#STAT_TIMEPLAYED"] = "Time Played"
 
 --If there's any items you know I'll add, feel free to add them yourself and write their description. Heck add anything you like. Just make sure it follows the format here. Also, it MUST have a # in front of the name and the name must be all caps.
 
@@ -275,3 +294,5 @@ Then you must put a '\n' in the description, for instance the above phrase will 
 This item is cool.\nIt Comes from places
 				   ^
 ]]
+
+RELOADWEAPONS = true
