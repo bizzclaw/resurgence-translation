@@ -363,7 +363,7 @@ lang["#METALGOGGLES_DESC"] = "A pair of metal framed goggles for casual wear. Wi
 lang["#FLAMER_NAME"] = "Flamer"
 lang["#GATLASER_NAME"] = "Gatling Laser"
 lang["#INCENERATOR_NAME"] = "Incinerator"
-lang["#AERPISTOL_NAME"] = "AER Laser Pistol"
+lang["#AERPISTOL_NAME"] = "AEP Laser Pistol"
 lang["#AERRIFLE_NAME"] = "AER Laser Rifle"
 lang["#LASER_NAME"] = "Laser Gun"
 lang["#PLASMAGUN_NAME"] = "Plasma Gun"
@@ -393,12 +393,12 @@ lang["#PLASMAGUN_DESC"] = "Plasma rifles or plasma casters are high-tech weapons
 lang["#WATZ2k_DESC"] = "The Wattz 2000 is a consumer-grade high-tech laser rifle that uses high-energy light as a means of damage, striking it's target instantly at any range."
 lang["#WATZ1k_DESC"] = "The Wattz 1000 is a consumer-grade laser created by the Wattz Corporation. It uses a laser focusing diode instead of a crystal array, decreasing it's damage."
 lang["#PULSERIFLE_DESC"] = "The YK42B is an electrical pulse weapon that was developed by the Yuma Flats Energy Consortium.\n\nIt is considered a far superior weapon to the YK32 pulse pistol, having a greater charge capacity and range."
-lang["#GAUSSRIFLE_DESC"] = "UHHH, DON'T YOU MEAN ''MASS DRIVER''? \n\nUHHH, NO, I MEAN'T ''COIL GUN''"
+lang["#GAUSSRIFLE_DESC"] = "The Gauss Rifle uses magnetic induction to propel a projectile at an incredible and devastating speed.\n\nEach shot can be charged for maximum damage by keeping the trigger held for a moment before releasing."
 lang["#PPK12_DESC"] = "A hand-held weapon of German design utilizing electromagnetic coils to propel metal slugs at extremely high velocities. They fire an incredibly small 2mm round at speeds just under the speed of light, tearing through just about any armor."
 lang["#PLASMADEFENDER_DESC"] = "Glock 86 Plasma Pistol, designed by the Gaston Glock artificial intelligence.\n\nShoots a small bolt of superheated plasma.\n\nPowered by a small energy cell."
-lang["#RCW_DESC"] = "The unique feature of this laser is the addition of a rotating capacitor bank.\n\nThis capacitor rotation allows the Laser RCW to operate like a minigun, avoiding the rate-of-fire limitations of a single capacitor design."
-lang["#AER9_DESC"] = "The AER7 is a high-tech weapon that emits a concentrated beam of coherent light, with sufficient wattage to do considerable damage.\n\nFar sturdier and more reliable, it's much more commonly found than the models that followed."
-lang["#AEP7_DESC"] = "The AEP7 laser was put into service to replace the N99 as the standard issue sidearm for military forces.\nWhile civilian models utilize a laser diode, military models employ a photonic focusing chamber and crystal array, creating a tighter, more destructive beam."
+lang["#RCW_DESC"] = "A precursor to the Gatling Laser, the unique feature of this weapon is the addition of a rotating capacitor bank.\n\nThis capacitor rotation allows the Laser RCW to operate like a ''laser assault rifle'', avoiding the rate-of-fire limitations of a single capacitor design."
+lang["#AER9_DESC"] = "The AER9 is a high-tech weapon that emits a concentrated beam of coherent light, with sufficient wattage to do considerable damage.\n\nFar sturdier and more reliable, it's much more commonly found than the models that followed."
+lang["#AEP7_DESC"] = "The AEP7 laser was put into service to replace the N99 as the standard issue sidearm for military forces.\n\nWhile civilian models utilize a laser diode, military models employ a photonic focusing chamber and crystal array, creating a tighter, more destructive beam."
 
 -- ██████╗ ██╗   ██╗███╗   ██╗███████╗
 --██╔════╝ ██║   ██║████╗  ██║██╔════╝
@@ -518,10 +518,15 @@ lang["#MISSILELAUNCHER_DESC"] = "A Shoulder Mounted explosive weapon.\nFires a l
 --╚═╝  ╚═╝╚═╝     ╚═╝╚═╝     ╚═╝ ╚═════╝
 
 ---ENERGY
-lang["#MFC_OC_NAME"] = "Microfusion Cell [OC]"
-lang["#MFC_NAME"] = "Microfusion Cell"
 lang["#SEC_NAME"] = "Small Energy Cell"
+lang["#MFC_NAME"] = "Microfusion Cell"
+lang["#MFC_OC_NAME"] = "Microfusion Cell, Over Charge"
+lang["#MFC_MC_NAME"] = "Microfusion Cell, Max Charge"
+lang["#MFC_BULK_NAME"] = "Microfusion Cell, Bulk"
 lang["#ECP_NAME"] = "Electron Charge Pack"
+lang["#ECP_OC_NAME"] = "Electron Charge Pack, Over Charge"
+lang["#ECP_MC_NAME"] = "Electron Charge Pack, Max Charge"
+lang["#ECP_BULK_NAME"] = "Electron Charge Pack, Bulk"
 lang["#PLASMACARTRIDGE_NAME"] = "Plasma Cartridge"
 ---HANDGUN
 lang["#9MM_NAME"] = "9mm"
@@ -590,13 +595,18 @@ lang["#FUELHOMEMADE_NAME"] = "Improvised Flamer Fuel"
 ---Ammo Desc
 ------------------------------------------------------------------
 --ENERGY
-lang["#MFC_DESC"] = "The Microfusion Cell is a miniature self contained fusion plant, capable of generating and containing a massive amount of energy.\n\nWhile it had many applications in the old world, today, It is mainly used to power various energy rifles."
 lang["#SEC_DESC"] = "The Small Energy Cell is a high-capacity battery that contains a considerable amount of energy for it's size.\n\nBecause it doesn't produce power like the Microfusion cell, it is more suited to applications that require less, such as energy based hanguns."
 lang["#SEC_OC_DESC"] = "The Overcharged variant of a small energy cell\n\nUses a non-standard method for containing energy, making the battery more unstable, but providing a higher energy output, resulting in a higher damage at the cost of weapon condition."
-lang["#MFC_OC_DESC"] = "The Overcharged Microfusion cell is an experimental variant of the Microfusion cell.\n\nProduces much more intense and unstable energy, often bolstering the damage of weapon's it's loaded in, at the cost of damaging them faster."
-lang["#ECP_DESC"] = "These small electron batteries are used as ammunition by several energy weapons.\n\nUnlike Small Energy Cells and Microfusion Cells, they are used to power rapid firing energy weapons, as well as Tesla weaponry."
+lang["#MFC_DESC"] = "A weapons grade power source, commonly found in the use of slow firing weapons.\n\nThe Microfusion Cell is a miniature self contained fusion plant, capable of generating and containing a massive amount of energy.\n\nWhile it had many applications in the old world, today, It is mainly used to power various energy rifles."
+lang["#MFC_OC_DESC"] = "A weapons grade power source, commonly found in the use of slow firing weapons.\n\nOver Charged Variant.\n\nIncreases damage output and armor penetration effect, at the cost of quicker weapon degradation."
+lang["#MFC_MC_DESC"] = "A weapons grade power source, commonly found in the use of slow firing weapons.\n\nMax Charged Variant.\n\nGreatly increases damage output and armor penetration effect, at the cost of heavy weapon degradation."
+lang["#MFC_BULK_DESC"] = "A weapons grade power source, commonly found in the use of slow firing weapons.\n\nBulk Variant.\n\nReduces weapon degradation, at the cost of lower damage output, and no inherent armor penetration."
+lang["#ECP_DESC"] = "A weapons grade power source, commonly found in the use of rapid firing weapons.\n\nUnlike Small Energy Cells which are not capable of high enough energy transfer, and Microfusion Cells which are insufficent for rapid discharge, ECPs contain both the charge and power load to feed the most intense pre-war laser weaponry."
+lang["#ECP_OC_DESC"] = "A weapons grade power source, commonly found in the use of rapid firing weapons.\n\nOver Charged Variant.\n\nIncreases damage output and armor penetration effect, at the cost of quicker weapon degradation."
+lang["#ECP_MC_DESC"] = "A weapons grade power source, commonly found in the use of rapid firing weapons.\n\nMax Charged Variant.\n\nGreatly increases damage output and armor penetration effect, at the cost of heavy weapon degradation."
+lang["#ECP_BULK_DESC"] = "A weapons grade power source, commonly found in the use of rapid firing weapons.\n\nBulk Variant.\n\nReduces weapon degradation, at the cost of lower damage output, and no inherent armor penetration."
 lang["#PLASMACARTRIDGE_DESC"] = "The Plasma Cartridge is a small, green container and is used by all varieties of plasma weapons."
---HANDGUN
+--HANDGUN 
 lang["#22LR_DESC"] = "A light handgun cartridge, commonly found in the use of pistols and sub-machine guns.\n\nAlthough it has largely been retired by Law Enforcement in favor of the 10mm, this round maintains a steady following in several parts of the world due to its low cost and controllability."
 lang["#9MM_DESC"] = "A light handgun cartridge, commonly found in the use of pistols and sub-machine guns.\n\nAlthough it has largely been retired by Law Enforcement in favor of the 10mm, this round maintains a steady following in several parts of the world due to its low cost and controllability."
 lang["#9MM_AP_DESC"] = "A light handgun cartridge, commonly found in the use of pistols and sub-machine guns.\n\nArmor Piercing Variant\n\nAn Overpressure round used in submachineguns by the military, these bullets contain a hardened penetrator for use against armored targets."
@@ -692,6 +702,7 @@ lang["#MOLOTOV_DESC"] = "An improvised thrown explosive that erupts in a firebal
 
 lang["#GECKOEGG_NAME"] = "Gecko Egg"
 lang["#RAWGECKO_NAME"] = "Raw Gecko Cut"
+lang["#RAWDEATHCLAW_NAME"] = "Raw Deathclaw Meat"
 lang["#COOKGECKO_NAME"] = "Gecko Meat"
 lang["#COOKANT_NAME"] = "Ant Roast"
 lang["#GRILLMANTIS_NAME"] = "Grilled Mantis Forleg"
@@ -720,11 +731,14 @@ lang["#SUGARBOMBS_NAME"] = "Sugar Bombs"
 lang["#NUKACOLA_NAME"] = "Nuka Cola"
 lang["#NUKAQUARTZ_NAME"] = "Nuka Cola Quartz"
 lang["#NUKAVICTORY_NAME"] = "Nuka Cola Victory"
+lang["#NUKAQUANTUM_NAME"] = "Nuka Cola Quantum"
+lang["#NUKARUM_NAME"] = "Rum and Nuka"
 lang["#SSODA_NAME"] = "Sunset Sarsaparilla"
 lang["#BEER_NAME"] = "Beer"
 lang["#WINE_NAME"] = "Wine"
 lang["#SCOTCH_NAME"] = "Scotch"
 lang["#WHISKEY_NAME"] = "Whiskey"
+lang["#RADWHISKEY_NAME"] = "Rad Whiskey"
 lang["#VODKA_NAME"] = "Vodka"
 lang["#MOONSHINE_NAME"] = "Moonshine"
 lang["#BLACKCOFFEE_NAME"] = "Black Coffee"
@@ -738,10 +752,11 @@ lang["#CORN_NAME"] = "Corn"
 lang["#BOILEDCORN_NAME"] = "Boiled Corn"
 lang["#JALAPENO_NAME"] = "Jalapeño"
 lang["#MESQUITE_NAME"] = "Honey Mesquite Pods"
+lang["#MUTFRUIT_NAME"] = "Mutfruit"
 lang["#PRICKLYPEAR_NAME"] = "Prickly Pear Fuit"
 lang["#TOBACCO_NAME"] = "Coyote Tobacco Leaves"
 lang["#PINTO_NAME"] = "Pinto Bean Pod"
-lang["#YUCCA_NAME"] = "Bananna Yucca Fruit"
+lang["#YUCCA_NAME"] = "Banana Yucca Fruit"
 
 
 
@@ -749,6 +764,7 @@ lang["#YUCCA_NAME"] = "Bananna Yucca Fruit"
 lang["#GECKOEGG_DESC"] = "A Lizard's Egg, inside is a sloshy liquid, or so your ears would tell you. It's edible, but it'd be by a landslide that your tastebuds wouldn't agree with that. Perhaps it'd be better cooked."
 lang["#COOKGECKO_DESC"] = "Grilled, broiled, or, steamed the meat is just as filling but a bit lacking in the flavor department as it will ever be, predators never really tasted good."
 lang["#RAWGECKO_DESC"] = "Tough and wet looking, it's the meat of an oversized lizard and a particularly tasty looking cut too."
+lang["#RAWDEATHCLAW_DESC"] = "The meat of one of the Wasteland's toughest creatures."
 lang["#COOKANT_DESC"] = "Cooked and crispy abdomen of a giant mutated ant. It's not raw, so it can't be that bad."
 lang["#COOKMEAT_DESC"] = "Some sort of meat that's been cooked. It's not raw, so it can't be that bad."
 lang["#COOKMIRELURK_DESC"] = "A slab of Mirelurk meat that's gone through the culinary method. It's not raw, so it can't be that bad."
@@ -766,7 +782,7 @@ lang["#GUM_DESC"] = "Feels weird to swallow."
 lang["#MASH_DESC"] = "Some sort of white mush, leaves you feeling full."
 lang["#SALISBURY_DESC"] = "150 Year old steak. Yum."
 lang["#SWEETROLL_DESC"] = "Probably Stolen."
-lang["#BEANS_DESC"] = "I spilled baked beans all over myself watching Cars 2 in theaters and a black teenager shouted ''this nigga eating beans'' and everyone laughed.\n\n\nOne of the most embarrassing situations in my life"
+lang["#BEANS_DESC"] = "A staple of wasteland life."
 lang["#CARAVANLUNCH_DESC"] = "A collection of food items with the harmful radiation removed.\n\nIt is often eaten by caravan merchants, due to the filling nature of the food and preparation simplicity."
 lang["#SUGARBOMBS_DESC"] = "a pre-War breakfast cereal that can be found all around the Wasteland.\n\nExplosive great taste!"
 
@@ -775,11 +791,14 @@ lang["#PURIFIEDWATER_DESC"] = "A bottle filled with purified water."
 lang["#NUKACOLA_DESC"] = "An 150 year old softdrink that still has its kick."
 lang["#NUKAQUARTZ_DESC"] = "A rare and classy cola! Has no artificial colors and is full of solid sugar flakes."
 lang["#NUKAVICTORY_DESC"] = "An exceedingly rare cola more valuable as a collectable than a beverage. Refreshingly patriotic!"
+lang["#NUKAQUANTUM_DESC"] = "An exceedingly rare flavor of nuka cola. Drinking this would be a shame."
+lang["#NUKARUM_DESC"] = "A tasty brew with nuka that gives a boost of energy. Despite its name its not made with rum. But hey, it sounds good doesn't it."
 lang["#SSODA_DESC"] = "Once known as the soft drink of the west, this root-beer still has it's taste."
 lang["#BEER_DESC"] = "A refreshing low-proof alcoholic beverage."
 lang["#WINE_DESC"] = "A relaxing low-proof alcoholic beverage."
 lang["#SCOTCH_DESC"] = "A moderate-proof alcoholic beverage.\n\nMakes you thirsty, but care-free."
 lang["#WHISKEY_DESC"] = "A high-proof alcoholic beverage.\n\nMakes you thirsty, but washes away the pain."
+lang["#RADWHISKEY_DESC"] = "Whiskey brewed with radioactive fruit and fluid. Not safe for human consumption. An alcohol alternative for ghouls."
 lang["#VODKA_DESC"] = "A high-proof alcoholic beverage.\n\nMakes you thirsty, but washes away the pain."
 lang["#MOONSHINE_DESC"] = "An extremely high-proof, home brewed, alcohol.\n\nMakes you flat out drunk, but feel invincible."
 lang["#BLACKCOFFEE_DESC"] = "Boiled from roasted Coyote Tobacco Leaves and honey mesquite pods in a trusty resusable kettle.\n\nA great way to stay awake in the middle of the night as well as improving alertness, at drawback of making you jittery.\n\nSo jittery, you might just drop and break your mug. . ."
@@ -793,10 +812,11 @@ lang["#CORN_DESC"] = "A staple food of the New Californian Republic. Usually gro
 lang["#BOILEDCORN_DESC"] = "A soft juicy ear of boiled corn, less radioactive and very tasty."
 lang["#JALAPENO_DESC"] = "A flavorful, spicy pepper. Known widely for its flavor and 'heat', this pepper makes the mouth feel as if it were on fire."
 lang["#MESQUITE_DESC"] = "Mesquite seed pods, entirely edible with a sweet, fruity taste. Not very filling, but a deeply satisfying snack."
+lang["#MUTFRUIT_DESC"] = "A radioactive fruit produced as a bi-product of the current environment."
 lang["#PRICKLYPEAR_DESC"] = "The fruit from a prickly pear cactus; a spiked plant with multiple flat, round, plate-like leaves that sprout from each-other."
 lang["#TOBACCO_DESC"] = "Chewable leaves of the Coyote Tobacco plant.\n\nNot to be confused with the plant typically processed into tobacco cigarettes, this plant is native to the Western United States."
 lang["#PINTO_DESC"] = "A pod containing several Pinto Beans, a plant native to the southern U.S. and South America.\n\nA staple food in many pre-war countries, they can be eaten whole or in a broth, mashed and ''refried'', or cooked when the pods are still young and green."
-lang["#YUCCA_DESC"] = "Fruit of the Bananna Yucca plant, native to the southwest U.S. and Central America.\n\nFruits can be eaten as is or dried for later."
+lang["#YUCCA_DESC"] = "Fruit of the Banana Yucca plant, native to the southwest U.S. and Central America.\n\nFruits can be eaten as is or dried for later."
 
 
 --███╗   ███╗███████╗██████╗     ██╗ ██████╗██╗  ██╗███████╗███╗   ███╗███████╗
@@ -806,6 +826,7 @@ lang["#YUCCA_DESC"] = "Fruit of the Bananna Yucca plant, native to the southwest
 --██║ ╚═╝ ██║███████╗██████╔╝██╔╝   ╚██████╗██║  ██║███████╗██║ ╚═╝ ██║███████║
 --╚═╝     ╚═╝╚══════╝╚═════╝ ╚═╝     ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝╚══════╝
 
+lang["#ADDICTOL_NAME"] = "Addictol"
 lang["#ANTIBIOTICS_NAME"] = "Antibiotics"
 lang["#ANTIVENOM_NAME"] = "Antivenom"
 lang["#JET_NAME"] = "Jet"
@@ -814,6 +835,7 @@ lang["#MEDX_NAME"] = "Med-X"
 lang["#RADAWAY_NAME"] = "Rad-Away"
 lang["#STIMPAK_NAME"] = "Stimpak"
 lang["#BLOODBAG_NAME"] = "Bloodbag"
+lang["#GLOWINGBLOOD_NAME"] = "Glowing Blood"
 lang["#DOCTORBAG_NAME"] = "Doctor's Bag"
 lang["#HYDRA_NAME"] = "Hydra"
 lang["#REPAIRKIT_NAME"] = "Weapon Repair Kit"
@@ -839,6 +861,7 @@ lang["#ADDICTION_PSYCHO"] = "Psycho Withdrawal"
 lang["#ADDICTION_PSYCHO_NOTIFY"] = "You have become addicted to Psycho!"
 
 --Medical Items Description
+lang["#ADDICTOL_DESC"] = "A powerful anti-addiction drug.\n\nAddictol is an effective pre-War medicine that works both physically and psychologically to remove both the symptoms of drug abuse and the craving.\n\nSide effects include, but are not limited to, hunger, thirst, loss of sleep, loss of taste, nausea, heartburn, indigestion, erectile disfunction, and anal leakage."
 lang["#ANTIBIOTICS_DESC"] = "A bottle of antibiotics that help cure disease." -- Curing item that removes sickness from players.
 lang["#ANTIVENOM_DESC"] = "A bottle of antivenom that help cure bites." -- Curing item that removes sickness from players.
 lang["#JET_DESC"] = "A highly addictive drug created after the War. Doesn't smell nice but a second sniff is infinitely tempting." -- Increases agility by 2, ignores armor speed de-buff for 70-100 seconds (Randomized)
@@ -847,6 +870,7 @@ lang["#MEDX_DESC"] = "Pre-War medicinal painkiller that's injected via syringe."
 lang["#RADAWAY_DESC"] = "A Pre-War medicine that cures the body of radiation damage."
 lang["#STIMPAK_DESC"] = "A marvel of Pre-War medicine, the Stimpak accelerates your body's healing processes, allowing you to heal wounds in seconds."
 lang["#BLOODBAG_DESC"] = "A package of preserved blood.\n\nHeals slowly over time."
+lang["#GLOWINGBLOOD_DESC"] = "Highly radioactive blood from glowing creatures."
 lang["#DOCTORBAG_DESC"] = "A bag of triage medical supplies, used to treat crippled limbs."
 lang["#HYDRA_DESC"] = "Hydra is a natural medicine that cleans and slowly restores crippled limbs over time."
 lang["#REPAIRKIT_DESC"] = "A package of various extra parts and furnishings.\n\nCan be used to repair most weapons, but decreases its decay."
@@ -926,7 +950,7 @@ lang["#HATCHET_DESC"] = "It is a hand-axe with a rubber-gripped wooden handle fo
 lang["#KITCHENKNIFE_DESC"] = "For all your horror movie-related needs, or if you just need to cut some carrots."
 lang["#DRIVER_DESC"] = "Always be sure to have the latest version."
 lang["#NAILBOARD_DESC"] = "This 2x4 has several nails driven through it, with a whittled shaft to ensure a better grip.\n\nCommonly used by super mutants and other idiots."
-lang["#PIPEWRENCH_DESC"] = "A typical wrench used by mechanics for hurting people."
+lang["#PIPEWRENCH_DESC"] = "A typical wrench used by mechanics for hurting people.\n\n[WORK IN PROGRESS, CURRENT VERSION IS A PLACEHOLDER PENDING ADDITIONAL ASSESTS]"
 lang["#STRAIGHTRAZOR_DESC"] = "An old-fashioned shaving razor with a polished wooden handle. Though its blade is short, it's lightweight and can deliver several slashing hits in rapid succession."
 lang["#ROLLINGPIN_DESC"] = "A plain wooden rolling pin used in baking to flatten dough, with a couple thin streaks of blood down one side."
 lang["#SLEDGE_DESC"] = "The strongman's specialty makes an appearance in the wasteland.\n\n[WORK IN PROGRESS, CURRENT VERSION IS A PLACEHOLDER PENDING ADDITIONAL ASSESTS]"
@@ -949,7 +973,7 @@ lang["#ABRAXO_NAME"] = "Abraxo Cleaner"
 lang["#AGUITAR_NAME"] = "Acoustic guitar"
 lang["#ASHTRAY_NAME"] = "Ashtray"
 lang["#BBGLOVE_NAME"] = "Baseball Glove"
-lang["#BASEBALL_NAME"] = "Baseball" 
+lang["#BASEBALL_NAME"] = "Baseball"
 lang["#BASKETBALL_NAME"] = "Basketball"
 lang["#BIGSPOON_NAME"] = "Big Spoon"
 lang["#BOBBYPIN_NAME"] = "Bobby Pin"
@@ -968,6 +992,7 @@ lang["#CIGARETTECARTON_NAME"] = "Cigarette Carton"
 lang["#CIRCUITBOARD_NAME"] = "Circuit Board"
 lang["#CONDUCTOR_NAME"] = "Conductor"
 lang["#COYOTEHIDE_NAME"] = "Coyote Hide"
+lang["#DEATHCLAWHIDE_NAME"] = "Deathclaw Hide"
 lang["#CRUTCH_NAME"] = "Crutch"
 lang["#DEATHCLAWEGG_NAME"] = "Deathclaw Egg"
 lang["#DEATHCLAWHAND_NAME"] = "Deathclaw Hand"
@@ -985,7 +1010,7 @@ lang["#EMPTYNCBOTTLE_NAME"] = "Empty Nuka-Cola Bottle"
 lang["#EMPTYSSBOTTLE_NAME"] = "Empty Sunset Sarsaparilla Bottle"
 lang["#EMPTYSYRINGE_NAME"] = "Empty Syringe"
 lang["#FORCEPS_NAME"] = "Forceps"
-lang["#FORGE_NAME"] = "Forge"
+lang["#CRUCIBLE_NAME"] = "Crucible"
 lang["#FBATTERY_NAME"] = "Fission Battery"
 lang["#FLOUR_NAME"] = "Flour"
 lang["#GASENGINE_NAME"] = "Gasoline Engine"
@@ -1069,8 +1094,9 @@ lang["#COFFEEMUG_DESC"] = "A prewar dinnerware item used for carrying and contai
 lang["#COFFEEPOT_DESC"] = "A sturdy metal pot for making coffee."
 lang["#CONDUCTOR_DESC"] = "A prewar component used in certain electronic devices.\n\nDesigned to conduct electricity between components."
 lang["#CIRCUITBOARD_DESC"] = "Board of circuits. Used in most, if not all electronics." -- Basically the electronic board
-lang["#COYOTEHIDE_DESC"] = "The hide harvested from a wasteland coyote.\n\nAgainst it's will, probably." -- Basically the electronic board
-lang["#CRUTCH_DESC"] = "A medical device accociated with those with broken legs. Less expensive than a wheelchair." -- Basically the electronic board
+lang["#COYOTEHIDE_DESC"] = "The hide harvested from a wasteland coyote.\n\nAgainst it's will, probably."
+lang["#DEATHCLAWHIDE_DESC"] = "The hide harvested from a Deathclaw.\n\nAgainst it's will, probably."
+lang["#CRUTCH_DESC"] = "A medical device accociated with those with broken legs. Less expensive than a wheelchair."
 lang["#DEATHCLAWEGG_DESC"] = "An unhatched deathclaw offspring.\n\nValuable as it is dangerous to harvest, many would-be hunters have died, horribly, in attempts to retrieve these guaranteed paydays."
 lang["#DEATHCLAWHAND_DESC"] = "The severed hand of a Deathclaw, an impressive and valuable hunting trophy.\n\nFor every Deathclaw Hand in possesion of a wastelander, there are an estimated five or more Deathclaws in possesion of a waster's limb. Good Luck!"
 lang["#DINNERPLATE_DESC"] = "A round, shallow dark brown plate. Perfect for smashing over an unruly dinner guest's head."
@@ -1082,12 +1108,12 @@ lang["#DRINKINGGLASS_DESC"] = "Pre-war glassware.\n\nCheck for cracks."
 lang["#DOGBOWL_DESC"] = "A short metal bowl typically used by dogs."
 lang["#DUCTAPE_DESC"] = "A roll of gray adhesive tape used before the war to seal ducts and fix just about everything. Post-war they can be used to make a variety of tools and weapons."
 lang["#EGGTIMER_DESC"] = "A pre-war kitchen accessory used for timing.\n\nCan be used in some crafting recipies."
-lang["#EMPTYBOTTLE_DESC"] = "An empty cola bottle that can be used to hold liquids.\n\nWhen you found this one, the liquid was yellow."
-lang["#EMPTYNCBOTTLE_DESC"] = "An empty cola bottle that can be used to hold liquids.\n\nWhen you found this one, the liquid was yellow."
-lang["#EMPTYSSBOTTLE_DESC"] = "An empty cola bottle that can be used to hold liquids.\n\nWhen you found this one, the liquid was yellow."
+lang["#EMPTYBOTTLE_DESC"] = "An empty cola bottle that can be used to hold liquids."
+lang["#EMPTYNCBOTTLE_DESC"] = "An empty cola bottle that can be used to hold liquids."
+lang["#EMPTYSSBOTTLE_DESC"] = "An empty cola bottle that can be used to hold liquids."
 lang["#EMPTYSYRINGE_DESC"] = "A discarded hypodermic syringe.\n\nI wouldn't put it in your pocket if I were you. . ."
 lang["#FORCEPS_DESC"] = "Forceps are a type of medical equipment used for grasping and holding items during surgery. Associated with other hand-held medical equipment, they often accompanying them on."
-lang["#FORGE_DESC"] = "A small forge that runs on propane. Useful for making ingots."
+lang["#CRUCIBLE_DESC"] = "A small crucible that runs on propane. Useful for making ingots."
 lang["#FBATTERY_DESC"] = "Throughout the Wastes, fission batteries can be found in settlements, remote shacks in the wastes, and reoccupied suburban homes.\n\nEasily scavenged from the common Robot or appliance store, it is invaluable to the common wastelander in the absence of a reliable power grid, if any."
 lang["#FLOUR_DESC"] = "A pre-war cooking ingrediant made by T.V.G.\n\nInedible by itself, but a component in several wasteland recipies."
 lang["#GASENGINE_DESC"] = "An engine that uses Gasoline to generate power. Good luck finding fuel." -- basically the makeshift engine
@@ -1169,7 +1195,7 @@ lang["#NCRMONEY_NAME"] = "NCR Dollar"
 lang["#SCRAPMETAL_NAME"] = "Scrap Metal"
 lang["#SCRAPCOPPER_NAME"] = "Scrap Copper"
 lang["#SCRAPWOOD_NAME"] = "Scrap Wood"
-lang["#SILICON_NAME"] = "Silicon"
+lang["#SILICON_NAME"] = "Silicone Rubber"
 lang["#STEEL_NAME"] = "Steel Ingot"
 lang["#WIRING_NAME"] = "Copper Wiring"
 lang["#COPPERORE_NAME"] = "Copper Ore"
@@ -1180,17 +1206,18 @@ lang["#GOLD_NAME"] = "Gold Ingot"
 lang["#FIREGECKOHIDE_NAME"] = "Fire Gecko Hide"
 lang["#GOLDGECKOHIDE_NAME"] = "Golden Gecko Hide"
 lang["#GECKOHIDE_NAME"] = "Gecko Hide"
-lang["#PROPANE_NAME"] = "Propane Tank"
+lang["#PROPANE_NAME"] = "Propane"
 lang["#CHARCOAL_NAME"] = "Charcoal"
 
 --Valuables Desc
 lang["#BOTTLECAP_DESC"] = "A cap of the popular Post and Pre-war soft drink- Nuka Cola. Used as currency in many parts of the Wasteland." -- The currency. It will be recognized as money by most traders.
+lang["STARCAP_DESC"] = "A Sunset Sarsaparilla bottlecap with a blue star hidden on it's underside.\n\nHuh.\n\nWeird."
 lang["#PREWARMONEY_DESC"] = "Wrinkled, torn, and faded paper notes.\n\nUsed as currency before the Great War.\n\nUsed as toilet paper after."
 lang["#NCRMONEY_DESC"] = "A paper bill similar to Pre-War money. It features a picture of Aradesh on the face and the view of Shady Sands on the back."
 lang["#SCRAPMETAL_DESC"] = "Metal scavenged from Pre War artifacts." -- Scrap metal will obviously be like pnrp's scrap
 lang["#SCRAPCOPPER_DESC"] = "Left over bits of copper that can be melded together to forge new items"
 lang["#SCRAPWOOD_DESC"] = "Reclaimed scrap wood from pre-war furniture and buildings.\n\nAbandoned houses are a bit easier to find than trees nowadays."
-lang["#SILICON_DESC"] = "A highly usable element with the Atomic number of 14." -- Silicon will act like pnrp's chems
+lang["#SILICON_DESC"] = "An elastic and stretchy polymer."
 lang["#STEEL_DESC"] = "An Ingot of steel made of iron, carbon, and other elements."
 lang["#WIRING_DESC"] = "A spool of copper wiring, this commodity is often scavenged from dilapidated technology, more often than not being used to restore new ones." -- wiring will be a crafting item, sort of a replacement for small parts
 lang["#COPPERORE_DESC"] = "Copper ore mined from the Earth."
@@ -1312,6 +1339,11 @@ lang["#MOD_SIGHT_SCOPEX2_DESC"] = "A Biruss brand Handgun scope, used by hunters
 lang["#MOD_SIGHT_SCOPEX3_DESC"] = "A Loophole brand All-Weather scope, used by hunters for mid-range shooting.\n\n3x Magnification\n\nNothing's better than seeing that surprised look on your target's face."
 lang["#MOD_SIGHT_SCOPEX9_DESC"] = "A Triveld brand All-Weather scope, used by civilians and Military alike for long range shooting.\n\n9x Magnification\n\nAccurate from first shot to last, no matter what kind of game you're gunning for."
 
+lang["#MOD_SIGHT_REDDOT_ENG_DESC"] = "A Prewar optic issued by the Military for use with high-tech weaponry.\n\n1x Magnification.\n\nThis sight suspends an illumenated reticle over the lens, which is used as the point of aim."
+lang["#MOD_SIGHT_ACOG_ENG_DESC"] = "A Prewar optic issued by the Military for use with high-tech weaponry.\n\n4x Magnification.\n\nThis medium power scope is most usefull at mid-range."
+lang["#MOD_SIGHT_SCOPEX8_ENG_DESC"] = "A Prewar optic issued by the Military for use with high-tech weaponry.\n\n8x Magnification.\n\nThis high power scope is most usefull at long-range."
+
+
 lang["#MOD_SIGHT_REFLEX_PIPESEMI_DESC"] = "A makeshift open-sight made from repurposed metal scrap.\n\n1x Magnification.\n\nOffers slightly better field of view than some low-sitting sights, but thats about it."
 lang["#MOD_SIGHT_REFLEXGLOW_PIPESEMI_DESC"] = "A makeshift open-sight with glowing dots.\n\n1x Magnification.\n\nOffers slightly better field of view than some low-sitting sights,\n\nExcellent for use in low-light conditions."
 lang["#MOD_SIGHT_PIPEX2_DESC"] = "A makeshift scope made from repurposed metal scrap and Cola bottle glass.\n\n2x Magnification.\n\nCrudely made, it's bound to rattle itself apart sooner, rather than later."
@@ -1319,10 +1351,10 @@ lang["#MOD_SIGHT_PIPEX6_DESC"] = "A makeshift scope made from repurposed metal s
 
 --BARREL
 lang["#MOD_BARREL_SHORT_PIPEGUN_DESC"] = "A makeshift barrel made from repurposed plumbers pipe.\n\nSlightly increases sighted accuracy, and improves velocity.\n\nCrudely fashioned rifling, by crudely fashioned people."
-lang["#MOD_BARREL_LONG_PIPEGUN_DESC"] = "A makeshift barrel made from repurposed automotive parts.\n\nFurther increases sighted accuracy, and imporoves velocity.\n\nNot what they meant by a ''mechanic's special''."
+lang["#MOD_BARREL_LONG_PIPEGUN_DESC"] = "A makeshift barrel made from repurposed automotive parts.\n\nFurther increases sighted accuracy, and improves velocity.\n\nNot what they meant by a ''mechanic's special''."
 lang["#MOD_BARREL_SHORTPORTED_PIPEGUN_DESC"] = "A ported barrel made from repurposed plumbers pipe.\n\nSlightly increases sighted accuracy, improves velocity, and slightly improves handling across the board.\n\nOh the wonders a drill press can create."
 lang["#MOD_BARREL_LONGPORTED_PIPEGUN_DESC"] = "A ported barrel made from repurposed automotive parts.\n\nFurther increases sighted accuracy, improves velocity, and slightly improves handling across the board.\n\nSee, these are what's known in the industry as ''Speed holes''."
-lang["#MOD_BARREL_FINNED_PIPEGUN_DESC"] = "A makeshift barrel with a crudely formed heat-sink.\n\nIncreases sighted accuracy, imporoves velocity, and greatly reduces accuracy loss while firing.\n\nNote: Thermal compound absolutely CANNOT be used in place of lubricating oil."
+lang["#MOD_BARREL_FINNED_PIPEGUN_DESC"] = "A makeshift barrel with a crudely formed heat-sink.\n\nIncreases sighted accuracy, improves velocity, and greatly reduces accuracy loss while firing.\n\nNote: Thermal compound absolutely CANNOT be used in place of lubricating oil."
 
 --MUZZLE DEVICE
 --lang["#MOD_MUZDEV_BAYO_CKNIFE_DESC"] = "A muzzle mounted device designed to present additional protection from charging enemies.\n\nCompatible with some rifles.\n\nHumans have an ancient and storied history of stabbing each other, beginning long before the bombs dropped."
@@ -1396,8 +1428,12 @@ lang["#MOD_COVER_AKM_WELD_NAME"] = "Soviet Rifle Welded Dust Cover"
 lang["#MOD_COVER_AKM_STAMPED_NAME"] = "Soviet Rifle Stamped Dust Cover"
 lang["#MOD_COVER_AKM_MILLED_NAME"] = "Soviet Rifle Milled Dust Cover"
 
+lang["#MOD_RECEIVER_MFC_RCW_NAME"] = "Laser RCW MFC Conversion Kit"
+
+
 lang["#MOD_RECEIVER_NEWWOOD_PIPESEMI_NAME"] = "Pipegun New Wooden Frame"
 lang["#MOD_RECEIVER_SHADOW_PIPESEMI_NAME"] = "Pipegun Shadowed Frame"
+
 
 
 --SIGHT
@@ -1417,9 +1453,10 @@ lang["#MOD_SIGHT_16X_PGM_NAME"] = "Anti-Mat. Rifle Scope"
 lang["#MOD_SIGHT_GUNNER_5MM_NAME"] = "5mm Minigun Gunner Sight"
 lang["#MOD_SIGHT_16X_PGM_NAME"] = "Anti-Mat. Rifle Scope"
 lang["#MOD_SIGHT_GLOW_MGUN_NAME"] = "LMG Glow Sight"
-
+lang["#MOD_SIGHT_GLOW_CSHOTGUN_NAME"] = "Combat Shotgun Glow Sight"
 
 lang["#MOD_SIGHT_LGUN_SNIPER"] = "Sniper Scope"
+lang["#MOD_SIGHT_REDDOT_GLASER_NAME"] = "Gatling Laser Reflex Sight"
 
 lang["#MOD_SIGHT_GLOW_PIPESEMI_NAME"] = "Pipegun Glow Sight"
 
@@ -1470,14 +1507,17 @@ lang["#MOD_BARREL_MGUN_WATER_LONG_NAME"] = "LMG Water-Cooled Heavy Barrel"
 
 lang["#MICROGUN_NAME"] = "5mm Microgun"
 lang["#DEVESTATOR_NAME"] = "Devastator Minigun"
-lang["#MOD_BARREL_LGUN_LONG"] = "Long Barrel"
+lang["#MOD_BARREL_LGUN_LONG"] = "Rifle Barrel"
 lang["#MOD_BARREL_LGUN_AUTO"] = "Automatic Barrel"
-lang["#MOD_BARREL_LGUN_SOUP"] = "High Power Barrel"
+lang["#MOD_BARREL_LGUN_SOUP"] = "Charge Barrel"
+lang["#MOD_BARREL_HEAVY_GLASER_NAME"] = "Gatling Laser Heavy Barrel Assembly"
 
 --MUZZLE DEVICE
 lang["#MOD_MUZZLE_LGUN_SPLIT"] = "Beam Splitter"
 lang["#MOD_MUZZLE_LGUN_FOCUS"] = "Beam Focuser"
 lang["#MOD_MUZZLE_LGUN_GYRO"] = "Gyro Compensating Lens"
+lang["#MOD_MUZZLE_GLASER_FOCUS_NAME"] = "Gatling Laser Beam Focuser"
+
 lang["#MOD_MUZDEV_BRAKE_PIPEGUN_NAME"] = "Pipegun Muzzle Brake"
 lang["#MOD_MUZDEV_BRAKE_PGM_NAME"] = "Anti-Mat. Muzzle Brake"
 
@@ -1511,10 +1551,11 @@ lang["#MOD_MAG_VRIFLE10_NAME"] = "Varmint Rifle 10rd Magazine"
 lang["#MOD_MAG_MGUN200_NAME"] = "LMG Drum Magazine"
 
 
+
 --STOCK/GRIP
 lang["#MOD_STOCK_R91_NAME"] = "Assault Rifle Stock"
 lang["#MOD_STOCK_A2_NAME"] = "Service Rifle Polymer Stock"
-lang["#MOD_STOCK_CAR15_NAME"] = "Assault Carbine Polymer Stock"
+lang["#MOD_STOCK_CAR15_NAME"] = "Service Rifle Adjustable Stock"
 lang["#MOD_STOCK_HRIFLE_FULL_NAME"] = "Hunting Rifle Stock"
 lang["#MOD_STOCK_HRIFLE_FULLRECOIL_NAME"] = "Hunting Rifle Preserved Stock"
 lang["#MOD_STOCK_HRIFLE_SYNTH_NAME"] = "Hunting Rifle Synthetic Grip"
@@ -1546,8 +1587,11 @@ lang["#MOD_STOCK_VRIFLE_SYNTHFULL_NAME"] = "Varmint Rifle Synthetic Stock"
 lang["#MOD_STOCK_MGUN_RUBBER_NAME"] = "LMG Rubber Grip"
 lang["#MOD_STOCK_MGUN_STEADY_NAME"] = "LMG Precision Grip"
 
-
--- lang["#MOD_STOCK_LGUN_TACTIC"] = "Tactical"
+lang["#MOD_STOCK_LGUN_TACTIC_NAME"] = "Laser Pistol Comfort Grip"
+lang["#MOD_STOCK_LGUN_NAME"] = "Laser Rifle Stock"
+lang["#MOD_STOCK_RECOIL_LGUN_NAME"] = "Laser Rifle Recoil Stock"
+lang["#MOD_STOCK_MARKSMEN_LGUN_NAME"] = "Laser Rifle Marksman Stock"
+lang["#MOD_STOCK_RCW_NAME"] = "Laser RCW Stock"
 
 
 --SEAR
@@ -1561,6 +1605,9 @@ lang["#MOD_SEAR_AKM_AUTO_NAME"] = "Soviet Rifle Auto Sear"
 lang["#MOD_SEAR_357REV_FHAMMER_NAME"] = ".357 Revolver Feathered Hammer Spring"
 lang["#MOD_SEAR_5MM_NAME"] = "5mm Minigun Hi-Speed Motor"
 
+lang["#MOD_SEAR_BURST_RCW_NAME"] = "Laser RCW Burst Repeater"
+
+
 -------------------PROPRIETARY Desc---------------------
 --RECEIVER
 lang["#MOD_RECEIVER_ACARBINE_DESC"] = "A pre-war billet receiver for the Assault Carbine.\n\nImproves overall durability of the firearm, increasing total shots that can be fired before repair is required.\n\nMachined out of a solid block of metal, or ''billet'', this receiver is made to tolerances not possible post-war."
@@ -1572,8 +1619,10 @@ lang["#MOD_RECEIVER_357REV_CHROME_DESC"] = "A pre-war frame and body for the 357
 lang["#MOD_RECEIVER_HEAVY_44REVOLVER_DESC"] = "A reinforced frame for the .44 revolver.\n\nGreatly improves overall durability of the firearm, increasing total shots that can be fired before repair is required."
 lang["#MOD_RECEIVER_DESERTSEAL_CSHOTGUN_DESC"] = "A Prewar upgrade mod for the Combat Shotgun.\n\nA series of fitted rubber gaskets fills the seams of the gun, keeping foreign material out of key moving parts.\n\nIncreases reliability and increases total amounts of shots you can fire between maintenance.\n\n"
 lang["#MOD_COVER_AKM_WELD_DESC"] = "A makeshift dust cover for the Soviet Rifle.\n\nSlightly increases weapon reliability and the ammount of shots that can be fired between maintenance.\n\nCrudely welded from scrap metal and other damaged dust covers, it's still better than nothing."
-lang["#MOD_COVER_AKM_STAMPED_DESC"] = "An origonal mass produced dust cover for the Soviet Rifle.\n\nIncreases weapon reliability and the ammount of shots that can be fired between maintenance.\n\nApart from a little rust, this part is as good as the day it came off the assembly line."
+lang["#MOD_COVER_AKM_STAMPED_DESC"] = "An original mass produced dust cover for the Soviet Rifle.\n\nIncreases weapon reliability and the ammount of shots that can be fired between maintenance.\n\nApart from a little rust, this part is as good as the day it came off the assembly line."
 lang["#MOD_COVER_AKM_MILLED_DESC"] = "A heavier milled dust cover for the Soviet Rifle.\n\nFurther increases weapon reliability and the ammount of shots that can be fired between maintenance.\n\nMachined out of superior steel, this cover only saw use on support machinegun variants."
+
+lang["#MOD_RECEIVER_MFC_RCW_DESC"] = "A modified terminal and power converter for the Laser RCW.\n\nConverts ammotype to Microfusion Cells, and increases beam damage, but reduces firing speed and amount of times weapon can be fired before requiring maintenance."
 
 lang["#MOD_RECEIVER_NEWWOOD_PIPESEMI_DESC"] = "A quality wooden frame for pipe weapons.\n\nImproves overall durability of the firearm, increasing total shots that can be fired before repair is required."
 lang["#MOD_RECEIVER_SHADOW_PIPESEMI_DESC"] = "A painted quality wooden frame for pipe weapons.\n\nImproves overall durability of the firearm, increasing total shots that can be fired before repair is required.\n\nDark paint slightly increases stealth while weapon is drawn."
@@ -1595,6 +1644,9 @@ lang["#MOD_SIGHT_GLOW_BGUN_DESC"] = "A replacement front and rear sight for the 
 lang["#MOD_SIGHT_GUNNER_5MM_DESC"] = "A makeshift sight for the 5mm Minigun.\n\nEquips the weapon with a metal wire sight fasioned after WWII door gunners.\n\nWith this baby in tow, you'll be mowing down Fokkers in no time!"
 lang["#MOD_SIGHT_16X_PGM_DESC"] = "A Vorn-Tek brand heavy scope, used by civilians and Military alike for long range shooting.\n\n16x Magnification\n\nThe best way to interact with most things in the wasteland is from about a mile away."
 lang["#MOD_SIGHT_GLOW_MGUN_DESC"] = "A replacement rear sight for the Machine Gun with tritium cells.\n\nImproves a weapon's standard sights by highlighting them with glowing dots.\n\nExcellent for use in low-light conditions."
+lang["#MOD_SIGHT_GLOW_CSHOwTGUN_DESC"] = "A replacement front and rear sight for the Pump Shotgun with tritium cells.\n\nImproves the shotguns's front and rear sights by highlighting them with glowing dots.\n\nExcellent for use in low-light conditions."
+
+lang["#MOD_SIGHT_REDDOT_GLASER_DESC"] = "A Prewar optic issued by the Military for use with high-tech weaponry.\n\n1x Magnification.\n\nThis sight suspends an illumenated reticle over the lens, which is used as the point of aim."
 
 
 lang["#MOD_SIGHT_GLOW_PIPESEMI_DESC"] = "A replacement front and rear sight for Pipeguns with tritium cells.\n\nImproves a weapon's standard sights by highlighting them with glowing dots.\n\nExcellent for use in low-light conditions."
@@ -1642,10 +1694,20 @@ lang["#MOD_BARREL_MGUN_AIR_DESC"] = "A barrel with a basic cooling system for th
 lang["#MOD_BARREL_MGUN_WATER_DESC"] = "A barrel with an upgraded cooling system for the Light Machinge Gun.\n\nFurther decreases accuracy lost per shot fired, the maximum accuracy lost while firing, and the time it takes to cool down after firing.\n\nFurther increases weight."
 lang["#MOD_BARREL_MGUN_WATER_LONG_DESC"] = "A long barrel with an upgraded cooling system for the Light Machinge Gun.\n\nGreatly decreases accuracy lost per shot fired, the maximum accuracy lost while firing, the time it takes to cool down after firing. and firing spread downrange.\n\nGreatly increases weight and hip-fire spread."
 
+lang["#MOD_BARREL_LGUN_LONG_DESC"] = "A rifle length housing for the Laser Gun, 9th generation.\n\nIncreases damage and accuracy down range at the cost of a slightly lower capacity and slightly more wear to weapon while firing.\n\nIf not for this ''barrel's'' robust titanium crystal housing, it would have fallen completely out of focus mere decades after the bombs fell, like its more fragile successors."
+lang["#MOD_BARREL_LGUN_AUTO_DESC"] = "A rotating housing assembly for the Laser Gun.\n\nMassively increases the weapons fire rate, at the cost of lower damage output per shot and inferior accuracy.\n\nThese ''multi-barreled'' assemblies were cost prohibative to produce, and few saw use outside of a handful of specialty units."
+lang["#MOD_BARREL_LGUN_SOUP_DESC"] = "A heavily re-designed rifle housing for the Laser Gun.\n\nConverts Laser Gun into a manually charged weapon with an increased maximum damage, at the cost of a reduced fire rate.\n\nA series of innerlinked crystal arrays and capacitors housed in an oversized body to prevent it all from melting. Try to keep the lenses clean."
+lang["#MOD_BARREL_HEAVY_GLASER_DESC"] = "A re-designed barrel assembly for the Gatling Laser.\n\nIncreases damage, at the cost of a reduced fire rate and increased spin-up time."
+
 
 --MUZZLE DEVICE
 lang["#MOD_MUZDEV_BRAKE_PIPEGUN_DESC"] = "An improvised muzzle device designed to drastically reduce weapon recoil, at the cost of a louder firing noise.\n\nActing as more of a heavily ported barrel extention, it's welded directly to the barrel, and is not compatible with other firearms."
 lang["#MOD_MUZDEV_BRAKE_PGM_DESC"] = "A massive muzzle device designed to drastically reduce weapon recoil, at the cost of a louder firing noise.\n\nThis part alone is increadibly heavy for an accessory, but some things are worth the weight."
+
+lang["#MOD_MUZZLE_LGUN_SPLIT_DESC"] = "An add-on modification for AE family laser weapons.\n\nDoubles the energy output of every shot fired, divided across multiple energy beams. Doubles energy cost to fire, reduces total shots before reloading, and total shots before weapon needs repair.\n\nUsers can expect a net gain in damage increase to would-be assailants, so long as all beams find the same target."
+lang["#MOD_MUZZLE_LGUN_FOCUS_DESC"] = "An add-on modification for AE family laser weapons.\n\nReduces all weapon spread. Beams ignore a small portion of targets armor.\n\nBy further focusing energy before it leaves the weapon, one can not only increase the precision of the beam, but also reduce atmosphereic dissipation, resulting in a 'bleed-through' effect on affected material."
+lang["#MOD_MUZZLE_LGUN_GYRO_DESC"] = "An add-on modification for AE family laser weapons.\n\nGreatly reduces all weapon recoil.\n\nRather than seeking to alter the properties of the energy itself, the muzzle mounted Gyro instead compensates for felt recoil, creating an extremely controllable platform."
+lang["#MOD_MUZZLE_GLASER_FOCUS_DESC"] = "An add-on modification for the Gatling Laser.\n\nReduces all weapon spread. Beams ignore a small portion of targets armor.\n\nBy further focusing energy before it leaves the weapon, one can not only increase the precision of the beam, but also reduce atmosphereic dissipation, resulting in a 'bleed-through' effect on affected material."
 
 --MAG
 lang["#MOD_MAG_ACARBINE34_DESC"] = "An extended magazine for the Assault Carbine.\n\n34 round capacity.\n\nSpray and pray, to make the ''other guy'' holey."
@@ -1710,6 +1772,13 @@ lang["#MOD_STOCK_VRIFLE_SYNTHFULL_DESC"] = "A light weight Synthetic stock for t
 lang["#MOD_STOCK_MGUN_RUBBER_DESC"] = "An improved rubber grip for the Light Machine Gun.\n\nSlightly decreases recoil, and accuracy lost while firing."
 lang["#MOD_STOCK_MGUN_STEADY_DESC"] = "An improved precision grip for the Light Machine Gun.\n\nDecreases recoil, and accuracy lost while firing."
 
+lang["#MOD_STOCK_RCW_DESC"] = "A factory standard stock for the Laser RCW.\n\nReduces felt recoil while firing."
+
+lang["#MOD_STOCK_LGUN_TACTIC_DESC"] = "Improved grip for the Laser pistol.\n\nSlightly reduces weapon spread and recoil.\n\nA lightweight, direct upgrade from the basic pistol grip."
+lang["#MOD_STOCK_LGUN_DESC"] = "Standard issue stock for the Laser Rifle.\n\nReduces weapon spread while A.D.S., and recoil. Slightly increases weapon spread from hip-fire."
+lang["#MOD_STOCK_RECOIL_LGUN_DESC"] = "Recoil compensating stock for the Laser Rifle.\n\nReduces weapon spread while A.D.S. and accuracy lost while firing, greatly reduces recoil. Slightly increases weapon spread from hip-fire."
+lang["#MOD_STOCK_MARKSMEN_LGUN_DESC"] = "A precision target stock for the Laser Rifle.\n\nGreatly reduces weapon spread while A.D.S., and reduces recoil. Greatly increases weapon spread from hip-fire."
+
 
 --SEAR
 lang["#MOD_SEAR_LBOLT_ACARBINE_DESC"] = "A low mass bolt carrier group for the Assault Carbine, increases firing rate.\n\nBy carefulling milling out unnessisary extra material, this bolt achieves a considerable weight loss, without compromising reliability."
@@ -1721,6 +1790,9 @@ lang["#MOD_SEAR_AUTO+_PIPEGUN_DESC"] = "A tuned auto sear for the Pipegun.\n\nFi
 lang["#MOD_SEAR_AKM_AUTO_DESC"] = "A pre-war auto sear for the Soviet Rifle.\n\nFires continuously while the trigger is held.\n\nFully automatic rifles excell in close quarters combat, but accuracy suffers greatly at range."
 lang["#MOD_SEAR_357REV_FHAMMER_DESC"] = "A modified hammer spring designed with ''fanning'' in mind.\n\nGreatly increases rate of fire at the cost of accuracy.\n\nAll the speed of your favorite Pre-War western radio serials, with none of the mythical skill."
 lang["#MOD_SEAR_5MM_DESC"] = "A replacememnt motor for the 5mm Minigun.\n\nIncreases fire rate by 25%.\n\nMake this Pre-war monster roar!"
+
+lang["#MOD_SEAR_BURST_RCW_DESC"] = "A modiefied rate-of-fire regulator for the Laser RCW.\n\nConverts weapon to 3-shot burst fire, and increases firing speed."
+
 
 -- Misc
 lang["#STARTER_DISCLAMER"] = "Cannot be modified at a Weapon Bench."

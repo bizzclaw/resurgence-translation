@@ -41,31 +41,31 @@ lang["#SPC_LCKDESC"] = "One will find that Luck works out situations for them in
 --╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝
 
 lang["#SKL_PISTOLS"] = "Gunslinger" -- for skills, no need to keep the english word.
-lang["#SKL_PISTOLSDESC"] = "Efficiency with pistol-type weaponry."
+lang["#SKL_PISTOLSDESC"] = "Accuracy and Reload Speed of Pistols."
 
 lang["#SKL_ASSAULT"] = "Commando"
-lang["#SKL_ASSAULTDESC"] = "Efficiency with automatic firearms."
+lang["#SKL_ASSAULTDESC"] = "Accuracy and Reload Speed of Automatic Weapons."
 
 lang["#SKL_RIFLES"] = "Rifleman"
-lang["#SKL_RIFLESDESC"] = "Efficiency with single-shot, pump or bolt-action weaponry."
+lang["#SKL_RIFLESDESC"] = "Accuracy and Reload Speed of Single-Shot, Pump, Lever or Bolt Wction Weapons."
 
 lang["#SKL_ENERGY"] = "Energy Weapons"
-lang["#SKL_ENERGYDESC"] = "Efficiency with energy based weaponry."
+lang["#SKL_ENERGYDESC"] = "Accuracy and Reload Speed of Energy Based Weaponry."
 
 lang["#SKL_HEAVY"] = "Heavy Gunner"
-lang["#SKL_HEAVYDESC"] = "Efficiency with heavy weaponry such as Missile launchers, Miniguns, or Flamethrowers."
+lang["#SKL_HEAVYDESC"] = "Accuracy and Reload Speed of heavy weaponry such as Miniguns or Flamethrowers."
 
 lang["#SKL_MELEE"] = "Melee Weapons"
-lang["#SKL_MELEEDESC"] = "Affects the efficiency and mastery of all forms of melee weapons."
+lang["#SKL_MELEEDESC"] = "Affects the Damage of Melee Weapons."
 
 lang["#SKL_UNARMED"] = "Unarmed"
-lang["#SKL_UNARMEDDESC"] = "Your combined knowledge of martial arts and hand to hand combat, your unarmed skill affects how well you can fight with your body."
+lang["#SKL_UNARMEDDESC"] = "Your combined knowledge of martial arts and hand to hand combat, your unarmed skill affects how well you can fight with your fists."
 
 lang["#SKL_EXP"] = "Explosives"
-lang["#SKL_EXPDESC"] = "Knowledge and application of volatile materials. A mastery of explosives will allow creation of unique grenades."
+lang["#SKL_EXPDESC"] = "Knowledge and application of volatile materials. A mastery of Explosives will allow easier use of Explosive Weapons and the creation of unique grenades."
 
 lang["#SKL_SNEAK"] = "Sneak"
-lang["#SKL_SNEAKDESC"] = "The ability to remain hidden."
+lang["#SKL_SNEAKDESC"] = "The Ability to remain hidden. Affects footstep sound volume and NPC Visibility"
 
 lang["#SKL_SECURITY"] = "Security"
 lang["#SKL_SECURITYDESC"] = "Knowledge over security, encompasses your ability to not only break in to tightly secured areas, but secure them yourself by creating various traps, pairs with knowledge in explosves to create mines."
@@ -118,9 +118,9 @@ lang["#STAT_WGDESC"] = "The maximum amount of weight you can haul in items."
 --╚═╝     ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
 
 lang["#PERK_RUNNGUN"] = "Run'n Gun"
-lang["#PERK_RUNNGUNDESC"] = "When using any one-handed weapon, your spread is greatly reduced while moving."
+lang["#PERK_RUNNGUNDESC"] = "When using any one-handed weapon, Moving does not affect your spread nearly as much."
 lang["#PERK_WILDWEST"] = "Wild West"
-lang["#PERK_WILDWESTDESC"] = "When using Revolvers, lever or break action rifles, your accuracy is inreased and you reload twice as fast."
+lang["#PERK_WILDWESTDESC"] = "When using Revolvers, Lever Action Rifles or Pump Shotguns, you can fire 25% faster."
 lang["#PERK_SHOTGUNSURGEON"] = "Shotgun Surgeon"
 lang["#PERK_SHOTGUNSURGEONDESC"] = "When using a scattergun, you know just where to aim. Your precision allows you to ignore 10 of your target's DT when using buckshot-type weapons on non-player enemies."
 lang["#PERK_COMBATANT"] = "Combatant"
@@ -129,9 +129,9 @@ lang["#PERK_EDUCATED"] = "Educated"
 lang["#PERK_EDUCATEDDESC"] = "You're quite the learner. Gain 5 more utility skill points every time you level up in utility, however you cannot take the Combatant perk."
 lang["#PERK_CANNIBAL"] = "Cannibal"
 lang["#PERK_CANNIBALDESC_1"] = ""
-lang["#PERK_GREENTHUMB"] = "Green Thumb" 
+lang["#PERK_GREENTHUMB"] = "Green Thumb"
 lang["#PERK_GREENTHUMBDESC"] = "You have a natural affinity for plants. Gain a 50% chance to gain an extra yield for most picked plants"
-lang["#PERK_GECKOSKINNINGNAME"] = "Gecko Skinning"
+lang["#PERK_GECKOSKINNINGNAME"] = "Scale Skinning"
 lang["#PERK_GECKOSKINNINGDESC"] = "You have gained the knowledge of how to skin scaled creatures properly to get their hides!\n\nAllows one to skin Geckos (excluding Fire Geckos) and Deathclaws for pelts, which can then be sold for profit."
 lang["#PERK_GECKOSKINNING2DESC"] = "You have uncovered the hidden technique to skinning Fire Geckos!\n\nAllows one to skin Fire Geckos for pelts, which can then be sold for profit."
 lang["#PERK_MADBOMBER_NAME"] = "Mad Bomber"

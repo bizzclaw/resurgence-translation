@@ -166,6 +166,8 @@ lang["#UI_CHARGEHAMMER"] = "Charge Hammer"
 lang["#TUTORIAL_OPENINV"] = "Press @+score to open your PDA."
 lang["#TUTORIAL_CRAFTING"] = "Crafting\n\nSelect a recipe to see what it requires and what it yields.\n\nRequirements tagged with [Skill] Denote the skill requirement\n\nRequirements tagged with [Tool] Are items that must be in your inventory, but are not consumed.\n\nAll other items are consumed When crafting."
 lang["#TUTORIAL_REPAIR"] = "Repair\n\nTo repair an item, you must break another item down into it. Select an item in the list to use it for repair.\n\nDecay\n\nUsing another instance of that weapon is your best choice, otherwise you can use a repair kit, but this will add Decay.\n\nDecay is a multiplier on how fast that item will break, and cannot be reduced."
+lang["#TUTORIAL_LOWERWEP"] = "@+use + @+reload Lower Weapon"
+
 -- Radio Station
 lang["#UI_ADJUSTVOLUME"] = "Set Volume"
 lang["#RADIO_LTTBR"] = "Louder than the Bomb Radio"
@@ -248,32 +250,57 @@ lang["#RACE_GHOUL"] = "Ghoul"
 lang["#RACE_SUPERMUTANT"] = "Super Mutant"
 
 lang['#RACE_HUMAN_DESC'] = [[
-A Human born and raised in the wasteland. 
+You were born somewhere out in the wasteland. You've heard plenty about how the world used to be, but the world as you know it is a constant struggle for survival. Filled with mutants trying to kill you and a stomach that needs to be fed.
 
-Life in the wasteland has made you more adaptable to harsh conditions. 
+You're like most people- human. Right now you might be nobody important, and perhaps you'll die that way. It's a lawless world afterall. But who knows? This is a fresh start. Maybe you'll make something for yourself in this chaotic place.
+
+Growing up in the rough conditions of the wasteland has made you resilient and somewhat used to conflict.
+
+It doesn't really matter what your reason is, you're on your own now. Whatever you make of your life now is your own choice.
 ]]
 
 lang["#RACE_VAULTDWELLER_DESC"] = [[
-	Vault Dweller Description Goes here
+You were born in a Vault-Tec vault; A shelter built before the war where your ancestors retreated to be saved from nuclear conflict.
+
+You might look like any other wastelander if you're out of your bright blue suit, but in truth you're a bit different on the microscopic level. You DNA is pure, free of radioactive mutation present in all life born of the wasteland.
+
+Vault life has it's perks- you're smarter than the average wastelander due to your mandated Vault education. However, you might be a bit weak though due to a lack of... conflict growing up.
+
+For whatever reason, you left the vault. Now you're out in the wasteland. Whatever you make of your life now is your own choice.
 ]]
 
 lang["#RACE_GHOUL_DESC"] = [[
-A Ghoul is a human that, thanks to some genetic quirk, instead of dying from prolonged radiation exposure, has been irreversably mutated, causing necrosis of skin, hair loss and a 'zombie' like appearance.
+You were human once upon a time, But at some point you were exposed to a fatal dose of radiation. Maybe you were on a scavenging run and there was a leak in your rad suit, perhaps you fell into a big crater and decided to take a nap, or possibly you were even around back before the bombs fell.
 
-As a ghoul, you will take an increased amount of damage no matter your endurance, but you are completely immune to radiation. In fact, radiation will almost completely lessen your increased damage, while giving you buffs to Agility and Strength.
+You might not even remember. Whatever it was, you survived thanks to some genetic quirk and now you've became this... thing.
+
+People don't look at you the same as they used to. You get called "zombie" and other derogatories. Some might even shoot you on sight, not wanting to take the chance you're feral like most ghouls. The ferals were normal like you once, y'know. Maybe one day you'll end up like that too if the wasteland doesn't get to you first.
+
+Being a ghoul isn't all that bad though. For one, you don't seem to age anymore. You are also completely immune to radiation and are even healed by it. You find that the more irradiated you are, the stronger you feel. However, due to your flaky and leathery skin, you are a little bit weaker than a regular smooth-skin. More-so when you haven't had your rads.
+
+The ferals also seem to ignore you.
+
+Your past self is in the past. Whatever you make of your life now is your own choice, just try not to go feral.
 ]]
 
 lang["#RACE_SUPERMUTANT_DESC"] = [[
-	Super mutants
-]]
+You were... hold on, you don't quite remember. At some point in your life you fell, or were thrown into a giant vat of weird green goo and turned into the creature you are today. It hurts your head when you try to remember what life was like before you woke up like this.
 
+You're different. Very different. To many humans, you're nothing more than a big green (or blue) monster. You've got a bad reputation by association thanks to a giant group of your kind trying to turn everyone into super mutants a few decades ago. You might've been one of them, but no-one would really know for sure if you denied it.
+
+Thanks to the goo, a number of things have happened to you. You're not sure if you age, and most obviously- you're bigger and much stronger than a human. Because of your huge hands, you can't use tiny weapons like pistols and because of your size you can't fit into human clothing.
+
+Your brain functions have also been damaged- even if you're one of the "smart" Super Mutants, you're just as intelligent as a normal man. Radiation affects you differently as well.
+
+What, or who you were before doesn't quite matter anymore. Whatever you make of your life now is your own choice.
+]]
 --World Map
 lang["#UI_NOTINCURRENTREGION"] = "The Server you are in does not match this Character's last region.\nLoading into Travel Map."
 lang["#UI_WORLDMAPWELCOME"] = "Welcome to the Travel Map!\nClick anywhere on the map to move there.\nHold right click to pan."
 lang["#UI_WORLDMAPLOADIN"] = "You have entered a loadable region.\nClick on the downward pointing arrow at your location to enter."
 
 -- Name`
-lang["#WORLDNAME"] = "Frontier Wasteland"
+lang["#WORLDNAME"] = "Cascadia Wasteland" -- The Pacific Northwest (Northern California to British Columbia) is nicknamed "Cascadia"
 
 -- Statistics
 lang["#STAT_TIMEPLAYED"] = "Time Played"
