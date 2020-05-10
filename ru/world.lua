@@ -1,5 +1,7 @@
 local lang = RSRG.Languages["ru"]
 
+lang["#CRIMES_NONE"] = "Нет преступлений"
+
 -- Factions
 lang["#FACTION_NCR_NAME"] = "Новая Калифорнийская Республика"
 lang["#FACTION_NCR_DESC"] = "Новая Калифорнийская Республика, или НКР, начался как маленький городок в Северной Калифорнии. Теперь они представляют собой большую демократическую федерацию, которая распространилась по всему юго-западному побережью."
@@ -18,3 +20,12 @@ lang["#LAW_ASSAULT_DESC"] = "Определяется как нанесение 
 
 lang["#NCRSOLDIER_NAME"] = "Солдат НКР"
 lang["#NCRRANGER_NAME"] = "Рейнджер НКР"
+
+
+
+-- Workstations
+
+lang["#WORKBENCH_NAME"] = "Верстак"
+lang["#CAMPFIRE_NAME"] = "Лагерный костёр"
+lang["#RELOADINGBENCH_NAME"] = "Верстак для снаряжения патронов"
+lang["#WEAPONBENCH_NAME"] = "Оружейный верстак"
