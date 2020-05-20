@@ -38,7 +38,7 @@ lang["#UI_RADIO"] = "Radio"
 -- subtabs
 lang["#PIP_STATUS"] = "STATUS"
 lang["#PIP_EFFECTS"] = "EFFECTS"
-lang["#PIP_SPECIAL"] = "S.P.E.C.I.A.L"
+lang["#PIP_SPECIAL"] = "SPECIAL"
 lang["#PIP_SKILLS"] = "SKILLS"
 lang["#PIP_PERKS"] = "PERKS"
 
@@ -81,7 +81,13 @@ lang["#UI_ETAKE"] = "@+use Take"
 lang["#UI_EUSE"] = "@+use Use"
 lang["#UI_RTAKEALL"] = "@+reload Take All"
 lang["#UI_FMOUSE"] = "@impulse 100|Mouse"
-lang["#UI_PERKPOIUNTS"] = "Perk Points"
+lang["#UI_PERKPOINTS"] = "Perk Points"
+lang["#UI_BACK"] = "Back"
+lang["#UI_YES"] = "Yes"
+lang["#UI_NO"] = "No"
+lang["#UI_NOTENOUGH"] = "You do not have enough of the required items."
+lang["#UI_CONFIRMITEMUSE_REPAIR"] = "Use items to Repair?"
+lang["#UI_REPAIRNOTREQUIRED"] = "Repair Not Required"
 
 lang["#PROTECTION_TIMEBLOCK"] = "Saving Blocked\n\nYou must wait before saving this item!\n\n"
 lang["#PROTECTION_NOTENOUGHWGT"] = "Cannot save, not enough Save Weight Budget.\n\nYour Save Weight Budget is based on your Save Weight skill."
@@ -99,6 +105,10 @@ lang["#CATEGORY_CURR"] = "Commodities"
 lang["#CATEGORY_MISC"] = "Misc."
 lang["#CATEGORY_CONV"] = "Conversion"
 lang["#CATEGORY_MOD"] = "Weapon Mods"
+lang["#CATEGORY_STD"] = "Standard"
+lang["#CATEGORY_HP"] = "Hollow Point"
+lang["#CATEGORY_AP"] = "Armor Piercing"
+
 lang["#CRAFTING_GIVES"] = "Gives"
 
 lang["#UI_SORT"] = "[C] Sort"
@@ -151,7 +161,18 @@ lang["#GOODRAD2_NAME"] = "Medium Radiation Dosage"
 lang["#GOODRAD3_NAME"] = "High Radiation Dosage"
 lang["#GOODRAD4_NAME"] = "Maximum Radiation Dosage"
 
--- Ailments
+
+--[[
+ █████╗ ██╗██╗     ███╗   ███╗███████╗███╗   ██╗████████╗███████╗
+██╔══██╗██║██║     ████╗ ████║██╔════╝████╗  ██║╚══██╔══╝██╔════╝
+███████║██║██║     ██╔████╔██║█████╗  ██╔██╗ ██║   ██║   ███████╗
+██╔══██║██║██║     ██║╚██╔╝██║██╔══╝  ██║╚██╗██║   ██║   ╚════██║
+██║  ██║██║███████╗██║ ╚═╝ ██║███████╗██║ ╚████║   ██║   ███████║
+╚═╝  ╚═╝╚═╝╚══════╝╚═╝     ╚═╝╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝
+]]
+
+
+lang['#POISON_GREENGECKO'] = "Poison Spit"
 lang['#VENOM_RADSCORPION'] = "Radscorpion Sting"
 lang['#DISEASE_JUMBLES'] = "the Jumbles"
 lang['#DISEASE_LIMPWRIST'] = "Limp Wrist"
@@ -161,7 +182,9 @@ lang['#DISEASE_WATERBRAIN'] = "Water Brain"
 lang['#DISEASE_CALAMITOUS'] = "Calamitous Rash"
 lang['#DISEASE_MYOPIA'] = "Myopia"
 lang['#DISEASE_BONEITIS'] = "Bonitis"
-
+lang['#BITE_GOLDGECKO'] = "Radioactive Bite"
+lang['#MELEE_REAVER'] = "Reaver's Embrace"
+ 
 --Notifications
 lang["#NOTIFY_WEAPON_BROKEN"] = "Weapon broken!"
 lang["#NOTIFY_WEAPON_JAM"] = "Weapon Misfired!"
@@ -179,6 +202,7 @@ lang["#UI_STIMPAKACTIVE"] = "Your last stimpak is still active."
 
 -- Inventory
 lang["#INV_ADDED"] = "$item Added"
+lang["#INV_REMOVED"] = "$item Removed"
 
 --PARTY
 -- new feature, $person will be automatically replaced with subject's name
@@ -258,6 +282,7 @@ lang["#UI_DOWNNOTICE"] = "Recovering..."
 lang["#UI_BARTER"] = "Barter"
 lang["#UI_MERCHANT"] = "Merchant"
 lang["#UI_MERCHANTTOOPOOR"] = "The merchant cannot afford this transaction."
+lang["#UI_YOURTOOPOOR"] = "You cannot afford this transaction."
 lang["#UI_QUERYTRANSACTION"] = "Process Transaction?"
 lang["#UI_YOUWILLPAY"] = "You will pay AMMOUNT CURRENCY"
 lang["#UI_QUERYTRANSACTION"] = "Complete Transaction?"
