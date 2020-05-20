@@ -40,7 +40,7 @@ lang["#TERMINAL_DEFAULT"] = "My Computer"
 lang["#FACTORY_GUIDELINES"] = "Operational Guidelines"
 lang["#FACTORY_CHECKDISTRIBUTOR"] = "Check Power Distributors"
 lang["#FACTORY_DISTRIBUTORINFO"] = [[
-	All Power Distributors will contribute to the factory's production rate. Preform regular maintenance as the distributors will become damaged over time.
+	All Power Distributors will contribute to the factory's production rate. Perform regular maintenance as the distributors will become damaged over time.
 
 	Higher levels of damage to the distributors will require more parts to repair, so the distributors should be kept in top shape.
 ]]
