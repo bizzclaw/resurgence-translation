@@ -38,7 +38,7 @@ lang["#UI_RADIO"] = "Радио"
 -- subtabs
 lang["#PIP_STATUS"] = "СТАТУС"
 lang["#PIP_EFFECTS"] = "ЭФФЕКТЫ"
-lang["#PIP_SPECIAL"] = "S.P.E.C.I.A.L"
+lang["#PIP_SPECIAL"] = "SPECIAL"
 lang["#PIP_SKILLS"] = "НАВЫКИ"
 lang["#PIP_PERKS"] = "ПЕРКИ"
 
@@ -81,7 +81,13 @@ lang["#UI_ETAKE"] = "@+use Взять"
 lang["#UI_EUSE"] = "@+use Использовать"
 lang["#UI_RTAKEALL"] = "@+reload Взять всё"
 lang["#UI_FMOUSE"] = "@impulse 100|Мышь"
-lang["#UI_PERKPOIUNTS"] = "Очков перка"
+lang["#UI_PERKPOINTS"] = "Очков перка"
+lang["#UI_BACK"] = "Назад"
+lang["#UI_YES"] = "Да"
+lang["#UI_NO"] = "Нет"
+lang["#UI_NOTENOUGH"] = "Вам не хватает необходимых предметов."
+lang["#UI_CONFIRMITEMUSE_REPAIR"] = "Использовать предметы для ремонта?"
+lang["#UI_REPAIRNOTREQUIRED"] = "Ремонт не требуется"
 
 lang["#PROTECTION_TIMEBLOCK"] = "Сохранение заблокировано\n\nВы должны подождать, прежде чем сохранить этот предмет!\n\n"
 lang["#PROTECTION_NOTENOUGHWGT"] = "Невозможно сохранить, недостаточно Бюджета для Сохранения веса.\n\nВаш бюджет сохранения веса основан на вашем навыке Сохранение веса."
@@ -99,7 +105,11 @@ lang["#CATEGORY_CURR"] = "Продукты"
 lang["#CATEGORY_MISC"] = "Разное."
 lang["#CATEGORY_CONV"] = "Преобразование"
 lang["#CATEGORY_MOD"] = "Модификации оружия"
-lang["#CRAFTING_GIVES"] = "Даёт"
+lang["#CATEGORY_STD"] = "Обычный"
+lang["#CATEGORY_HP"] = "Экспансивный"
+lang["#CATEGORY_AP"] = "Бронебойный"
+
+lang["#CRAFTING_GIVES"] = "Дает"
 
 lang["#UI_SORT"] = "[C] Сортировать"
 lang["#SORT_NAME"] = "Имя"
@@ -151,7 +161,18 @@ lang["#GOODRAD2_NAME"] = "Средняя дозировка излучения"
 lang["#GOODRAD3_NAME"] = "Высокая дозировка излучения"
 lang["#GOODRAD4_NAME"] = "Макс. дозировка излучения"
 
--- Ailments
+
+--[[
+ █████╗ ██╗██╗     ███╗   ███╗███████╗███╗   ██╗████████╗███████╗
+██╔══██╗██║██║     ████╗ ████║██╔════╝████╗  ██║╚══██╔══╝██╔════╝
+███████║██║██║     ██╔████╔██║█████╗  ██╔██╗ ██║   ██║   ███████╗
+██╔══██║██║██║     ██║╚██╔╝██║██╔══╝  ██║╚██╗██║   ██║   ╚════██║
+██║  ██║██║███████╗██║ ╚═╝ ██║███████╗██║ ╚████║   ██║   ███████║
+╚═╝  ╚═╝╚═╝╚══════╝╚═╝     ╚═╝╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝
+]]
+
+
+lang['#POISON_GREENGECKO'] = "Ядовитый плевок"
 lang['#VENOM_RADSCORPION'] = "Жало радскорпиона"
 lang['#DISEASE_JUMBLES'] = "Путаница"
 lang['#DISEASE_LIMPWRIST'] = "Сломано запястье"
@@ -161,6 +182,8 @@ lang['#DISEASE_WATERBRAIN'] = "Водянка головного мозга"
 lang['#DISEASE_CALAMITOUS'] = "Пагубная сыпь"
 lang['#DISEASE_MYOPIA'] = "Близорукость"
 lang['#DISEASE_BONEITIS'] = "Бонеитис"
+lang['#BITE_GOLDGECKO'] = "Радиоактивный укус"
+lang['#MELEE_REAVER'] = "Объятия рейдера"
 
 --Notifications
 lang["#NOTIFY_WEAPON_BROKEN"] = "Оружие сломано!"
@@ -179,6 +202,7 @@ lang["#UI_STIMPAKACTIVE"] = "Ваш последний стимулятор вс
 
 -- Inventory
 lang["#INV_ADDED"] = "$item получен"
+lang["#INV_REMOVED"] = "$item удален"
 
 -- new feature, $person will be automatically replaced with subject's name
 lang["#PARTY_HASINVITED"] = "$person пригласил вас присоединиться к их группе."
@@ -256,6 +280,7 @@ lang["#UI_DOWNNOTICE"] = "Восстановление..."
 lang["#UI_BARTER"] = "Торговля"
 lang["#UI_MERCHANT"] = "Торговец"
 lang["#UI_MERCHANTTOOPOOR"] = "Торговец не может позволить себе такую торговлю."
+lang["#UI_YOURTOOPOOR"] = "Вы не можете позволить себе эту торговлю."
 lang["#UI_QUERYTRANSACTION"] = "Произвести торговлю?"
 lang["#UI_YOUWILLPAY"] = "Вы заплатите СУММУ ВАЛЮТЫ"
 lang["#UI_QUERYTRANSACTION"] = "Завершить торговлю?"
