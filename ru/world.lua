@@ -48,8 +48,9 @@ lang["#FACTORY_DISTRIBUTORINFO"] = [[
 
 lang["#FACTORY_CHECKPOWERED"] = "Проверить состояние питания"
 lang["#FACTORY_POWERED"] = "Работает"
-lang["#FACTORY_TOGGLEENABLE"] = "Toggle Active"
-lang["#FACTORY_TOGGLEENABLE"] = "Toggle Active"
+lang["#FACTORY_ENABLED"] = "Включен"
+lang["#FACTORY_TOGGLEENABLE"] = "Вкл/Выкл"
+lang["#FACTORY_TOGGLEENABLE"] = "Вкл/Выкл"
 lang["#FACTORY_NOPOWER"] = "Нет питания"
 lang["#FACTORY_SHUTTINGDOWN"] = "Выключение"
 lang["#FACTORY_POWERINGON"] = "Включение"
