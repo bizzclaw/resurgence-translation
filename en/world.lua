@@ -47,6 +47,7 @@ lang["#FACTORY_DISTRIBUTORINFO"] = [[
 
 lang["#FACTORY_CHECKPOWERED"] = "Check Power Status"
 lang["#FACTORY_POWERED"] = "Powered"
+lang["#FACTORY_ENABLED"] = "Enabled"
 lang["#FACTORY_TOGGLEENABLE"] = "Toggle Active"
 lang["#FACTORY_TOGGLEENABLE"] = "Toggle Active"
 lang["#FACTORY_NOPOWER"] = "No Power"
