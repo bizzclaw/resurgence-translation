@@ -9,6 +9,8 @@ lang["#FACTION_NCR_DESC"] = "The New California Republic, or NCR, started as a s
 lang["#FACTION_HUNTER_NAME"] = "Wasteland Hunters"
 lang["#FACTION_HUNTER_DESC"] = "A sparse, loosely knit community of self sustaining Hunters, foragers, and survivalists. Forsaking the heavy hand of NCR and civilzation as a whole, these wasters consist of both natives and NCR transplants gone AWOL."
 
+lang["#FACTION_NEWRENO_NAME"] = "New Reno Crime Families"
+lang["#FACTION_NEWRENO_DESC"] = "'The Biggest Little City in the World', New Reno is a cesspool of sin run by a syndicate of four families; The Mordinos, the Bishops, the Wrights and the Salvatores, each vying for control. They might not be working together, but they've all got a common interest in keeping things nice and calm and open for business. Troublemakers usually don't last long."
 -- Laws
 lang["#LAW_MURDER_NAME"] = "Murder"
 lang["#LAW_MURDER_DESC"] = "Unlawful killing of another individual"
@@ -49,7 +51,6 @@ lang["#FACTORY_CHECKPOWERED"] = "Check Power Status"
 lang["#FACTORY_POWERED"] = "Powered"
 lang["#FACTORY_ENABLED"] = "Enabled"
 lang["#FACTORY_TOGGLEENABLE"] = "Toggle Active"
-lang["#FACTORY_TOGGLEENABLE"] = "Toggle Active"
 lang["#FACTORY_NOPOWER"] = "No Power"
 lang["#FACTORY_SHUTTINGDOWN"] = "Shutting Down"
 lang["#FACTORY_POWERINGON"] = "Powering On"
@@ -76,6 +77,7 @@ lang["#DISTRIBUTOR_GENERATORROOM"] = "Generator Room"
 lang["#DISTRIBUTOR_FACTORYFLOOR"] = "Factory Floor"
 
 -- Lead Miner
+lang["#MINER_NAME"] = "Miner"
 lang["#LEADMINER_NAME"] = "Lead Miner"
 lang["#COPPERMINER_NAME"] = "Copper Miner"
 
@@ -105,7 +107,7 @@ lang["#INEU_FACTORYLOG_1"] = [[
 
 	WE. CANNOT. WORK. WITHOUT. POWER.
 
-	I don't know who the waterbrain engineer was that OK'd this plant design was, but we can't so much as run a single press for more than five minutes without knocking out power to the entire area, LET ALONE both presses and the Auto-loader.
+	I don't know who the waterbrain engineer that OK'd this plant design was, but we can't so much as run a single press for more than five minutes without knocking out power to the entire area, LET ALONE both presses and the Auto-loader.
 
 	In the time it took for the phone lines to come back up, we already had a small crowd of townies crowding up the front gate, yelling at our staff. Followed up by a VERY irrate call from the Colonel presiding over the military base across the river. Do you know how many boots are stationed at his base at any given time? Because I do now, as well as EXACTILY where he promised he'd plant'em if this happens again.
 
@@ -121,7 +123,7 @@ lang["#INEU_FACTORYLOG_2"] = [[
 
 	I'd almost feel sorry for the people in this town if it weren't for the fact they keep starting fights with my men off the clock. After a week of filling our mailbox with written complaints, thinly-veiled threats, and open threats; some have taken up throwing bottles and rocks while our backs are turned.
 
-	I don't care how big the contract corperate snagged is, we can't run these things 24/7. These people have to sleep, YOUR EMPLOYEES INCLUDED! And we can't get so much as a wink in without risking some townie putting a pillow over our face.
+	I don't care how big the contract corporate snagged is, we can't run these things 24/7. These people have to sleep, YOUR EMPLOYEES INCLUDED! And we can't get so much as a wink in without risking some townie putting a pillow over our face.
 ]]
 lang["#INEU_FACTORYLOG_3"] = [[
 	[Corperate Incident Report Log: Vandalism/Sabotage]
@@ -132,7 +134,7 @@ lang["#INEU_FACTORYLOG_3"] = [[
 
 	Worst of all, they hit the outside Power Distributors. HARD. I don't think they could have done more damage if they used an explosive. Taking into account those rock breakers to the west, or the Jarheads to the east, it could have been just that. Without the supplies on hand to repair them, machine productivity has been cut in half.
 
-	The sheriffs took over an hour to get here, and barely looked over the place before saying there was nothing they could do. One of the bastards actually let off a line to the effect of 'call us if it happens again, so long as the power isn't out'. Enough is enough. I don't care how many times you've denied my request for additional security measures, insurance rates be damned. It's not like I'm asking for a fleet of Protectrons here! Corperate approval or no, I'm diverting a couple heads to provide on-site security after dark, myself included. I know we've got a ladder around here for cleaning out the gutters, and the roof would make the perfect vantage point.
+	The sheriffs took over an hour to get here, and barely looked over the place before saying there was nothing they could do. One of the bastards actually let off a line to the effect of 'call us if it happens again, so long as the power isn't out'. Enough is enough. I don't care how many times you've denied my request for additional security measures, insurance rates be damned. It's not like I'm asking for a fleet of Protectrons here! Corporate approval or no, I'm diverting a couple heads to provide on-site security after dark, myself included. I know we've got a ladder around here for cleaning out the gutters, and the roof would make the perfect vantage point.
 
 	We'll see how clever those townies feel when the next one leaves here in a black bag.
 	]]

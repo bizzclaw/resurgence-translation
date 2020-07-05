@@ -9,6 +9,7 @@ lang['#WIPWARN_SUB'] = 'You may encounter bugs and unfinished features.'
 -- General UI
 
 lang["#UI_OPEN"] = "Open"
+lang["#UI_TRAVEL"] = "Travel"
 lang["#UI_CLOSE"] = "Close"
 lang["#UI_EQUIPMENT"] = "Equipment"
 lang["#UI_APPAREL"] = "Apparel"
@@ -25,8 +26,11 @@ lang["#UI_RESUME"] = "Resume"
 lang["#UI_SETTINGS"] = "Settings"
 lang["#UI_STEAMGROUP"] = "Steam Group"
 lang["#UI_GMODMENU"] = "Gmod Menu"
-lang["#UI_SIGNOUT"] = "Sign Out"
+lang["#UI_SIGNOUT"] = "Main Menu"
 lang["#UI_QUIT"] = "Disconnect"
+lang["#UI_SIGNOUTWARN"] = "You will leave your character behind!\n\nIt's dangerous here, try Leaving from a town or from the Travel Map."
+lang["#UI_SIGNOUTDEATHWARN"] = "YOU WILL DIE!\nIf you leave now, your character will parish!\n\nYou can still make it if you let yourself recover."
+
 
 --Pip Tabs
 lang["#UI_STATS"] = "Stats"
@@ -88,12 +92,18 @@ lang["#UI_NO"] = "No"
 lang["#UI_NOTENOUGH"] = "You do not have enough of the required items."
 lang["#UI_CONFIRMITEMUSE_REPAIR"] = "Use items to Repair?"
 lang["#UI_REPAIRNOTREQUIRED"] = "Repair Not Required"
+lang["#UI_TARGETDT"] = "Target DT"
+lang["#UI_WEPONWEAR"] = "Weapon Wear"
+lang["#UI_COUNTER"] = "@+attack| Counter"
+lang["#UI_NOBOTTLES"] = "No Empty Bottles"
+
 
 lang["#PROTECTION_TIMEBLOCK"] = "Saving Blocked\n\nYou must wait before saving this item!\n\n"
 lang["#PROTECTION_NOTENOUGHWGT"] = "Cannot save, not enough Save Weight Budget.\n\nYour Save Weight Budget is based on your Save Weight skill."
 lang["#PROTECTION_DANGERZONE"] = "You cannot save items here.\n\nYou can only save items in a safe zone."
 lang["#PROTECTION_UNSAVE_WARNING"] = "WARNING!\n\nIf you unsave this item, you will not be able to re-save it until you enter a safe zone!\n\nAre you sure?"
 
+-- Categories
 lang["#CATEGORY_ALL"] = "All"
 lang["#CATEGORY_AMMO"] = "Ammo"
 lang["#CATEGORY_APP"] = "Apparel"
@@ -101,6 +111,7 @@ lang["#CATEGORY_TOOL"] = "Weapons"
 lang["#CATEGORY_AID"] = "Aid"
 lang["#CATEGORY_FOOD"] = "Food"
 lang["#CATEGORY_DRINK"] = "Drink"
+lang["#CATEGORY_SOUP"] = "Soup"
 lang["#CATEGORY_CURR"] = "Commodities"
 lang["#CATEGORY_MISC"] = "Misc."
 lang["#CATEGORY_CONV"] = "Conversion"
@@ -108,6 +119,7 @@ lang["#CATEGORY_MOD"] = "Weapon Mods"
 lang["#CATEGORY_STD"] = "Standard"
 lang["#CATEGORY_HP"] = "Hollow Point"
 lang["#CATEGORY_AP"] = "Armor Piercing"
+lang["#CATEGORY_CASE"] = "Brass Casings"
 
 lang["#CRAFTING_GIVES"] = "Gives"
 
@@ -184,7 +196,8 @@ lang['#DISEASE_MYOPIA'] = "Myopia"
 lang['#DISEASE_BONEITIS'] = "Bonitis"
 lang['#BITE_GOLDGECKO'] = "Radioactive Bite"
 lang['#MELEE_REAVER'] = "Reaver's Embrace"
- 
+lang['#MELEE_GLOWING'] = "One's Glow"
+
 --Notifications
 lang["#NOTIFY_WEAPON_BROKEN"] = "Weapon broken!"
 lang["#NOTIFY_WEAPON_JAM"] = "Weapon Misfired!"
@@ -199,10 +212,16 @@ lang["#NOTIFY_SKILLTOOLOW"] = "You do not meet the skill requirements."
 lang["#UI_NOTCURRENTLYPOSSIBLE"] = "Not Currently Possible"
 lang["#UI_HPFULL"] = "HP Full."
 lang["#UI_STIMPAKACTIVE"] = "Your last stimpak is still active."
+lang["#UI_ADDICTED"] = "You have become addicted too $item"
+lang["#UI_NOTADDICTED"] = "You are no longer addicted too $item"
+lang["#UI_WITHDRAWAL"] = "$item Withdrawal"
+lang["#UI_DELAYED"] = "Delayed"
 
 -- Inventory
 lang["#INV_ADDED"] = "$item Added"
 lang["#INV_REMOVED"] = "$item Removed"
+lang["#EQUIPDENY_NOSLOTS"] = "This is not something you can equip."
+lang["#EQUIPDENY_ANIMSET"] = "This is not fitted for you."
 
 --PARTY
 -- new feature, $person will be automatically replaced with subject's name
@@ -226,6 +245,7 @@ lang["#PARTY_KICK"] = "Kick Member"
 lang["#PARTY_KICKCONFIRM"] = "Are you sure you want to kick $person?"
 lang["#PARTY_PROMOTE"] = "Promote to Leader"
 lang["#PARTY_PROMOTECONFIRM"] = "Promote $person to party leader?"
+lang["#PARTY_FRIENDLYFIRE"] = "Watch your fire!"
 
 
 --ToolTips
@@ -240,6 +260,7 @@ lang["#TOOLTIP_BOARD"] = "@+use Sit" -- entering vehicle seats
 lang["#UI_ACTIVATE"] = "Activate"
 lang["#UI_HELPUP"] = "(Hold) Help Up"
 lang["#UI_HELPINGPLAYER"] = "Recovering..."
+lang["#UI_UNDOWNPROMPT"] = "[Move] Get Back Up"
 
 --boltPrompt
 lang["#UI_COCKGUN"] = "Cock Gun"
@@ -252,6 +273,7 @@ lang["#TUTORIAL_CRAFTING"] = "Crafting\n\nSelect a recipe to see what it require
 lang["#TUTORIAL_REPAIR"] = "Repair\n\nTo repair an item, you must break another item down into it. Select an item in the list to use it for repair.\n\nDecay\n\nUsing another instance of that weapon is your best choice, otherwise you can use a repair kit, but this will add Decay.\n\nDecay is a multiplier on how fast that item will break, and cannot be reduced."
 lang["#TUTORIAL_LOWERWEP"] = "@+use + @+reload Lower Weapon"
 lang["#TUTORIAL_ARMORCOVERAGE"] = "You've equipped a peice of Apparel!\n\nSome pieces of Apparel provide armor against certain damage types\n\nIMPORTANT: Armor can ONLY protect the part of the body it covers!"
+lang["#TUTORIAL_NEARDEATH"] = "You're Near Death!\n\nAnother hit like that and you'll go down for good if you don't treat your wounds."
 
 -- Radio Station
 lang["#UI_ADJUSTVOLUME"] = "Set Volume"
@@ -264,6 +286,7 @@ lang["#RADIO_CTDN"] = "Chilling Tales for Dark Nights"
 lang["#RADIO_BANDIT"] = "Bandit Radio"
 lang["#RADIO_NCRPR"] = "NCR Public Radio"
 lang["#RADIO_RAIDER"] = "" -- Any ideas for a name? Raider Radio is too bland and it should be some pre war name like the Nuka World Radio Station. Maybe Portland Public Broadcast or something? -Coront
+lang["#RADIO_SFM"] = "Synthstream FM"
 
 --Door Names
 lang["#DOOR_GATE_OPEN"] = "Open Gate"
@@ -444,6 +467,7 @@ lang["#SETTING_MAXSHELLS"] = "Max Firearm Casings"
 lang["#SETTING_OTHERLIGHTS"] = "Other Player's Lights"
 lang["#SETTING_TOGGLEAIM"] = "Weapon Toggle Aim"
 lang["#SETTING_CROSSHAIR"] = "Enable Crosshair"
+lang["#SETTING_RADIO_EXTRA"] = "Extra Radio Stations (not lore friendly)"
 
 --
 
