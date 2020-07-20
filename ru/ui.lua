@@ -94,7 +94,7 @@ lang["#UI_CONFIRMITEMUSE_REPAIR"] = "Использовать предметы �
 lang["#UI_REPAIRNOTREQUIRED"] = "Ремонт не требуется"
 lang["#UI_TARGETDT"] = "ПУ Цели"
 lang["#UI_WEPONWEAR"] = "Износ оружия"
-lang["#UI_COUNTER"] = "@+attack| Cчётчик"
+lang["#UI_COUNTER"] = "@+attack| Отбить"
 lang["#UI_NOBOTTLES"] = "Нет пустых бутылок"
 
 
