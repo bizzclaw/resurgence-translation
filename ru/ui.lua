@@ -94,7 +94,7 @@ lang["#UI_CONFIRMITEMUSE_REPAIR"] = "Использовать предметы �
 lang["#UI_REPAIRNOTREQUIRED"] = "Ремонт не требуется"
 lang["#UI_TARGETDT"] = "ПУ Цели"
 lang["#UI_WEPONWEAR"] = "Износ оружия"
-lang["#UI_COUNTER"] = "@+attack| Cчётчик"
+lang["#UI_COUNTER"] = "@+attack| Контр-атака"
 lang["#UI_NOBOTTLES"] = "Нет пустых бутылок"
 
 
@@ -458,7 +458,7 @@ lang["#SETTING_RADIO_MUSIC"] = "Громкость музыки радио"
 lang["#SETTING_FOV"] = "Поле зрения (неприцельное)" -- imply that the field of view settings does not affect aiming zoom.
 lang["#SETTING_PIPSPEED"] = "Чувствительность курсора пип-боя"
 lang["#SETTING_VIEWBOB"] = "Размер покачивания экрана при движении"
-lang["#SETTING_GRASS"] = "Расстояние отбражения травы"
+lang["#SETTING_GRASS"] = "Расстояние отображения травы"
 lang["#SETTING_MAXSHELLS"] = "Макс. огнестрельных гильз"
 lang["#SETTING_OTHERLIGHTS"] = "Подсвечивание других игроков"
 lang["#SETTING_TOGGLEAIM"] = "Залипание прицеливания"
