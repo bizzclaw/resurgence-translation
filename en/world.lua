@@ -11,6 +11,9 @@ lang["#FACTION_HUNTER_DESC"] = "A sparse, loosely knit community of self sustain
 
 lang["#FACTION_NEWRENO_NAME"] = "New Reno Crime Families"
 lang["#FACTION_NEWRENO_DESC"] = "'The Biggest Little City in the World', New Reno is a cesspool of sin run by a syndicate of four families; The Mordinos, the Bishops, the Wrights and the Salvatores, each vying for control. They might not be working together, but they've all got a common interest in keeping things nice and calm and open for business. Troublemakers usually don't last long."
+
+lang["#FACTION_CRIMSONCARAVAN_NAME"] = "Crimson Caravan Company"
+lang["#FACTION_CRIMSONCARAVAN_DESC"] = "The Crimson Caravan Company is one of, if not the singular largest caravan house in New California and beyond with a CCC branch in nearly every large town in New California."
 -- Laws
 lang["#LAW_MURDER_NAME"] = "Murder"
 lang["#LAW_MURDER_DESC"] = "Unlawful killing of another individual"

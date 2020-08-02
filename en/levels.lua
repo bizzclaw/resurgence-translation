@@ -19,7 +19,7 @@ lang["#SPC_PER"] = "Perception"
 lang["#SPC_PERDESC"] = "The tuning of the body's senses, A high Perception is good for exploring, or sharpshooting.\n\n- Affects the ability to prospect.\n- Affects the precision of weapons.\n- More easily identify others."
 
 lang["#SPC_EDR"] = "Endurance"
-lang["#SPC_EDRDESC"] = "The body's ability to resist the elements, A high Endurance rate may help you survive where others may not.\n\n- Actions take less AP to perform.\nAffects resistance to various ailments."
+lang["#SPC_EDRDESC"] = "The body's ability to resist the elements, A high Endurance rate may help you survive where others may not.\n\n- Affects Maximum Health\n\n- Actions take less AP to perform."
 
 lang["#SPC_CHR"] = "Charisma "
 lang["#SPC_CHRDESC"] = "Social acuteness, charisma allows for communication and persuasion. A high Charismatic Charm pulls people together.\n\n- Increases party size capacity.\n- Increases party benefits\n -Affects reputation increase with NPC factions."
@@ -47,8 +47,8 @@ lang["#SKL_ASSAULT"] = "Commando"
 lang["#SKL_ASSAULTDESC"] = "Accuracy and Reload Speed of Automatic Weapons."
 
 lang["#SKL_RIFLES"] = "Rifleman"
-lang["#SKL_RIFLESDESC"] = "Accuracy and Reload Speed of Single-Shot, Pump, Lever or Bolt Wction Weapons."
-
+lang["#SKL_RIFLESDESC"] = "Accuracy and Reload Speed of Single-Shot, Pump, Lever, and Bolt Action Weapons."
+    
 lang["#SKL_ENERGY"] = "Energy Weapons"
 lang["#SKL_ENERGYDESC"] = "Accuracy and Reload Speed of Energy Based Weaponry."
 
@@ -92,7 +92,7 @@ lang["#SKL_BARTER"] = "Barter"
 lang["#SKL_BARTERDESC"] = "Overall understanding and knowledge of mercantile and bartering. May affect prices of purchasing or selling commodities."
 
 lang["#SKL_SPEECH"] = "Speech"
-lang["#SKL_SPEECHDESC"] = "The act of persuasion and coercion. Affects the ability to convince others."
+lang["#SKL_SPEECHDESC"] = "The act of persuasion and influence. Affects the ability to convince others."
 
 lang["#SKL_SAVEWGT"] = "Save Weight"
 lang["#SKL_SAVEWGTDESC"] = "Governs the quantity of items saved on death.\n\nA higher save weight will allow you to save more items on death."

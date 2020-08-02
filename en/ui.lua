@@ -96,7 +96,9 @@ lang["#UI_TARGETDT"] = "Target DT"
 lang["#UI_WEPONWEAR"] = "Weapon Wear"
 lang["#UI_COUNTER"] = "@+attack| Counter"
 lang["#UI_NOBOTTLES"] = "No Empty Bottles"
-
+lang["#UI_UNSTUCKWAIT"] = "You must wait $time more seconds before you can unstuck again."
+lang["#UI_UNSTUCKFAILED"] = "Unstuck Failed! Try contacting staff by putting @ sign before your message!"
+lang["#UI_TOGGLERAISEHELP"] = "You can lower your weapon by holding @+use and tapping @+reload .\n\nHolding @+reload will holster your weapon."
 
 lang["#PROTECTION_TIMEBLOCK"] = "Saving Blocked\n\nYou must wait before saving this item!\n\n"
 lang["#PROTECTION_NOTENOUGHWGT"] = "Cannot save, not enough Save Weight Budget.\n\nYour Save Weight Budget is based on your Save Weight skill."
@@ -322,6 +324,7 @@ lang["#SECURITY_TOO_LOW"] = "You need at least $minSkill points in $lockSkill to
 -- Crafting
 lang["#CRAFTING_RELOADING"] = "Reloading Bench"
 lang["#CRAFTING_WORKBENCH"] = "Workbench"
+lang["#CRAFTING_MODBENCH"] = "Mod Bench"
 lang["#CRAFTING_TOOL"] = "Tool"
 lang["#UI_CRAFT"] = "Craft"
 lang["#UI_TAKE"] = "Take"
