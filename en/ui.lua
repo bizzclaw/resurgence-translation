@@ -3,14 +3,21 @@ local lang = RSRG.Languages["en"]
 
 --Main menu
 lang["#GAMEMODE_NAME"] = "Fallout Resurgence"
-lang['#WIPWARN_TITLE'] = 'Resurgence is in an Alpha state'
-lang['#WIPWARN_SUB'] = 'You may encounter bugs and unfinished features.'
+lang["#WIPWARN_TITLE"] = "Resurgence is in a Beta state"
+lang["#WIPWARN_SUB"] = "You will encounter bugs and unfinished features"
+lang["#UI_ANYKEY"] = "Press Any Key to Start"
 
--- General UI
-
+-- Teleport Doors
 lang["#UI_OPEN"] = "Open"
 lang["#UI_TRAVEL"] = "Travel"
+lang["#UI_ENTER"] = "Enter"
 lang["#UI_CLOSE"] = "Close"
+lang["#UI_TELEPORTLEAVE"] = "Are you sure you want to leave?\n\n$requirement required to return."
+
+lang["#UI_ITEMCONSUMED"] = "$item will Be taken"
+lang["#UI_ITEMNOTCONSUMED"] = "$item must be in your Inventory (Not taken)"
+
+-- General UI
 lang["#UI_EQUIPMENT"] = "Equipment"
 lang["#UI_APPAREL"] = "Apparel"
 lang["#UI_CONSUMEABLES"] = "Consumables"
@@ -22,6 +29,7 @@ lang["#UI_NEWCHAR"] = "Create Character"
 lang["#UI_DELCHAR"] = "Delete Character"
 
 --Main Menu
+lang["#UI_STARTPLAYING"] = "Start Playing"
 lang["#UI_RESUME"] = "Resume"
 lang["#UI_SETTINGS"] = "Settings"
 lang["#UI_STEAMGROUP"] = "Steam Group"
@@ -111,6 +119,7 @@ lang["#CATEGORY_AMMO"] = "Ammo"
 lang["#CATEGORY_APP"] = "Apparel"
 lang["#CATEGORY_TOOL"] = "Weapons"
 lang["#CATEGORY_AID"] = "Aid"
+lang["#CATEGORY_CHEM"] = "Chems"
 lang["#CATEGORY_FOOD"] = "Food"
 lang["#CATEGORY_DRINK"] = "Drink"
 lang["#CATEGORY_SOUP"] = "Soup"
@@ -123,6 +132,15 @@ lang["#CATEGORY_HP"] = "Hollow Point"
 lang["#CATEGORY_AP"] = "Armor Piercing"
 lang["#CATEGORY_CASE"] = "Brass Casings"
 
+-- Effect Slots
+lang["#UI_EFFECTSLOT"] = "Effect Slot"
+
+lang["#EFFECTSLOT_AIDHEALING"] = "Aid - Healing"
+lang["#EFFECTSLOT_CHEMCOMBAT"] = "Chem - Combat"
+lang["#EFFECTSLOT_CHEMSUPPORT"] = "Chem - Support"
+lang["#EFFECTSLOT_ALCOHOL"] = "Alcohol"
+lang["#EFFECTSLOT_CONSUMABLE"] = "Consumable"
+
 lang["#CRAFTING_GIVES"] = "Gives"
 
 lang["#UI_SORT"] = "[C] Sort"
@@ -133,6 +151,8 @@ lang["#SORT_CND"] = "Condition"
 
 lang["#UI_REQUIRES"] = "Requires"
 
+
+-- Currently used for doors that have an item requirement: OPEN with 1 RED KEYCARD
 lang["#UI_CRAFTNEEDED"] = "Required"
 lang["#UI_OWNEDOVERNEEDED"] = "Owned / Needed"
 lang["#UI_BREAKDOWN"] = "Breakdown"
@@ -188,10 +208,10 @@ lang["#GOODRAD4_NAME"] = "Maximum Radiation Dosage"
 
 lang['#POISON_GREENGECKO'] = "Poison Spit"
 lang['#VENOM_RADSCORPION'] = "Radscorpion Sting"
-lang['#DISEASE_JUMBLES'] = "the Jumbles"
+lang['#DISEASE_JUMBLES'] = "The Jumbles"
 lang['#DISEASE_LIMPWRIST'] = "Limp Wrist"
 lang['#DISEASE_FUMIGATIONS'] = "Fumigations"
-lang['#DISEASE_VAPORS'] = "the Vapors"
+lang['#DISEASE_VAPORS'] = "The Vapors"
 lang['#DISEASE_WATERBRAIN'] = "Water Brain"
 lang['#DISEASE_CALAMITOUS'] = "Calamitous Rash"
 lang['#DISEASE_MYOPIA'] = "Myopia"
@@ -213,7 +233,10 @@ lang["#NOTIFY_WANTSTOTRADE"] = "Would like to trade with you. Look at them and h
 lang["#NOTIFY_SKILLTOOLOW"] = "You do not meet the skill requirements."
 lang["#UI_NOTCURRENTLYPOSSIBLE"] = "Not Currently Possible"
 lang["#UI_HPFULL"] = "HP Full."
-lang["#UI_STIMPAKACTIVE"] = "Your last stimpak is still active."
+lang["#UI_STIMPAKACTIVE"] = "Your last stimpak is still active!"
+lang["#UI_CHEMACTIVE"] = "Your last chem is still active!"
+lang["#UI_STIMBLOCKED"] = "Stimblocker is still active!"
+lang["#UI_CHEMBLOCKED"] = "Chemblocker is still active!"
 lang["#UI_ADDICTED"] = "You have become addicted too $item"
 lang["#UI_NOTADDICTED"] = "You are no longer addicted too $item"
 lang["#UI_WITHDRAWAL"] = "$item Withdrawal"

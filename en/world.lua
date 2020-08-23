@@ -50,6 +50,7 @@ lang["#FACTORY_DISTRIBUTORINFO"] = [[
 	Higher levels of damage to the distributors will require more parts to repair, so the distributors should be kept in top shape.
 ]]
 
+lang["#FACTORY_CONTROLLER"] = "Factory Control Terminal"
 lang["#FACTORY_CHECKPOWERED"] = "Check Power Status"
 lang["#FACTORY_POWERED"] = "Powered"
 lang["#FACTORY_ENABLED"] = "Enabled"

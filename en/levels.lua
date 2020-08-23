@@ -41,22 +41,19 @@ lang["#SPC_LCKDESC"] = "One will find that Luck works out situations for them in
 --╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝
 
 lang["#SKL_PISTOLS"] = "Gunslinger" -- for skills, no need to keep the english word.
-lang["#SKL_PISTOLSDESC"] = "Accuracy and Reload Speed of Pistols."
+lang["#SKL_PISTOLSDESC"] = "Accuracy, Condition Rate and Reload Speed of Pistols."
 
 lang["#SKL_ASSAULT"] = "Commando"
-lang["#SKL_ASSAULTDESC"] = "Accuracy and Reload Speed of Automatic Weapons."
+lang["#SKL_ASSAULTDESC"] = "Accuracy, Condition Rate and Reload Speed of Automatic Weapons."
 
 lang["#SKL_RIFLES"] = "Rifleman"
-lang["#SKL_RIFLESDESC"] = "Accuracy and Reload Speed of Single-Shot, Pump, Lever, and Bolt Action Weapons."
+lang["#SKL_RIFLESDESC"] = "Accuracy, Condition Rate and Reload Speed of Single-Shot, Pump, Lever, and Bolt Action Weapons."
     
 lang["#SKL_ENERGY"] = "Energy Weapons"
-lang["#SKL_ENERGYDESC"] = "Accuracy and Reload Speed of Energy Based Weaponry."
-
-lang["#SKL_HEAVY"] = "Heavy Gunner"
-lang["#SKL_HEAVYDESC"] = "Accuracy and Reload Speed of heavy weaponry such as Miniguns or Flamethrowers."
+lang["#SKL_ENERGYDESC"] = "Accuracy, Condition Rate and Reload Speed of Energy Based Weaponry."
 
 lang["#SKL_MELEE"] = "Melee Weapons"
-lang["#SKL_MELEEDESC"] = "Affects the Damage of Melee Weapons."
+lang["#SKL_MELEEDESC"] = "Affects the Damage and Condition Rate of Melee Weapons."
 
 lang["#SKL_UNARMED"] = "Unarmed"
 lang["#SKL_UNARMEDDESC"] = "Your combined knowledge of martial arts and hand to hand combat, your unarmed skill affects how well you can fight with your fists."
@@ -93,9 +90,6 @@ lang["#SKL_BARTERDESC"] = "Overall understanding and knowledge of mercantile and
 
 lang["#SKL_SPEECH"] = "Speech"
 lang["#SKL_SPEECHDESC"] = "The act of persuasion and influence. Affects the ability to convince others."
-
-lang["#SKL_SAVEWGT"] = "Save Weight"
-lang["#SKL_SAVEWGTDESC"] = "Governs the quantity of items saved on death.\n\nA higher save weight will allow you to save more items on death."
 
 -- Stats
 lang["#STAT_HP"] = "Hit Points"
@@ -144,6 +138,11 @@ lang["#PERK_HANDLOADER_NAME"] = "Hand Loader"
 lang["#PERK_HANDLOADER_DESC"] = "You know your way around a reloading bench and don't let good brass and hulls go to waste!\n\nWhen you use Guns, you are more likely to recover cases and hulls. You also have additional hand load recipes unlocked at reloading benches."
 lang["#PERK_JUNKROUNDS_NAME"] = "Junk Rounds"
 lang["#PERK_JUNKROUNDS_DESC"] = "Who needs factory loaded brass anyway?\n\nYou have unlocked recipies for loading steel-cased ammunition and the ability to craft steel casings at a reloading bench."
+lang["#PERK_EXQUISITECHEFNAME"] = "Exquisite Chef"
+lang["#PERK_EXQUISITECHEFDESC"] = "You've figured out a way to cook some foods into a more exquisite version." -- WIP
+lang["#PERK_CHEMISTNAME"] = "Chemist"
+lang["#PERK_CHEMISTDESC"] = "You've figured out a way to start making chems." -- WIP
+lang["#PERK_CHEMIST2DESC"] = "You've figured out a way to start modifying chems into more powerful mixtures." -- WIP
 
 lang["#PERKREQ_COST"] = "Not Enough Perk Points"
 lang["#PERKREQ_MAXED"] = "Perk Maxed Out"
