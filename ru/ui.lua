@@ -3,8 +3,8 @@ local lang = RSRG.Languages["ru"]
 
 --Main menu
 lang["#GAMEMODE_NAME"] = "Fallout Resurgence"
-lang['#WIPWARN_TITLE'] = 'Resurgence находится в состоянии альфа'
-lang['#WIPWARN_SUB'] = 'Вы можете столкнуться с ошибками и незавершенными функциями.'
+lang['#WIPWARN_TITLE'] = 'Resurgence в состоянии альфа'
+lang['#WIPWARN_SUB'] = 'Могут встретиться ошибки и незавершённые вещи.'
 
 -- General UI
 
