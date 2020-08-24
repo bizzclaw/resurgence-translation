@@ -3,14 +3,22 @@ local lang = RSRG.Languages["ru"]
 
 --Main menu
 lang["#GAMEMODE_NAME"] = "Fallout Resurgence"
-lang['#WIPWARN_TITLE'] = 'Resurgence находится в состоянии альфа'
-lang['#WIPWARN_SUB'] = 'Вы можете столкнуться с ошибками и незавершенными функциями.'
+lang['#WIPWARN_TITLE'] = 'Resurgence в состоянии Бета'
+lang['#WIPWARN_SUB'] = 'Вы столкнётесь с ошибками и незавершенным контентом.'
+lang["#UI_ANYKEY"] = "Нажмите любую клавишу, чтобы начать"
 
--- General UI
 
+-- Teleport Doors
 lang["#UI_OPEN"] = "Открыть"
 lang["#UI_TRAVEL"] = "Путешествовать"
+lang["#UI_ENTER"] = "Войти"
 lang["#UI_CLOSE"] = "Закрыть"
+lang["#UI_TELEPORTLEAVE"] = "Вы уверены, что хотите уйти?\n\n$requirement требуется, чтобы вернуться."
+
+lang["#UI_ITEMCONSUMED"] = "$item будет изъят"
+lang["#UI_ITEMNOTCONSUMED"] = "$item должен быть в вашем инвентаре (Не принято)"
+
+-- General UI
 lang["#UI_EQUIPMENT"] = "Снаряжение"
 lang["#UI_APPAREL"] = "Одежда"
 lang["#UI_CONSUMEABLES"] = "Медпрепараты и еда"
@@ -22,6 +30,7 @@ lang["#UI_NEWCHAR"] = "Создать персонажа"
 lang["#UI_DELCHAR"] = "Удалить персонажа"
 
 --Main Menu
+lang["#UI_STARTPLAYING"] = "Начать играть"
 lang["#UI_RESUME"] = "Продолжить игру"
 lang["#UI_SETTINGS"] = "Настройки"
 lang["#UI_STEAMGROUP"] = "Группа в Steam"
@@ -44,7 +53,7 @@ lang["#PIP_STATUS"] = "СТАТУС"
 lang["#PIP_EFFECTS"] = "ЭФФЕКТЫ"
 lang["#PIP_SPECIAL"] = "SPECIAL"
 lang["#PIP_SKILLS"] = "НАВЫКИ"
-lang["#PIP_PERKS"] = "ПЕРКИ"
+lang["#PIP_PERKS"] = "СПОСОБНОСТИ"
 
 lang["#PIP_REPUTATION"] = "РЕПУТАЦИЯ"
 lang["#PIP_CRIMES"] = "ПРЕСТУПЛЕНИЯ"
@@ -111,6 +120,7 @@ lang["#CATEGORY_AMMO"] = "Патроны"
 lang["#CATEGORY_APP"] = "Одежда"
 lang["#CATEGORY_TOOL"] = "Оружие"
 lang["#CATEGORY_AID"] = "Помощь"
+lang["#CATEGORY_CHEM"] = "Химикаты"
 lang["#CATEGORY_FOOD"] = "Еда"
 lang["#CATEGORY_DRINK"] = "Вода"
 lang["#CATEGORY_SOUP"] = "Супы"
@@ -123,6 +133,15 @@ lang["#CATEGORY_HP"] = "Экспансивный"
 lang["#CATEGORY_AP"] = "Бронебойный"
 lang["#CATEGORY_CASE"] = "Гильзы"
 
+-- Effect Slots
+lang["#UI_EFFECTSLOT"] = "Ячейка эффекта"
+
+lang["#EFFECTSLOT_AIDHEALING"] = "Помощь - Лечение"
+lang["#EFFECTSLOT_CHEMCOMBAT"] = "Химикат - Бой"
+lang["#EFFECTSLOT_CHEMSUPPORT"] = "Химикат - Поддержка"
+lang["#EFFECTSLOT_ALCOHOL"] = "Алкоголь"
+lang["#EFFECTSLOT_CONSUMABLE"] = "Потребление"
+
 lang["#CRAFTING_GIVES"] = "Даёт"
 
 lang["#UI_SORT"] = "[C] Сортировать"
@@ -133,6 +152,7 @@ lang["#SORT_CND"] = "Состояние"
 
 lang["#UI_REQUIRES"] = "Требует"
 
+-- Currently used for doors that have an item requirement: OPEN with 1 RED KEYCARD
 lang["#UI_CRAFTNEEDED"] = "Необходимо"
 lang["#UI_OWNEDOVERNEEDED"] = "Имеется / Нужно"
 lang["#UI_BREAKDOWN"] = "Сломать"
@@ -213,7 +233,10 @@ lang["#NOTIFY_WANTSTOTRADE"] = "Хотел бы торговать с вами. 
 lang["#NOTIFY_SKILLTOOLOW"] = "Вы не соответствуете требованиям навыка."
 lang["#UI_NOTCURRENTLYPOSSIBLE"] = "В настоящее время не возможно"
 lang["#UI_HPFULL"] = "ОЗ Полон."
-lang["#UI_STIMPAKACTIVE"] = "Ваш последний стимулятор всё ещё активен."
+lang["#UI_STIMPAKACTIVE"] = "Ваш последний стимулятор всё ещё активен!"
+lang["#UI_CHEMACTIVE"] = "Ваш последний химикат всё ещё активен!"
+lang["#UI_STIMBLOCKED"] = "Стимблок всё ещё активен!"
+lang["#UI_CHEMBLOCKED"] = "Химблок всё ещё активен!"
 lang["#UI_ADDICTED"] = "Вы стали зависимым от $item"
 lang["#UI_NOTADDICTED"] = "Вы больше не зависимы от $item"
 lang["#UI_WITHDRAWAL"] = "$item изъят"
