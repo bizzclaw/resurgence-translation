@@ -54,7 +54,7 @@ lang["#SADISTARMOR_NAME"] = "Sadist's Armor"
 lang["#T45DPOWER_NAME"] = "T45D Power Armor"
 lang["#MWPA_NAME"] = "Brotherhood Power Armor"
 lang["#T51BPOWER_NAME"] = "T51B Power Armor"
-lang["#RAIDERARMOR_NAME"] = "Scrap"
+lang["#RAIDERARMOR_NAME"] = "Scrap Armor"
 lang["#ENCLAVEHAZMAT_NAME"] = "Advanced Hazmat Suit"
 lang["#SECRETAGENTSUIT_NAME"] = "Inconspicious Suit"
 
@@ -119,6 +119,7 @@ lang["#VAULTSUIT_NAME"] = "Vault Suit"
 lang["#BROTHERHOODFATIGUES_NAME"] = "Brotherhood Fatigues"
 lang["#SCRIBEENGINEER_NAME"] = "Heavy Engineer Overalls"
 lang["#SCRIBESCIENCE_NAME"] = "Scribe Robes"
+lang["#SCRIBEOPERATOR_NAME"] = "BoS Operator Robes"
 lang["#SCRIBEMEDICAL_NAME"] = "Medical Officer Fatigues" --WIP
 lang["#SCRIBEFATIGUES_NAME"] = "Scribe Fatigues"
 lang["#FLANNEL_NAME"] = "Flannel shirt and jeans"
@@ -131,6 +132,7 @@ lang["#TRAWLER_NAME"] = "Fishing Overalls"
 lang["#FISHERMAN_NAME"] = "Plaid Shirt and Overalls"
 lang["#FARMHAND_NAME"] = "Wasteland Duster"
 lang["#GATHERER_NAME"] = "Duct Taped Outfit"
+lang["#DRIFTER_NAME"] = "Drifter Outfit"
 lang["#RRJUMPSUIT_NAME"] = "Red Rocket Jumpsuit"
 lang["#GUNHARNESS_NAME"] = "Combat Harness"
 lang["#KNIGHTUNDERARMOR_NAME"] = "Undersuit"
@@ -324,6 +326,8 @@ lang["#TSHIRTJEANS_DESC"] = "A dirty, tattered white crewneck t-shirt worn with 
 lang["#TATTEREDRAGS_DESC"] = "A ripped and worn-out outfit you aren't sure was ever really whole to begin with.\n\nWoe to the unlucky outcasts who wear this poor excuse for clothing.\n\n. . . May yet provide some type of boost to Prospecting, but at what cost?"
 lang["#VAULTSUIT_DESC"] = "Vault jumpsuits are the regulation clothing carried by the vault dwellers of Vault-Tec vaults.\n\nThey are made of leather, blue with a yellow zipper and the number of the vault is on the back of the suit and on the outside of the collar."
 lang["#FLANNEL_DESC"] = "Flannel shirt and jeans"
+lang["#DRIFTER_DESC"] = "Drifter Outfit" -- WIP
+lang["#SCRIBEOPERATOR_DESC"] = "BoS Operator Robes" -- WIP
 lang["#SCRIBEMEDICAL_DESC"] = "Worn by BoS Medical Officers" --WIP
 lang["#SCRIBEFATIGUES_DESC"] = "Scribe Fatigues" --WIP
 lang["#SCRIBEENGINEER_DESC"] = "Heavy Engineer Overalls" -- WIP
@@ -452,7 +456,7 @@ lang["#AEP7_NAME"] = "AEP7 Laser Pistol"
 
 --Energy Weapons Desc
 lang["#FLAMER_DESC"] = "The Flambe model 450 Flamer Varmiter version. Shoots hot napalm out for 'bug extermination'."
-lang["#GATLASER_DESC"] = "An H&K L30 Gatling laser.\n\nDesigned specifically for military use, these were in the prototype stage at the beginning of the Great War.\n\nThese models, powered by microfusion cells, have a limited capacity."
+lang["#GATLASER_DESC"] = "A multi-prism Gatling Laser.\n\nDesigned specifically for military use, these were in the prototype stage at the beginning of the Great War.\n\nPowered by Electron Charge Packs,these weapons have a high rate of fire and a generous battery resevoir."
 lang["#INCENERATOR_DESC"] = "Designed by some high-tech faction claiming to be the old world government, this monster shoots napalm like a mortar."
 lang["#AERPISTOL_DESC"] = "The AER7 Laser Pistol is a military-grade laser, infrequently used by police and military units before the war. It makes use of a crystal array making it far more lethal than a Wattz."
 lang["#AERRIFLE_DESC"] = "The AER9 Laser Rifle is a high-power laser rifle that makes use of a crystal array, and was on track to be fielded by domestic military units prior to the Great War."
@@ -568,7 +572,7 @@ lang["#VARMINT_DESC"] = "A prewar rifle typically used in hunting small game.\n\
 lang["#MACHINEGUN_DESC"] = "A fully automatic support machinegun.\n\nChambered in 5.56 and sporting a 90 round magazine by default, this is one of the more intimidating prewar small arms surviving still today.\n\nUnfortunately, you'll need the combined strength and resources of an army to carry and feed it."
 lang["#G11_DESC"] = "The HK G11 K2 is one of the most advanced assault rifles created.\n\nIt is capable of firing salvos of caseless 4.7MM which exit the gun before any recoil can even be felt.\n\nDue to complex construction and rare materials, as well as specialized ammo that is difficult to procure, this rifle is exceedingly rare."
 
-lang["#RHODIESPECIAL_DESC"] = [["''Pugnamus Amo Leo''"]] -- probably don't change this because it's supposed ot be a latin reference
+lang["#RHODIESPECIAL_DESC"] = "''Pugnamus Amo Leo''" --  probably don't change this because it's supposed ot be a latin reference
 lang["#R91INFILTRATOR_DESC"] = "R91 urban assault rifle, Infiltration Variant.\n\nDesigned for use by special operations groups, the stock has been removed, barrel shortened, and a supressor, optic, and extended magazine have been added."
 lang["#R91PERFORATOR_DESC"] = "R91 urban assault rifle, Infiltration Variant.\n\n''This is the best gun I ever had. A little slower on the trigger, but she makes up for it in power and accuracy.\n\nUse her in good health.''"
 lang["#R91WANDA_DESC"] = "An R91 full-auto urban assault rifle.\n\n''Look, you obviously don't know anything about intelligence work, lady.\n\nIt's an X-K-Red-27 technique.''"
@@ -657,6 +661,7 @@ lang["#45ACP_NAME"] = ".45 Auto"
 lang["#45ACP_HP_NAME"] = ".45 Auto HP"
 lang["#45ACP_+P_NAME"] = ".45 Auto +P"
 lang["#12.7MM_NAME"] = "12.7mm"
+lang["#12.7MM_NAME"] = "12.7mm"
 lang["#12.7MM_AP_NAME"] = "12.7mm HCLRN"
 lang["#12.7MM_HP_NAME"] = "12.7mm SCHP"
 ---RIFLE
@@ -699,7 +704,17 @@ lang["#FUELGAS_NAME"] = "Flamer Fuel"
 lang["#FUELNAPALM_NAME"] = "Flamer Fuel, Optimized"
 lang["#FUELHOMEMADE_NAME"] = "Improvised Flamer Fuel"
 
----TOY
+---OTHER
+lang["#DART_NAME"] = "Dart"
+lang["#DART_STIM_NAME"] = "Dart, Stimpak"
+lang["#DART_RADSCOPRION_NAME"] = "Dart, Radscorpion"
+lang["#DART_RAD_NAME"] = "Dart, Radioactive"
+lang["#DART_SBLOCK_NAME"] = "Dart, Stimblock"
+lang["#DART_CBLOCK_NAME"] = "Dart, Chemblock"
+lang["#DART_PSYCHO_NAME"] = "Dart, Psycho"
+lang["#DART_BUFFOUT_NAME"] = "Dart, Buffout"
+
+
 ------------------------------------------------------------------
 ---Ammo Desc
 ------------------------------------------------------------------
@@ -780,7 +795,17 @@ lang["#FUELGAS_DESC"] = "A cylinder containing an extremely flammable liquid fue
 lang["#FUELNAPALM_DESC"] = "A cylinder containing an extremely flammable liquid fuel for flamethrowers\n\nThis flamethrower fuel uses an advanced super-burn mix."
 lang["#FUELHOMEMADE_DESC"] = "A cylinder containing an extremely flammable liquid fuel for flamethrowers.\n\nImprovised from crude materials, this formula runs extremely dirty, and will degrade weaponry at an alarming rate."
 
----TOY
+---OTHER
+lang["#DART_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns."
+lang["#DART_STIM_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns.\n\nSupport Variant\n\nContaining a partial dose of the prewar wonder drug, Stimdarts are useful as a form of ''long-range first aid''."
+lang["#DART_RADSCOPRION_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns.\n\nPoison Variant\n\nFilled with venom from the fearsome Radscorpion, be sure to warn your target ''this might sting a little''."
+lang["#DART_RAD_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns.\n\nPoison Variant\n\nLoaded with radioactive liquid, these ''dirty darts'' are best used against human targets, not mutants."
+lang["#DART_SBLOCK_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns.\n\nCounter-Support Variant\n\nA specialized drug cocktail designed to subdue the body's ability to heal, rendering healing items like stimpaks temporarily usesless."
+lang["#DART_CBLOCK_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns.\n\nCounter-Support Variant\n\nA specialized drug cocktail designed to subdue the body's adrenal system, rendering combat chems like psycho temporarily usesless." 
+lang["#DART_PSYCHO_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns.\n\nSupport Variant\n\nContaining a partial dose of the prewar combat chem, Psychodarts are used to provide a temporary boost to friendlies without the risk of addiction."
+lang["#DART_BUFFOUT_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns.\n\nSupport Variant\n\nContaining a partial dose of the prewar steroid, Buffdarts are used to provide a temporary S.P.E.C.I.A.L. boost to friendlies without the risk of addiction."
+
+
 -- Grenade Names
 lang["#FRAGGRENADE_NAME"] = "Frag Grenade"
 lang["#PLASGRENADE_NAME"] = "Plasma Grenade"
@@ -822,6 +847,8 @@ lang["#RAWDEATHCLAW_NAME"] = "Raw Deathclaw Meat"
 lang["#RAWMEAT_NAME"] = "Raw Meat"
 lang["#ROACHMEAT_NAME"] = "Raw Radroach Meat"
 lang["#RAWMIRELURK_NAME"] = "Raw Mirelurk Meat"
+lang["#RAWYAOGUAI_NAME"] = "Raw Yaoguai Meat"
+lang["#COOKYAOGUAI_NAME"] = "Cooked Yaoguai Meat"
 lang["#COOKGECKO_NAME"] = "Gecko Steak"
 lang["#MIRELURKEGG_NAME"] = "Mirelurk Egg"
 lang["#GECKOKEBAB_NAME"] = "Gecko Kebab"
@@ -836,6 +863,7 @@ lang["#LEMONADE_NAME"] = "Lemonade"
 lang["#HARDLEMONADE_NAME"] = "Hard Lemonade"
 lang["#GLOWLEMONADE_NAME"] = "Glowing Lemonade"
 lang["#SUGAR_NAME"] = "Sugar"
+lang["#EXQUISITEBEANS_NAME"] = "Exquisite Beans"
 lang["#MRE_NAME"] = "MRE"
 lang["#MIREJERKY_NAME"] = "Mirelurk Jerky"
 lang["#COOKBRAHMIN_NAME"] = "Cooked Brahmin Meat"
@@ -875,6 +903,7 @@ lang["#SCOTCH_NAME"] = "Scotch"
 lang["#WHISKEY_NAME"] = "Whiskey"
 lang["#RADWHISKEY_NAME"] = "Rad Whiskey"
 lang["#VODKA_NAME"] = "Vodka"
+lang["#STRONGSLUDGE_NAME"] = "Strong Sludge Cocktail"
 lang["#MOONSHINE_NAME"] = "Moonshine"
 lang["#ATOMICCOCKTAIL_NAME"] = "Atomic Cocktail"
 lang["#BLACKCOFFEE_NAME"] = "Black Coffee"
@@ -937,7 +966,9 @@ lang["#RAWGECKO_DESC"] = "Tough and wet looking, it's the meat of an oversized l
 lang["#GECKOKEBAB_DESC"] = "A savory skewer of cooked gecko chunks, peppers, fruit, and a buffalo gourd.\n\nDelicious!"
 lang["#RAWDEATHCLAW_DESC"] = "The meat of one of the Wasteland's toughest creatures."
 lang["#COOKBRAHMIN_DESC"] = "A piece of meat from the two-headed mutant cow." -- WIP
-lang["#COOKROACHMEAT_DESC"] = "Some grilled radroach meat." -- WIP
+lang["#COOKROACHMEAT_DESC"] = "Some grilled radroach meat."
+lang["#RAWYAOGUAI_DESC"] = "A large hunk of raw Yaoguai. Somewhat tough."
+lang["#COOKYAOGUAI_DESC"] = "A hearty steak cooked from Yaoguai meat."
 lang["#RAZORSOUP_DESC"] = "A soup made out of Razorgrain." -- WIP
 lang["#BRAINBOMBS_DESC"] = "A sugary food created using brain fungus and Sugar Bombs, hence the name, among other ingredients." -- WIP
 lang["#COOKANT_DESC"] = "Cooked and crispy abdomen of a giant mutated ant. It's not raw, so it can't be that bad."
@@ -951,7 +982,8 @@ lang["#RAWMIRELURK_DESC"] = "Dismembered claw of a Mirelurk. Not a good idea to 
 lang["#OLDCIGARETTE_DESC"] = "A Stale old cigarette.\nMany people still enjoy smoking, despite noticing a heavy cough after a few years of use."
 lang["#CAKES_DESC"] = "A big delight in every bite!"
 lang["#CHIPS_DESC"] = "Junk Food."
-lang["#MRE_DESC"] = "The MRE is a highly nutritious field ration for use by United States Armed Forces servicemen in combat and field conditions where organized food facilities are not available."
+lang["#EXQUISITEBEANS_DESC"] = "Exquisitely cooked beans." -- WIP
+lang["#MRE_DESC"] = "The MRE is a highly nutritious field ration for use by United States Armed Forces servicemen in combat and field conditions where organized food facilities are not available." --WIP
 lang["#HARDLEMONADE_DESC"] = "Lemonade fermented with vodka." -- WIP
 lang["#GLOWLEMONADE_DESC"] = "Glowing Lemonade." -- WIP
 lang["#LEMONADE_DESC"] = "A refreshing drink. This version of lemonade is amusingly made without the key ingredient of lemon." -- WIP
@@ -992,6 +1024,7 @@ lang["#SCOTCH_DESC"] = "A moderate-proof alcoholic beverage.\n\nMakes you thirst
 lang["#WHISKEY_DESC"] = "A high-proof alcoholic beverage.\n\nMakes you thirsty, but washes away the pain."
 lang["#RADWHISKEY_DESC"] = "Whiskey brewed with radioactive fruit and fluid. Not safe for human consumption. An alcohol alternative for ghouls."
 lang["#VODKA_DESC"] = "A high-proof alcoholic beverage.\n\nMakes you thirsty, but washes away the pain."
+lang["#STRONGSLUDGE_DESC"] = "A radioactive cocktail for ghouls. Makes them pretty strong but a little stupid, with a dose of rads."
 lang["#MOONSHINE_DESC"] = "An extremely high-proof, home brewed, alcohol.\n\nMakes you flat out drunk, but feel invincible."
 lang["#ATOMICCOCKTAIL_DESC"] = "A strong cocktail brewed from a few diferent drinks and some fruit. The alcohol is more than strong enough to knock out the rads from the fruit and gives you a nice long buzz."
 lang["#BLACKCOFFEE_DESC"] = "Boiled from roasted Coyote Tobacco Leaves and honey mesquite pods in a trusty resusable kettle.\n\nA great way to stay awake in the middle of the night as well as improving alertness, at drawback of making you jittery.\n\nSo jittery, you might just drop and break your mug. . ."
@@ -1048,13 +1081,15 @@ lang["#MAGSGUNS_DESC"] = "A magazine containing information on small arms."
 --╚═╝     ╚═╝╚══════╝╚═════╝ ╚═╝     ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝╚══════╝
 
 lang["#ADDICTOL_NAME"] = "Addictol"
-lang["#ANTIBIOTICS_NAME"] = "Antibiotics"
+lang["#ANTIBIOTIC_NAME"] = "Antibiotics"
 lang["#ANTIVENOM_NAME"] = "Radscorpion Antivenom"
 lang["#JET_NAME"] = "Jet"
 lang["#MEDSUPPLIES_NAME"] = "Medical Supplies"
 lang["#MEDX_NAME"] = "Med-X"
 lang["#RADAWAY_NAME"] = "Rad-Away"
+lang["#RADAPLENTY_NAME"] = "Rad-A-Plenty"
 lang["#STIMPAK_NAME"] = "Stimpak"
+lang["#STIMPAK_ND_NAME"] = "Old Stimpak"
 lang["#BLOODBAG_NAME"] = "Bloodbag"
 lang["#GLOWINGBLOOD_NAME"] = "Glowing Blood"
 lang["#DOCTORBAG_NAME"] = "Doctor's Bag"
@@ -1095,13 +1130,15 @@ lang["#ADDICTION_ANTPHERO_NOTIFY"] = "You have become addicted to Ant Queen Pher
 
 --Medical Items Description
 lang["#ADDICTOL_DESC"] = "A powerful anti-addiction drug.\n\nAddictol is an effective pre-War medicine that works both physically and psychologically to remove both the symptoms of drug abuse and the craving.\n\nSide effects include, but are not limited to, hunger, thirst, loss of sleep, loss of taste, nausea, heartburn, indigestion, erectile disfunction, and anal leakage."
-lang["#ANTIBIOTICS_DESC"] = "A bottle of antibiotics that help cure disease." -- Curing item that removes sickness from players.
+lang["#ANTIBIOTIC_DESC"] = "A broad spectrum antibiotics useful for curing a host of bacterial infections and diseases."
 lang["#ANTIVENOM_DESC"] = "A bottle of antivenom created from Radscorpion stingers." -- Curing item that removes sickness from players.
 lang["#JET_DESC"] = "A highly addictive drug created by one of the New Reno families. Doesn't smell nice, yet a second sniff is infinitely tempting." -- Increases agility by 2, ignores armor speed de-buff for 70-100 seconds (Randomized)
 lang["#MEDSUPPLIES_DESC"] = "A box of various medical supplies." -- Medical Supplies are a generic item that people with a medicine skill of over 30 can use to heal people with. imagine PNRP's current heal system, but with an item requirement
 lang["#MEDX_DESC"] = "Pre-War medicinal painkiller that's injected via syringe." -- temporarily (4-6 minutes randomized) ignores crippled limbs
 lang["#RADAWAY_DESC"] = "A Pre-War medicine that cures the body of radiation damage."
+lang["#RADAPLENTY_DESC"] = "Hot radioactive fluid made for ghouls. This shit will fuck you up."
 lang["#STIMPAK_DESC"] = "A marvel of Pre-War medicine, the Stimpak accelerates your body's healing processes, allowing you to heal wounds in seconds."
+lang["#STIMPAK_ND_DESC"] = "A marvel of Pre-War medicine, the Stimpak accelerates your body's healing processes, allowing you to heal wounds in seconds.\n\nStarting gift, #STARTER_AMMO_DISCLAMER"
 lang["#BLOODBAG_DESC"] = "A package of preserved blood.\n\nHeals slowly over time."
 lang["#GLOWINGBLOOD_DESC"] = "Highly radioactive blood from glowing creatures."
 lang["#STRANGEVIAL_DESC"] = "A green glowing vial with strange markings on the top and bottom."
@@ -1195,7 +1232,7 @@ lang["#STRAIGHTRAZOR_DESC"] = "An old-fashioned shaving razor with a polished wo
 lang["#ROLLINGPIN_DESC"] = "A plain wooden rolling pin used in baking to flatten dough, with a couple thin streaks of blood down one side."
 lang["#SLEDGE_DESC"] = "The strongman's specialty makes an appearance in the wasteland.\n\n[WORK IN PROGRESS, CURRENT VERSION IS A PLACEHOLDER PENDING ADDITIONAL ASSESTS]"
 lang["#SHOVEL_DESC"] = "A wood handled shovel, useful for digging up graves, or smacking molehills.\n\n[WORK IN PROGRESS, CURRENT VERSION IS A PLACEHOLDER PENDING ADDITIONAL ASSESTS]"
-lang["#SWITCHBLADE_DESC"] = [[The blade of this small knife is held by a spring. When a button on the handle is pressed, the blades shoots out with a satisfying "Sssssshk" sound.]]
+lang["#SWITCHBLADE_DESC"] = "The blade of this small knife is held by a spring. When a button on the handle is pressed, the blades shoots out with a satisfying ''Sssssshk'' sound."
 lang["#WAKAZASHI_DESC"] = "A short finely crafted knife.\n\nThe tip seems to be designed to pierce armor"
 lang["#BUMPER_DESC"] = "More of a raw hunk of steel than a weapon, the bumper sword is an extremely heavy and sharp weapon created from the bumper of a car, dealing massive damage."
 lang["#BATON_DESC"] = "A collapsible model law enforcement baton, used by various police departments before the Great War."
@@ -1216,6 +1253,7 @@ lang["#ABRAXO_NAME"] = "Abraxo Cleaner"
 lang["#AGUITAR_NAME"] = "Acoustic guitar"
 lang["#ASHTRAY_NAME"] = "Ashtray"
 lang["#BBGLOVE_NAME"] = "Baseball Glove"
+lang["#BALLISTICPOLYMER_NAME"] = "Ballistic Polymer"
 lang["#BASEBALL_NAME"] = "Baseball"
 lang["#BASKETBALL_NAME"] = "Basketball"
 lang["#BIGSPOON_NAME"] = "Big Spoon"
@@ -1226,6 +1264,7 @@ lang["#BUTTERKNIFE_NAME"] = "Butter Knife"
 lang["#CAMERA_NAME"] = "Camera"
 lang["#FUSE_NAME"] = "Fuse"
 lang["#VPARTS_NAME"] = "Vertibird Parts"
+lang["#VERTIBIRDKEY_NAME"] = "Vertibird Keycard"
 lang["#CASE_NAME"] = "Case"
 lang["#SERVO_NAME"] = "Servo"
 lang["#CHERRYBOMB_NAME"] = "Cherry Bomb"
@@ -1240,6 +1279,7 @@ lang["#CIRCUITBOARD_NAME"] = "Circuit Board"
 lang["#CONDUCTOR_NAME"] = "Conductor"
 lang["#COYOTEHIDE_NAME"] = "Coyote Hide"
 lang["#DEATHCLAWHIDE_NAME"] = "Deathclaw Hide"
+lang["#YAOGUAIHIDE_NAME"]= "Yaoguai Hide"
 lang["#CRUTCH_NAME"] = "Crutch"
 lang["#DEATHCLAWEGG_NAME"] = "Deathclaw Egg"
 lang["#DEATHCLAWHAND_NAME"] = "Deathclaw Hand"
@@ -1294,6 +1334,7 @@ lang["#RUBBERTUBE_NAME"] = "Surgical Tubing"
 lang["#SCALPEL_NAME"] = "Scalpel"
 lang["#SCISSORS_NAME"] = "Scissors"
 lang["#SOLDERKIT_NAME"] = "Soldering Kit"
+lang["#SOLDER_NAME"] = "Solder"
 lang["#SCRAPELECTRONIC_NAME"] = "Scrap Electronics"
 lang["#SENSORMOD_NAME"] = "Sensor Module"
 lang["#TINCAN_NAME"] = "Tin Can"
@@ -1329,6 +1370,7 @@ lang["#ABRAXO_DESC"] = "A pre-War cleaning agent produced by Abraxodyne Chemical
 lang["#AGUITAR_DESC"] = "A ''Dreadnought'' style bodied acoustic guitar, with a sunburst color finish."
 lang["#ASHTRAY_DESC"] = "A ceramic container used for the holding of ash, cigarettes, cigars and anything else that can be smoked."
 lang["#BBGLOVE_DESC"] = "A leather glove used by catchers in America's favorite pre-war sport."
+lang["#BALLISTICPOLYMER_DESC"] = "A stiff rubber polymer with ballistic fiber woven in. Useful for making armor."
 lang["#BASEBALL_DESC"] = "Used primarily in the sport of the same name. The ball features a rubber or cork center wrapped in yarn that is covered with leather."
 lang["#BASKETBALL_DESC"] = "Used primarily in the sport of the same name. The ball features a rubber bladder filled with air."
 lang["#BIGSPOON_DESC"] = "A large, dark grey table spoon.\n\nUsed in various cooking recipies and disciplining naughty children."
@@ -1339,6 +1381,7 @@ lang["#ENCLAVEVHOLOTAPE_DESC"] = "Mark, I know why the general left. Command tri
 lang["#ENCLAVEHOLOTAPE_DESC"] = "Squad 2-1A, Designation, Devil's Hand. Current orders are to patrol Section 3, 2, and 6. Check for any possible Vault Dwellers and find anyone from either vault 55, 74 and or 10. All vault locations must be obtained and those vault dwellers should be elminated."
 lang["#BROKENENCLAVEHELMET_DESC"] = "The destroyed remains of an Advanced Power Armor helmet. Nothing of value can be salvaged from it."
 lang["#VPARTS_DESC"] = "A bag full of bits and pieces of important looking parts. It has a small black inscription that reads XVB02."
+lang["#VERTIBIRDKEY_DESC"] = "A specialized key made for a very unique lock. The key seems to be made of a very shiny metal."
 lang["#BUTTERKNIFE_DESC"] = "A silverware item used for spreading various toppings (not only butter) and cutting tender foods.\n\nUseless when it comes to stabbing soon-to-be foods."
 lang["#CAMERA_DESC"] = "A broken pre-war camera. Worth its weight in scrap, only."
 lang["#CIGARETTEPACK_DESC"] = "A semi-common pack of cigarettes.\nPopular despite the moldy taste."
@@ -1357,6 +1400,7 @@ lang["#CONDUCTOR_DESC"] = "A prewar component used in certain electronic devices
 lang["#CIRCUITBOARD_DESC"] = "Board of circuits. Used in most, if not all electronics." -- Basically the electronic board
 lang["#COYOTEHIDE_DESC"] = "The hide harvested from a wasteland coyote.\n\nAgainst it's will, probably."
 lang["#DEATHCLAWHIDE_DESC"] = "The hide harvested from a Deathclaw.\n\nAgainst it's will, probably."
+lang["#YAOGUAIHIDE_DESC"] = "The thick hide of a Yaoguai. Mostly whole with some radiation burns and scars."
 lang["#CRUTCH_DESC"] = "A medical device accociated with those with broken legs. Less expensive than a wheelchair."
 lang["#DEATHCLAWEGG_DESC"] = "An unhatched deathclaw offspring.\n\nValuable as it is dangerous to harvest, many would-be hunters have died, horribly, in attempts to retrieve these guaranteed paydays."
 lang["#DEATHCLAWHAND_DESC"] = "The severed hand of a Deathclaw, an impressive and valuable hunting trophy.\n\nFor every Deathclaw Hand in possesion of a wastelander, there are an estimated five or more Deathclaws in possesion of a waster's limb. Good Luck!"
@@ -1385,7 +1429,8 @@ lang["#GUNPOWDERJUGP_DESC"] = "One full pound of smokeless pistol powder.\n\nPop
 lang["#GUNPOWDERJUGR_DESC"] = "One full pound of smokeless rifle powder.\n\nPop the lid off this baby at a reloading bench, and get to work!"
 lang["#HAMMER_DESC"] = "A study pre-war smithing hammer.\n\nUsed in the crafting of some items."
 lang["#HOTPLATE_DESC"] = "Used in science experiments as a container to boil, or provide a source of chemical reaction to other chemicals and objects."
-lang["#SOLDERKIT_DESC"] = "A kit of tools used for repairing, modifying, and creating delicate electronics." -- a tool needed for crafting more complex items
+lang["#SOLDERKIT_DESC"] = "A kit of tools used for repairing, modifying, and creating delicate electronics or metal bits." -- a tool needed for crafting more complex items
+lang["#SOLDER_DESC"] = "An easily metled alloy, used for joining metals or repairing electronics."
 lang["#SCRAPELECTRONIC_DESC"] = "Assorted small electronic components from wires to microchips.\n\nUsed in the crafting of some electronic devices."
 lang["#SENSORMOD_DESC"] = "A prewar component used in certain electronic devices.\n\nDesigned to respond to certain stimuli, like motion, or a radio signal."
 lang["#RUBBERTUBE_DESC"] = "A coil of clear, stretchy latex tubing, typically used to pump fluids in or out of patients during surgery.\n\nSurgical tubing can often be found anywhere medical procedures have taken place."
@@ -1452,6 +1497,7 @@ lang["#LOCKPICK_DESC"] = "A makeshift tool used to pick traditional locks."
 
 lang["#BOTTLECAP_NAME"] = "Bottle Cap"
 lang["#STARCAP_NAME"] = "Star Bottlecap"
+lang["#BALLISTICFIBER_NAME"] = "Ballistic Fiber"
 lang["#PREWARMONEY_NAME"] = "Pre-War Money"
 lang["#NCRMONEY_NAME"] = "NCR Dollar"
 lang["#SCRAPMETAL_NAME"] = "Scrap Metal"
@@ -1475,11 +1521,12 @@ lang["#CHARCOAL_NAME"] = "Charcoal"
 --Valuables Desc
 lang["#BOTTLECAP_DESC"] = "A cap of a soda bottle. Used as currency in many parts of the Wasteland." -- The currency. It will be recognized as money by most traders.
 lang["#BOTTLECAP_FAKE_DESC"] = "A look-a-like '''bottle cap'' fashioned from a tin can cut into a circle, crimped, and then painted.\n\nThe phrase ''Sarsaparilla Quantum'' is written on it.\n\nOnly an idiot would be foolish enough to accept this as payment." -- The currency. It will be recognized as money by most traders.
-lang["#STARCAP_DESC"] = "A Sunset Sarsaparilla bottlecap with a blue star hidden on it's underside.\n\nHuh.\n\nWeird." 
+lang["#STARCAP_DESC"] = "A Sunset Sarsaparilla bottlecap with a blue star hidden on it's underside.\n\nHuh.\n\nWeird."
+lang["#BALLISTICFIBER_DESC"] = "Ballistic fiber most commenly used in military equipment."
 lang["#PREWARMONEY_DESC"] = "Wrinkled, torn, and faded paper notes.\n\nUsed as currency before the Great War.\n\nUsed as toilet paper after."
 lang["#PREWARMONEY_FAKE_DESC"] = "Funny thing about counterfeit prewar bills, they get easier to identify the older they get.\n\nWhat's left of the ink has visibly darkened and is slightly caustic to bare skin.\n\nNot fit to wipe your ass with, even a Protectron wouldn't accept this as payment nowadays."
 lang["#NCRMONEY_DESC"] = "A paper bill similar to Pre-War money.\n\nIt features a picture of Aradesh on the face and the view of Shady Sands on the back."
-lang["#NCRMONEY_FAKE_DESC"] = "A newspaper ''bill'' ''similar'' to Pre-War money.\n\nIt features a picture of a dog (missing) on the face and a Super-Duper Mart coupon (expired) on the back."
+lang["#NCRMONEY_FAKE_DESC"] = "A newspaper ''bill'' ''similar'' to Pre-War money.\n\nIt features a picture of a dog (missing) on the face and a Super-Duper Mart coupon (expired) on the back.\n\nWho knew counterfeiting would survive the war?"
 lang["#SCRAPMETAL_DESC"] = "Metal scavenged from Pre War artifacts." -- Scrap metal will obviously be like pnrp's scrap
 lang["#SCRAPCOPPER_DESC"] = "Left over bits of copper that can be melded together to forge new items"
 lang["#SCRAPWOOD_DESC"] = "Reclaimed scrap wood from pre-war furniture and buildings.\n\nAbandoned houses are a bit easier to find than trees nowadays."
@@ -1574,6 +1621,8 @@ lang["#MOD_MUZDEV_BRAKE_SMALL_NAME"] = "Small Rifle Muzzle Brake"
 lang["#MOD_MUZDEV_FLASHHIDER_MED_NAME"] = "Medium Rifle Flashhider"
 lang["#MOD_MUZDEV_BRAKE_MED_NAME"] = "Medium Rifle Muzzle Brake"
 lang["#MOD_MUZDEV_BRAKE_LARGE_NAME"] = "Large Rifle Muzzle Brake"
+
+lang["#MOD_MUZDEV_BRAKE_HEAVY_NAME"] = "Heavy Rifle Muzzle Brake"
 
 lang["#MOD_MUZDEV_CHOKE12_IC_NAME"] = "12GA Improved Cylinder Choke"
 lang["#MOD_MUZDEV_CHOKE12_M_NAME"] = "12GA Modified Choke"
@@ -1738,9 +1787,9 @@ lang["#MOD_SIGHT_GLOW_PIPESEMI_NAME"] = "Pipegun Glow Sight"
 
 --BARREL
 lang["#MOD_BARREL_R91_SHORT_NAME"] = "Assault Rifle Short Barrel"
-lang["#MOD_BARREL_SERVICERIFLE_RIFLEPOLY_NAME"] = "Rifle Polymer Barrel Assembly  "
-lang["#MOD_BARREL_SERVICERIFLE_CARBINEWOOD_NAME"] = "Carbine Wooden Barrel Assembly"
-lang["#MOD_BARREL_SERVICERIFLE_CARBINEPOLY_NAME"] = "Carbine Polymer Barrel Assembly"
+lang["#MOD_BARREL_SERVICERIFLE_RIFLEPOLY_NAME"] = "S.Rifle Polymer Barrel Assembly"
+lang["#MOD_BARREL_SERVICERIFLE_CARBINEWOOD_NAME"] = "S.Rifle Carbine Barrel, Wood"
+lang["#MOD_BARREL_SERVICERIFLE_CARBINEPOLY_NAME"] = "S.Rifle Carbine Barrel, Polymer"
 lang["#MOD_BARREL_HRIFLE_LONG_NAME"] = "Hunting Rifle Standard Barrel"
 lang["#MOD_BARREL_HRIFLE_FLUTESHORT_NAME"] = "Hunting Rifle Short Fluted Bull Barrel"
 lang["#MOD_BARREL_HRIFLE_FLUTELONG_NAME"] = "Hunting Rifle Fluted Bull Barrel"
@@ -1953,9 +2002,9 @@ lang["#MOD_SIGHT_GLOW_PIPESEMI_DESC"] = "A replacement front and rear sight for 
 
 --BARREL
 lang["#MOD_BARREL_R91_SHORT_DESC"] = "A shorter than standard length barrel with a black painted handguard.\n\nLess common than it's full-sized counterpart, this version found use with special operations groups."
-lang["#MOD_BARREL_SERVICERIFLE_RIFLEPOLY_DESC"] = "A rifle length barrel with a weight reducing handguard made of high strength polymer."
+lang["#MOD_BARREL_SERVICERIFLE_RIFLEPOLY_DESC"] = "A rifle length barrel with a weight reducing handguard made of high strength polymer.\n\nSlightly reduces weapon weight and Save Weight."
 lang["#MOD_BARREL_SERVICERIFLE_CARBINEWOOD_DESC"] = "A carbine length barrel with a wooden handguard.\n\nCommonly issued to paratroopers, the shorter barrel is more easily packed and wielded in tight spaces."
-lang["#MOD_BARREL_SERVICERIFLE_CARBINEPOLY_DESC"] = "A carbine length barrel with a weight reducing handguard made of high strength polymer.\n\nCommonly issued to paratroopers, the shorter barrel is more easily packed and wielded in tight spaces."
+lang["#MOD_BARREL_SERVICERIFLE_CARBINEPOLY_DESC"] = "A carbine length barrel with a weight reducing handguard made of high strength polymer.\n\nCommonly issued to paratroopers, the shorter barrel is more easily packed and wielded in tight spaces.\n\nFurther reduces weapon weight and Save Weight."
 lang["#MOD_BARREL_HRIFLE_LONG_DESC"] = "An unmodified, standard length barrel for a Hunting Rifle.\n\nThank god some wasteland bubba hasn't taken a hacksaw to it."
 lang["#MOD_BARREL_HRIFLE_FLUTESHORT_DESC"] = "A shortened Fluted Bull Barrel for the Hunting Rifle.\n\nShortened for use in closer quarters.\n\nThe added mass and surface area of the bull barrel yields a tighter group downrange than its normal counterpart, and the slab-side fluting helps to reduce the added weight without compromising the harmonics of the bullets flight path."
 lang["#MOD_BARREL_HRIFLE_FLUTELONG_DESC"] = "A Fluted bull barrel for the Hunting Rifle.\n\nThe added mass and surface area of the bull barrel yields a tighter group downrange than its normal counterpart, and the slab-side fluting helps to reduce the added weight without compromising the harmonics of the bullets flight path."
@@ -2051,9 +2100,9 @@ lang["#MOD_MAG_12.7CARBINE10_DESC"] = "An extended magazine for the 12.7mm Thump
 
 
 --STOCK/GRIP
-lang["#MOD_STOCK_R91_DESC"] = "A  wooden stock for the Assault Rifle.\n\nStandard issue with every rifle, many have fallen off or become lost."
-lang["#MOD_STOCK_A2_DESC"] = "A black colored rifle stock made of space age polymers.\n\nReduces weight without compromising component strength."
-lang["#MOD_STOCK_CAR15_DESC"] = "A black colored telescoping stock made of space age polymers.\n\nPopular with Paratroopers, this stock easily collpases and extendeds to fit different users and situations."
+lang["#MOD_STOCK_R91_DESC"] = "A wooden stock for the Assault Rifle.\n\nStandard issue with every rifle, many have fallen off or become lost."
+lang["#MOD_STOCK_A2_DESC"] = "A black colored rifle stock made of space age polymers.\n\nSlightly reduces weapon weight and Save Weight."
+lang["#MOD_STOCK_CAR15_DESC"] = "A black colored telescoping stock made of space age polymers.\n\nPopular with Paratroopers, this stock easily collpases and extendeds to fit different users and situations.\n\nFurther reduces weapon weight and Save Weight."
 lang["#MOD_STOCK_HRIFLE_FULL_DESC"] = "A weathered but solid wooden stock for the Hunting Rifle.\n\nUnfortunately, the recoil pad has long since hardened and crumbled away.\n\nOuch."
 lang["#MOD_STOCK_HRIFLE_FULLRECOIL_DESC"] = "A well preserved wooden stock for the Hunting Rifle.\n\nThe previous owners must have taken loving care of this rifle, even after 150+ years the recoil pad is still spongey!"
 lang["#MOD_STOCK_HRIFLE_SYNTH_DESC"] = "A light weight Synthetic ''grip'' for the Hunting Rifle.\n\nFor unknown reasons, some jet-sucking imbicile sawed through this once perfectly good stock.\n\nAt least it isn't too heavy to carry."
@@ -2069,7 +2118,7 @@ lang["#MOD_GRIP_44REVOLVER_DESC"] = "A well preserved rubber grip for the .44 Re
 lang["#MOD_GRIP_CMAGNUM_DESC"] = "A well preserved rubber grip for the Combat Magnum.\n\nSlightly increases accuracy down range while reducing accuracy loss."
 lang["#MOD_STOCK_DKS_WOOD_DESC"] = "A sturdy wooden stock for the DKS-501 Sniper Rifle.\n\nHeavy but solid, this was a common factory offering for civilian version of the rifle."
 lang["#MOD_STOCK_DKS_KIT_DESC"] = "A synthetic stock for the DKS-501 Sniper Rifle.\n\nA built-in maintenace kit stored in the butt of the stock increases weapon life substantially."
-lang["#MOD_STOCK_DKS_LIGHT_DESC"] = "A light weight synthetic stock for the DKS-501 Sniper Rifle.\n\nSubstantially reduces weapon weight, at the cost of less recoil reduction."
+lang["#MOD_STOCK_DKS_LIGHT_DESC"] = "A light weight synthetic stock for the DKS-501 Sniper Rifle.\n\nSubstantially reduces weapon weight and Save Weight."
 lang["#MOD_STOCK_BGUN_DESC"] = "A sturdy wooden stock for the Brush Gun.\n\nDecreases recoil, accuracy loss after firing, and total strength need to use effectively.\n\nThe extra weight is well worth an unbroken wrist."
 lang["#MOD_STOCK_TOMMY_DESC"] = "A sturdy wooden stock for the .45 Auto Submachine Gun.\n\nReduces recoil, and accuracy loss while firing.\n\nWho knew people actually sholdered these things?"
 lang["#MOD_STOCK_AKM_GRIP_DESC"] = "An improved rubber grip for the Soviet Rifle.\n\nSlightly decreases recoil, and slightly decreases accuracy lost after firing.\n\nI guess it weighs less than a stock?"
