@@ -3,16 +3,16 @@ local lang = RSRG.Languages["ru"]
 lang["#WIP"] = "[WIP]"
 
 --Armor Tiers
-lang["#ARMOR_STANDARD"] = "Лёгкий"
-lang["#ARMOR_STURDY"] = "Крепкий"
-lang["#ARMOR_HEAVY"] = "Тяжёлый"
+lang["#ARMOR_STANDARD"] = "лёгкая"
+lang["#ARMOR_STURDY"] = "крепкая"
+lang["#ARMOR_HEAVY"] = "тяжёлая"
 
 -- Armor Slots
-lang["#ARMOR_TORSO"] = "Часть груди"
-lang["#ARMOR_LARM"] = "Левая рука"
-lang["#ARMOR_RARM"] = "Правая рука"
-lang["#ARMOR_LLEG"] = "Левая нога"
-lang["#ARMOR_RLEG"] = "Правая нога"
+lang["#ARMOR_TORSO"] = "часть груди"
+lang["#ARMOR_LARM"] = "левая рука"
+lang["#ARMOR_RARM"] = "правая рука"
+lang["#ARMOR_LLEG"] = "левая нога"
+lang["#ARMOR_RLEG"] = "правая нога"
 lang["#ARMOR_HELMET"] = "Шлем"
 
 lang["#PROTECTS_TORSO"] = "\nЗащищает торс"
