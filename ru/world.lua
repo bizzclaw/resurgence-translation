@@ -44,7 +44,7 @@ lang["#TERMINAL_DEFAULT"] = "Мой компьютер"
 
 -- Factory Related
 lang["#FACTORY_GUIDELINES"] = "Руководство по использованию"
-lang["#FACTORY_CHECKDISTRIBUTOR"] = "Проверьте распределители питания"
+lang["#FACTORY_CHECKDISTRIBUTOR"] = "Проверить распределители питания"
 lang["#FACTORY_DISTRIBUTORINFO"] = [[
 	Все распределители электроэнергии будут вносить свой вклад в производительность завода. Регулярно проводите техническое обслуживание, так как распределители со временем будут изнашиваться.
 
@@ -60,13 +60,13 @@ lang["#FACTORY_TOGGLEENABLE"] = "Вкл/Выкл"
 lang["#FACTORY_NOPOWER"] = "Нет питания"
 lang["#FACTORY_SHUTTINGDOWN"] = "Выключение"
 lang["#FACTORY_POWERINGON"] = "Включение"
-lang["#FACTORY_CHECKCHARGE"] = "Проверить текущую емкость"
-lang["#FACTORY_CURRENTCHARGE"] = "Текущая емкость"
+lang["#FACTORY_CHECKCHARGE"] = "Проверить текущую ёмкость"
+lang["#FACTORY_CURRENTCHARGE"] = "Текущая ёмкость"
 lang["#FACTORY_LOADMINERAL"] = "Загрузить $mineral"
 lang["#FACTORY_NOTENOUGHMINERAL"] = "У вас нет ни одного $mineral для загрузки."
-lang["#FACTORY_CHARGEFULL"] = "Загрузка больше будет превышать емкость."
+lang["#FACTORY_CHARGEFULL"] = "Загрузка больше будет превышать ёмкость."
 lang["#FACTORY_RECIEVINGCHARGE"] = "Открытие хоппера."
-lang["#FACTORY_REMOTEACCESS"] = "Удаленный доступ к машине."
+lang["#FACTORY_REMOTEACCESS"] = "Удалённый доступ к машине."
 
 
 -- Power Generator
