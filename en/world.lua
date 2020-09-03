@@ -2,6 +2,32 @@ local lang = RSRG.Languages["en"]
 
 lang["#CRIMES_NONE"] = "No Crimes"
 
+-- Regions
+lang["#REGION_NOTHERNCALIFORNIA"] = "Northern California"
+lang["#REGION_NOTHERNCALIFORNIA_CANYONENTRANCE"] = "Canyon Entrance"
+
+lang["#REGION_MOJAVE"] = "Northern Mojave Wasteland"
+lang["#REGION_MOJAVE_EAST"] = "Eastern Outpost"
+lang["#REGION_MOJAVE_WEST"] = "Western Outpost"
+
+lang["#REGION_MOUNTAINPASS"] = "Mountain Pass"
+lang["#REGION_MOUNTAINPASS_NORTH"] = "Northern Pass"
+lang["#REGION_MOUNTAINPASS_SOUTH"] = "Camp Willow"
+
+lang["#REGION_ASHLANDS"] = "The Ash Lands"
+lang["#REGION_ASHLANDS_OUTPOST"] = "Trading Outpost"
+lang["#REGION_ASHLANDS_CITY"] = "Dead City"
+
+lang["#REGION_YOLLABOLLY"] = "Yolla Bolly Mountain Range"
+lang["#REGION_YOLLANBOLLY_CLIFFCONVY"] = "Abandoned Convoy"
+lang["#REGION_YOLLANBOLLY_CLIFFEDGE"] = "Cliff Edge"
+lang["#REGION_YOLLANBOLLY_TUNNELTRAILER"] = "Tunnel Trailer"
+lang["#REGION_YOLLANBOLLY_TOWN"] = "Cliffside Town"
+
+lang["#REGION_DEADESTUARY"] = "Dead Estuary"
+lang["#REGION_DEADESTUARY_NORTH"] = "Northern Boat"
+lang["#REGION_DEADESTUARY_SOUTH"] = "Southern Camp"
+
 -- Factions
 lang["#FACTION_NCR_NAME"] = "New California Republic"
 lang["#FACTION_NCR_DESC"] = "The New California Republic, or NCR, started as a small town in Northern California. Now they are a large, democratic federation that spralls across the southern west coast."
@@ -13,7 +39,13 @@ lang["#FACTION_NEWRENO_NAME"] = "New Reno Crime Families"
 lang["#FACTION_NEWRENO_DESC"] = "'The Biggest Little City in the World', New Reno is a cesspool of sin run by a syndicate of four families; The Mordinos, the Bishops, the Wrights and the Salvatores, each vying for control. They might not be working together, but they've all got a common interest in keeping things nice and calm and open for business. Troublemakers usually don't last long."
 
 lang["#FACTION_CRIMSONCARAVAN_NAME"] = "Crimson Caravan Company"
-lang["#FACTION_CRIMSONCARAVAN_DESC"] = "The Crimson Caravan Company is one of, if not the singular largest caravan house in New California and beyond with a CCC branch in nearly every large town in New California."
+lang["#FACTION_CRIMSONCARAVAN_DESC"] = "The Crimson Caravan Company is one of, if not the singular largest caravan house in New California and beyond with a CCC branch in nearly every large town in the territory."
+
+lang["#FACTION_CORPORATION_NAME"] = "Cipher"
+lang["#FACTION_CORPORATION_DESC"] = "Cipher, more known as 'The Corporation', are an highly secretive organised group of criminals from the north. They deal in anything most lawful types would turn their heads at if it'll result in a payday- slave trading, paid murder, sabotage, you name it."
+
+lang[""] = ""
+lang[""] = ""
 -- Laws
 lang["#LAW_MURDER_NAME"] = "Murder"
 lang["#LAW_MURDER_DESC"] = "Unlawful killing of another individual"
