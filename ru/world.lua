@@ -2,6 +2,32 @@ local lang = RSRG.Languages["ru"]
 
 lang["#CRIMES_NONE"] = "Нет преступлений"
 
+-- Regions
+lang["#REGION_NOTHERNCALIFORNIA"] = "Северная Калифорния"
+lang["#REGION_NOTHERNCALIFORNIA_CANYONENTRANCE"] = "Вход в каньон"
+
+lang["#REGION_MOJAVE"] = "Северные Пустоши Мохаве"
+lang["#REGION_MOJAVE_EAST"] = "Восточный форпост"
+lang["#REGION_MOJAVE_WEST"] = "Западный форпост"
+
+lang["#REGION_MOUNTAINPASS"] = "Горный перевал"
+lang["#REGION_MOUNTAINPASS_NORTH"] = "Северный перевал"
+lang["#REGION_MOUNTAINPASS_SOUTH"] = "Лагерь Уиллоу"
+
+lang["#REGION_ASHLANDS"] = "Эш Лэнд"
+lang["#REGION_ASHLANDS_OUTPOST"] = "Торговый форпост"
+lang["#REGION_ASHLANDS_CITY"] = "Мёртвый город"
+
+lang["#REGION_YOLLABOLLY"] = "Горный хребет Йолла Болли"
+lang["#REGION_YOLLANBOLLY_CLIFFCONVY"] = "Заброшенный конвой"
+lang["#REGION_YOLLANBOLLY_CLIFFEDGE"] = "Утёса"
+lang["#REGION_YOLLANBOLLY_TUNNELTRAILER"] = "Туннельный трейлер"
+lang["#REGION_YOLLANBOLLY_TOWN"] = "Клиффсайд"
+
+lang["#REGION_DEADESTUARY"] = "Мёртвое устье"
+lang["#REGION_DEADESTUARY_NORTH"] = "Северная лодка"
+lang["#REGION_DEADESTUARY_SOUTH"] = "Южный лагерь"
+
 -- Factions
 lang["#FACTION_NCR_NAME"] = "Новая Калифорнийская Республика"
 lang["#FACTION_NCR_DESC"] = "Новая Калифорнийская Республика, или НКР, начался как маленький городок в Северной Калифорнии. Теперь они представляют собой большую демократическую федерацию, которая распространилась по всему юго-западному побережью."
@@ -13,7 +39,13 @@ lang["#FACTION_NEWRENO_NAME"] = "Семьи Нью-Рено Крайм"
 lang["#FACTION_NEWRENO_DESC"] = "'Самый большой маленький город в мире', Нью-Рено - выгребная яма греха, управляемая синдикатом из четырёх семей; Мординос, Епископы, Райтс и Сальваторе борются за контроль. Возможно, они не работают вместе, но все они заинтересованы в том, чтобы всё было хорошо, спокойно и открыто для бизнеса. Нарушители обычно не долго живут."
 
 lang["#FACTION_CRIMSONCARAVAN_NAME"] = "Компания «Красный караван»"
-lang["#FACTION_CRIMSONCARAVAN_DESC"] = "Компания «Красный караван» является одним из, если не единственным крупнейшим караванным домом в Новой Калифорнии и за его пределами, с филиалом КХЦ почти в каждом крупном городе Новой Калифорнии."
+lang["#FACTION_CRIMSONCARAVAN_DESC"] = "Компания «Красный караван» является одним из, если не единственным крупнейшим караванным домом в Новой Калифорнии и за его пределами, с филиалом КХЦ почти в каждом крупном городе на территории."
+
+lang["#FACTION_CORPORATION_NAME"] = "Шыфер"
+lang["#FACTION_CORPORATION_DESC"] = "Шыфер, более известный как 'Корпорация', представляет собой очень засекреченную организованную группу преступников с севера. Они имеют дело со всем, на что большинство законных людей повернет голову, если это приведет к получению добычи - работорговля, заказное убийство, саботаж и т.д.."
+
+lang[""] = ""
+lang[""] = ""
 -- Laws
 lang["#LAW_MURDER_NAME"] = "Убийство"
 lang["#LAW_MURDER_DESC"] = "Незаконное убийство другого лица"
