@@ -54,6 +54,7 @@ lang["#PIP_SPECIAL"] = "SPECIAL"
 lang["#PIP_SKILLS"] = "SKILLS"
 lang["#PIP_PERKS"] = "PERKS"
 
+lang["#PIP_CONTRACTS"] = "Contracts"
 lang["#PIP_REPUTATION"] = "REPUTATION"
 lang["#PIP_CRIMES"] = "CRIMES"
 lang["#PIP_STATISTICS"] = "STATISTICS"
@@ -205,17 +206,34 @@ lang["#GOODRAD4_NAME"] = "Maximum Radiation Dosage"
 ╚═╝  ╚═╝╚═╝╚══════╝╚═╝     ╚═╝╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝
 ]]
 
-
+--Poison
 lang['#POISON_GREENGECKO'] = "Poison Spit"
 lang['#VENOM_RADSCORPION'] = "Radscorpion Sting"
+--Disease minor
 lang['#DISEASE_JUMBLES'] = "The Jumbles"
 lang['#DISEASE_LIMPWRIST'] = "Limp Wrist"
 lang['#DISEASE_FUMIGATIONS'] = "Fumigations"
 lang['#DISEASE_VAPORS'] = "The Vapors"
-lang['#DISEASE_WATERBRAIN'] = "Water Brain"
-lang['#DISEASE_CALAMITOUS'] = "Calamitous Rash"
+lang['#DISEASE_WATERBRAIN'] = "Brain Congestion"
 lang['#DISEASE_MYOPIA'] = "Myopia"
+lang['#DISEASE_BINFECTION'] = "Bacterial Infection"
+lang['#DISEASE_HEADACHE'] = "Bad Headache"
+lang['#DISEASE_CROTCHROT'] = "Crotch Rot"
+lang['#DISEASE_TWITCHLIPS'] = "Twitch Lips"
+lang['#DISEASE_BRONCHITIS'] = "Bronchitis"
+lang['#DISEASE_COUGH'] = "Light Cough"
+--Disease Major
+lang['#DISEASE_BIGWEAKNESS'] = "The Weakness"
+lang['#DISEASE_BRAINCONGESTION'] = "Brain Rot"
+lang['#DISEASE_SLURS'] = "Slurs"
+lang['#DISEASE_GLASSYEYES'] = "Glassy Eyes"
+lang['#DISEASE_TARLUNG'] = "Tar Lung"
+lang['#DISEASE_CRUNCH'] = "Crunch Cramp"
+lang['#DISEASE_CALAMITOUS'] = "Calamitous Rash"
+lang['#DISEASE_BADLUCK'] = "Bad Luck"
+
 lang['#DISEASE_BONEITIS'] = "Bonitis"
+--Effect
 lang['#BITE_GOLDGECKO'] = "Radioactive Bite"
 lang['#MELEE_REAVER'] = "Reaver's Embrace"
 lang['#MELEE_GLOWING'] = "One's Glow"
@@ -247,6 +265,8 @@ lang["#INV_ADDED"] = "$item Added"
 lang["#INV_REMOVED"] = "$item Removed"
 lang["#EQUIPDENY_NOSLOTS"] = "This is not something you can equip."
 lang["#EQUIPDENY_ANIMSET"] = "This is not fitted for you."
+
+lang["#EIGHTBALL_REMOVED"] = "OUTLOOK: NOT SO GREAT."
 
 --PARTY
 -- new feature, $person will be automatically replaced with subject's name
@@ -286,11 +306,6 @@ lang["#UI_ACTIVATE"] = "Activate"
 lang["#UI_HELPUP"] = "(Hold) Help Up"
 lang["#UI_HELPINGPLAYER"] = "Recovering..."
 lang["#UI_UNDOWNPROMPT"] = "[Move] Get Back Up"
-
---boltPrompt
-lang["#UI_COCKGUN"] = "Cock Gun"
-lang["#UI_CHARGEBOLT"] = "Charge Bolt"
-lang["#UI_CHARGEHAMMER"] = "Charge Hammer"
 
 --Tutorial
 lang["#TUTORIAL_OPENINV"] = "Press @+score to open your PDA."
@@ -350,6 +365,7 @@ lang["#CRAFTING_WORKBENCH"] = "Workbench"
 lang["#CRAFTING_MODBENCH"] = "Mod Bench"
 lang["#CRAFTING_TOOL"] = "Tool"
 lang["#UI_CRAFT"] = "Craft"
+lang["#UI_PURCHASE"] = "Purchase"
 lang["#UI_TAKE"] = "Take"
 lang["#UI_STORAGE"] = "Storage"
 lang["#UI_NOMOD"] = "No Mod"
@@ -495,6 +511,14 @@ lang["#SETTING_TOGGLEAIM"] = "Weapon Toggle Aim"
 lang["#SETTING_CROSSHAIR"] = "Enable Crosshair"
 lang["#SETTING_RADIO_EXTRA"] = "Extra Radio Stations (not lore friendly)"
 
+-- Mission Board
+lang["#UI_ACCEPTCONTRACT"] = "Accept Contract: $contractName ?"
+
+
+-- Contracts
+lang["#MISSION_TURNIN"] = "Turn In"
+lang["#MISSION_COMPLETE"] = "Complete"
+lang["#1ISSION_KILLS"] = "Kills"
 --
 
 --If there's any items you know I'll add, feel free to add them yourself and write their description. Heck add anything you like. Just make sure it follows the format here. Also, it MUST have a # in front of the name and the name must be all caps.
