@@ -55,6 +55,7 @@ lang["#PIP_SPECIAL"] = "SPECIAL"
 lang["#PIP_SKILLS"] = "НАВЫКИ"
 lang["#PIP_PERKS"] = "СПОСОБНОСТИ"
 
+lang["#PIP_CONTRACTS"] = "Контракты"
 lang["#PIP_REPUTATION"] = "РЕПУТАЦИЯ"
 lang["#PIP_CRIMES"] = "ПРЕСТУПЛЕНИЯ"
 lang["#PIP_STATISTICS"] = "СТАТИСТИКА"
@@ -205,19 +206,36 @@ lang["#GOODRAD4_NAME"] = "Макс. дозировка излучения"
 ╚═╝  ╚═╝╚═╝╚══════╝╚═╝     ╚═╝╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝
 ]]
 
-
+--Poison
 lang['#POISON_GREENGECKO'] = "Ядовитый плевок"
 lang['#VENOM_RADSCORPION'] = "Жало радскорпиона"
+--Disease minor
 lang['#DISEASE_JUMBLES'] = "Путаница"
 lang['#DISEASE_LIMPWRIST'] = "Сломано запястье"
 lang['#DISEASE_FUMIGATIONS'] = "Дезинфекция"
 lang['#DISEASE_VAPORS'] = "Испарения"
-lang['#DISEASE_WATERBRAIN'] = "Водянка головного мозга"
-lang['#DISEASE_CALAMITOUS'] = "Пагубная сыпь"
+lang['#DISEASE_WATERBRAIN'] = "Скопление жидкости в мозге"
 lang['#DISEASE_MYOPIA'] = "Близорукость"
+lang['#DISEASE_BINFECTION'] = "Bacterial Infection"
+lang['#DISEASE_HEADACHE'] = "Сильная головная боль"
+lang['#DISEASE_CROTCHROT'] = "Раздражение в паху"
+lang['#DISEASE_TWITCHLIPS'] = "Подергивание губ"
+lang['#DISEASE_BRONCHITIS'] = "Бронхит"
+lang['#DISEASE_COUGH'] = "Легкий кашель"
+--Disease Major
+lang['#DISEASE_BIGWEAKNESS'] = "Слабость"
+lang['#DISEASE_BRAINCONGESTION'] = "Гниение мозга"
+lang['#DISEASE_SLURS'] = "Неразборчивость"
+lang['#DISEASE_GLASSYEYES'] = "Стеклянные глаза"
+lang['#DISEASE_TARLUNG'] = "Деготь легкого"
+lang['#DISEASE_CRUNCH'] = "Хрустящие судороги"
+lang['#DISEASE_CALAMITOUS'] = "Пагубная сыпь"
+lang['#DISEASE_BADLUCK'] = "Невезение"
+
 lang['#DISEASE_BONEITIS'] = "Бонеитис"
+--Effect
 lang['#BITE_GOLDGECKO'] = "Радиоактивный укус"
-lang['#MELEE_REAVER'] = "Объятия рейдера"
+lang['#MELEE_REAVER'] = "Хватка ривера"
 lang['#MELEE_GLOWING'] = "Свечение"
 
 --Notifications
@@ -248,6 +266,9 @@ lang["#INV_REMOVED"] = "$item - удалено"
 lang["#EQUIPDENY_NOSLOTS"] = "Это не то, что вы можете надеть."
 lang["#EQUIPDENY_ANIMSET"] = "Это не подходит для вас."
 
+lang["#EIGHTBALL_REMOVED"] = "ПРОГНОЗЫ: НЕ ТАКИЕ ПРЕКРАСНЫЕ."
+
+--PARTY
 -- new feature, $person will be automatically replaced with subject's name
 lang["#PARTY_HASINVITED"] = "$person пригласил вас присоединиться к их группе."
 lang["#PARTY_LEAVE"] = "Выйти из группы"
@@ -285,11 +306,6 @@ lang["#UI_ACTIVATE"] = "Активировать"
 lang["#UI_HELPUP"] = "(Удерж.) Помочь"
 lang["#UI_HELPINGPLAYER"] = "Восстановление..."
 lang["#UI_UNDOWNPROMPT"] = "[Двигайся] Вернуться обратно"
-
---boltPrompt
-lang["#UI_COCKGUN"] = "Взведение оружия"
-lang["#UI_CHARGEBOLT"] = "Заряд болта"
-lang["#UI_CHARGEHAMMER"] = "Заряд молота"
 
 --Tutorial
 lang["#TUTORIAL_OPENINV"] = "Нажмите @+score чтобы открыть свой КПК."
@@ -349,6 +365,7 @@ lang["#CRAFTING_WORKBENCH"] = "Верстак"
 lang["#CRAFTING_MODBENCH"] = "Верстак для модификаций"
 lang["#CRAFTING_TOOL"] = "Инструмент"
 lang["#UI_CRAFT"] = "Создать"
+lang["#UI_PURCHASE"] = "Приобрести"
 lang["#UI_TAKE"] = "Взять"
 lang["#UI_STORAGE"] = "Хранилище"
 lang["#UI_NOMOD"] = "Нет модификации"
@@ -491,6 +508,14 @@ lang["#SETTING_TOGGLEAIM"] = "Залипание прицеливания"
 lang["#SETTING_CROSSHAIR"] = "Включить прицеливание"
 lang["#SETTING_RADIO_EXTRA"] = "Дополнительные радиостанции (не относятся к сюжету)"
 
+-- Mission Board
+lang["#UI_ACCEPTCONTRACT"] = "Принять контракт: $contractName ?"
+
+
+-- Contracts
+lang["#MISSION_TURNIN"] = "Turn In"
+lang["#MISSION_COMPLETE"] = "Complete"
+lang["#1ISSION_KILLS"] = "Kills"
 --
 
 --If there's any items you know I'll add, feel free to add them yourself and write their description. Heck add anything you like. Just make sure it follows the format here. Also, it MUST have a # in front of the name and the name must be all caps.

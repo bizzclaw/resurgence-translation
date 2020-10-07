@@ -6,27 +6,29 @@ lang["#CRIMES_NONE"] = "Нет преступлений"
 lang["#REGION_NOTHERNCALIFORNIA"] = "Северная Калифорния"
 lang["#REGION_NOTHERNCALIFORNIA_CANYONENTRANCE"] = "Вход в каньон"
 
-lang["#REGION_MOJAVE"] = "Северные Пустоши Мохаве"
-lang["#REGION_MOJAVE_EAST"] = "Восточный форпост"
-lang["#REGION_MOJAVE_WEST"] = "Западный форпост"
+lang["#REGION_MOJAVE"] = "Соляные скважины"
+lang["#REGION_MOJAVE_EAST"] = "США 50, восток"
+lang["#REGION_MOJAVE_WEST"] = "США 50, запад"
 
 lang["#REGION_MOUNTAINPASS"] = "Горный перевал"
 lang["#REGION_MOUNTAINPASS_NORTH"] = "Северный перевал"
 lang["#REGION_MOUNTAINPASS_SOUTH"] = "Лагерь Уиллоу"
 
 lang["#REGION_ASHLANDS"] = "Эш Лэнд"
-lang["#REGION_ASHLANDS_OUTPOST"] = "Торговый форпост"
+lang["#REGION_ASHLANDS_OUTPOST"] = "Палатка оружия"
 lang["#REGION_ASHLANDS_CITY"] = "Мёртвый город"
 
 lang["#REGION_YOLLABOLLY"] = "Горный хребет Йолла Болли"
-lang["#REGION_YOLLANBOLLY_CLIFFCONVY"] = "Заброшенный конвой"
-lang["#REGION_YOLLANBOLLY_CLIFFEDGE"] = "Утёса"
-lang["#REGION_YOLLANBOLLY_TUNNELTRAILER"] = "Туннельный трейлер"
-lang["#REGION_YOLLANBOLLY_TOWN"] = "Клиффсайд"
+lang["#REGION_YOLLABOLLY_CLIFFCONVY"] = "Заброшенный конвой"
+lang["#REGION_YOLLABOLLY_CLIFFEDGE"] = "Утёса"
+lang["#REGION_YOLLABOLLY_TUNNELTRAILER"] = "Туннельная баррикада"
+lang["#REGION_YOLLABOLLY_TOWN"] = "Клиффсайд"
 
 lang["#REGION_DEADESTUARY"] = "Мёртвое устье"
 lang["#REGION_DEADESTUARY_NORTH"] = "Северная лодка"
-lang["#REGION_DEADESTUARY_SOUTH"] = "Южный лагерь"
+lang["#REGION_DEADESTUARY_SW"] = "Лагерь контрабандистов"
+lang["#REGION_DEADESTUARY_NW"] = "Северо-западная хижина"
+lang["#REGION_DEADESTUARY_E"] = "Передвижная флотилия"
 
 -- Factions
 lang["#FACTION_NCR_NAME"] = "Новая Калифорнийская Республика"
@@ -132,15 +134,30 @@ lang["#AMMOFACTORY_DESC"] = [[
 ]]
 lang["#AMMOFACTORY_PRESS_NAME"] = "Гидравлический пресс CHME-1000JL"
 
+-- New Format for terminals, put the title of the button in [brackets]
+
 -- Ineu Mine
 
-lang["#INEUMINE_NAME"] = "Горный участок Прометей"
+lang["#INEUMINE_NAME"] = "Горный участок 'Прометей'"
 lang["#INEUMINE_DESC"] = [[
-	Добро пожаловать в Promethus Mine. Большинство операций на этих заводах были автоматизированы благодаря RobCo, для поддержания работы требуется минимальный вклад.
+	Добро пожаловать в шахту 'Прометей'. Большинство операций на этих заводах были автоматизированы благодаря RobCo, для поддержания работы требуется минимальный вклад.
 
-	Этот завод оснащен двумя автоматизированными шахтными установками, расположенными на месторождениях меди и свинца. 
+	Этот завод оснащён двумя автоматизированными шахтными установками, расположенными на месторождениях меди и свинца.
 
 	Чтобы предотвратить дальнейшие сбои и простои, вся тяжелая техника питается от собственного генератора Fusion General Atomics, исключая зависимость от местной электросети.
 
 	Чтобы обеспечить соответствие производства стандартам RobCo, убедитесь, что генератор снабжен ядерным материалом, а распределительные устройства должным образом обслуживаются. Спасибо и удачного дня RobCo!
 ]]
+
+-- Ineu Gorgeous Greg's Terminal
+lang["#INEU_GREGSETUP_NAME"] = "Терминал горного мастера 'Прометей'"
+lang["#INEU_GREGSETUP_DESC"] = [[
+[ТЕРМИНАЛ ГРЕГА]
+Список дел
+-Выяснить, как работает этот чёртов терминал, и правильно его настроить.
+-Выполнить свою квоту за месяц. 4/5.
+-Найти способ заставить эти телевизоры снова заработать.
+]]
+
+
+RELOADWEAPONS = true
