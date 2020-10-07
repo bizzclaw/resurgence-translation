@@ -129,7 +129,9 @@ lang["#FADEDBLUEJACKET_NAME"] = "Denim Jacket"
 lang["#WINTERJACKET_NAME"] = "Winter Jean Jacket"
 lang["#YELLOWRAGS_NAME"] = "Yellow Cotton Explorer's Outfit"
 lang["#TRAWLER_NAME"] = "Fishing Overalls"
-lang["#FISHERMAN_NAME"] = "Plaid Shirt and Overalls"
+lang["#FISHERMAN1_NAME"] = "Red Plaid Shirt and Overalls"
+lang["#FISHERMAN2_NAME"] = "Grey Plaid Shirt and Overalls"
+lang["#FISHERMAN3_NAME"] = "Brown Plaid Shirt and Overalls"
 lang["#FARMHAND_NAME"] = "Wasteland Duster"
 lang["#GATHERER_NAME"] = "Duct Taped Outfit"
 lang["#DRIFTER_NAME"] = "Drifter Outfit"
@@ -337,7 +339,9 @@ lang["#FADEDBLUEJACKET_DESC"] = "A set of jeans, button-up shirt, and a denim ja
 lang["#WINTERJACKET_DESC"] = "A set of jeans, button-up shirt, and a denim jacket. The Wasteland's best casual wear for long walks."
 lang["#YELLOWRAGS_DESC"] = "A few small bags and a chain for clipping miscellaneous items or objects to.\n The foundation of this outfit is a basic set of pants and a yellow cotton shirt."
 lang["#TRAWLER_DESC"] = "Overalls, a cotton turtleneck, and wellie boots.\n Great for standing in waist-high water for extended periods. A few pouches for carrying small items line the belt."
-lang["#FISHERMAN_DESC"] = "A plaid shirt, wellies, and waterproofed overalls for long trips in waist-high water."
+lang["#FISHERMAN1_DESC"] = "A plaid shirt, wellies, and waterproofed overalls for long trips in waist-high water."-- WIP
+lang["#FISHERMAN2_DESC"] = "A plaid shirt, wellies, and waterproofed overalls for long trips in waist-high water."-- WIP
+lang["#FISHERMAN3_DESC"] = "A plaid shirt, wellies, and waterproofed overalls for long trips in waist-high water."-- WIP
 lang["#FARMHAND_DESC"] = "A set of clothes comprised of heavy gloves, shoes, jeans, and a large duster for beating the heat out in the Wastes."
 lang["#GATHERER_DESC"] = "A jacket, shirt, jeans, and shoes all refurbished from the ground up with liberal use of tape and minimal sewing."
 lang["#RRJUMPSUIT_DESC"] = "A Red and Blue signature Red Rocket Mechanic Jumpsuit.\n Suitable for dirt environments where the user expects to deal with full-body stains or grease and oil mess."
@@ -543,7 +547,8 @@ lang["#TOMMYGUN_NAME"] = ".45 Auto SMG"
 --heavy
 lang["#MINIGUN_NAME"] = "5mm Minigun"
 lang["#VINDICATOR_NAME"] = "Vindicator Minigun"
---toy
+--other
+lang["#SYRINGER_NAME"] = "Dart Gun"
 
 --explosive
 lang["#APW_NAME"] = "25mm APW"
@@ -612,7 +617,9 @@ lang["#TOMMYGUN_DESC"] = "The .45 Auto SMG is a relatively robust gun that offer
 --heavy
 lang["#MINIGUN_DESC"] = "A Rockwell CZ53 Personal Minigun. When the Great War struck, it was already an aging design and was slowly being replaced by the more advanced CZ57 Avenger minigun."
 lang["#VINDICATOR_DESC"] = "The German Rheinmetall AG company created the ultimate minigun.\n\nThe Vindicator throws 4.7MM caseless down its six carbon-polymer barrels. \n\nAs the pinnacle of Teutonic engineering skill, it is the ultimate hand-held weapon.\n\n[WORK IN PROGRESS, CURRENT VERSION IS A PLACEHOLDER PENDING ADDITIONAL ASSESTS]"
---toy
+--other
+lang["#SYRINGER_DESC"] = "An improvised, but effective weapon. Fashioned from leftover scrap and prewar piping, it was designed in the image of prewar ''tranquilizer guns''.\n\nCan be used offensively or as a support weapon, depending on the type of darts chosen by user."
+
 --explosive
 lang["#APW_DESC"] = "The 25mm anti-personnel weapon is a semi-automatic grenade launcher.\n\nDesigned to give a soldier the death-dealing capability of vehicle mounted grenade machineguns in a more portable package."
 lang["#FATMAN_DESC"] = "M-42 Tactical Nuclear Catapult is a shoulder mounted crossbow fitted to launch Mini-Nukes, small atomic warheads.\nDevastating against all targets, if you can find any ammo for it."
@@ -651,17 +658,17 @@ lang["#38_NAME"] = ".38 Special"
 lang["#38_ND_NAME"] = "Old .38 Special"
 lang["#357_NAME"] = ".357 Mag LRN"
 lang["#357_HP_NAME"] = ".357 Mag JSP"
-lang["#357_HC_NAME"] = ".357 Mag+P HCLFN"
+lang["#357_HC_NAME"] = ".357 Mag +P HCLFN"
 lang["#357_ND_NAME"] = "Old .357 Mag"
 lang["#44_NAME"] = ".44 Mag LRN"
 lang["#44_SPL_NAME"] = ".44 Special"
 lang["#44_HP_NAME"] = ".44 Mag JSP"
-lang["#44_HC_NAME"] = ".44 Mag+P HCLFN"
+lang["#44_HC_NAME"] = ".44 Mag +P HCLFN"
 lang["#45ACP_NAME"] = ".45 Auto"
 lang["#45ACP_HP_NAME"] = ".45 Auto HP"
 lang["#45ACP_+P_NAME"] = ".45 Auto +P"
 lang["#12.7MM_NAME"] = "12.7mm LFN"
-lang["#12.7MM_AP_NAME"] = "12.7mm HCLFN"
+lang["#12.7MM_AP_NAME"] = "12.7mm +P HCLFN"
 lang["#12.7MM_HP_NAME"] = "12.7mm SCHP"
 ---RIFLE
 lang["#22LR_NAME"] = ".22LR"
@@ -707,6 +714,7 @@ lang["#FUELHOMEMADE_NAME"] = "Improvised Flamer Fuel"
 lang["#DART_NAME"] = "Dart"
 lang["#DART_STIM_NAME"] = "Dart, Stimpak"
 lang["#DART_RADSCOPRION_NAME"] = "Dart, Radscorpion"
+lang["#DART_GREENGECKO_NAME"] = "Dart, Green Gecko"
 lang["#DART_RAD_NAME"] = "Dart, Radioactive"
 lang["#DART_SBLOCK_NAME"] = "Dart, Stimblock"
 lang["#DART_CBLOCK_NAME"] = "Dart, Chemblock"
@@ -798,9 +806,10 @@ lang["#FUELHOMEMADE_DESC"] = "A cylinder containing an extremely flammable liqui
 lang["#DART_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns."
 lang["#DART_STIM_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns.\n\nSupport Variant\n\nContaining a partial dose of the prewar wonder drug, Stimdarts are useful as a form of ''long-range first aid''."
 lang["#DART_RADSCOPRION_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns.\n\nPoison Variant\n\nFilled with venom from the fearsome Radscorpion, be sure to warn your target ''this might sting a little''."
+lang["#DART_GREENGECKO_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns.\n\nPoison Variant\n\nFilled with concentrated poison from the Green Gecko, it acts quickly, but doesn't last long."
 lang["#DART_RAD_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns.\n\nPoison Variant\n\nLoaded with radioactive liquid, these ''dirty darts'' are best used against human targets, not mutants."
-lang["#DART_SBLOCK_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns.\n\nCounter-Support Variant\n\nA specialized drug cocktail designed to subdue the body's ability to heal, rendering healing items like stimpaks temporarily usesless."
-lang["#DART_CBLOCK_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns.\n\nCounter-Support Variant\n\nA specialized drug cocktail designed to subdue the body's adrenal system, rendering combat chems like psycho temporarily usesless."
+lang["#DART_SBLOCK_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns.\n\nCounter-Support Variant\n\nA specialized drug cocktail designed to subdue the body's ability to heal, rendering target-consumed healing items like stimpaks temporarily usesless."
+lang["#DART_CBLOCK_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns.\n\nCounter-Support Variant\n\nA specialized drug cocktail designed to subdue the body's adrenal system, rendering target-consumed combat chems like Buffout temporarily usesless."
 lang["#DART_PSYCHO_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns.\n\nSupport Variant\n\nContaining a partial dose of the prewar combat chem, Psychodarts are used to provide a temporary boost to friendlies without the risk of addiction."
 lang["#DART_BUFFOUT_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns.\n\nSupport Variant\n\nContaining a partial dose of the prewar steroid, Buffdarts are used to provide a temporary S.P.E.C.I.A.L. boost to friendlies without the risk of addiction."
 
@@ -843,7 +852,8 @@ lang["#GECKOEGG_NAME"] = "Gecko Egg"
 lang["#RAWANT_NAME"] = "Raw Ant Meat"
 lang["#RAWGECKO_NAME"] = "Raw Gecko Meat"
 lang["#RAWDEATHCLAW_NAME"] = "Raw Deathclaw Meat"
-lang["#RAWMEAT_NAME"] = "Raw Meat"
+lang["#RAWRADSCORPION_NAME"] = "Raw Radscorpion"
+lang["#RAWMOLE_NAME"] = "Raw Molerat"
 lang["#ROACHMEAT_NAME"] = "Raw Radroach Meat"
 lang["#RAWMIRELURK_NAME"] = "Raw Mirelurk Meat"
 lang["#RAWYAOGUAI_NAME"] = "Raw Yaoguai Meat"
@@ -858,11 +868,15 @@ lang["#WASTELANDSOUP_NAME"] = "Wasteland Puree"
 lang["#COOKROACHMEAT_NAME"] = "Roasted Radroach Meat"
 lang["#GRILLMANTIS_NAME"] = "Grilled Mantis Forleg"
 lang["#COOKMEAT_NAME"] = "Cooked Meat"
+lang["#COOKDEATHCLAW_NAME"] = "Deathclaw Steak"
 lang["#LEMONADE_NAME"] = "Lemonade"
 lang["#HARDLEMONADE_NAME"] = "Hard Lemonade"
 lang["#GLOWLEMONADE_NAME"] = "Glowing Lemonade"
 lang["#SUGAR_NAME"] = "Sugar"
+lang["#COTTONCANDY_NAME"] = "Cotton Candy Bites"
 lang["#EXQUISITEBEANS_NAME"] = "Exquisite Beans"
+lang["#EXQUISITEGECKO_NAME"] = "Exquisite Gecko Chop"
+lang["#EXQUISITEDEATHCLAW_NAME"] = "Exquisite Deathclaw Roast"
 lang["#PREFECTPIE_NAME"] = "Perfectly Preserved Pie"
 lang["#MOLDYFOOD_NAME"] = "Moldy Food"
 lang["#MRE_NAME"] = "MRE"
@@ -898,6 +912,7 @@ lang["#NUKAVICTORY_NAME"] = "Nuka Cola Victory"
 lang["#NUKAQUANTUM_NAME"] = "Nuka Cola Quantum"
 lang["#NUKARUM_NAME"] = "Rum and Nuka"
 lang["#SSODA_NAME"] = "Sunset Sarsaparilla"
+lang["#MILK_NAME"] = "Milk"
 lang["#BEER_NAME"] = "Beer"
 lang["#WINE_NAME"] = "Wine"
 lang["#SCOTCH_NAME"] = "Scotch"
@@ -964,40 +979,46 @@ lang["#MAGSGUNS_NAME"] = "True Police Stories"
 lang["#GECKOEGG_DESC"] = "A Lizard's Egg, inside is a sloshy liquid, or so your ears would tell you. It's edible, but it'd be by a landslide that your tastebuds wouldn't agree with that. Perhaps it'd be better cooked."
 lang["#COOKGECKO_DESC"] = "Grilled, broiled, or steamed, the meat is just as filling but a bit lacking in the flavor department."
 lang["#RAWGECKO_DESC"] = "Tough and wet looking, it's the meat of an oversized lizard."
+lang["#ROACHMEAT_DESC"] = "Raw Radroach Meat"
 lang["#GECKOKEBAB_DESC"] = "A savory skewer of cooked gecko chunks, peppers, fruit, and a buffalo gourd.\n\nDelicious!"
 lang["#RAWDEATHCLAW_DESC"] = "The meat of one of the Wasteland's toughest creatures."
-lang["#COOKBRAHMIN_DESC"] = "A piece of meat from the two-headed mutant cow." -- WIP
+lang["#RAWRADSCORPION_DESC"] = "A large chunk of meat cut from a Radscorpions tail. Don't eat the poison gland."
+lang["#COOKBRAHMIN_DESC"] = "A meaty steak of a brahmin. It will leave you full and content."
 lang["#COOKROACHMEAT_DESC"] = "Some grilled radroach meat."
 lang["#RAWYAOGUAI_DESC"] = "A large hunk of raw Yaoguai. Somewhat tough."
+lang["#COOKDEATHCLAW_DESC"] = "This steak is leathery, it's really chewy, and in general it's just tough to eat. Not a fun experience, but very filling."
 lang["#COOKYAOGUAI_DESC"] = "A hearty steak cooked from Yaoguai meat."
-lang["#RAZORSOUP_DESC"] = "A soup made out of Razorgrain." -- WIP
-lang["#BRAINBOMBS_DESC"] = "A sugary food created using brain fungus and Sugar Bombs, hence the name, among other ingredients." -- WIP
+lang["#RAZORSOUP_DESC"] = "Ever have oatmeal? Well, it was pretty much like this, but worse."
+lang["#BRAINBOMBS_DESC"] = "A sugary 'treat' created using brain fungus and Sugar Bombs, hence the name, among other ingredients."
 lang["#COOKANT_DESC"] = "Cooked and crispy abdomen of a giant mutated ant. It's not raw, so it can't be that bad."
 lang["#COOKMEAT_DESC"] = "Some sort of meat that's been cooked. It's not raw, so it can't be that bad."
 lang["#COOKMIRELURK_DESC"] = "A slab of Mirelurk meat that's gone through the culinary method. It's not raw, so it can't be that bad."
 lang["#GRILLMANTIS_DESC"] = "A little bit of heat, seasoning, and alcohol go a long way towards making this edible.\n\nBy human standards at least."
 lang["#RAWANT_DESC"] = "The abdomen of a giant mutated ant. Not a good idea to eat in it's current state due to it's irradiated nature. At least it tastes horrible."
-lang["#RAWMEAT_DESC"] = "A slab of raw meat most likely taken from a Wasteland creature. Can be consumed to satiate your appetite, if you're willing to take chances with food poisoning."
+lang["#RAWMOLE_DESC"] = "A slab of raw Molerat meat. Can be consumed to satiate your appetite, if you're willing to take chances with food poisoning."
 lang["#ANTEGG_DESC"] = "The egg of a Giant Ant.\n\nYou're reasonalbly sure its edible."
 lang["#RAWMIRELURK_DESC"] = "Dismembered claw of a Mirelurk. Not a good idea to eat in it's current raw state unless you want to get some undiscovered digestion disease."
 lang["#OLDCIGARETTE_DESC"] = "A Stale old cigarette.\nMany people still enjoy smoking, despite noticing a heavy cough after a few years of use."
 lang["#CAKES_DESC"] = "A big delight in every bite!"
 lang["#CHIPS_DESC"] = "Junk Food."
+lang["#COTTONCANDY_DESC"] = "Pure sugar, fluffified.\n\nIt can't be good for you."
 lang["#MOLDYFOOD_DESC"] = "A horrible smell lingers as you get near, you've smelled it hundreds of times before and you immediately know what it is... moldy food." -- By Varen
 lang["#PREFECTPIE_DESC"] = "This pristine piece of pastry has survived all-out nuclear war, and will probably outlive you and all your friends. Delectable, yet so desired." -- By FUBAR
 lang["#EXQUISITEBEANS_DESC"] = "Exquisitely cooked beans." -- WIP
+lang["#EXQUISITEDEATHCLAW_DESC"] = "An expertly cooked steak of a Deathclaw. That means it's Medium-Rare, by the way."
+lang["#EXQUISITEGECKO_DESC"] = "Exquisitely cooked beans." -- WIP
 lang["#MRE_DESC"] = "The MRE is a highly nutritious field ration for use by United States Armed Forces servicemen in combat and field conditions where organized food facilities are not available." --WIP
-lang["#HARDLEMONADE_DESC"] = "Lemonade fermented with vodka." -- WIP
-lang["#GLOWLEMONADE_DESC"] = "Glowing Lemonade." -- WIP
+lang["#HARDLEMONADE_DESC"] = "Three quarters 'lemonade', one quarter vodka. Almost impossible to mess up those proportions. Almost."
+lang["#GLOWLEMONADE_DESC"] = "It doesn't matter how good it tastes, you really shouldn't be drinking this stuff."
 lang["#LEMONADE_DESC"] = "A refreshing drink. This version of lemonade is amusingly made without the key ingredient of lemon." -- WIP
-lang["#SUGAR_DESC"] = "A large container of sugar. It can be eaten to replenish an extremely low amount of hunger, but is better used as a ingredient in cooking." -- WIP
+lang["#SUGAR_DESC"] = "A large container of sugar. You're not actually going to eat the whole thing, are you?"
 lang["#MIREJERKY_DESC"] = "Mirelurk meat which has been dried and covered with some seasoning, improving its nutritional value and shelf life." -- WIP
 lang["#MIRELURKEGG_DESC"] = "An unfertilized mirelurk egg stolen from a nest. They are commonly used in recipes for various dishes." -- WIP
 lang["#CORNPONE_DESC"] = "A type of cornbread made with a corn-based dough that has been cooked in a pan over an open flame." -- WIP
-lang["#WASTELANDSOUP_DESC"] = "A masterfully cooked wasteland soup." -- WIP
-lang["#FUNGUSSOUP_DESC"] = "Soup made of Brain Fungus" -- WIP
+lang["#WASTELANDSOUP_DESC"] = "A soup made of bits and bobs taken from here and there. Sometimes, you just have to make do."
+lang["#FUNGUSSOUP_DESC"] = "Green, goopy soup with mushy balls floating around in it.\n\nIt's really unappealing."
 lang["#WELLINGTON_DESC"] = "A slab of deathclaw meat which has been wrapped in a homemade dough and baked in a tin until cooked." -- WIP
-lang["#DESERTSALAD_DESC"] = "Not the most filing of foods, but sure is tasty!" -- WIP
+lang["#DESERTSALAD_DESC"] = "You'd have to be really pretentious to be on a salad diet in this economy."
 lang["#CRAM_DESC"] = "You never know with Cram!"
 lang["#DANDYBOY_DESC"] = "Sliced Apples covered in sugar."
 lang["#EGGS_DESC"] = "No one knows what 'deviled' even means."
@@ -1022,6 +1043,7 @@ lang["#NUKAQUANTUM_DESC"] = "An exceedingly rare flavor of nuka cola. Drinking t
 lang["#NUKARUM_DESC"] = "A tasty brew with nuka that gives a boost of energy. Despite its name its not made with rum. But hey, it sounds good doesn't it."
 lang["#SSODA_DESC"] = "Once known as the soft drink of the west, this root-beer still has it's taste."
 lang["#BEER_DESC"] = "A refreshing low-proof alcoholic beverage."
+lang["#MILK_DESC"] = "Milk"
 lang["#WINE_DESC"] = "A relaxing low-proof alcoholic beverage."
 lang["#SCOTCH_DESC"] = "A moderate-proof alcoholic beverage.\n\nMakes you thirsty, but care-free."
 lang["#WHISKEY_DESC"] = "A high-proof alcoholic beverage.\n\nMakes you thirsty, but washes away the pain."
@@ -1039,7 +1061,7 @@ lang["#BROCFLOWER_DESC"] = "A powdering, plain tasting flower bud. Commonly cult
 lang["#XANDER_DESC"] = "Xander root is a large, turnip-like root with mild healing properties.\n\nIt can easily be identified by its exposed head and tall green stalk protruding from a raised ring of dirt, resembling an onion.\n\nThey are commonly growing around trails and around the mouths of caves."
 lang["#CORN_DESC"] = "A staple food of the New Californian Republic. Usually ground into flour for making tortillas or breads, this vegetable is decently nutritious."
 lang["#CARROT_DESC"] = "The carrot (Daucus carota subsp. sativus) is a root vegetable, usually orange in colour, though purple, black, red, white, and yellow cultivars exist." -- WIP
-lang["#LUREWEED_DESC"] = "A glowing plant that normally floats at the top of ponds. It bears resemblance to the lure of an angler." -- WIP
+lang["#LUREWEED_DESC"] = "This rare bioluminescent plant can only be found in very specific parts of the wasteland.\n\nNot much can be done with it raw, but when refined, this plant's medical properties make it worth it's weight in gold."
 lang["#BOILEDCORN_DESC"] = "A soft juicy ear of boiled corn, less radioactive and very tasty."
 lang["#FUNGUS_DESC"] = "Strange, green, and wrinkly fungus" -- WIP
 lang["#ASTER_DESC"] = "A mutated flower from the genus Aster. Its purple color is muted relative to its pre-War ancestors, making it somewhat difficult to pick out from other plants." -- WIP
@@ -1087,6 +1109,9 @@ lang["#ADDICTOL_NAME"] = "Addictol"
 lang["#X111_NAME"] = "X-111 Compound"
 lang["#FEVSERUM_NAME"] = "F.E.V. Serum"
 lang["#ANTIBIOTIC_NAME"] = "Antibiotics"
+lang["#LUCID_NAME"] = "Lucid"
+lang["#ANTIFLAME_NAME"] = "AntiFlame"
+lang["#HEATUP_NAME"] = "HeatUp"
 lang["#ANTIVENOM_NAME"] = "Radscorpion Antivenom"
 lang["#JET_NAME"] = "Jet"
 lang["#MEDSUPPLIES_NAME"] = "Medical Supplies"
@@ -1105,6 +1130,7 @@ lang["#LEATHERREPAIR_NAME"] = "Armor Repair Kit, Leather"
 lang["#SCRAPREPAIR_NAME"] = "Armor Repair Kit, Scrap"
 lang["#METALREPAIR_NAME"] = "Armor Repair Kit, Metal"
 lang["#COMBATREPAIR_NAME"] = "Armor Repair Kit, Combat"
+lang["#CLOTHREPAIR_NAME"] = "Armor Repair Kit, Cloth"
 lang["#SUPERSTIMPAK_NAME"] = "Super Stimpak"
 lang["#ULTRASTIMPAK_Name"] = "Ultra Stimpak"
 lang["#RADX_NAME"] = "Rad-X"
@@ -1122,6 +1148,8 @@ lang["#ULTRAJET_NAME"] = "Ultrajet"
 lang["#ANTPHERO_NAME"] = "Ant Queen Pheromones"
 lang["#ANTNECTAR_NAME"] = "Ant Nectar"
 lang["#ANTNECTARFIRE_NAME"] = "Fire Ant Nectar"
+lang["#EIGHTBALL_NAME"] = "Eight Ball"
+
 
 
 -- Addictions
@@ -1140,7 +1168,10 @@ lang["#ADDICTION_ANTPHERO_NOTIFY"] = "You have become addicted to Ant Queen Pher
 
 --Medical Items Description
 lang["#ADDICTOL_DESC"] = "A powerful anti-addiction drug.\n\nAddictol is an effective pre-War medicine that works both physically and psychologically to remove both the symptoms of drug abuse and the craving.\n\nSide effects include, but are not limited to, hunger, thirst, loss of sleep, loss of taste, nausea, heartburn, indigestion, erectile disfunction, and anal leakage."
-lang["#ANTIBIOTIC_DESC"] = "A broad spectrum antibiotics useful for curing a host of bacterial infections and diseases."
+lang["#ANTIBIOTIC_DESC"] = "A vial of standard antibiotics, useful for curing bacterial diseases."
+lang["#LUCID_DESC"] = "A prewar drug useful for curing brain diseases."
+lang["#ANTIFLAME_DESC"] = "An anti-inflammatory drug, useful for curing inflammatory diseases."
+lang["#HEATUP_DESC"] = "A miracle drug that clears up spasms, and can treat muscle atrophy."
 lang["#ANTIVENOM_DESC"] = "A bottle of antivenom created from Radscorpion stingers." -- Curing item that removes sickness from players.
 lang["#JET_DESC"] = "A highly addictive drug created by one of the New Reno families. Doesn't smell nice, yet a second sniff is infinitely tempting." -- Increases agility by 2, ignores armor speed de-buff for 70-100 seconds (Randomized)
 lang["#MEDSUPPLIES_DESC"] = "A box of various medical supplies." -- Medical Supplies are a generic item that people with a medicine skill of over 30 can use to heal people with. imagine PNRP's current heal system, but with an item requirement
@@ -1156,12 +1187,13 @@ lang["#X111_DESC"] = "A Brotherhood concoction of Rad-X and Rad-Away slammed tog
 lang["#STRANGEVIAL_DESC"] = "A green glowing vial with strange markings on the top and bottom."
 lang["#DOCTORBAG_DESC"] = "A bag of triage medical supplies, used to treat crippled limbs."
 lang["#HYDRA_DESC"] = "Hydra is a natural medicine that cleans and slowly restores crippled limbs over time."
-lang["#REPAIRKIT_DESC"] = "A package of various extra parts and furnishings.\n\nCan be used to repair most weapons, but decreases its decay."
-lang["#MELEEREPAIR_DESC"] = "A package of various extra parts and furnishings.\n\nCan be used to repair most melee weapons, but decreases its decay."
-lang["#LEATHERREPAIR_DESC"] = "A package of extra components.\n\nCan be used to repair leather armor, but decreases its decay."
-lang["#SCRAPREPAIR_DESC"] = "A package of extra components.\n\nCan be used to repair scrap armor, but decreases its decay."
-lang["#METALREPAIR_DESC"] = "A package of extra components.\n\nCan be used to repair metal armor, but decreases its decay."
-lang["#COMBATREPAIR_DESC"] = "A package of extra components.\n\nCan be used to repair combat armor, but decreases its decay."
+lang["#REPAIRKIT_DESC"] = "A package of various extra parts and furnishings.\n\nCan be used to repair most weapons, but increases its decay."
+lang["#MELEEREPAIR_DESC"] = "A package of various extra parts and furnishings.\n\nCan be used to repair most melee weapons, but increases its decay."
+lang["#LEATHERREPAIR_DESC"] = "A package of extra components.\n\nCan be used to repair leather armor, but increases its decay."
+lang["#SCRAPREPAIR_DESC"] = "A package of extra components.\n\nCan be used to repair scrap armor, but increases its decay."
+lang["#METALREPAIR_DESC"] = "A package of extra components.\n\nCan be used to repair metal armor, but increases its decay."
+lang["#COMBATREPAIR_DESC"] = "A package of extra components.\n\nCan be used to repair combat armor, but increases its decay."
+lang["#CLOTHREPAIR_DESC"] = "A package of extra components.\n\nCan be used to repair clothing, but increases its decay"
 lang["#SUPERSTIMPAK_DESC"] = "A more advanced version of the already incredible Pre-War medicine, the Super Stimpak has the ability to treat extreme wounds."
 lang["#ULTRASTIMPAK_DESC"] = "The most advanced medicinal aid to come out of the 21st century, the Ultra Stimpak is able to treat even the most fatal injuries.\nDue to the powerful nature of the chems used, it can cause harm after a period of time."
 lang["#RADX_DESC"] = "A bottle of pills that prevent drastic radiation damage to the body."
@@ -1178,6 +1210,8 @@ lang["#ULTRAJET_DESC"] = "Jet with twice the potency due to some choice chemical
 lang["#ANTPHERO_DESC"] = "A naturally occurring substance secreted by Giant Ant Queens.\n\nA powerful aphrodisiac that increases the users charisma, but drastically lowers their intelligence and perception.\n\nRare and addictive, but fetches a high price."
 lang["#ANTNECTAR_DESC"] = "A naturally occurring substance secreted by Giant Ants.\n\nValued by tribals for its strength granting properties, it's drawbacks are lowered intelligence and charisma.\n\nExtremely addictive."
 lang["#ANTNECTARFIRE_DESC"] = "A naturally occurring substance secreted by Giant Fire Ants.\n\nValued by tribals for its agility granting properties, it's drawback is sharply lowered intelligence.\n\nExtremely addictive."
+lang["#EIGHTBALL_DESC"] = "A black ball with the number eight on it. Used for a good game of pool before the war, it's moreso used as a symbol of good luck nowadays."
+
 
 --███╗   ███╗███████╗██╗     ███████╗███████╗
 --████╗ ████║██╔════╝██║     ██╔════╝██╔════╝
@@ -1297,6 +1331,7 @@ lang["#CONDUCTOR_NAME"] = "Conductor"
 lang["#COYOTEHIDE_NAME"] = "Coyote Hide"
 lang["#DEATHCLAWHIDE_NAME"] = "Deathclaw Hide"
 lang["#YAOGUAIHIDE_NAME"]= "Yaoguai Hide"
+lang["#MOLERATHIDE_NAME"]= "Molerat Hide"
 lang["#CRUTCH_NAME"] = "Crutch"
 lang["#DEATHCLAWEGG_NAME"] = "Deathclaw Egg"
 lang["#DEATHCLAWHAND_NAME"] = "Deathclaw Hand"
@@ -1358,6 +1393,7 @@ lang["#SCRAPELECTRONIC_NAME"] = "Scrap Electronics"
 lang["#SENSORMOD_NAME"] = "Sensor Module"
 lang["#TINCAN_NAME"] = "Tin Can"
 lang["#TINCANBENT_NAME"] = "Bent Tin Can"
+lang["#TININGOT_NAME"] = "Tin Ingot"
 lang["#THREAD_NAME"] = "Thread"
 lang["#HEPACARTRIDGE_NAME"] = "HEPA 20 Cartridge Filter"
 lang["#TOYSBOAT_NAME"] = "Toy Speed Boat,"
@@ -1377,7 +1413,10 @@ lang["#WELDER_NAME"] = "Welding Torch"
 lang["#WONDERGLUE_NAME"] = "Wonderglue"
 lang["#YEAST_NAME"] = "Yeast"
 lang["#RADSCORPIONPOISONGLAND_NAME"] = "Radscorpion Venom Gland"
+lang["#GREENGECKOPOISONGLAND_NAME"] = "Green Gecko Poison Gland"
 lang["#BRASS_NAME"] = "Brass Ingot"
+lang["#OILCAN_NAME"] = "Oil Can"
+lang["#FUELCELLCONTROLLER_NAME"] = "Fuel Cell Controller"
 
 lang["#STEELCASINGNAME"] = "Steel Casing -"
 lang["#BRASSCASINGNAME"] = "Brass Casing -"
@@ -1421,6 +1460,7 @@ lang["#CIRCUITBOARD_DESC"] = "Board of circuits. Used in most, if not all electr
 lang["#COYOTEHIDE_DESC"] = "The hide harvested from a wasteland coyote.\n\nAgainst it's will, probably."
 lang["#DEATHCLAWHIDE_DESC"] = "The hide harvested from a Deathclaw.\n\nAgainst it's will, probably."
 lang["#YAOGUAIHIDE_DESC"] = "The thick hide of a Yaoguai. Mostly whole with some radiation burns and scars."
+lang["#MOLERATHIDE_DESC"] = "The dirt covered hide of a Molerat. Smells odd."
 lang["#CRUTCH_DESC"] = "A medical device accociated with those with broken legs. Less expensive than a wheelchair."
 lang["#DEATHCLAWEGG_DESC"] = "An unhatched deathclaw offspring.\n\nValuable as it is dangerous to harvest, many would-be hunters have died, horribly, in attempts to retrieve these guaranteed paydays."
 lang["#DEATHCLAWHAND_DESC"] = "The severed hand of a Deathclaw, an impressive and valuable hunting trophy.\n\nFor every Deathclaw Hand in possesion of a wastelander, there are an estimated five or more Deathclaws in possesion of a waster's limb. Good Luck!"
@@ -1486,6 +1526,7 @@ lang["#KETTLE_DESC"] = "A sturdy metal kettle for boiling water and other bevera
 lang["#WASHO_DESC"] = "A pre-War detergent agent produced by Washo.\n\nIt can still be found throughout the U.S. over 150 years after the Great War."
 lang["#TINCAN_DESC"] = "An empty can from some kind of canned food."
 lang["#TINCANBENT_DESC"] = "An empty can from some kind of canned food.\\Bent beyond use as anything but scrap."
+lang["#TININGOT_DESC"] = "An ingot of tin, harvested from the plating of 'tin cans'.\n\nOften used as a supplimental hardening agent for the lead alloys in Hardcast ammunition."
 lang["#THREAD_DESC"] = "A spool of thread useful in crafting cloths and armor."
 lang["#TOYSBOAT_DESC"] = "A die-cast model of a pre-war speed boat.\n\nIt's seen better days. . ."
 lang["#TOYFBOAT_DESC"] = "A die-cast model of a pre-war fishing boat.\n\nIt's seen better days. . ."
@@ -1499,9 +1540,11 @@ lang["#TOYROCKET_DESC"] = "A die-cast model of a pre-war repconn rocket. \n\nIt'
 lang["#TURPENTINE_DESC"] = "A flammable liquid distilled from pine resin, commonly used pre-war as a solvent or paint thinner."
 lang["#TWEEZERS_DESC"] = "Tweezers are a type of pre-War handheld medical equipment used for grasping and extracting during surgery.\n\nHandy for pulling out Bloatfly larva before they turn septic."
 lang["#YEAST_DESC"] = "A container of Yeast, used in some baking and brewing recipies."
-lang["#RADSCORPIONPOISONGLAND_DESC"] = "A Venom Gland of a Radscorpion, contains the venom a radscorpion uses for incapcitating its prey.\n\nWorth good bit thanks to its usage in creating various poisons and medicines."
+lang["#RADSCORPIONPOISONGLAND_DESC"] = "The venom gland of a Radscorpion, contains the venom a radscorpion uses for incapcitating its prey.\n\nWorth good bit thanks to its usage in creating various poisons and medicines."
+lang["#GREENGECKOPOISONGLAND_DESC"] = "The poison gland of a Green Gecko, contains the poison the gecko uses for fighting off wasteland threats.\n\nValuable in large quantites due to its use in creating poisons."
 lang["#BRASS_DESC"] = "An Ingot of brass. Almost impossible to work with without heavy machinery, but can be turned into proper shell casings."
-
+lang["#OILCAN_DESC"] = "A can of Armor-Go. A space-age polymer, lubricant for powered armor."
+lang["#FUELCELLCONTROLLER_DESC"] = "This chip controls the flow of power into a car's electric engines. Many drivers quickly burnt out this chip through frequent rapid acceleration. Still a valuable part to have -- if you only had a car to install it in."
 
 --Tools Name
 lang["#BINOCS_NAME"] = "Binoculars"
@@ -1524,6 +1567,7 @@ lang["#BALLISTICFIBER_NAME"] = "Ballistic Fiber"
 lang["#PREWARMONEY_NAME"] = "Pre-War Money"
 lang["#NCRMONEY_NAME"] = "NCR Dollar"
 lang["#SCRAPMETAL_NAME"] = "Scrap Metal"
+lang["#SCRAPCLOTH_NAME"] = "Scrap Cloth"
 lang["#SCRAPCOPPER_NAME"] = "Scrap Copper"
 lang["#SCRAPWOOD_NAME"] = "Scrap Wood"
 lang["#RUBBER_NAME"] = "Rubber"
@@ -1540,7 +1584,7 @@ lang["#GREENGECKOHIDE_NAME"] = "Green Gecko Hide"
 lang["#GECKOHIDE_NAME"] = "Gecko Hide"
 lang["#PROPANE_NAME"] = "Propane"
 lang["#CHARCOAL_NAME"] = "Charcoal"
-
+lang["#COLLECTORCERT_NAME"] = "Odd Certificate"
 --Valuables Desc
 lang["#BOTTLECAP_DESC"] = "A cap of a soda bottle. Used as currency in many parts of the Wasteland." -- The currency. It will be recognized as money by most traders.
 lang["#BOTTLECAP_FAKE_DESC"] = "A look-a-like '''bottle cap'' fashioned from a tin can cut into a circle, crimped, and then painted.\n\nThe phrase ''Sarsaparilla Quantum'' is written on it.\n\nOnly an idiot would be foolish enough to accept this as payment." -- The currency. It will be recognized as money by most traders.
@@ -1551,6 +1595,7 @@ lang["#PREWARMONEY_FAKE_DESC"] = "Funny thing about counterfeit prewar bills, th
 lang["#NCRMONEY_DESC"] = "A paper bill similar to Pre-War money.\n\nIt features a picture of Aradesh on the face and the view of Shady Sands on the back."
 lang["#NCRMONEY_FAKE_DESC"] = "A newspaper ''bill'' ''similar'' to Pre-War money.\n\nIt features a picture of a dog (missing) on the face and a Super-Duper Mart coupon (expired) on the back.\n\nWho knew counterfeiting would survive the war?"
 lang["#SCRAPMETAL_DESC"] = "Metal scavenged from Pre War artifacts." -- Scrap metal will obviously be like pnrp's scrap
+lang["#SCRAPCLOTH_DESC"] = "Scraps of cloth from old clothing and other artifacts."
 lang["#SCRAPCOPPER_DESC"] = "Left over bits of copper that can be melded together to forge new items"
 lang["#SCRAPWOOD_DESC"] = "Reclaimed scrap wood from pre-war furniture and buildings.\n\nAbandoned houses are a bit easier to find than trees nowadays."
 lang["#RUBBER_DESC"] = "An elastic and stretchy polymer."
@@ -1567,6 +1612,7 @@ lang["#GREENGECKOHIDE_DESC"] = "Unprocessed hide of a Green Gecko. The skin is m
 lang["#GECKOHIDE_DESC"] = "Unprocessed hide of a Wasteland Gecko. The scales are hard and the flesh underneath leathery, this makes it a common and valued crafting material."
 lang["#PROPANE_DESC"] = "Propane which is commonly used in tools like a welding torch. Measured in pounds."
 lang["#CHARCOAL_DESC"] = "Biocoal derived from wood, this black substance can be used to forge steel."
+lang["#COLLECTORCERT_DESC"] = "You received this certificate after completing an odd job for an anonymous client.\n\nIt's signed 'The Collector'. "
 
 --██╗    ██╗███████╗ █████╗ ██████╗  ██████╗ ███╗   ██╗    ███╗   ███╗ ██████╗ ██████╗ ███████╗
 --██║    ██║██╔════╝██╔══██╗██╔══██╗██╔═══██╗████╗  ██║    ████╗ ████║██╔═══██╗██╔══██╗██╔════╝
@@ -1624,6 +1670,7 @@ lang["#MOD_BARREL_LONG_PIPEGUN_NAME"] = "Pipegun Long Barrel"
 lang["#MOD_BARREL_SHORTPORTED_PIPEGUN_NAME"] = "Pipegun Short Ported Barrel"
 lang["#MOD_BARREL_LONGPORTED_PIPEGUN_NAME"] = "Pipegun Long Ported Barrel"
 lang["#MOD_BARREL_FINNED_PIPEGUN_NAME"] = "Pipegun Finned Barrel"
+lang["#MOD_BARREL_LONG_SYRINGER_NAME"] = "Dart Gun Long Barrel"
 
 
 --MUZZLE DEVICE
@@ -1666,7 +1713,7 @@ lang["#MOD_MAG_STANAG30_NAME"] = "STANAG 30rd Magazine"
 lang["#MOD_MAG_STANAG100_NAME"] = "STANAG Drum Magazine"
 --STOCK
 lang["#MOD_GRIP_PIPEGUN_CURVE_NAME"] = "Pipegun Curved Grip"
-lang["#MOD_GRIP_PIPEGUN_BIRDSHEAD_NAME"] = " Pipegun Birdshead Grip"
+lang["#MOD_GRIP_PIPEGUN_BIRDSHEAD_NAME"] = "Pipegun Birdshead Grip" 
 lang["#MOD_GRIP_PIPEGUN_MSTOCK_NAME"] = "Pipegun Makeshift Stock"
 lang["#MOD_GRIP_PIPEGUN_SSTOCK_NAME"] = "Pipegun Stable Stock"
 lang["#MOD_GRIP_PIPEGUN_RSTOCK_NAME"] = "Pipegun Recoil Stock"
@@ -1696,6 +1743,7 @@ lang["#MOD_BARREL_LONG_PIPEGUN_DESC"] = "A makeshift barrel made from repurposed
 lang["#MOD_BARREL_SHORTPORTED_PIPEGUN_DESC"] = "A ported barrel made from repurposed plumbers pipe.\n\nSlightly increases sighted accuracy, improves velocity, and slightly improves handling across the board.\n\nOh the wonders a drill press can create."
 lang["#MOD_BARREL_LONGPORTED_PIPEGUN_DESC"] = "A ported barrel made from repurposed automotive parts.\n\nFurther increases sighted accuracy, improves velocity, and slightly improves handling across the board.\n\nSee, these are what's known in the industry as ''Speed holes''."
 lang["#MOD_BARREL_FINNED_PIPEGUN_DESC"] = "A makeshift barrel with a crudely formed heat-sink.\n\nIncreases sighted accuracy, improves velocity, and greatly reduces accuracy loss while firing.\n\nNote: Thermal compound absolutely CANNOT be used in place of lubricating oil."
+lang["#MOD_BARREL_LONG_SYRINGER_DESC"] = "A makeshift barrel made from repurposed piping.\n\nIncreases sighted accuracy, and greatly improves velocity.\n\nWho wants to play ''Doctor''?"
 
 --MUZZLE DEVICE
 --lang["#MOD_MUZDEV_BAYO_CKNIFE_DESC"] = "A muzzle mounted device designed to present additional protection from charging enemies.\n\nCompatible with some rifles.\n\nHumans have an ancient and storied history of stabbing each other, beginning long before the bombs dropped."
