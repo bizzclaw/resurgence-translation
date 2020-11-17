@@ -92,17 +92,17 @@ lang["#SKL_SPEECH"] = "Discours"
 lang["#SKL_SPEECHDESC"] = "L'acte de persuader et convaincre. aide a convaincre les autres."
 
 -- Stats
-lang["#STAT_HP"] = "Hit Points"
-lang["#STAT_HPSHORT"] = "HP"
-lang["#STAT_HPDESC"] = "How much damage you can take before succumbing to the wastes."
+lang["#STAT_HP"] = "Points de Vie"
+lang["#STAT_HPSHORT"] = "PV"
+lang["#STAT_HPDESC"] = "Combiens de dégats votre personnage peut subir avant de succomber au wasteland."
 
-lang["#STAT_AP"] = "Action Points"
-lang["#STAT_APSHORT"] = "AP"
-lang["#STAT_APDESC"] = "How much you can do within a given time; More Action Points allow you to sprint, steady your aim, hold your breath and swing melee weapons longer."
+lang["#STAT_AP"] = "Points D'Actions"
+lang["#STAT_APSHORT"] = "PA"
+lang["#STAT_APDESC"] = "Le montant de choses que vous pouvez faire selon un lapse de temps; Plus de Points D'ACtions vous permêtes de sprinter, vous metre a jouc, tenir votre respiration et vous battre en melee plus longtemps."
 
-lang["#STAT_WG"] = "Carry Weight"
-lang["#STAT_WGSHORT"] = "WG"
-lang["#STAT_WGDESC"] = "The maximum amount of weight you can haul in items."
+lang["#STAT_WG"] = "Poids D'encombrement"
+lang["#STAT_WGSHORT"] = "Pds"
+lang["#STAT_WGDESC"] = "Votre capacité a transporter des objets."
 
 --██████╗ ███████╗██████╗ ██╗  ██╗███████╗
 --██╔══██╗██╔════╝██╔══██╗██║ ██╔╝██╔════╝
