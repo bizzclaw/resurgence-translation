@@ -40,56 +40,56 @@ lang["#SPC_LCKDESC"] = "On pourrais dire que certaines fois, le hazard fait bien
 --███████║██║  ██╗██║███████╗███████╗███████║
 --╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝
 
-lang["#SKL_PISTOLS"] = "Gunslinger" -- for skills, no need to keep the english word.
-lang["#SKL_PISTOLSDESC"] = "Accuracy, Condition Rate and Reload Speed of Pistols."
+lang["#SKL_PISTOLS"] = "Pistolero" -- for skills, no need to keep the english word.
+lang["#SKL_PISTOLSDESC"] = "Viser, condition et vitesse de recharge des Pistolets."
 
 lang["#SKL_ASSAULT"] = "Commando"
-lang["#SKL_ASSAULTDESC"] = "Accuracy, Condition Rate and Reload Speed of Automatic Weapons."
+lang["#SKL_ASSAULTDESC"] = "Viser, Condition et vitesse de recharge des Armes Automatiques."
 
-lang["#SKL_RIFLES"] = "Rifleman"
-lang["#SKL_RIFLESDESC"] = "Accuracy, Condition Rate and Reload Speed of Single-Shot, Pump, Lever, and Bolt Action Weapons."
+lang["#SKL_RIFLES"] = "infantrie"
+lang["#SKL_RIFLESDESC"] = "Viser, Condition et vitesse de recharge des armes semi-automatiques, des armes a un tir, fusils à pompes, fusils à levier, et fusils a verrous."
     
-lang["#SKL_ENERGY"] = "Energy Weapons"
-lang["#SKL_ENERGYDESC"] = "Accuracy, Condition Rate and Reload Speed of Energy Based Weaponry."
+lang["#SKL_ENERGY"] = "Armes à energie"
+lang["#SKL_ENERGYDESC"] = "Viser, Condition et vitesse de recharge des armes a energie."
 
-lang["#SKL_MELEE"] = "Melee Weapons"
-lang["#SKL_MELEEDESC"] = "Affects the Damage and Condition Rate of Melee Weapons."
+lang["#SKL_MELEE"] = "Armes de melee"
+lang["#SKL_MELEEDESC"] = "AAgit sur les degats et la condition des armes de melee.."
 
-lang["#SKL_UNARMED"] = "Unarmed"
-lang["#SKL_UNARMEDDESC"] = "Your combined knowledge of martial arts and hand to hand combat, your unarmed skill affects how well you can fight with your fists."
+lang["#SKL_UNARMED"] = "Mains nues"
+lang["#SKL_UNARMEDDESC"] = "La combinaison de votre savoir des arts martiaux et combat a mains nues, Affecte comment vous êtes capable de vous defendres par vos propres mains."
 
-lang["#SKL_EXP"] = "Explosives"
-lang["#SKL_EXPDESC"] = "Knowledge and application of volatile materials. A mastery of Explosives will allow easier use of Explosive Weapons and the creation of unique grenades."
+lang["#SKL_EXP"] = "Explosifs"
+lang["#SKL_EXPDESC"] = "Connaissance et application de substances volatiles. Une Maitrise des explosifs vous permetra d'utilizer de meilleurs explosifs et d'en creer des examplaires uniques."
 
-lang["#SKL_SNEAK"] = "Sneak"
-lang["#SKL_SNEAKDESC"] = "The Ability to remain hidden. Affects footstep sound volume and NPC Visibility"
+lang["#SKL_SNEAK"] = "Filature"
+lang["#SKL_SNEAKDESC"] = "L'abilité a rester caché. Affecte le sonds de vos pas et si les PNJs et Créatures vous voient"
 
-lang["#SKL_SECURITY"] = "Security"
-lang["#SKL_SECURITYDESC"] = "Knowledge over security, encompasses your ability to not only break in to tightly secured areas, but secure them yourself by creating various traps, pairs with knowledge in explosves to create mines."
+lang["#SKL_SECURITY"] = "Securité"
+lang["#SKL_SECURITYDESC"] = "Connaissance des protocoles de securité, Permets de vous donner acces à des endroits sécuriser, mais aussi de rendre des endroits sécurisé en créant des pieges, Se Paire avec la compétence Explosifs pour créé des mines anti-personels ou anti-vehiculaire."
 
-lang["#SKL_SCAV"] = "Prospecting"
-lang["#SKL_SCAVDESC"] = "Efficiency in mining minerals, salvaging wreckages, and searching for old-world treasures."
+lang["#SKL_SCAV"] = "Prospection"
+lang["#SKL_SCAVDESC"] = "Efficacité a miner les minerais des la terre, Recuperer les épaves et débris, et trouver les trésors de l'ancient monde."
 
-lang["#SKL_ENG"] = "Engineer"
-lang["#SKL_ENGDESC"] = "Governs engineering knowledge; equipment repair and maintenance, as well as the creation of unique items."
+lang["#SKL_ENG"] = "Ingénieur"
+lang["#SKL_ENGDESC"] = "Gouverne les connaissances d'ingénérie; reparation et maintenance des objets ainsi que la création de tout nouveaux objects."
 
-lang["#SKL_VEH"] = "Vehicles"
-lang["#SKL_VEHDESC"] = "The ability to operate, control and optimize the use of vehicles. Your experience in driving will allow you to handle vehicles better and get more out of their fuel."
+lang["#SKL_VEH"] = "Véhicules"
+lang["#SKL_VEHDESC"] = "La compétence d'utiliser, contrôler et optimiser les deplacemnts des vehicules. Votre experience a manipuler les vehicules vous permetra de faire en sorte de tirer profit le plus possible de votre véhicule et son carburant."
 
 lang["#SKL_SCI"] = "Science"
-lang["#SKL_SCIDESC"] = "Knowledge of concepts relating to technology such as physics, chemistry, electricity and computers. Governs your hacking ability, and your potential for advanced crafts."
+lang["#SKL_SCIDESC"] = "Connaissance des concepts relié à la physique, chimie, électricité et ordinateurs. Gouverne votre abilité a pirater, et votre potentiel a faires de nouveaux objets."
 
-lang["#SKL_MED"] = "Medicine"
-lang["#SKL_MEDDESC"] = "The understanding and application of medical knowledge, an important skill to have in a world where injury is commonplace."
+lang["#SKL_MED"] = "Médecine"
+lang["#SKL_MEDDESC"] = "Votre connaissance relier a la médecine, un talent important dans un monde de peines et de misères."
 
-lang["#SKL_FOOD"] = "Outdoorsman"
-lang["#SKL_FOODDESC"] = "Knowledge of living in the outdoors. Effects profiency of cooking, farming, world-map travel speed, and your chance to avoid otherwise dangerous encounters."
+lang["#SKL_FOOD"] = "Homme Des Bois"
+lang["#SKL_FOODDESC"] = "Vos connaissances relier a vivre de la terres et des bois. Agis sur la cuisine, Faires des fermes et plantations, vitesse de déplacement dans le Overworld, et votre chance d'éviter les ennuis lors de ce déplacement."
 
-lang["#SKL_BARTER"] = "Barter"
-lang["#SKL_BARTERDESC"] = "Overall understanding and knowledge of mercantile and bartering. May affect prices of purchasing or selling commodities."
+lang["#SKL_BARTER"] = "Troc"
+lang["#SKL_BARTERDESC"] = "Connaissance du troc, des échanges et du commerce. Peut affecter le niveux auquel vous vendez votre marchandise."
 
-lang["#SKL_SPEECH"] = "Speech"
-lang["#SKL_SPEECHDESC"] = "The act of persuasion and influence. Affects the ability to convince others."
+lang["#SKL_SPEECH"] = "Discours"
+lang["#SKL_SPEECHDESC"] = "L'acte de persuader et convaincre. aide a convaincre les autres."
 
 -- Stats
 lang["#STAT_HP"] = "Hit Points"
