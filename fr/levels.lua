@@ -16,22 +16,22 @@ lang["#SPC_STR"] = "Force" -- for Specials, keep the first half of the name in e
 lang["#SPC_STRDESC"] = "Puissance physique brute, Un certain niveau de force est de mise pour manipuler la pluparts des choses.\n\n- Affecte la puissance de melee de base.\n- Affecte le poids d'encombrement.\n- Les armes plus lourdes sont plus facile a manipuler.."
 
 lang["#SPC_PER"] = "Perception"
-lang["#SPC_PERDESC"] = "The tuning of the body's senses, A high Perception is good for exploring, or sharpshooting.\n\n- Affects the ability to prospect.\n- Affects the precision of weapons.\n- More easily identify others."
+lang["#SPC_PERDESC"] = "L'acuité des senses corporel, une bonne perception est cruciale pour l'exploration, ou le tir de precision.\n\n- Affecte l'abilité a prospecter.\n- Affecte la precision des armes a feux.\n- Plus de facilité a reconnaitres les autres."
 
 lang["#SPC_EDR"] = "Endurance"
-lang["#SPC_EDRDESC"] = "The body's ability to resist the elements, A high Endurance rate may help you survive where others may not.\n\n- Affects Maximum Health\n\n- Actions take less AP to perform."
+lang["#SPC_EDRDESC"] = "L'abilité du corps a resister les elements, Un haut taux d'endurance peut vous faire survivre là ou les autres ne le peuvent.\n\n- Agit sur le taux de PV\n\n- Les actions prennent moins de PA a faire"
 
 lang["#SPC_CHR"] = "Charisme"
-lang["#SPC_CHRDESC"] = "Social acuteness, charisma allows for communication and persuasion. A high Charismatic Charm pulls people together.\n\n- Increases party size capacity.\n- Increases party benefits\n -Affects reputation increase with NPC factions."
+lang["#SPC_CHRDESC"] = "La mesure de l'acuité sociale, Le Charisme permet de communiquer avec et d'influencer les autres. Avoir du charme peut permettre de r'allier les gens.\n\n- Augmente la capacité maximale des formations groupé.\n- Augmente les bénéfice lier a avoir un groupe\n -Affecte le taux de reputation ganger auprès des PNJs."
 
 lang["#SPC_INT"] = "Intelligence"
-lang["#SPC_INTDESC"] = "Wits and wisdom, the ability to think quickly is essential for survival in the Wastes.\n\n- Affects the ability to create useful weapons and modifications\n- Increases skill points gained from level advancement."
+lang["#SPC_INTDESC"] = "Pensé et sagesse, l'acuité mentale permet de reconnaitre les dangers de l'apocalypse .\n\n- Aide a la fabrication de nouvelles armes et modifications pour celles-ci\n- Augmente les points acquis lors d'un Level-up."
 
-lang["#SPC_AGL"] = "Agility"
-lang["#SPC_AGLDESC"] = "The ability to be fast. A high Agility grants speed to movement and other actions.\n\n- Determines max Action Points(AP) and AP regeneration speed.\n- Increases Speed at which many actions are performed\n- Affects Sneak."
+lang["#SPC_AGL"] = "Agilité"
+lang["#SPC_AGLDESC"] = "La vitesse d'action, d'agir et de réagir. AUn haut taux d'agilité permet de faires des actions plus rapidement et de courir plus vite.\n\n- Determine la quantité de Points d'Actions et la regeneration de ceux-ci.\n- Augmennte la vitesse a laquelle plusieurs actions sont porté.\n- Affecte la filature."
 
-lang["#SPC_LCK"] = "Luck"
-lang["#SPC_LCKDESC"] = "One will find that Luck works out situations for them in the strangest of ways.\n\n- Affects Item discovery.\n- Affects all Skills.\n -Affects all scenarios."
+lang["#SPC_LCK"] = "Chance"
+lang["#SPC_LCKDESC"] = "On pourrais dire que certaines fois, le hazard fait bien les choses.\n\n- Agit sur la découverte d'objects.\n- Affecte toutes les compétences.\n -Affecte tous les scénarios possible."
 
 --███████╗██╗  ██╗██╗██╗     ██╗     ███████╗
 --██╔════╝██║ ██╔╝██║██║     ██║     ██╔════╝
