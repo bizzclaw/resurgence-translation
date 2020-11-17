@@ -1,4 +1,4 @@
-local lang = RSRG.Languages["en"]
+local lang = RSRG.Languages["fr"]
 
 --INEU VALLEY TERMINALS
 --Ineu Factory Logs

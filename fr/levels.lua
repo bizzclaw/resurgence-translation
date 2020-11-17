@@ -1,4 +1,4 @@
-local lang = RSRG.Languages["en"]
+local lang = RSRG.Languages["fr"]
 lang["#UI_LEVEL"] = "Niveau"
 
 -- Classes

@@ -1,5 +1,5 @@
 -- UI TABS
-local lang = RSRG.Languages["en"]
+local lang = RSRG.Languages["fr"]
 
 --Main menu
 lang["#GAMEMODE_NAME"] = "Fallout Resurgence"

@@ -1,4 +1,4 @@
-local lang = RSRG.Languages["en"]
+local lang = RSRG.Languages["fr"]
 HINTS_COMMON = 1
 HINTS_RARE = 2
 
