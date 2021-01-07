@@ -317,12 +317,12 @@ lang["#TUTORIAL_NEARDEATH"] = "Вы при смерти!\n\nЕщё один та
 
 -- Radio Station
 lang["#UI_ADJUSTVOLUME"] = "Громкость"
-lang["#RADIO_LTTBR"] = "«Громче, чем радио бомбы»"
-lang["#RADIO_RRRB"] = "Радио «Боп Красной Ракеты»"
-lang["#RADIO_CJRS"] = "Радио «Шак Кадиллака Джека»"
-lang["#RADIO_TT"] = "Музыка «Tumbleweed»"
+lang["#RADIO_LTTBR"] = "'Громче, чем радио бомбы'"
+lang["#RADIO_RRRB"] = "Радио 'Боп Красной Ракеты'"
+lang["#RADIO_CJRS"] = "Радио 'Шак Кадиллака Джека'"
+lang["#RADIO_TT"] = "Музыка 'Tumbleweed'"
 lang["#RADIO_GOP"] = "Гопник радио"
-lang["#RADIO_CTDN"] = "«Рассказы про тёмные ночи»"
+lang["#RADIO_CTDN"] = "'Рассказы про тёмные ночи'"
 lang["#RADIO_BANDIT"] = "Бандитское радио"
 lang["#RADIO_NCRPR"] = "Общественное радио НКР"
 lang["#RADIO_RAIDER"] = "" -- Any ideas for a name? Raider Radio is too bland and it should be some pre war name like the Nuka World Radio Station. Maybe Portland Public Broadcast or something? -Coront
