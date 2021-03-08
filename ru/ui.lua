@@ -37,7 +37,7 @@ lang["#UI_STEAMGROUP"] = "Группа в Steam"
 lang["#UI_GMODMENU"] = "Меню Gmod"
 lang["#UI_SIGNOUT"] = "Главное меню"
 lang["#UI_QUIT"] = "Отключиться"
-lang["#UI_SIGNOUTWARN"] = "Вы оставите своего персонажа позади!\n\nЗдесь опасно, попробуйте выехать из города или с карты путешествий."
+lang["#UI_SIGNOUTWARN"] = "Вы оставите своего персонажа позади!\n\nЗдесь опасно, попробуйте выйти из города или с карты путешествий."
 lang["#UI_SIGNOUTDEATHWARN"] = "ВЫ УМРЁТЕ!\nЕсли вы уйдёте сейчас, ваш персонаж будет убит!\n\nВы всё ещё можете сделать это, если позволите себе восстановиться."
 
 
@@ -55,6 +55,7 @@ lang["#PIP_SPECIAL"] = "SPECIAL"
 lang["#PIP_SKILLS"] = "НАВЫКИ"
 lang["#PIP_PERKS"] = "СПОСОБНОСТИ"
 
+lang["#PIP_CONTRACTS"] = "Контракты"
 lang["#PIP_REPUTATION"] = "РЕПУТАЦИЯ"
 lang["#PIP_CRIMES"] = "ПРЕСТУПЛЕНИЯ"
 lang["#PIP_STATISTICS"] = "СТАТИСТИКА"
@@ -205,19 +206,36 @@ lang["#GOODRAD4_NAME"] = "Макс. дозировка излучения"
 ╚═╝  ╚═╝╚═╝╚══════╝╚═╝     ╚═╝╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝
 ]]
 
-
+--Poison
 lang['#POISON_GREENGECKO'] = "Ядовитый плевок"
 lang['#VENOM_RADSCORPION'] = "Жало радскорпиона"
+--Disease minor
 lang['#DISEASE_JUMBLES'] = "Путаница"
 lang['#DISEASE_LIMPWRIST'] = "Сломано запястье"
 lang['#DISEASE_FUMIGATIONS'] = "Дезинфекция"
 lang['#DISEASE_VAPORS'] = "Испарения"
-lang['#DISEASE_WATERBRAIN'] = "Водянка головного мозга"
-lang['#DISEASE_CALAMITOUS'] = "Пагубная сыпь"
+lang['#DISEASE_WATERBRAIN'] = "Скопление жидкости в мозге"
 lang['#DISEASE_MYOPIA'] = "Близорукость"
+lang['#DISEASE_BINFECTION'] = "Bacterial Infection"
+lang['#DISEASE_HEADACHE'] = "Сильная головная боль"
+lang['#DISEASE_CROTCHROT'] = "Раздражение в паху"
+lang['#DISEASE_TWITCHLIPS'] = "Подергивание губ"
+lang['#DISEASE_BRONCHITIS'] = "Бронхит"
+lang['#DISEASE_COUGH'] = "Легкий кашель"
+--Disease Major
+lang['#DISEASE_BIGWEAKNESS'] = "Слабость"
+lang['#DISEASE_BRAINCONGESTION'] = "Гниение мозга"
+lang['#DISEASE_SLURS'] = "Неразборчивость"
+lang['#DISEASE_GLASSYEYES'] = "Стеклянные глаза"
+lang['#DISEASE_TARLUNG'] = "Деготь легкого"
+lang['#DISEASE_CRUNCH'] = "Хрустящие судороги"
+lang['#DISEASE_CALAMITOUS'] = "Пагубная сыпь"
+lang['#DISEASE_BADLUCK'] = "Невезение"
+
 lang['#DISEASE_BONEITIS'] = "Бонеитис"
+--Effect
 lang['#BITE_GOLDGECKO'] = "Радиоактивный укус"
-lang['#MELEE_REAVER'] = "Объятия рейдера"
+lang['#MELEE_REAVER'] = "Хватка ривера"
 lang['#MELEE_GLOWING'] = "Свечение"
 
 --Notifications
@@ -248,6 +266,9 @@ lang["#INV_REMOVED"] = "$item - удалено"
 lang["#EQUIPDENY_NOSLOTS"] = "Это не то, что вы можете надеть."
 lang["#EQUIPDENY_ANIMSET"] = "Это не подходит для вас."
 
+lang["#EIGHTBALL_REMOVED"] = "ПРОГНОЗЫ: НЕ ТАКИЕ ПРЕКРАСНЫЕ."
+
+--PARTY
 -- new feature, $person will be automatically replaced with subject's name
 lang["#PARTY_HASINVITED"] = "$person пригласил вас присоединиться к их группе."
 lang["#PARTY_LEAVE"] = "Выйти из группы"
@@ -285,11 +306,6 @@ lang["#UI_ACTIVATE"] = "Активировать"
 lang["#UI_HELPUP"] = "(Удерж.) Помочь"
 lang["#UI_HELPINGPLAYER"] = "Восстановление..."
 lang["#UI_UNDOWNPROMPT"] = "[Двигайся] Вернуться обратно"
-
---boltPrompt
-lang["#UI_COCKGUN"] = "Взведение оружия"
-lang["#UI_CHARGEBOLT"] = "Заряд болта"
-lang["#UI_CHARGEHAMMER"] = "Заряд молота"
 
 --Tutorial
 lang["#TUTORIAL_OPENINV"] = "Нажмите @+score чтобы открыть свой КПК."
@@ -349,6 +365,7 @@ lang["#CRAFTING_WORKBENCH"] = "Верстак"
 lang["#CRAFTING_MODBENCH"] = "Верстак для модификаций"
 lang["#CRAFTING_TOOL"] = "Инструмент"
 lang["#UI_CRAFT"] = "Создать"
+lang["#UI_PURCHASE"] = "Приобрести"
 lang["#UI_TAKE"] = "Взять"
 lang["#UI_STORAGE"] = "Хранилище"
 lang["#UI_NOMOD"] = "Нет модификации"
@@ -391,7 +408,7 @@ lang["#UI_ENTERNAME"] = "Введите имя..."
 lang["#RACE_HUMAN"] = "Обитатель пустошей"
 lang["#RACE_VAULTDWELLER"] = "Житель убежища"
 lang["#RACE_GHOUL"] = "Гуль"
-lang["#RACE_SUPERMUTANT"] = "Супер мутант"
+lang["#RACE_SUPERMUTANT"] = "Супермутант"
 
 --Brief Race Descriptions
 lang['#RACE_HUMAN_DESC'] = [[
@@ -451,9 +468,9 @@ lang["#RACE_GHOULEXTENDED_DESC"] = [[
 lang["#RACE_SUPERMUTANTEXTENDED_DESC"] = [[
 Ты был... погоди, ты не совсем помнишь. В какой-то момент вашей жизни вы упали или были брошены в гигантский чан со странной зелёной слизью и превратились в существо, которым вы являетесь сегодня. У тебя болит голова, когда ты пытаешься что-то вспомнить, какой была жизнь до того, как ты проснулся таким образом.
 
-Ты отличаешься. Очень отличаешься. Для многих людей вы не более чем большой зелёный (или синий) монстр. У вас плохая репутация благодаря ассоциации и благодаря гигантской группе, которая пыталась превратить всех в супер мутантов несколько десятилетий назад. Возможно, вы были одним из них, но никто бы не знал наверняка, если бы вы это отрицали.
+Ты отличаешься. Очень отличаешься. Для многих людей вы не более чем большой зелёный (или синий) монстр. У вас плохая репутация благодаря ассоциации и благодаря гигантской группе, которая пыталась превратить всех в супермутантов несколько десятилетий назад. Возможно, вы были одним из них, но никто бы не знал наверняка, если бы вы это отрицали.
 
-Благодаря слизи, с тобой произошло много вещей. Вы не знаете какого вы возраста, и, очевидно, вы больше и намного сильнее, чем человек. Из-за ваших огромных рук вы не можете использовать крошечное оружие, такие как пистолеты, а из-за своего размера вы не можете влезть в человеческую одежду. Функции вашего мозга также были повреждены- даже если вы один из "умных" Супер Мутантов, вы такой же умный, как нормальный человек. Радиация влияет на вас также по-разному.
+Благодаря слизи, с тобой произошло много вещей. Вы не знаете какого вы возраста, и, очевидно, вы больше и намного сильнее, чем человек. Из-за ваших огромных рук вы не можете использовать крошечное оружие, такие как пистолеты, а из-за своего размера вы не можете влезть в человеческую одежду. Функции вашего мозга также были повреждены- даже если вы один из "умных" супермутантов, вы такой же умный, как нормальный человек. Радиация влияет на вас также по-разному.
 
 Чем или кем ты был раньше, уже не имеет значения. Что бы вы ни делали в своей жизни сейчас, это ваш собственный выбор.
 ]]
@@ -491,6 +508,14 @@ lang["#SETTING_TOGGLEAIM"] = "Залипание прицеливания"
 lang["#SETTING_CROSSHAIR"] = "Включить прицеливание"
 lang["#SETTING_RADIO_EXTRA"] = "Дополнительные радиостанции (не относятся к сюжету)"
 
+-- Mission Board
+lang["#UI_ACCEPTCONTRACT"] = "Принять контракт: $contractName ?"
+
+
+-- Contracts
+lang["#MISSION_TURNIN"] = "Turn In"
+lang["#MISSION_COMPLETE"] = "Complete"
+lang["#1ISSION_KILLS"] = "Kills"
 --
 
 --If there's any items you know I'll add, feel free to add them yourself and write their description. Heck add anything you like. Just make sure it follows the format here. Also, it MUST have a # in front of the name and the name must be all caps.
