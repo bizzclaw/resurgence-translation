@@ -54,7 +54,7 @@ lang["#PIP_SPECIAL"] = "SPECIAL"
 lang["#PIP_SKILLS"] = "SKILLS"
 lang["#PIP_PERKS"] = "PERKS"
 
-lang["#PIP_CONTRACTS"] = "Contracts"
+lang["#PIP_CONTRACTS"] = "CONTRACTS"
 lang["#PIP_REPUTATION"] = "REPUTATION"
 lang["#PIP_CRIMES"] = "CRIMES"
 lang["#PIP_STATISTICS"] = "STATISTICS"
@@ -109,6 +109,17 @@ lang["#UI_UNSTUCKWAIT"] = "You must wait $time more seconds before you can unstu
 lang["#UI_UNSTUCKFAILED"] = "Unstuck Failed! Try contacting staff by putting @ sign before your message!"
 lang["#UI_TOGGLERAISEHELP"] = "You can lower your weapon by holding @+use and tapping @+reload .\n\nHolding @+reload will holster your weapon."
 
+-- Use Prompts
+
+lang["#UI_PICK"] = "Pick"
+lang["#UI_HARVEST"] = "Harvest"
+lang["#UI_MINE"] = "Mine"
+lang["#UI_EXTRACT"] = "Extract"
+lang["#UI_DISARM"] = "Disarm"
+
+lang["#UI_MINELIMIT"] = "You hit the mine limit of $limit. Retrieving First Mine."
+lang["#UI_MINELIMIT_RETRIEVEFAILED"] = "You were too far away to retrieve your mine!"
+
 lang["#PROTECTION_TIMEBLOCK"] = "Saving Blocked\n\nYou must wait before saving this item!\n\n"
 lang["#PROTECTION_NOTENOUGHWGT"] = "Cannot save, not enough Save Weight Budget.\n\nYour Save Weight Budget is based on your Save Weight skill."
 lang["#PROTECTION_DANGERZONE"] = "You cannot save items here.\n\nYou can only save items in a safe zone."
@@ -145,6 +156,7 @@ lang["#EFFECTSLOT_CONSUMABLE"] = "Consumable"
 lang["#CRAFTING_GIVES"] = "Gives"
 
 lang["#UI_SORT"] = "[C] Sort"
+lang["#SORT_AGE"] = "Age"
 lang["#SORT_NAME"] = "Name"
 lang["#SORT_WGT"] = "Weight"
 lang["#SORT_VALUE"] = "Value"
@@ -391,7 +403,6 @@ lang["#MELEE_SLOW"] = "Slow"
 lang["#CHARMAKE_BROW"] = "Eye Brows"
 lang["#CHARMAKE_TONE"] = "Skin Tone"
 lang["#CHARMAKE_HAIR"] = "Hair"
-lang["#CHARMAKE_FACE"] = "Face"
 lang["#CHARMAKE_HAIRSTYLE"] = "Hair Style"
 lang["#CHARMAKE_HAIRCOLOR"] = "Hair Color"
 lang["#CHARMAKE_HAIRSAT"] = "Hair Saturation"
@@ -403,6 +414,50 @@ lang["#GENDER_FEMALE"] = "Female"
 lang["#CHARMAKE_DISCARDCHAR"] = "This will reset your character data. Continue?"
 lang["#UI_NAMECHARACTER"] = "Finalize Character"
 lang["#UI_ENTERNAME"] = "Enter Name..."
+
+-- Looks
+lang["#LOOKS_RANDOMIZE"] = "Randomize"
+lang["#LOOKS_FACE"] = "Face"
+lang["#LOOKS_FOREHEAD"] = "Forehead"
+lang["#LOOKS_EYEBROWS"] = "Eyebrows"
+lang["#LOOKS_EYES"] = "Eyes"
+lang["#LOOKS_EARS"] = "Ears"
+lang["#LOOKS_NOSE"] = "Nose"
+lang["#LOOKS_CHEEK_BONES"] = "Cheek Bones"
+lang["#LOOKS_CHEEKS"] = "Cheeks"
+lang["#LOOKS_LIPS"] = "Lips"
+lang["#LOOKS_JAW"] = "Jaw"
+lang["#LOOKS_CHIN"] = "Chin"
+
+lang["#LOOKS_OUTERBROW_WIDTH"] = "Outer Brow Width"
+lang["#LOOKS_OUTERBROW_HEIGHT"] = "Outer Brow Height"
+lang["#LOOKS_OUTERBROW_SIZE"] = "Outer Brow Size"
+lang["#LOOKS_OUTERBROW_DEPTH"] = "Outer Brow Depth"
+lang["#LOOKS_INNERBROW_WIDTH"] = "Inner Brow Width"
+lang["#LOOKS_INNERBROW_HEIGHT"] = "Inner Brow Height"
+lang["#LOOKS_INNERBROW_SIZE"] = "Inner Brow Size"
+lang["#LOOKS_INNERBROW_DEPTH"] = "Inner Brow Depth"
+
+lang["#LOOKS_EARLOBE"] = "Earlobe"
+
+lang["#LOOKS_NOSE_BRIDGEWIDTH"] = "Bridge Width"
+lang["#LOOKS_NOSE_BRIDGEDEPTH"] = "Bridge Depth"
+
+lang["#LOOKS_LIP_UPPERHEIGHT"] = "Upper Lip Height"
+lang["#LOOKS_LIP_LOWERHEIGHT"] = "Lower Lip  Height"
+
+lang["#LOOKS_LIP_UPPERHEIGHT"] = "Upper Lip Height"
+lang["#LOOKS_LIP_LOWERHEIGHT"] = "Lower Lip  Height"
+
+lang["#LOOKS_JAW_FORWARDHEIGHT"] = "Forward Jaw Height"
+lang["#LOOKS_JAW_REARHEIGHT"] = "Rear Jaw Height"
+
+lang["#LOOKS_DEPTH"] = "Depth"
+lang["#LOOKS_SIZE"] = "Size"
+lang["#LOOKS_WIDTH"] = "Width"
+lang["#LOOKS_HEIGHT"] = "Height"
+lang["#LOOKS_SHAPE"] = "Shape"
+lang["#LOOKS_FORWARD"] = "Forward"
 
 --Race Names
 lang["#RACE_HUMAN"] = "Wastelander"
@@ -504,6 +559,7 @@ lang["#SETTING_RADIO_MUSIC"] = "Radio Music Volume"
 lang["#SETTING_FOV"] = "Field Of View (Unsighted)" -- imply that the field of view settings does not affect aiming zoom.
 lang["#SETTING_PIPSPEED"] = "Pip-Boy Cursor Sensitivity"
 lang["#SETTING_VIEWBOB"] = "View Bob Scale"
+lang["#SETTING_SCOPESCALE"] = "Scoped Sensitity Modifier"
 lang["#SETTING_GRASS"] = "Grass Distance"
 lang["#SETTING_MAXSHELLS"] = "Max Firearm Casings"
 lang["#SETTING_OTHERLIGHTS"] = "Other Player's Lights"
@@ -512,14 +568,36 @@ lang["#SETTING_CROSSHAIR"] = "Enable Crosshair"
 lang["#SETTING_RADIO_EXTRA"] = "Extra Radio Stations (not lore friendly)"
 
 -- Mission Board
+lang["#MISSIONBOARD_TITLE"] = "Contract Board"
+lang["#MISSIONBOARD_SUBTITLE"] = "Looking for work? Here's where you can find it!"
+lang["#MISSIONBOARD_REWARDOPTIONS"] = "Reward Options for this Contract"
 lang["#UI_ACCEPTCONTRACT"] = "Accept Contract: $contractName ?"
-
+lang["#UI_FACTIONS"] = "Factions"
 
 -- Contracts
+lang["#MISSION_ACCEPT"] = "Accept Mission"
 lang["#MISSION_TURNIN"] = "Turn In"
-lang["#MISSION_COMPLETE"] = "Complete"
-lang["#1ISSION_KILLS"] = "Kills"
---
+lang["#MISSION_COMPLETE"] = "Completed."
+lang["#MISSION_KILLS"] = "Kills"
+lang["#MISSION_SELECTREWARD"] = "You've completed the mission. Select a reward."
+lang["#MISSION_CLAIMREWARD"] = "Claim"
+
+lang["#MISSIONREWARD_DEFAULT"] = "Reward"
+lang["#MISSIONREWARD_DEFAULTDESC"] = "What you'll get when you complete this task"
+
+lang["#MISSIONREWARD_MONEY"] = "Full Monetary Reward"
+lang["#MISSIONREWARD_MONEYDESC"] = "Obtain the full monetary reward on offer for this mission."
+
+lang["#MISSIONREWARD_REPUTATION"] = "Reward with Reputation"
+lang["#MISSIONREWARD_REPUTATIONDESC"] = "Accept a lesser reward for completing this mission to gain more favor with this faction."
+
+lang["#MISSIONREWARD_INFLUENCE"] = "Community Influence Reward"
+lang["#MISSIONREWARD_INFLUENCEDESC"] = "Complete this mission in the name of your community to give your community more influence."
+
+lang["#MISSIONREWARD_INFLUENCE_COMMUNITYREQUIRED"] = "You can only accept this reward if you are in a community.\n\nPlayer Communities Coming Soon."
+
+lang["#UI_REPUTATION"] = "Reputation"
+lang["#UI_INFLUENCE"] = "Influence"
 
 --If there's any items you know I'll add, feel free to add them yourself and write their description. Heck add anything you like. Just make sure it follows the format here. Also, it MUST have a # in front of the name and the name must be all caps.
 

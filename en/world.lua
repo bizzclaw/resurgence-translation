@@ -46,8 +46,8 @@ lang["#FACTION_CRIMSONCARAVAN_DESC"] = "The Crimson Caravan Company is one of, i
 lang["#FACTION_CORPORATION_NAME"] = "Cipher"
 lang["#FACTION_CORPORATION_DESC"] = "Cipher, more known as 'The Corporation', are an highly secretive organised group of criminals from the north. They deal in anything most lawful types would turn their heads at if it'll result in a payday- slave trading, paid murder, sabotage, you name it."
 
-lang[""] = ""
-lang[""] = ""
+lang["FACTION_FOLLOWERSOFTHEAPOCALYPSE_NAME"] = "Followers of the Apocalypse"
+lang["FACTION_FOLLOWERSOFTHEAPOCALYPSE_DESC"] = "The Followers are a humanitarian organization originating in New California and focus on providing education and medical services to those in need, as well as furthering research in non-military areas."
 -- Laws
 lang["#LAW_MURDER_NAME"] = "Murder"
 lang["#LAW_MURDER_DESC"] = "Unlawful killing of another individual"
