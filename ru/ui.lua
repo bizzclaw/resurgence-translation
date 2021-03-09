@@ -55,7 +55,7 @@ lang["#PIP_SPECIAL"] = "SPECIAL"
 lang["#PIP_SKILLS"] = "НАВЫКИ"
 lang["#PIP_PERKS"] = "СПОСОБНОСТИ"
 
-lang["#PIP_CONTRACTS"] = "Контракты"
+lang["#PIP_CONTRACTS"] = "КОНТРАКТЫ"
 lang["#PIP_REPUTATION"] = "РЕПУТАЦИЯ"
 lang["#PIP_CRIMES"] = "ПРЕСТУПЛЕНИЯ"
 lang["#PIP_STATISTICS"] = "СТАТИСТИКА"
@@ -110,6 +110,17 @@ lang["#UI_UNSTUCKWAIT"] = "Подождите $time сек., прежде чем
 lang["#UI_UNSTUCKFAILED"] = "Unstuck не удался! Попробуйте связаться с администратором, поставив @ перед вашим сообщением!"
 lang["#UI_TOGGLERAISEHELP"] = "Вы можете опустить своё оружие, удерживая @+use и нажав @+reload .\n\nУдерживая @+reload вы спрячете ваше оружие."
 
+-- Use Prompts
+
+lang["#UI_PICK"] = "Подобрать"
+lang["#UI_HARVEST"] = "Добыть"
+lang["#UI_MINE"] = "Добыть"
+lang["#UI_EXTRACT"] = "Извлечь"
+lang["#UI_DISARM"] = "Обезвредить"
+
+lang["#UI_MINELIMIT"] = "Вы превысили лимит добычи $limit. Извлекаем первую добычу."
+lang["#UI_MINELIMIT_RETRIEVEFAILED"] = "Вы слишком далеко, чтобы забрать свою добычу!"
+
 lang["#PROTECTION_TIMEBLOCK"] = "Сохранение заблокировано\n\nВы должны подождать, прежде чем сохранить этот предмет!\n\n"
 lang["#PROTECTION_NOTENOUGHWGT"] = "Невозможно сохранить, недостаточно бюджета сохранения веса.\n\nВаш бюджет сохранения веса веса основан на вашем навыке Сохранение веса."
 lang["#PROTECTION_DANGERZONE"] = "Вы не можете сохранить предметы здесь.\n\nВы можете сохранять предметы только в безопасной зоне."
@@ -146,6 +157,7 @@ lang["#EFFECTSLOT_CONSUMABLE"] = "Потребление"
 lang["#CRAFTING_GIVES"] = "Даёт"
 
 lang["#UI_SORT"] = "[C] Сортировать"
+lang["#SORT_AGE"] = "Возраст"
 lang["#SORT_NAME"] = "Название"
 lang["#SORT_WGT"] = "Вес"
 lang["#SORT_VALUE"] = "Цена"
@@ -235,7 +247,7 @@ lang['#DISEASE_BADLUCK'] = "Невезение"
 lang['#DISEASE_BONEITIS'] = "Бонеитис"
 --Effect
 lang['#BITE_GOLDGECKO'] = "Радиоактивный укус"
-lang['#MELEE_REAVER'] = "Хватка ривера"
+lang['#MELEE_REAVER'] = "Объятие потрошителя"
 lang['#MELEE_GLOWING'] = "Свечение"
 
 --Notifications
@@ -281,7 +293,7 @@ lang["#PARTY_YOUARELEADER"] = "Вы были повышены до лидера 
 lang["#PARTY_INVALIDMEMBER"] = "Участник группы больше не действителен!"
 lang["#PARTY_DISBANDWARNING"] = "Группа будет расформирована."
 lang["#PARTY_LEADER"] = "Лидер"
-lang["#PARTY_OFFLINE"] = "Офлайн"
+lang["#PARTY_OFFLINE"] = "Нет в сети"
 lang["#PARTY_MINE"] = "Моя группа"
 lang["#PARTY_OTHERS"] = "Группа $person"
 lang["#PARTY_CONFIRMLEAVE"] = "Вы уверены, что хотите покинуть группу?"
@@ -391,7 +403,6 @@ lang["#MELEE_SLOW"] = "Медленный"
 lang["#CHARMAKE_BROW"] = "Брови"
 lang["#CHARMAKE_TONE"] = "Оттенок кожи"
 lang["#CHARMAKE_HAIR"] = "Волосы"
-lang["#CHARMAKE_FACE"] = "Лицо"
 lang["#CHARMAKE_HAIRSTYLE"] = "Стиль волос"
 lang["#CHARMAKE_HAIRCOLOR"] = "Цвет волос"
 lang["#CHARMAKE_HAIRSAT"] = "Насыщенность волос"
@@ -403,6 +414,50 @@ lang["#GENDER_FEMALE"] = "Женщина"
 lang["#CHARMAKE_DISCARDCHAR"] = "Это сбросит данные вашего персонажа. Продолжить?"
 lang["#UI_NAMECHARACTER"] = "Завершить персонажа"
 lang["#UI_ENTERNAME"] = "Введите имя..."
+
+-- Looks
+lang["#LOOKS_RANDOMIZE"] = "Случайно"
+lang["#LOOKS_FACE"] = "Лицо"
+lang["#LOOKS_FOREHEAD"] = "Лоб"
+lang["#LOOKS_EYEBROWS"] = "Брови"
+lang["#LOOKS_EYES"] = "Глаза"
+lang["#LOOKS_EARS"] = "Уши"
+lang["#LOOKS_NOSE"] = "Нос"
+lang["#LOOKS_CHEEK_BONES"] = "Скулы"
+lang["#LOOKS_CHEEKS"] = "Щёки"
+lang["#LOOKS_LIPS"] = "Губы"
+lang["#LOOKS_JAW"] = "Челюсть"
+lang["#LOOKS_CHIN"] = "Подбородок"
+
+lang["#LOOKS_OUTERBROW_WIDTH"] = "Внешняя ширина бровей"
+lang["#LOOKS_OUTERBROW_HEIGHT"] = "Внешняя высота бровей"
+lang["#LOOKS_OUTERBROW_SIZE"] = "Внешний размер бровей"
+lang["#LOOKS_OUTERBROW_DEPTH"] = "Наружная глубина бровей"
+lang["#LOOKS_INNERBROW_WIDTH"] = "Внутренняя ширина бровей"
+lang["#LOOKS_INNERBROW_HEIGHT"] = "Внутренняя высота бровей"
+lang["#LOOKS_INNERBROW_SIZE"] = "Внутренний размер бровей"
+lang["#LOOKS_INNERBROW_DEPTH"] = "Внутренняя глубина бровей"
+
+lang["#LOOKS_EARLOBE"] = "Мочка уха"
+
+lang["#LOOKS_NOSE_BRIDGEWIDTH"] = "Ширина переносицы"
+lang["#LOOKS_NOSE_BRIDGEDEPTH"] = "Глубина переносицы"
+
+lang["#LOOKS_LIP_UPPERHEIGHT"] = "Высота верхней губы"
+lang["#LOOKS_LIP_LOWERHEIGHT"] = "Высота нижней губы"
+
+lang["#LOOKS_LIP_UPPERHEIGHT"] = "Высота верхней губы"
+lang["#LOOKS_LIP_LOWERHEIGHT"] = "Высота нижней губы"
+
+lang["#LOOKS_JAW_FORWARDHEIGHT"] = "Высота передней челюсти"
+lang["#LOOKS_JAW_REARHEIGHT"] = "Высота задней челюсти"
+
+lang["#LOOKS_DEPTH"] = "Глубина"
+lang["#LOOKS_SIZE"] = "Размер"
+lang["#LOOKS_WIDTH"] = "Ширина"
+lang["#LOOKS_HEIGHT"] = "Высота"
+lang["#LOOKS_SHAPE"] = "Форма"
+lang["#LOOKS_FORWARD"] = "Forward"
 
 --Race Names
 lang["#RACE_HUMAN"] = "Обитатель пустошей"
@@ -501,6 +556,7 @@ lang["#SETTING_RADIO_MUSIC"] = "Громкость музыки радио"
 lang["#SETTING_FOV"] = "Поле зрения (неприцельное)" -- imply that the field of view settings does not affect aiming zoom.
 lang["#SETTING_PIPSPEED"] = "Чувствительность курсора пип-боя"
 lang["#SETTING_VIEWBOB"] = "Размер покачивания экрана при движении"
+lang["#SETTING_SCOPESCALE"] = "Модификатор чувствительности прицела"
 lang["#SETTING_GRASS"] = "Расстояние отображения травы"
 lang["#SETTING_MAXSHELLS"] = "Макс. огнестрельных гильз"
 lang["#SETTING_OTHERLIGHTS"] = "Подсвечивание других игроков"
@@ -509,13 +565,37 @@ lang["#SETTING_CROSSHAIR"] = "Включить прицеливание"
 lang["#SETTING_RADIO_EXTRA"] = "Дополнительные радиостанции (не относятся к сюжету)"
 
 -- Mission Board
+lang["#MISSIONBOARD_TITLE"] = "Доска контрактов"
+lang["#MISSIONBOARD_SUBTITLE"] = "Ищете работу? Вот где это можно найти!"
+lang["#MISSIONBOARD_REWARDOPTIONS"] = "Варианты вознаграждения по этому контракту"
 lang["#UI_ACCEPTCONTRACT"] = "Принять контракт: $contractName ?"
+lang["#UI_FACTIONS"] = "Фракции"
 
 
 -- Contracts
-lang["#MISSION_TURNIN"] = "Turn In"
-lang["#MISSION_COMPLETE"] = "Complete"
-lang["#1ISSION_KILLS"] = "Kills"
+lang["#MISSION_ACCEPT"] = "Принять миссию"
+lang["#MISSION_TURNIN"] = "Сдать"
+lang["#MISSION_COMPLETE"] = "завершено."
+lang["#MISSION_KILLS"] = "Убито"
+lang["#MISSION_SELECTREWARD"] = "Вы выполнили миссию. Выберите награду."
+lang["#MISSION_CLAIMREWARD"] = "Забрать"
+
+lang["#MISSIONREWARD_DEFAULT"] = "Награда"
+lang["#MISSIONREWARD_DEFAULTDESC"] = "Что вы получите, когда выполните это задание"
+
+lang["#MISSIONREWARD_MONEY"] = "Полное денежное вознаграждение"
+lang["#MISSIONREWARD_MONEYDESC"] = "Получите полную денежную награду за эту миссию."
+
+lang["#MISSIONREWARD_REPUTATION"] = "Награда репутацией"
+lang["#MISSIONREWARD_REPUTATIONDESC"] = "Примите меньшую награду за выполнение этой миссии, чтобы получить больше благосклонности этой фракции."
+
+lang["#MISSIONREWARD_INFLUENCE"] = "Награда влиянием сообщества"
+lang["#MISSIONREWARD_INFLUENCEDESC"] = "Завершите эту миссию от имени вашего сообщества, чтобы дать вашему сообществу больше влияния."
+
+lang["#MISSIONREWARD_INFLUENCE_COMMUNITYREQUIRED"] = "Вы можете принять эту награду, только если вы состоите в сообществе.\n\nСкоро появятся сообщества игроков."
+
+lang["#UI_REPUTATION"] = "Репутация"
+lang["#UI_INFLUENCE"] = "Влияние"
 --
 
 --If there's any items you know I'll add, feel free to add them yourself and write their description. Heck add anything you like. Just make sure it follows the format here. Also, it MUST have a # in front of the name and the name must be all caps.
