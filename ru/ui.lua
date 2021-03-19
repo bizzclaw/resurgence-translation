@@ -457,7 +457,7 @@ lang["#LOOKS_SIZE"] = "Размер"
 lang["#LOOKS_WIDTH"] = "Ширина"
 lang["#LOOKS_HEIGHT"] = "Высота"
 lang["#LOOKS_SHAPE"] = "Форма"
-lang["#LOOKS_FORWARD"] = "Forward"
+lang["#LOOKS_FORWARD"] = "Вперёд"
 
 --Race Names
 lang["#RACE_HUMAN"] = "Обитатель пустошей"
