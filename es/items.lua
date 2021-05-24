@@ -1,4 +1,4 @@
-local lang = RSRG.Languages["es"]
+local lang = RSRG.Languages["es-ES"]
 
 lang["#WIP"] = "[WIP]"
 
