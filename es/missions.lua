@@ -1,4 +1,4 @@
-local lang = RSRG.Languages["es"]
+local lang = RSRG.Languages["es-ES"]
 lang["#MISSION_GIVER"] = "Reclutador" --Estos son simplemente quienes entregan misiones.
 
 -- ██████╗ ██████╗  ██████╗ ███████╗██╗██╗     ███████╗███████╗
