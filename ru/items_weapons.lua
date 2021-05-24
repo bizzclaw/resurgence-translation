@@ -114,7 +114,7 @@ lang["#PIPERIFLE_NAME"] = "Гладкоствол"
 lang["#PIPERIFLEBOLT_NAME"] = "Гладкоствол с затвором"
 lang["#VARMINT_NAME"] = "Варминт-винтовка"
 lang["#MACHINEGUN_NAME"] = "Лёгкий пулемёт"
-lang["#G11_NAME"] = "Залповая винтовка"
+lang["#G11_NAME"] = "Скорострельное ружьё"
 
 lang["#RHODIESPECIAL_NAME"] = "Родезийский 'Спешиал'"
 lang["#R91INFILTRATOR_NAME"] = "Инфильтратор"
