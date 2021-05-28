@@ -209,21 +209,21 @@ lang["#MISSION_REDMAN_VAULTEXPEDITION_CLEARANCE_HINT"] = "Elimina cualquier tipo
 lang["#MISSION_REDMAN_VAULTEXPEDITION_CLEARANCE_COMPLETE"] = "¿Te has librado de ellos? Eso es una gran noticia."
 
 lang["#MISSION_REDMAN_VAULTEXPEDITION_LOSTLOGS"] = "Expedición al bunker: Registros perdidos"
-lang["#MISSION_REDMAN_VAULTEXPEDITION_LOSTLOGS_DESC"] = "Has hecho un gran trabajo eliminando todos los engendros del refugio. Enviamos un grupo no hace mucho para buscar restos, recoger recursos y demás. Una cosa que no entendemos, sin embargo, es que no hay restos reales de nadie ni de nada de lo que solía haber ahí abajo. Sabemos que los necrófagos se mudaron después,  probablemente a través de una puerta trasera. Tengo una última petición para ti sobre esta situació. Me gustaría que buscaras por ti mismo y vieras si puedes encontrar alguna información sobre lo que pasó dentro del refugio. Si encuentras algo, tráelo aquí y lo revisaremos".
+lang["#MISSION_REDMAN_VAULTEXPEDITION_LOSTLOGS_DESC"] = "Has hecho un gran trabajo eliminando todos los engendros del refugio. Enviamos un grupo no hace mucho para buscar restos, recoger recursos y demás. Una cosa que no entendemos, sin embargo, es que no hay restos reales de nadie ni de nada de lo que solía haber ahí abajo. Sabemos que los necrófagos se mudaron después,  probablemente a través de una puerta trasera. Tengo una última petición para ti sobre esta situació. Me gustaría que buscaras por ti mismo y vieras si puedes encontrar alguna información sobre lo que pasó dentro del refugio. Si encuentras algo, tráelo aquí y lo revisaremos"
 lang["#MISSION_REDMAN_VAULTEXPEDITION_LOSTLOGS_HINT"] = "Busca información sobre lo que ocurrió dentro del refugioa. Es probable que lo encuentres en una zona que aún no ha sido explorada o posiblemente a través de la puerta trasera."
-lang["#MISSION_REDMAN_VAULTEXPEDITION_LOSTLOGS_COMPLETE"] = "Haremos que algunas personas investiguen esto. Gracias por tu ayuda en esto".
+lang["#MISSION_REDMAN_VAULTEXPEDITION_LOSTLOGS_COMPLETE"] = "Haremos que algunas personas investiguen esto. Gracias por tu ayuda en esto"
 
 -- T5
 
 lang["#MISSION_REDMAN_PROBLEMS"] = "Problemas"
-lang["#MISSION_REDMAN_PROBLEMS_DESC"] = "Es bueno ver que todavía estás aquí. Si todavía quieres ayudar, hemos tenido un problema en los últimos días. Hace poco un Sanguinario se ha instalado en la entrada del refugio, principalmente se mueve por el interior del foso, lo que nos impide entrar al refugio. Cuando quieras puedes acabar con él, si lo haces tendrás esperándote un buen pago.""
+lang["#MISSION_REDMAN_PROBLEMS_DESC"] = "Es bueno ver que todavía estás aquí. Si todavía quieres ayudar, hemos tenido un problema en los últimos días. Hace poco un Sanguinario se ha instalado en la entrada del refugio, principalmente se mueve por el interior del foso, lo que nos impide entrar al refugio. Cuando quieras puedes acabar con él, si lo haces tendrás esperándote un buen pago."
 lang["#MISSION_REDMAN_PROBLEMS_HINT"] = "Elimina cualquier tipo de Sanguinario en el foso de Salt Wells. La fosa se puede encontrar directamente en frente del refugio que contiene la bomba nuclear sin explotar."
-lang["#MISSION_REDMAN_PROBLEMS_COMPLETE"] = "¿Lo has matado? ¡Eso es genial! Toma, coge esto".
+lang["#MISSION_REDMAN_PROBLEMS_COMPLETE"] = "¿Lo has matado? ¡Eso es genial! Toma, coge esto"
 
 lang["#MISSION_REDMAN_DEVELOPMENT"] = "Desarrollo"
 lang["#MISSION_REDMAN_DEVELOPMENT_DESC"] = "Hemos tenido otro problema cerca del pasaje que hemos establecido y que va a Ashlands. Aparentemente no es demasiado grave pero algunos de los hombres de allí necesitan ayuda. Si quieres buscar más trabajo, te sugiero que vayas allí porque ya has hecho mucho por aquí. Deberíamos estar bien por un tiempo. Además, ha salido más información sobre los registros del refugio, por si te interesa. (...)"
 lang["#MISSION_REDMAN_DEVELOPMENT_HINT"] = "Dirígete al Paso de la Montaña que la gente suele usar para ir a Ashlands y habla con el asignador de tareas en el campamento."
-lang["#MISSION_REDMAN_DEVELOPMENT_COMPLETE"] = "Bienvenido al Paso de la Montaña".
+lang["#MISSION_REDMAN_DEVELOPMENT_COMPLETE"] = "Bienvenido al Paso de la Montaña"
 
 -- ██╗███████╗ █████╗  █████╗  ██████╗███████╗    ███╗   ███╗██╗███████╗███████╗██╗ ██████╗ ███╗   ██╗███████╗
 -- ██║██╔════╝██╔══██╗██╔══██╗██╔════╝██╔════╝    ████╗ ████║██║██╔════╝██╔════╝██║██╔═══██╗████╗  ██║██╔════╝
@@ -234,21 +234,21 @@ lang["#MISSION_REDMAN_DEVELOPMENT_COMPLETE"] = "Bienvenido al Paso de la Montañ
 
 lang["#MISSION_ISAAC_PERSONALREQUEST"] = "Petición personal"
 lang["#MISSION_ISAAC_PERSONALREQUEST_DESC"] = "Hola, necesito ayuda con algo: nos falta un haz de leña. No estoy del todo seguro de dónde puede haber ido, podría haber sido robado, pero lo necesitamos porque los teníamos para una persona específica. Necesito que vayas y recuperes media docena de leña para nosotros. Suena bastante sencillo, ¿verdad?"
-lang["#MISSION_ISAAC_PERSONALREQUEST_HINT"] = "Obtener madera de desecho. Se puede hurgar, desmontar objetos o recoger de otros fardos de madera / árboles rotos. También puedes comprarla a algunos comerciantes".
-lang["#MISSION_ISAAC_PERSONALREQUEST_COMPLETE"] = "Estupendo, gracias amigo. Toma, por las molestias".
+lang["#MISSION_ISAAC_PERSONALREQUEST_HINT"] = "Obtener madera de desecho. Se puede hurgar, desmontar objetos o recoger de otros fardos de madera / árboles rotos. También puedes comprarla a algunos comerciantes"
+lang["#MISSION_ISAAC_PERSONALREQUEST_COMPLETE"] = "Estupendo, gracias amigo. Toma, por las molestias"
 
 lang["#MISSION_ISAAC_LEATHERYORDER"] = "Pedido de cuero"
 lang["#MISSION_ISAAC_LEATHERYORDER_DESC"] = "¿Sigues dispuesto a ayudar? Bien. Sólo tengo un pedido de cuero, no demasiado. Si estás dispuesto a ir y coger un poco para mí para que pueda completar este pedido te pagaré por ello."
 lang["#MISSION_ISAAC_LEATHERYORDER_HINT"] = "Obtener cuero. Se puede encontrar hurgando en la basura, desmontando objetos de cuero o comprándolos a comerciantes."
-lang["#MISSION_ISAAC_LEATHERYORDER_COMPLETE"] = "Muy bien, le llevaré esto al tipo. Aquí tienes".
+lang["#MISSION_ISAAC_LEATHERYORDER_COMPLETE"] = "Muy bien, le llevaré esto al tipo. Aquí tienes"
 
 lang["#MISSION_ISAAC_MEDICINALS"] = "Medicinas"
-lang["#MISSION_ISAAC_MEDICINALS_DESC"] = "Oye tío, ¿Quieres ayudar otra vez? Acabo de recibir un pedido de estimulantes. No debería ser muy difícil, ¿verdad? Bueno, tal vez no para mí. Si obtienes algunos estimulantes tendré algún pago listo para ti".
-lang["#MISSION_ISAAC_MEDICINALS_HINT"] = "Obtener estimulantes. Se pueden buscar en la basura, fabricar o comprar a los comerciantes".
-lang["#MISSION_ISAAC_MEDICINALS_COMPLETE"] = "Yo me encargo de mi parte, aquí tienes".
+lang["#MISSION_ISAAC_MEDICINALS_DESC"] = "Oye tío, ¿Quieres ayudar otra vez? Acabo de recibir un pedido de estimulantes. No debería ser muy difícil, ¿verdad? Bueno, tal vez no para mí. Si obtienes algunos estimulantes tendré algún pago listo para ti"
+lang["#MISSION_ISAAC_MEDICINALS_HINT"] = "Obtener estimulantes. Se pueden buscar en la basura, fabricar o comprar a los comerciantes"
+lang["#MISSION_ISAAC_MEDICINALS_COMPLETE"] = "Yo me encargo de mi parte, aquí tienes"
 
 lang["#MISSION_ISAAC_METALBULK"] = "Granel de metal"
-lang["#MISSION_ISAAC_METALBULK_DESC"] = "Obviamente estás aquí para ayudar. Acabo de recibir un pedido de un montón de chatarra. Es un poco raro, pero voy a hacer mi trabajo. Lo siento, quiero decir nuestro trabajo. De todos modos, haz tu parte".
+lang["#MISSION_ISAAC_METALBULK_DESC"] = "Obviamente estás aquí para ayudar. Acabo de recibir un pedido de un montón de chatarra. Es un poco raro, pero voy a hacer mi trabajo. Lo siento, quiero decir nuestro trabajo. De todos modos, haz tu parte"
 lang["#MISSION_ISAAC_METALBULK_HINT"] = "Obtener chatarra. Se puede encontrar fácilmente desguazando vehículos y rebuscando. También se puede obtener al desmontar objetos relacionados con el metal."
 lang["#MISSION_ISAAC_METALBULK_COMPLETE"] = "Otro pedido cumplido, aquí tienes tu parte."
 
@@ -256,45 +256,45 @@ lang["#MISSION_ISAAC_METALBULK_COMPLETE"] = "Otro pedido cumplido, aquí tienes 
 
 lang["#MISSION_ISAAC_SHARPTOOLS"] = "Herramientas afiladas"
 lang["#MISSION_ISAAC_SHARPTOOLS_DESC"] = "Acabo de recibir un pedido de otro tipo. La persona que pidió esto quiere un cuchillo de combate si se puede encontrar uno. Deberían ser bastante fáciles de conseguir, ¿no?"
-lang["#MISSION_ISAAC_SHARPTOOLS_HINT"] = "Obtener un cuchillo de combate. Los venden los comerciantes".
-lang["#MISSION_ISAAC_SHARPTOOLS_COMPLETE"] = "Espero que no te haya costado encontrarlo".
+lang["#MISSION_ISAAC_SHARPTOOLS_HINT"] = "Obtener un cuchillo de combate. Los venden los comerciantes"
+lang["#MISSION_ISAAC_SHARPTOOLS_COMPLETE"] = "Espero que no te haya costado encontrarlo"
 
 lang["#MISSION_ISAAC_GOODHIDES"] = "Buenas pieles"
-lang["#MISSION_ISAAC_GOODHIDES_DESC"] = "Oye tío, espero que estés dispuesto a hacer algunos pedidos más grandes. Tenemos algunas personas que están solicitando algunos artículos más grandes. No te preocupes, no te daré nada demasiado difícil de conseguir. Esto es bastante fácil, sólo necesito que consigas algunas pieles de Ratatopo".
-lang["#MISSION_ISAAC_GOODHIDES_HINT"] = "Conseguir pieles de Ratatopo. Puedes conseguir cuero matando y despellejando Ratatopos".
-lang["#MISSION_ISAAC_GOODHIDES_COMPLETE"] = "Bien, bien. Aquí tienes tu recompensa".
+lang["#MISSION_ISAAC_GOODHIDES_DESC"] = "Oye tío, espero que estés dispuesto a hacer algunos pedidos más grandes. Tenemos algunas personas que están solicitando algunos artículos más grandes. No te preocupes, no te daré nada demasiado difícil de conseguir. Esto es bastante fácil, sólo necesito que consigas algunas pieles de Ratatopo"
+lang["#MISSION_ISAAC_GOODHIDES_HINT"] = "Conseguir pieles de Ratatopo. Puedes conseguir cuero matando y despellejando Ratatopos"
+lang["#MISSION_ISAAC_GOODHIDES_COMPLETE"] = "Bien, bien. Aquí tienes tu recompensa"
 
 lang["#MISSION_ISAAC_LOADOUT"] = "Carga"
-lang["#MISSION_ISAAC_LOADOUT_DESC"] = "Oye, ¿crees que estás preparado para esto? Me acaban de lanzar un gran pedido y no estoy seguro de que podamos conseguir todas las piezas. Esto puede ser un poco difícil, pero confío en ti. Un hombre pidió una pistola 9MM, munición, y una armadura de mercenario. Vuelve cuando lo tengas todo".
-lang["#MISSION_ISAAC_LOADOUT_HINT"] = "Consigue una Pistola 9MM, Munición 9MM y una armadura de mercenario. Las pistolas 9MM y la munición se pueden encontrar raramente rebuscando en la basura o comprándolas a los comerciantes. Las armaduras de mercenarios son comúnmente vendidas por los comerciantes".
-lang["#MISSION_ISAAC_LOADOUT_COMPLETE"] = "Vaya, ¿has conseguido todo eso? Aquí tienes tu recompensa".
+lang["#MISSION_ISAAC_LOADOUT_DESC"] = "Oye, ¿crees que estás preparado para esto? Me acaban de lanzar un gran pedido y no estoy seguro de que podamos conseguir todas las piezas. Esto puede ser un poco difícil, pero confío en ti. Un hombre pidió una pistola 9MM, munición, y una armadura de mercenario. Vuelve cuando lo tengas todo"
+lang["#MISSION_ISAAC_LOADOUT_HINT"] = "Consigue una Pistola 9MM, Munición 9MM y una armadura de mercenario. Las pistolas 9MM y la munición se pueden encontrar raramente rebuscando en la basura o comprándolas a los comerciantes. Las armaduras de mercenarios son comúnmente vendidas por los comerciantes"
+lang["#MISSION_ISAAC_LOADOUT_COMPLETE"] = "Vaya, ¿has conseguido todo eso? Aquí tienes tu recompensa"
 
 lang["#MISSION_ISAAC_COUPLESMOKES"] = "Un par de cigarrillos"
-lang["#MISSION_ISAAC_COUPLESMOKES_DESC"] = "Hace unos minutos vino un hombre que quería pedir un par de cigarrillos. En realidad sólo quería algunos paquetes de cigarrillos. Me parece bastante fácil".
-lang["#MISSION_ISAAC_COUPLESMOKES_HINT"] = "Obten paquetes de cigarrillos. Se pueden encontrar al hurgar en la basura".
-lang["#MISSION_ISAAC_COUPLESMOKES_COMPLETE"] = "El tipo probablemente fuma bastante. Ten tu parte".
+lang["#MISSION_ISAAC_COUPLESMOKES_DESC"] = "Hace unos minutos vino un hombre que quería pedir un par de cigarrillos. En realidad sólo quería algunos paquetes de cigarrillos. Me parece bastante fácil"
+lang["#MISSION_ISAAC_COUPLESMOKES_HINT"] = "Obten paquetes de cigarrillos. Se pueden encontrar al hurgar en la basura"
+lang["#MISSION_ISAAC_COUPLESMOKES_COMPLETE"] = "El tipo probablemente fuma bastante. Ten tu parte"
 
 lang["#MISSION_ISAAC_PREWARSNACKS"] = "Aperitivos de antes de la Guerra"
 lang["#MISSION_ISAAC_PREWARSNACKS_DESC"] = "Un tipo quiere que le consigamos varios aperitivos de antes de la guerra. No sé por qué los querría pero para ser sincero algunas de las cosas de esta lista saben bien."
 lang["#MISSION_ISAAC_PREWARSNACKS_HINT"] = "Consigue patatas fritas, Instamash, algodón de azúcar y pasteles. Todos se pueden encontrar rebuscando y a veces los venden los comerciantes."
-lang["#MISSION_ISAAC_PREWARSNACKS_COMPLETE"] = "Hombre, si hubieran sido para nosotros...".
+lang["#MISSION_ISAAC_PREWARSNACKS_COMPLETE"] = "Hombre, si hubieran sido para nosotros..."
 
 -- T3
 
 lang["#MISSION_ISAAC_FIBERS"] = "Fibras"
 lang["#MISSION_ISAAC_FIBERS_DESC"] = "¡De vuelta a los negocios! Tengo un pedido de polímero balístico, parece que quieren una protección decente. De todos modos, ya sabes cual es tu parte."
-lang["#MISSION_ISAAC_FIBERS_HINT"] = "Obtener polímero balístico. Pueden ser fabricados con en una mesa de trabajo".
-lang["#MISSION_ISAAC_FIBERS_COMPLETE"] = "Hombre, si sólo tuviera una buena armadura..".
+lang["#MISSION_ISAAC_FIBERS_HINT"] = "Obtener polímero balístico. Pueden ser fabricados con en una mesa de trabajo"
+lang["#MISSION_ISAAC_FIBERS_COMPLETE"] = "Hombre, si sólo tuviera una buena armadura.."
 
 lang["#MISSION_ISAAC_FACYMATERIALS"] = "Materiales de fábrica"
-lang["#MISSION_ISAAC_FACYMATERIALS_DESC"] = "Oye, acabo de recibir un pedido raro de un tipo que quiere lingotes completamente metálicos y material nuclear. Corrígeme si me equivoco pero estos materiales suenan como si fueran utilizados en una antigua fábrica de la que he oído hablar, en las Montañas. De todos modos, el tipo está pagando mucho por ellos y quiero decir MUCHO".
+lang["#MISSION_ISAAC_FACYMATERIALS_DESC"] = "Oye, acabo de recibir un pedido raro de un tipo que quiere lingotes completamente metálicos y material nuclear. Corrígeme si me equivoco pero estos materiales suenan como si fueran utilizados en una antigua fábrica de la que he oído hablar, en las Montañas. De todos modos, el tipo está pagando mucho por ellos y quiero decir MUCHO"
 lang["#MISSION_ISAAC_FACYMATERIALS_HINT"] = "Obtén lingotes de plomo, lingotes de cobre y material nuclear. Los lingotes de plomo y de cobre se pueden encontrar rebuscando y a veces los venden los comerciantes. El material nuclear se puede encontrar buscando en la basura."
-lang["#MISSION_ISAAC_FACYMATERIALS_COMPLETE"] = "¡Ten cuidado con el material nuclear! Debería estar todo listo para él".
+lang["#MISSION_ISAAC_FACYMATERIALS_COMPLETE"] = "¡Ten cuidado con el material nuclear! Debería estar todo listo para él"
 
 lang["#MISSION_ISAAC_SPECIALKINDOFHIDE"] = "Tipo especial de escondite"
-lang["#MISSION_ISAAC_SPECIALKINDOFHIDE_DESC"] = "Un viejo amigo se pasó por aquí no hace mucho y me preguntó si podía ayudarle con un proyecto. En realidad es la última parte de algo que necesita para lo que sea que esté haciendo. En fin, para explicarlo rápidamente, quiere un poco de cuero de Sanguinario. Puedo entender definitivamente si no quieres ir a buscar esto, pero puedo decirte que la recompensa por ello definitivamente valdrá la pena. Eso si no mueres intentando conseguirlo. También es posible que encuentres a alguien que esté dispuesto a dártela también".
+lang["#MISSION_ISAAC_SPECIALKINDOFHIDE_DESC"] = "Un viejo amigo se pasó por aquí no hace mucho y me preguntó si podía ayudarle con un proyecto. En realidad es la última parte de algo que necesita para lo que sea que esté haciendo. En fin, para explicarlo rápidamente, quiere un poco de cuero de Sanguinario. Puedo entender definitivamente si no quieres ir a buscar esto, pero puedo decirte que la recompensa por ello definitivamente valdrá la pena. Eso si no mueres intentando conseguirlo. También es posible que encuentres a alguien que esté dispuesto a dártela también"
 lang["#MISSION_ISAAC_SPECIALKINDOFHIDE_HINT"] = "Obtén la piel de Sanguinario. Puedes obtenerlo si tienes el EXTRA de 'despellejar escamas' y consigues matar a un Sanguinario."
-lang["#MISSION_ISAAC_SPECIALKINDOFHIDE_COMPLETE"] = "¡Dios mío!¡¿Lo has conseguido?!¡Espero que no haya sido tan difícil!".
+lang["#MISSION_ISAAC_SPECIALKINDOFHIDE_COMPLETE"] = "¡Dios mío!¡¿Lo has conseguido?!¡Espero que no haya sido tan difícil!"
 
 --      ██╗ █████╗  ██████╗██╗  ██╗███████╗ ██████╗ ███╗   ██╗███████╗    ███╗   ███╗██╗███████╗███████╗██╗ ██████╗ ███╗   ██╗███████╗
 --      ██║██╔══██╗██╔════╝██║ ██╔╝██╔════╝██╔═══██╗████╗  ██║██╔════╝    ████╗ ████║██║██╔════╝██╔════╝██║██╔═══██╗████╗  ██║██╔════╝
@@ -304,24 +304,24 @@ lang["#MISSION_ISAAC_SPECIALKINDOFHIDE_COMPLETE"] = "¡Dios mío!¡¿Lo has cons
 --  ╚════╝ ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝    ╚═╝     ╚═╝╚═╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
 
 lang["#MISSION_JACKSON_THEMOUNTAINS"] = "Las montañas"
-lang["#MISSION_JACKSON_THEMOUNTAINS_DESC"] = "Un lugar increíble, ¿verdad? No hay duda de ello. Sería increíble si no tuviéramos que preocuparnos por los Raiders, los Mutantes y demás. pero si crees que es eso con lo que necesito ayuda ahora mismo, te equivocas. Lo que realmente necesito es algo de dinero para el comercio. Sé que nos acabamos de conocer, y puede sonar como algo fuera de lugar para pedir, pero te lo devolveré en el futuro. Incluso puedes preguntarle a Redman si debes confiar en mí, pero asumo que no querrás recorrer todo el camino de vuelta para hacerlo. Tiene que ser moneda de la NCR ¡Estaré esperando!".
+lang["#MISSION_JACKSON_THEMOUNTAINS_DESC"] = "Un lugar increíble, ¿verdad? No hay duda de ello. Sería increíble si no tuviéramos que preocuparnos por los Raiders, los Mutantes y demás. pero si crees que es eso con lo que necesito ayuda ahora mismo, te equivocas. Lo que realmente necesito es algo de dinero para el comercio. Sé que nos acabamos de conocer, y puede sonar como algo fuera de lugar para pedir, pero te lo devolveré en el futuro. Incluso puedes preguntarle a Redman si debes confiar en mí, pero asumo que no querrás recorrer todo el camino de vuelta para hacerlo. Tiene que ser moneda de la NCR ¡Estaré esperando!"
 lang["#MISSION_JACKSON_THEMOUNTAINS_HINT"] = "Obtén Dólares NCR. Puedes conseguirlos completando misiones o tareas y también vendiendo objetos a los comerciantes."
-lang["#MISSION_JACKSON_THEMOUNTAINS_COMPLETE"] = "Gracias. Te prometo que recuperarás más dinero".
+lang["#MISSION_JACKSON_THEMOUNTAINS_COMPLETE"] = "Gracias. Te prometo que recuperarás más dinero"
 
 lang["#MISSION_JACKSON_ABANDONFACTORY"] = "Abandona la fábrica"
 lang["#MISSION_JACKSON_ABANDONFACTORY_DESC"] = "¡Hola de nuevo! Espero que todo te vaya bien hasta ahora. Si tienes ganas de hacer algo tengo algo para mantenerte ocupado. Hace unas horas  un grupo fue a explorar algunos de los puntos de interés de esta zona. Encontraron un pueblo de aspecto agradable no muy lejos de aquí. Unas cuantas casas, apartamentos y una gigantesca fábrica. ¿Sé si poseen algo? No,¡Pero ese será tu trabajo!. Quiero que bajes y explores un poco el pueblo, quizá dentro de esa fábrica, a ver si encontramos algo de utilidad."
-lang["#MISSION_JACKSON_ABANDONFACTORY_HINT"] = "Explora la fábrica del pueblo. El pueblo se encuentra pasado el valle, a la derecha".
+lang["#MISSION_JACKSON_ABANDONFACTORY_HINT"] = "Explora la fábrica del pueblo. El pueblo se encuentra pasado el valle, a la derecha"
 lang["#MISSION_JACKSON_ABANDONFACTORY_COMPLETE"] = "¿Una fábrica totalmente funcional? ¡Eso es increíble! Aunque probablemente necesite algunos materiales básicos para ponerse en marcha."
 
 lang["#MISSION_JACKSON_LOSTBAG"] = "Bolsa perdida"
-lang["#MISSION_JACKSON_LOSTBAG_DESC"] = "Tal vez puedas hacer que esa fábrica vuelva a funcionar y probablemente la utilices para producir munición o algo por el estilo aunque seguro que necesita una considerable cantidad de materiales. De todos modos, tengo otra tarea para que hagas: Hay una cabaña no muy lejos de aquí, en realidad está justo en el valle. Puedes verla desde el puente, no está muy lejos de aquí. Hay una bolsa de suministros que accidentalmente dejamos allí. Si puedes cogerla por nosotros consideraré darte algunas de las provisiones".
+lang["#MISSION_JACKSON_LOSTBAG_DESC"] = "Tal vez puedas hacer que esa fábrica vuelva a funcionar y probablemente la utilices para producir munición o algo por el estilo aunque seguro que necesita una considerable cantidad de materiales. De todos modos, tengo otra tarea para que hagas: Hay una cabaña no muy lejos de aquí, en realidad está justo en el valle. Puedes verla desde el puente, no está muy lejos de aquí. Hay una bolsa de suministros que accidentalmente dejamos allí. Si puedes cogerla por nosotros consideraré darte algunas de las provisiones"
 lang["#MISSION_JACKSON_LOSTBAG_HINT"] = "Encuentra la bolsa de suministros. Jackson dijo que su grupo la dejó accidentalmente en la cabaña del valle, más concretamente en la que está debajo del puente gigante."
-lang["#MISSION_JACKSON_LOSTBAG_COMPLETE"] = "Gracias por recuperarlos. Aquí tienes algunas cosas".
+lang["#MISSION_JACKSON_LOSTBAG_COMPLETE"] = "Gracias por recuperarlos. Aquí tienes algunas cosas"
 
 lang["#MISSION_JACKSON_PAYBACKTIME"] = "Hora de pagar"
-lang["#MISSION_JACKSON_PAYBACKTIME_DESC"] = "¿Recuerdas cuando nos conocimos? Es probable que aún lo hagas, pero te pedí un par de cientos de dólares de NCR para poder ayudar a mi grupo a prepararse para la exploración y otras cosas. Bueno, creo que es hora de que te lo devuelva, el doble de la cantidad, de hecho, pero antes de dártelo necesito que hagas algo por mí. Necesito un par de botellas vacías y antibióticos".
+lang["#MISSION_JACKSON_PAYBACKTIME_DESC"] = "¿Recuerdas cuando nos conocimos? Es probable que aún lo hagas, pero te pedí un par de cientos de dólares de NCR para poder ayudar a mi grupo a prepararse para la exploración y otras cosas. Bueno, creo que es hora de que te lo devuelva, el doble de la cantidad, de hecho, pero antes de dártelo necesito que hagas algo por mí. Necesito un par de botellas vacías y antibióticos"
 lang["#MISSION_JACKSON_PAYBACKTIME_HINT"] = "Obtener botellas vacías y antibióticos. Puedes conseguir botellas vacías rebuscando en la basura, con comerciantes y, a veces, utilizando objetos que las contengan. Los antibióticos se pueden conseguir hurgando en la basura, comprándolos a los médicos y fabricándolos con las habilidades adecuadas."
-lang["#MISSION_JACKSON_PAYBACKTIME_COMPLETE"] = "He cumplido mi promesa, ¿verdad? Aquí tienes".
+lang["#MISSION_JACKSON_PAYBACKTIME_COMPLETE"] = "He cumplido mi promesa, ¿verdad? Aquí tienes"
 
 -- ███████╗██╗   ██╗███████╗ █████╗ ███╗   ██╗███████╗    ███╗   ███╗██╗███████╗███████╗██╗ ██████╗ ███╗   ██╗███████╗
 -- ██╔════╝██║   ██║██╔════╝██╔══██╗████╗  ██║██╔════╝    ████╗ ████║██║██╔════╝██╔════╝██║██╔═══██╗████╗  ██║██╔════╝
@@ -343,84 +343,84 @@ lang["#MISSION_SUSAN_ph_COMPLETE"] = "nil"
 -- ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝    ╚═╝     ╚═╝╚═╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
 
 lang["#MISSION_CHALLENGER_LOOTINGTHEASH"] = "Saqueando Ashlands"
-lang["#MISSION_CHALLENGER_LOOTINGTHEASH_DESC"] = "¿Estás listo para un desafío? Este es bastante sencillo: Quiero que saquees todo lo que puedas, que recojas todos los objetos que hay por aquí. Cuando sientas que lo has hecho, vuelve conmigo".
-lang["#MISSION_CHALLENGER_LOOTINGTHEASH_HINT"] = "Saquea objetos en Ashlands. Puedes buscar en el interior de los edificios y en lugares alternativos para encontrar contenedores que puedan ser saqueados. Prueba a buscar en la ciudad abandonada, la gasolinera o el búnker".
-lang["#MISSION_CHALLENGER_LOOTINGTHEASH_COMPLETE"] = "¡Vaya! ¡Son muchas cosas!".
+lang["#MISSION_CHALLENGER_LOOTINGTHEASH_DESC"] = "¿Estás listo para un desafío? Este es bastante sencillo: Quiero que saquees todo lo que puedas, que recojas todos los objetos que hay por aquí. Cuando sientas que lo has hecho, vuelve conmigo"
+lang["#MISSION_CHALLENGER_LOOTINGTHEASH_HINT"] = "Saquea objetos en Ashlands. Puedes buscar en el interior de los edificios y en lugares alternativos para encontrar contenedores que puedan ser saqueados. Prueba a buscar en la ciudad abandonada, la gasolinera o el búnker"
+lang["#MISSION_CHALLENGER_LOOTINGTHEASH_COMPLETE"] = "¡Vaya! ¡Son muchas cosas!"
 
 lang["#MISSION_CHALLENGER_NEEDMOREMEDICINE"] = "Necesitas más medicamentos"
-lang["#MISSION_CHALLENGER_NEEDMOREMEDICINE_DESC"] = "Sabes dónde recoger plantas medicinales, ¿verdad? Para este desafío quiero que vayas por esta zona y empieces a recoger todas las plantas que veas. Lo que hagas con ellas me da igual, pero mientras las recojas está bien".
+lang["#MISSION_CHALLENGER_NEEDMOREMEDICINE_DESC"] = "Sabes dónde recoger plantas medicinales, ¿verdad? Para este desafío quiero que vayas por esta zona y empieces a recoger todas las plantas que veas. Lo que hagas con ellas me da igual, pero mientras las recojas está bien"
 lang["#MISSION_CHALLENGER_NEEDMOREMEDICINE_HINT"] = "Recoge varias plantas medicinales. Las plantas suelen crecer en todos los espacios abiertos del páramo. Compruebe cerca de las rocas, y otras estructuras. También se pueden encontrar cerca de las zonas de vegetación."
 lang["#MISSION_CHALLENGER_NEEDMOREMEDICINE_COMPLETE"] = "Seguro que sabes recoger cosas."
 
 lang["#MISSION_CHALLENGER_GHOULHUNTER"] = "Cazador de necrófagos"
-lang["#MISSION_CHALLENGER_GHOULHUNTER_DESC"] = "Hay muchos necrófagos por aquí, normalmente escondidos en los lugares más recónditos. Para este desafío necesito que los envíes a su tumba".
-lang["#MISSION_CHALLENGER_GHOULHUNTER_HINT"] = "Elimina cualquier tipo de Necrófago salvaje en Ashlands. Los necrófagos salvajes se encuentran comúnmente en la ciudad, la gasolinera y el búnker. Son débiles a las armas cuerpo a cuerpo y a las armas de fuego. Ten cuidado con los Necrofagos salvajes saqueadores y los necrófagos hinchados, ya que son más peligrosos".
-lang["#MISSION_CHALLENGER_GHOULHUNTER_COMPLETE"] = "¡Ya no hay necrófagos salvajes vagando por aquí!¡Gracias!".
+lang["#MISSION_CHALLENGER_GHOULHUNTER_DESC"] = "Hay muchos necrófagos por aquí, normalmente escondidos en los lugares más recónditos. Para este desafío necesito que los envíes a su tumba"
+lang["#MISSION_CHALLENGER_GHOULHUNTER_HINT"] = "Elimina cualquier tipo de Necrófago salvaje en Ashlands. Los necrófagos salvajes se encuentran comúnmente en la ciudad, la gasolinera y el búnker. Son débiles a las armas cuerpo a cuerpo y a las armas de fuego. Ten cuidado con los Necrofagos salvajes saqueadores y los necrófagos hinchados, ya que son más peligrosos"
+lang["#MISSION_CHALLENGER_GHOULHUNTER_COMPLETE"] = "¡Ya no hay necrófagos salvajes vagando por aquí!¡Gracias!"
 
 lang["#MISSION_CHALLENGER_CREEPYCRAWLERS"] = "Gusanos espeluznantes"
-lang["#MISSION_CHALLENGER_CREEPYCRAWLERS_DESC"] = "Hay varias hormigas por aquí aunque probablemente ya lo sabías. Principalmente habitan en una cueva no muy lejos de aquí. El reto para esto es ir y 'cuidar' de estas hormigas ".
-lang["#MISSION_CHALLENGER_CREEPYCRAWLERS_HINT"] = "Elimina cualquier tipo de hormiga gigante. Las hormigas suelen desovar en bosques y cuevas. Es recomendable enfrentarse a ellas con armas de fuego".
-lang["#MISSION_CHALLENGER_CREEPYCRAWLERS_COMPLETE"] = "Sin duda, las hormigas son asquerosas".
+lang["#MISSION_CHALLENGER_CREEPYCRAWLERS_DESC"] = "Hay varias hormigas por aquí aunque probablemente ya lo sabías. Principalmente habitan en una cueva no muy lejos de aquí. El reto para esto es ir y 'cuidar' de estas hormigas "
+lang["#MISSION_CHALLENGER_CREEPYCRAWLERS_HINT"] = "Elimina cualquier tipo de hormiga gigante. Las hormigas suelen desovar en bosques y cuevas. Es recomendable enfrentarse a ellas con armas de fuego"
+lang["#MISSION_CHALLENGER_CREEPYCRAWLERS_COMPLETE"] = "Sin duda, las hormigas son asquerosas"
 
 lang["#MISSION_CHALLENGER_SHREDDEDSCALES"] = "Escamas trituradas"
 lang["#MISSION_CHALLENGER_SHREDDEDSCALES_DESC"] = "Los gekkos son las plagas habituales en estos páramos, además de los necrófagos. Sus pieles son realmente útiles y sé que la gente de por aquí suele quererlas. De todos modos, lo que hagas con su carne o su piel no es de mi incumbencia pero para este desafío necesito que saques un montón de ellos de los caminos."
 lang["#MISSION_CHALLENGER_SHREDDEDSCALES_HINT"] = "Elimina cualquier tipo de Gekkos en Ashlands. Comúnmente desovan en el pantano del bosque con el remolque y en los caminos cerca de la estación de radio."
-lang["#MISSION_CHALLENGER_SHREDDEDSCALES_COMPLETE"] = "Se irán por un tiempo".
+lang["#MISSION_CHALLENGER_SHREDDEDSCALES_COMPLETE"] = "Se irán por un tiempo"
 
 lang["#MISSION_CHALLENGER_SCORPIONSBUTMUTATED"] = "Escorpiones, pero mutados"
 lang["#MISSION_CHALLENGER_SCORPIONSBUTMUTATED_DESC"] = "Los mutaescorpius son, por lo general, difíciles de afrontar así como de alejarse de ellos. Para este desafío, quiero que los masacres"
 lang["#MISSION_CHALLENGER_SCORPIONSBUTMUTATED_HINT"] = "Elimina cualquier tipo de mutaescopius en Ashlands. Suelen aparecer detrás de la ciudad, en su propia cueva, o bien cerca de la gasolinera. Se recomienda el uso de armas de fuego en contra de ellos, y mantenerse alejado de su picadura."
-lang["#MISSION_CHALLENGER_SCORPIONSBUTMUTATED_COMPLETE"] = "Menos escorpiones en el páramo".
+lang["#MISSION_CHALLENGER_SCORPIONSBUTMUTATED_COMPLETE"] = "Menos escorpiones en el páramo"
 
 -- T2
 
 lang["#MISSION_CHALLENGER_BROKENSTEEL"] = "Acero roto"
-lang["#MISSION_CHALLENGER_BROKENSTEEL_DESC"] = "Estoy seguro de que conoces los vehículos que hay por aquí. Todos están rotos pero se pueden desguazar. Este reto puede llevar algo de tiempo, pero quiero que lo hagas".
+lang["#MISSION_CHALLENGER_BROKENSTEEL_DESC"] = "Estoy seguro de que conoces los vehículos que hay por aquí. Todos están rotos pero se pueden desguazar. Este reto puede llevar algo de tiempo, pero quiero que lo hagas"
 lang["#MISSION_CHALLENGER_BROKENSTEEL_HINT"] = "Desguaza los vehículos. Puedes romper los vehículos golpeando con las manos o un arma cuerpo a cuerpo. Las llaves de tubo suelen ser buenas para desguazar. Los vehículos desguazables se pueden encontrar en las carreteras o cerca de ellas."
 lang["#MISSION_CHALLENGER_BROKENSTEEL_COMPLETE"] = "Esperemos que esa chatarra tenga un buen uso."
 
 lang["#MISSION_CHALLENGER_RECYCLER"] = "Reciclador"
-lang["#MISSION_CHALLENGER_RECYCLER_DESC"] = "Este reto es bastante sencillo: Necesito que desguaces chatarra que hayas rebuscado en una mesa de trabajo. No importa lo que sea pero si lo desmontas, entonces bien".
+lang["#MISSION_CHALLENGER_RECYCLER_DESC"] = "Este reto es bastante sencillo: Necesito que desguaces chatarra que hayas rebuscado en una mesa de trabajo. No importa lo que sea pero si lo desmontas, entonces bien"
 lang["#MISSION_CHALLENGER_RECYCLER_HINT"] = "Desmontar objetos. Puedes Desmontar objetos en las mesas de trabajo. Las mesas de trabajo se encuentran generalmente en las ciudades y a veces pueden encontrarse en áreas abandonadas. Sólo se pueden desmontar ciertos objetos, como las latas de estaño y los portapapeles."
 lang["#MISSION_CHALLENGER_RECYCLER_COMPLETE"] = "La mayoría de las cosas que puedes romper suelen ser inútiles."
 lang["#MISSION_CHALLENGER_RECYCLER_INFO"] = "Desglosa $artículos."
 
 lang["#MISSION_CHALLENGER_LOWTIDE"] = "Marea baja"
-lang["#MISSION_CHALLENGER_LOWTIDE_DESC"] = "Es probable que ya hayas visto a los Mirelurks antes o quizás no, porque les gusta mucho enterrarse. Es lo de siempre, necesito que los elimines para este desafío. Asegúrate de ir con protección o con amigos o te partirán en dos".
-lang["#MISSION_CHALLENGER_LOWTIDE_HINT"] = "Elimina cualquier tipo de Mirelurk. Pueden encontrarse cerca de lagos, estanques o ríos. Se recomienda protección o armadura".
-lang["#MISSION_CHALLENGER_LOWTIDE_COMPLETE"] = "¡Me alegro de verte a ti y a todos tus miembros!".
+lang["#MISSION_CHALLENGER_LOWTIDE_DESC"] = "Es probable que ya hayas visto a los Mirelurks antes o quizás no, porque les gusta mucho enterrarse. Es lo de siempre, necesito que los elimines para este desafío. Asegúrate de ir con protección o con amigos o te partirán en dos"
+lang["#MISSION_CHALLENGER_LOWTIDE_HINT"] = "Elimina cualquier tipo de Mirelurk. Pueden encontrarse cerca de lagos, estanques o ríos. Se recomienda protección o armadura"
+lang["#MISSION_CHALLENGER_LOWTIDE_COMPLETE"] = "¡Me alegro de verte a ti y a todos tus miembros!"
 
 lang["#MISSION_CHALLENGER_GOLDENSKIN"] = "Piel dorada"
-lang["#MISSION_CHALLENGER_GOLDENSKIN_DESC"] = "¡Hola! tengo un trabajo diferente para ti. Me acaban de pedir algunas pieles doradas  y están ofreciendo un montón de tapas para ello. Así que, si quieres ayudar a obtenerlas, te llevarás una buena parte del premio".
+lang["#MISSION_CHALLENGER_GOLDENSKIN_DESC"] = "¡Hola! tengo un trabajo diferente para ti. Me acaban de pedir algunas pieles doradas  y están ofreciendo un montón de tapas para ello. Así que, si quieres ayudar a obtenerlas, te llevarás una buena parte del premio"
 lang["#MISSION_CHALLENGER_GOLDENSKIN_HINT"] = "Obtén Cuerpos de Gecko Dorado. Se pueden conseguir matando Gekkos Dorados, que suelen aparecer en el pantano con el remolque en Ashlands."
 lang["#MISSION_CHALLENGER_GOLDENSKIN_COMPLETE"] = "Aquí tienes tu parte."
 
 lang["#MISSION_CHALLENGER_GRIMREAVER"] = "Segadora"
 lang["#MISSION_CHALLENGER_GRIMREAVER_DESC"] = "Este desafío no será fácil yte recomiendo que utilices un arma potente, porque vas a despejar Necrófagos salvajes saqueadores. Con estos tipos no se juega y son muy peligrosos, pero necesito que te encargues de ellos."
-lang["#MISSION_CHALLENGER_GRIMREAVER_HINT"] = "Elimina a los Necrofagos salvaje saqueadores en Ashlands. Se recomienda usar un arma. Se pueden encontrar en el búnker, o en el hotel de la ciudad".
-lang["#MISSION_CHALLENGER_GRIMREAVER_COMPLETE"] = "¡Contaba que lo lograses!".
+lang["#MISSION_CHALLENGER_GRIMREAVER_HINT"] = "Elimina a los Necrofagos salvaje saqueadores en Ashlands. Se recomienda usar un arma. Se pueden encontrar en el búnker, o en el hotel de la ciudad"
+lang["#MISSION_CHALLENGER_GRIMREAVER_COMPLETE"] = "¡Contaba que lo lograses!"
 
 -- T3
 
 lang["#MISSION_CHALLENGER_ABOMINATION"] = "Abominación"
-lang["#MISSION_CHALLENGER_ABOMINATION_DESC"] = "Sanguinarios, ¿Has oído hablar de ellos? Abominaciones andantes y lo único que hacen es bloquear los caminos y atacar a los intrusos. Considera que esta es tu prueba final. Supongo que ya te imaginas lo que te voy a pedir, no me mires con esa cara".
-lang["#MISSION_CHALLENGER_ABOMINATION_HINT"] = "Elimina cualquier tipo de Sanguinario. Se recomienda utilizar rifles automáticos de alta potencia y tener compañeros de equipo. Se pueden encontrar cerca del borde de la ciudad".
+lang["#MISSION_CHALLENGER_ABOMINATION_DESC"] = "Sanguinarios, ¿Has oído hablar de ellos? Abominaciones andantes y lo único que hacen es bloquear los caminos y atacar a los intrusos. Considera que esta es tu prueba final. Supongo que ya te imaginas lo que te voy a pedir, no me mires con esa cara"
+lang["#MISSION_CHALLENGER_ABOMINATION_HINT"] = "Elimina cualquier tipo de Sanguinario. Se recomienda utilizar rifles automáticos de alta potencia y tener compañeros de equipo. Se pueden encontrar cerca del borde de la ciudad"
 lang["#MISSION_CHALLENGER_ABOMINATION_COMPLETE"] = "¡Estoy realmente sorprendido de que estés vivo y de que hayas hecho esto!"
 
 lang["#MISSION_CHALLENGER_STRESSORI"] = "Estrés I"
-lang["#MISSION_CHALLENGER_STRESSORI_DESC"] = "Hola, morador del yermo. ¡Me alegro de ver que aún respiras!. Necesitamos gente como tú ¿Estás preparado para sufrir de verdad? Tengo una tarea realmente dura para ti esta vez ¡Asegúrate de estar preparado para ella!".
-lang["#MISSION_CHALLENGER_STRESSORI_HINT"] = "Elimina cualquier tipo de Necrófago salvaje, Gekkos y Mirelurks. Los Necrófagos salvajes se pueden encontrar en ruinas antiguas. Los Gekkos se pueden encontrar en áreas genéricas de terrenos baldíos. Los Mirelurks se pueden encontrar cerca de los lagos".
+lang["#MISSION_CHALLENGER_STRESSORI_DESC"] = "Hola, morador del yermo. ¡Me alegro de ver que aún respiras!. Necesitamos gente como tú ¿Estás preparado para sufrir de verdad? Tengo una tarea realmente dura para ti esta vez ¡Asegúrate de estar preparado para ella!"
+lang["#MISSION_CHALLENGER_STRESSORI_HINT"] = "Elimina cualquier tipo de Necrófago salvaje, Gekkos y Mirelurks. Los Necrófagos salvajes se pueden encontrar en ruinas antiguas. Los Gekkos se pueden encontrar en áreas genéricas de terrenos baldíos. Los Mirelurks se pueden encontrar cerca de los lagos"
 lang["#MISSION_CHALLENGER_STRESSORI_COMPLETE"] = "¡Un gran trabajo, pero aún no ha terminado!"
 
 lang["#MISSION_CHALLENGER_STRESSORII"] = "Estrés II"
-lang["#MISSION_CHALLENGER_STRESSORII_DESC"] = "¿Quieres continuar? No debería tardar tanto. Sólo necesito que extermines algunas plagas".
-lang["#MISSION_CHALLENGER_STRESSORII_HINT"] = "Elimina cualquier tipo de Mantis, Mutarachas y Ratatopos. Las Mantis se pueden encontrar en zonas yermas. Las cucarachas se encuentran en zonas oscuras. Los Ratatopo se pueden encontrar en lugares relacionados con la chatarra".
-lang["#MISSION_CHALLENGER_STRESSORII_COMPLETE"] = "Me alegro de que te hayas librado de ellos. Tengo una última parte".
+lang["#MISSION_CHALLENGER_STRESSORII_DESC"] = "¿Quieres continuar? No debería tardar tanto. Sólo necesito que extermines algunas plagas"
+lang["#MISSION_CHALLENGER_STRESSORII_HINT"] = "Elimina cualquier tipo de Mantis, Mutarachas y Ratatopos. Las Mantis se pueden encontrar en zonas yermas. Las cucarachas se encuentran en zonas oscuras. Los Ratatopo se pueden encontrar en lugares relacionados con la chatarra"
+lang["#MISSION_CHALLENGER_STRESSORII_COMPLETE"] = "Me alegro de que te hayas librado de ellos. Tengo una última parte"
 
 lang["#MISSION_CHALLENGER_STRESSORIII"] = "Estrés III"
-lang["#MISSION_CHALLENGER_STRESSORIII_DESC"] = "Esta va a ser la parte más difícil pero confía en mí, valdrá la pena. Necesito que caces a algunos de los más peligrosos. Probablemente deberías usar un rifle de alta potencia para esto".
-lang["#MISSION_CHALLENGER_STRESSORIII_HINT"] = "Elimina cualquier tipo de Sanguinario, Necrofagos salvaje saqueadores o Gekkos verdes. Los Sanguinario se pueden encontrar comúnmente cerca del borde de la ciudad en Ashlands. Los Necrofagos salvaje saqueadores se pueden encontrar en el hotel o en el búnker de la gasolinera. Los gekkos verdes se pueden encontrar en el Yermo en general o en el bosque de Ashlands".
-lang["#MISSION_CHALLENGER_STRESSORIII_COMPLETE"] = "¡Está hecho! ¡¿En serio?! ¡Eres diferente a la mayoría de moradores del yermo que suelo ver!".
+lang["#MISSION_CHALLENGER_STRESSORIII_DESC"] = "Esta va a ser la parte más difícil pero confía en mí, valdrá la pena. Necesito que caces a algunos de los más peligrosos. Probablemente deberías usar un rifle de alta potencia para esto"
+lang["#MISSION_CHALLENGER_STRESSORIII_HINT"] = "Elimina cualquier tipo de Sanguinario, Necrofagos salvaje saqueadores o Gekkos verdes. Los Sanguinario se pueden encontrar comúnmente cerca del borde de la ciudad en Ashlands. Los Necrofagos salvaje saqueadores se pueden encontrar en el hotel o en el búnker de la gasolinera. Los gekkos verdes se pueden encontrar en el Yermo en general o en el bosque de Ashlands"
+lang["#MISSION_CHALLENGER_STRESSORIII_COMPLETE"] = "¡Está hecho! ¡¿En serio?! ¡Eres diferente a la mayoría de moradores del yermo que suelo ver!"
 
 -- ███╗   ███╗██████╗        ███████╗ █████╗ ██╗  ████████╗    ██╗    ██╗███████╗██╗     ██╗     ███████╗
 -- ████╗ ████║██╔══██╗██╗    ██╔════╝██╔══██╗██║  ╚══██╔══╝    ██║    ██║██╔════╝██║     ██║     ██╔════╝
@@ -430,34 +430,34 @@ lang["#MISSION_CHALLENGER_STRESSORIII_COMPLETE"] = "¡Está hecho! ¡¿En serio?
 -- ╚═╝     ╚═╝╚═════╝        ╚══════╝╚═╝  ╚═╝╚══════╝╚═╝        ╚══╝╚══╝ ╚══════╝╚══════╝╚══════╝╚══════╝
 
 lang["#MISSION_SALTWELLS_LOOSEPARTS"] = "Traer: Piezas sueltas"
-lang["#MISSION_SALTWELLS_LOOSEPARTS_DESC"] = "Esta tarea está abierta a quienes estén dispuestos a recoger chatarra para el contratante. Están dispuestos a pagar un precio razonable por ello".
+lang["#MISSION_SALTWELLS_LOOSEPARTS_DESC"] = "Esta tarea está abierta a quienes estén dispuestos a recoger chatarra para el contratante. Están dispuestos a pagar un precio razonable por ello"
 lang["#MISSION_SALTWELLS_LOOSEPARTS_HINT"] = "Obtener chatarra. Puedes conseguir fácilmente chatarra desguazando vehículos rotos o desmontando objetos obsoletos en una mesa de trabajo."
 lang["#MISSION_SALTWELLS_LOOSEPARTS_COMPLETE"] = "Has completado la tarea."
 
 lang["#MISSION_SALTWELLS_INTHEWAY"] = "Desguaze: En el camino"
-lang["#MISSION_SALTWELLS_INTHEWAY_DESC"] = "Esta tarea está abierta a aquellos que estén dispuestos a desguazar los vehículos que bloquean las carreteras para el contratante. Están dispuestos a pagar un buen precio por ello".
+lang["#MISSION_SALTWELLS_INTHEWAY_DESC"] = "Esta tarea está abierta a aquellos que estén dispuestos a desguazar los vehículos que bloquean las carreteras para el contratante. Están dispuestos a pagar un buen precio por ello"
 lang["#MISSION_SALTWELLS_INTHEWAY_HINT"] = "Desguazar los vehículos en Salt Wells. Los vehículos dañados se pueden encontrar en los caminos. Ciertas armas cuerpo a cuerpo pueden ayudarte a salvarlos más rápido."
 lang["#MISSION_SALTWELLS_INTHEWAY_COMPLETE"] = "Has completado la tarea."
 
 lang["#MISSION_SALTWELLS_GHOULHUNT"] = "Masacre: Caza de Necrófagos"
-lang["#MISSION_SALTWELLS_GHOULHUNT_DESC"] = "Esta tarea está abierta a aquellos que estén dispuestos a eliminar Necrófagos salvajes para el contratante. Puede ser cualquier tipo de necrófago salvaje. El contratante está dispuesto a pagar un precio razonable por ello".
-lang["#MISSION_SALTWELLS_GHOULHUNT_HINT"] = "Elimina cualquier tipo de Necrófago salvaje en Salt Wells. Los necrófagos salvajes suelen encontrarse cerca de las ruinas, los edificios rotos y los lugares abandonados. Son débiles a las armas cuerpo a cuerpo y a las armas de fuego".
+lang["#MISSION_SALTWELLS_GHOULHUNT_DESC"] = "Esta tarea está abierta a aquellos que estén dispuestos a eliminar Necrófagos salvajes para el contratante. Puede ser cualquier tipo de necrófago salvaje. El contratante está dispuesto a pagar un precio razonable por ello"
+lang["#MISSION_SALTWELLS_GHOULHUNT_HINT"] = "Elimina cualquier tipo de Necrófago salvaje en Salt Wells. Los necrófagos salvajes suelen encontrarse cerca de las ruinas, los edificios rotos y los lugares abandonados. Son débiles a las armas cuerpo a cuerpo y a las armas de fuego"
 lang["#MISSION_SALTWELLS_GHOULHUNT_COMPLETE"] = "Has completado la tarea."
 
 lang["#MISSION_SALTWELLS_WEAPONREQUESTI"] = "Busca: Solicitud de Armas I"
-lang["#MISSION_SALTWELLS_WEAPONREQUESTI_DESC"] = "Esta tarea está abierta a aquellos que estén dispuestos a conseguir una Pistola de tubo para el contratante. Están dispuestos a pagar un buen precio por ella".
+lang["#MISSION_SALTWELLS_WEAPONREQUESTI_DESC"] = "Esta tarea está abierta a aquellos que estén dispuestos a conseguir una Pistola de tubo para el contratante. Están dispuestos a pagar un buen precio por ella"
 lang["#MISSION_SALTWELLS_WEAPONREQUESTI_HINT"] = "Consigue una pistola de tubo. Puedes fabricarla con habilidades suficientemente altas o comprarla a otros comerciantes que la vendan."
 lang["#MISSION_SALTWELLS_WEAPONREQUESTI_COMPLETE"] = "Has completado la tarea."
 
 lang["#MISSION_SALTWELLS_WEAPONREQUESTII"] = "Consigue: Solicitud de Armas II"
-lang["#MISSION_SALTWELLS_WEAPONREQUESTII_DESC"] = "Esta tarea está abierta a aquellos que estén dispuestos a conseguir un Revólver .357 para el contratante. Están dispuestos a pagar mucho por él".
+lang["#MISSION_SALTWELLS_WEAPONREQUESTII_DESC"] = "Esta tarea está abierta a aquellos que estén dispuestos a conseguir un Revólver .357 para el contratante. Están dispuestos a pagar mucho por él"
 lang["#MISSION_SALTWELLS_WEAPONREQUESTII_HINT"] = "Consigue un Revólver .357. Puedes encontrarlo rebuscando en la basura o comprándolo a otros comerciantes."
 lang["#MISSION_SALTWELLS_WEAPONREQUESTII_COMPLETE"] = "Has completado la tarea."
 
 lang["#MISSION_SALTWELLS_REAVERELIMINATION"] = "Masacre: Eliminación de Necrófagos salvajes saqueadores"
-lang["#MISSION_SALTWELLS_REAVERELIMINATION_DESC"] = "Esta tarea está abierta a aquellos que estén dispuestos a eliminar a los Necrofagos salvajes saqueadores para el contratante. El contratante está dispuesto a pagar un precio razonable por ello".
+lang["#MISSION_SALTWELLS_REAVERELIMINATION_DESC"] = "Esta tarea está abierta a aquellos que estén dispuestos a eliminar a los Necrofagos salvajes saqueadores para el contratante. El contratante está dispuesto a pagar un precio razonable por ello"
 lang["#MISSION_SALTWELLS_REAVERELIMINATION_HINT"] = "Elimina a los Necrofagos salvajes saqueadores en Salt Wells. Los necrófagos salvajes suelen encontrarse cerca de las ruinas, los edificios rotos y los lugares abandonados. Los Necrofagos salvajes saqueadores son muy resistentes a las armas cuerpo a cuerpo, se recomienda utilizar un arma de fuego."
-lang["#MISSION_SALTWELLS_REAVERELIMINATION_COMPLETE"] = "Has completado la tarea".
+lang["#MISSION_SALTWELLS_REAVERELIMINATION_COMPLETE"] = "Has completado la tarea"
 
 -- ███╗   ███╗██████╗        ██╗   ██╗ ██████╗ ██╗     ██╗      █████╗     ██████╗  ██████╗ ██╗     ██╗  ██╗   ██╗
 -- ████╗ ████║██╔══██╗██╗    ╚██╗ ██╔╝██╔═══██╗██║     ██║     ██╔══██╗    ██╔══██╗██╔═══██╗██║     ██║  ╚██╗ ██╔╝
@@ -467,9 +467,9 @@ lang["#MISSION_SALTWELLS_REAVERELIMINATION_COMPLETE"] = "Has completado la tarea
 -- ╚═╝     ╚═╝╚═════╝           ╚═╝    ╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝╚══════╝╚═╝
 
 lang["#MISSION_YOLLA_EASYTARGETS"] = "Masacre: Objetivos Fáciles"
-lang["#MISSION_YOLLA_EASYTARGETS_DESC"] = "La persona que ha fijado esta nota quiere a alguien que esté dispuesto a limpiar enemigos, más concretamente Necrófagos salvajes. Ofrecen mucho por ello".
+lang["#MISSION_YOLLA_EASYTARGETS_DESC"] = "La persona que ha fijado esta nota quiere a alguien que esté dispuesto a limpiar enemigos, más concretamente Necrófagos salvajes. Ofrecen mucho por ello"
 lang["#MISSION_YOLLA_EASYTARGETS_HINT"] = "Elimina cualquier tipo de Necrófagos salvajes. Los necrófagos salvajes suelen encontrarse cerca de las ruinas, los edificios rotos y los lugares abandonados. Son débiles a las armas cuerpo a cuerpo y a las armas de fuego. Ten cuidado con los Necrofagos salvaje saqueadores y los necrófagos hinchados, ya que son más peligrosos."
-lang["#MISSION_YOLLA_EASYTARGETS_COMPLETE"] = "Has completado la tarea".
+lang["#MISSION_YOLLA_EASYTARGETS_COMPLETE"] = "Has completado la tarea"
 
 -- ███╗   ███╗██████╗         █████╗ ███████╗██╗  ██╗██╗      █████╗ ███╗   ██╗██████╗ ███████╗
 -- ████╗ ████║██╔══██╗██╗    ██╔══██╗██╔════╝██║  ██║██║     ██╔══██╗████╗  ██║██╔══██╗██╔════╝
@@ -479,9 +479,9 @@ lang["#MISSION_YOLLA_EASYTARGETS_COMPLETE"] = "Has completado la tarea".
 -- ╚═╝     ╚═╝╚═════╝        ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝ ╚══════╝
 
 lang["#MISSION_ASHLANDS_SIMPLELEATHER"] = "Traer: Cuero Simple"
-lang["#MISSION_ASHLANDS_SIMPLEATHER_DESC"] = "El contratante de esta misión busca a alguien que recoja cuero para ellos. Ofrecen una recompensa decente por ello".
+lang["#MISSION_ASHLANDS_SIMPLEATHER_DESC"] = "El contratante de esta misión busca a alguien que recoja cuero para ellos. Ofrecen una recompensa decente por ello"
 lang["#MISSION_ASHLANDS_SIMPLEATHER_HINT"] = "Obtén cuero. Puedes conseguir cuero rebuscando en la basura, rompiendo objetos de cuero o usando piel de gecko / sanguinario para fabricarlo."
-lang["#MISSION_ASHLANDS_SIMPLEATHER_COMPLETE"] = "Has completado la tarea".
+lang["#MISSION_ASHLANDS_SIMPLEATHER_COMPLETE"] = "Has completado la tarea"
 
 
 
@@ -503,44 +503,44 @@ lang["#MISSION_ASHLANDS_SIMPLEATHER_COMPLETE"] = "Has completado la tarea".
 lang["#MISSION_DEV_CRAFT"] = "Prueba de artesanía"
 lang["#MISSION_DEV_CRAFT_DESC"] = "Descripción"
 lang["#MISSION_DEV_CRAFT_HINT"] = "Pista"
-lang["#MISSION_DEV_CRAFT_COMPLETE"] = "Tarea completada".
+lang["#MISSION_DEV_CRAFT_COMPLETE"] = "Tarea completada"
 
 lang["#MISSION_DEV_DELIVER"] = "Entrega de prueba [inacabada]"
 lang["#MISSION_DEV_DELIVER_DESC"] = "Descripción"
 lang["#MISSION_DEV_DELIVER_HINT"] = "Pista"
-lang["#MISSION_DEV_DELIVER_COMPLETE"] = "Tarea completada".
+lang["#MISSION_DEV_DELIVER_COMPLETE"] = "Tarea completada"
 
 lang["#MISSION_DEV_DISCOVER"] = "Prueba de descubrimiento [inacabada]"
 lang["#MISSION_DEV_DISCOVER_DESC"] = "Descripción"
 lang["#MISSION_DEV_DISCOVER_HINT"] = "Pista"
-lang["#MISSION_DEV_DISCOVER_COMPLETE"] = "Tarea completada".
+lang["#MISSION_DEV_DISCOVER_COMPLETE"] = "Tarea completada"
 
 lang["#MISSION_DEV_FETCH"] = "Prueba de obtención"
 lang["#MISSION_DEV_FETCH_DESC"] = "Descripción"
 lang["#MISSION_DEV_FETCH_HINT"] = "Pista"
-lang["#MISSION_DEV_FETCH_COMPLETE"] = "Tarea completada".
+lang["#MISSION_DEV_FETCH_COMPLETE"] = "Tarea completada"
 
 lang["#MISSION_DEV_HARVEST"] = "Prueba de cosecha"
 lang["#MISSION_DEV_HARVEST_DESC"] = "Descripción"
 lang["#MISSION_DEV_HARVEST_HINT"] = "Pista"
-lang["#MISSION_DEV_HARVEST_COMPLETE"] = "Tarea completada".
+lang["#MISSION_DEV_HARVEST_COMPLETE"] = "Tarea completada"
 
 lang["#MISSION_DEV_MASSACRE"] = "Prueba de masacre"
 lang["#MISSION_DEV_MASSACRE_DESC"] = "Descripción"
 lang["#MISSION_DEV_MASSACRE_HINT"] = "Pista"
-lang["#MISSION_DEV_MASSACRE_COMPLETE"] = "Tarea completada".
+lang["#MISSION_DEV_MASSACRE_COMPLETE"] = "Tarea completada"
 
 lang["#MISSION_DEV_SALVAGE"] = "Prueba de salvamento"
 lang["#MISSION_DEV_SALVAGE_DESC"] = "Descripción"
 lang["#MISSION_DEV_SALVAGE_HINT"] = "Pista"
-lang["#MISSION_DEV_SALVAGE_COMPLETE"] = "Tarea completada".
+lang["#MISSION_DEV_SALVAGE_COMPLETE"] = "Tarea completada"
 
 lang["#MISSION_DEV_SCAVENGE"] = "Prueba de búsqueda"
 lang["#MISSION_DEV_SCAVENGE_DESC"] = "Descripción"
 lang["#MISSION_DEV_SCAVENGE_HINT"] = "Pista"
-lang["#MISSION_DEV_SCAVENGE_COMPLETE"] = "Tarea completada".
+lang["#MISSION_DEV_SCAVENGE_COMPLETE"] = "Tarea completada"
 
 lang["#MISSION_DEV_STARTERTOTALBREAKDOWN"] = "Prueba de *starter_totalbreakdown"
 lang["#MISSION_DEV_STARTERTOTALBREAKDOWN_DESC"] = "Descripción"
 lang["#MISSION_DEV_STARTERTOTALBREAKDOWN_HINT"] = "Pista"
-lang["#MISSION_DEV_STARTERTOTALBREAKDOWN_COMPLETE"] = "Tarea completada".
+lang["#MISSION_DEV_STARTERTOTALBREAKDOWN_COMPLETE"] = "Tarea completada"

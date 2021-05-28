@@ -28,7 +28,7 @@ lang["#UI_LOADCHAR"] = "Cargar personaje"
 lang["#UI_NEWCHAR"] = "Crear personaje"
 lang["#UI_DELCHAR"] = "Borrar personaje"
 
--Menú principal
+--Menú principal
 lang["#UI_STARTPLAYING"] = "Empezar a jugar"
 lang["#UI_RESUME"] = "Reanudar"
 lang["#UI_SETTINGS"] = "Configuración"
@@ -36,8 +36,8 @@ lang["#UI_STEAMGROUP"] = "Grupo Steam"
 lang["#UI_GMODMENU"] = "Menú Gmod"
 lang["#UI_SIGNOUT"] = "Menú principal"
 lang["#UI_QUIT"] = "Desconectar"
-lang["#UI_SIGNOUTWARN"] = "¡Dejarás a tu personaje atrás! Es peligroso aquí, intenta salir desde una ciudad o desde el mapa de viajes".
-lang["#UI_SIGNOUTDEATHWARN"] = "¡Morirás!\N¡Si te marchas ahora, tu personaje se paralizará!\NTodavía puedes conseguirlo si te dejas recuperar."
+lang["#UI_SIGNOUTWARN"] = "¡Dejarás a tu personaje atrás! Es peligroso aquí, intenta salir desde una ciudad o desde el mapa de viajes"
+lang["#UI_SIGNOUTDEATHWARN"] = "¡Morirás!\n¡Si te marchas ahora, tu personaje se paralizará!\nTodavía puedes conseguirlo si te dejas recuperar."
 
 --Pip Tabs
 lang["#UI_STATS"] = "Estadísticas"
@@ -97,7 +97,7 @@ lang["#UI_PERKPOINTS"] = "Puntos de ventaja"
 lang["#UI_BACK"] = "Atrás"
 lang["#UI_YES"] = "Sí"
 lang["#UI_NO"] = "No"
-lang["#UI_NOTENOUGH"] = "No tienes suficientes elementos necesarios".
+lang["#UI_NOTENOUGH"] = "No tienes suficientes elementos necesarios"
 lang["#UI_CONFIRMITEMUSE_REPAIR"] = "¿Usar elementos para reparar?"
 lang["#UI_REPAIRNOTREQUIRED"] = "Reparación no necesaria"
 lang["#UI_TARGETDT"] = "Objetivo DT"
@@ -106,7 +106,7 @@ lang["#UI_COUNTER"] = "@+attack| Counter"
 lang["#UI_NOBOTTLES"] = "No hay botellas vacías"
 lang["#UI_UNSTUCKWAIT"] = "Debes esperar $time más segundos antes de poder desatascarte de nuevo"
 lang["#UI_UNSTUCKFAILED"] = "¡Fallo en el desatasco! Intenta contactar con el staff poniendo el signo @ antes de tu mensaje!"
-lang["#UI_TOGGLERAISEHELP"] = "Puedes bajar tu arma manteniendo pulsado @+use y tocando @+reload.\NManteniendo pulsado @+recarga enfundarás tu arma."
+lang["#UI_TOGGLERAISEHELP"] = "Puedes bajar tu arma manteniendo pulsado @+use y tocando @+reload.\nManteniendo pulsado @+recarga enfundarás tu arma."
 
 -- Use Prompts
 
@@ -116,12 +116,12 @@ lang["#UI_MINE"] = "Minar"
 lang["#UI_EXTRACT"] = "Extraer"
 lang["#UI_DISARM"] = "Desarmar"
 
-lang["#UI_MINELIMIT"] = "Has alcanzado el límite de minas de $limit. Recuperando la primera mina".
+lang["#UI_MINELIMIT"] = "Has alcanzado el límite de minas de $limit. Recuperando la primera mina"
 lang["#UI_MINELIMIT_RETRIEVEFAILED"] = "¡Estabas demasiado lejos para recuperar tu mina!"
 
 lang["#PROTECTION_TIMEBLOCK"] = "¡Guardando bloqueado! ¡Debes esperar antes de guardar este objeto!"
 lang["#PROTECTION_NOTENOUGHWGT"] = "No se puede guardar, no hay suficiente presupuesto de peso de guardado."
-lang["#PROTECTION_DANGERZONE"] = "No puedes guardar objetos aquí.\NSólo puedes guardar objetos en una zona segura."
+lang["#PROTECTION_DANGERZONE"] = "No puedes guardar objetos aquí.\nSólo puedes guardar objetos en una zona segura."
 lang["#PROTECTION_UNSAVE_WARNING"] = "¡Advertencia! Si desatas este objeto, no podrás volver a guardarlo hasta que entres en una zona segura."
 
 -- Categories
@@ -253,14 +253,14 @@ lang["#NOTIFY_WEAPON_BROKEN"] = "¡Arma rota!"
 lang["#NOTIFY_WEAPON_JAM"] = "¡Arma mal disparada!"
 lang["#NOTIFY_WEAPON_CND"] = "Condición"
 lang["#NOTIFY_ARMOR_BROKEN"] = "¡Tu armadura se ha roto y ya no se puede usar!"
-lang["#NOTIFY_OVERECUMBERED_1"] = "Estás cargando demasiado y te estás moviendo más lento".
+lang["#NOTIFY_OVERECUMBERED_1"] = "Estás cargando demasiado y te estás moviendo más lento"
 lang["#NOTIFY_OVERECUMBERED_2"] = "Estás cargando demasiado y ya no puedes correr."
 lang["#NOTIFY_OVERECUMBERED_3"] = "Estás cargando demasiado y ya no puedes moverte."
 lang["#NOTIFY_TOFARTOTRADE"] = "El objetivo está demasiado lejos para comerciar con él ahora."
-lang["#NOTIFY_WANTSTOTRADE"] = "Me gustaría comerciar contigo. Míralos y mantén @use para aceptar la solicitud de comercio".
+lang["#NOTIFY_WANTSTOTRADE"] = "Me gustaría comerciar contigo. Míralos y mantén @use para aceptar la solicitud de comercio"
 lang["#NOTIFY_SKILLTOOLOW"] = "No cumples los requisitos de habilidad."
 lang["#UI_NOTCURRENTLYPOSSIBLE"] = "No es posible actualmente"
-lang["#UI_HPFULL"] = "HP completo".
+lang["#UI_HPFULL"] = "HP completo"
 lang["#UI_STIMPAKACTIVE"] = "¡Tu último stimpak sigue activo!"
 lang["#UI_CHEMACTIVE"] = "¡Tu última química sigue activa!"
 lang["#UI_STIMBLOCKED"] = "¡Tu último stimpak sigue activo!"
@@ -273,29 +273,29 @@ lang["#UI_DELAYED"] = "Retraso"
 -- Inventory
 lang["#INV_ADDED"] = "$elemento añadido"
 lang["#INV_REMOVED"] = "$elemento retirado"
-lang["#EQUIPDENY_NOSLOTS"] = "Esto no se puede equipar".
-lang["#EQUIPDENY_ANIMSET"] = "Esto no se puede equipar".
+lang["#EQUIPDENY_NOSLOTS"] = "Esto no se puede equipar"
+lang["#EQUIPDENY_ANIMSET"] = "Esto no se puede equipar"
 
-lang["#EQUIPDENY_REMOVED"] = "No es algo que puedas equipar: NO TAN GRANDE".
+lang["#EQUIPDENY_REMOVED"] = "No es algo que puedas equipar: NO TAN GRANDE"
 
 --PARTY
 -- new feature, $person will be automatically replaced with subject's name
-lang["#PARTY_HASINVITED"] = "La persona te ha invitado a unirte a su fiesta".
+lang["#PARTY_HASINVITED"] = "La persona te ha invitado a unirte a su fiesta"
 lang["#PARTY_LEAVE"] = "Deja la fiesta"
 lang["#PARTY_JOIN"] = "Unirse a la fiesta"
 lang["#PARTY_DECLINE"] = "Rechazar invitación"
-lang["#PARTY_HASJOINED"] = "La persona se ha unido a tu fiesta".
+lang["#PARTY_HASJOINED"] = "La persona se ha unido a tu fiesta"
 lang["#PARTY_WELCOME"] ="Bienvenido a la fiesta dirigida por $persona"
-lang["#PARTY_ISNOWLEADER"] = "$persona lidera ahora el partido".
+lang["#PARTY_ISNOWLEADER"] = "$persona lidera ahora el partido"
 lang["#PARTY_YOARELEADER"] = "¡Has sido ascendido a líder del partido!"
 lang["#PARTY_INVALIDMEMBER"] = "¡El miembro del partido ya no es válido!"
-lang["#PARTY_DISBANDWARNING"] = "El partido se va a disolver".
+lang["#PARTY_DISBANDWARNING"] = "El partido se va a disolver"
 lang["#PARTY_LEADER"] = "Líder"
 lang["#PARTY_OFFLINE"] = "Fuera de línea"
 lang["#PARTY_MINE"] = "Mi partido"
 lang["#PARTY_OTHERS"] = "Partido de $persona"
 lang["#PARTY_CONFIRMLEAVE"] = "¿Estás seguro de que quieres dejar la fiesta?"
-lang["#PARTY_WARNLEADERLEAVE"] = "Un miembro al azar será promovido a líder".
+lang["#PARTY_WARNLEADERLEAVE"] = "Un miembro al azar será promovido a líder"
 lang["#PARTY_KICK"] = "Patear a un miembro"
 lang["#PARTY_KICKCONFIRM"] = "¿Estás seguro de que quieres patear a $persona?"
 lang["#PARTY_PROMOTE"] = "Promover a líder"
@@ -319,8 +319,8 @@ lang["#UI_UNDOWNPROMPT"] = "[Move] Levántate"
 
 --Tutorial
 lang["#TUTORIAL_OPENINV"] = "Pulsa @+score para abrir tu PDA."
-lang["#TUTORIAL_CRAFTING"] = "Crafting\nSelecciona una receta para ver lo que requiere y lo que produce.\NLos requisitos etiquetados con [Skill] Denotan el requisito de la habilidad.\NLos requisitos etiquetados con [Tool] Son artículos que deben estar en tu inventario, pero no se consumen.\NTodos los demás artículos se consumen al crafting."
-lang["#TUTORIAL_REPAIR"] = "Reparación\nPara reparar un objeto, debes descomponer otro objeto en él. Selecciona un ítem de la lista para usarlo para reparar.\NLa mejor opción es usar otra instancia de esa arma, de lo contrario puedes usar un kit de reparación, pero esto agregará Decaimiento.\NEl Decaimiento es un multiplicador de lo rápido que se romperá ese ítem, y no se puede reducir."
+lang["#TUTORIAL_CRAFTING"] = "Crafting\nSelecciona una receta para ver lo que requiere y lo que produce.\nLos requisitos etiquetados con [Skill] Denotan el requisito de la habilidad.\nLos requisitos etiquetados con [Tool] Son artículos que deben estar en tu inventario, pero no se consumen.\nTodos los demás artículos se consumen al crafting."
+lang["#TUTORIAL_REPAIR"] = "Reparación\nPara reparar un objeto, debes descomponer otro objeto en él. Selecciona un ítem de la lista para usarlo para reparar.\nLa mejor opción es usar otra instancia de esa arma, de lo contrario puedes usar un kit de reparación, pero esto agregará Decaimiento.\nEl Decaimiento es un multiplicador de lo rápido que se romperá ese ítem, y no se puede reducir."
 lang["#TUTORIAL_LOWERWEP"] = "@+use + @+reload bajar arma"
 lang["#TUTORIAL_ARMORCOVERAGE"] = "¡Te has equipado con una prenda de vestir! Algunas prendas de vestir proporcionan armadura contra ciertos tipos de daño. IMPORTANTE: ¡La armadura sólo puede proteger la parte del cuerpo que cubre!"
 lang["#TUTORIAL_NEARDEATH"] = "¡Estás al borde de la muerte! Otro golpe como ese y caerás definitivamente si no tratas tus heridas."
@@ -340,10 +340,10 @@ lang["#RADIO_SFM"] = "Synthstream FM"
 
 --Door Names
 lang["#DOOR_GATE_OPEN"] = "Puerta abierta"
-lang["#DOOR_GATE_CLOSE"] = "Cerrar puerta".
-lang["#DOOR_DOOR_OPEN"] = "Puerta abierta".
-lang["#DOOR_DOOR_CLOSE"] = "Cerrar puerta".
-lang["#UI_DOOR"] = "Puerta".
+lang["#DOOR_GATE_CLOSE"] = "Cerrar puerta"
+lang["#DOOR_DOOR_OPEN"] = "Puerta abierta"
+lang["#DOOR_DOOR_CLOSE"] = "Cerrar puerta"
+lang["#UI_DOOR"] = "Puerta"
 
 --Status Effects
 lang["#STAT_NEARDEATH"] = "Cerca de la muerte"
@@ -353,8 +353,8 @@ lang["#UI_DOWNNOTICE"] = "Recuperando..."
 
 lang["#UI_BARTER"] = "Trueque"
 lang["#UI_MERCHANT"] = "Comerciante"
-lang["#UI_MERCHANTTOOPOOR"] = "El comerciante no puede permitirse esta transacción".
-lang["#UI_YOURTOOPOOR"] = "El comerciante no puede permitirse esta transacción".
+lang["#UI_MERCHANTTOOPOOR"] = "El comerciante no puede permitirse esta transacción"
+lang["#UI_YOURTOOPOOR"] = "El comerciante no puede permitirse esta transacción"
 lang["#UI_QUERYTRANSACTION"] = "¿Procesar la transacción?"
 lang["#UI_YOUWILLPAY"] = "Pagarás MONEDA"
 lang["#UI_QUERYTRANSACTION"] = "¿Completar la transacción?"
@@ -366,7 +366,7 @@ lang["#LOCKLEVEL_ADVANCED"] = "Avanzado"
 lang["#NIVEL DE BLOQUEO_EXPERT"] = "Experto"
 lang["#NIVEL DE BLOQUEO_MASTER"] = "Maestro"
 lang["#LOCKLEVEL_KEY"] = "Clave requerida"
-lang["#SECURITY_TOO_LOW"] = "Necesitas al menos $minSkill puntos en $lockSkill para elegir esto".
+lang["#SECURITY_TOO_LOW"] = "Necesitas al menos $minSkill puntos en $lockSkill para elegir esto"
 
 -- Crafting
 lang["#CRAFTING_RELOADING"] = "Banco de recarga"
@@ -415,7 +415,7 @@ lang["#UI_ENTERNAME"] = "Introduce el nombre..."
 -- Looks
 lang["#LOOKS_RANDOMIZE"] = "Aleatorio"
 lang["#LOOKS_FACE"] = "Cara"
-lang["#LOOKS_FOREHEAD"] = "Frente".
+lang["#LOOKS_FOREHEAD"] = "Frente"
 lang["#LOOKS_EYEBROWS"] = "Cejas"
 lang["#LOOKS_EYES"] = "Ojos"
 lang["#LOOKS_EARS"] = "Orejas"
@@ -535,7 +535,7 @@ Lo que eras antes, o quien eras antes, ya no importa. Lo que hagas de tu vida ah
 --World Map
 lang["#UI_NOTINCURRENTREGION"] = "El servidor en el que te encuentras no coincide con la última región de este personaje."
 lang["#UI_WORLDMAPWELCOME"] = "¡Bienvenido al mapa de viajes! Haz clic en cualquier parte del mapa para moverte allí."
-lang["#UI_WORLDMAPLOADIN"] = "Has entrado en una región cargable.\NHaz clic en la flecha que apunta hacia abajo en tu ubicación para entrar."
+lang["#UI_WORLDMAPLOADIN"] = "Has entrado en una región cargable.\nHaz clic en la flecha que apunta hacia abajo en tu ubicación para entrar."
 
 --Name
 lang["#WORLDNAME"] = "Cascadia Wasteland" -- The Pacific Northwest (Northern California to British Columbia) is nicknamed "Cascadia"
@@ -574,9 +574,9 @@ lang["#UI_FACTIONS"] = "Facciones"
 -- Contracts
 lang["#MISSION_ACCEPT"] = "Aceptar misión"
 lang["#MISSION_TURNIN"] = "Entregar"
-lang["#MISSION_COMPLETE"] = "Completada".
+lang["#MISSION_COMPLETE"] = "Completada"
 lang["#MISSION_KILLS"] = "Muertes"
-lang["#MISSION_SELECTREWARD"] = "Has completado la misión. Selecciona una recompensa".
+lang["#MISSION_SELECTREWARD"] = "Has completado la misión. Selecciona una recompensa"
 lang["#MISSION_CLAIMREWARD"] = "Reclama"
 
 lang["#MISSIONREWARD_DEFAULT"] = "Recompensa"
@@ -591,7 +591,7 @@ lang["#MISSIONREWARD_REPUTATIONDESC"] = "Acepta una recompensa menor por complet
 lang["#MISSIONREWARD_INFLUENCE"] = "Recompensa de influencia en la comunidad"
 lang["#MISSIONREWARD_INFLUENCEDESC"] = "Completa esta misión en nombre de tu comunidad para darle más influencia a tu comunidad."
 
-lang["#MISSIONREWARD_INFLUENCE_COMMUNITYREQUIRED"] = "Solo puedes aceptar esta recompensa si estás en una comunidad.\NLas comunidades de jugadores están por llegar."
+lang["#MISSIONREWARD_INFLUENCE_COMMUNITYREQUIRED"] = "Solo puedes aceptar esta recompensa si estás en una comunidad.\nLas comunidades de jugadores están por llegar."
 
 lang["#UI_REPUTACIÓN"] = "Reputación"
 lang["#UI_INFLUENCE"] = "Influencia"
