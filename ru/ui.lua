@@ -275,8 +275,8 @@ lang["#UI_DELAYED"] = "Отложен"
 -- Inventory
 lang["#INV_ADDED"] = "$item - добавлено"
 lang["#INV_REMOVED"] = "$item - удалено"
-lang["#EQUIPDENY_NOSLOTS"] = "Это не то, что вы можете надеть."
-lang["#EQUIPDENY_ANIMSET"] = "Это не подходит для вас."
+lang["#EQUIPDENY_NOSLOTS"] = "Вы не можете это надеть."
+lang["#EQUIPDENY_ANIMSET"] = "Оно не подходит для вас."
 
 lang["#EIGHTBALL_REMOVED"] = "ПРОГНОЗЫ: НЕ ТАКИЕ ПРЕКРАСНЫЕ."
 

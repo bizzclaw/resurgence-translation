@@ -454,10 +454,10 @@ lang["#EIGHTBALL_DESC"] = "Чёрный шар с цифрой восемь. Д�
 --██║ ╚═╝ ██║██║███████║╚██████╗
 --╚═╝     ╚═╝╚═╝╚══════╝ ╚═════╝
 lang["#ABRAXO_NAME"] = "Чистящее средство 'Абраксо'"
-lang["#10LBWEIGHT_NAME"] = "10lb Weight"
-lang["#25LBWEIGHT_NAME"] = "25lb Weight"
-lang["#5LBWEIGHT_NAME"] = "5lb Weight"
-lang["#160LBDUMBELL_NAME"] = "160lb Barbell"
+lang["#10LBWEIGHT_NAME"] = "Гантеля 10фунтов"
+lang["#25LBWEIGHT_NAME"] = "Гантеля 25фунтов"
+lang["#5LBWEIGHT_NAME"] = "Гантеля 5фунтов"
+lang["#160LBDUMBELL_NAME"] = "Гантеля 160фунтов"
 lang["#20LBDUMBELL_NAME"] = "Гантеля 20фунтов"
 lang["#40LBDUMBELL_NAME"] = "Гантеля 40фунтов"
 lang["#80LBDUMBELL_NAME"] = "Гантеля 80фунтов"
@@ -798,7 +798,7 @@ lang["#STARTER_AMMO_DISCLAMER"] = "Нельзя обменять, выброси
 --██████╔╝███████╗ ╚████╔╝██╔╝   ██████╔╝███████╗██████╔╝╚██████╔╝╚██████╔╝
 --╚═════╝ ╚══════╝  ╚═══╝ ╚═╝    ╚═════╝ ╚══════╝╚═════╝  ╚═════╝  ╚═════╝
 
-lang["#DEV_DESC"] = "ЕСЛИ_ВЫ_ВИДИТЕ_ЭТО_МЕСТО"
-lang["#DEV_NAME"] = "ОБРАЗЕЦ ТЕКСТА."
+lang["#DEV_DESC"] = "ЕСЛИ_ВЫ_ВИДИТЕ_ЭТОТ_ЗАПОЛНИТЕЛЬ"
+lang["#DEV_NAME"] = "ОБРАЗЕЦТЕКСТА."
 
 RELOADWEAPONS = true
