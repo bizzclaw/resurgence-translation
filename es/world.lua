@@ -17,7 +17,7 @@ lang["#REGION_MOUNTAINPASS_SOUTH"] = "Campamento Willow"
 lang["#REGION_ASHLANDS"] = "Ashlands"
 lang["#REGION_ASHLANDS_OUTPOST"] = "Tienda de Armas"
 lang["#REGION_ASHLANDS_CITY"] = "Ciudad Muerta"
- 
+
 lang["#REGION_YOLLABOLLY"] = "Cordillera de Yolla Bolly"
 lang["#REGION_YOLLABOLLY_CLIFFCONVY"] = "Convoy Abandonado"
 lang["#REGION_YOLLABOLLY_CLIFFEDGE"] = "Borde del Acantilado"
