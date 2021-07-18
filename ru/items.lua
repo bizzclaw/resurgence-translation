@@ -580,9 +580,9 @@ lang["#FUELCELLREGULATOR_NAME"] = "Топливный регулятор"
 
 lang["#STEELCASINGNAME"] = "Стальная гильза -"
 lang["#BRASSCASINGNAME"] = "Латунная гильза -"
-lang["#HULLCASINGNAME"] = "Пластиковая гильза -"
+lang["#HULLCASINGNAME"] = "Пластик. гильза -"
 lang["#JUNKROUND_NAME"] = "Мусор"
-lang["#AMMOBOX_NAME"] = "Коробка боеприпасов,"
+lang["#AMMOBOX_NAME"] = "Коробка боепр.,"
 
 --MISC Items Desc
 lang["#ABRAXO_DESC"] = "Довоенное чистящее средство производства 'Абраксодайн Кемикал'.\n\nЭто всё ещё можно найти на всей территории США через более 200 лет после Великой войны."
