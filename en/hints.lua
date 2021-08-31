@@ -91,7 +91,7 @@ RSRG.Hints[HINTS_COMMON] = {
 ]]
 "Tolerance of ghoul populations varies in the Frontier Wasteland. While many are willing to maintian at least a cool indifference, there are always individuals or communites that feel, and act, less civilized.",
 "With memory of the Master's war fresh in their mind, there are few to no places in human communities for Super Mutants. Outside, perhaps, a firing line.",
-"The Frontier Wasteland was inhabited by humans well before the NCRs incursion to the area. Tribals, survivalists, bandits, isolationists, homesteaders, and cannibals all call this area their home. The lines between these groups aren't always clear, and not everyone in the NCR is willing to risk finding out who is who. . .",
+"The Pacific NorthWaste was inhabited by humans well before the NCRs incursion to the area. Tribals, survivalists, bandits, isolationists, homesteaders, and cannibals all call this area their home. The lines between these groups aren't always clear, and not everyone in the NCR is willing to risk finding out who is who. . .",
 
 
 
@@ -111,4 +111,28 @@ RSRG.Hints[HINTS_RARE] = { -- Would have a low chance of appearing. Maybe 5% or 
 "Legend has it that whoever can ride on the back of a Deathclaw for over 30 seconds will be blessed with untold fortune.",
 "Tunnel Snakes Rule!",
 "You can apply to use PAC3 on the Frostburnt Forums.",
+"Beware the wrath of Hater Fistinator.",
+"The Development team is [not]conspiring to kill you.",
+"Rumors of an creature that can wipe your character data are currently unsubstantiated.",
+"I wouldn't worry about it.",
+"Anyone else smell that?",
+"What the hell was that noise?!",
+"I'm losing my fucking mind.",
+"I'm about to snap.",
+"YOU KNOW WHAT THEY SAY, THE JET MAKES YOU JITTERY!",
+"I'm watching you.",
+"We saw you do that, you know.",
+"If you hear banjo music, RUN.",
+"More fun than a public stoning!",
+"Always Bizzy.",
+"#HONKFORRESURGENCE.",
+"I like dogs.",
+"[Incoherent Screaming]",
+"Where the fuck are all the chem nodes?",
+"Nightmare stole my diamonds!",
+"Created by Bizz!",
+"I'd cry too if I had your haircut",
+"If you are reading this, send help.",
+"Have you ever heard the tale of Dr. Exavolt?",
+"Deviation from the norm will be punished unless exploitable.",
 }

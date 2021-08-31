@@ -1,88 +1,4 @@
 local lang = RSRG.Languages["en"]
-lang["#MISSION_GIVER"] = "Recruiter" --This is just the job of the mission givers.
-
--- ██████╗ ██████╗  ██████╗ ███████╗██╗██╗     ███████╗███████╗
--- ██╔══██╗██╔══██╗██╔═══██╗██╔════╝██║██║     ██╔════╝██╔════╝
--- ██████╔╝██████╔╝██║   ██║█████╗  ██║██║     █████╗  ███████╗
--- ██╔═══╝ ██╔══██╗██║   ██║██╔══╝  ██║██║     ██╔══╝  ╚════██║
--- ██║     ██║  ██║╚██████╔╝██║     ██║███████╗███████╗███████║
--- ╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝
-
---Andrew (Salt Wells)
-lang["#MISSION_GIVER_STARTER"] = "Andrew"
-lang["#MISSION_GIVER_STARTER_SUBTITLE"] = "Teacher of the Wastes"
-lang["#MISSION_GIVER_STARTER_GREET_NEW"] = "Hey! You seem to be lost and confused. If you're not sure what to do around here, I could help get you set up if you're willing to do a few things. Most chances are that it won't take that long. Otherwise, if you are just looking for work, I suggest going to the uphill town that's not far from here, just follow the road and take a left into the ravine. You shouldn't miss it.\n\n\n\n[ This is a series of tasks for players to start out with. This is not required to be completed, but it is recommended to those who are newer to the game and can offer a slight starting boost. ]"
-lang["#MISSION_GIVER_STARTER_GREET"] = "Hello, $playername. If you're looking for something to do, I still have a few tasks that you have not completed yet. Knowing every skill to survive in the wastes is important."
-lang["#MISSION_GIVER_STARTER_GREET_FINISHED"] = "Hello again, $playername. If you're looking for something to do, I'd recommend talking to Major Redman in the walled town. You can get there by following the road into the valley."
---Major Redman (Salt Wells)
-lang["#MISSION_GIVER_REDMAN"] = "Major Redman"
-lang["#MISSION_GIVER_REDMAN_SUBTITLE"] = "New California Republic"
-lang["#MISSION_GIVER_REDMAN_GREET_NEW"] = "Welcome to town, stranger. You don't seem to know much of what's going on around here, but if you're looking for a job to do, I need people who are willing to attend to some tasks. Assuming that's why you're here, I can try and see if I'll get something that's more for your level of experience. If you're looking for public work, we have a board set up near the enterance of the town that we allow people to pin work they need finished for other people to help with.\n\n\nAnyways, here's some assignments you could take on."
-lang["#MISSION_GIVER_REDMAN_GREET_N100"] = "You're well known around here. Probably not in a good way to you, and it isn't. You know very few are going to trust you, but I'm still willing to give the opportunity to make up for it, as I usually do with others. You could start by taking care of a few things around here.\n\n\nHere's a list of tasks."
-lang["#MISSION_GIVER_REDMAN_GREET_0"] = "Welcome back, Wastelander. You're likely not here just to trade a few things, possibly looking for a job or two. I may have a few for you to look into.\n\n\nHere's a list of tasks we need help with currently."
-lang["#MISSION_GIVER_REDMAN_GREET_100"] = "Hey $playername, hope everything is well for you. If you're here looking for stuff to do, I may have a few things available. I'm also considering looking into more jobs just for you, as you're pretty helpful around here.\n\n\nHere's a list of uncompleted tasks."
-lang["#MISSION_GIVER_REDMAN_GREET_200"] = ""
---Isaac (Salt Wells)
-lang["#MISSION_GIVER_ISAAC"] = "Isaac"
-lang["#MISSION_GIVER_ISAAC_SUBTITLE"] = "Crimson Caravan"
-lang["#MISSION_GIVER_ISAAC_GREET_NEW"] = "Hey, welcome to town, stranger. Hopefully you're here with good intentions. Actually, speaking of good intentions, we need help with some work, if you're willing to lend a hand. Not literally. But, we do need some materials for trading and transporting, if you're willing to help with that. I'll toss some currency your way if you want to help.\n\n\nHere's a list of stuff I need help with."
-lang["#MISSION_GIVER_ISAAC_GREET_N50"] = "Hey hey hey, watch your next step buddy, okay? I don't like you, and I want you to know that, but that doesn't make you absolutely useless to me. I may still need help with a few things, and you're likely the only person who can get it done in this town. So, if you want something to do, I'll assign you some orders, but you watch yourself.\n\n\nHere's a list of available orders."
-lang["#MISSION_GIVER_ISAAC_GREET_0"] = "Hello there, $playername, was it? Anyways, I may have some more orders for you to take care of if you're looking for something to do around here.\n\n\nHere's a list of available orders."
-lang["#MISSION_GIVER_ISAAC_GREET_50"] = "Whaddup, $playername? Good to see a friendly face around here, even though most of it is a hell hole. Hard to find people you can trust, like you. I may still have some stuff that needs to be fufilled, if you're willing to look into it.\n\n\nHere's a list of incomplete orders."
-lang["#MISSION_GIVER_ISAAC_GREET_100"] = ""
---Jackson (Yolla Bolly)
-lang["#MISSION_GIVER_JACKSON"] = "Jackson" --Available when the player completes: Old Friend: Tracks (Redman)
-lang["#MISSION_GIVER_JACKSON_SUBTITLE"] = "Survivalist of the Wastes"
-lang["#MISSION_GIVER_JACKSON_GREET_NEW"] = "Hey, since you're here, me and my group actually do need help with a few things if you are planning on sticking around for a while.\n\n\nHere's what we need help with currently, if you're interested."
---Susan (Mountain Pass)
-lang["#MISSION_GIVER_SUSAN"] = "Susan" --Available when the player completes: Development (Redman)
-lang["#MISSION_GIVER_SUSAN_SUBTITLE"] = "New California Republic"
-lang["#MISSION_GIVER_SUSAN_GREET_UNKNOWN"] = "Hi, stranger. I'm busy at the moment, if you mind."
-lang["#MISSION_GIVER_SUSAN_GREET_NEW"] = "Hello. $playername, is it? We got contact from Redman not too long ago that he was sending you over to help us with some stuff here. I do have a list of things that we currently need help with, and I also look forward to working with you.\n\n\nThese are tasks we need help with."
-lang["#MISSION_GIVER_SUSAN_GREET_N50"] = ""
-lang["#MISSION_GIVER_SUSAN_GREET_0"] = ""
-lang["#MISSION_GIVER_SUSAN_GREET_50"] = ""
-lang["#MISSION_GIVER_SUSAN_GREET_100"] = ""
---Xanthan (Ashlands)
-lang["#MISSION_GIVER_CHALLENGER"] = "Xanthan"
-lang["#MISSION_GIVER_CHALLENGER_SUBTITLE"] = "Challenger of the Wastes"
-lang["#MISSION_GIVER_CHALLENGER_GREET_NEW"] = "Hey, do you consider yourself a real wastelander? I think too many people underexaggerate what it means to be a wastelander. My name's Xanthan, or as most people like to call me the 'challenger'. If you truly want to prove yourself to the people around here, and to me, I have some things I want you to do. Just know, it will not be easy, and you're also getting paid greatly for it.\n\n\nHere are some challenges you can partake in."
-lang["#MISSION_GIVER_CHALLENGER_GREET"] = "Hello again, $playername. If you're still looking to do challenges, I should have many available.\n\n\nHere's a list of ones that you have not completed yet."
---Dev Test (Board)
-lang["#MISSION_BOARD_TEST"] = "Test Board"
-lang["#MISSION_BOARD_TEST_SUBTITLE"] = "Development Purposes."
-lang["#MISSION_BOARD_TEST_GREET_NEW"] = "nil"
-lang["#MISSION_BOARD_TEST_GREET"] = "nil"
---Salt Wells (Board)
-lang["#MISSION_BOARD_SALTWELLS"] = "Salt Wells Task Board"
-lang["#MISSION_BOARD_SALTWELLS_SUBTITLE"] = "Tasks and Jobs"
-lang["#MISSION_BOARD_SALTWELLS_GREET"] = "This board contains several papers with jobs from people who are looking to hire others in this area. You can accept any job that you meet the requirements for.\n\n\nA list of available jobs are below."
---Ashlands (Board)
-lang["#MISSION_BOARD_ASHLANDS"] = "Ashlands Task Board"
-lang["#MISSION_BOARD_ASHLANDS_SUBTITLE"] = "Tasks and Jobs"
-lang["#MISSION_BOARD_ASHLANDS_GREET"] = "This board contains several papers with jobs from people who are looking to hire others in this area. You can accept any job that you meet the requirements for.\n\n\nA list of available jobs are below."
---Yolla Bolly (Board)
-lang["#MISSION_BOARD_YOLLA"] = "Yolla Bolly Task Board"
-lang["#MISSION_BOARD_YOLLA_SUBTITLE"] = "Tasks and Jobs"
-lang["#MISSION_BOARD_YOLLA_GREET"] = "This board contains several papers with jobs from people who are looking to hire others in this area. You can accept any job that you meet the requirements for.\n\n\nA list of available jobs are below."
-
--- ████████╗██╗   ██╗██████╗ ███████╗███████╗
--- ╚══██╔══╝╚██╗ ██╔╝██╔══██╗██╔════╝██╔════╝
---    ██║    ╚████╔╝ ██████╔╝█████╗  ███████╗
---    ██║     ╚██╔╝  ██╔═══╝ ██╔══╝  ╚════██║
---    ██║      ██║   ██║     ███████╗███████║
---    ╚═╝      ╚═╝   ╚═╝     ╚══════╝╚══════╝
-
-lang["#DISCOVER_INFO"] = "Explore $location."
-lang["#DELIVER_INFO"] = "Find and Give $item to $character."
-lang["#SCAVENGE_INFO"] = "Loot $amount containers."
-lang["#SALVAGE_INFO"] = "Salvage $amount vehicles."
-lang["#HARVEST_INFO"] = "Harvest $amount plants."
-lang["#FETCH_INFO"] = "Obtain $amount $name."
-lang["#CRAFT_INFO"] = "$crafttype $amount $name."
-lang["#MASSACARE_INFO"] = "Find and kill $amount $target."
-
-
 
 
 
@@ -99,46 +15,52 @@ lang["#MASSACARE_INFO"] = "Find and kill $amount $target."
 --    ██║   ╚██████╔╝   ██║   ╚██████╔╝██║  ██║██║██║  ██║███████╗    ██║ ╚═╝ ██║██║███████║███████║██║╚██████╔╝██║ ╚████║███████║
 --    ╚═╝    ╚═════╝    ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚═╝╚═╝  ╚═╝╚══════╝    ╚═╝     ╚═╝╚═╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
 
-lang["#MISSION_STARTER_NEWAROUNDHERE"] = "New Around Here"
-lang["#MISSION_STARTER_NEWAROUNDHERE_DESC"] = "So, let's start with something basic for you. Obviously, the wasteland is a very dangerous place, filled with mutants and other people. Not everything is hostile, but there are a good chunk of people who will likely rob you, or just shoot to kill, which is why you have to be prepared. First task is very simple. I would like to know whether you can scavenge items or not. There is a small town downhill, look around for containers or boxes, and gather any items that you find."
-lang["#MISSION_STARTER_NEWAROUNDHERE_HINT"] = "Loot containers in Salt Wells. You can search inside towns, buildings, and other various locations for containers."
-lang["#MISSION_STARTER_NEWAROUNDHERE_COMPLETE"] = "It's good that you know how to do the basic of all steps."
+lang["#MISSION_STARTER_NEWAROUNDHERE"] = "Tutorial: New Around Here"
+lang["#MISSION_STARTER_NEWAROUNDHERE_DESC"] = "So, let's start with something basic for you. Obviously, the wasteland is a very dangerous place, inhabited by mutated animals, raiders, and abominations. To say everything here is hostile is an overstatement, but there are a good chunk of people, enemies, who will likely rob you, or just shoot to kill. This is where you'll need me the most. I teach other newcomers, like yourself, how to protect themselves out here. Anyways, your first task is going to be very simple. Scavenging, not that hard, is it? Show me you at least know how to gather items. You may find some things that may seem worthless and non-beneficial, but that does not make it entirely useless. There is a town just downhill from here, it's a good place to start."
+lang["#MISSION_STARTER_NEWAROUNDHERE_HINT"] = "Find some containers to loot in your general vicinity. You can try going to the town downhill, and searching a few of the buildings. When you have finished looting the containers, return to Andrew to turn in the assignment."
+lang["#MISSION_STARTER_NEWAROUNDHERE_COMPLETE"] = "Great, you know the principle of the wasteland."
 
-lang["#MISSION_STARTER_WASTELANDREPO"] = "Wasteland Repo"
-lang["#MISSION_STARTER_WASTELANDREPO_DESC"] = "You're back. Anyways, your next task. While you were scavenging, you may have seen old, probably burnt vehicles. You may wonder what you could possibly do with it, and the answer is nothing. Sometimes it may contain a few left overs, but besides that, can't really be used for anything else. What most people do is they tear apart the vehicle for metal scrap, which actually does have a better purpose. So, pretty simple, I need you to go and show me that you can break down a few of those old cars with your hands."
-lang["#MISSION_STARTER_WASTELANDREPO_HINT"] = "Salvage vehicles in Salt Wells. You can break down vehicles by attacking them with your hands or with a blunt melee weapon. Pipewrenches and Crowbars are generally good for salvaging. Salvagable vehicles can be found on or near roads."
-lang["#MISSION_STARTER_WASTELANDREPO_COMPLETE"] = "Great job. Uh, you can keep the scrap metal, don't worry about it."
+lang["#MISSION_STARTER_WASTELANDREPO"] = "Tutorial: Wasteland Repo"
+lang["#MISSION_STARTER_WASTELANDREPO_DESC"] = "You'll be doing a lot of scavenging in the future. And for the money, you can use that at the NCR town that's not too far from here. For now, I have more things to teach you. Sometimes, while you're wandering the roads, you'll find old, crappy, likely burnt-out vehicles, too broken to be repaired. These vehicular bodies may never drive again, but they can be recycled, or salvaged for their scraps. What people usually do with the scraps? That's entirely up to them. I want you to show me that you know how to disassemble them. Try hitting them with your hands, or a tool of some sort. Don't just disassemble a small portion of the vehicle either, I want to see you take apart the entire thing."
+lang["#MISSION_STARTER_WASTELANDREPO_HINT"] = "Fully salvage some of the broken down vehicles or trashpiles near the old town. They can be salvaged by attacking them with your fists, or a blunt melee weapon. Different melee weapons let you salvage them faster. Remember that you need to salvage the vehicle several times to fully break it down. Once completed, return to Andrew to turn in the assignment."
+lang["#MISSION_STARTER_WASTELANDREPO_COMPLETE"] = "Great job. That scrap can always be put to better use."
 
-lang["#MISSION_STARTER_GIFTSFROMGAIA"] = "Gifts From Gaia"
-lang["#MISSION_STARTER_GIFTSFROMGAIA_DESC"] = "Now for something that might take a more gentle touch. Around the wasteland, many wild plants grow freely. Plants such as Broc flower, Jalapeño pepper, Barrel cactus fruit, Banana yucca fruit, and Xander root can be found. These plants can be used in crafting wasteland style healing remedies and many cooking recipes. Go and grab harvest a few plants, doesn't matter what they are, just need to know that you can do it."
-lang["#MISSION_STARTER_GIFTSFROMGAIA_HINT"] = "Harvest any plant in Salt Wells. Plants usually grow throughout open spaces in the wasteland. Check near rocks, and other structures. They can also be found near vegetational areas."
-lang["#MISSION_STARTER_GIFTSFROMGAIA_COMPLETE"] = "Good, good. Here, take these and talk to me when you want to know what to do with them."
+lang["#MISSION_STARTER_GIFTSFROMGAIA"] = "Tutorial: Gifts From Gaia"
+lang["#MISSION_STARTER_GIFTSFROMGAIA_DESC"] = "Now for something that might take a more gentle touch. Around the wasteland, many wild plants grow freely. Plants such as Broc flower, Jalapeño pepper, Barrel cactus fruit, Banana yucca fruit, and Xander root can be found. These plants can be used in hand-crafting wasteland style healing remedies and many cooking recipes. I want to see that you're able to pick these plants without destroying them. And, once you're finished with that, I'll tell you how to make some healing powder."
+lang["#MISSION_STARTER_GIFTSFROMGAIA_HINT"] = "Harvest a couple of the plants in your area. Plants will generally grow near some of the rocks, bushes, and trees. When you have finished harvesting plants, return to Andrew to turn in the assignment."
+lang["#MISSION_STARTER_GIFTSFROMGAIA_COMPLETE"] = "Good. Talk to me when you're ready, I'll show you how to make healing powder."
 
-lang["#MISSION_STARTER_POWDERINTHEWOUND"] = "Powder In the Wound"
-lang["#MISSION_STARTER_POWDERINTHEWOUND_DESC"] = "Have you had an encounter with a mutant yet? Probably not, but when you do, you'll want something to heal yourself with after the fight. Well, that's if you're alive. Anyways, I gave you a xander root and a broc flower after you completed your last task, so I want you to use those and make some healing powder."
-lang["#MISSION_STARTER_POWDERINTHEWOUND_HINT"] = "Create a Healing Powder. You can make miscellaneous items at campfires, mainly food. Campfires are usually found in towns and other points of interest."
-lang["#MISSION_STARTER_POWDERINTHEWOUND_COMPLETE"] = "You'll probably be making a lot, so it's a handy trick to learn."
+lang["#MISSION_STARTER_POWDERINTHEWOUND"] = "Tutorial: Strange Powder"
+lang["#MISSION_STARTER_POWDERINTHEWOUND_DESC"] = "So, I'll tell you how to make healing powder. Quite a useful thing to know. There's a campfire right around the corner here. You can light it and crush the xander root while mixing it with the flower in the pot. It will smell awful, but you'll get use to it. Got a question for you, have you ever had an encounter with an enemy or mutant yet? Chances are you likely have, maybe once or twice. This powder is useful for healing wounds after fights, that's if you made it out alive."
+lang["#MISSION_STARTER_POWDERINTHEWOUND_HINT"] = "Create a healing powder at a campfire. There is a campfire right next to the guard outpost at the checkpoint. Once finished, return to Andrew to turn in the assignment."
+lang["#MISSION_STARTER_POWDERINTHEWOUND_COMPLETE"] = "It's a good trick to learn, and don't waste it all on small wounds."
 
-lang["#MISSION_STARTER_TOTALBREAKDOWN"] = "Total Breakdown"
-lang["#MISSION_STARTER_TOTALBREAKDOWN_DESC"] = "Alright, seeing as you know how to use a campfire, I guess we can move on a bit. Got a question for you, do you know how to use a workbench? About everyone around here does, mainly for crafting some things that they will use at some point. It's really useful to know how to use one. This shouldn't be that hard, but show me that you know atleast how to disassemble something at a workbench."
-lang["#MISSION_STARTER_TOTALBREAKDOWN_HINT"] = "Breakdown any item. You can break down items at workbenches. Workbenches are generally found in towns, and can sometimes be found in obscure areas. Only certain items can be broken down, like tin cans and clipboards."
-lang["#MISSION_STARTER_TOTALBREAKDOWN_COMPLETE"] = "Yeah, making things won't be as easy as disassembling them."
+lang["#MISSION_STARTER_TOTALBREAKDOWN"] = "Tutorial: Total Breakdown"
+lang["#MISSION_STARTER_TOTALBREAKDOWN_DESC"] = "Alright, seeing as you now know how to make some basic healing medicine, I think it's time you also learn how to disassemble junk, so you can use it for greater purposes. No, I don't mean by breaking down more cars, but instead those items that you may find from them, like tin cans and clipboards. Sounds simple enough, right? There should be a workbench in one of the tents behind you, which should have the tools that will allow you to disassemble most things."
+lang["#MISSION_STARTER_TOTALBREAKDOWN_HINT"] = "Breakdown any item at a workbench. There is a workbench in the commander tent right next to the checkpoint. Once finished, return to Andrew to turn in the assignment."
+lang["#MISSION_STARTER_TOTALBREAKDOWN_COMPLETE"] = "Good, making things won't be as easy as disassembling them."
 lang["#MISSION_STARTER_TOTALBREAKDOWN_INFO"] = "Breakdown $amount item."
 
-lang["#MISSION_STARTER_FOODPREPARER"] = "Food Preparer"
-lang["#MISSION_STARTER_FOODPREPARER_DESC"] = "Alright, you're back, probably looking for another thing to do. I'm trying to figure some other things out myself, so just give me a second... Actually, I have an idea. I can teach you a trick that I had my old group taught me when I was with them. Find me the legs of a Mantis, in good condition, of course. Don't ask questions."
-lang["#MISSION_STARTER_FOODPREPARER_HINT"] = "Obtain a Mantis Foreleg. I've heard that the local hunter in town always has some in stock. You can get there by following the main road and taking a left when you get to the 164 Nevada Sign. Mantids are also pretty weak, so if you manage to find one, you can kill it and take its leg instead."
-lang["#MISSION_STARTER_FOODPREPARER_COMPLETE"] = "Okay, you have a leg. Take these as well."
+lang["#MISSION_STARTER_FOODPREPARER"] = "Tutorial: Food Preparer"
+lang["#MISSION_STARTER_FOODPREPARER_DESC"] = "Another important thing you'll have to learn to do out here is cooking your own food. Obviously, you could go for a while without food, but eventually at some point you may want to eat something. Food helps keep your endurance and satiation up. I'll show you how to cook a mantis foreleg, probably not the best in terms of taste, but it's a good place to start. First, you're gonna have to get the leg. You could get it from, well obviously hunting a mantis and taking its leg, or you could talk to one of the hunter traders at the NCR town, they might have one. Don't worry about the rest of the stuff, I'll get that for you."
+lang["#MISSION_STARTER_FOODPREPARER_HINT"] = "Fetch a Mantis Foreleg for Andrew. You can get one from hunting and killing a Mantis, or you can go to the NCR town and talk to a trader to buy it from them. Once obtained, return to Andrew to turn in the assignment."
+lang["#MISSION_STARTER_FOODPREPARER_COMPLETE"] = "Okay, you have a leg. Take these other ingredients as well."
 
-lang["#MISSION_STARTER_JUSTADDFIRE"] = "Just Add Fire"
-lang["#MISSION_STARTER_JUSTADDFIRE_DESC"] = "I want you to go to the campfire around the corner here and start cooking the leg. I'll show you what I use the ingredients for."
-lang["#MISSION_STARTER_JUSTADDFIRE_HINT"] = "Cook a Mantis Foreleg. You can cook food at a campfire. Campfires are usually found in towns and other points of interest."
-lang["#MISSION_STARTER_JUSTADDFIRE_COMPLETE"] = "How did that taste? Did you even eat it yet?"
+lang["#MISSION_STARTER_JUSTADDFIRE"] = "Tutorial: Just Add Fire"
+lang["#MISSION_STARTER_JUSTADDFIRE_DESC"] = "Now that you have all the materials, similar to what I told you to do with the healing powder, excluding crushing it, go and cook it. I'd be safe to assume you know how to cook stuff, right?"
+lang["#MISSION_STARTER_JUSTADDFIRE_HINT"] = "Cook a Mantis Foreleg at a campfire. There is a campfire right next to the guard outpost, at the checkpoint. Once finished, return to Andrew to turn in the assignment."
+lang["#MISSION_STARTER_JUSTADDFIRE_COMPLETE"] = "You could eat it now or save it for later, whatever you choose."
 
-lang["#MISSION_STARTER_GHOULDUEL"] = "Ghoul Duel"
-lang["#MISSION_STARTER_GHOULDUEL_DESC"] = "You seem ready. So, consider this a final test. We've had a few ghouls roaming around not too far from here, and to prove yourself, I want you to go and take them out. You should have a weapon, if you have not realized already, but I want you to go and gut a few of them for me."
-lang["#MISSION_STARTER_GHOULDUEL_HINT"] = "Eliminate any type of Feral Ghouls in Salt Wells. Feral ghouls are commonly found near ruins, broken buildings, and abandoned locations. They are weak to melee weapons and firearms. Be careful around reaver and bloated ghouls, as they are more dangerous."
-lang["#MISSION_STARTER_GHOULDUEL_COMPLETE"] = "Hah, they got what was coming! You'll do fine in the wasteland."
+lang["#MISSION_STARTER_GHOULDUEL"] = "Tutorial: Ghoul Duel"
+lang["#MISSION_STARTER_GHOULDUEL_DESC"] = "You seem ready. So, consider this a final test. We've had a few ghouls roaming around not too far from here, and to prove yourself, I want you to go and take them out. You should have a weapon, if you have not realized already because of your lack of perception, but I want you to go and gut a few of them for me."
+lang["#MISSION_STARTER_GHOULDUEL_HINT"] = "Find and kill Feral Ghouls. They can be found throughout the old town or in the warehouse at the junkyard. Be careful in any situation that you run into a Feral Ghoul Reaver, as they are significantly more dangerous. Once finished, return to Andrew to turn in the assignment."
+lang["#MISSION_STARTER_GHOULDUEL_COMPLETE"] = "Great job, you definitely know how to fight."
+
+lang["#MISSION_STARTER_MAJORREDMAN"] = "Tutorial: Wrapping Up"
+lang["#MISSION_STARTER_MAJORREDMAN_DESC"] = "Well, seems to me like you know enough of the basics. You're probably eager to do more, so my suggestion is to talk to Major Redman. He'll get you set up on some simple jobs. Let him know that I sent you."
+lang["#MISSION_STARTER_MAJORREDMAN_HINT"] = "Travel to the NCR Town and go to the Headquarters to talk to Major Redman. You can reach the town by following the main road, and then going through the small valley."
+lang["#MISSION_STARTER_MAJORREDMAN_COMPLETE"] = "(You've completed the tutorial. Select a reward to help you start your ventures in the Wasteland.)"
+lang["#MISSION_STARTER_MAJORREDMAN_CUSTOMUI"] = "Talk to Major Redman"
 
 -- ██████╗ ███████╗██████╗ ███╗   ███╗ █████╗ ███╗   ██╗███████╗    ███╗   ███╗██╗███████╗███████╗██╗ ██████╗ ███╗   ██╗███████╗
 -- ██╔══██╗██╔════╝██╔══██╗████╗ ████║██╔══██╗████╗  ██║██╔════╝    ████╗ ████║██║██╔════╝██╔════╝██║██╔═══██╗████╗  ██║██╔════╝
@@ -148,82 +70,88 @@ lang["#MISSION_STARTER_GHOULDUEL_COMPLETE"] = "Hah, they got what was coming! Yo
 -- ╚═╝  ╚═╝╚══════╝╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝    ╚═╝     ╚═╝╚═╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
 
 lang["#MISSION_REDMAN_NATURALREMEDIES"] = "Natural Remedies"
-lang["#MISSION_REDMAN_NATURALREMEDIES_DESC"] = "This is a pretty simple job for your level of experience. We usually have patrol squads that commonly get into fire fights, whether it'd be with Raiders or Mutants. We need to have supplies at the ready for situations like that. Unfortunately, we are running a bit low in medicinals. This should be a pretty simple request, I need you to go and gather some Xander Root and Broc Flowers. We have the rest of the materials for making some Stimpaks, so let us worry about that. Get this done, and I'll have payment ready for you."
+lang["#MISSION_REDMAN_NATURALREMEDIES_DESC"] = "We usually have patrol squads that commonly get into fire fights, whether it'd be with Ghouls, Bandits or Mutants. We need to have medical supplies at the ready for situations like that. Unfortunately, we are running a bit low. I need you to go and gather some Xander Root and Broc Flowers for making stimpaks. Let us worry about the rest of the materials. We'll have some payment ready for you."
 lang["#MISSION_REDMAN_NATURALREMEDIES_HINT"] = "Obtain Xander Root and Broc Flowers. Both of these plants can be found in obscure locations."
-lang["#MISSION_REDMAN_NATURALREMEDIES_COMPLETE"] = "Here's your payment. Thanks for getting the ingredients."
+lang["#MISSION_REDMAN_NATURALREMEDIES_COMPLETE"] = "Here is your payment. Thanks for getting the ingredients."
 
 lang["#MISSION_REDMAN_HYDRATION"] = "Hydration"
-lang["#MISSION_REDMAN_HYDRATION_DESC"] = "Alright, this should be pretty easy. We need some bottled water for production of some things. Don't worry about purifying it, we'll take care of that. Also, a few should be enough. How you get them doesn't matter to me, as long as you get them."
+lang["#MISSION_REDMAN_HYDRATION_DESC"] = "We need raw bottled water to make some materials. We have the contents to purify it, and only a few should be enough. How you get them doesn't matter to me, as long as you get them."
 lang["#MISSION_REDMAN_HYDRATION_HINT"] = "Obtain Dirty Water. You can get dirty water if you have an empty bottle and go to a water source. You can also obtain it from scavenging."
 lang["#MISSION_REDMAN_HYDRATION_COMPLETE"] = "Here's your payment. I'll send these on their way."
 
 lang["#MISSION_REDMAN_SCRAPBOOK"] = "Scrap Book"
-lang["#MISSION_REDMAN_SCRAPBOOK_DESC"] = "We have some items in our arsenal which are in need of repairs. The problem is that we don't have enough Scrap Metal to finish repairing all of them. If you wouldn't mind getting some scrap metal for us to finish with the repairs, I'll have some money sent your way."
+lang["#MISSION_REDMAN_SCRAPBOOK_DESC"] = "We have some weapons and armor in our arsenal which are in need of repairs. The problem is that we don't have enough parts to finish repairing all of them. If you wouldn't mind getting the rest of the scrap metal that is needed, there will be payment ready for you."
 lang["#MISSION_REDMAN_SCRAPBOOK_HINT"] = "Obtain Scrap Metal. You can easily get scrap metal from salvaging broken vehicles, or breaking down obsolete items at a workbench."
 lang["#MISSION_REDMAN_SCRAPBOOK_COMPLETE"] = "Here. This should be good enough for the rest of the repairs."
 
 -- T2
 
 lang["#MISSION_REDMAN_EXTERMINATION"] = "Extermination"
-lang["#MISSION_REDMAN_EXTERMINATION_DESC"] = "I got a more difficult task for you. Not really that hard, but we have some feral ghouls moving in on this area, and they are being a nuisance to traders and patrols. I would like you to go and clear them out. Come back here when you're done, I'll have a decent reward for you."
-lang["#MISSION_REDMAN_EXTERMINATION_HINT"] = "Eliminate any type of Feral Ghouls in Salt Wells. You can groups of them across the bridge and down the road to the town from where you accepted this mission."
-lang["#MISSION_REDMAN_EXTERMINATION_COMPLETE"] = "There. Should be less trouble around here now."
+lang["#MISSION_REDMAN_EXTERMINATION_DESC"] = "We have some feral ghouls moving in on the area and they are being a nuisance to traders and patrols. I would like you to go and clear them out. Come back here when you're done, I'll have a reward for you."
+lang["#MISSION_REDMAN_EXTERMINATION_HINT"] = "Eliminate any type of Feral Ghouls in Salt Wells. You can find groups of them in some of the old ruins."
+lang["#MISSION_REDMAN_EXTERMINATION_COMPLETE"] = "Here is your reward."
 
 lang["#MISSION_REDMAN_HUNTINGSEASON"] = "Hunting Season"
-lang["#MISSION_REDMAN_HUNTINGSEASON_DESC"] = "This is less of an actual job, more of a favor I need you to do for me. Since we have a lot of geckos in this area, we usually go hunting for them every now and then. My issue is I'm behind on some work here that I need to get done, so I wanted to know if you are willing to help cover for me while I get things sorted out here. I'll have my own payment ready for you."
+lang["#MISSION_REDMAN_HUNTINGSEASON_DESC"] = "This is less of an actual job, more of a favor I need you to do for me. Since we have a lot of geckos in this region, we usually go hunting for them every now and then. My issue is I'm behind on some work here that I need to get done, so I wanted to know if you are willing to help cover for me while I get things sorted out here. I'll have a payment ready for you."
 lang["#MISSION_REDMAN_HUNTINGSEASON_HINT"] = "Eliminate any type of Geckos in Salt Wells. They can be found in large open areas, or downhill from where you accepted this mission."
-lang["#MISSION_REDMAN_HUNTINGSEASON_COMPLETE"] = "Thanks for covering for me. Here's your payment."
+lang["#MISSION_REDMAN_HUNTINGSEASON_COMPLETE"] = "Thanks for filling for me. Here's your payment."
 
 -- T3
 
 lang["#MISSION_REDMAN_SIMPLEPRODUCTION"] = "Simple Production"
-lang["#MISSION_REDMAN_SIMPLEPRODUCTION_DESC"] = "For this task, it may be a little bit more difficult for your level of experience. But, I have confidence in you, and so should you in yourself. Not too long ago, we had a group sent to the abandon factory that is not too far from here, mainly to clear it out and see if we could have some people start working on production there for supplies. Unfortunately, we had a situation where some old security had been triggered on, and so were the protectrons that were inside there. One of the members of the group was injured, but they managed to make it out okay. Anyways, I know it's asking a little too much of you, but I need your help destroying these protectrons so we can set up an outpost there. I'll have a great payment ready for you if you want to do this."
-lang["#MISSION_REDMAN_SIMPLEPRODUCTION_HINT"] = "Eliminate any type of Protectron in the Factory on Salt Wells. The factory is outside of town, across the bridge on the left side of the road."
+lang["#MISSION_REDMAN_SIMPLEPRODUCTION_DESC"] = "Recently we had a group go investigate the old factory that's not too far from here, mainly to see if it may still be functional, it could really help us with supply and weaponry production. It turns out that there was still some old security set up there, and we ended up triggering it. Thankfully, no one's injured, but we also discovered that it's still operational. Well, atleast the garage part. The actual building is filled with rads, but we don't need access to that. Clear out these protectrons, we'll have a reward for you."
+lang["#MISSION_REDMAN_SIMPLEPRODUCTION_HINT"] = "Eliminate any type of Protectron in the Factory on Salt Wells. The factory is outside of the NCR town, across the bridge on the left side of the road."
 lang["#MISSION_REDMAN_SIMPLEPRODUCTION_COMPLETE"] = "Nice job, $playername. Here, as promised."
 
 lang["#MISSION_REDMAN_BROKENMACHINE"] = "Broken Machine"
-lang["#MISSION_REDMAN_BROKENMACHINE_DESC"] = "After you cleared out the factory, we sent a group of men down there and tried to get one of the machines working. Apparently, it was missing some core materials materials, likely taken by old scavengers. Not asking much of you, just wondering if you are willing to get some of those materials back for us."
+lang["#MISSION_REDMAN_BROKENMACHINE_DESC"] = "After you cleared out the factory, we sent a group of men down there and tried to get one of the machines working. Apparently, it was missing some core materials, likely taken by old scavengers. Not asking much of you, just wondering if you are willing to get some of those materials back for us."
 lang["#MISSION_REDMAN_BROKENMACHINE_HINT"] = "Obtain Copper Wiring, Propane, Leather Belts, and Scrap Metal. Copper Wiring and Propane can be found from scavenging or bought from traders. Leather Belts can be found from scavenging, crafting, or buying from traders. Scrap Metal can be found from salvaging, scavenging, breaking down items, or bought from traders."
 lang["#MISSION_REDMAN_BROKENMACHINE_COMPLETE"] = "Thanks for getting these. Here's your payment."
+
+lang["#MISSION_REDMAN_BANDITTAKEOVER"] = "Highway Raiders"
+lang["#MISSION_REDMAN_BANDITTAKEOVER_DESC"] = "Recently we've had some bandits move into the area. They've set up a few camps around here, and that's a major problem. They call themselves the 80s Raider Gang, or something of the sort. A few trader groups have already been attacked by them, robbing and taking everything they had. I need you to wipe some of them out, send a message. You may want to bring along backup as well, they're well armed and dangerous."
+lang["#MISSION_REDMAN_BANDITTAKEOVER_HINT"] = "Eliminate any type of Bandit in Salt Wells. There are several Bandit camps set up around Salt Wells. One can be found across the bridge and to the right in an alley."
+lang["#MISSION_REDMAN_BANDITTAKEOVER_COMPLETE"] = "That's one less problem we have to worry about."
 
 -- T4
 
 lang["#MISSION_REDMAN_OLDFRIEND_SEARCH"] = "Old Friend: Search"
-lang["#MISSION_REDMAN_OLDFRIEND_SEARCH_DESC"] = "I want to know if you are willing to help me with another situation, kind of unrelated to anything we got happening here currently. A while ago, there was a man who frequently came to town. You know, the basic person who came around for work, helped get stuff done, a really friendly face. His name is Jackson, but the reason I'm bringing this up is because he has not appeared here recently at all, and none of the traveling merchants have seen him. For someone as helpful as him, I only want to make sure he is fine, not in danger or anything. A few of the merchants though did say he did go through the quarry a lot, assuming that he may live in the shack down there. I want you to go and check it out, make sure that he's not harmed or in any danger at all."
-lang["#MISSION_REDMAN_OLDFRIEND_SEARCH_HINT"] = "Search for Jackson. They commonly visited the quarry, assuming that he lives in the old shack inside of it."
-lang["#MISSION_REDMAN_OLDFRIEND_SEARCH_COMPLETE"] = "He's not there, but this note was?"
+lang["#MISSION_REDMAN_OLDFRIEND_SEARCH_DESC"] = "This isn't anything that's actually on board, but it's about an old friend. Don't know if you've met him, his name's Jackson. He's like one of you guys, but he's been doing this longer than I can remember. He hasn't been to town at all recently, and none of the caravans or traders have seen him either. At the very least for all his help, I need to check in with him to make sure he's okay. Some of the traders have seen him enter and leave the quarry a lot, so he may have a living space somewhere in it. We've never really gone into it, the place can be infested with mutants, and they've never gone outside the fence. Regardless, see if you can find him, and check in to see if he's okay. I'll be waiting."
+lang["#MISSION_REDMAN_OLDFRIEND_SEARCH_HINT"] = "Search for Jackson. Major Redman says he commonly visited the quarry, and that he may live somewhere inside of it."
+lang["#MISSION_REDMAN_OLDFRIEND_SEARCH_COMPLETE"] = "You found this note inside of his shack?"
+lang["#MISSION_REDMAN_OLDFRIEND_SEARCH_CUSTOMUI"] = "Find Jackson"
+lang["#MISSION_REDMAN_OLDFRIEND_SEARCH_ITEMNAME"] = "Note"
 
 lang["#MISSION_REDMAN_OLDFRIEND_TRACKS"] = "Old Friend: Tracks"
-lang["#MISSION_REDMAN_OLDFRIEND_TRACKS_DESC"] = "So he wasn't there, hmm. We'll take a look at this note real quick.\n\nIt say's that he met a group a few days ago and they were asking him for help, a place in the mountains where there is many problems occuring. It's good to know that he is okay, but it's still possible that this group may have lied or tricked him, so I just want to ensure his safety. I know this may be quite a travel, but I want you to follow him and go see this 'group' of his. Make sure he's safe. Also, take this paper, so he knows that I sent you incase he thinks that you were following him with malicious intent."
-lang["#MISSION_REDMAN_OLDFRIEND_TRACKS_HINT"] = "Find Jackson and give him the note. He last said that he was going to the Mountains (Yolla Bolly) in order to help another group of people."
-lang["#MISSION_REDMAN_OLDFRIEND_TRACKS_COMPLETE"] = "Thank you for traveling there to check on him. I wish he said something before he left."
+lang["#MISSION_REDMAN_OLDFRIEND_TRACKS_DESC"] = "I just read through the note he left. He wrote that he had a few old friends who came to his home not too long ago, and that he had to leave quickly because they had a huge problem brewing in another place, and he probably was not going to return home any time soon. That would explain his absence here. He also said that he would be heading to the mountain range, and that he should be safe without concern. I know Jackson, he can handle himself well, so I don't doubt that he would be safe, but still owe him something for a few jobs he completed here. He never came and picked this package up. It has some funds, and ammunition that he asked for. I need you to take this to him, and not only to give it to him but also to check in on him. Make sure he's fine, and not in any deep trouble. Also let him know that I sent you."
+lang["#MISSION_REDMAN_OLDFRIEND_TRACKS_HINT"] = "Find Jackson and give him the package. He last said that he was going to the Yolla Bolly Mountain Range, to a town on a cliffside."
+lang["#MISSION_REDMAN_OLDFRIEND_TRACKS_COMPLETE"] = "Major Redman sent you here? We are in a bit of trouble."
+lang["#MISSION_REDMAN_OLDFRIEND_TRACKS_ITEMNAME"] = "The Package"
 
-lang["#MISSION_REDMAN_VAULTEXPEDITION_PREPARATION"] = "Vault Expedition: Preparation"
-lang["#MISSION_REDMAN_VAULTEXPEDITION_PREPARATION_DESC"] = "I hope you're ready for a difficult task now. A few hours ago we just had a group discover a vault not too far from here. They tried to make their way inside, but apparently the vault is infested with feral ghouls. I'm willing to pay a lot if you believe you're able to clear out all of the ghouls that are hiding inside there. However, I don't want to send you off on a suicide mission immediately. If you're going, then you're going prepared. I want you to gather some supplies, and return here when you think you have enough. Oh, also, bring some currency as well. I'll grab some ammunition for you."
+lang["#MISSION_REDMAN_VAULTEXPEDITION_PREPARATION"] = "Vault Expedition: Prepare"
+lang["#MISSION_REDMAN_VAULTEXPEDITION_PREPARATION_DESC"] = "A few hours ago we just had a group discover a vault not too far from here. They tried to make their way inside, but apparently the vault is infested with feral ghouls. I'm willing to pay a lot if you believe you're able to clear out all of the ghouls that are hiding inside there. However, I don't want to send you off on a suicide mission immediately. If you're going, then you're going prepared. I want you to gather some supplies, and return here when you think you have enough. Oh, also, bring some money as well. I'll grab a box of ammunition for you, of your choice."
 lang["#MISSION_REDMAN_VAULTEXPEDITION_PREPARATION_HINT"] = "Obtain Stimpaks, Radaway, and NCR Dollars. Stimpaks and Radaway can be scavenged, crafted, or bought from traders. NCR Dollars can be obtained from selling items to traders or completing jobs."
-lang["#MISSION_REDMAN_VAULTEXPEDITION_PREPARATION_COMPLETE"] = "Alright, you seem ready. Here's your ammunition too."
+lang["#MISSION_REDMAN_VAULTEXPEDITION_PREPARATION_COMPLETE"] = "Alright, you seem ready. Here's your choice of ammunition."
 
-lang["#MISSION_REDMAN_VAULTEXPEDITION_CLEARANCE"] = "Vault Expedition: Clearance"
-lang["#MISSION_REDMAN_VAULTEXPEDITION_CLEARANCE_DESC"] = "You think you're ready now, Wastelander? Go ahead whenever you feel like it, I'll be awaitng your return. Don't get yourself killed."
-lang["#MISSION_REDMAN_VAULTEXPEDITION_CLEARANCE_HINT"] = "Eliminate any type of Ghouls in the Vault on Salt Wells. The vault can be found outside of town, across the bridge, down into the giant pit and in the side of the hill from where you accepted this mission."
-lang["#MISSION_REDMAN_VAULTEXPEDITION_CLEARANCE_COMPLETE"] = "You got rid of them? That's great news."
-
-lang["#MISSION_REDMAN_VAULTEXPEDITION_LOSTLOGS"] = "Vault Expedition: Lost Logs"
-lang["#MISSION_REDMAN_VAULTEXPEDITION_LOSTLOGS_DESC"] = "You did a great job clearing out all the ghouls in the vault. We sent a group in not too long ago to search for scraps, gathering resources, and so on. One thing we don't understand though, is that there is no real remains of anyone or anything that used to be down there. We know that the ghouls moved in later, and probably through a back door. I have one last request for you on this situation, I would like you to search around it yourself and see if you can find any information or context on what happened inside the vault. If you do find anything, bring it back here and we'll look through it."
-lang["#MISSION_REDMAN_VAULTEXPEDITION_LOSTLOGS_HINT"] = "Search for context on what happened inside of the Vault. You could likely find it in an area that has not been explored yet, or possibly through the 'back door'."
-lang["#MISSION_REDMAN_VAULTEXPEDITION_LOSTLOGS_COMPLETE"] = "We'll have some people look into this. Thanks for your help on this."
+lang["#MISSION_REDMAN_VAULTEXPEDITION_CLEARANCE"] = "Vault Expedition: Eliminate"
+lang["#MISSION_REDMAN_VAULTEXPEDITION_CLEARANCE_DESC"] = "You think you're ready now? While you're in there, see if you can find some information on the place too. There might be something like that in the Overseer's office. Be careful on your way there. Radscorpions live in the pit, so I'd recommend walking around it."
+lang["#MISSION_REDMAN_VAULTEXPEDITION_CLEARANCE_HINT"] = "Clear out the vault and find any information that may remain inside. There may likely be something in the Overseer's office."
+lang["#MISSION_REDMAN_VAULTEXPEDITION_CLEARANCE_COMPLETE"] = "Hell of a job, $playername. We'll look into this holotape. Here's your reward."
+lang["#MISSION_REDMAN_VAULTEXPEDITION_CLEARANCE_CUSTOMUI"] = "Find any information on the vault"
+lang["#MISSION_REDMAN_VAULTEXPEDITION_CLEARANCE_ITEMNAME"] = "Holotape"
 
 -- T5
 
-lang["#MISSION_REDMAN_PROBLEMS"] = "Problems"
-lang["#MISSION_REDMAN_PROBLEMS_DESC"] = "Good to see that you're still here. Anyways, if you still want to help, we've had development of a problem over the last few days. Recently, we just had a Deathclaw move out infront of the vault, mainly roaming the pit, but it is stopping us from going inside there. Whether you're up for this job is up to you, but if you do it, I'll have a good payment ready for you."
-lang["#MISSION_REDMAN_PROBLEMS_HINT"] = "Eliminate any type of Deathclaw in the pit on Salt Wells. The pit can be found directly in front of the vault, containing the unexploded nuclear bomb."
-lang["#MISSION_REDMAN_PROBLEMS_COMPLETE"] = "You actually killed it? That's great! Here, take this."
+lang["#MISSION_REDMAN_PROBLEMS"] = "Problem"
+lang["#MISSION_REDMAN_PROBLEMS_DESC"] = "Good to see that you're here. If you are ready to tackle down a bigger challenge, I got one for you. Recently, we've had a Deathclaw move into the vicinity of the vault. Because of its appearance, it makes it significantly harder for us to travel to and from the vault. I need you to go and hunt it dead. I know this is a big ask, but I can promise you one of our standard issue rifles, brand new and in full condition, without a scratch, if you take care of this problem. You may want to bring along a friend or two, and definitely the best weapons in your arsenal. So, are you up for it?"
+lang["#MISSION_REDMAN_PROBLEMS_HINT"] = "Eliminate any type of Deathclaw on Salt Wells. Deathclaws can be found around the outskirts of the pit or inside of it."
+lang["#MISSION_REDMAN_PROBLEMS_COMPLETE"] = "Holy shit, I didn't think you'd actually be able to do it."
 
 lang["#MISSION_REDMAN_DEVELOPMENT"] = "Development"
-lang["#MISSION_REDMAN_DEVELOPMENT_DESC"] = "We've had rapid development on another situation occuring near the passage we have set up going to the Ashlands. Apparently it isn't too severe, but some of the men there need help. If you want to look for more work, I suggest going there, because you've done a lot around here to help out, but we should be stable enough for a bit. Also, more information on the vault logs came out if you're interested. (...)"
-lang["#MISSION_REDMAN_DEVELOPMENT_HINT"] = "Head to the Mountain Passage that people commonly use to go to the Ashlands, and talk to the task assigner at the camp."
-lang["#MISSION_REDMAN_DEVELOPMENT_COMPLETE"] = "Welcome to the Mountain Passage."
+lang["#MISSION_REDMAN_DEVELOPMENT_DESC"] = "We've had rapid development on another situation occuring near the passage we have set up going to the Ashlands. Susan, the person who is in charge of our outpost there is actively seeking for any help she can get. If you want to look for more work, I suggest going there, because you've done a lot around here to help out, but we should be stable enough on our own for a bit. Take this note, so she knows I sent you."
+lang["#MISSION_REDMAN_DEVELOPMENT_HINT"] = "Head to the Mountain Passage that people commonly use to go to the Ashlands, and give the note to Susan, The Task Assigner at the NCR camp."
+lang["#MISSION_REDMAN_DEVELOPMENT_COMPLETE"] = "Hey, did Redman send you here? Great, we need your help."
+lang["#MISSION_REDMAN_DEVELOPMENT_ITEMNAME"] = "The Note"
 
 -- ██╗███████╗ █████╗  █████╗  ██████╗███████╗    ███╗   ███╗██╗███████╗███████╗██╗ ██████╗ ███╗   ██╗███████╗
 -- ██║██╔════╝██╔══██╗██╔══██╗██╔════╝██╔════╝    ████╗ ████║██║██╔════╝██╔════╝██║██╔═══██╗████╗  ██║██╔════╝
@@ -233,7 +161,7 @@ lang["#MISSION_REDMAN_DEVELOPMENT_COMPLETE"] = "Welcome to the Mountain Passage.
 -- ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚══════╝    ╚═╝     ╚═╝╚═╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
 
 lang["#MISSION_ISAAC_PERSONALREQUEST"] = "Personal Request"
-lang["#MISSION_ISAAC_PERSONALREQUEST_DESC"] = "Hey, so, I need help with something, we are missing a bundle of wood. Not entirely sure where it may have went, could have been stolen, but we need those because we had them for a specific person. I need you to go and get about half a dozen of wood back for us. Sounds simple enough, right?"
+lang["#MISSION_ISAAC_PERSONALREQUEST_DESC"] = "Since you're interested in some work, we are missing a bundle of wood that we are suppose to give to a customer later today. Not entirely sure where it may have went, could have been stolen, but we need those because we had them for a specific person. I need you to go and get about half a dozen wood scraps for us. Sounds simple enough, right?"
 lang["#MISSION_ISAAC_PERSONALREQUEST_HINT"] = "Obtain Scrap Wood. It can be scavenged, salvaged or collected from other bundles of wood / broken trees. You can also buy it from some traders."
 lang["#MISSION_ISAAC_PERSONALREQUEST_COMPLETE"] = "Sweet, thanks dude. Here, for your troubles."
 
@@ -281,6 +209,11 @@ lang["#MISSION_ISAAC_PREWARSNACKS_COMPLETE"] = "Man, only if they could've been 
 
 -- T3
 
+lang["#MISSION_ISAAC_CARREPAIR"] = "Car Repair"
+lang["#MISSION_ISAAC_CARREPAIR_DESC"] = "Hey, got some guy who wants what looks like... makeshift batteries and car wheels? Haven't seen people wanting those in a while. I've only ever seen a few function vehicles around here, which sounds really useful. Anyways, back to work."
+lang["#MISSION_ISAAC_CARREPAIR_HINT"] = "Obtain Makeshift Batteries and Wheels. Makeshift Batteries can be crafted at workbenches. Wheels can also be crafted at workbenched or found from broken down vehicles."
+lang["#MISSION_ISAAC_CARREPAIR_COMPLETE"] = "Maybe I'll make my own vehicle one day, with you teaching me, of course."
+
 lang["#MISSION_ISAAC_FIBERS"] = "Fibers"
 lang["#MISSION_ISAAC_FIBERS_DESC"] = "Back to business. Got an order placed for 'ballistic polymer'. Sounds like they want some decent protection. Anyways, hold up your end."
 lang["#MISSION_ISAAC_FIBERS_HINT"] = "Obtain Ballistic Polymer. They can be crafted with at a workbench."
@@ -292,9 +225,72 @@ lang["#MISSION_ISAAC_FACTORYMATERIALS_HINT"] = "Obtain Lead Ingots, Copper Ingot
 lang["#MISSION_ISAAC_FACTORYMATERIALS_COMPLETE"] = "Yeah, just be careful with the nuclear stuff. Should be ready for him."
 
 lang["#MISSION_ISAAC_SPECIALKINDOFHIDE"] = "Special Kind Of Hide"
-lang["#MISSION_ISAAC_SPECIALKINDOFHIDE_DESC"] = "I just had an old friend stop by not too long ago, and he asked me if I could help him with a project, and it's actually the last part of something that he needs for whatever he's making. Anyway's, to quickly explain it, he want's some Deathclaw Hide. I can definitely understand if you do not want to go and get this, but I can tell you that the reward for it will definitely be worth it. That is, if you don't die. It's also possible you could find someone who is willing to give it to you too."
+lang["#MISSION_ISAAC_SPECIALKINDOFHIDE_DESC"] = "I just had an old friend stop by not too long ago, and he asked me if I could help him with a project, and it's actually the last part of something that he needs for whatever he's making. Anyways, to quickly explain it, he want's some Deathclaw Hide. I can definitely understand if you do not want to go and get this, but I can tell you that the reward for it will definitely be worth it. That is, if you don't die. It's also possible you could find someone who is willing to give it to you too."
 lang["#MISSION_ISAAC_SPECIALKINDOFHIDE_HINT"] = "Obtain Deathclaw Hide. You can obtain it if you have the scale skinning perk and manage to kill a Deathclaw."
-lang["#MISSION_ISAAC_SPECIALKINDOFHIDE_COMPLETE"] = "Oh my god, you actually got it? Hopefully that wasn't too hard?"
+lang["#MISSION_ISAAC_SPECIALKINDOFHIDE_COMPLETE"] = "Wow, did you actually kill a deathclaw for this? I mean you could've traded for it."
+
+--  ██████╗██████╗  ██████╗ ██╗    ██╗███╗   ███╗ █████╗ ███╗   ██╗         ██╗ ██████╗ ███████╗    ███╗   ███╗██╗███████╗███████╗██╗ ██████╗ ███╗   ██╗███████╗
+-- ██╔════╝██╔══██╗██╔═══██╗██║    ██║████╗ ████║██╔══██╗████╗  ██║         ██║██╔═══██╗██╔════╝    ████╗ ████║██║██╔════╝██╔════╝██║██╔═══██╗████╗  ██║██╔════╝
+-- ██║     ██████╔╝██║   ██║██║ █╗ ██║██╔████╔██║███████║██╔██╗ ██║         ██║██║   ██║█████╗      ██╔████╔██║██║███████╗███████╗██║██║   ██║██╔██╗ ██║███████╗
+-- ██║     ██╔══██╗██║   ██║██║███╗██║██║╚██╔╝██║██╔══██║██║╚██╗██║    ██   ██║██║   ██║██╔══╝      ██║╚██╔╝██║██║╚════██║╚════██║██║██║   ██║██║╚██╗██║╚════██║
+-- ╚██████╗██║  ██║╚██████╔╝╚███╔███╔╝██║ ╚═╝ ██║██║  ██║██║ ╚████║    ╚█████╔╝╚██████╔╝███████╗    ██║ ╚═╝ ██║██║███████║███████║██║╚██████╔╝██║ ╚████║███████║
+--  ╚═════╝╚═╝  ╚═╝ ╚═════╝  ╚══╝╚══╝ ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝     ╚════╝  ╚═════╝ ╚══════╝    ╚═╝     ╚═╝╚═╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
+
+--Weapon challenge
+
+lang["#MISSION_CROWMAN_SINGLESHOTGUN"] = "Everyone Starts Somewhere"
+lang["#MISSION_CROWMAN_SINGLESHOTGUN_DESC"] = "You d'ere! Brat! Here to steal my corn?! No? Must'a waddled outta town while yer parents were distracted. Bet a cross-eyed brat like you couldn't hit a crow if it sat on yer nose! A brat like you needs to be learn'd in the principles! Bag yerself a crow usin' a good ol' Single-Shot Shotgun, AND NUTTIN' ELSE! I'LL KNOW! Nimrod's kin taught me how ta track a liar usin' smell!"
+lang["#MISSION_CROWMAN_SINGLESHOTGUN_HINT"] = "Acquire a Single Shotgun, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
+lang["#MISSION_CROWMAN_SINGLESHOTGUN_COMPLETE"] = "Guess'n yer not as stupid as ye look. But don't git full of yer'self! I killed my first crow at the age of two!"
+
+lang["#MISSION_CROWMAN_357"] = "Feathered Hammer"
+lang["#MISSION_CROWMAN_357_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill six crows, using .357 Revolver, AND NUTTIN' ELSE! I'LL KNOW!"
+lang["#MISSION_CROWMAN_357_HINT"] = "Acquire a .357 Revolver, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
+lang["#MISSION_CROWMAN_357_COMPLETE"] = "Finally done? Took ya long enough!"
+
+lang["#MISSION_CROWMAN_SERVICERIFLE"] = "Full Metal Jackdaw"
+lang["#MISSION_CROWMAN_SERVICERIFLE_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill twenty crows, using one of those NCR boys' rifles, AND NUTTIN' ELSE! I'LL KNOW!"
+lang["#MISSION_CROWMAN_SERVICERIFLE_HINT"] = "Acquire a Service Rifle, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
+lang["#MISSION_CROWMAN_SERVICERIFLE_COMPLETE"] = "Finally done? Took ya long enough!"
+
+lang["#MISSION_CROWMAN_SXS"] = "The Farmer's Daughter's Father"
+lang["#MISSION_CROWMAN_SXS_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill two crows, using a Side-By-Side Shotgun, AND NUTTIN' ELSE! I'LL KNOW!"
+lang["#MISSION_CROWMAN_SXS_HINT"] = "Acquire a SxS Shotgun, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
+lang["#MISSION_CROWMAN_SXS_COMPLETE"] = "Finally done? Took ya long enough!"
+
+lang["#MISSION_CROWMAN_SXS"] = "The Farmer's Daughter's Father"
+lang["#MISSION_CROWMAN_SXS_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill two crows, using a Side-By-Side Shotgun, AND NUTTIN' ELSE! I'LL KNOW!"
+lang["#MISSION_CROWMAN_SXS_HINT"] = "Acquire a SxS Shotgun, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
+lang["#MISSION_CROWMAN_SXS_COMPLETE"] = "Finally done? Took ya long enough!"
+
+--Quantity challenge
+
+
+lang["#MISSION_CROWMAN_X10"] = "Pest Control"
+lang["#MISSION_CROWMAN_X10_DESC"] = "You d'ere! Brat! You've seen'em, haven'tcha?! Glidin' around, flappin' d'er wings, summonin' curses in d'ere beaked tongue, and worst of all! STEALING MY CORN! The crows are back, and they hear what you did! They know you killed one of their kind, unprovoked and without encouragement from anyone else. Now they're stealing my corn in retaliation! You caused this, now yer gonna fix it!"
+lang["#MISSION_CROWMAN_X10_HINT"] = "Crows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
+lang["#MISSION_CROWMAN_X10_COMPLETE"] = "Did ya gett'em all? Took ya long enough. I could'a done it in half the time, if I weren't busy watchin' my corn!"
+
+lang["#MISSION_CROWMAN_X25"] = "Depredation"
+lang["#MISSION_CROWMAN_X25_DESC"] = "You d'ere! Brat! Betcha feeling mighty proud about the job you did with d'em crows earlier huh? WELL YA SHOULDN'T! They're back! I seens it with my very eyes, a crow fly down and pluck food outta Issac's very hands. Funniest thing I'd seen all week. But you still got a mess to clean up! Get out d'ere and get the rest of 'em!"
+lang["#MISSION_CROWMAN_X25_HINT"] = "Crows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
+lang["#MISSION_CROWMAN_X25_COMPLETE"] = "Finally finished? We'll see about that. Them crows are smart. But not smarter than me! I know d'er tricks!"
+
+lang["#MISSION_CROWMAN_X50"] = "Open CAWWnflict"
+lang["#MISSION_CROWMAN_X50_DESC"] = "You d'ere! Brat! I thought I told ya to handle that crow problem. You know, the one you caused in the first place?! Then why is it I awoke this mornin' only to find an entire flock of crows, sittin' on my barn, watchin' me with their beady little eyes? They're building an army, NO, AN AIR FORCE! You gotta thin them out a'fore its too late!"
+lang["#MISSION_CROWMAN_X50_HINT"] = "Crows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
+lang["#MISSION_CROWMAN_X50_COMPLETE"] = "Done? Good! Most folks wouldn't of needed three trys to git'er done, but then again most folks aren't you."
+
+lang["#MISSION_CROWMAN_X100"] = "Murder, on a macrow scale"
+lang["#MISSION_CROWMAN_X100_DESC"] = "I can't nearly believe it. Here I was certain last time you waddled out to my field, ya told me you solved the crow problem.\nThe one where they's gatherin' their forces in mass? The problem YOU CAUSED IN THE FIRST PLACE! Then why's it when that excuse for a barkeep Ike came to pick up his latest bushell of my corn, he starts relayin' to me somethin' he heard one'a his patrons said. 'Said the boy just shuffled in from the Fallon ruins, and wouldn't quit yappin' 'bout an entire fleet'a black birds assemblin' on the otherside of the hills to the West! Get at it, and do it right this time!"
+lang["#MISSION_CROWMAN_X100_HINT"] = "Crows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
+lang["#MISSION_CROWMAN_X100_COMPLETE"] = "Brat! Don't pour the moonshine just yet! Call it pattern recognition, but I's thinkin' here's the calm a'fore the storm..."
+
+lang["#MISSION_CROWMAN_X200"] = "Nevermore"
+lang["#MISSION_CROWMAN_X200_DESC"] = "You d'ere! Brat! Our worst fears have come to pass. Your complete failure to put down a petty little grudge with the crows has devolved into full on crow vs human warfare! I ordered Andrew to scout out the enemy's front lines 30 minutes ago and haven't heard back from him since, I fear he may already be dead. Gather as much ammo, stims, an' chems as yer arms can carry! If'in we both live through this, I just might forgive you for creating this problem in the first place."
+lang["#MISSION_CROWMAN_X200_HINT"] = "Crows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
+lang["#MISSION_CROWMAN_X200_COMPLETE"] = "Is... is it over? Did we win? We did it! In spite of all your failures, we drove them back!"
+
 
 --      ██╗ █████╗  ██████╗██╗  ██╗███████╗ ██████╗ ███╗   ██╗███████╗    ███╗   ███╗██╗███████╗███████╗██╗ ██████╗ ███╗   ██╗███████╗
 --      ██║██╔══██╗██╔════╝██║ ██╔╝██╔════╝██╔═══██╗████╗  ██║██╔════╝    ████╗ ████║██║██╔════╝██╔════╝██║██╔═══██╗████╗  ██║██╔════╝
@@ -304,24 +300,86 @@ lang["#MISSION_ISAAC_SPECIALKINDOFHIDE_COMPLETE"] = "Oh my god, you actually got
 --  ╚════╝ ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝    ╚═╝     ╚═╝╚═╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
 
 lang["#MISSION_JACKSON_THEMOUNTAINS"] = "The Mountains"
-lang["#MISSION_JACKSON_THEMOUNTAINS_DESC"] = "Amazing place, right? No doubt about it. Would be amazing if we didn't have to worry about Raiders, Mutants, and such. If you think that's what I need help with right now, you're mistaken. What I actually do need help with though, is maybe some trade money. I know we just met, and it may sound like an out of the blue thing to ask for, but I'll repay you in the future. You can even ask Redman if you should trust me, but I'd assume you don't want to walk all the way back to do so. It needs to be NCR Currency, I'll be waiting."
-lang["#MISSION_JACKSON_THEMOUNTAINS_HINT"] = "Obtain NCR Dollars. You can get it from completing missions or tasks, and also sell items to traders."
-lang["#MISSION_JACKSON_THEMOUNTAINS_COMPLETE"] = "Thanks. I promise you that you'll get more money back."
+lang["#MISSION_JACKSON_THEMOUNTAINS_DESC"] = "Weird place to have a town at, right? Anyways, I'm glad you're here, we need any extra help we can get. I should also explain myself. I'm assuming you found that message I left, otherwise how else would you know where I am, right? Couple weeks ago, I had two old friends come to my door asking for my help because their group had traveled here. Traveling here was not the problem, it was after they had set up the town here. There were a few jackasses who walked into town. Spent a few minutes looking around, and then they demanded payment for setting up on 'their' land, a few days after the group arrived. At first they were planning to refuse, because a couple of raiders wouldn't be that hard to deal with. It wasn't a couple. So, they took them up on their offer. Problem is, they didn't have enough money, which is why my friends came to me in the first place, and here we are now. Most of the group is broke, and we can't do trading. I need you to get us enough money, atleast to start trading. I'll pay you back."
+lang["#MISSION_JACKSON_THEMOUNTAINS_HINT"] = "Obtain NCR Dollars. You can get it from completing missions or tasks, and also selling items to traders."
+lang["#MISSION_JACKSON_THEMOUNTAINS_COMPLETE"] = "Thank you. A promise is a promise."
 
 lang["#MISSION_JACKSON_ABANDONFACTORY"] = "Abandon Factory"
-lang["#MISSION_JACKSON_ABANDONFACTORY_DESC"] = "Hello again. Hope everything so far is going well for you. If you're up to do something, I have something to keep you occupied. A few hours ago we had a group go scouting out some of the points of interest around this area. They found a nice looking town not too far from here. A few houses, apartments, and a giant factory. Do I know if they possess anything? No, but that's gonna be your job. I want you to go down and explore the town a bit, maybe inside that factory, see if we can find anything of use."
-lang["#MISSION_JACKSON_ABANDONFACTORY_HINT"] = "Explore the factory in the town. The town can be found past the valley, on the right side."
-lang["#MISSION_JACKSON_ABANDONFACTORY_COMPLETE"] = "A fully functional factory? That's amazing! Probably needs some basic materials to get fired up though."
+lang["#MISSION_JACKSON_ABANDONFACTORY_DESC"] = "We have finally gotten trading to start working here. I'll still keep my promise. Since then, we've decided to start doing some exploration around the area, not too far into towns or territories though. I actually need your help with this. We've discovered that there is an old town, 'Waxton', past the valley and to the right. Looks like an old industrialized location, but we don't want to send anyone in there, to prevent any injuries if they were to be ambushed or attacked. If you're willing though, see if you could find anything of use in the town. Try checking the factory, might still be some stuff in there."
+lang["#MISSION_JACKSON_ABANDONFACTORY_HINT"] = "Explore the factory in the town. The town can be found past the valley, to your right."
+lang["#MISSION_JACKSON_ABANDONFACTORY_COMPLETE"] = "You found a fully functional factory? That's amazing! Probably needs some fuels to get fired up though."
 
 lang["#MISSION_JACKSON_LOSTBAG"] = "Lost Bag"
-lang["#MISSION_JACKSON_LOSTBAG_DESC"] = "Maybe you could get that factory to start running again, likely use it to produce ammunition, or something of the sort. Probably needs a lot of materials though. Anyways, I have another task for you to do. There is a cabin not too far from here. It's actually just down in the valley. You can see it from the bridge, it's not too far from here. There is a bag of supplies that we'd accidentily left in there. If you could grab it for us, I'll consider giving you some of the supplies."
-lang["#MISSION_JACKSON_LOSTBAG_HINT"] = "Find the Bag Of Supplies. Jackson said that his group accidentily left it at the cabin in the valley, more specifically the one under the giant bridge."
+lang["#MISSION_JACKSON_LOSTBAG_DESC"] = "It's possible that you could get that entire factory running for yourself. It sounds like it produces brass ingots. Maybe you could manufacture bullets? Anyways, a discussion for another day. Recently, we had a two man scout group sent out to search an old fishing cabin. Turns out there was multiple ghouls still living inside there, and they were attacked. Thankfully, they're unharmed, but they accidentily dropped and left a large bag which had a lot of useful supplies in it. If you could retrieve it, I'll consider giving you a small portion of those supplies."
+lang["#MISSION_JACKSON_LOSTBAG_HINT"] = "Find the Bag of Supplies. Jackson said that a scouting group accidentily left it at the fishing cabin in the valley, the one under the giant bridge."
 lang["#MISSION_JACKSON_LOSTBAG_COMPLETE"] = "Thank you for retrieving these. Here's some of the stuff."
+lang["#MISSION_JACKSON_LOSTBAG_ITEMNAME"] = "Bag of Supplies"
 
-lang["#MISSION_JACKSON_PAYBACKTIME"] = "Payback Time"
-lang["#MISSION_JACKSON_PAYBACKTIME_DESC"] = "You remember when we first met? You likely still do, but I asked you for a couple hundred NCR dollars just so I could help get my group ready for exploration and other things. Well, I think it's time I owed you back, double the amount infact. Before I give this to you though, I need you to do something for me. I need a couple of empty bottles and antibiotics."
-lang["#MISSION_JACKSON_PAYBACKTIME_HINT"] = "Obtain Empty Bottles and Antibiotics. You can get empty bottles from scavenging, traders, and sometimes using items that would contain it. Antibiotics can be scavenged, bought from Doctors, and crafted with the right skills."
-lang["#MISSION_JACKSON_PAYBACKTIME_COMPLETE"] = "Kept my promise, didn't I? Here you go."
+-- T2
+
+lang["#MISSION_JACKSON_SAFETYENSURED"] = "Safety Ensured"
+lang["#MISSION_JACKSON_SAFETYENSURED_DESC"] = "We've had a casualty in the last few hours. Had a two-man scouting group decide to go into the valley, and they got attacked by some Mirelurks. The other guy is injured, currently being treated. Unfortunately, this means that we will not be able to travel on ground level, until they're wiped from their home. I would like you to kill some of these annoying crabs, so we can safely travel through the valley. I'll scrap together a payment for you."
+lang["#MISSION_JACKSON_SAFETYENSURED_HINT"] = "Eliminate any type of Mirelurks on Yolla Bolly. They can be found throughout the valley, and near the dried-up river beds."
+lang["#MISSION_JACKSON_SAFETYENSURED_COMPLETE"] = "Thanks for getting rid of them."
+
+lang["#MISSION_JACKSON_RETRIBUTION"] = "Retribution"
+lang["#MISSION_JACKSON_RETRIBUTION_DESC"] = "We've been noticing a huge increase on the amount of ghouls in and around Waxton, had a group get attacked by a few. Injured, but they'll live. I need you to go and eliminate a majority of them. If you do, I'll find some way to pay you."
+lang["#MISSION_JACKSON_RETRIBUTION_HINT"] = "Eliminate any type of Feral Ghouls on Yolla Bolly. Ghouls can be found throughout the factory town and in several other locations."
+lang["#MISSION_JACKSON_RETRIBUTION_COMPLETE"] = "We'll be safe from them, for now."
+
+-- T3
+
+lang["#MISSION_JACKSON_THEBUNKER_MATERIEL"] = "The Bunker: Materiel"
+lang["#MISSION_JACKSON_THEBUNKER_MATERIEL_DESC"] = "Just recently we discovered an old military bunker, which seems to be absolutely untouched by any scavengers. The reason why it's completely untouched, well it's flooded by old military-grade protectrons, built with some of the best security, and it doesn't look like they're allowing anyone in. There could be some extremely good materials in there, which could help us rapidly progress out of our current situation. I want you to go in and clear it, but first I want to make you something that will help you get rid of them. Here, take this list and get me some of these materials."
+lang["#MISSION_JACKSON_THEBUNKER_MATERIEL_HINT"] = "Obtain Tin Cans, Duct Tape, and a Pistol Powder Jug. Tin Cans and Duct Tape can be found from scavenging, and generally sold by traders. Pistol Powder can be found from traders, and can also be mined at the Ashlands miners."
+lang["#MISSION_JACKSON_THEBUNKER_MATERIEL_COMPLETE"] = "Light it, throw it, and don't look back."
+
+lang["#MISSION_JACKSON_THEBUNKER_DISPOSAL"] = "The Bunker: Disposal"
+lang["#MISSION_JACKSON_THEBUNKER_DISPOSAL_DESC"] = "You better check yourself and make sure you're prepared before you head in. For now, I just need you to clear out the protectrons. Anything else you find in there is yours to keep. And don't get yourself killed."
+lang["#MISSION_JACKSON_THEBUNKER_DISPOSAL_HINT"] = "Eliminate any type of Protectron in the Military Bunker on Yolla Bolly. The Military Bunker can be found past the valley, to your left, uphill. Protectrons are generally dangerous, so it is recommended to wear armor with energy protection."
+lang["#MISSION_JACKSON_THEBUNKER_DISPOSAL_COMPLETE"] = "Holy shit, you managed to take care of them? That's great!"
+
+lang["#MISSION_JACKSON_THEBUNKER_SUMMARIZING"] = "The Bunker: Summarizing"
+lang["#MISSION_JACKSON_THEBUNKER_SUMMARIZING_DESC"] = "Well, we scavenged the entire place. A bunch of military materials, weapons, explosives, and a god-damn nuclear missile in one of the silos. We already checked a controls for it, and it's entirely disabled. No one could activate it, and we think it should be kept that way. Neither should people know about it, because it's still fixable. Anyways, we can easily pull ourselves out of poverty now, all thanks to you. But, there's still a lot of work that needs to get done around here. Speaking of which, one of our engineers said that the missile should contain a military-grade circuit board, which he really wants for 'experimentation' purposes, and possibly make some use out of it for us. Issue is, we can't get it because it's too irradiated down there. We'd melt in seconds, and we don't have any Radsuits. I'm asking if you can go down, and retrieve it. How you're gonna get down there without dying to radiation? That's for you to figure out."
+lang["#MISSION_JACKSON_THEBUNKER_SUMMARIZING_HINT"] = "Find the military-grade circuit board. Jackson said it could be found on the missile inside of the silo, which is filled with radiation. You may need to find some way to obatin the board without taking too much rad damage."
+lang["#MISSION_JACKSON_THEBUNKER_SUMMARIZING_COMPLETE"] = "Sweet. I still wonder through, what did that circuit board do for the missle?"
+lang["#MISSION_JACKSON_THEBUNKER_SUMMARIZING_ITEMNAME"] = "Circuit Board"
+
+-- T4
+
+lang["#MISSION_JACKSON_APROMISEISAPROMISE"] = "A Promise Is A Promise"
+lang["#MISSION_JACKSON_APROMISEISAPROMISE_DESC"] = "Well, I guess it's time for me to hold up my end of the deal. We are doing a whole lot better recently because of you, and now, I can pay you back for the money you gave us to start trading. I've talk to my group, they're all fine with this. Double the amount of what you gave to us in the first place. But, I actually need you to do something first before I give this to you. One of our guys in a scouting group got injured after being ambushed by a large group of Mirelurks. We've been lacking medical supplies, so I want you to grab a stimpak, and some antibiotics."
+lang["#MISSION_JACKSON_APROMISEISAPROMISE_HINT"] = "Obtain a Stimpak and Antibiotics. Stimpaks can be found from scavenging, crafted, or sold by traders. Antibiotics can be found from scavenging, and is commonly sold by doctors."
+lang["#MISSION_JACKSON_APROMISEISAPROMISE_COMPLETE"] = "Thanks. He should be getting better soon. Here's your prize."
+
+lang["#MISSION_JACKSON_STRANGEBUILDING"] = "Strange Building"
+lang["#MISSION_JACKSON_STRANGEBUILDING_DESC"] = "We've been covering this entire valley more and more each day. Getting closer to figuring out the entire place. Got another job for you. A few hours ago we had a group find a weird, strange building. Looks like a really old temple. Well, they were not close enough to see anyways, but the place had numerous amount of Deathclaws surrounding it and Scorpions. I know this may be a difficult ask, but I want you to find out what's inside that building."
+lang["#MISSION_JACKSON_STRANGEBUILDING_HINT"] = "Explore The Temple. The Temple can be found past the Waxta Town, on the other cliffside of the dried up river, and past the old raider camp and to your right."
+lang["#MISSION_JACKSON_STRANGEBUILDING_COMPLETE"] = "Hmm. Seriously a weird place to build something like that."
+
+-- T5
+
+lang["#MISSION_JACKSON_MINES_INPRODUCTION"] = "Mines: In Production"
+lang["#MISSION_JACKSON_MINES_INPRODUCTION_DESC"] = "Hey, we just got word that there was a huge mining camp on the other side of the valley, relatively close to the mansion. I know this is a quick ask as of right now, but I'm busy with some other stuff, and I need you to go check it out. I'll get you some payment when you're back."
+lang["#MISSION_JACKSON_MINES_INPRODUCTION_HINT"] = "Explore The Caves, The Mining Town, and The Elevated Buildings. The mines can be found near the mansion on the opposing side of Waxton, in a deep tunnel."
+lang["#MISSION_JACKSON_MINES_INPRODUCTION_COMPLETE"] = "Wait, the mines still function there?"
+
+lang["#MISSION_JACKSON_MINES_ANTHELL"] = "Mines: Ant Hell"
+lang["#MISSION_JACKSON_MINES_ANTHELL_DESC"] = "Not too long ago we had a group of people try to get the mines running again, and it seems like they still work. It's amazing for a creation so old to still function as of right now. The problem is, when the mines got turned on, so did all the ants in the area. They said that they've never seen so many before, and just bucked it and ran. Those mines can be extremely useful, we know that they dig up Lead and Copper, but it pisses off all the ants within the area. I need you to clear out as many as you can, and I'll make it worth the effort."
+lang["#MISSION_JACKSON_MINES_ANTHELL_HINT"] = "Eliminate Ants in the Mines. The mines can be found near the mansion on the opposing side of Waxton, in a deep tunnel. Ants are dangerous, so it is recommended to bring a decent-powered gun."
+lang["#MISSION_JACKSON_MINES_ANTHELL_COMPLETE"] = "Hell yeah, thanks. Those ants are hell."
+
+-- T6
+
+lang["#MISSION_JACKSON_MINES_RETURNINGPROBLEMI"] = "Returning Problem, I"
+lang["#MISSION_JACKSON_MINES_RETURNINGPROBLEMI_DESC"] = "Good thing that you're here. Remember our old situation with the other group of assholes? They came back into town about an hour ago, and they came straight to me. They demanded even more payment than last time for the land up here, and they amount they wanted was beyond what we have or could get within a day. I've had enough with them, but we don't have the power or enough people to take them on. Plus, we don't have any idea where their camp may be. I know this is going to be a huge ask, but see if you can find their camp, and if you do, inform me on it."
+lang["#MISSION_JACKSON_MINES_RETURNINGPROBLEMI_HINT"] = "Find the Raider's Camp. There is no knowledge on where it may be."
+lang["#MISSION_JACKSON_MINES_RETURNINGPROBLEMI_COMPLETE"] = "Nice job. Take these."
+
+lang["#MISSION_JACKSON_MINES_RETURNINGPROBLEMII"] = "Returning Problem, II"
+lang["#MISSION_JACKSON_MINES_RETURNINGPROBLEMII_DESC"] = "I know this is a lot to ask, and I suggest that you bring a friend or two along. I want you to go and eliminate their entire group. I usually hate resorting to violence, but to cause trouble for others, they should expect some for themselves. I will pay you greatly."
+lang["#MISSION_JACKSON_MINES_RETURNINGPROBLEMII_HINT"] = "Eliminate any type of Raiders on Yolla Bolly. Raiders are usually armed with pistols and rifles, and have decent protection. It is recommended to use a ranged weapon against them, and some armor too."
+lang["#MISSION_JACKSON_MINES_RETURNINGPROBLEMII_COMPLETE"] = "No longer a problem. I owe you."
 
 -- ███████╗██╗   ██╗███████╗ █████╗ ███╗   ██╗███████╗    ███╗   ███╗██╗███████╗███████╗██╗ ██████╗ ███╗   ██╗███████╗
 -- ██╔════╝██║   ██║██╔════╝██╔══██╗████╗  ██║██╔════╝    ████╗ ████║██║██╔════╝██╔════╝██║██╔═══██╗████╗  ██║██╔════╝
@@ -330,10 +388,43 @@ lang["#MISSION_JACKSON_PAYBACKTIME_COMPLETE"] = "Kept my promise, didn't I? Here
 -- ███████║╚██████╔╝███████║██║  ██║██║ ╚████║███████║    ██║ ╚═╝ ██║██║███████║███████║██║╚██████╔╝██║ ╚████║███████║
 -- ╚══════╝ ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝    ╚═╝     ╚═╝╚═╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
 
-lang["#MISSION_SUSAN_ph"] = "placeholder"
-lang["#MISSION_SUSAN_ph_DESC"] = "nil"
-lang["#MISSION_SUSAN_ph_HINT"] = "nil"
-lang["#MISSION_SUSAN_ph_COMPLETE"] = "nil"
+lang["#MISSION_SUSAN_CALLFORBACKUP"] = "Call For Backup"
+lang["#MISSION_SUSAN_CALLFORBACKUP_DESC"] = "It's good that you've finally arrived. We need as many helping hands as we can get. Anyways, the issue. We have had several ghouls and other dangers leaking into our passage route, and it's a huge problem. If we can't move supplies and traders through here, we will lose access to the Ashlands and other areas up north. For your first job, I need you to go and wipe out the ghouls throughout the roads. Would be pretty hard to miss them."
+lang["#MISSION_SUSAN_CALLFORBACKUP_HINT"] = "Eliminate any type of Ghouls on Mountain Pass. Ghouls can be easily found on the road throughout the passage."
+lang["#MISSION_SUSAN_CALLFORBACKUP_COMPLETE"] = "That will keep them away from camp for now. Thanks."
+
+lang["#MISSION_SUSAN_ICEPRICKS"] = "Ice Pricks"
+lang["#MISSION_SUSAN_ICEPRICKS_DESC"] = "Hey, got another problem for you. Not sure if you've seen them already, but there are these sick fucks at the bridge. Called Ice Picks, another bandit group. Supposedly, there's more, but for now I need you to go and kill these degenerates."
+lang["#MISSION_SUSAN_ICEPRICKS_HINT"] = "Eliminate any Ice Pick Bandits in Mountain Pass. There is a group of them held out at the bridge near the lake. You can follow the main road to reach there."
+lang["#MISSION_SUSAN_ICEPRICKS_COMPLETE"] = "Thank you, that's relieving. For now."
+
+lang["#MISSION_SUSAN_CANNIBALISTS"] = "Cannibalists"
+lang["#MISSION_SUSAN_CANNIBALISTS_DESC"] = "I guess I should probably explain this new bandit group. Apologies for not explaining earlier, but these guys, they're cannibals. They killed some traders that were coming through here not too long ago, chopped them up and devoured them. There's still more out there, they'll get what's coming. Ugh, sorry, don't want to talk about it. Anyways, there's another issue we have. Our meds supply is running low, but we've got a solution, just a matter of whose going to get it. There's an old cabin, or something of the sort, off road not too far from here. Used to be an old medical hideout as well. There may still be some supplies left there. I need you to go fetch them."
+lang["#MISSION_SUSAN_CANNIBALISTS_HINT"] = "Find any medical supplies in the abandoned cabin outpost. The cabin can be found on the hill outside the NCR camp, although getting on the hill may be difficult."
+lang["#MISSION_SUSAN_CANNIBALISTS_COMPLETE"] = "Thanks. I'll hand this off to the doctor."
+lang["#MISSION_SUSAN_CANNIBALISTS_CUSTOMUI"] = "Find any Medical Supplies."
+lang["#MISSION_SUSAN_CANNIBALISTS_ITEMNAME"] = "Box of Medical Supplies"
+
+lang["#MISSION_SUSAN_SNIPERALLEY"] = "Sniper Alley"
+lang["#MISSION_SUSAN_SNIPERALLEY_DESC"] = "Those Ice Pick bandits are definitely triggered now. Recently we found out that they have guys sitting on some of the hills, sniping all those who are passing by. The request is obvious, I need you to go and take them out. Make sure they don't have the jump on you."
+lang["#MISSION_SUSAN_SNIPERALLEY_HINT"] = "Eliminate Ice Pick Head-Hunters. They can be found camping on the hills, watching the roads for people."
+lang["#MISSION_SUSAN_SNIPERALLEY_COMPLETE"] = "Well, don't have to worry about the snipers anymore."
+
+lang["#MISSION_SUSAN_BEARTRAP"] = "Bear Trap"
+lang["#MISSION_SUSAN_BEARTRAP_DESC"] = "We have several people out hunting currently, trying to cut down some of the Yao Guai population. I wanted to know if you were interested, I'll toss in a reward for you as well."
+lang["#MISSION_SUSAN_BEARTRAP_HINT"] = "Eliminate Yao Guais. They can be found on the hills and in the forests."
+lang["#MISSION_SUSAN_BEARTRAP_COMPLETE"] = "Hopefully your hunt went well."
+
+lang["#MISSION_SUSAN_HOLDOUT"] = "Hold Out"
+lang["#MISSION_SUSAN_HOLDOUT_DESC"] = "Alright, you might want to prepare if you're planning on doing this for me. I need you to wipe out as many of the Ice Picks as you can. They have three, or four camps set up around this region, you could start by checking them. While you're doing that, I also need you to clear the roads of Ghouls, again. We need to get them both out of here."
+lang["#MISSION_SUSAN_HOLDOUT_HINT"] = "Eliminate any Ice Pick Bandits and Ghouls in Mountain Pass. You can find Ghouls throughout the Road of the passage. Ice Pick Bandits can be found spread out in camps along the road and forests."
+lang["#MISSION_SUSAN_HOLDOUT_COMPLETE"] = "Nice job, these degenerates won't be coming back anytime soon."
+
+lang["#MISSION_SUSAN_SIEGE"] = "Siege"
+lang["#MISSION_SUSAN_SIEGE_DESC"] = "One of our squads that was transporting some really sensitive info got jumped by a group of those lowlifes. You could probably assume what happened to them. Anyways, this info was supposed to be sent to Major Redman, but these Ice Pick bastards took it. They live in a camp very far from here, uphill too. I need you to get it and return it to me. They know such a thing is worthless to them and want us to react, so be careful. I don't want to send you to your death on accident."
+lang["#MISSION_SUSAN_SIEGE_HINT"] = "Retrieve the Suitcase with Info. The Ice Picks that stole it can be found in a camp at the corner of the Region, on the hill."
+lang["#MISSION_SUSAN_SIEGE_COMPLETE"] = "Thank god. And you got the case too. Here, for your troubles."
+lang["#MISSION_SUSAN_SIEGE_ITEMNAME"] = "Suitcase with Info"
 
 -- ██╗  ██╗ █████╗ ███╗   ██╗████████╗██╗  ██╗ █████╗ ███╗   ██╗███████╗    ███╗   ███╗██╗███████╗███████╗██╗ ██████╗ ███╗   ██╗███████╗
 -- ╚██╗██╔╝██╔══██╗████╗  ██║╚══██╔══╝██║  ██║██╔══██╗████╗  ██║██╔════╝    ████╗ ████║██║██╔════╝██╔════╝██║██╔═══██╗████╗  ██║██╔════╝
@@ -342,85 +433,112 @@ lang["#MISSION_SUSAN_ph_COMPLETE"] = "nil"
 -- ██╔╝ ██╗██║  ██║██║ ╚████║   ██║   ██║  ██║██║  ██║██║ ╚████║███████║    ██║ ╚═╝ ██║██║███████║███████║██║╚██████╔╝██║ ╚████║███████║
 -- ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝    ╚═╝     ╚═╝╚═╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
 
+--Utility
 lang["#MISSION_CHALLENGER_LOOTINGTHEASH"] = "Looting the Ash"
 lang["#MISSION_CHALLENGER_LOOTINGTHEASH_DESC"] = "You ready for a challenge? This one is pretty simple. I want you to loot as much as you can, collect every item around here. When you feel like you've done that, return to me."
-lang["#MISSION_CHALLENGER_LOOTINGTHEASH_HINT"] = "Loot items in Ashlands. You can search inside of buildings and alternative locations for lootable containers. Try checking the abandoned city, the gas station or bunker."
-lang["#MISSION_CHALLENGER_LOOTINGTHEASH_COMPLETE"] = "Yeah, that's a lot of stuff."
+lang["#MISSION_CHALLENGER_LOOTINGTHEASH_HINT"] = "Loot containers in Ashlands. You can search inside towns, buildings, and other various locations for containers."
+lang["#MISSION_CHALLENGER_LOOTINGTHEASH_COMPLETE"] = "Loot one too many?"
 
-lang["#MISSION_CHALLENGER_NEEDMOREMEDICINE"] = "Need More Medicine"
-lang["#MISSION_CHALLENGER_NEEDMOREMEDICINE_DESC"] = "You know where to gather plants, right? Anyways, for this challenge, I want you to go around this area and start harvesting as many plants as you see. What you do with them, I don't care, but as long as you pick them you're good."
-lang["#MISSION_CHALLENGER_NEEDMOREMEDICINE_HINT"] = "Harvest several plants. Plants usually grow throughout open spaces in the wasteland. Check near rocks, and other structures. They can also be found near vegetational areas."
-lang["#MISSION_CHALLENGER_NEEDMOREMEDICINE_COMPLETE"] = "You sure know how to gather stuff."
-
-lang["#MISSION_CHALLENGER_GHOULHUNTER"] = "Ghoul Hunter"
-lang["#MISSION_CHALLENGER_GHOULHUNTER_DESC"] = "There are a lot of ghouls around here, usually hiding in the most obscure places. For this challenge, I need you to send them to their grave."
-lang["#MISSION_CHALLENGER_GHOULHUNTER_HINT"] = "Eliminate any type of Feral Ghouls in Ashlands. Feral ghouls are commonly found in the city, the gas station, and the bunker. They are weak to melee weapons and firearms. Be careful around reaver and bloated ghouls, as they are more dangerous."
-lang["#MISSION_CHALLENGER_GHOULHUNTER_COMPLETE"] = "No more feral ghouls roaming here. Thanks."
-
-lang["#MISSION_CHALLENGER_CREEPYCRAWLERS"] = "Creepy Crawlers"
-lang["#MISSION_CHALLENGER_CREEPYCRAWLERS_DESC"] = "There are several ants around here, you probably already knew. They mainly take hold in a cave not too far from here. Anyways, your challenge for this is to go and 'take care' of these ants."
-lang["#MISSION_CHALLENGER_CREEPYCRAWLERS_HINT"] = "Eliminate any type of Giant Ants. Ants usually spawn in forests and caves. It is recommend to take them on with firearms."
-lang["#MISSION_CHALLENGER_CREEPYCRAWLERS_COMPLETE"] = "Yeah, ants are disgusting."
-
-lang["#MISSION_CHALLENGER_SHREDDEDSCALES"] = "Shredded Scales"
-lang["#MISSION_CHALLENGER_SHREDDEDSCALES_DESC"] = "Geckos are the usual pests in these wastelands, besides ghouls. Their skins are actually useful, maybe for your own purposes, but I know people around here usually want them. Anyways, whatever you do with their meat or skin isn't any of my business, but for this challenge I need you to get a lot of them off the roads."
-lang["#MISSION_CHALLENGER_SHREDDEDSCALES_HINT"] = "Eliminate any type of Geckos in Ashlands. They commonly spawn in the forest swamp with the trailer, and on roads near the radio station."
-lang["#MISSION_CHALLENGER_SHREDDEDSCALES_COMPLETE"] = "They'll be gone for a while."
-
-lang["#MISSION_CHALLENGER_SCORPIONSBUTMUTATED"] = "Scorpions, But Mutated"
-lang["#MISSION_CHALLENGER_SCORPIONSBUTMUTATED_DESC"] = "Radscorpions are generally hard to get near, as well as getting away from them. For this challenge, I want you to massacre them"
-lang["#MISSION_CHALLENGER_SCORPIONSBUTMUTATED_HINT"] = "Eliminate any type of Radscorpions in Ashlands. They usually spawn behind the city, in their own cave, otherwise near the gas station. It is recommended to use firearms against them, and stay away from their sting."
-lang["#MISSION_CHALLENGER_SCORPIONSBUTMUTATED_COMPLETE"] = "Fewer scorpions in the wasteland."
-
--- T2
+lang["#MISSION_CHALLENGER_CULTIVATION"] = "Cultivation"
+lang["#MISSION_CHALLENGER_CULTIVATION_DESC"] = "You know where to gather plants, right? Anyways, for this challenge, I want you to go around this area and start harvesting as many plants as you see. What you do with them, I don't care, but as long as you pick them you're good."
+lang["#MISSION_CHALLENGER_CULTIVATION_HINT"] = "Harvest any type of plants. Plants usually grow throughout open spaces in the wasteland. Check near rocks, and other structures. They can also be found near vegetational areas."
+lang["#MISSION_CHALLENGER_CULTIVATION_COMPLETE"] = "Where the hell do you find all of the good plants?"
 
 lang["#MISSION_CHALLENGER_BROKENSTEEL"] = "Broken Steel"
 lang["#MISSION_CHALLENGER_BROKENSTEEL_DESC"] = "I'm pretty sure you know about the vehicles around here. They're all broken, but salvagable. This challenge may take some time, but I want you to do it."
-lang["#MISSION_CHALLENGER_BROKENSTEEL_HINT"] = "Salvage vehicles. You can break down vehicles by attacking them with your hands or a melee weapon. Pipewrenches are generally good for salvaging. Salvagable vehicles can be found on or near roads."
-lang["#MISSION_CHALLENGER_BROKENSTEEL_COMPLETE"] = "Hopefully those scrap metals will be put to a good use."
+lang["#MISSION_CHALLENGER_BROKENSTEEL_HINT"] = "Fully salvage vehicles. You can break down vehicles by attacking them with your hands or with a blunt melee weapon. Pipewrenches and Crowbars are generally good for salvaging. Salvagable vehicles can be found on or near roads."
+lang["#MISSION_CHALLENGER_BROKENSTEEL_COMPLETE"] = "Do whatever with the scrap, it's yours, not mine."
 
 lang["#MISSION_CHALLENGER_RECYCLER"] = "Recycler"
 lang["#MISSION_CHALLENGER_RECYCLER_DESC"] = "For this challenge, pretty simple. I need you to breakdown junk that you have scavenged at a workbench. It doesn't matter what it is, but if you're breaking it down, then good."
 lang["#MISSION_CHALLENGER_RECYCLER_HINT"] = "Breakdown items. You can break down items at workbenches. Workbenches are generally found in towns, and can sometimes be found in obscure areas. Only certain items can be broken down, like tin cans and clipboards."
-lang["#MISSION_CHALLENGER_RECYCLER_COMPLETE"] = "Most stuff that you can break down are usually useless."
+lang["#MISSION_CHALLENGER_RECYCLER_COMPLETE"] = "You better hope you didn't break down something you needed."
 lang["#MISSION_CHALLENGER_RECYCLER_INFO"] = "Breakdown $amount items."
+
+lang["#MISSION_CHALLENGER_WASTELANDFARMER"] = "Wasteland Farmer"
+lang["#MISSION_CHALLENGER_WASTELANDFARMER_DESC"] = "Hey, so uh, might want to stock up and put some gloves on. You've got a lot of work to do. It'll be worth it, I promise!"
+lang["#MISSION_CHALLENGER_WASTELANDFARMER_HINT"] = "Fully salvage vehicles. You can break down vehicles by attacking them with your hands or with a blunt melee weapon. Pipewrenches and Crowbars are generally good for salvaging. Salvagable vehicles can be found on or near roads."
+lang["#MISSION_CHALLENGER_WASTELANDFARMER_COMPLETE"] = "God Damn, you're fast. Was it worth it?"
+
+--Combat
+lang["#MISSION_CHALLENGER_GHOULHUNTER"] = "Ghoul Hunter"
+lang["#MISSION_CHALLENGER_GHOULHUNTER_DESC"] = "There are a lot of ghouls around here, usually hiding in the most obscure places. For this challenge, I need you to send them to their grave."
+lang["#MISSION_CHALLENGER_GHOULHUNTER_HINT"] = "Eliminate any type of Feral Ghouls. Feral ghouls can be commonly found in abandon locations."
+lang["#MISSION_CHALLENGER_GHOULHUNTER_COMPLETE"] = "No more feral ghouls roaming, not on our watch."
+
+lang["#MISSION_CHALLENGER_CREEPYCRAWLERS"] = "Creepy Crawlers"
+lang["#MISSION_CHALLENGER_CREEPYCRAWLERS_DESC"] = "Ugh, I hate Ants. Always make me feel uncomfortable. Here's your challenge, squish any of these giant insects that you find."
+lang["#MISSION_CHALLENGER_CREEPYCRAWLERS_HINT"] = "Eliminate any type of Giant Ants. Ants usually spawn in forests and caves. It is recommend to take them on with firearms."
+lang["#MISSION_CHALLENGER_CREEPYCRAWLERS_COMPLETE"] = "Bleh, Ants suck."
+
+lang["#MISSION_CHALLENGER_SHREDDEDSCALES"] = "Shredded Scales"
+lang["#MISSION_CHALLENGER_SHREDDEDSCALES_DESC"] = "You like hunting? Geckos are usually a fine animal to hunt in the wastes. Unfortunately, or fortunately, we will be doing a little trimming on their population."
+lang["#MISSION_CHALLENGER_SHREDDEDSCALES_HINT"] = "Eliminate any type of Geckos. They can be found in Salt Wells, or sometimes on the roads of Ashlands."
+lang["#MISSION_CHALLENGER_SHREDDEDSCALES_COMPLETE"] = "I mean, hey, their skins are good for profit."
+
+lang["#MISSION_CHALLENGER_RAIDTHIS"] = "Raid This!"
+lang["#MISSION_CHALLENGER_RAIDTHIS_DESC"] = "For this challenge, I want you to go around and wipe out any Raider or Bandit in sight. We need less of these assholes attacking Wastelanders regardless."
+lang["#MISSION_CHALLENGER_RAIDTHIS_HINT"] = "Eliminate any type of Bandit. They can be commonly found throughout Salt Wells and Yolla Bolly."
+lang["#MISSION_CHALLENGER_RAIDTHIS_COMPLETE"] = "Yeah, raid this! Eh, that sounded kinda weird."
+
+lang["#MISSION_CHALLENGER_SCORPIONSBUTMUTATED"] = "Scorpions, But Mutated"
+lang["#MISSION_CHALLENGER_SCORPIONSBUTMUTATED_DESC"] = "Ever been stung by a Scorpion? No, I mean Radscorpions. Usually carry poison, and you're likely to die within a couple hours to a few days from it. Luckly for us, we have stimpaks, and you better make sure you have a few because hunting them is your next challenge."
+lang["#MISSION_CHALLENGER_SCORPIONSBUTMUTATED_HINT"] = "Eliminate any type of Radscorpions. They usually spawn behind the city, in their own cave, otherwise near the gas station. It is recommended to use firearms against them, and stay away from their sting."
+lang["#MISSION_CHALLENGER_SCORPIONSBUTMUTATED_COMPLETE"] = "A fewer is always better."
 
 lang["#MISSION_CHALLENGER_LOWTIDE"] = "Low Tide"
 lang["#MISSION_CHALLENGER_LOWTIDE_DESC"] = "You've likely already seen Mirelurks before, or haven't, because they like to bury themselves a lot. You should get the usual idea, I need you to eliminate them for this challenge. Make sure to go with protection or friends, or they'll chop you in half."
 lang["#MISSION_CHALLENGER_LOWTIDE_HINT"] = "Eliminate any type of Mirelurk. They can be found near lakes, ponds, or rivers. Protection, or armor is recommended."
-lang["#MISSION_CHALLENGER_LOWTIDE_COMPLETE"] = "Good to see you and all your limbs."
+lang["#MISSION_CHALLENGER_LOWTIDE_COMPLETE"] = "Good to see you, and all of your limbs!"
 
+lang["#MISSION_CHALLENGER_DEMOLISHED"] = "Demolished"
+lang["#MISSION_CHALLENGER_DEMOLISHED_DESC"] = "Up for a tougher challenge? How do you feel about Super Mutants? We got loads of them here."
+lang["#MISSION_CHALLENGER_DEMOLISHED_HINT"] = "Eliminate Super Mutants in Ashlands. They can be found in camps around the Ashlands. Super Mutants are generally armed and very dangerous, it is recommended to fight them with allies."
+lang["#MISSION_CHALLENGER_DEMOLISHED_COMPLETE"] = "Great shooting. These oversized assholes are everywhere."
+
+lang["#MISSION_CHALLENGER_GRIMREAVER"] = "Grim Reaver"
+lang["#MISSION_CHALLENGER_GRIMREAVER_DESC"] = "This challenge will not be easy. And I recommend using a strong weapon, because you're gonna be clearing reavers. These ghouls are not to be messed with, they are very dangerous. Don't worry, I have faith in you. I also have a special reward to encourage you."
+lang["#MISSION_CHALLENGER_GRIMREAVER_HINT"] = "Eliminate Feral Ghoul Reavers. It is recommended to use a powerful gun."
+lang["#MISSION_CHALLENGER_GRIMREAVER_COMPLETE"] = "Most people would have dropped out by then. Nice job."
+
+lang["#MISSION_CHALLENGER_ABOMINATION"] = "Abomination"
+lang["#MISSION_CHALLENGER_ABOMINATION_DESC"] = "Deathclaws, ever heard of them? Walking Abominations, and all they do is blocks paths and attack intruders. Anyways, consider this to be your 'final' test. You know what I'm gonna ask of you."
+lang["#MISSION_CHALLENGER_ABOMINATION_HINT"] = "Eliminate any type of Deathclaws. It is recommended to use high-powered automatic rifles, and to have teammates. They can be found near the edge of the city."
+lang["#MISSION_CHALLENGER_ABOMINATION_COMPLETE"] = "I'm actually surprised that you are alive."
+
+lang["#MISSION_CHALLENGER_STRESSORI"] = "Stressor, I"
+lang["#MISSION_CHALLENGER_STRESSORI_DESC"] = "Hey, Wastelander. Good to see you're still breathing around here. We still need people like you. Heh, anyways, are you ready for some real pain? I have a really hard task for you this time, make sure you're ready for it."
+lang["#MISSION_CHALLENGER_STRESSORI_HINT"] = "Eliminate any type of Feral Ghouls, Geckos, and Mirelurks. Feral Ghouls can be found in old ruins. Geckos can be found in generic wasteland areas. Mirelurks can be found near lakes."
+lang["#MISSION_CHALLENGER_STRESSORI_COMPLETE"] = "Great job, but it's not over yet."
+
+lang["#MISSION_CHALLENGER_STRESSORII"] = "Stressor, II"
+lang["#MISSION_CHALLENGER_STRESSORII_DESC"] = "Still want to continue? Shouldn't take that long. I just need you to exterminate some pests."
+lang["#MISSION_CHALLENGER_STRESSORII_HINT"] = "Eliminate any type of Mantids, Radroaches, and Molerats. Mantids can be found in general wasteland areas. Radroaches can be found in obscure areas. Molerats can be found in junk-related locations."
+lang["#MISSION_CHALLENGER_STRESSORII_COMPLETE"] = "Good to see that you got rid of them. Got one last part."
+
+lang["#MISSION_CHALLENGER_STRESSORIII"] = "Stressor, III"
+lang["#MISSION_CHALLENGER_STRESSORIII_DESC"] = "This is going to be the hardest part, but trust me, it'll be worth it. Need you to hunt down some of the more dangerous ones. You should probably use a high-powered rifle for this."
+lang["#MISSION_CHALLENGER_STRESSORIII_HINT"] = "Eliminate any type of Deathclaws, Feral Ghoul Reavers, and Green Geckos. Deathclaws can commonly be found near the edge of the city in Ashlands. Feral Ghoul Reavers can be found in the hotel, or the gas station bunker. Green Geckos can be found in general wasteland areas, or the forest in Ashlands."
+lang["#MISSION_CHALLENGER_STRESSORIII_COMPLETE"] = "It's done. You're different from most wastelanders I see."
+
+--Miscellaneous
 lang["#MISSION_CHALLENGER_GOLDENSKIN"] = "Golden Skin"
 lang["#MISSION_CHALLENGER_GOLDENSKIN_DESC"] = "Hey, so I have a different kind of job for you. I was just requested some golden hides from a special person, and they're offering a lot of caps for it. So, if you want to help obtain these, I'll cut a large portion of the caps to you."
 lang["#MISSION_CHALLENGER_GOLDENSKIN_HINT"] = "Obtain Golden Gecko Hides. They can gathered from killing Golden Geckos, which most commonly spawn in the swamp with the trailer in Ashlands."
 lang["#MISSION_CHALLENGER_GOLDENSKIN_COMPLETE"] = "Here is your cut."
 
-lang["#MISSION_CHALLENGER_GRIMREAVER"] = "Grim Reaver"
-lang["#MISSION_CHALLENGER_GRIMREAVER_DESC"] = "This challenge will not be easy. And I recommend using a strong weapon, because you're gonna be clearing reavers. These guys are not to be toyed with, they are very dangerous, but I need you to take care of them."
-lang["#MISSION_CHALLENGER_GRIMREAVER_HINT"] = "Eliminate Feral Ghoul Reavers in Ashlands. It is recommended to use a gun. They can be found in the bunker, or in the hotel in the city."
-lang["#MISSION_CHALLENGER_GRIMREAVER_COMPLETE"] = "Heh, of course you would pull through."
+-- ███╗   ██╗██╗ ██████╗██╗  ██╗███████╗    ███╗   ███╗██╗███████╗███████╗██╗ ██████╗ ███╗   ██╗███████╗
+-- ████╗  ██║██║██╔════╝██║ ██╔╝██╔════╝    ████╗ ████║██║██╔════╝██╔════╝██║██╔═══██╗████╗  ██║██╔════╝
+-- ██╔██╗ ██║██║██║     █████╔╝ ███████╗    ██╔████╔██║██║███████╗███████╗██║██║   ██║██╔██╗ ██║███████╗
+-- ██║╚██╗██║██║██║     ██╔═██╗ ╚════██║    ██║╚██╔╝██║██║╚════██║╚════██║██║██║   ██║██║╚██╗██║╚════██║
+-- ██║ ╚████║██║╚██████╗██║  ██╗███████║    ██║ ╚═╝ ██║██║███████║███████║██║╚██████╔╝██║ ╚████║███████║
+-- ╚═╝  ╚═══╝╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝    ╚═╝     ╚═╝╚═╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
 
--- T3
-
-lang["#MISSION_CHALLENGER_ABOMINATION"] = "Abomination"
-lang["#MISSION_CHALLENGER_ABOMINATION_DESC"] = "Deathclaws, ever heard of them? Walking Abominations, and all they do is blocks paths and attack intruders. Anyways, consider this to be your 'final' test. You know what I'm gonna ask of you."
-lang["#MISSION_CHALLENGER_ABOMINATION_HINT"] = "Eliminate any type of Deathclaws. It is recommended to use high-powered automatic rifles, and to have teammates. They can be found near the edge of the city."
-lang["#MISSION_CHALLENGER_ABOMINATION_COMPLETE"] = "I'm actually surprised you are alive and got this done."
-
-lang["#MISSION_CHALLENGER_STRESSORI"] = "Stressor I"
-lang["#MISSION_CHALLENGER_STRESSORI_DESC"] = "Hey, Wastelander. Good to see you're still breathing around here. We still need people like you. Heh, anyways, are you ready for some real pain? I have a really hard task for you this time, make sure you're ready for it."
-lang["#MISSION_CHALLENGER_STRESSORI_HINT"] = "Eliminate any type of Feral Ghouls, Geckos, and Mirelurks. Feral Ghouls can be found in old ruins. Geckos can be found in generic wasteland areas. Mirelurks can be found near lakes."
-lang["#MISSION_CHALLENGER_STRESSORI_COMPLETE"] = "Great job, but it's not over yet."
-
-lang["#MISSION_CHALLENGER_STRESSORII"] = "Stressor II"
-lang["#MISSION_CHALLENGER_STRESSORII_DESC"] = "Still want to continue? Shouldn't take that long. I just need you to exterminate some pests."
-lang["#MISSION_CHALLENGER_STRESSORII_HINT"] = "Eliminate any type of Mantids, Radroaches, and Molerats. Mantids can be found in general wasteland areas. Radroaches can be found in obscure areas. Molerats can be found in junk-related locations."
-lang["#MISSION_CHALLENGER_STRESSORII_COMPLETE"] = "Good to see that you got rid of them. Got one last part."
-
-lang["#MISSION_CHALLENGER_STRESSORIII"] = "Stressor III"
-lang["#MISSION_CHALLENGER_STRESSORIII_DESC"] = "This is going to be the hardest part, but trust me, it'll be worth it. Need you to hunt down some of the more dangerous ones. You should probably use a high-powered rifle for this."
-lang["#MISSION_CHALLENGER_STRESSORIII_HINT"] = "Eliminate any type of Deathclaws, Feral Ghoul Reavers, and Green Geckos. Deathclaws can commonly be found near the edge of the city in Ashlands. Feral Ghoul Reavers can be found in the hotel, or the gas station bunker. Green Geckos can be found in general wasteland areas, or the forest in Ashlands."
-lang["#MISSION_CHALLENGER_STRESSORIII_COMPLETE"] = "It's done. You're different from most wastelanders I see."
+lang["#MISSION_NICK_WHATAPLACE"] = "What a Place"
+lang["#MISSION_NICK_WHATAPLACE_DESC"] = "You're probably wondering what the hell I might be doing here. Well, I manage the transports that go through here, mainly cargo, bodies, and a few other things. The boss assigned me here, so not by choice. There's several issues we have with this transport stop anyways. I'm not just talking about the fog, or the shitty water, it's smugglers and these bandit guys that keep raiding our boats. Speaking of which, we had one probably sink and go out of contact not too long ago. Here's what I need you to do for me. This boat had some important supplies that we were trying to bring to another region. I don't care about the rest of the supplies, we'll work on recovering that, but this boat in particular had a crate, held some special military electronics. Any Bandit would have deemed it worthless, but we need it. The attack took place on a piece of land that wasn't too far from the trader shack. It may take some time to look for, but I don't want to see you again without the box. Deal?"
+lang["#MISSION_NICK_WHATAPLACE_HINT"] = "Find the crate with military electronics. Nick said that the boat carrying this crate was attacked and looted by smugglers near the trader shack."
+lang["#MISSION_NICK_WHATAPLACE_COMPLETE"] = "Shit, dude. You actually found it. Here, for your troubles."
+lang["#MISSION_NICK_WHATAPLACE_ITEMNAME"] = "Crate with Electronics"
 
 -- ███╗   ███╗██████╗        ███████╗ █████╗ ██╗  ████████╗    ██╗    ██╗███████╗██╗     ██╗     ███████╗
 -- ████╗ ████║██╔══██╗██╗    ██╔════╝██╔══██╗██║  ╚══██╔══╝    ██║    ██║██╔════╝██║     ██║     ██╔════╝
@@ -429,32 +547,52 @@ lang["#MISSION_CHALLENGER_STRESSORIII_COMPLETE"] = "It's done. You're different 
 -- ██║ ╚═╝ ██║██████╔╝╚═╝    ███████║██║  ██║███████╗██║       ╚███╔███╔╝███████╗███████╗███████╗███████║
 -- ╚═╝     ╚═╝╚═════╝        ╚══════╝╚═╝  ╚═╝╚══════╝╚═╝        ╚══╝╚══╝ ╚══════╝╚══════╝╚══════╝╚══════╝
 
-lang["#MISSION_SALTWELLS_LOOSEPARTS"] = "Fetch: Loose Parts"
+lang["#MISSION_SALTWELLS_LOOSEPARTS"] = "Loose Parts"
 lang["#MISSION_SALTWELLS_LOOSEPARTS_DESC"] = "This task is open to those who are willing to gather Scrap Metal for the hirer. They are willing to pay a reasonable price for it."
 lang["#MISSION_SALTWELLS_LOOSEPARTS_HINT"] = "Obtain Scrap Metal. You can easily get scrap metal from salvaging broken vehicles, or breaking down obsolete items at a workbench."
 lang["#MISSION_SALTWELLS_LOOSEPARTS_COMPLETE"] = "You've completed the task."
 
-lang["#MISSION_SALTWELLS_INTHEWAY"] = "Salvage: In The Way"
+lang["#MISSION_SALTWELLS_NUKACOLLECTOR"] = "Nuka Collector"
+lang["#MISSION_SALTWELLS_NUKACOLLECTOR_DESC"] = "This task is open to those who are willing to gather Regular Nuka Cola for the hirer. The hirer is willing to pay an okay price for it."
+lang["#MISSION_SALTWELLS_NUKACOLLECTOR_HINT"] = "Obtain Nuka Cola. It can commonly be found while scavenging, more likely in vending machines than other containers."
+lang["#MISSION_SALTWELLS_NUKACOLLECTOR_COMPLETE"] = "You've completed the task."
+
+lang["#MISSION_SALTWELLS_INTHEWAY"] = "In The Way"
 lang["#MISSION_SALTWELLS_INTHEWAY_DESC"] = "This task is open to those who are willing to salvage vehicles that are blocking the roads for the hirer. They are willing to pay a good price for it."
-lang["#MISSION_SALTWELLS_INTHEWAY_HINT"] = "Salvage vehicles in Salt Wells. Salvagable vehicles can be found on the roads. Certain melee weapons may help you salvage them faster."
+lang["#MISSION_SALTWELLS_INTHEWAY_HINT"] = "Fully salvage vehicles in Salt Wells. You can break down vehicles by attacking them with your hands or with a blunt melee weapon. Pipewrenches and Crowbars are generally good for salvaging. Salvagable vehicles can be found on or near roads."
 lang["#MISSION_SALTWELLS_INTHEWAY_COMPLETE"] = "You've completed the task."
 
-lang["#MISSION_SALTWELLS_GHOULHUNT"] = "Massacre: Ghoul Hunt"
+lang["#MISSION_SALTWELLS_GHOULHUNT"] = "Ghoul Hunt"
 lang["#MISSION_SALTWELLS_GHOULHUNT_DESC"] = "This task is open to those who are willing to eliminate Feral Ghouls for the hirer. It can be any type of Feral Ghoul. The hirer is willing to pay a reasonable price for it."
 lang["#MISSION_SALTWELLS_GHOULHUNT_HINT"] = "Eliminate any type of Feral Ghouls in Salt Wells. Feral ghouls are commonly found near ruins, broken buildings, and abandoned locations. They are weak to melee weapons and firearms."
 lang["#MISSION_SALTWELLS_GHOULHUNT_COMPLETE"] = "You've completed the task."
 
-lang["#MISSION_SALTWELLS_WEAPONREQUESTI"] = "Fetch: Weapon Request I"
+lang["#MISSION_SALTWELLS_GECKOPROBLEM"] = "Gecko Problem"
+lang["#MISSION_SALTWELLS_GECKOPROBLEM_DESC"] = "This task is open to those who are willing to eliminate Geckos for the hirer. It can be any type of Gecko. The hirer is willing to pay a reasonable price for it."
+lang["#MISSION_SALTWELLS_GECKOPROBLEM_HINT"] = "Eliminate any type of Geckos in Salt Wells. Geckos can be found in generally open spaces throughout the wasteland."
+lang["#MISSION_SALTWELLS_GECKOPROBLEM_COMPLETE"] = "You've completed the task."
+
+lang["#MISSION_SALTWELLS_BANDITWIPEOUT"] = "Bandit Wipeout"
+lang["#MISSION_SALTWELLS_BANDITWIPEOUT_DESC"] = "This task is available to be taken by someone who is looking to clear some Bandits in the area."
+lang["#MISSION_SALTWELLS_BANDITWIPEOUT_HINT"] = "Eliminate any type of Bandit in Salt Wells. Bandits can be found in makeshift camps around the region."
+lang["#MISSION_SALTWELLS_BANDITWIPEOUT_COMPLETE"] = "You've completed the task."
+
+lang["#MISSION_SALTWELLS_WEAPONREQUESTI"] = "Weapon Request, I"
 lang["#MISSION_SALTWELLS_WEAPONREQUESTI_DESC"] = "This task is open to those who are willing to get a Pipe Gun for the hirer. They are willing to pay a good price for it."
 lang["#MISSION_SALTWELLS_WEAPONREQUESTI_HINT"] = "Obtain a Pipe Gun. You can craft it with high enough skills, or buy it from other selling traders."
 lang["#MISSION_SALTWELLS_WEAPONREQUESTI_COMPLETE"] = "You've completed the task."
 
-lang["#MISSION_SALTWELLS_WEAPONREQUESTII"] = "Fetch: Weapon Request II"
+lang["#MISSION_SALTWELLS_WEAPONREQUESTII"] = "Weapon Request, II"
 lang["#MISSION_SALTWELLS_WEAPONREQUESTII_DESC"] = "This task is open to those who are willing to get a .357 Revolver for the hirer. They are willing to pay a lot for it."
 lang["#MISSION_SALTWELLS_WEAPONREQUESTII_HINT"] = "Obtain a .357 Revolver. You can find it from scavenging, or buying it from other traders."
 lang["#MISSION_SALTWELLS_WEAPONREQUESTII_COMPLETE"] = "You've completed the task."
 
-lang["#MISSION_SALTWELLS_REAVERELIMINATION"] = "Massacre: Reaver Elimination"
+lang["#MISSION_SALTWELLS_WEAPONREQUESTIII"] = "Weapon Request, III"
+lang["#MISSION_SALTWELLS_WEAPONREQUESTIII_DESC"] = "This task is open to those who are willing to get a Machete for the hirer. They are willing to pay decent currency for it."
+lang["#MISSION_SALTWELLS_WEAPONREQUESTIII_HINT"] = "Obtain a Machete. You can get them by crafting."
+lang["#MISSION_SALTWELLS_WEAPONREQUESTIII_COMPLETE"] = "You've completed the task."
+
+lang["#MISSION_SALTWELLS_REAVERELIMINATION"] = "Reaver Elimination"
 lang["#MISSION_SALTWELLS_REAVERELIMINATION_DESC"] = "This task is open to those who are willing to eliminate Feral Ghoul Reavers for the hirer. The hirer is willing to pay a reasonable price for it."
 lang["#MISSION_SALTWELLS_REAVERELIMINATION_HINT"] = "Eliminate Feral Ghouls Reavers in Salt Wells. Feral ghouls are commonly found near ruins, broken buildings, and abandoned locations. Reavers are very resistant to melee weapons, it is recommended to use a firearm."
 lang["#MISSION_SALTWELLS_REAVERELIMINATION_COMPLETE"] = "You've completed the task."
@@ -466,10 +604,35 @@ lang["#MISSION_SALTWELLS_REAVERELIMINATION_COMPLETE"] = "You've completed the ta
 -- ██║ ╚═╝ ██║██████╔╝╚═╝       ██║   ╚██████╔╝███████╗███████╗██║  ██║    ██████╔╝╚██████╔╝███████╗███████╗██║
 -- ╚═╝     ╚═╝╚═════╝           ╚═╝    ╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝╚══════╝╚═╝
 
-lang["#MISSION_YOLLA_EASYTARGETS"] = "Massacre: Easy Targets"
+lang["#MISSION_YOLLA_EASYTARGETS"] = "Easy Targets"
 lang["#MISSION_YOLLA_EASYTARGETS_DESC"] = "The person who has pinned this note wants someone who is willing to clear out enemies, more specifically feral ghouls. They are offering a lot for it."
-lang["#MISSION_YOLLA_EASYTARGETS_HINT"] = "Eliminate any type of Feral Ghouls. Feral ghouls are commonly found near ruins, broken buildings, and abandoned locations. They are weak to melee weapons and firearms. Be careful around reaver and bloated ghouls, as they are more dangerous."
+lang["#MISSION_YOLLA_EASYTARGETS_HINT"] = "Eliminate any type of Feral Ghouls in Yolla Bolly. Feral ghouls are commonly found near ruins, broken buildings, and abandoned locations. They are weak to melee weapons and firearms. Be careful around reaver and bloated ghouls, as they are more dangerous."
 lang["#MISSION_YOLLA_EASYTARGETS_COMPLETE"] = "You've completed the task."
+
+lang["#MISSION_YOLLA_GATHERER"] = "Gatherer"
+lang["#MISSION_YOLLA_GATHERER_DESC"] = "The hirer of this task wants someone who is actively scavenging to gather items around the region."
+lang["#MISSION_YOLLA_GATHERER_HINT"] = "Loot containers in Yolla Bolly. You can search inside towns, buildings, and other various locations for containers."
+lang["#MISSION_YOLLA_GATHERER_COMPLETE"] = "You've completed the task."
+
+lang["#MISSION_YOLLA_HIDEANDSEEK"] = "Hide n' Seek"
+lang["#MISSION_YOLLA_HIDEANDSEEK_DESC"] = "The person who has hung this post wants someone who is willing to eliminate Mirelurks. They are offering money for it."
+lang["#MISSION_YOLLA_HIDEANDSEEK_HINT"] = "Eliminate any type of Mirelurks in Yolla Bolly. They can commonly be found throughout the Yolla Bolly Valley, near the dried up river banks. They are dangerous and have decent protection, so it is recommended to use a firearm. Aim for the face."
+lang["#MISSION_YOLLA_HIDEANDSEEK_COMPLETE"] = "You've completed the task."
+
+lang["#MISSION_YOLLA_ROBOTICPARTS"] = "Robotic Parts"
+lang["#MISSION_YOLLA_ROBOTICPARTS_DESC"] = "The man who has pinned this task wants someone who is willing to destroy Protectrons."
+lang["#MISSION_YOLLA_ROBOTICPARTS_HINT"] = "Eliminate any type of Protectrons in Yolla Bolly. They can be easily found in the Military Bunker. They are very dangerous as they are the Military Variant, and it is recommended to have armor or some form of protections, while using a decent firearm."
+lang["#MISSION_YOLLA_ROBOTICPARTS_COMPLETE"] = "You've completed the task."
+
+lang["#MISSION_YOLLA_SPECIALIZEDHUNTER"] = "Hunting Skills"
+lang["#MISSION_YOLLA_SPECIALIZEDHUNTER_DESC"] = "The hirer for this task wants to see someone who is willing to do eliminate a variety of enemies. He wants them to use a hunting rifle in the process too."
+lang["#MISSION_YOLLA_SPECIALIZEDHUNTER_HINT"] = "Eliminate any type of Feral Ghouls, Geckos, and Molerats. Feral Ghouls can commonly be found in the Waxton industrial town, Geckos can be found around the outskirts of the region, and Molerats can be easily found in the Junkyard in Salt Wells."
+lang["#MISSION_YOLLA_SPECIALIZEDHUNTER_COMPLETE"] = "You've completed the task."
+
+lang["#MISSION_YOLLA_ABOMINATIONHATRED"] = "Hatred"
+lang["#MISSION_YOLLA_ABOMINATIONHATRED_DESC"] = "The hirer of this task wants someone who is willing to kill Deathclaws. He will pay very greatly for it."
+lang["#MISSION_YOLLA_ABOMINATIONHATRED_HINT"] = "Eliminate any type of Deathclaws in Yolla Bolly. They can be commonly found on a hill besides Waxton, and sometimes on the other side of it. Deathclaws are very dangerous, so it is recommended to use high-powered rifles with Armor Piercing rounds."
+lang["#MISSION_YOLLA_ABOMINATIONHATRED_COMPLETE"] = "You've completed the task."
 
 -- ███╗   ███╗██████╗         █████╗ ███████╗██╗  ██╗██╗      █████╗ ███╗   ██╗██████╗ ███████╗
 -- ████╗ ████║██╔══██╗██╗    ██╔══██╗██╔════╝██║  ██║██║     ██╔══██╗████╗  ██║██╔══██╗██╔════╝
@@ -478,69 +641,47 @@ lang["#MISSION_YOLLA_EASYTARGETS_COMPLETE"] = "You've completed the task."
 -- ██║ ╚═╝ ██║██████╔╝╚═╝    ██║  ██║███████║██║  ██║███████╗██║  ██║██║ ╚████║██████╔╝███████║
 -- ╚═╝     ╚═╝╚═════╝        ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝ ╚══════╝
 
-lang["#MISSION_ASHLANDS_SIMPLELEATHER"] = "Fetch: Simple Leather"
-lang["#MISSION_ASHLANDS_SIMPLELEATHER_DESC"] = "The hirer for this is looking for someone who will geather Leather for them. They are offering a decent reward for it."
+lang["#MISSION_ASHLANDS_SIMPLELEATHER"] = "Simple Leather"
+lang["#MISSION_ASHLANDS_SIMPLELEATHER_DESC"] = "The hirer for this is looking for someone who will gather Leather for them. They are offering a decent reward for it."
 lang["#MISSION_ASHLANDS_SIMPLELEATHER_HINT"] = "Obtain Leather. You can get leather from scavenging, breaking down leather objects, or using gecko / deathclaw skin to make it."
 lang["#MISSION_ASHLANDS_SIMPLELEATHER_COMPLETE"] = "You've completed the task."
 
+lang["#MISSION_ASHLANDS_WRECKAGE"] = "Wreckage"
+lang["#MISSION_ASHLANDS_WRECKAGE_DESC"] = "The person who pinned this wants someone who is looking to clear out Ghouls and Geckos in the region."
+lang["#MISSION_ASHLANDS_WRECKAGE_HINT"] = "Eliminate any type of Feral Ghouls, and Geckos in Ashlands. Feral Ghouls can be easily found inside of locations, mainly the city apartments. Geckos can be found near the radio station and around the outskirts of the city."
+lang["#MISSION_ASHLANDS_WRECKAGE_COMPLETE"] = "You've completed the task."
+
+lang["#MISSION_ASHLANDS_SUPERMUTANTHUNTER"] = "Mutant Hunter"
+lang["#MISSION_ASHLANDS_SUPERMUTANTHUNTER_DESC"] = "Whoever pinned this wants someone who is willing to kill the Super Mutants that roam the Ashlands."
+lang["#MISSION_ASHLANDS_SUPERMUTANTHUNTER_HINT"] = "Eliminate any type of Super Mutant in Ashlands. Super Mutants can be easily found throughout the Ashlands in points of interest, and mainly at the Gas Station, where they have a base set up."
+lang["#MISSION_ASHLANDS_SUPERMUTANTHUNTER_COMPLETE"] = "You've completed the task."
+
+lang["#MISSION_ASHLANDS_BUNKERSALVATION"] = "Bunker Salvation"
+lang["#MISSION_ASHLANDS_BUNKERSALVATION_DESC"] = "The man who pinned this wants someone who is going to the bunker to clear any Super Mutants that inhabit it."
+lang["#MISSION_ASHLANDS_BUNKERSALVATION_HINT"] = "Eliminate any type of Super Mutant inside the Bunker in Ashlands. The bunker can be found under the gas station near the corner of the region."
+lang["#MISSION_ASHLANDS_BUNKERSALVATION_COMPLETE"] = "You've completed the task."
+
+-- ███╗   ███╗██████╗        ███╗   ███╗ ██████╗ ██╗   ██╗███╗   ██╗████████╗ █████╗ ██╗███╗   ██╗    ██████╗  █████╗ ███████╗███████╗
+-- ████╗ ████║██╔══██╗██╗    ████╗ ████║██╔═══██╗██║   ██║████╗  ██║╚══██╔══╝██╔══██╗██║████╗  ██║    ██╔══██╗██╔══██╗██╔════╝██╔════╝
+-- ██╔████╔██║██████╔╝╚═╝    ██╔████╔██║██║   ██║██║   ██║██╔██╗ ██║   ██║   ███████║██║██╔██╗ ██║    ██████╔╝███████║███████╗███████╗
+-- ██║╚██╔╝██║██╔══██╗██╗    ██║╚██╔╝██║██║   ██║██║   ██║██║╚██╗██║   ██║   ██╔══██║██║██║╚██╗██║    ██╔═══╝ ██╔══██║╚════██║╚════██║
+-- ██║ ╚═╝ ██║██████╔╝╚═╝    ██║ ╚═╝ ██║╚██████╔╝╚██████╔╝██║ ╚████║   ██║   ██║  ██║██║██║ ╚████║    ██║     ██║  ██║███████║███████║
+-- ╚═╝     ╚═╝╚═════╝        ╚═╝     ╚═╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝    ╚═╝     ╚═╝  ╚═╝╚══════╝╚══════╝
+
+lang["#MISSION_MPASS_INFESTATION"] = "Infestation"
+lang["#MISSION_MPASS_INFESTATION_DESC"] = "The hirer of this task wants someone who is willing to eliminate ghouls in the current region. They are offering a reasonable amount for it."
+lang["#MISSION_MPASS_INFESTATION_HINT"] = "Eliminate any type of Feral Ghouls in Mountain Pass. They can be easily found on the roads throughout the region, and in abandon houses or shacks."
+lang["#MISSION_MPASS_INFESTATION_COMPLETE"] = "You've completed the task."
+
+lang["#MISSION_MPASS_LOCALCANNIBALS"] = "Local Cannibals"
+lang["#MISSION_MPASS_LOCALCANNIBALS_DESC"] = "The hirer of this task wants someone who is going to eliminate Ice Pick Bandits in the current region."
+lang["#MISSION_MPASS_LOCALCANNIBALS_HINT"] = "Eliminate any type of Ice Pick Bandit in Mountain Pass. They can be found set up at camps throughout the Roads and forests."
+lang["#MISSION_MPASS_LOCALCANNIBALS_COMPLETE"] = "You've completed the task."
+
+lang["#MISSION_MPASS_MASTER_BLASTER"] = "Master Blaster"
+lang["#MISSION_MPASS_MASTER_BLASTER_DESC"] = "Whoever pinned this wants someone who is very skilled with shotguns to wipe out separate types of enemies."
+lang["#MISSION_MPASS_MASTER_BLASTER_HINT"] = "Eliminate any type of Feral Ghouls and Geckos with any shotgun. Feral Ghouls can be found littered throughout the road leading to the Ashlands. Geckos can be commonly found in Salt Wells."
+lang["#MISSION_MPASS_MASTER_BLASTER_COMPLETE"] = "You've completed the task."
 
 
-
-
-
-
-
-
-
-
--- ████████╗███████╗███████╗████████╗    ███╗   ███╗██╗███████╗███████╗██╗ ██████╗ ███╗   ██╗███████╗
--- ╚══██╔══╝██╔════╝██╔════╝╚══██╔══╝    ████╗ ████║██║██╔════╝██╔════╝██║██╔═══██╗████╗  ██║██╔════╝
---    ██║   █████╗  ███████╗   ██║       ██╔████╔██║██║███████╗███████╗██║██║   ██║██╔██╗ ██║███████╗
---    ██║   ██╔══╝  ╚════██║   ██║       ██║╚██╔╝██║██║╚════██║╚════██║██║██║   ██║██║╚██╗██║╚════██║
---    ██║   ███████╗███████║   ██║       ██║ ╚═╝ ██║██║███████║███████║██║╚██████╔╝██║ ╚████║███████║
---    ╚═╝   ╚══════╝╚══════╝   ╚═╝       ╚═╝     ╚═╝╚═╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
-
-lang["#MISSION_DEV_CRAFT"] = "Craft Test"
-lang["#MISSION_DEV_CRAFT_DESC"] = "Description"
-lang["#MISSION_DEV_CRAFT_HINT"] = "Hint"
-lang["#MISSION_DEV_CRAFT_COMPLETE"] = "Task Completed."
-
-lang["#MISSION_DEV_DELIVER"] = "Deliver Test [Unfinished]"
-lang["#MISSION_DEV_DELIVER_DESC"] = "Description"
-lang["#MISSION_DEV_DELIVER_HINT"] = "Hint"
-lang["#MISSION_DEV_DELIVER_COMPLETE"] = "Task Completed."
-
-lang["#MISSION_DEV_DISCOVER"] = "Discover Test [Unfinished]"
-lang["#MISSION_DEV_DISCOVER_DESC"] = "Description"
-lang["#MISSION_DEV_DISCOVER_HINT"] = "Hint"
-lang["#MISSION_DEV_DISCOVER_COMPLETE"] = "Task Completed."
-
-lang["#MISSION_DEV_FETCH"] = "Fetch Test"
-lang["#MISSION_DEV_FETCH_DESC"] = "Description"
-lang["#MISSION_DEV_FETCH_HINT"] = "Hint"
-lang["#MISSION_DEV_FETCH_COMPLETE"] = "Task Completed."
-
-lang["#MISSION_DEV_HARVEST"] = "Harvest Test"
-lang["#MISSION_DEV_HARVEST_DESC"] = "Description"
-lang["#MISSION_DEV_HARVEST_HINT"] = "Hint"
-lang["#MISSION_DEV_HARVEST_COMPLETE"] = "Task Completed."
-
-lang["#MISSION_DEV_MASSACRE"] = "Massacre Test"
-lang["#MISSION_DEV_MASSACRE_DESC"] = "Description"
-lang["#MISSION_DEV_MASSACRE_HINT"] = "Hint"
-lang["#MISSION_DEV_MASSACRE_COMPLETE"] = "Task Completed."
-
-lang["#MISSION_DEV_SALVAGE"] = "Salvage Test"
-lang["#MISSION_DEV_SALVAGE_DESC"] = "Description"
-lang["#MISSION_DEV_SALVAGE_HINT"] = "Hint"
-lang["#MISSION_DEV_SALVAGE_COMPLETE"] = "Task Completed."
-
-lang["#MISSION_DEV_SCAVENGE"] = "Scavenge Test"
-lang["#MISSION_DEV_SCAVENGE_DESC"] = "Description"
-lang["#MISSION_DEV_SCAVENGE_HINT"] = "Hint"
-lang["#MISSION_DEV_SCAVENGE_COMPLETE"] = "Task Completed."
-
-lang["#MISSION_DEV_STARTERTOTALBREAKDOWN"] = "*starter_totalbreakdown Test"
-lang["#MISSION_DEV_STARTERTOTALBREAKDOWN_DESC"] = "Description"
-lang["#MISSION_DEV_STARTERTOTALBREAKDOWN_HINT"] = "Hint"
-lang["#MISSION_DEV_STARTERTOTALBREAKDOWN_COMPLETE"] = "Task Completed."
+RELOADSCHEMA = true

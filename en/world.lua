@@ -4,7 +4,7 @@ lang["#CRIMES_NONE"] = "No Crimes"
 
 -- Regions
 lang["#REGION_NOTHERNCALIFORNIA"] = "Northern California"
-lang["#REGION_NOTHERNCALIFORNIA_CANYONENTRANCE"] = "Canyon Entrance"
+lang["#REGION_NOTHERNCALIFORNIA_CANYONENTRANCE"] = "Train Tunnel"
 
 lang["#REGION_MOJAVE"] = "Salt Wells"
 lang["#REGION_MOJAVE_EAST"] = "U.S. 50, East"
@@ -17,7 +17,13 @@ lang["#REGION_MOUNTAINPASS_SOUTH"] = "Camp Willow"
 lang["#REGION_ASHLANDS"] = "The Ash Lands"
 lang["#REGION_ASHLANDS_OUTPOST"] = "Arms Tent"
 lang["#REGION_ASHLANDS_CITY"] = "Dead City"
- 
+
+lang["#REGION_CUTLER"] = "Cutler City"
+lang["#REGION_CUTLER_SWTUNNEL"] = "U.S. 101, South"
+lang["#REGION_CUTLER_STUNNEL"] = "South Tunnel"
+lang["#REGION_CUTLER_ETUNNEL"] = "Siletz Highway"
+lang["#REGION_CUTLER_NWTUNNEL"] = "U.S. 101, North"
+
 lang["#REGION_YOLLABOLLY"] = "Yolla Bolly Mountain Range"
 lang["#REGION_YOLLABOLLY_CLIFFCONVY"] = "Abandoned Convoy"
 lang["#REGION_YOLLABOLLY_CLIFFEDGE"] = "Cliff Edge"
@@ -37,6 +43,9 @@ lang["#FACTION_NCR_DESC"] = "The New California Republic, or NCR, started as a s
 lang["#FACTION_HUNTER_NAME"] = "Wasteland Hunters"
 lang["#FACTION_HUNTER_DESC"] = "A sparse, loosely knit community of self sustaining Hunters, foragers, and survivalists. Forsaking the heavy hand of NCR and civilzation as a whole, these wasters consist of both natives and NCR transplants gone AWOL."
 
+lang["#FACTION_VALLEYSURVIVALISTS_NAME"] = "Valley Survivalists"
+lang["#FACTION_VALLEYSURVIVALISTS_DESC"] = "A small group of experienced individuals who all live in the mountains, lead by a man known as Jackson, who used to be a major helping hand with the NCR in Salt Wells."
+
 lang["#FACTION_NEWRENO_NAME"] = "New Reno Crime Families"
 lang["#FACTION_NEWRENO_DESC"] = "'The Biggest Little City in the World', New Reno is a cesspool of sin run by a syndicate of four families; The Mordinos, the Bishops, the Wrights and the Salvatores, each vying for control. They might not be working together, but they've all got a common interest in keeping things nice and calm and open for business. Troublemakers usually don't last long."
 
@@ -44,7 +53,10 @@ lang["#FACTION_CRIMSONCARAVAN_NAME"] = "Crimson Caravan Company"
 lang["#FACTION_CRIMSONCARAVAN_DESC"] = "The Crimson Caravan Company is one of, if not the singular largest caravan house in New California and beyond with a CCC branch in nearly every large town in the territory."
 
 lang["#FACTION_CORPORATION_NAME"] = "Cipher"
-lang["#FACTION_CORPORATION_DESC"] = "Cipher, more known as 'The Corporation', are an highly secretive organised group of criminals from the north. They deal in anything most lawful types would turn their heads at if it'll result in a payday- slave trading, paid murder, sabotage, you name it."
+lang["#FACTION_CORPORATION_DESC"] = "Cipher, more known as 'The Corporation', are a highly secretive organised group of mercenaries from the north. They deal in anything most lawful types would turn their heads at if it'll result in a payday- slave trading, paid murder, sabotage, you name it."
+
+lang["#FACTION_VAULTCITY_NAME"] = "Vault City"
+lang["#FACTION_VAULTCITY_DESC"] = "An isolationist community located in northeast California, Vault City prides themselves on their advanced technology and high quality society. Due to their xenophobic nature, they never allow non-citizens within. Despite this, they are all too happy to let outsiders do their potentially dangerous dirty work."
 
 lang["FACTION_FOLLOWERSOFTHEAPOCALYPSE_NAME"] = "Followers of the Apocalypse"
 lang["FACTION_FOLLOWERSOFTHEAPOCALYPSE_DESC"] = "The Followers are a humanitarian organization originating in New California and focus on providing education and medical services to those in need, as well as furthering research in non-military areas."
@@ -158,4 +170,4 @@ To Do List
 ]]
 
 
-RELOADWEAPONS = true
+RELOADSCHEMA = true

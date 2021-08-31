@@ -21,7 +21,7 @@ lang["#UI_ITEMNOTCONSUMED"] = "$item must be in your Inventory (Not taken)"
 lang["#UI_EQUIPMENT"] = "Equipment"
 lang["#UI_APPAREL"] = "Apparel"
 lang["#UI_CONSUMEABLES"] = "Consumables"
-lang["#UI_COMMODITIES"] = "Commodities"
+lang["#UI_CURRENCIES"] = "Currencies"
 
 lang["#UI_SELCHAR"] = "Select Character"
 lang["#UI_LOADCHAR"] = "Load Character"
@@ -33,8 +33,8 @@ lang["#UI_STARTPLAYING"] = "Start Playing"
 lang["#UI_RESUME"] = "Resume"
 lang["#UI_SETTINGS"] = "Settings"
 lang["#UI_STEAMGROUP"] = "Steam Group"
-lang["#UI_GMODMENU"] = "Gmod Menu"
-lang["#UI_SIGNOUT"] = "Main Menu"
+lang["#UI_GMODMENU"] = "Garry's Mod Menu"
+lang["#UI_SIGNOUT"] = "Resurgence Main Menu"
 lang["#UI_QUIT"] = "Disconnect"
 lang["#UI_SIGNOUTWARN"] = "You will leave your character behind!\n\nIt's dangerous here, try Leaving from a town or from the Travel Map."
 lang["#UI_SIGNOUTDEATHWARN"] = "YOU WILL DIE!\nIf you leave now, your character will parish!\n\nYou can still make it if you let yourself recover."
@@ -135,7 +135,7 @@ lang["#CATEGORY_CHEM"] = "Chems"
 lang["#CATEGORY_FOOD"] = "Food"
 lang["#CATEGORY_DRINK"] = "Drink"
 lang["#CATEGORY_SOUP"] = "Soup"
-lang["#CATEGORY_CURR"] = "Commodities"
+lang["#CATEGORY_CURR"] = "Currencies"
 lang["#CATEGORY_MISC"] = "Misc."
 lang["#CATEGORY_CONV"] = "Conversion"
 lang["#CATEGORY_MOD"] = "Weapon Mods"
@@ -156,11 +156,14 @@ lang["#EFFECTSLOT_CONSUMABLE"] = "Consumable"
 lang["#CRAFTING_GIVES"] = "Gives"
 
 lang["#UI_SORT"] = "[C] Sort"
+lang["#UI_STOREMISC"] = "[T] Store Crafting Items"
+lang["#UI_STORINGMISC"] = "Storing Crafting Items..."
 lang["#SORT_AGE"] = "Age"
 lang["#SORT_NAME"] = "Name"
 lang["#SORT_WGT"] = "Weight"
 lang["#SORT_VALUE"] = "Value"
 lang["#SORT_CND"] = "Condition"
+lang["#SORT_LOOT"] = "Loot Priority"
 
 lang["#UI_REQUIRES"] = "Requires"
 
@@ -267,8 +270,8 @@ lang["#UI_STIMPAKACTIVE"] = "Your last stimpak is still active!"
 lang["#UI_CHEMACTIVE"] = "Your last chem is still active!"
 lang["#UI_STIMBLOCKED"] = "Stimblocker is still active!"
 lang["#UI_CHEMBLOCKED"] = "Chemblocker is still active!"
-lang["#UI_ADDICTED"] = "You have become addicted too $item"
-lang["#UI_NOTADDICTED"] = "You are no longer addicted too $item"
+lang["#UI_ADDICTED"] = "You have become addicted to $item"
+lang["#UI_NOTADDICTED"] = "You are no longer addicted to $item"
 lang["#UI_WITHDRAWAL"] = "$item Withdrawal"
 lang["#UI_DELAYED"] = "Delayed"
 
@@ -324,7 +327,7 @@ lang["#TUTORIAL_OPENINV"] = "Press @+score to open your PDA."
 lang["#TUTORIAL_CRAFTING"] = "Crafting\n\nSelect a recipe to see what it requires and what it yields.\n\nRequirements tagged with [Skill] Denote the skill requirement\n\nRequirements tagged with [Tool] Are items that must be in your inventory, but are not consumed.\n\nAll other items are consumed When crafting."
 lang["#TUTORIAL_REPAIR"] = "Repair\n\nTo repair an item, you must break another item down into it. Select an item in the list to use it for repair.\n\nDecay\n\nUsing another instance of that weapon is your best choice, otherwise you can use a repair kit, but this will add Decay.\n\nDecay is a multiplier on how fast that item will break, and cannot be reduced."
 lang["#TUTORIAL_LOWERWEP"] = "@+use + @+reload Lower Weapon"
-lang["#TUTORIAL_ARMORCOVERAGE"] = "You've equipped a peice of Apparel!\n\nSome pieces of Apparel provide armor against certain damage types\n\nIMPORTANT: Armor can ONLY protect the part of the body it covers!"
+lang["#TUTORIAL_ARMORCOVERAGE"] = "You've equipped a piece of Apparel!\n\nSome pieces of Apparel provide armor\nagainst certain damage types\n\nIMPORTANT: Armor will ONLY protect\nthe part of the body it covers!"
 lang["#TUTORIAL_NEARDEATH"] = "You're Near Death!\n\nAnother hit like that and you'll go down for good if you don't treat your wounds."
 
 -- Radio Station
@@ -337,8 +340,9 @@ lang["#RADIO_GOP"] = "Gopnik Radio"
 lang["#RADIO_CTDN"] = "Chilling Tales for Dark Nights"
 lang["#RADIO_BANDIT"] = "Bandit Radio"
 lang["#RADIO_NCRPR"] = "NCR Public Radio"
-lang["#RADIO_RAIDER"] = "" -- Any ideas for a name? Raider Radio is too bland and it should be some pre war name like the Nuka World Radio Station. Maybe Portland Public Broadcast or something? -Coront
+lang["#RADIO_RAIDER"] = "Oregon Public Radio - Accepting Ad Space Now!"
 lang["#RADIO_SFM"] = "Synthstream FM"
+lang["#RADIO_CLASSICAL"] = "Salem Historical Arts Society Automated Radio"
 
 --Door Names
 lang["#DOOR_GATE_OPEN"] = "Open Gate"
@@ -355,6 +359,7 @@ lang["#STAT_POWERARMOR"] = "Power Armor Frame"
 lang["#UI_DOWNNOTICE"] = "Recovering..."
 
 lang["#UI_BARTER"] = "Barter"
+lang["#UI_TALK"] = "Talk"
 lang["#UI_MERCHANT"] = "Merchant"
 lang["#UI_MERCHANTTOOPOOR"] = "The merchant cannot afford this transaction."
 lang["#UI_YOURTOOPOOR"] = "You cannot afford this transaction."
@@ -392,7 +397,6 @@ lang["#DMG_BURN"] = "Burn"
 lang["#DMG_BLAST"] = "Concussion"
 lang["#DMG_RADIATION"] = "Radiation"
 lang["#DMG_ACID"] = "Toxic"
-lang["#DMG_BULLET"] = "Ballistic"
 
 --Melee
 lang["#MELEE_FAST"] = "Fast"
@@ -467,28 +471,31 @@ lang["#RACE_SUPERMUTANT"] = "Super Mutant"
 
 --Brief Race Descriptions
 lang['#RACE_HUMAN_DESC'] = [[
-Standard SPECIAL stats- no negatives, no boosts.
+- Default S.P.E.C.I.A.L. stats.
 
-You were born somewhere out in the wasteland. You've heard plenty about how the world used to be, but the world as you know it is a constant struggle for survival. Filled with mutants trying to kill you and a stomach that needs to be fed.
+Just like many others, you were born somewhere out in the wasteland. You've heard plenty about how the old world used to be, but the current world as you know it is a constant struggle for survival. Filled with mutants trying to kill you, and a stomach that needs to be fed.
 ]]
 
 lang["#RACE_VAULTDWELLER_DESC"] = [[
-Slightly boosted CHR and INT cap. Slightly lowered END and STR cap.
+- Increased Charisma and Intelligence Capacity.
+- Decreased Endurance and Strength Capacity.
 
-You were born in a Vault-Tec vault; A shelter built before the war where your ancestors retreated to be saved from nuclear conflict
+You were born in a Vault-Tec vault; A shelter built before the war where your ancestors retreated to be saved from nuclear conflict, only to return to the surface in the early or far future.
 ]]
 
 lang["#RACE_GHOUL_DESC"] = [[
-Slightly boosted INT cap. Slightly lowered END cap.
-Immune to radiation. It also heals you. When your RAD level is high you get a buff to your END.
+- Increased Intelligence Capacity.
+- Decreased Endurance Capacity.
+- Immunity to Radiation; Higher Radiation levels will heal you, and buff your Endurance.
 
-You were human once upon a time, But at some point you were exposed to a fatal dose of radiation. Maybe there was a leak in your rad suit, perhaps you fell into a big crater, or possibly you were even around back before the bombs fell. You might not even remember. Whatever it was, you survived thanks to some genetic quirk and now you've became this... thing.
+You were human once upon a time, but at some point you were exposed to a fatal dose of radiation. Maybe there was a leak in your rad suit, perhaps you fell into a big crater, or possibly you were even around back before the bombs fell. You might not even remember. Whatever it was, you survived thanks to some genetic quirk and now you've became this... thing.
 ]]
 
 lang["#RACE_SUPERMUTANT_DESC"] = [[
-Significantly boosted STR and END cap. Significantly lowered INT and CHR cap. Slightly lowered AGI and LCK cap.
-Immune to radiation. It also affects you differently based on RAD level. High rads slightly buff your STR and END while slightly debuffing your INT and CHR.
-Cannot fit in normal human armors and must have custom-tailored clothing. Cannot use certain weapons.
+- Increased Strength and Endurance Capacity.
+- Decreased Intelligence, Charisma, Agility, and Luck Capacity.
+- Immunity to Radiation; Higher Radiation levels will buff Strength and Endurance, but debuff your Intelligence and Charisma.
+- Restriction from wearing normal human clothes and armor, and use of certain weapons.
 
 You were... hold on, you don't quite remember. At some point in your life you fell, or were thrown into a giant vat of weird green goo and turned into the creature you are today. It hurts your head when you try to remember what life was like before you woke up like this.
 ]]
@@ -541,7 +548,7 @@ lang["#UI_WORLDMAPWELCOME"] = "Welcome to the Travel Map!\nClick anywhere on the
 lang["#UI_WORLDMAPLOADIN"] = "You have entered a loadable region.\nClick on the downward pointing arrow at your location to enter."
 
 --Name
-lang["#WORLDNAME"] = "Cascadia Wasteland" -- The Pacific Northwest (Northern California to British Columbia) is nicknamed "Cascadia"
+lang["#WORLDNAME"] = "Pacific North Wastes" -- The Pacific Northwest (Northern California to British Columbia) is nicknamed "The Pacific North Wastes"
 
 -- Statistics
 lang["#STAT_TIMEPLAYED"] = "Time Played"
@@ -594,6 +601,15 @@ lang["#MISSIONREWARD_REPUTATIONDESC"] = "Accept a lesser reward for completing t
 lang["#MISSIONREWARD_INFLUENCE"] = "Community Influence Reward"
 lang["#MISSIONREWARD_INFLUENCEDESC"] = "Complete this mission in the name of your community to give your community more influence."
 
+lang["#MISSIONREWARD_OPTION1"] = "First Option"
+lang["#MISSIONREWARD_OPTION1DESC"] = "Take the rewards of the first option."
+
+lang["#MISSIONREWARD_OPTION2"] = "Second Option"
+lang["#MISSIONREWARD_OPTION2DESC"] = "Take the rewards of the second option."
+
+lang["#MISSIONREWARD_OPTION3"] = "Third Option"
+lang["#MISSIONREWARD_OPTION3DESC"] = "Take the rewards of the third option."
+
 lang["#MISSIONREWARD_INFLUENCE_COMMUNITYREQUIRED"] = "You can only accept this reward if you are in a community.\n\nPlayer Communities Coming Soon."
 
 lang["#UI_REPUTATION"] = "Reputation"
@@ -616,4 +632,4 @@ This item is cool.\nIt Comes from places
 				   ^
 ]]
 
-RELOADWEAPONS = true
+RELOADSCHEMA = true

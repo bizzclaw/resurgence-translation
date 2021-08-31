@@ -1,6 +1,15 @@
 local lang = RSRG.Languages["en"]
 
---INEU VALLEY TERMINALS
+
+--[[
+██╗███╗   ██╗███████╗██╗   ██╗    ████████╗███████╗██████╗ ███╗   ███╗██╗███╗   ██╗ █████╗ ██╗     ███████╗
+██║████╗  ██║██╔════╝██║   ██║    ╚══██╔══╝██╔════╝██╔══██╗████╗ ████║██║████╗  ██║██╔══██╗██║     ██╔════╝
+██║██╔██╗ ██║█████╗  ██║   ██║       ██║   █████╗  ██████╔╝██╔████╔██║██║██╔██╗ ██║███████║██║     ███████╗
+██║██║╚██╗██║██╔══╝  ██║   ██║       ██║   ██╔══╝  ██╔══██╗██║╚██╔╝██║██║██║╚██╗██║██╔══██║██║     ╚════██║
+██║██║ ╚████║███████╗╚██████╔╝       ██║   ███████╗██║  ██║██║ ╚═╝ ██║██║██║ ╚████║██║  ██║███████╗███████║
+╚═╝╚═╝  ╚═══╝╚══════╝ ╚═════╝        ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝╚══════╝
+]]
+
 --Ineu Factory Logs
 lang["#INEU_FACTORYLOG"] = {
 	name = "Circle G Foreman's Terminal",
@@ -13,7 +22,7 @@ lang["#INEU_FACTORYLOG"] = {
 				
 				I don't know who the waterbrain engineer that OK'd this plant design was, but we can't so much as run a single press for more than five minutes without knocking out power to the entire area, LET ALONE both presses and the Auto-loader.
 				
-				In the time it took for the phone lines to come back up, we already had a small crowd of townies crowding up the front gate, yelling at our staff. Followed up by a VERY irate call from the Colonel presiding over the military base across the river. Do you know how many boots are stationed at his base at any given time? Because I do now, as well as EXACTLY where he promised he'd plant'em if this happens again.
+				In the time it took for the phone lines to come back up, we already had a small crowd of townies at the front gate, yelling at our staff. Followed up by a VERY irate call from the Colonel presiding over the military base across the river. Do you know how many boots are stationed at his base at any given time? Because I do now, as well as EXACTLY where he promised he'd plant'em if this happens again.
 				
 				Unless you plan on paying us to staff the country's largest paperweight, you'll get someone out here to see about hooking us up with an on-site generator. A GOOD ONE. Me and my men aren't gonna end up on some Army firing line over a paycheck.
 			]]},
@@ -40,6 +49,7 @@ lang["#INEU_FACTORYLOG"] = {
 		}}
 	}
 }
+
 --Gorgeous Greg's Terminal
 lang["#INEU_GREGLOG"] = {
 	name = "Greg's Terminal",
@@ -84,6 +94,28 @@ lang["#INEU_GREGLOG"] = {
                 
 				I better be paid well for this.
 			]]},
+			{"A Couple Of Weirdos", [[
+				These two ghouls showed up today.
+				
+				Very unusual. The first thing I noticed about them was their hair- Ghouls don't have hair most of the time. These two had full, thick and shiny locks. They also smelled like shit. The second they walked in the door the entire room filled up with this awful chemical smell.
+				
+				It was the hair.
+
+				They're wigmakers, it turns out. Because ghouls- and some humans- can't grow hair, they fulfil that need and make a decent living off it.
+				Cool. After they were done telling me their life story I asked them to get the hell out of my bar on account of that awful smell. They refused and I had to force them out.
+				
+				I hope that's the last I see of those freaks.
+			]]},
+			{"They're back.", [[
+				Those freaks from earlier this week came back.
+				
+				This time they begged me to let them stay, and on top of that- they want to set up shop here. I almost started shooting before the fella told me something that actually changed my mind.
+				
+				They sell a luxury item, to luxurious people. By setting up shop in my bar, they'd give me a lot of traffic, and traffic that's willing to shell out a pretty penny too.
+				The idea sounded right at the time, so I didn't shoot them. I told them they could stay provided they got some better clothes, tried to help the smell, and promised to pay me a share of their profits.
+				
+				They came back the next day with some shitty, dirty suits and some slightly better smelling product. Still smells like vomit, but whatever. We'll have to see how much money they make me.
+			]]},
 			{"Next Page - Older Entries", [[
 				LOCKED - PASSWORD REQUIRED.
 			]]}
@@ -114,6 +146,63 @@ lang["#INEU_SHANTYLOG"] = {
 		}}
 	}
 }
+
+-- Raider John's Factory Log
+lang["#INEU_RAIDERFACTORYLOG"] = {
+	name = "Raider Logs",
+	logs = {
+		{"First Day Here.", [[
+			We arrived from out east, and damn, what a jackpot we hit. Factory filled with shit, working ammo press, we're gonna be the richest fuckers this world has ever seen! Just gotta figure out how to have the robots fight for us.
+		]]},
+		{"Day Four.", [[
+			Well, we lost one already. Some of the robots tried to process Terry, he was wearing scrap n stuff and I think the robots tried to process him into ammo, two of them picked him up and tried to toss him in, had to shoot the robots and take out half the factories worth of bots while we did that.
+			
+			On a brighter note, got some leads on some ore nearby, old factories that mine it, gonna hit it up with Betty's group while the others hold down the fort, gonna be out for a few days, Jax, if you're reading this, finish the fucking barricade.
+		]]},
+		{"Day Nine.", [[
+			Back from the mine, and man, a story to tell. Place is fucking infested with ants, and the church outside of it is filled with ferals, snuck by that place, not dealing with that today. Got to a huge open area, and Betty's got a computer whiz with her, so they got to lookin' at the computer.
+
+			Turns out the place runs on some kind of fuel, need to find something to start it up, some dead guy down there with a bunch of bite marks had some weird green stuff on him, we shoved it in and it started up, and oh god did we fuck up.
+
+			Chilled around for a minute, then we could hear the chittering, they started coming out of every tunnel, attacking the generators, so we went up the elevator, guy in a fucking suit locked a door on us, then we shot at the ants from above, let the power run out, and waited for them to leave.
+
+			Took us a bit to get back, 	
+		]]}
+	}
+}
+
+--[[
+███████╗ █████╗ ██╗     ███████╗███╗   ███╗
+██╔════╝██╔══██╗██║     ██╔════╝████╗ ████║
+███████╗███████║██║     █████╗  ██╔████╔██║
+╚════██║██╔══██║██║     ██╔══╝  ██║╚██╔╝██║
+███████║██║  ██║███████╗███████╗██║ ╚═╝ ██║
+╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝     ╚═╝
+]]
+
+lang["#SALEM_FACTORYLOG"] = {
+	name = "Factory Logs",
+	logs = {
+		{"First Day Here.", [[
+			
+		]]},
+		{"Day Four.", [[
+			S
+		]]},
+		{"Day Nine.", [[
+			S
+		]]}
+	}
+}
+
+--[[
+███████╗██╗   ██╗███████╗███╗   ██╗████████╗    ██████╗ ███████╗██╗      █████╗ ████████╗███████╗██████╗
+██╔════╝██║   ██║██╔════╝████╗  ██║╚══██╔══╝    ██╔══██╗██╔════╝██║     ██╔══██╗╚══██╔══╝██╔════╝██╔══██╗
+█████╗  ██║   ██║█████╗  ██╔██╗ ██║   ██║       ██████╔╝█████╗  ██║     ███████║   ██║   █████╗  ██║  ██║
+██╔══╝  ╚██╗ ██╔╝██╔══╝  ██║╚██╗██║   ██║       ██╔══██╗██╔══╝  ██║     ██╔══██║   ██║   ██╔══╝  ██║  ██║
+███████╗ ╚████╔╝ ███████╗██║ ╚████║   ██║       ██║  ██║███████╗███████╗██║  ██║   ██║   ███████╗██████╔╝
+╚══════╝  ╚═══╝  ╚══════╝╚═╝  ╚═══╝   ╚═╝       ╚═╝  ╚═╝╚══════╝╚══════╝╚═╝  ╚═╝   ╚═╝   ╚══════╝╚═════╝
+]]
 
 lang["#SALT_EVENTOILCAN"] = {
 	name = "Military Storage 4D-E Terminal",
@@ -174,4 +263,4 @@ lang["#SALT_EVENTOILCAN"] = {
 	}
 }
 
-RELOADWEAPONS = true
+RELOADSCHEMA = true

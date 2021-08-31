@@ -1,6 +1,8 @@
 local lang = RSRG.Languages["en"]
 
+--Disclaimers
 lang["#WIP"] = "[WIP]"
+lang["#WIP_DESC"] = "[WORK IN PROGRESS, CURRENT VERSION IS A PLACEHOLDER PENDING ADDITIONAL ASSESTS]"
 
 --Armor Tiers
 lang["#ARMOR_STANDARD"] = "Light"
@@ -9,18 +11,18 @@ lang["#ARMOR_HEAVY"] = "Heavy"
 
 -- Armor Slots
 lang["#ARMOR_TORSO"] = "Chestpiece"
-lang["#ARMOR_LARM"] = "Arm Left"
-lang["#ARMOR_RARM"] = "Arm Right"
-lang["#ARMOR_LLEG"] = "Leg Left"
-lang["#ARMOR_RLEG"] = "Leg Right"
+lang["#ARMOR_LARM"] = "Left Arm"
+lang["#ARMOR_RARM"] = "Right Arm"
+lang["#ARMOR_LLEG"] = "Left Leg"
+lang["#ARMOR_RLEG"] = "Right Leg"
 lang["#ARMOR_HELMET"] = "Helmet"
 
-lang["#PROTECTS_TORSO"] = "\nProtects torso"
-lang["#PROTECTS_LARM"] = "\nProtects left Arm"
-lang["#PROTECTS_RARM"] = "\nProtects right Arm"
-lang["#PROTECTS_LLEG"] = "\nProtects left Leg"
-lang["#PROTECTS_RLEG"] = "\nProtects right Leg"
-lang["#PROTECTS_HEAD"] = "\nProtects head"
+lang["#PROTECTS_TORSO"] = "\n\nProtects Torso."
+lang["#PROTECTS_LARM"] = "\n\nProtects Left Arm."
+lang["#PROTECTS_RARM"] = "\n\nProtects Right Arm."
+lang["#PROTECTS_LLEG"] = "\n\nProtects Left Leg."
+lang["#PROTECTS_RLEG"] = "\n\nProtects Right Leg."
+lang["#PROTECTS_HEAD"] = "\n\nProtects Head."
 
 
 --██╗    ██╗███████╗ █████╗ ██████╗  █████╗ ██████╗ ██╗     ███████╗    ███╗   ██╗ █████╗ ███╗   ███╗███████╗
@@ -150,17 +152,24 @@ lang["#GRAYSUITDIRTY_NAME"] = "Dirty Gray Suit"
 lang["#PINSTRIPESUITDIRTY_NAME"] = "Dirty Pinstripe Suit"
 lang["#TANSUITCLEAN_NAME"] = "Tailored Tan Suit"
 lang["#BLACKSUITCLEAN_NAME"] = "Tailored Black Suit"
-lang["#DISEASEDBLACKSUITCLEAN_NAME"] = "Alcatraz's Special Suit"
-lang["#DISEASEDFEDORABLACK_NAME"] = "Gator's Strange Fedora"
 lang["#BLUESUITCLEAN_NAME"] = "Tailored Blue Suit"
 lang["#GRAYSUITCLEAN_NAME"] = "Tailored Gray Suit"
 lang["#PINSTRIPESUITCLEAN_NAME"] = "Tailored Pinstripe Suit"
-lang["#CHECKEREDSUIT_NAME"] = "#WIPCheckered Suit"
+lang["#CHECKEREDSUIT_NAME"] = "Checkered Suit"
 lang["#TRENCHCOAT_NAME"] = "Faded Trenchcoat"
 lang["#THREEPIECESUIT_NAME"] = "Three Piece Suit"
-lang["#WASTELANDCOMMON1_NAME"] = "Plan Green Shirt and Pants"
+lang["#WASTELANDCOMMON1_NAME"] = "Button-up Shirt and Pants"
 lang["#WASTELANDCOMMON2_NAME"] = "Green Winter Coat"
 lang["#WASTELANDCOMMON3_NAME"] = "Red Scouting Jacket"
+lang["#LONGJOHNS_NAME"] = "Long Johns"
+lang["#BANDITBASE_NAME"] = "Bandit Wrappings"
+
+--NPC/Faction Clothing
+lang["#CIPHERSUIT1_NAME"] = "Intern's Blazer"
+lang["#CIPHERSUIT2_NAME"] = "Contractor's Blazer"
+lang["#CIPHERSUIT3_NAME"] = "Associate's Blazer"
+lang["#CIPHERSUIT4_NAME"] = "Manager's Blazer"
+lang["#CIPHERSUIT5_NAME"] = "Executive's Blazer"
 
 --BACK PACKS
 lang["#BACKPACK_SLOT_UPPER"] = "Covers Upper Back"
@@ -220,17 +229,33 @@ lang["#WHITEBANDANA_NAME"] = "White #BANDANA"
 lang["#BANDANA"] = "Bandana"
 
 lang["#CLOTHMASK_NAME"] = "Cloth Mask"
+lang["#SACKMASK_NAME"] = "Sack Mask"
+lang["#SACKWITHFILTERMASK_NAME"] = "Filtered Sack Mask"
+lang["#SACKWITHFILTERMASK2_NAME"] = "Filtered Goggle Sack Mask"
 lang["#KNIGHTHOOD_NAME"] = "Undersuit Cowl"
 lang["#WELDGOGGLES_NAME"] = "Tinted Welding Goggles"
 lang["#SLOTGOGGLES_NAME"] = "Slitted Goggles"
-lang["#DISEASEDGOGGLES_NAME"] = "Null's Unlucky Goggles"
 lang["#SKIGOGGLES_NAME"] = "Ski Goggles"
 lang["#GOGGLES_NAME"] = "Tinted Goggles"
 lang["#METALGOGGLES_NAME"] = "Metal Goggles"
 lang["#GLASSES_NAME"] = "Glasses"
 lang["#POLICEGLASSES_NAME"] = "Authority Glasses"
 
+-- WIGS
+lang["#WIG0_NAME"] = "Clean Wig"
+lang["#WIG1_NAME"] = "Shifty Wig"
+lang["#WIG2_NAME"] = "Neat Wig"
+lang["#WIG3_NAME"] = "Long Wig"
+lang["#WIG4_NAME"] = "Cut Wig"
+lang["#WIG5_NAME"] = "Lady Wig"
+lang["#WIG6_NAME"] = "Short Wig"
+lang["#WIG7_NAME"] = "Prim Wig"
+lang["#WIG8_NAME"] = "Bobbed Wig"
+lang["#WIG9_NAME"] = "Messy Wig"
 
+--SPECIAL WIGS
+lang["#WIGPOMPADOUR_NAME"] = "Pompadour Wig"
+lang["#WIGCONE_NAME"] = "Cone Wig"
 
 
 --██╗    ██╗███████╗ █████╗ ██████╗  █████╗ ██████╗ ██╗     ███████╗    ██████╗ ███████╗███████╗ ██████╗
@@ -254,7 +279,7 @@ lang["#ENCLAVEARMOR_DESC"] = "Some say they've seen heavily armed groups patroll
 lang["#LEATHERARMOR_DESC"] = "Tanned leather jacket and pants with some metal plating on the shoulders. Very fashionable."
 lang["#NCRPATROLRANGERARMOR_DESC"] = "A khaki and brown drab colored set of Combat armor used by the NCR.\n\nCombat armor is ideal for defense against common balistic, energy, and melee based weapons.\n\nThis full uniform was hand-manufactured in the NCR based on pre-war military designs, providing cover to all but your head."
 lang["#NCRCHESTPLATE_DESC"] = "A khaki colored plate carrier with a pair of Pre-War armor plates.\n\nMetalic plate armor is suitible for defense against common handgun, shotgun, and rifle attacks, but is still vulnerable to AP ammunition and other non-balistic threats.\n\nThis vest covers the wearer's chest and back, but not much else."
-lang["#METALARMOR_DESC"] = "An old metal suit made for some pre-war sport. It's been modified to be suited for the complete opposite of it's original intention."
+lang["#METALARMOR_DESC"] = "A piece of a full metal armor that was once used with the intention of protection from physical contact in sports. Now, used as protection from wasteland threats."
 lang["#PAINSPIKEARMOR_DESC"] = "Some torn pants with scavenged metal plates all over. This barely even counts as armor, let alone clothing."
 lang["#PREYSUIT_DESC"] = "A special suit for breaching dimentional boundaries, used by the masters of this universe."
 lang["#PREYHELMET_DESC"] = "The helmet that pairs with the dimensional breach suit. Removing it should slow you down enough to interact with the fleshlings."
@@ -265,9 +290,15 @@ lang["#T45DPOWER_DESC"] = "One of the first versions of power armor to be ever u
 lang["#MWPA_DESC"] = "A modified suit of T51b Power Armor which is said to be used by Brotherhood forces in the far east. It must've travelled a long way to get here."
 lang["#T51BPOWER_DESC"] = "The pride and joy of the Pre-War United States Military. This turns anyone who wears it into a walking tank, but it's hydraulics don't exactly help against falling."
 lang["#RAIDERARMOR_DESC"] = "This armor consists of scrap metal plates molded into armor pieces reinforced by metal bars along with wires fastened together by leather straps. \n\nOften found on the many brigands and cut-throats across the wastes, Not only is the armor \"homemade\" but it is of low quality."
-lang["#ENCLAVEHAZMAT_DESC"] = "This radiation suit appears to be of unusually high quality.\n\nIt's a bright white with a yellow stripe lining alongside the zipper, and a golden visor. It also bears an insignia with the letter 'E'. "
+lang["#ENCLAVEHAZMAT_DESC"] = "This radiation suit appears to be of unusually high quality.\n\nIt's a bright white with a golden visor. It also bears an insignia with the letter 'E'."
 lang["#SECRETAGENTSUIT_DESC"] = "Complete with interwoven ballistic fibers, flame-retardant silk, and built in persuasion emitters, this suit is perfect for any man with a license to kill.\n\nIt was tailored to your size."
 
+--NPC/Faction Clothing
+lang["#CIPHERSUIT1_DESC"] = "Intern's Blazer" -- WIP
+lang["#CIPHERSUIT2_DESC"] = "Contractor's Blazer" -- WIP
+lang["#CIPHERSUIT3_DESC"] = "Associate's Blazer" -- WIP
+lang["#CIPHERSUIT4_DESC"] = "Manager's Blazer" -- WIP
+lang["#CIPHERSUIT5_DESC"] = "Executive's Blazer" -- WIP
 
 --SuperMutant Armor Desc
 lang["#SM_CHESTHARNESS_DESC"] = "Hide straps and buckles fastening together what would seem to be derelict vehicle parts. #SUPERMUTANT_CLOTHES"
@@ -304,7 +335,7 @@ lang["#MWPAHELMET_DESC"] = "A modified helmet of T51b Power Armor which is said 
 lang["#T51BHELMET_DESC"] = "A dome shaped steel-polymer power armor helmet with a single bulletproof slit for a lens and many advanced systems within. Given the shape, it's no wonder people who wear these are called bucket heads."
 lang["#WELDINGMASK_DESC"] = "A mask, hood, and numerous straps and basic mechanisms.\n Usually used by engineers, makers, or anyone exposing themselves to extremely bright flashes of light."
 lang["#DESRANGERHELMET_DESC"] = "The signature helmet worn by members of the Desert Rangers.\n It appears to bear markings and writing that make the helmet out to be pre-war in nature.\n The numerous high-tech and machine manufactored finishes on the helmet may only be rivaled by the NCR."
-lang["#METALHELMET_DESC"] = "An old baseball helmet. Once good for protection from 100+ MPH balls, now good for protection from the bats used to hit those balls."
+lang["#METALHELMET_DESC"] = "An old baseball helmet. Once good for protection from 100+ MPH balls, now good for protection from the bats that used to hit those balls."
 
 
 --Super Mutant Helmet Description
@@ -328,14 +359,13 @@ lang["#ROADLEATHERS_DESC"] = "Road leathers, consisting of a leather jacket, pan
 lang["#TSHIRTJEANS_DESC"] = "A dirty, tattered white crewneck t-shirt worn with equally damaged blue jeans and tennis shoes.\n\nClothes like these were popular Pre-war during recreational activities. Post-war, finding something this lightweight and covering is a luxury.\n\nLucky You!"
 lang["#TATTEREDRAGS_DESC"] = "A ripped and worn-out outfit you aren't sure was ever really whole to begin with.\n\nWoe to the unlucky outcasts who wear this poor excuse for clothing.\n\n. . . May yet provide some type of boost to Prospecting, but at what cost?"
 lang["#VAULTSUIT_DESC"] = "Vault jumpsuits are the regulation clothing carried by the vault dwellers of Vault-Tec vaults.\n\nThey are made of leather, blue with a yellow zipper and the number of the vault is on the back of the suit and on the outside of the collar."
-lang["#FLANNEL_DESC"] = "Flannel shirt and jeans"
+lang["#FLANNEL_DESC"] = "An old flannel shirt, with a pair of jeans. Lot's of people new to these parts of the wasteland are seen running around in these. And guess what, it still looks pretty good for its age!\n\n#STARTER_DEFAULT_DISCLAIMER"
 lang["#DRIFTER_DESC"] = "A well-worn outfit put together from assorted pieces of clothing found while scavenging the wastes.\n\nIt kind of reeks, and you think something may have died inside of one of the pockets."
 lang["#SCRIBEOPERATOR_DESC"] = "A protective robe designed to allow for mobile analysis while in the field.\n\nIt features several pouches along the belt to allow for transportation of research material."
 lang["#SCRIBEMEDICAL_DESC"] = "An outfit designed for medical practitioners, it features several pouches to allow for quick access to life-saving gear.\n\nYou wonder if the red stain on the pouches is blood or ketchup. It's a 50/50 toss."
 lang["#SCRIBEFATIGUES_DESC"] = "A uniform designed for individuals that are both off and on-duty. Pouches on the front allow for storage of magazines, ammunition, and snacks.\n\nHopefully someone isn't missing this, seeing as it's issued to them."
 lang["#SCRIBEENGINEER_DESC"] = "A heavy-duty garment designed for the wear-and-tear encountered when working on machinery.\n\nWhy use a toolbox when you can just add more pouches?"
-lang["#SCRIBESCIENCE_DESC"] = "A set of heavy-duty work clothes designed by the Brotherhood of Steel, the robes consist of a durable, double-layered overcoat that protects against environmental hazards and workplace accidents. Leather arm protectors further reduce the risk of injury, as do the heavy boots. A thick leather utility belt is worn for convenience. The robes are typically colored red, although different colors have been used." -- WIP
-lang["#DISEASEDBLACKSUITCLEAN_DESC"] = "Let me check Status real quick."
+lang["#SCRIBESCIENCE_DESC"] = "A set of heavy-duty work clothes designed by the Brotherhood of Steel, the robes consist of a durable, double-layered overcoat that protects against environmental hazards and workplace accidents. Leather arm protectors further reduce the risk of injury, as do the heavy boots. A thick leather utility belt is worn for convenience. The robes are typically colored red, although different colors have been used."
 lang["#FADEDBLUEJACKET_DESC"] = "A set of jeans, button-up shirt, and a denim jacket. The Wasteland's best casual wear for long walks."
 lang["#WINTERJACKET_DESC"] = "A set of jeans, button-up shirt, and a denim jacket. The Wasteland's best casual wear for long walks."
 lang["#YELLOWRAGS_DESC"] = "A few small bags and a chain for clipping miscellaneous items or objects to.\n The foundation of this outfit is a basic set of pants and a yellow cotton shirt."
@@ -369,6 +399,8 @@ lang["#THREEPIECESUIT_DESC"] = "A raggedy three-piece suit. Disgusting taste in 
 lang["#WASTELANDCOMMON1_DESC"] = "A plain green shirt with rugged, patched together red pants."
 lang["#WASTELANDCOMMON2_DESC"] = "A thick green jacket, great for those long, mountain nights."
 lang["#WASTELANDCOMMON3_DESC"] = "A crimson scout jacket filled with pockets."
+lang["#LONGJOHNS_DESC"] = "A pair of dirtied underclothes.\n\nTattered and held together with duct tape, it's the only thing seperating some people from nudity."
+lang["#BANDITBASE_DESC"] = "A mess of tattered cloth and belts, somewhat resembling clothing.\n\nThen again, the kind of people sporting this outfit aren't exactily big on ''social contracts''."
 
 
 -- Backpack Descriptions
@@ -387,7 +419,7 @@ lang["#CHINESECOMMANDOCAP_DESC"] = "A warm-looking cap adorned by China's milita
 lang["#BANDANA_DESC"] = "A piece of cloth that ties around your head."
 lang["#BEANIEBLUE_DESC"] = "A blue colored wool knit hat, also known as a Beanie.\n\nPopular with longshoremen and others that work in chilly environments."
 lang["#BEANIEGREEN_DESC"] = "A green colored wool knit hat, also known as a Beanie.\n\nPopular with longshoremen and others that work in chilly environments."
-lang["#BEANIEHIPPY_DESC"] = "A brightly colored wool knit hat, also known as a Beanie.\n\nPopular with longshoremen and others that work in chilly environments.\n\nAnd yet, you have to wonder what kind of Jackass would wear this."
+lang["#BEANIEHIPPY_DESC"] = "A brightly colored wool knit hat, also known as a Beanie.\n\nPopular with longshoremen and others that work in chilly environments.\n\nAnd you wonder what kind of a jackass would wear this."
 lang["#BERETGREEN_DESC"] = "A beret previously worn by pre-war military special forces."
 lang["#BERETRED_DESC"] = "A beret previously worn by pre-war paratroopers."
 lang["#BOSCAPTAINHAT_DESC"] = "With a hat like this, you'll look like just as big of a technology hoarding prick as people claim you really are!"
@@ -395,7 +427,6 @@ lang["#BOSFIELDCOVER_DESC"] = "An aviators hood combined with a small military c
 lang["#BOWLER_DESC"] = "A black dome-shaped hat with a matching sweatband.\n\nAlso know as a Derby, it is made of a hard, dark felt, and was very popular for its durability, back when they didn't have to worry about giant ants."
 lang["#CHEFHAT_DESC"] = "a white hat, typically worn, as the name implies, by a chef.\n\nIn the post-apocalypse, food poisoning is no longer a chefs biggest concern."
 lang["#COWBOYHAT1_DESC"] = "A black hat with a large brim."
-lang["#DISEASEDFEDORABLACK_DESC"] = "M'lady."
 lang["#COWBOYHAT2_DESC"] = "A brown hat with three distinct points."
 lang["#COWBOYHAT3_DESC"] = "An uncured leather hat with a large brim."
 lang["#COWBOYHAT4_DESC"] = "A wide brimmed hat that's curved to the side.\nKeeps the sun out of your eyes."
@@ -416,20 +447,24 @@ lang["#RAINBLACK_DESC"] = "A black rain hat, also known as a slicker.\n\nPopular
 lang["#RAINYELLOW_DESC"] = "A yellow rain hat, also known as a slicker.\n\nPopular with deep sea fishermen and those who like to sing in the rain."
 lang["#SEACAPTAINHAT_DESC"] = "Dispite humanity's best efforts, the ocean still exists!\n\nLord your dominion over what is left with this hat."
 lang["#SNOWHAT_DESC"] = "A fur insulated hat designed for cold weather.\n\nFavored extensivly by hunters and others who operate in extreme cold environments for extended amounts of time."
-lang["#TINKERHAT_DESC"] = "A bomber hat with various pieces of junk strapped to it.\n\nPerhaps the wear thought themselves sometihng of a genuis."
+lang["#TINKERHAT_DESC"] = "A bomber hat with various pieces of junk strapped to it.\n\nPerhaps the wear thought themselves something of a genuis."
 lang["#TOPHAT_DESC"] = "A glamorous hat for those of only the finest of temperament."
-lang["#BANDANA_DESC"] = "A dyed and patterened square of cloth folded into a triangle.\n Generally meant for use in dusty environments to act as a dust mask."
+lang["#BANDANA_DESC"] = "A dyed and patterened square of cloth folded into a triangle.\nGenerally meant for use in dusty environments to act as a dust mask."
 lang["#CLOTHMASK_DESC"] = "A basic piece of fabric sewn onto elastic bands. Worn over the nose, mouth, and lower face."
+lang["#SACKMASK_DESC"] = "A crude mask popular with bandits.\n\nA thin nylon mesh to keeps sand out of the eyes, with a thicker burlap making up the body."
+lang["#SACKWITHFILTERMASK_DESC"] = "A crude mask popular with bandits.\n\nThe scavenged hose and filter should keep the sand out of your lungs.\n\n''Should''"
+lang["#SACKWITHFILTERMASK2_DESC"] = "A crude mask popular with bandits.\n\nA single goggle lens offers slightly better visability to a terrible piece of headgear."
 lang["#KNIGHTHOOD_DESC"] = "A padded cowl with many metal and electronic ports and plugs."
-lang["#DISEASEDGOGGLES_DESC"] = "My luck may be low but Ping's intelligance is lower."
 lang["#WELDGOGGLES_DESC"] = "A much more portable and stylish alternative to the welding masks used by engineers or anyone exposing themselves to bright flashes of light.\n The small tinted rounds of glass ensure the user retain their vision after staring into the sun."
 lang["#SLOTGOGGLES_DESC"] = "A pair of slitted or slotted goggles, more than likely an odd  alternative to sunglasses."
 lang["#SKIGOGGLES_DESC"] = "A pair of Ski Goggles meant for handling intense winds while maximising the wearer's field of view."
 lang["#GOGGLES_DESC"] = "A pair of tinted goggles for casual wear. They help keep the dust and wind out of the eyes, perfect for long trips in the Wastes."
 lang["#METALGOGGLES_DESC"] = "A pair of metal framed goggles for casual wear. With a sturdy build they help keep the dust and wind out of the eyes, perfect for long trips in the Wastes."
-lang["#GLASSES_DESC"] = "Frames with magnified lenses, allowing those with bad eyesight to see better." -- WIP
-lang["#POLICEGLASSES_DESC"] = "Glasses, but cooler." -- WIP
-
+lang["#GLASSES_DESC"] = "Frames with magnified lenses, allowing those with bad eyesight to see better."
+lang["#POLICEGLASSES_DESC"] = "Glasses, but cooler."
+lang["#WIG1_DESC"] = "For when you've got no time for a haircut, or have a bad history with patterns."
+lang["#WIGPOMPADOUR_DESC"] = "For when your hair has left the building."
+lang["#WIGCONE_DESC"] = "For when you need to stand out like a sore thumb. Literally."
 
 --███████╗███╗   ██╗███████╗██████╗  ██████╗██╗   ██╗
 --██╔════╝████╗  ██║██╔════╝██╔══██╗██╔════╝╚██╗ ██╔╝
@@ -473,6 +508,7 @@ lang["#PLASMAGUN_SNIPERRIFLE_NAME"] = "Plasma Sniper Rifle"
 -- Laser
 
 lang["#LASERGUN_PISTOL_NAME"] = "Laser Pistol"
+lang["#LASERGUN_PISTOL_STARTER_NAME"] = "Unfocused Laser Pistol"
 lang["#LASERGUN_BLASTER_NAME"] = "Laser Blaster"
 lang["#LASERGUN_RIFLE_NAME"] = "Laser Rifle"
 lang["#LASERGUN_CARBINE_NAME"] = "Laser Carbine"
@@ -501,12 +537,13 @@ lang["#TRILASERRIFLE_NAME"] = "Tri-Beam Laser Rifle"
 lang["#GATLASER_DESC"] = "A multi-prism Gatling Laser.\n\nDesigned specifically for military use, these were in the prototype stage at the beginning of the Great War.\n\nPowered by Electron Charge Packs,these weapons have a high rate of fire and a generous battery resevoir."
 lang["#INCENERATOR_DESC"] = "Designed by some high-tech faction claiming to be the old world government, this monster shoots napalm like a mortar."
 lang["#AERPISTOL_DESC"] = "The AER7 Laser Pistol is a military-grade laser, infrequently used by police and military units before the war. It makes use of a crystal array making it far more lethal than a Wattz."
+lang["#AERPISTOL_STARTER_DESC"] = "A defective laser pistol pieced together from other defective laser pistols."
 lang["#AERRIFLE_DESC"] = "The AER9 Laser Rifle is a high-power laser rifle that makes use of a crystal array, and was on track to be fielded by domestic military units prior to the Great War."
-lang["#PLASMACASTER_DESC"] = "The Winchester P94 Caster was used as an industrial destruction tool utilizing plasma bolts before the the war.\n\nNow it's just a destruction tool that uses plasma bolts.\n\n[WORK IN PROGRESS, CURRENT VERSION IS A PLACEHOLDER PENDING ADDITIONAL ASSESTS]"
+lang["#PLASMACASTER_DESC"] = "The Winchester P94 Caster was used as an industrial destruction tool utilizing plasma bolts before the the war.\n\nNow it's just a destruction tool that uses plasma bolts.\n\n#WIP_DESC"
 lang["#PLASMAGUN_DESC"] = "Plasma rifles are high-tech weapons which find numerous applications in military and industrial fields.\n\nThe plasma bolt is a toroid of superheated hydrogen gas that delivers high levels of both thermal and kinetic energy damage to the target, melting through most types of armors and causing massive 3rd-degree and 4th-degree burns."
 lang["#GAUSSRIFLE_DESC"] = "The Gauss Rifle uses magnetic induction to propel a projectile at an incredible and devastating speed.\n\nEach shot can be charged for maximum damage by keeping the trigger held for a moment before releasing."
 lang["#RCW_DESC"] = "A precursor to the Gatling Laser, the unique feature of this weapon is the addition of a rotating capacitor bank.\n\nThis capacitor rotation allows the Laser RCW to operate like a ''laser assault rifle'', avoiding the rate-of-fire limitations of a single capacitor design."
-lang["#TRILASER_DESC"] = "A heavily modified weapon formed by combining multiple lasers.\n\nFires 3 full-powered beams per trigger pull, while consuming just as much ammo.\n\nMassivly improved damage output compaired to the standard Laser Rifle, but it's hastily improvised design requires much more frequent maintenance.\n\n[WORK IN PROGRESS, CURRENT VERSION IS A PLACEHOLDER PENDING ADDITIONAL ASSESTS]"
+lang["#TRILASER_DESC"] = "A heavily modified weapon formed by combining multiple lasers.\n\nFires 3 full-powered beams per trigger pull, while consuming just as much ammo.\n\nMassivly improved damage output compaired to the standard Laser Rifle, but it's hastily improvised design requires much more frequent maintenance.\n\n#WIP_DESC"
 lang["#FLAMER_DESC"] = "The Flambe model 450 Flamer Varmiter version. Shoots hot napalm out for 'bug extermination'."
 --[[
 lang["#AER9_DESC"] = "The AER9 is a high-tech weapon that emits a concentrated beam of coherent light, with sufficient wattage to do considerable damage.\n\nFar sturdier and more reliable, it's much more commonly found than the models that followed."
@@ -530,6 +567,7 @@ lang["#ASSAULTCARBINE_NAME"] = "Assault Carbine"
 lang["#ANTIMAT_NAME"] = "Anti-Materiel Rifle"
 lang["#LEVERGUN_NAME"] = "Brush Gun"
 lang["#COWBOYREPEATER_NAME"] = "Cowboy Repeater"
+lang["#COWBOYREPEATER_STARTER_NAME"] = "Antique Cowboy Repeater"
 lang["#TRAILCARBINE_NAME"] = "Trail Carbine"
 lang["#DKS_NAME"] = "Sniper Rifle"
 lang["#FAMAS_NAME"] = "FAMAS"
@@ -539,12 +577,17 @@ lang["#R91_NAME"] = "Assault Rifle"
 lang["#SERVICERIFLE_NAME"] = "Service Rifle"
 lang["#AK_NAME"] = "Soviet Rifle"
 lang["#PIPERIFLE_NAME"] = "Pipe Gun"
+lang["#PIPERIFLE_STARTER_PISTOL_NAME"] = "Scrap Pistol"
+lang["#PIPERIFLE_STARTER_RIFLE_NAME"] = "Scrap Rifle"
+lang["#PIPERIFLE_STARTER_SMG_NAME"] = "Scrap SMG"
 lang["#PIPERIFLEBOLT_NAME"] = "Pipe Bolt-Gun"
 lang["#VARMINT_NAME"] = "Varmint Rifle"
+lang["#VARMINT_STARTER_NAME"] = "Bubba'ed Varmint Rifle"
 lang["#MACHINEGUN_NAME"] = "Light Machine Gun"
 lang["#G11_NAME"] = "Salvo Rifle"
 
 
+lang["#SVD_NAME"] = "Soviet Sniper"
 lang["#RHODIESPECIAL_NAME"] = "Rhodesian Special"
 lang["#R91INFILTRATOR_NAME"] = "Infiltrator"
 lang["#R91PERFORATOR_NAME"] = "Perforator"
@@ -556,11 +599,13 @@ lang["#SRIFLEM199_NAME"] = "M199 Service Rifle"
 lang["#HRIFLESURPLUS_NAME"] = "Surplus Rifle"
 
 --Shotgun
+lang["#SHOTGUN"] = "Shotgun"
 lang["#COMBATSHOTGUN_NAME"] = "Combat Shotgun"
 lang["#SINGLEBARREL_NAME"] = "Single Shotgun"
 lang["#DOUBLEBARREL_NAME"] = "SxS Shotgun"
 lang["#TOZ34_NAME"] = "O/U Shotgun"
 lang["#870_NAME"] = "Pump Action Shotgun"
+lang["#STREETSWEEPER_NAME"] = "Street Sweeper"
 
 
 --Handgun
@@ -569,11 +614,13 @@ lang["#MAUSER_NAME"] = "Mauser Pistol"
 lang["#10MMPISTOL_NAME"] = "10mm Pistol"
 lang["#12.7MMPISTOL_NAME"] = "12.7mm Pistol"
 lang["#357MAGNUM_NAME"] = ".357 Revolver"
+lang["#357MAGNUM_STARTER_NAME"] = "Rusted Magnum"
 lang["#44MAGNUM_NAME"] = ".44 Magnum Revolver"
 lang["#DEAGLE_NAME"] = ".44 Magnum Pistol"
 lang["#HUNTINGREVOLVER_NAME"] = "Hunting Revolver"
 lang["#NEEDLER_NAME"] = "HK Needler"
 lang["#M9FS_NAME"] = "9mm Pistol"
+lang["#M9FS_STARTER_NAME"] = "Weathered 9MM Pistol"
 lang["#1911PISTOL_NAME"] = ".45 Auto Pistol"
 
 
@@ -590,9 +637,11 @@ lang["#MINIGUN_NAME"] = "5mm Minigun"
 lang["#VINDICATOR_NAME"] = "Vindicator Minigun"
 --other
 lang["#SYRINGER_NAME"] = "Dart Gun"
+lang["#FARTNADE_NAME"] = "Fart-Nade"
 
 --explosive
 lang["#APW_NAME"] = "25mm APW"
+lang["#M79_NAME"] = "Break-Action Grenade Rifle"
 lang["#FATMAN_NAME"] = "Fat-Man"
 lang["#MISSILELAUNCHER_NAME"] = "Missile Launcher"
 -------------------------------------------------------
@@ -601,8 +650,9 @@ lang["#MISSILELAUNCHER_NAME"] = "Missile Launcher"
 --rifle
 lang["#ASSAULTCARBINE_DESC"] = "The assault carbine is a magazine-fed, compact automatic weapon with a high rate of fire and a comparatively low max spread.\n\nChambered in 5mm, this weapon was designed as a lightweight, portible solution for armored infantry.\n\nThe compairably small size of the round however makes it ill suited for anything other than its intended purpose."
 lang["#ANTIMAT_DESC"] = "The PGM Hecate II is an extremely powerful Anti-Materiel weapon made to be used against heavily armored military equipment\n\nOne could only imagine what it could do to a Deathclaw."
-lang["#COWBOYREPEATER_DESC"] = "A Pre-War reproduction of a now ancient design, the Cowboy Repeater.\n\nIt's a good thing too, 19th century ammo is hard to come by.\n\n[WORK IN PROGRESS, CURRENT VERSION IS A PLACEHOLDER PENDING ADDITIONAL ASSESTS]"
-lang["#TRAILCARBINE_DESC"] = "A Pre-War reproduction of a now ancient design, chambered for modern ammuniton.\n\nIt's a good thing too, 19th century ammo is hard to come by.\n\n[WORK IN PROGRESS, CURRENT VERSION IS A PLACEHOLDER PENDING ADDITIONAL ASSESTS]"
+lang["#COWBOYREPEATER_DESC"] = "A Pre-War reproduction of a now ancient design, the Cowboy Repeater.\n\nIt's a good thing too, 19th century ammo is hard to come by.\n\n#WIP_DESC"
+lang["#COWBOYREPEATER_STARTER_DESC"] = "An ancient Cowboy Repeater chambered in .38 Special only. Still pretty powerful, could use some cleaning though."
+lang["#TRAILCARBINE_DESC"] = "A Pre-War reproduction of a now ancient design, chambered for modern ammuniton.\n\nIt's a good thing too, 19th century ammo is hard to come by.\n\n#WIP_DESC"
 lang["#DKS_DESC"] = "A DKS-501 sniper rifle, excellent for long range combat.\n\nChambered for .308.\n\nPrimarily seen issued as a contract military weapon; it saw limited use in the commercial market as a high-end, but notoriously fragile, hunting rifle."
 lang["#FAMAS_DESC"] = "A Bullpup service rifle manufactured in France.\n\nChambered for 5.56, this uncommon rifle is easier fed than found. One wonders how it ever made its way stateside."
 lang["#FAL_DESC"] = "A battle rifle produced by the Belgian arms manufacturer Fabrique Nationale de Herstal.\n\nThis rifle has been more widely used by armed forces than any other rifle in history."
@@ -613,11 +663,16 @@ lang["#R91_DESC"] = "An R91 full-auto urban assault rifle, issued to U.S. Armed 
 lang["#SERVICERIFLE_DESC"] = "A semiautomatic rifle of U.S. origin.\n\nReverse engineered from Pre-war schematics, this design has enjoyed a new found surge in popularity for its ease of manufacturing and respectable firepower.\n\nThis example is a post-war imitation, as the originals had been phased out in favor of the R Series by the time the bombs fell."
 lang["#AK_DESC"] = "A design used En-Mass during the Resource Wars for Chinese infiltrators and sympathizers.\n\nThousands of these weapons were smuggled into the US, and many remain functional even two hundred years after the Great War."
 lang["#PIPERIFLE_DESC"] = "A crude, but effective weapon. Fashioned from leftover scrap and Pre-War piping, its cheap and easy to produce.\n\nCoupled with it's 9mm chambering, this makes it widely used by Raiders and loners alike."
+lang["#PIPERIFLE_STARTER_PISTOL_DESC"] = "A functional gun, made with scraps. Nothing really special about it, other than it shoots bad bullets."
+lang["#PIPERIFLE_STARTER_RIFLE_DESC"] = "A functional gun, made with scraps. A stronger base with a crappy stock screwed onto it, shoots pretty slow though."
+lang["#PIPERIFLE_STARTER_SMG_DESC"] = "A functional gun, made with scraps. This one has a auto-tune built in, so it can fire fully automatic. Very weak with damage though."
 lang["#PIPERIFLEBOLT_DESC"] = "A simple, but effective weapon. Fashioned from leftover scrap and Pre-War piping, its powerful and easy to produce.\n\nGiven the high pressure of its .308 chambering, an internal top-loaded magazine and a bolt action were chosen over, well, it exploding in your hands."
-lang["#VARMINT_DESC"] = "A Pre-War rifle typically used in hunting small game.\n\nLower powered than it's .308 cousin, but much more common, as is it's ammo.\n\nChambered in 5.56.\n\n[WORK IN PROGRESS, CURRENT VERSION IS A PLACEHOLDER PENDING ADDITIONAL ASSESTS]"
+lang["#VARMINT_DESC"] = "A Pre-War rifle typically used in hunting small game.\n\nLower powered than it's .308 cousin, but much more common, as is it's ammo.\n\nChambered in 5.56.\n\n#WIP_DESC"
+lang["#VARMINT_STARTER_DESC"] = "A terribly mistreated varmint rifle chambered in 5.56.\n\nThis gun saw it's share of abuse long before the bombs dropped, and the following years have't been any kinder."
 lang["#MACHINEGUN_DESC"] = "A fully automatic support machinegun.\n\nChambered in 5.56 and sporting a 90 round magazine by default, this is one of the more intimidating Pre-War small arms surviving still today.\n\nUnfortunately, you'll need the combined strength and resources of an army to carry and feed it."
 lang["#G11_DESC"] = "The HK G11 K2 is one of the most advanced assault rifles created.\n\nIt is capable of firing salvos of caseless 4.7MM which exit the gun before any recoil can even be felt.\n\nDue to complex construction and rare materials, as well as specialized ammo that is difficult to procure, this rifle is exceedingly rare."
 
+lang["#SVD_DESC"] = "A lengthy rifle. Similar to the Soviet Rifle, but is capable of firing .308 rounds, which makes it a great sniper to use."
 lang["#RHODIESPECIAL_DESC"] = "''Pugnamus Amo Leo''" --  probably don't change this because it's supposed ot be a latin reference
 lang["#R91INFILTRATOR_DESC"] = "R91 urban assault rifle, Infiltration Variant.\n\nDesigned for use by special operations groups, the stock has been removed, barrel shortened, and a supressor, optic, and extended magazine have been added."
 lang["#R91PERFORATOR_DESC"] = "R91 urban assault rifle, Infiltration Variant.\n\n''This is the best gun I ever had. A little slower on the trigger, but she makes up for it in power and accuracy.\n\nUse her in good health.''"
@@ -634,35 +689,40 @@ lang["#SINGLEBARREL_DESC"] = "A single-shot break action shotgun.\n\nSimple, dep
 lang["#DOUBLEBARREL_DESC"] = "A Side-By-Side shotgun. Popular in hunting and Pre-War shooting sports.\n\nCapable of firing 12 Gauge shotgun shells, of which various types exist."
 lang["#TOZ34_DESC"] = "An Over/Under shotgun. Popular in hunting and Pre-War shooting sports.\n\nCapable of firing 12 Gauge shotgun shells, of which various types exist."
 lang["#870_DESC"] = "A Pump Action shotgun. Popular in hunting and Pre-War home protection.\n\nCapable of firing 12 Gauge shotgun shells, of which various types exist."
+lang["#STREETSWEEPER_DESC"] = "A semi-automatic shotgun with a drum magazine.\n\nCapable of firing 12 Gauge shotgun shells, of which various types exist.\n\nSeen infrequently in the hands of pre-war military units and police departments, this model has found renewed popularity post war by just about anyone able to get their hands on it.\n\n#WIP_DESC"
 --handgun
 lang["#USP_DESC"] = "An H&k USP, made in a foreign country.\n\nOnce marketed towards international Law Enforcement and Military use, this pistol never saw adoption in the U.S.\n\nPlagued by competition with dometic manufacturers, high import costs, and a particularly embarrassing mistake on a widespread promotional poster, these pistols are an obscure rarity in the Wasteland."
 lang["#MAUSER_DESC"] =  "A Shanxi Type 17 pistol.\n\nMass produced by the Taiyuan Arsenal for the army of Yan Xishan, this pistol is now a relic of the Sino-American War."
 lang["#10MMPISTOL_DESC"] = "Favored for it's quality and simple manufacturing, this weapon was widely used by law enforcement in the old world.\n\nDue to it's reliability in desert-like conditions, the Colt 6520 is still widely used today."
 lang["#12.7MMPISTOL_DESC"] = "A Sig-Sauer 12.7mm Semi-auto Pistol.\n\nLarge, semi-automatic handgun with a fixed barrel, an example of excellent craftsmanship.\n\nImported to the U.S. from Europe, this design was chambered originally in 14mm."
 lang["#357MAGNUM_DESC"] = "A single action revolver chambered for .357 Magnum and .38 special rounds.\n\nIts compairably slow firing rate and low capacity are made up for with its powerful cartridge and reliable action.\n\nThe cylinder swings open to quickly eject spend rounds and reload."
+lang["#357MAGNUM_STARTER_DESC"] = "An old magnum. Can still load and shoot .357, but not as well as it probably could have back then."
 lang["#44MAGNUM_DESC"] = "One of the bigger bore handguns in the world, this gun can punch through nearly all soft armor.\n\nThe ammunition is hard to find and can be very costly."
 lang["#DEAGLE_DESC"] = "A powerful Semiautomatic handgun chambered in .44 Magnum."
-lang["#HUNTINGREVOLVER_DESC"] = "A monsterously large handgun chambered for the 45-70 Govt round.\n\nUsed exclusivly in hunting Dangerous game, this gun is punishing to fire, but it just might save your life.\n\n[WORK IN PROGRESS, CURRENT VERSION IS A PLACEHOLDER PENDING ADDITIONAL ASSESTS]"
+lang["#HUNTINGREVOLVER_DESC"] = "A monsterously large handgun chambered for the 45-70 Govt round.\n\nUsed exclusivly in hunting Dangerous game, this gun is punishing to fire, but it just might save your life.\n\n#WIP_DESC"
 lang["#NEEDLER_DESC"] = "A handgun capable of shooting needles filled with various substances.\n\nThe ammunition can be made by hand and filled with all manner of substances."
 lang["#M9FS_DESC"] = "One of the more common 9MM pistols, the Beretta is popular due to its reliability, 17 round magazine and good looks."
+lang["#M9FS_STARTER_DESC"] = "An aging 9MM pistol given to you before you set out on your own. There are many like it, but this one is yours."
 lang["#1911PISTOL_DESC"] = "The classic Colt M1911 A1.\n\nWhile the fixed barrel and tight tolerances of this pistol make for an extremely accurate firearm, it comes at the cost of a higher frequency of jams.\n\nFor this reason and the compairatively limited capacity, this design was phased out of U.S. service some time after World War II."
 
 lang["#1911DELTA_DESC"] = "Catalog Variant 5 - Spur hammer with wood grips.\n\n''A true collector's piece.''"
 lang["#93R_DESC"] = "Burst fire machine pistol.\n\n''Dead or alive, you're coming with me.''"
-lang["#357POLICE_DESC"] = "A double action revolver chambered for .357 Magnum and .38 special rounds.\n\nAllows one to fire without having to cock the hammer before every shot.\n\nThe cylinder swings open to quickly eject spend rounds and reload.\n\n[WORK IN PROGRESS, CURRENT VERSION IS A PLACEHOLDER PENDING ADDITIONAL ASSESTS]"
+lang["#357POLICE_DESC"] = "A double action revolver chambered for .357 Magnum and .38 special rounds.\n\nAllows one to fire without having to cock the hammer before every shot.\n\nThe cylinder swings open to quickly eject spend rounds and reload.\n\n#WIP_DESC"
 --smg
 lang["#9MMSMG_DESC"] = "A open-bolt submachine gun chambered in 9mm. Has a good magazine capacity and fire rate, but the short barrel has been terribly worn, limiting engagements to short range."
 lang["#10MMSMG_DESC"] = "A higher-end submachine gun chambered in 10mm.\n\nWhile the roller-lock firing mechanism results in incredibly little recoil, its effective range is limited in full auto.\n\nEasy to control and shred unarmored foes with, this weapon is vital among freelance-mercs."
-lang["#P90_DESC"] = "A personal defense weapon chambered in 4.7mm.\nThis weapon has an extremely generous 50 round mag. Along with a high rate of fire.\n\nThe rounds are not common and must be bought more often than found.\n\n[WORK IN PROGRESS, CURRENT VERSION IS A PLACEHOLDER PENDING ADDITIONAL ASSESTS]"
+lang["#P90_DESC"] = "A personal defense weapon chambered in 4.7mm.\nThis weapon has an extremely generous 50 round mag. Along with a high rate of fire.\n\nThe rounds are not common and must be bought more often than found.\n\n#WIP_DESC"
 lang["#TOMMYGUN_DESC"] = "The .45 Auto SMG is a relatively robust gun that offers heavy firepower. Unfortunately, the result is that this gun requires two hands to operate.\n\nAlso, the heavy recoil means that this SMG cannot be used by frail individuals and accuracy will suffer in long-distance engagements."
 --heavy
 lang["#MINIGUN_DESC"] = "A Rockwell CZ53 Personal Minigun. When the Great War struck, it was already an aging design and was slowly being replaced by the more advanced CZ57 Avenger minigun."
-lang["#VINDICATOR_DESC"] = "The German Rheinmetall AG company created the ultimate minigun.\n\nThe Vindicator throws 4.7MM caseless down its six carbon-polymer barrels. \n\nAs the pinnacle of Teutonic engineering skill, it is the ultimate hand-held weapon.\n\n[WORK IN PROGRESS, CURRENT VERSION IS A PLACEHOLDER PENDING ADDITIONAL ASSESTS]"
+lang["#VINDICATOR_DESC"] = "The German Rheinmetall AG company created the ultimate minigun.\n\nThe Vindicator throws 4.7MM caseless down its six carbon-polymer barrels. \n\nAs the pinnacle of Teutonic engineering skill, it is the ultimate hand-held weapon.\n\n#WIP_DESC"
 --other
 lang["#SYRINGER_DESC"] = "An improvised, but effective weapon. Fashioned from leftover scrap and Pre-War piping, it was designed in the image of Pre-War ''tranquilizer guns''.\n\nCan be used offensively or as a support weapon, depending on the type of darts chosen by user."
+lang["#FARTNADE_DESC"] = "M-42 Tactical Gastrointestinal Grenade is a handheld capsule fitted to contain Megasharts, small smelly warheads.\nDevastating against all noses."
 
 --explosive
 lang["#APW_DESC"] = "The 25mm anti-personnel weapon is a semi-automatic grenade launcher.\n\nDesigned to give a soldier the death-dealing capability of vehicle mounted grenade machineguns in a more portable package."
+lang["#M79_DESC"] = "A single shot, hand-held grenade launcher.\n\nLaunches for 40mm Grenades.\n\nDeveloped in the early 1960s, this weapon has seen continued use by U.S. forces for over a century, due to its simple design.\n\n#WIP_DESC"
 lang["#FATMAN_DESC"] = "M-42 Tactical Nuclear Catapult is a shoulder mounted crossbow fitted to launch Mini-Nukes, small atomic warheads.\nDevastating against all targets, if you can find any ammo for it."
 lang["#MISSILELAUNCHER_DESC"] = "A Shoulder Mounted explosive weapon.\nFires a large projectile that explodes on impact."
 
@@ -725,6 +785,7 @@ lang["#5.56MM_AP_NAME"] = "5.56mm AP"
 lang["#5.56MM_HP_NAME"] = "5.56mm HP"
 lang["#5.56MM_MATCH_NAME"] = "5.56mm Match"
 lang["#223_NAME"] = ".223"
+lang["#223_ND_NAME"] = "Old .223"
 lang["#7.62MM_NAME"] = "7.62x39"
 lang["#308_NAME"] = ".308"
 lang["#308_AP_NAME"] = ".308 AP"
@@ -746,7 +807,8 @@ lang["#20G_SLUG_NAME"] = "20GA Slug"
 lang["#ROCKET_NAME"] = "Rocket"
 lang["#MISSILEHE_NAME"] = "HE Missile"
 lang["#MININUKE_NAME"] = "Mini-Nuke"
-lang["#25MM_NAME"] = "25MM Grenade"
+lang["#25MM_NAME"] = "25mm Grenade"
+lang["#40MM_NAME"] = "40mm Grenade"
 lang["#FUELGAS_NAME"] = "Flamer Fuel"
 lang["#FUELNAPALM_NAME"] = "Flamer Fuel, Optimized"
 lang["#FUELHOMEMADE_NAME"] = "Improvised Flamer Fuel"
@@ -762,6 +824,7 @@ lang["#DART_SBLOCK_NAME"] = "Dart, Stimblock"
 lang["#DART_CBLOCK_NAME"] = "Dart, Chemblock"
 lang["#DART_PSYCHO_NAME"] = "Dart, Psycho"
 lang["#DART_BUFFOUT_NAME"] = "Dart, Buffout"
+lang["#DART_SLOTH_NAME"] = "Dart, Sloth"
 
 
 ------------------------------------------------------------------
@@ -774,7 +837,7 @@ lang["#MFC_DESC"] = "A weapons grade power source, commonly found in the use of 
 lang["#MFC_OC_DESC"] = "A weapons grade power source, commonly found in the use of slow firing weapons.\n\nOver Charged Variant.\n\nIncreases damage output and armor penetration effect, at the cost of quicker weapon degradation."
 lang["#MFC_MC_DESC"] = "A weapons grade power source, commonly found in the use of slow firing weapons.\n\nMax Charged Variant.\n\nGreatly increases damage output and armor penetration effect, at the cost of heavy weapon degradation."
 lang["#MFC_BULK_DESC"] = "A weapons grade power source, commonly found in the use of slow firing weapons.\n\nBulk Variant.\n\nReduces weapon degradation, at the cost of lower damage output, and no inherent armor penetration."
-lang["#MFC_ND_DESC"] = "A damaged Microfusion Cell, recoved from someone else's trash.\n\n#STARTER_AMMO_DISCLAMER"
+lang["#MFC_ND_DESC"] = "A damaged Microfusion Cell, recovered from someone else's trash.\n\n#STARTER_AMMO_DISCLAIMER"
 lang["#ECP_DESC"] = "A weapons grade power source, commonly found in the use of rapid firing weapons.\n\nUnlike Small Energy Cells which are not capable of high enough energy transfer, and Microfusion Cells which are insufficent for rapid discharge, ECPs contain both the charge and power load to feed the most intense pre-war laser weaponry."
 lang["#ECP_OC_DESC"] = "A weapons grade power source, commonly found in the use of rapid firing weapons.\n\nOver Charged Variant.\n\nIncreases damage output and armor penetration effect, at the cost of quicker weapon degradation."
 lang["#ECP_MC_DESC"] = "A weapons grade power source, commonly found in the use of rapid firing weapons.\n\nMax Charged Variant.\n\nGreatly increases damage output and armor penetration effect, at the cost of heavy weapon degradation."
@@ -785,13 +848,13 @@ lang["#9MM_DESC"] = "A light handgun cartridge, commonly found in the use of pis
 lang["#9MM_AP_DESC"] = "A light handgun cartridge, commonly found in the use of pistols and sub-machine guns.\n\nArmor Piercing Variant\n\nAn Overpressure round used in submachineguns by the military, these bullets contain a hardened penetrator for use against armored targets."
 lang["#9MM_HP_DESC"] = "A light handgun cartridge, commonly found in the use of pistols and sub-machine guns.\n\nHollow Point Variant\n\nA defensive round used by Law Enforcment and civilians alike, these bullets expand in soft targets for greater lethality, but fail against armor."
 lang["#9MM_+P_DESC"] = "A light handgun cartridge, commonly found in the use of pistols and sub-machine guns.\n\nOverpressure Variant\n\nAmmo that has been intentionally loaded to higher internal pressure. This ensures higher projectile velocity and stopping power, and affords a slight armor piercing ability but at the cost of requiring more maintenance than usual."
-lang["#9MM_ND_DESC"] = "A poorly aged handgun cartridge.\n\n#STARTER_AMMO_DISCLAMER"
+lang["#9MM_ND_DESC"] = "A poorly aged handgun cartridge.\n\n#STARTER_AMMO_DISCLAIMER"
 lang["#38_DESC"] = "A light handgun cartridge, commonly found in the use of snubnose revolvers.\n\nThis round can be used in most guns chambered for .357.\n\n38 Special and .357 are both staight-wall, rimmed cartridged, sharing the same bullet diameter. The former, however, is much lower powered and causes less wear to firearms."
-lang["#38_ND_DESC"] = "A poorly aged handgun cartridge.\n\nThis round can be used in most guns chambered for .357.\n\n#STARTER_AMMO_DISCLAMER"
+lang["#38_ND_DESC"] = "An old .38 round. Could still be shot.\n\n#STARTER_AMMO_DISCLAIMER"
 lang["#357_DESC"] = "A medium handgun cartridge, popular for hunting small game. Used in revolvers and certain rifles.\n\nLead-Round-Nose loads use a simple lead bullet, and are relatively common and cheap."
 lang["#357_HP_DESC"] = "A medium handgun cartridge, popular for hunting small game. Used in revolvers and certain rifles.\n\nHunting variant\n\nIntended for small to medium game, Soft Points mushroom on impact, taking prey quickly and effectivly.\n\nEfficacy suffers against armor."
 lang["#357_HC_DESC"] = "A heavy handgun cartridge, popular for hunting large game. Used in revolvers and certain rifles.\n\nDangerous Game variant\n\nIntended for use against things larger, faster, and deadlier than you, Hard-Cast-Lead-Flat-Nose use a hardended slug with the maximum charge possible to punch through thickened animal hide.\n\nThis punishing round is hard to find and dramaticaly shortens a firearms life."
-lang["#357_ND_DESC"] = "A poorly aged handgun cartridge.\n\n#STARTER_AMMO_DISCLAMER"
+lang["#357_ND_DESC"] = "Still very powerful for its age.\n\n#STARTER_AMMO_DISCLAIMER"
 lang["#10MM_DESC"] = "A common cartridge, found in the use of pistols and sub-machine guns.\n\nAdopted by numerous Law Enforcement agencies, it is standard issue caliber for the B.A.D.T.F.L."
 lang["#10MM_AP_DESC"] = "A common cartridge, found in the use of pistols and sub-machine guns.\n\nArmor Piercing Variant\n\nA high-pressure round used in submachineguns by the military, these bullets contain a hardened penetrator for use against armored targets."
 lang["#10MM_HP_DESC"] = "A common cartridge, found in the use of pistols and sub-machine guns.\n\nHollow Point Variant\n\nA defensive round used by Law Enforcment and civilians alike, these bullets expand in soft targets for greater lethality, but fail against armor."
@@ -819,7 +882,7 @@ lang["#5.56MM_DESC"] = "An intermediate rifle cartridge.\n\nThis lightweight rou
 lang["#5.56MM_AP_DESC"] = "An intermediate rifle cartridge.\n\nArmor Piercing Variant\n\nIssued alsmost exclusively to Armed Forces, these bullets contain a hardened penetrator for use against most forms of armor and light cover."
 lang["#5.56MM_HP_DESC"] = "An intermediate rifle cartridge.\n\nHollow Point Variant\n\nA defensive round used by Law Enforcment and civilians alike, these bullets expand in soft targets for greater lethality, but fail against armor."
 lang["#5.56MM_MATCH_DESC"] = "An intermediate rifle cartridge.\n\nMatch Grade Variant\n\nCarefully hand-loaded with a Match Grade projectile, this round far exceeds mass produced ammo at both precision and accuracy at long range."
-lang["#223_DESC"] = "An intermediate rifle cartridge.\n\nThis round can be used in any gun chambered for 5.56MM.\n\nA common commercial hunting round designed for civilian use, most commonly used in hunting small to mid-sized game.\n\nThese rounds tend to put less stress on the chamber, resulting in better weapon durability."
+lang["#223_DESC"] = "A slightly rusted rifle cartridge.\n\nThis round can be used in any gun chambered for 5.56MM.\n\n#STARTER_AMMO_DISCLAIMER"
 lang["#7.62MM_DESC"] = "An intermediate rifle cartridge. \n\nA 30 caliber round with a moderate charge, it's metric name betrays its origin overseas."
 lang["#308_DESC"] = "A popular rifle cartridge, commonly found in the use of sportsmen and Militaries.\n\nKnown internationally as 7.62x51MM, these fully jacketed bullets were sold as a more affordable alternative to common hunting bullets of the day."
 lang["#308_AP_DESC"] = "A popular rifle cartridge, commonly found in the use of sportsmen and Militaries.\n\nArmor Piercing variant\n\nIssued almost exclusively to Armed Forces, these bullets contain a hardened penetrator for use against most forms of armor and light cover."
@@ -840,6 +903,7 @@ lang["#12G3_DESC"] = "A Magnum Shell used in smoothbore shotguns.\n\nThe higher 
 lang["#MISSILEHE_DESC"] = "A High-Explosive missile, meant to be fired from a missile launcher."
 lang["#MININUKE_DESC"] = "A miniature atomic warhead, can be fired as-is from a FatMan, or be used in crafts of the destructive variety."
 lang["#25MM_DESC"] = "A 25mm grenade designed for a Pre-War military launcher, explodes on contact.\n\nIn contrast to the more targeted use of missiles, these were often fired in rapid succession for area-of-effect."
+lang["#40MM_DESC"] = "A 40mm grenade."
 lang["#FUELGAS_DESC"] = "A cylinder containing an extremely flammable liquid fuel for flamethrowers."
 lang["#FUELNAPALM_DESC"] = "A cylinder containing an extremely flammable liquid fuel for flamethrowers\n\nThis flamethrower fuel uses an advanced super-burn mix."
 lang["#FUELHOMEMADE_DESC"] = "A cylinder containing an extremely flammable liquid fuel for flamethrowers.\n\nImprovised from crude materials, this formula runs extremely dirty, and will degrade weaponry at an alarming rate."
@@ -855,10 +919,11 @@ lang["#DART_SBLOCK_DESC"] = "A ballistic dart tipped with a hypodermic needle an
 lang["#DART_CBLOCK_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns.\n\nCounter-Support Variant\n\nA specialized drug cocktail designed to subdue the body's adrenal system, rendering target-consumed combat chems like Buffout temporarily usesless."
 lang["#DART_PSYCHO_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns.\n\nSupport Variant\n\nContaining a partial dose of the Pre-War combat chem, Psychodarts are used to provide a temporary boost to friendlies without the risk of addiction."
 lang["#DART_BUFFOUT_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns.\n\nSupport Variant\n\nContaining a partial dose of the Pre-War steroid, Buffdarts are used to provide a temporary S.P.E.C.I.A.L. boost to friendlies without the risk of addiction."
-
+lang["#DART_SLOTH_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns.\n\nCounter-Support Variant\n\nContains the ingredients for tranquilizer. Not likely to put an active enemy to sleep immediately, but should slow them down enough to be hunted like prey."
 
 -- Grenade Names
 lang["#FRAGGRENADE_NAME"] = "Frag Grenade"
+lang["#SHORTFUSE_NAME"] = "Short-Fuse Grenade"
 lang["#PLASGRENADE_NAME"] = "Plasma Grenade"
 lang["#NUKAGRENADE_NAME"] = "Nuka-Grenade"
 lang["#TINGRENADE_NAME"] = "Tin Grenade"
@@ -871,25 +936,27 @@ lang["#GRENADEFLAME_NAME"] = "Incendiary Grenade"
 lang["#MOLOTOV_NAME"] = "Fire Bottle"
 -- Grenade Desc
 lang["#FRAGGRENADE_DESC"] = "A small handheld explosive.\n\nFragments in to shrapnel, making the lethal range of the blast quite large.\n\nPull the pin and throw."
+lang["#SHORTFUSE_DESC"] = "A small handheld explosive.\n\nFragments in to shrapnel, making the lethal range of the blast quite large.\n\nSeems to be tampered with. Has a very short fuse."
 lang["#PLASGRENADE_DESC"] = "An explosive device that yields a blast of superheated plasma.\n\nWhere it lack fragmentation and blast radius, it more than makes up for with damage."
-lang["#NUKAGRENADE_DESC"] = "An extremely powerful improvised explosive device.\n\nIncorporates the radioactive properties of a relatively rare Nuka-Cola variant to produce an enhanced plasma blast.\n\n[WORK IN PROGRESS, CURRENT VERSION IS A PLACEHOLDER PENDING ADDITIONAL ASSESTS]"
-lang["#TINGRENADE_DESC"] = "The tin grenade is an improvised thrown explosive device,\nit is created at a workbench and assembled from scrap.\n\nA tin can is used for both the casing and for shrapnel, pistol powder for the explosive and duct tape to hold it all together.\n\n[WORK IN PROGRESS, CURRENT VERSION IS A PLACEHOLDER PENDING ADDITIONAL ASSESTS]"
-lang["#MFCGRENADE_DESC"] = "A powerful improvised weapon made from modified Microfusion Cells.\n\nLess damaging than a true Plasma Grenade, but with a wider area-of-effect.\n\n[WORK IN PROGRESS, CURRENT VERSION IS A PLACEHOLDER PENDING ADDITIONAL ASSESTS]"
-lang["#TIMEBOMB_DESC"] = "An improvised explosive weapon made with several sticks of dynamite.\n\n15 second timer.\n\n''Set it, DON'T for get it.''\n\n[WORK IN PROGRESS, CURRENT VERSION IS A PLACEHOLDER PENDING ADDITIONAL ASSESTS]"
-lang["#TIMEBOMBHY_DESC"] = "An improvised explosive weapon made with several sticks of dynamite.\n\n15 second timer.\n\nYou put more in, you get more out.\n\n[WORK IN PROGRESS, CURRENT VERSION IS A PLACEHOLDER PENDING ADDITIONAL ASSESTS]"
-lang["#DYNO_DESC"] = "Sticks with fuses that stick out of them. Once lit, they are tossed at a hostile and will damage or kill them.\n\nMainly used in the mining, quarrying, construction, and demolition industries; it has a rather small blast radius for an explosive, which reduces its effectiveness against groups of enemies.\n\n[WORK IN PROGRESS, CURRENT VERSION IS A PLACEHOLDER PENDING ADDITIONAL ASSESTS]"
-lang["#DYNOLF_DESC"] = "Sticks with fuses that stick out of them. Once lit, they are tossed at a hostile and will damage or kill them.\n\nMainly used in the mining, quarrying, construction, and demolition industries; it has a rather small blast radius for an explosive, which reduces its effectiveness against groups of enemies.\n\nThis version has an fuse twice as long.\n[WORK IN PROGRESS, CURRENT VERSION IS A PLACEHOLDER PENDING ADDITIONAL ASSESTS]"
+lang["#NUKAGRENADE_DESC"] = "An extremely powerful improvised explosive device.\n\nIncorporates the radioactive properties of a relatively rare Nuka-Cola variant to produce an enhanced plasma blast.\n\n#WIP_DESC"
+lang["#TINGRENADE_DESC"] = "The tin grenade is an improvised thrown explosive device,\nit is created at a workbench and assembled from scrap.\n\nA tin can is used for both the casing and for shrapnel, pistol powder for the explosive and duct tape to hold it all together.\n\n#WIP_DESC"
+lang["#MFCGRENADE_DESC"] = "A powerful improvised weapon made from modified Microfusion Cells.\n\nLess damaging than a true Plasma Grenade, but with a wider area-of-effect.\n\n#WIP_DESC"
+lang["#TIMEBOMB_DESC"] = "An improvised explosive weapon made with several sticks of dynamite.\n\n15 second timer.\n\n''Set it, DON'T for get it.''\n\n#WIP_DESC"
+lang["#TIMEBOMBHY_DESC"] = "An improvised explosive weapon made with several sticks of dynamite.\n\n15 second timer.\n\nYou put more in, you get more out.\n\n#WIP_DESC"
+lang["#DYNO_DESC"] = "Sticks with fuses that stick out of them. Once lit, they are tossed at a hostile and will damage or kill them.\n\nMainly used in the mining, quarrying, construction, and demolition industries; it has a rather small blast radius for an explosive, which reduces its effectiveness against groups of enemies.\n\n#WIP_DESC"
+lang["#DYNOLF_DESC"] = "Sticks with fuses that stick out of them. Once lit, they are tossed at a hostile and will damage or kill them.\n\nMainly used in the mining, quarrying, construction, and demolition industries; it has a rather small blast radius for an explosive, which reduces its effectiveness against groups of enemies.\n\nThis version has an fuse twice as long.\n\n#WIP_DESC"
 lang["#GRENADEFLAME_DESC"] = "The AN-2051 Incendiary Grenade is a thrown explosive device that ignites after a small delay.\n\nTargets caught in the blast radius will take fire damage, and continue to burn for several seconds after the initial detonation.\n\nUseful for area denial and killing things with fire."
-lang["#MOLOTOV_DESC"] = "An improvised thrown explosive that erupts in a fireball on contact.\n\nThe bottle is filled with a flammable substance, such as oil or gasoline, and topped with a cap and cloth as the igniter.\n\nJust light and throw, you little arsonist you.\n\n[WORK IN PROGRESS, CURRENT VERSION IS A PLACEHOLDER PENDING ADDITIONAL ASSESTS]"
+lang["#MOLOTOV_DESC"] = "An improvised thrown explosive that erupts in a fireball on contact.\n\nThe bottle is filled with a flammable substance, such as oil or gasoline, and topped with a cap and cloth as the igniter.\n\nJust light and throw, you little arsonist you.\n\n#WIP_DESC"
 
 -- Mine Names
 lang["#FRAGMINE_NAME"] = "Frag Mine"
 lang["#PLASMAMINE_NAME"] = "Plasma Mine"
+lang["#POWDERCHARGE_NAME"] = "Powder Charge"
 
 -- Mine Desc
-lang["#FRAGMINE_DESC"] = "A handheld proximity sensing explosive. When deployed, it will detonate when anything is nearby, blasting them with shrapnel\n\nEven yourself if you're not careful!"
-lang["#PLASMAMINE_DESC"] = "A handheld proximity sensing plasma explosive. it will detonate when anything is nearby, cooking them with the temperature of the Sun.\n\nEven yourself if you're not careful!"
-
+lang["#FRAGMINE_DESC"] = "A pre-war explosive weapon used for area denial. Once activated; will explode if touched, or its proximity timer ends, blasting the offender with shrapnel.\n\nTry not to catch a new piercing."
+lang["#PLASMAMINE_DESC"] = "A high-tech explosive weapon used for area denial. Once activated; will explode if touched, or its proximity timer ends, blasting the offender with plasma fire.\n\nDon't get your face melted off."
+lang["#POWDERCHARGE_DESC"] = "An improvised explosive weapon used for area denial. Once activated; will explode if touched, or its proximity timer ends, blasting the offender with whatever crap you stuffed inside.\n\nI hope your wiring is good.\n\n#WIP_DESC"
 --███████╗ ██████╗  ██████╗ ██████╗
 --██╔════╝██╔═══██╗██╔═══██╗██╔══██╗
 --█████╗  ██║   ██║██║   ██║██║  ██║
@@ -1062,13 +1129,15 @@ lang["#MAGMELEE_NAME"] = "Tales of Chivalrie"
 lang["#MAGMEDICINE_NAME"] = "Today's Physician"
 lang["#MAGSGUNS_NAME"] = "True Police Stories"
 
+lang["#RATION_NAME"] = "Rations"
+
 
 
 --Food Desc
 lang["#GECKOEGG_DESC"] = "A Lizard's Egg, inside is a sloshy liquid, or so your ears would tell you. It's edible, but it'd be by a landslide that your tastebuds wouldn't agree with that. Perhaps it'd be better cooked."
 lang["#COOKGECKO_DESC"] = "Grilled, broiled, or steamed, the meat is just as filling but a bit lacking in the flavor department."
 lang["#RAWGECKO_DESC"] = "Tough and wet looking, it's the meat of an oversized lizard."
-lang["#ROACHMEAT_DESC"] = "Crunchy. Chewy. It's okay, actually. Not good, but it's not absolutely terrible either." -- WIP
+lang["#ROACHMEAT_DESC"] = "Crunchy. Chewy. It's okay, actually. Not good, but it's not absolutely terrible either."
 lang["#GECKOKEBAB_DESC"] = "A savory skewer of cooked gecko chunks, peppers, fruit, and a buffalo gourd.\n\nDelicious!"
 lang["#RAWDEATHCLAW_DESC"] = "The meat of one of the Wasteland's toughest creatures."
 lang["#RAWRADSCORPION_DESC"] = "A large chunk of meat cut from a Radscorpions tail. Don't eat the poison gland."
@@ -1077,7 +1146,7 @@ lang["#COOKROACHMEAT_DESC"] = "Some grilled radroach meat."
 lang["#RAWYAOGUAI_DESC"] = "A large hunk of raw Yaoguai. Somewhat tough."
 lang["#COOKDEATHCLAW_DESC"] = "This steak is leathery, it's really chewy, and in general it's just tough to eat. Not a fun experience, but very filling."
 lang["#COOKYAOGUAI_DESC"] = "A hearty steak cooked from Yaoguai meat."
-lang["#YAOGUAIRIBS_DESC"] = "Tough, stringy, yet surprisingly sweet. These would go great with a coating of Barbeque sauce. If only you knew what that was." -- WIP
+lang["#YAOGUAIRIBS_DESC"] = "Tough, stringy, yet surprisingly sweet. These would go great with a coating of Barbeque sauce. If only you knew what that was."
 lang["#RAZORSOUP_DESC"] = "Ever have oatmeal? Well, it was pretty much like this, but worse."
 lang["#BRAINBOMBS_DESC"] = "A sugary 'treat' created using brain fungus and Sugar Bombs, hence the name, among other ingredients."
 lang["#COOKANT_DESC"] = "Cooked and crispy abdomen of a giant mutated ant. It's not raw, so it can't be that bad."
@@ -1087,33 +1156,33 @@ lang["#GRILLMANTIS_DESC"] = "A little bit of heat, seasoning, and alcohol go a l
 lang["#RAWANT_DESC"] = "The abdomen of a giant mutated ant. Not a good idea to eat in it's current state due to it's irradiated nature. At least it tastes horrible."
 lang["#RAWMOLE_DESC"] = "A slab of raw Molerat meat. Can be consumed to satiate your appetite, if you're willing to take chances with food poisoning."
 lang["#ANTEGG_DESC"] = "The egg of a Giant Ant.\n\nYou're reasonalbly sure its edible."
-lang["#RAWBLOATFLY_DESC"] = "Crunchy. Sour. Would cook great with something sweet." -- WIP
-lang["#BFLYLARVA_DESC"] = "Tender and juicy. If you don't mind the smell, it's a great source of protein." -- WIP
-lang["#RAWBLOODBUG_DESC"] = "Tastes like blood, believe it for not. Has an odd sweet/sour aftertaste. You should probably cook it before eating it." -- WIP
-lang["#RAWBLOODWORM_DESC"] = "Tastes like blood, believe it for not. A tough outer layer with a soft, tangy inside. You should probably cook it before eating it." -- WIP
-lang["#RAWRADRAT_DESC"] = "Desperate times call for desperate measures..." -- WIP
-lang["#COOKEDPRAWN_DESC"] = "Cool and yummy, and small enough to fit into your pocket for a quick snack. Make sure you're not allergic, though." -- WIP
-lang["#RAWSTINGWING_DESC"] = "Crunchy. This stuff will make your entire mouth numb for atleast twenty minutes. Try cooking it first." -- WIP
-lang["#CRISPYSQUIRRELBITS_DESC"] = "Easy to make and that's something, which is better than nothing." -- WIP
-lang["#RAWDOGMEAT_DESC"] = "Desperate times call for desperate measures..." -- WIP
-lang["#SQUIRRELSOUP_DESC"] = "Hearty and nutritious." -- WIP
-lang["#RAWCRICKET_DESC"] = "Has an 'umami' flavor, whatever the hell that means." -- WIP
-lang["#IGUANASOUP_DESC"] = "Tastes kinda like bark floating in water. Whatever, it's something." -- WIP
-lang["#RAWPRAWN_DESC"] = "Raw seafood. Trust me, you REALLY don't want to eat this." -- WIP
+lang["#RAWBLOATFLY_DESC"] = "Crunchy. Sour. Would cook great with something sweet."
+lang["#BFLYLARVA_DESC"] = "Tender and juicy. If you don't mind the smell, it's a great source of protein."
+lang["#RAWBLOODBUG_DESC"] = "Tastes like blood, believe it for not. Has an odd sweet/sour aftertaste. You should probably cook it before eating it."
+lang["#RAWBLOODWORM_DESC"] = "Tastes like blood, believe it for not. A tough outer layer with a soft, tangy inside. You should probably cook it before eating it."
+lang["#RAWRADRAT_DESC"] = "Desperate times call for desperate measures..."
+lang["#COOKEDPRAWN_DESC"] = "Cool and yummy, and small enough to fit into your pocket for a quick snack. Make sure you're not allergic, though."
+lang["#RAWSTINGWING_DESC"] = "Crunchy. This stuff will make your entire mouth numb for atleast twenty minutes. Try cooking it first."
+lang["#CRISPYSQUIRRELBITS_DESC"] = "Easy to make and that's something, which is better than nothing."
+lang["#RAWDOGMEAT_DESC"] = "Desperate times call for desperate measures..."
+lang["#SQUIRRELSOUP_DESC"] = "Hearty and nutritious."
+lang["#RAWCRICKET_DESC"] = "Has an 'umami' flavor, whatever the hell that means."
+lang["#IGUANASOUP_DESC"] = "Tastes kinda like bark floating in water. Whatever, it's something."
+lang["#RAWPRAWN_DESC"] = "Raw seafood. Trust me, you REALLY don't want to eat this."
 lang["#RAWMIRELURK_DESC"] = "Dismembered claw of a Mirelurk. Not a good idea to eat in it's current raw state unless you want to get some undiscovered digestion disease."
 lang["#OLDCIGARETTE_DESC"] = "A Stale old cigarette.\nMany people still enjoy smoking, despite noticing a heavy cough after a few years of use."
 lang["#CAKES_DESC"] = "A big delight in every bite!"
 lang["#PREWARCAKES_DESC"] = "A big delight in every bite!"
 lang["#CHIPS_DESC"] = "Junk Food."
-lang["#RADSCORPIONSTEAK_DESC"] = "Very tough meat, tangy meat. Don't bother trying to eat it with a fork, you'll need to pull at it with your hands." -- WIP
-lang["#MOLESTEAK_DESC"] = "Tastes like chicken. No, I'm serious." -- WIP
-lang["#FILLETSTINGWING_DESC"] = "Crunchy and sweet. Would go great with some honey mustard." -- WIP
-lang["#IGUANASTICK_DESC"] = "Easy to make and that's something, which is better than nothing." -- WIP
+lang["#RADSCORPIONSTEAK_DESC"] = "Very tough meat, tangy meat. Don't bother trying to eat it with a fork, you'll need to pull at it with your hands."
+lang["#MOLESTEAK_DESC"] = "Tastes like chicken. No, I'm serious."
+lang["#FILLETSTINGWING_DESC"] = "Crunchy and sweet. Would go great with some honey mustard."
+lang["#IGUANASTICK_DESC"] = "Easy to make and that's something, which is better than nothing."
 lang["#COTTONCANDY_DESC"] = "Pure sugar, fluffified.\n\nIt can't be good for you."
 lang["#MOLDYFOOD_DESC"] = "A horrible smell lingers as you get near, you've smelled it hundreds of times before and you immediately know what it is... moldy food." -- By Varen
 lang["#MEATJERKY_DESC"] = "These smoked and dried chunks of beast-flesh remain chewy-licous and even somewhat nutritious for years, and years...."
-lang["#MYSTERIOUSBACON_DESC"] = "Tastes like bacon, but weird." -- WIP
-lang["#MIRELURKOMELETTE_DESC"] = "Mirelurk Omelette. This stuff's great- because of the size of Mirelurk eggs, you only need one to make breakfast.\n\nUtilitarianism aside, the taste could be better." -- WIP
+lang["#MYSTERIOUSBACON_DESC"] = "Tastes like bacon, but weird."
+lang["#MIRELURKOMELETTE_DESC"] = "Mirelurk Omelette. This stuff's great- because of the size of Mirelurk eggs, you only need one to make breakfast.\n\nUtilitarianism aside, the taste could be better."
 lang["#PREFECTPIE_DESC"] = "This pristine piece of pastry has survived all-out nuclear war, and will probably outlive you and all your friends. Delectable, yet so desired." -- By FUBAR
 lang["#EXQUISITEBEANS_DESC"] = "Exquisitely cooked beans." -- DONT USE
 lang["#EXQUISITEDEATHCLAW_DESC"] = "An expertly cooked steak of a Deathclaw. That means it's Medium-Rare, by the way." -- DONT USE
@@ -1122,14 +1191,14 @@ lang["#MRE_DESC"] = "Old, random assortments of food in a plastic bag. Soldiers 
 lang["#HARDLEMONADE_DESC"] = "Three quarters 'lemonade', one quarter vodka. Almost impossible to mess up those proportions. Almost."
 lang["#GLOWLEMONADE_DESC"] = "It doesn't matter how good it tastes, you really shouldn't be drinking this stuff."
 lang["#LEMONADE_DESC"] = "A refreshing beverage, great on a hot summer's day. Despite the name, there are absolutely no lemons in this drink."
-lang["#SUGAR_DESC"] = "A large container of sugar. You're not actually going to eat the whole thing, are you?" -- WIP
-lang["#MIREJERKY_DESC"] = "Mirelurk meat which has been dried and covered with some seasoning, improving its nutritional value and shelf life." -- WIP
+lang["#SUGAR_DESC"] = "A large container of sugar. You're not actually going to eat the whole thing, are you?"
+lang["#MIREJERKY_DESC"] = "Mirelurk meat which has been dried and covered with some seasoning, improving its nutritional value and shelf life."
 lang["#MIRELURKEGG_DESC"] = "An unfertilized mirelurk egg stolen from a nest. They are commonly used in recipes for various dishes."
-lang["#CORNPONE_DESC"] = "A type of cornbread made with a corn-based dough that has been cooked in a pan over an open flame." -- WIP
-lang["#WASTELANDSOUP_DESC"] = "A soup made of bits and bobs taken from here and there. Sometimes, you just have to make do." -- WIP
-lang["#FUNGUSSOUP_DESC"] = "Green, goopy soup with mushy balls floating around in it.\n\nIt's really unappealing." -- WIP
-lang["#WELLINGTON_DESC"] = "A slab of deathclaw meat which has been wrapped in a homemade dough and baked until cooked." -- WIP
-lang["#DESERTSALAD_DESC"] = "You'd have to be really pretentious to be on a salad diet in this economy." -- WIP
+lang["#CORNPONE_DESC"] = "A type of cornbread made with a corn-based dough that has been cooked in a pan over an open flame."
+lang["#WASTELANDSOUP_DESC"] = "A soup made of bits and bobs taken from here and there. Sometimes, you just have to make do."
+lang["#FUNGUSSOUP_DESC"] = "Green, goopy soup with mushy balls floating around in it.\n\nIt's really unappealing."
+lang["#WELLINGTON_DESC"] = "A slab of deathclaw meat which has been wrapped in a homemade dough and baked until cooked."
+lang["#DESERTSALAD_DESC"] = "You'd have to be really pretentious to be on a salad diet in this economy."
 lang["#CRAM_DESC"] = "You never know with Cram!"
 lang["#RADSCORPIONOMELETTE_DESC"] = "It's... really sour. Make sure you wash it down with water."
 lang["#DOGFOOD_DESC"] = "It's not meant for humans, I'll tell you that much."
@@ -1137,19 +1206,19 @@ lang["#DANDYBOY_DESC"] = "Sliced Apples covered in sugar."
 lang["#EGGS_DESC"] = "No one knows what 'deviled' even means."
 lang["#GUM_DESC"] = "Feels weird to swallow."
 lang["#MASH_DESC"] = "Some sort of white mush, leaves you feeling full."
-lang["#PREWARMASH_DESC"] = "Weird old mush. You feel like it isn't meant to be this liquidy. Atleast the packaging is nice looking." -- WIP
+lang["#PREWARMASH_DESC"] = "Weird old mush. You feel like it isn't meant to be this liquidy. Atleast the packaging is nice looking."
 lang["#SALISBURY_DESC"] = "150 Year old steak. Yum."
-lang["#PREWARSALISBURY_DESC"] = "150 Year old steak. Yum. Atleast the packaging is nice looking." -- WIP
+lang["#PREWARSALISBURY_DESC"] = "150 Year old steak. Yum. Atleast the packaging is nice looking."
 lang["#SWEETROLL_DESC"] = "Probably Stolen."
 lang["#BEANS_DESC"] = "A staple of wasteland life."
-lang["#CARAVANLUNCH_DESC"] = "A collection of food items with the harmful radiation removed.\n\nIt is often eaten by caravan merchants, due to the filling nature of the food and preparation simplicity." -- WIP
-lang["#TRAILMIX_DESC"] = "A combination of nuts, fruits, and breakfast cereal taken on long hiking trips or camping expeditions\n\nIt's intended to be high in calories, carbohydrates, and saturated fats to maintain energy during long periods of physical exertion." -- WIP
+lang["#CARAVANLUNCH_DESC"] = "A collection of food items with the harmful radiation removed.\n\nIt is often eaten by caravan merchants, due to the filling nature of the food and preparation simplicity."
+lang["#TRAILMIX_DESC"] = "A combination of nuts, fruits, and breakfast cereal taken on long hiking trips or camping expeditions\n\nIt's intended to be high in calories, carbohydrates, and saturated fats to maintain energy during long periods of physical exertion."
 lang["#SUGARBOMBS_DESC"] = "A pre-War breakfast cereal that can be found all around the Wasteland.\n\nExplosive great taste!"
-lang["#NOODLES_DESC"] = "It's a bunch of stringy yellow things dipped in spicy water. Pretty good." -- WIP
+lang["#NOODLES_DESC"] = "It's a bunch of stringy yellow things dipped in spicy water. Pretty good."
 lang["#PREWARSUGARBOMBS_DESC"] = "A pre-War breakfast cereal that can be found all around the Wasteland.\n\nExplosive great taste!"
-lang["#WASTELANDOMELET_DESC"] = "The Wasteland Omelet is a filling meal made with the finest ingredients.\n\nA flour tortilla, BlamCo Mac & Cheese, Mutfruit, Mirelurk Meat, Jalapeños, and the finishing touch:\n\nA Deathclaw's egg." -- WIP
+lang["#WASTELANDOMELET_DESC"] = "The Wasteland Omelet is a filling meal made with the finest ingredients.\n\nA flour tortilla, BlamCo Mac & Cheese, Mutfruit, Mirelurk Meat, Jalapeños, and the finishing touch:\n\nA Deathclaw's egg."
 lang["#MAC&CHEESE_DESC"] = "Of all the ingredients listed, oddly cheese isn't one of them."
-lang["#PREWARMAC&CHEESE_DESC"] = "Of all the ingredients listed, oddly cheese isn't one of them. Atleast the packaging is nice looking." -- WIP
+lang["#PREWARMAC&CHEESE_DESC"] = "Of all the ingredients listed, oddly cheese isn't one of them. Atleast the packaging is nice looking."
 
 
 lang["#DIRTYWATER_DESC"] = "A bottle filled with irradiated, unpure water."
@@ -1158,18 +1227,18 @@ lang["#NUKACOLA_DESC"] = "An 150 year old softdrink that still has its kick. Act
 lang["#NUKAQUARTZ_DESC"] = "A rare and classy cola! Has no artificial colors and is full of solid sugar flakes."
 lang["#NUKAVICTORY_DESC"] = "An exceedingly rare cola more valuable as a collectable than a beverage. Refreshingly patriotic!"
 lang["#NUKAQUANTUM_DESC"] = "An exceedingly rare flavor of nuka cola. Drinking this would be a shame."
-lang["#CHERRYNUKACOLA_DESC"] = "Classic Nuka Cola with a Cherry twist!" -- WIP
-lang["#PREWARNUKACOLA_DESC"] = "Classic Nuka Cola. This one is still fizzy." -- WIP
-lang["#ORANGENUKACOLA_DESC"] = "Classic Nuka Cola with an Orange twist!" -- WIP
-lang["#GRAPENUKACOLA_DESC"] = "Classic Nuka Cola with a Grapey twist!" -- WIP
+lang["#CHERRYNUKACOLA_DESC"] = "Classic Nuka Cola with a Cherry twist!"
+lang["#PREWARNUKACOLA_DESC"] = "Classic Nuka Cola. This one is still fizzy."
+lang["#ORANGENUKACOLA_DESC"] = "Classic Nuka Cola with an Orange twist!"
+lang["#GRAPENUKACOLA_DESC"] = "Classic Nuka Cola with a Grape twist!"
 lang["#DARKNUKACOLA_DESC"] = "Love Rum and Nuka? You won't like this nearly as much!"
-lang["#NUKAMIXWHITE_DESC"] = "Nuka Mystery, as some would call it. Before the war, this one got discontinued after a slew of horrific incidents that were all settled out of court." -- WIP -- Nuka mix is a drink players can make but wont know what it does until they drink it. And it can have many effects, minus and plus
-lang["#NUKAMIXRED_DESC"] = "A mix of various Nuka Cola flavours. This one appears red." -- WIP
-lang["#NUKAMIXBROWN_DESC"] = "A mix of various Nuka Cola flavors. This one appears brown." -- WIP
-lang["#NUKAMIXGREEN_DESC"] = "A mix of various Nuka Cola flavors. This one appears green." -- WIP
-lang["#NUKAMIXLIME_DESC"] = "Classic Nuka Cola with a Lime twist!" -- WIP
-lang["#NUKAMIXPURPLE_DESC"] = "A mix of various Nuka Cola flavors. This one appears purple." -- WIP
-lang["#NUKAMIXYELLOW_DESC"] = "A mix of various Nuka Cola flavors. This one appears yellow." -- WIP
+lang["#NUKAMIXWHITE_DESC"] = "Nuka Mystery, as some would call it. Before the war, this one got discontinued after a slew of horrific incidents that were all settled out of court." -- Nuka mix is a drink players can make but wont know what it does until they drink it. And it can have many effects, minus and plus
+lang["#NUKAMIXRED_DESC"] = "A mix of various Nuka Cola flavours. This one appears red."
+lang["#NUKAMIXBROWN_DESC"] = "A mix of various Nuka Cola flavors. This one appears brown."
+lang["#NUKAMIXGREEN_DESC"] = "A mix of various Nuka Cola flavors. This one appears green."
+lang["#NUKAMIXLIME_DESC"] = "Classic Nuka Cola with a Lime twist!"
+lang["#NUKAMIXPURPLE_DESC"] = "A mix of various Nuka Cola flavors. This one appears purple."
+lang["#NUKAMIXYELLOW_DESC"] = "A mix of various Nuka Cola flavors. This one appears yellow."
 lang["#NUKARUM_DESC"] = "You take some cola, and put some rum into it. So simple and so sweet, it's almost impossible to screw this up."
 lang["#SSODA_DESC"] = "Once known as the soft drink of the west, this root-beer still has it's taste."
 lang["#BEER_DESC"] = "A refreshing low-proof alcoholic beverage."
@@ -1190,17 +1259,17 @@ lang["#BUFFALOGOURD_DESC"] = "A filling gourd harvested from the Buffalo Gourd p
 lang["#BROCFLOWER_DESC"] = "A powdering, plain tasting flower bud. Commonly cultivated by natives of the area for its healing properties."
 lang["#XANDER_DESC"] = "Xander root is a large, turnip-like root with mild healing properties.\n\nIt can easily be identified by its exposed head and tall green stalk protruding from a raised ring of dirt, resembling an onion.\n\nThey are commonly growing around trails and around the mouths of caves."
 lang["#CORN_DESC"] = "A staple food of the New Californian Republic. Usually ground into flour for making tortillas or breads, this vegetable is decently nutritious."
-lang["#CARROT_DESC"] = "An orange, tall cone that sticks out of the ground. If you grow it right, it's pretty tasty." -- WIP
+lang["#CARROT_DESC"] = "An orange, tall cone that sticks out of the ground. If you grow it right, it's pretty tasty."
 lang["#LUREWEED_DESC"] = "This rare bioluminescent plant can only be found in very specific parts of the wasteland.\n\nNot much can be done with it raw, but when refined, this plant's medical properties make it worth it's weight in gold."
 lang["#BOILEDCORN_DESC"] = "A soft juicy ear of boiled corn, less radioactive and very tasty."
 lang["#FUNGUS_DESC"] = "Strange, green, and wrinkly fungus"
-lang["#ASTER_DESC"] = "A mutated flower from the genus Aster. Its purple color is muted relative to its pre-War ancestors, making it somewhat difficult to pick out from other plants." -- WIP
+lang["#ASTER_DESC"] = "A mutated flower from the genus Aster. Its purple color is muted relative to its pre-War ancestors, making it somewhat difficult to pick out from other plants."
 lang["#BLIGHT_DESC"] = "A yellowish-orange bioluminescent shelf fungus found growing on trees"
 lang["#HUBFLOWER_DESC"] = "Large hanging purple flower, Quite a bitter taste."
-lang["#SILTBEANS_DESC"] = "silt beans are red pods of legumes that grow in the wilderness, similar in appearance to a red flower at a distance." -- WIP
-lang["#RAZORGRAIN_DESC"] = "Razorgrain is a tough and sharp grass that is promising as a replacement for wheat which has become extinct from the region" -- WIP
-lang["#FERN_DESC"] = "Mutated ferns are a mutated variety of Polypodiopsida, vascular plants reproducing through spores and normally producing neither seeds nor flowers." -- WIP
-lang["#MELON_DESC"] = "A melon is any of various plants of the family Cucurbitaceae with sweet edible, fleshy fruit." -- WIP
+lang["#SILTBEANS_DESC"] = "silt beans are red pods of legumes that grow in the wilderness, similar in appearance to a red flower at a distance."
+lang["#RAZORGRAIN_DESC"] = "Razorgrain is a tough and sharp grass that is promising as a replacement for wheat which has become extinct from the region"
+lang["#FERN_DESC"] = "Mutated ferns are a mutated variety of Polypodiopsida, vascular plants reproducing through spores and normally producing neither seeds nor flowers."
+lang["#MELON_DESC"] = "A melon is any of various plants of the family Cucurbitaceae with sweet edible, fleshy fruit."
 lang["#BLOODLEAF_DESC"] = "Short, broad-leafed red flower with long roots, found near water sources. Leaves are somewhat edible. consumption not recommended"
 lang["#JALAPENO_DESC"] = "A flavorful, spicy pepper. Known widely for its flavor and 'heat', this pepper makes the mouth feel as if it were on fire."
 lang["#MESQUITE_DESC"] = "Mesquite seed pods, entirely edible with a sweet, fruity taste. Not very filling, but a deeply satisfying snack."
@@ -1212,8 +1281,8 @@ lang["#YUCCA_DESC"] = "Fruit of the Banana Yucca plant, native to the southwest 
 lang["#PINYONNUTS_DESC"] = "Edible nuts of the pinyon tree, native to the southwest U.S.\n\nCan be eaten alone or used in recipes."
 lang["#FRESHPEAR_DESC"] = "Fresh pears are rare food items in in the wasteland.\n\nDelicious, rad free fruit."
 lang["#FRESHAPPLE_DESC"] = "Fresh apples are rare food items in in the wasteland.\n\nDelicious, rad free fruit."
-lang["#TARBERRY_DESC"] = "Pretty big for berries. They're purple, containing a thick, sweet substance inside." -- WIP
-lang["#GLOWINGMUSHROOM_DESC"] = "Tiny luminescent sprout with a dome on it's peak. Seems like it could be used for... something." -- WIP
+lang["#TARBERRY_DESC"] = "Pretty big for berries. They're purple, containing a thick, sweet substance inside."
+lang["#GLOWINGMUSHROOM_DESC"] = "Tiny luminescent sprout with a dome on it's peak. Seems like it could be used for... something."
 
 lang["#MAGUNARMED_DESC"] = "A magazine containing information on unarmed combat."
 lang["#MAGREPAIR_DESC"] = "A magazine containing information on preforming repairs."
@@ -1229,6 +1298,8 @@ lang["#MAGBARTER_DESC"] = "A magazine containing information on bartering techni
 lang["#MAGMELEE_DESC"] = "A magazine containing information on melee combat."
 lang["#MAGMEDICINE_DESC"] = "A magazine containing information on medical practice."
 lang["#MAGSGUNS_DESC"] = "A magazine containing information on small arms."
+
+lang["#RATION_DESC"] = "Rations, commonly found throughout City 17, and in supply crates, for some reason.\n\nMake sure you also get your weekly rations at the vendor!"
 
 --███╗   ███╗███████╗██████╗     ██╗ ██████╗██╗  ██╗███████╗███╗   ███╗███████╗
 --████╗ ████║██╔════╝██╔══██╗   ██╔╝██╔════╝██║  ██║██╔════╝████╗ ████║██╔════╝
@@ -1311,7 +1382,7 @@ lang["#MEDX_DESC"] = "Pre-War medicinal painkiller that's injected via syringe."
 lang["#RADAWAY_DESC"] = "A Pre-War medicine that cures the body of radiation damage."
 lang["#RADAPLENTY_DESC"] = "Hot radioactive fluid made for ghouls. This shit will fuck you up."
 lang["#STIMPAK_DESC"] = "A marvel of Pre-War medicine, the Stimpak accelerates your body's healing processes, allowing you to heal wounds in seconds."
-lang["#STIMPAK_ND_DESC"] = "A marvel of Pre-War medicine, the Stimpak accelerates your body's healing processes, allowing you to heal wounds in seconds.\n\nStarting gift, #STARTER_AMMO_DISCLAMER"
+lang["#STIMPAK_ND_DESC"] = "An old stimpak, its stored effects worsened as time goes on. Doesn't make it any less safe though. Using will accelerate your body's healing processes, but because of its age, it will not work as fast.\n\n#STARTER_DEFAULT_DISCLAIMER"
 lang["#BLOODBAG_DESC"] = "A package of preserved blood.\n\nHeals slowly over time."
 lang["#GLOWINGBLOOD_DESC"] = "Highly radioactive blood from glowing creatures."
 lang["#FEVSERUM_DESC"] = "Science never broke any boundaries since its conception, through medicine came addiction, terminals brought upon an age of dissent and unrest, yet... we never sought to create men-of-war, walking tanks upon the fields of war, what we didn't know, was that it was our greatest mistake. \n\nThe FEV Serum was created in response to something, nobody is really sure. The masses, at least the informed ones, say it was created by individuals who wanted to cure mutants of their affliction or created by mutants themselves, maybe it was by the master in his final hours or some crazed men somewhere east of the Mojave, wherever it came from, it's surely sought after by men and mer alike." -- By Varen
@@ -1332,7 +1403,7 @@ lang["#RADX_DESC"] = "A bottle of pills that prevent drastic radiation damage to
 lang["#BUFFOUT_DESC"] = "Highly advanced steroids.\n\nWhile under effects, increases strength and endurance.\n\nVery addictive."
 lang["#PSYCHO_DESC"] = "This injected drug was intended for military use.\nGreatly increases tolerance to pain. Can cause extreme anger and recklessness.\n\nAP Is not consumed for 25 seconds."
 lang["#FIXER_DESC"] = "Fixer is a pre-war invention adopted and replicated by various groups around the Wasteland.\n The medication, coming in the form of small capsules, is known for its ability to temporarily and in most cases fully remove addictions."
-lang["#HEALINGPOWDER_DESC"] = "A powder mixture of Broc Flower, Xander Root and various fillers or flavoring.\n Used by natives of the area for it's strong healing and recreational properties, this 'medicine' dulls the senses and helps coagulate blood."
+lang["#HEALINGPOWDER_DESC"] = "A powder made by crushed xander root and broc flower. It smells awful, but apparently can slowly heal wounds and helps coagulate blood. Commonly used by natives because of these special 'healing' properties."
 lang["#MENTATS_DESC"] = "A performance enhancing drug that affects the mind, giving an intelligence boost to the user. The method as to how this is achieved is widely debated, and scarcely known."
 lang["#PARTYMENTATS_DESC"] = "You'll be the life of the party with these mentats."
 lang["#ROCKET_DESC"] = "Jet with the extra kick of Nuka! And some laundry detergent too. Hits harder than jet but doesnt last as long."
@@ -1352,19 +1423,20 @@ lang["#EIGHTBALL_DESC"] = "A black ball with the number eight on it. Used for a 
 --██║ ╚═╝ ██║███████╗███████╗███████╗███████╗
 --╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝╚══════╝
 
-lang["#BOTTLESHANK_NAME"] = "Bottle Shiv"
+lang["#BOTTLESHANK_NAME"] = "Bottle Shank"
 lang["#COMBATKNIFE_NAME"] = "Combat Knife"
+lang["#COMBATKNIFE_STARTER_NAME"] = "Bent Knife"
 lang["#CROWBAR_NAME"] = "Crowbar"
 lang["#FIREAXE_NAME"] = "Fire Axe"
 lang["#KATANA_NAME"] = "Katana"
 lang["#MACHETE_NAME"] = "Machete"
 lang["#REBARCLUB_NAME"] = "Rebar Club"
 lang["#SHISHKEBAB_NAME"] = "Shishkebab"
-lang["#SHOVEL_NAME"] = "Shovel"
 lang["#SPIKEKNUCKLES_NAME"] = "Spiked Knuckles"
 lang["#SUPERSLEDGE_NAME"] = "Super Sledge"
 lang["#9IRON_NAME"] = "Nine Iron"
 lang["#BASEBALLBAT_NAME"] = "Baseball Bat"
+lang["#BASEBALLBAT_STARTER_NAME"] = "Aged Baseball Bat"
 lang["#CATTLEPROD_NAME"] = "Cattle Prod"
 lang["#CLEAVER_NAME"] = "Cleaver"
 lang["#DRESSCANE_NAME"] = "Dress Cane"
@@ -1378,49 +1450,52 @@ lang["#STRAIGHTRAZOR_NAME"] = "Straight Razor"
 lang["#ROLLINGPIN_NAME"] = "Rolling Pin"
 lang["#SLEDGE_NAME"] = "Sledgehammer"
 lang["#SHOVEL_NAME"] = "Shovel"
+lang["#HOE_NAME"] = "Hoe"
+lang["#SPADE_NAME"] = "Spade"
+lang["#MOP_NAME"] = "Mop"
 lang["#SWITCHBLADE_NAME"] = "Switchblade"
 lang["#WAKAZASHI_NAME"] = "Wakazashi"
 lang["#BUMPER_NAME"] = "Bumper Sword"
 lang["#BATON_NAME"] = "Baton"
 lang["#POWERFIST_NAME"] = "Power Fist"
-
-
 lang["#CANOPENER_NAME"] = "Can Opener"
 
-
 --Melee Weapons Desc
-lang["#BOTTLESHANK_DESC"] = "Broken bottle.\nThe label is worn beyond recognition but you can make out two letters: B.S.\nCould be used as a close-combat weapon, if you're into that."
+lang["#BOTTLESHANK_DESC"] = "Broken bottle. The label is worn beyond recognition but you can make out two letters: B.S.\nCould be used as a close-combat weapon, if you're into that.\n\n#WIP_DESC"
 lang["#COMBATKNIFE_DESC"] = "A Combat knife primarily used by military.\n\nA staple of close-quarters combat, which made it a popular knife among enthusiast and survivalists.\n\nCan be used as a bayonet on some weapons."
+lang["#COMBATKNIFE_STARTER_DESC"] = "A crappy old knife. Once used by military, now deserted to time. Not very sharp, but could still poke something with it."
 lang["#CROWBAR_DESC"] = "A simple bar of steel with a curved end, but an effective tool nonetheless.\nDepite it's intention as a utility device, the weight and balance of this tool make it an effective fallback as a melee weapon."
 lang["#FIREAXE_DESC"] = "The fire axe is a wooden handled axe with a heavy steel head intended for firefighting use. The long hardwood handle allows for sweeping attacks at reasonable distance and is partially rubber coated to ensure a good grip on the weapon.\n\nOriginally designed for breaking down walls and doors, this weapon can inflict severe damage to a soft target."
 lang["#KATANA_DESC"] = "Deadly melee weapon.\nWorked steel alloy that has been perfectly sharpened and flattened over a thousand times to produce a perfect blade; useful for all styles of blade combat such as stabbing, slashing, and thrusting."
 lang["#MACHETE_DESC"] = "Sharp melee weapon.\nReworked metal shaped into a medium length blade. one end sports a leather wrapped handle for a nice grasp.\nCan be used for a medium-ranged melee weapon."
 lang["#REBARCLUB_DESC"] = "Makeshift blunt melee weapon.\nA rod of rebar for a handle and a chunk of concrete as a hammer-head; This is a questionable choice of weaponry, it is effective but unbalanced making it challenging to use.\nCan be used as a medium range weapon."
 lang["#SHISHKEBAB_DESC"] = "Incendiary melee weapon.\nA very elaborate design of great intellect; Some kind of fuel flows out into a flame that surrounds the sharp flat blade of the device, truly wondrous.\nCan be used as an effective medium range weapon that can light it's targets ablaze."
-lang["#SHOVEL_DESC"] = "Odd choice of weaponry, can you dig it?\nA flat but curved metal plate on the end of a wooden staff handle; It's purpose doubles as a utility device for prying and scooping.\nCan be used as a long range weapon."
 lang["#SPIKEKNUCKLES_DESC"] = "Crude melee weapon.\nReworked metal formed into a grip like shape with tapered spikes at the knuckles.\nCan be used as a close-combat weapon."
 lang["#SUPERSLEDGE_DESC"] = "Effective blunt melee weapon.\nA large hydraulic piston on the end of a long staff handle; The piston and handle form a hammer like shape, the piston is powered by unseen forces.\nCan be used as an effective smashing weapon, which is also long range."
 lang["#9IRON_DESC"] = "This old 9 iron is bent and battered after many years of exposure to the elements."
 lang["#BASEBALLBAT_DESC"] = "This all-American, hardwood, baseball bat will knock anything right out of the park."
+lang["#BASEBALLBAT_STARTER_DESC"] = "An old, wooden, baseball bat. Once used to swing balls out of the park, now good for bashing a threat's head in."
 lang["#CATTLEPROD_DESC"] = "Normally used for herding stubborn cattle, it has been re-purposed as a non-lethal weapon against humans.\n\nIn addition to the taser-like prongs at the tip normally found on cattle prods, it has been outfitted with a thick, electrified metal coil around the striking end, hooked up to a pair of batteries taped down near the handle."
 lang["#CLEAVER_DESC"] = "A kitchen utensil made specifically for Hackin', Whackin', Choppin' that meat!"
 lang["#DRESSCANE_DESC"] = "A dress cane from before the war.\n\nLike all things owned by high society, it is in excellent condition, and is made of a sturdy, shiny black wood with an ivory handle."
-lang["#LEADPIPE_DESC"] = "A widely available, inexpensive, melee weapon. One of the ends has tape wrapped around it to improve grip, while the other is topped with a pipe fitting.\n\nCaution: Known to the state of New California to cause birth defects."
+lang["#LEADPIPE_DESC"] = "A widely available, inexpensive, melee weapon. One of the ends has tape wrapped around it to improve grip, while the other is topped with a pipe fitting.\n\nCaution: Known to the state of New California to cause birth defects.\n\n#WIP_DESC"
 lang["#HATCHET_DESC"] = "It is a hand-axe with a rubber-gripped wooden handle for chopping wood and limbs alike.\n\nUnlike throwing hatchets, these are not balanced for use as a projectile weapon."
 lang["#KITCHENKNIFE_DESC"] = "For all your horror movie-related needs, or if you just need to cut some carrots."
 lang["#DRIVER_DESC"] = "Always be sure to have the latest version."
 lang["#NAILBOARD_DESC"] = "This 2x4 has several nails driven through it, with a whittled shaft to ensure a better grip.\n\nCommonly used by super mutants and other idiots."
-lang["#PIPEWRENCH_DESC"] = "A typical wrench used by mechanics for hurting people.\n\n[WORK IN PROGRESS, CURRENT VERSION IS A PLACEHOLDER PENDING ADDITIONAL ASSESTS]"
+lang["#PIPEWRENCH_DESC"] = "A typical wrench used by mechanics for hurting people. Also good for breaking apart vehicles!\n\n#WIP_DESC"
 lang["#STRAIGHTRAZOR_DESC"] = "An old-fashioned shaving razor with a polished wooden handle. Though its blade is short, it's lightweight and can deliver several slashing hits in rapid succession."
 lang["#ROLLINGPIN_DESC"] = "A plain wooden rolling pin used in baking to flatten dough, with a couple thin streaks of blood down one side."
-lang["#SLEDGE_DESC"] = "The strongman's specialty makes an appearance in the wasteland.\n\n[WORK IN PROGRESS, CURRENT VERSION IS A PLACEHOLDER PENDING ADDITIONAL ASSESTS]"
-lang["#SHOVEL_DESC"] = "A wood handled shovel, useful for digging up graves, or smacking molehills.\n\n[WORK IN PROGRESS, CURRENT VERSION IS A PLACEHOLDER PENDING ADDITIONAL ASSESTS]"
+lang["#SLEDGE_DESC"] = "The strongman's specialty makes an appearance in the wasteland.\n\n#WIP_DESC"
+lang["#SHOVEL_DESC"] = "A wood-handed shovel. Useful for digging up graves, or hitting your targets from the furthest possible range. Meant for those who are true shovel knights."
+lang["#HOE_DESC"] = "An old gardening tool. A long stick with a thick piece of metal attached to the end of it. Not sure what you plan to do with this, but it may prove to be a useful weapon."
+lang["#SPADE_DESC"] = "Similar to a shovel, but significantly smaller. What's the actual difference between these two? They'll still bash a head in."
+lang["#MOP_DESC"] = "You can use this to clean the blood on the floor from your enemies after violently beating them to death with it."
 lang["#SWITCHBLADE_DESC"] = "The blade of this small knife is held by a spring. When a button on the handle is pressed, the blades shoots out with a satisfying ''Sssssshk'' sound."
 lang["#WAKAZASHI_DESC"] = "A short finely crafted knife.\n\nThe tip seems to be designed to pierce armor"
 lang["#BUMPER_DESC"] = "More of a raw hunk of steel than a weapon, the bumper sword is an extremely heavy and sharp weapon created from the bumper of a car, dealing massive damage."
 lang["#BATON_DESC"] = "A collapsible model law enforcement baton, used by various police departments before the Great War."
 lang["#POWERFIST_DESC"] = "Originally used as pre-War hardware for demolition crews rather than as a weapon.\n\nThe power fist uses a pneumatic battering ram to deliver powerful, medium-speed punches to attackers"
-
 
 lang["#CANOPENER_DESC"] = "A special something for those whose uncanned aggression would incite a war over something as trivial as Pre-War beans.\n\nJust track down some of those precious cans and get to bashing, baby!"
 
@@ -1492,6 +1567,8 @@ lang["#EMPTYSYRINGE_NAME"] = "Empty Syringe"
 lang["#FORCEPS_NAME"] = "Forceps"
 lang["#CRUCIBLE_NAME"] = "Crucible"
 lang["#FBATTERY_NAME"] = "Fission Battery"
+lang["#MAKESHIFTBATTERY_NAME"] = "Makeshift Battery"
+lang["#WHEEL_NAME"] = "Wheel"
 lang["#FLOUR_NAME"] = "Flour"
 lang["#GASENGINE_NAME"] = "Gasoline Engine"
 lang["#GUNPOWDERP_NAME"] = "Powder, Pistol"
@@ -1568,13 +1645,13 @@ lang["#AMMOBOX_NAME"] = "Ammo Box,"
 
 --MISC Items Desc
 lang["#ABRAXO_DESC"] = "A pre-War cleaning agent produced by Abraxodyne Chemical.\n\nIt can still be found throughout the U.S. over 150 years after the Great War."
-lang["#10LBWEIGHT_DESC"] = "A weight for lifting. This one is light." -- WIP
-lang["#25LBWEIGHT_DESC"] = "A weight for lifting. This one is heavy." -- WIP
+lang["#10LBWEIGHT_DESC"] = "A weight for lifting. This one is light."
+lang["#25LBWEIGHT_DESC"] = "A weight for lifting. This one is heavy."
 lang["#5LBWEIGHT_DESC"] = "A weight for lifting. This one is very light."-- WIP
-lang["#160LBDUMBELL_DESC"] = "A circular disk made of lead, used for working out. This one is REALLY heavy." -- WIP
-lang["#20LBDUMBELL_DESC"] = "A circular disk made of lead, used for working out. This one is kinda heavy." -- WIP
-lang["#40LBDUMBELL_DESC"] = "A circular disk made of lead, used for working out. This one is heavy." -- WIP
-lang["#80LBDUMBELL_DESC"] = "A circular disk made of lead, used for working out. This one is pretty heavy." -- WIP
+lang["#160LBDUMBELL_DESC"] = "A circular disk made of lead, used for working out. This one is REALLY heavy."
+lang["#20LBDUMBELL_DESC"] = "A circular disk made of lead, used for working out. This one is kinda heavy."
+lang["#40LBDUMBELL_DESC"] = "A circular disk made of lead, used for working out. This one is heavy."
+lang["#80LBDUMBELL_DESC"] = "A circular disk made of lead, used for working out. This one is pretty heavy."
 lang["#AGUITAR_DESC"] = "A ''Dreadnought'' style bodied acoustic guitar, with a sunburst color finish."
 lang["#ASHTRAY_DESC"] = "A ceramic container used for the holding of ash, cigarettes, cigars and anything else that can be smoked."
 lang["#BBGLOVE_DESC"] = "A leather glove used by catchers in America's favorite pre-war sport."
@@ -1595,7 +1672,7 @@ lang["#CAMERA_DESC"] = "A broken pre-war camera. Worth its weight in scrap, only
 lang["#CIGARETTEPACK_DESC"] = "A semi-common pack of cigarettes.\nPopular despite the moldy taste."
 lang["#CIGARETTECARTON_DESC"] = "A rare and valuable carton of cigarettes.\nContains several packs."
 lang["#CASE_DESC"] = "A single brass casing.\n\nUsed in loading cartridges of the same name."
-lang["#BBUGPROBOSCIS_DESC"] = "The elongated snout of a bloodbug. If you were creative, you could use this thing as a blowdart." -- WIP
+lang["#BBUGPROBOSCIS_DESC"] = "The elongated snout of a bloodbug. If you were creative, you could use this thing as a blowdart."
 lang["#CHERRYBOMB_DESC"] = "A Pre-War explosive firework, used in celebrations or pranks.\n\nKeep away from open flames."
 lang["#CHESSBOARD_DESC"] = "(Pieces sold seperately)"
 lang["#HARDPLATE_DESC"] = "An ancient piece of equipment from a time long past.\n\n A piece of a very durable heavy armor plating. It seems to have a charred hole through it, is that a pulse round?"
@@ -1612,7 +1689,7 @@ lang["#DEATHCLAWHIDE_DESC"] = "The hide harvested from a Deathclaw.\n\nAgainst i
 lang["#YAOGUAIHIDE_DESC"] = "The thick hide of a Yaoguai. Mostly whole with some radiation burns and scars."
 lang["#MOLERATHIDE_DESC"] = "The dirt covered hide of a Molerat. Smells odd."
 lang["#CRUTCH_DESC"] = "A medical device accociated with those with broken legs. Less expensive than a wheelchair."
-lang["#CRACKEDDEATHCLAWEGG_DESC"] = "Better hope the mother doesn't see you with this." -- WIP
+lang["#CRACKEDDEATHCLAWEGG_DESC"] = "Better hope the mother doesn't see you with this."
 lang["#DEATHCLAWEGG_DESC"] = "An unhatched deathclaw offspring.\n\nValuable as it is dangerous to harvest, many would-be hunters have died, horribly, in attempts to retrieve these guaranteed paydays."
 lang["#DEATHCLAWHAND_DESC"] = "The severed hand of a Deathclaw, an impressive and valuable hunting trophy.\n\nFor every Deathclaw Hand in possesion of a wastelander, there are an estimated five or more Deathclaws in possesion of a waster's limb. Good Luck!"
 lang["#DINNERPLATE_DESC"] = "A round, shallow dark brown plate. Perfect for smashing over an unruly dinner guest's head."
@@ -1632,13 +1709,15 @@ lang["#EMPTYSYRINGE_DESC"] = "A discarded hypodermic syringe.\n\nI wouldn't put 
 lang["#FORCEPS_DESC"] = "Forceps are a type of medical equipment used for grasping and holding items during surgery. Associated with other hand-held medical equipment, they often accompanying them on."
 lang["#CRUCIBLE_DESC"] = "A small crucible that runs on propane. Useful for making ingots."
 lang["#FBATTERY_DESC"] = "Throughout the Wastes, fission batteries can be found in settlements, remote shacks in the wastes, and reoccupied suburban homes.\n\nEasily scavenged from the common Robot or appliance store, it is invaluable to the common wastelander in the absence of a reliable power grid, if any."
+lang["#MAKESHIFTBATTERY_DESC"] = "A handmade battery. Can be used to power various things."
+lang["#WHEEL_DESC"] = "A wheel that is still in good shape. May or may not be stolen from another vehicle."
 lang["#FLOUR_DESC"] = "A pre-war cooking ingrediant made by T.V.G.\n\nInedible by itself, but a component in several wasteland recipies."
 lang["#GASENGINE_DESC"] = "An engine that uses Gasoline to generate power. Good luck finding fuel." -- basically the makeshift engine
 lang["#GUNPOWDERP_DESC"] = "Smokeless pistol powder, measured into grains.\n\nThis powder burns quickly, and is used in the creation of handgun and shotgun ammunition, as well as anything that goes Boom."
 lang["#GUNPOWDERR_DESC"] = "Smokeless rifle powder, measured into grains.\n\nThis powder burns slowly, and is used in the creation of rifle ammunition, as well as anything that goes Boom."
 lang["#GUNPOWDERJUGP_DESC"] = "One full pound of smokeless pistol powder.\n\nPop the lid off this baby at a reloading bench, and get to work!"
 lang["#GUNPOWDERJUGR_DESC"] = "One full pound of smokeless rifle powder.\n\nPop the lid off this baby at a reloading bench, and get to work!"
-lang["#HAMMER_DESC"] = "A study pre-war smithing hammer.\n\nUsed in the crafting of some items."
+lang["#HAMMER_DESC"] = "A sturdy pre-war smithing hammer.\n\nUsed in the crafting of some items."
 lang["#HOTPLATE_DESC"] = "Used in science experiments as a container to boil, or provide a source of chemical reaction to other chemicals and objects."
 lang["#SOLDERKIT_DESC"] = "A kit of tools used for repairing, modifying, and creating delicate electronics or metal bits." -- a tool needed for crafting more complex items
 lang["#SOLDER_DESC"] = "An easily metled alloy, used for joining metals or repairing electronics."
@@ -1650,8 +1729,8 @@ lang["#SCISSORS_DESC"] = "A piece of pre-War hand-held medical equipment used du
 lang["#MEDBRACE_DESC"] = "Medical Brace are a type of medical equipment used for restraining and controling the movement of an injured limb."
 lang["#METROTICKET_DESC"] = "An old paper ticket once used to ride trains."
 lang["#METALPLATE_DESC"] = "A metal plate hammered out of forged steel."
-lang["#LASERBLUEPRINTSTOCK_DESC"] = "The blueprint for a Standard Laser Rifle Stock." -- WIP
-lang["#LASERBLUEPRINTBARREL_DESC"] = "The blueprint for a Laser Rifle Barrel." -- WIP
+lang["#LASERBLUEPRINTSTOCK_DESC"] = "The blueprint for a Standard Laser Rifle Stock."
+lang["#LASERBLUEPRINTBARREL_DESC"] = "The blueprint for a Laser Rifle Barrel."
 lang["#MANTISLEG_DESC"] = "Severed foreleg of a wasteland Mantis.\n\nNot edible in its current form, by humans anyway."
 lang["#NUCLEARMAT_DESC"] = "A catch-all term for the various radioactive substances found in the wasteland.\n\nNuclear material is used to craft weapon modifications as well as various explosives.\n\nI wouldn't keep it on my person for too long. . ."
 lang["#WELDER_DESC"] = "A torch used in the profession of welding things together." -- also a tool needed for crafting more complex items
@@ -1725,6 +1804,7 @@ lang["#STARCAP_NAME"] = "Star Bottlecap"
 lang["#BALLISTICFIBER_NAME"] = "Ballistic Fiber"
 lang["#PREWARMONEY_NAME"] = "Pre-War Money"
 lang["#NCRMONEY_NAME"] = "NCR Dollar"
+lang["#NCRMONEY_VOUCHER_NAME"] = "NCR Voucher"
 lang["#SCRAPMETAL_NAME"] = "Scrap Metal"
 lang["#SCRAPCLOTH_NAME"] = "Scrap Cloth"
 lang["#SCRAPCOPPER_NAME"] = "Scrap Copper"
@@ -1744,6 +1824,7 @@ lang["#GECKOHIDE_NAME"] = "Gecko Hide"
 lang["#PROPANE_NAME"] = "Propane"
 lang["#CHARCOAL_NAME"] = "Charcoal"
 lang["#COLLECTORCERT_NAME"] = "Odd Certificate"
+lang["#HL2CREDIT_NAME"] = "Co-op Credits"
 --Valuables Desc
 lang["#BOTTLECAP_DESC"] = "A cap of a soda bottle. Used as currency in many parts of the Wasteland." -- The currency. It will be recognized as money by most traders.
 lang["#BOTTLECAP_FAKE_DESC"] = "A look-a-like '''bottle cap'' fashioned from a tin can cut into a circle, crimped, and then painted.\n\nThe phrase ''Sarsaparilla Quantum'' is written on it.\n\nOnly an idiot would be foolish enough to accept this as payment." -- The currency. It will be recognized as money by most traders.
@@ -1753,6 +1834,7 @@ lang["#PREWARMONEY_DESC"] = "Wrinkled, torn, and faded paper notes.\n\nUsed as c
 lang["#PREWARMONEY_FAKE_DESC"] = "Funny thing about counterfeit Pre-War bills, they get easier to identify the older they get.\n\nWhat's left of the ink has visibly darkened and is slightly caustic to bare skin.\n\nNot fit to wipe your ass with, even a Protectron wouldn't accept this as payment nowadays."
 lang["#NCRMONEY_DESC"] = "A paper bill similar to Pre-War money.\n\nIt features a picture of Aradesh on the face and the view of Shady Sands on the back."
 lang["#NCRMONEY_FAKE_DESC"] = "A newspaper ''bill'' ''similar'' to Pre-War money.\n\nIt features a picture of a dog (missing) on the face and a Super-Duper Mart coupon (expired) on the back.\n\nWho knew counterfeiting would survive the war?"
+lang["#NCRMONEY_VOUCHER_DESC"] = "Vouchers that can be redeemed for unique rewards with NCR quartermasters, found in territory they control."
 lang["#SCRAPMETAL_DESC"] = "Metal scavenged from Pre War artifacts." -- Scrap metal will obviously be like pnrp's scrap
 lang["#SCRAPCLOTH_DESC"] = "Scraps of cloth from old clothing and other artifacts."
 lang["#SCRAPCOPPER_DESC"] = "Left over bits of copper that can be melded together to forge new items"
@@ -1772,6 +1854,7 @@ lang["#GECKOHIDE_DESC"] = "Unprocessed hide of a Wasteland Gecko. The scales are
 lang["#PROPANE_DESC"] = "Propane which is commonly used in tools like a welding torch. Measured in pounds."
 lang["#CHARCOAL_DESC"] = "Biocoal derived from wood, this black substance can be used to forge steel."
 lang["#COLLECTORCERT_DESC"] = "You received this certificate after completing an odd job for an anonymous client.\n\nIt's signed 'The Collector'. "
+lang["#HL2CREDIT_DESC"] = "Credits, earned while playing the Half-Life 2 Campaign or Co-op Maps! Can be used and one and only one vendor."
 
 --██╗    ██╗███████╗ █████╗ ██████╗  ██████╗ ███╗   ██╗    ███╗   ███╗ ██████╗ ██████╗ ███████╗
 --██║    ██║██╔════╝██╔══██╗██╔══██╗██╔═══██╗████╗  ██║    ████╗ ████║██╔═══██╗██╔══██╗██╔════╝
@@ -1802,6 +1885,11 @@ lang["#MODSLOT_TIP"] = "Nozzle"
 -- Armor
 lang["#MODSLOT_CHEST"] = "Chest Mount"
 lang["#MODSLOT_POCKETS"] = "Pockets"
+
+-- Melee
+lang["#MODSLOT_BLADE"] = "Blade"
+lang["#MODSLOT_HEAD"] = "Head"
+lang["#MODSLOT_HANDLE"] = "Handle"
 
 -- ██████╗ ███████╗███╗   ██╗███████╗██████╗ ██╗ ██████╗
 --██╔════╝ ██╔════╝████╗  ██║██╔════╝██╔══██╗██║██╔════╝
@@ -1995,6 +2083,7 @@ lang["#MOD_SIGHT_GLOW_PSHOTGUN_NAME"] = "Pump Shotgun Glow Sight"
 lang["#MOD_SIGHT_GLOW_SXS_NAME"] = "SxS Shotgun Glow Sight"
 lang["#MOD_SIGHT_GLOW_BERETTA_NAME"] = "9mm Pistol Glow Sight"
 lang["#MOD_SIGHT_GLOW_CPISTOL_NAME"] = "Combat Pistol Glow Sight"
+lang["#MOD_SIGHT_GLOW_10PISTOL_NAME"] = "10mm Pistol Glow Sight"
 lang["#MOD_SIGHT_REDDOT_10PISTOL_NAME"] = "10mm Pistol Reflex Sight"
 lang["#MOD_SIGHT_GLOW_45PISTOL_NAME"] = ".45 Auto Pistol Glow Sight"
 lang["#MOD_SIGHT_DKS_IRON_NAME"] = "Sniper Rifle Peep Sight"
@@ -2012,6 +2101,7 @@ lang["#MOD_SIGHT_GLOW_R91_NAME"] = "Assault Rifle Glow Sight"
 lang["#MOD_SIGHT_GLOW_COWBOY_NAME"] = "Cowboy Repeater Glow Sight"
 lang["#MOD_SIGHT_GLOW_TCARBINE_NAME"] = "Trail Carbine Glow Sight"
 lang["#MOD_SIGHT_GLOW_SBS_NAME"] = "Single Shotgun Glow Sight"
+lang["#MOD_SIGHT_GLOW_AKM_NAME"] = "Soviet Rifle Glow Sight"
 
 lang["#MOD_SIGHT_LGUN_SNIPER"] = "Sniper Scope"
 lang["#MOD_SIGHT_REDDOT_GLASER_NAME"] = "Gatling Laser Reflex Sight"
@@ -2205,7 +2295,7 @@ lang["#MOD_RECEIVER_MFC_RCW_DESC"] = "A modified terminal and power converter fo
 lang["#MOD_RECEIVER_TRIBEAM_HDC_DESC"] = "An additional rack of capacitors for the Tri-Beam laser gun.\n\nGreatly improves overall durability of the firearm, increasing total shots that can be fired before repair is required.\n\nI mean, It's not like you haven't already voided the warranty on this thing. . ."
 lang["#MOD_RECEIVER_HSE_PCASTER_DESC"] = "An after-market High Speed Electrode for the Plasma Caster.\n\nIncreases the firing speed by 25%.\n\nMarketed as an optional upgrade from the Pre-war days, when this was an industrial tool."
 
-lang["#MOD_RECEIVER_NEWWOOD_PIPESEMI_DESC"] = "A quality wooden frame for pipe weapons.\n\nImproves overall durability of the firearm, increasing total shots that can be fired before repair is required." 
+lang["#MOD_RECEIVER_NEWWOOD_PIPESEMI_DESC"] = "A quality wooden frame for pipe weapons.\n\nImproves overall durability of the firearm, increasing total shots that can be fired before repair is required."
 lang["#MOD_RECEIVER_SHADOW_PIPESEMI_DESC"] = "A painted quality wooden frame for pipe weapons.\n\nImproves overall durability of the firearm, increasing total shots that can be fired before repair is required.\n\nDark paint slightly increases stealth while weapon is drawn."
 
 
@@ -2217,6 +2307,7 @@ lang["#MOD_SIGHT_GLOW_PSHOTGUN_DESC"] = "A replacement front and rear sight for 
 lang["#MOD_SIGHT_GLOW_SXS_DESC"] = "A replacement front bead sight for the SxS Shotgun with a tritium cell.\n\nImproves the shotguns's front sight by highlighting it with a glowing dot.\n\nExcellent for use in low-light conditions."
 lang["#MOD_SIGHT_GLOW_CPISTOL_DESC"] = "A pair of replacement sights for the Combat Pistol with tritium cells.\n\nImproves a weapon's standard sights by highlighting them with glowing dots.\n\nExcellent for use in low-light conditions."
 lang["#MOD_SIGHT_GLOW_BERETTA_DESC"] = "A pair of replacement sights for the 9mm Pistol with tritium cells.\n\nImproves a weapon's standard sights by highlighting them with glowing dots.\n\nExcellent for use in low-light conditions."
+lang["#MOD_SIGHT_GLOW_10PISTOL_DESC"] = "A pair of replacement sights for the 10mm Pistol with tritium cells.\n\nImproves a weapon's standard sights by highlighting them with glowing dots.\n\nExcellent for use in low-light conditions."
 lang["#MOD_SIGHT_REDDOT_10PISTOL_DESC"] = "A Pre-War optic widely issued by the Military for use with various firearms.\n\n1x Magnification.\n\nThis sight suspends an illumenated reticle over the lens, which is used as the point of aim."
 lang["#MOD_SIGHT_GLOW_45PISTOL_DESC"] = "A replacement front and rear sight for the .45 Auto Pistol with tritium cells.\n\nImproves a weapon's standard sights by highlighting them with glowing dots.\n\nExcellent for use in low-light conditions."
 lang["#MOD_SIGHT_DKS_IRON_DESC"] = "A factory-issue Peep sight for the DKS-501 Sniper Rifle.\n\nGuaranteed not to fog up during those pesky sudden Radstorms."
@@ -2233,6 +2324,7 @@ lang["#MOD_SIGHT_GLOW_R91_DESC"] = "A replacement front and rear sight for the A
 lang["#MOD_SIGHT_GLOW_COWBOY_DESC"] = "A replacement front and rear sight for the Cowboy Repeater with tritium cells.\n\nImproves a weapon's standard sights by highlighting them with glowing dots.\n\nExcellent for use in low-light conditions."
 lang["#MOD_SIGHT_GLOW_TCARBINE_DESC"] = "A replacement front and rear sight for the Trail Carbine with tritium cells.\n\nImproves a weapon's standard sights by highlighting them with glowing dots.\n\nExcellent for use in low-light conditions."
 lang["#MOD_SIGHT_GLOW_SBS_DESC"] = "A replacement front bead sight for the Single Shotgun with a tritium cell.\n\nImproves the shotguns's front sight by highlighting it with a glowing dot.\n\nExcellent for use in low-light conditions."
+lang["#MOD_SIGHT_GLOW_AKM_DESC"] = "A replacement front and rear sight for the Soviet Rifle with tritium cells.\n\nImproves a weapon's standard sights by highlighting them with glowing dots.\n\nExcellent for use in low-light conditions."
 
 lang["#MOD_SIGHT_REDDOT_GLASER_DESC"] = "A Pre-War optic issued by the Military for use with high-tech weaponry.\n\n1x Magnification.\n\nThis sight suspends an illumenated reticle over the lens, which is used as the point of aim."
 
@@ -2402,10 +2494,32 @@ lang["#MOD_SEAR_5MM_DESC"] = "A replacememnt motor for the 5mm Minigun.\n\nIncre
 
 lang["#MOD_SEAR_BURST_RCW_DESC"] = "A modified rate-of-fire regulator for the Laser RCW.\n\nConverts weapon to 3-shot burst fire, and increases firing speed."
 
+-- ███╗   ███╗███████╗██╗     ███████╗███████╗    ██╗    ██╗███████╗ █████╗ ██████╗  ██████╗ ███╗   ██╗███████╗
+-- ████╗ ████║██╔════╝██║     ██╔════╝██╔════╝    ██║    ██║██╔════╝██╔══██╗██╔══██╗██╔═══██╗████╗  ██║██╔════╝
+-- ██╔████╔██║█████╗  ██║     █████╗  █████╗      ██║ █╗ ██║█████╗  ███████║██████╔╝██║   ██║██╔██╗ ██║███████╗
+-- ██║╚██╔╝██║██╔══╝  ██║     ██╔══╝  ██╔══╝      ██║███╗██║██╔══╝  ██╔══██║██╔═══╝ ██║   ██║██║╚██╗██║╚════██║
+-- ██║ ╚═╝ ██║███████╗███████╗███████╗███████╗    ╚███╔███╔╝███████╗██║  ██║██║     ╚██████╔╝██║ ╚████║███████║
+-- ╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝╚══════╝     ╚══╝╚══╝ ╚══════╝╚═╝  ╚═╝╚═╝      ╚═════╝ ╚═╝  ╚═══╝╚══════╝
 
--- Misc
-lang["#STARTER_DISCLAMER"] = "Cannot be modified at a Mod Bench."
-lang["#STARTER_AMMO_DISCLAMER"] = "Cannot be traded, dropped, or broken down for components."
+lang["#MOD_KNIFE_BLADE_SERRATED_NAME"] = "Combat Knife Serrated Blade"
+lang["#MOD_CROWBAR_HEAD_SAW_NAME"] = "Crowbar Saw Head"
+lang["#MOD_CROWBAR_HANDLE_HANDMADE_NAME"] = "Crowbar Handmade Grip"
+lang["#MOD_BBAT_HEAD_BARBED_NAME"] = "Baseball Bat Barbed Wire"
+lang["#MOD_BBAT_HEAD_NAILS_NAME"] = "Baseball Bat Nails"
+lang["#MOD_BBAT_HANDLE_TAPE_NAME"] = "Baseball Bat Handle Tape"
+lang["#MOD_MACHETE_BLADE_SERRATED_NAME"] = "Machete Serrated Blade"
+lang["#MOD_PFIST_HEAD_REBAR_NAME"] = "Power Fist Rebar Mod"
+lang["#MOD_SLEDGE_HEAD_CINDER_NAME"] = "Sledge Hammer Cinderblock Mod"
+-- Descriptions
+lang["#MOD_KNIFE_BLADE_SERRATED_DESC"] = "A blade modification for the combat knife. Hurts a hell of a lot more to get stabbed by something like this. Also very durable."
+lang["#MOD_CROWBAR_HEAD_SAW_DESC"] = "A modification that can be attached to the head of a crowbar. Will simply make it turn from a blunt weapon to a sharp weapon. Suffers more condition from being used."
+lang["#MOD_CROWBAR_HANDLE_HANDMADE_DESC"] = "A modification that can be attached to the handle of a crowbar. Handmade, and makes it so much easier to grip while swinging."
+lang["#MOD_BBAT_HEAD_BARBED_DESC"] = "A modification that can be attached to the head of a baseball bat. It's barbed wire, will definitely hurt the first target you strike with it."
+lang["#MOD_BBAT_HEAD_NAILS_DESC"] = "A modification that can be attached to the head of a baseball bat. Classic, nails in a baseball bat."
+lang["#MOD_BBAT_HANDLE_TAPE_DESC"] = "A modification that can be attached to the handle of a baseball bat. Makes gripping the weapon a lot easier, especially while swinging it."
+lang["#MOD_MACHETE_BLADE_SERRATED_DESC"] = "A blade modification for the machete. Swinging this at someone might hurt a lot more than usual."
+lang["#MOD_PFIST_HEAD_REBAR_DESC"] = "A head modification for the power fist. Horribly attached, but this will go straight through an enemy if you hit them with it."
+lang["#MOD_SLEDGE_HEAD_CINDER_DESC"] = "A cinderblock modification for the sledge hammer, because why not? Who cares about their arms anyways if you can just smash someones head open like a watermelon in a single swing?"
 
 --██████╗ ███████╗██╗   ██╗   ██╗██████╗ ███████╗██████╗ ██╗   ██╗ ██████╗
 --██╔══██╗██╔════╝██║   ██║  ██╔╝██╔══██╗██╔════╝██╔══██╗██║   ██║██╔════╝
@@ -2417,5 +2531,10 @@ lang["#STARTER_AMMO_DISCLAMER"] = "Cannot be traded, dropped, or broken down for
 lang["#DEV_DESC"] = "IF_YOU_SEE_THIS_IT_PLACEHOLDER"
 lang["#DEV_NAME"] = "SAMPLETEXT."
 
+-- Misc
+lang["#STARTER_DEFAULT_DISCLAIMER"] = "Cannot be traded or dropped."
+lang["#STARTER_WEAPON_DISCLAIMER"] = "Cannot be modified, traded, or dropped."
+lang["#STARTER_AMMO_DISCLAIMER"] = "Cannot be traded, dropped, or broken down for components."
 
-RELOADWEAPONS = true
+
+RELOADSCHEMA = true
