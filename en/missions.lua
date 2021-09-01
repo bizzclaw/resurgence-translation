@@ -160,34 +160,34 @@ lang["#MISSION_REDMAN_DEVELOPMENT_ITEMNAME"] = "The Note"
 -- ██║███████║██║  ██║██║  ██║╚██████╗███████║    ██║ ╚═╝ ██║██║███████║███████║██║╚██████╔╝██║ ╚████║███████║
 -- ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚══════╝    ╚═╝     ╚═╝╚═╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
 
-lang["#MISSION_ISAAC_PERSONALREQUEST"] = "Personal Request"
-lang["#MISSION_ISAAC_PERSONALREQUEST_DESC"] = "Since you're interested in some work, we are missing a bundle of wood that we are suppose to give to a customer later today. Not entirely sure where it may have went, could have been stolen, but we need those because we had them for a specific person. I need you to go and get about half a dozen wood scraps for us. Sounds simple enough, right?"
+lang["#MISSION_ISAAC_PERSONALREQUEST"] = "Lost Wood"
+lang["#MISSION_ISAAC_PERSONALREQUEST_DESC"] = "Since you're interested in some work, we are missing a bundle of wood that we are suppose to give to someone later today. Not entirely sure where it may have went, could have been stolen, but we need it to fufill their order. I need you to go and get about half a dozen wood scraps for us. It'll be enough to cover for what they wanted."
 lang["#MISSION_ISAAC_PERSONALREQUEST_HINT"] = "Obtain Scrap Wood. It can be scavenged, salvaged or collected from other bundles of wood / broken trees. You can also buy it from some traders."
 lang["#MISSION_ISAAC_PERSONALREQUEST_COMPLETE"] = "Sweet, thanks dude. Here, for your troubles."
 
-lang["#MISSION_ISAAC_LEATHERYORDER"] = "Leathery Order"
-lang["#MISSION_ISAAC_LEATHERYORDER_DESC"] = "You still willing to help? Okay, so, I just got an order for leather, not too much. If you're willing to go and grab some for me so I can complete this order, I'll pay you for it."
+lang["#MISSION_ISAAC_LEATHERYORDER"] = "Leather Request"
+lang["#MISSION_ISAAC_LEATHERYORDER_DESC"] = "You still willing to help? Okay, so, someone just placed an order for leather, not too much. If you're willing to go and grab some for me so I can complete this order, I'll pay you for it."
 lang["#MISSION_ISAAC_LEATHERYORDER_HINT"] = "Obtain Leather. It can be found by scavenging, salvaging leather items, or bought from traders."
 lang["#MISSION_ISAAC_LEATHERYORDER_COMPLETE"] = "Alright, I'll get this to the guy. Here you go."
 
-lang["#MISSION_ISAAC_MEDICINALS"] = "Medicinals"
-lang["#MISSION_ISAAC_MEDICINALS_DESC"] = "Hey man, you want to help again? I just got an order for Stimpaks, a few of them. Shouldn't be too hard, right? Well, maybe not for me. I'll have some payment ready for you."
+lang["#MISSION_ISAAC_MEDICINALS"] = "Combat Medicine"
+lang["#MISSION_ISAAC_MEDICINALS_DESC"] = "back to help again? Just got an order for Stimpaks, a few of them. If you can't find any, I'd recommend talking to Headcase in the Doctors house. I'll have some payment ready for you."
 lang["#MISSION_ISAAC_MEDICINALS_HINT"] = "Obtain Stimpaks. They can be scavenged, crafted, or bought from traders."
 lang["#MISSION_ISAAC_MEDICINALS_COMPLETE"] = "I'll take care of my part, here you go."
 
 lang["#MISSION_ISAAC_METALBULK"] = "Metal Bulk"
-lang["#MISSION_ISAAC_METALBULK_DESC"] = "Obviously you're here to help. Just got an order for a lot of Scrap Metal. Kinda weird, but I'll just do my job. Sorry, I mean our job. Ehh, anyways, do your end."
+lang["#MISSION_ISAAC_METALBULK_DESC"] = "Obviously you're here to help. Just got an order for a lot of Scrap Metal, dude's probably building something. Anyways, just do your end."
 lang["#MISSION_ISAAC_METALBULK_HINT"] = "Obtain Scrap Metal. It can be easily found from salvaging vehicles and scavenging. It can also be obtained from breaking down metal related items."
 lang["#MISSION_ISAAC_METALBULK_COMPLETE"] = "Another order fufilled, here's your cut."
 
 -- T2
 
 lang["#MISSION_ISAAC_SHARPTOOLS"] = "Sharp Tools"
-lang["#MISSION_ISAAC_SHARPTOOLS_DESC"] = "Just got a different type of order. The person who requested this wants a combat knife, if you could find one. I mean, they should be pretty easy to get ahold of, right?"
+lang["#MISSION_ISAAC_SHARPTOOLS_DESC"] = "Just got a different type of order. The person who requested this wants a combat knife. I know Darrows usually holds stuff like that, but we don't like each other. Maybe go and talk to him?"
 lang["#MISSION_ISAAC_SHARPTOOLS_HINT"] = "Obtain a Combat Knife. They are sold by traders."
 lang["#MISSION_ISAAC_SHARPTOOLS_COMPLETE"] = "Hopefully you didn't have trouble finding that."
 
-lang["#MISSION_ISAAC_GOODHIDES"] = "Good Hides"
+lang["#MISSION_ISAAC_GOODHIDES"] = "Molerat Skin"
 lang["#MISSION_ISAAC_GOODHIDES_DESC"] = "Hey man, so, I hope you're up for some larger orders. We have some people who are requesting some bigger items. Don't worry, I won't give you anything too hard to get your hands on yet. This is pretty easy, just need you to get some Molerat hides."
 lang["#MISSION_ISAAC_GOODHIDES_HINT"] = "Obtain Molerat Hides. You can get hides by killing and looting Molerats."
 lang["#MISSION_ISAAC_GOODHIDES_COMPLETE"] = "Good, good. Here's your reward."
@@ -238,30 +238,35 @@ lang["#MISSION_ISAAC_SPECIALKINDOFHIDE_COMPLETE"] = "Wow, did you actually kill 
 
 --Weapon challenge
 
-lang["#MISSION_CROWMAN_SINGLESHOTGUN"] = "Everyone Starts Somewhere"
-lang["#MISSION_CROWMAN_SINGLESHOTGUN_DESC"] = "You d'ere! Brat! Here to steal my corn?! No? Must'a waddled outta town while yer parents were distracted. Bet a cross-eyed brat like you couldn't hit a crow if it sat on yer nose! A brat like you needs to be learn'd in the principles! Bag yerself a crow usin' a good ol' Single-Shot Shotgun, AND NUTTIN' ELSE! I'LL KNOW! Nimrod's kin taught me how ta track a liar usin' smell!"
-lang["#MISSION_CROWMAN_SINGLESHOTGUN_HINT"] = "Acquire a Single Shotgun, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
-lang["#MISSION_CROWMAN_SINGLESHOTGUN_COMPLETE"] = "Guess'n yer not as stupid as ye look. But don't git full of yer'self! I killed my first crow at the age of two!"
+lang["#MISSION_CROWMAN_870"] = "Trap Club Member"
+lang["#MISSION_CROWMAN_870_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill five crows, using a Pump Action Shotgun, AND NUTTIN' ELSE! I'LL KNOW!"
+lang["#MISSION_CROWMAN_870_HINT"] = "Acquire a Pump Action Shotgun, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
+lang["#MISSION_CROWMAN_870_COMPLETE"] = "Finally done? Took ya long enough!"
 
-lang["#MISSION_CROWMAN_357"] = "Feathered Hammer"
-lang["#MISSION_CROWMAN_357_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill six crows, using .357 Revolver, AND NUTTIN' ELSE! I'LL KNOW!"
-lang["#MISSION_CROWMAN_357_HINT"] = "Acquire a .357 Revolver, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
-lang["#MISSION_CROWMAN_357_COMPLETE"] = "Finally done? Took ya long enough!"
+lang["#MISSION_CROWMAN_44"] = "CrowMAGNUM Man"
+lang["#MISSION_CROWMAN_44_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill twelve crows, using a .44 Revolver, AND NUTTIN' ELSE! I'LL KNOW!"
+lang["#MISSION_CROWMAN_44_HINT"] = "Acquire a .44 Magnum Revolver, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
+lang["#MISSION_CROWMAN_44_COMPLETE"] = "Finally done? Took ya long enough!"
 
-lang["#MISSION_CROWMAN_SERVICERIFLE"] = "Full Metal Jackdaw"
-lang["#MISSION_CROWMAN_SERVICERIFLE_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill twenty crows, using one of those NCR boys' rifles, AND NUTTIN' ELSE! I'LL KNOW!"
-lang["#MISSION_CROWMAN_SERVICERIFLE_HINT"] = "Acquire a Service Rifle, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
-lang["#MISSION_CROWMAN_SERVICERIFLE_COMPLETE"] = "Finally done? Took ya long enough!"
+lang["#MISSION_CROWMAN_LASER"] = "Heated Crowmium"
+lang["#MISSION_CROWMAN_LASER_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill twenty four crows, using a Laser Gun. Dosen't matter how its modified, just gotta be part of the AE series, AND NUTTIN' ELSE! I'LL KNOW!"
+lang["#MISSION_CROWMAN_LASER_HINT"] = "Acquire any Laser Gun variant, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
+lang["#MISSION_CROWMAN_LASER_COMPLETE"] = "Finally done? Took ya long enough!"
 
-lang["#MISSION_CROWMAN_SXS"] = "The Farmer's Daughter's Father"
-lang["#MISSION_CROWMAN_SXS_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill two crows, using a Side-By-Side Shotgun, AND NUTTIN' ELSE! I'LL KNOW!"
-lang["#MISSION_CROWMAN_SXS_HINT"] = "Acquire a SxS Shotgun, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
-lang["#MISSION_CROWMAN_SXS_COMPLETE"] = "Finally done? Took ya long enough!"
+lang["#MISSION_CROWMAN_STREETSWEEPER"] = "Banned from the Trap club"
+lang["#MISSION_CROWMAN_STREETSWEEPER_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill thirteen crows, using one of those Street Sweeper Shotguns, AND NUTTIN' ELSE! I'LL KNOW!"
+lang["#MISSION_CROWMAN_STREETSWEEPER_HINT"] = "Acquire a Street Sweeper, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
+lang["#MISSION_CROWMAN_STREETSWEEPER_COMPLETE"] = "Finally done? Took ya long enough!"
 
-lang["#MISSION_CROWMAN_SXS"] = "The Farmer's Daughter's Father"
-lang["#MISSION_CROWMAN_SXS_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill two crows, using a Side-By-Side Shotgun, AND NUTTIN' ELSE! I'LL KNOW!"
-lang["#MISSION_CROWMAN_SXS_HINT"] = "Acquire a SxS Shotgun, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
-lang["#MISSION_CROWMAN_SXS_COMPLETE"] = "Finally done? Took ya long enough!"
+lang["#MISSION_CROWMAN_R91"] = "Brass Chicken"
+lang["#MISSION_CROWMAN_R91_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill thirty crows, using an Assault Rifle, the kind the National Guard used to use. AND NUTTIN' ELSE! I'LL KNOW!"
+lang["#MISSION_CROWMAN_R91_HINT"] = "Acquire an R91 Assault Rifle, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
+lang["#MISSION_CROWMAN_R91_COMPLETE"] = "Finally done? Took ya long enough!"
+
+lang["#MISSION_CROWMAN_ASSAULTCARBINE"] = "Black Rifle, Black Bird"
+lang["#MISSION_CROWMAN_ASSAULTCARBINE_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill thirty crows, using one of those paratrooper guns, an Assault Carbine. AND NUTTIN' ELSE! I'LL KNOW!"
+lang["#MISSION_CROWMAN_ASSAULTCARBINE_HINT"] = "Acquire an Assault Carbine, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
+lang["#MISSION_CROWMAN_ASSAULTCARBINE_COMPLETE"] = "Finally done? Took ya long enough!"
 
 --Quantity challenge
 
