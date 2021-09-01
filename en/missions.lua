@@ -59,7 +59,7 @@ lang["#MISSION_STARTER_GHOULDUEL_COMPLETE"] = "Great job, you definitely know ho
 lang["#MISSION_STARTER_MAJORREDMAN"] = "Tutorial: Wrapping Up"
 lang["#MISSION_STARTER_MAJORREDMAN_DESC"] = "Well, seems to me like you know enough of the basics. You're probably eager to do more, so my suggestion is to talk to Major Redman. He'll get you set up on some simple jobs. Let him know that I sent you."
 lang["#MISSION_STARTER_MAJORREDMAN_HINT"] = "Travel to the NCR Town and go to the Headquarters to talk to Major Redman. You can reach the town by following the main road, and then going through the small valley."
-lang["#MISSION_STARTER_MAJORREDMAN_COMPLETE"] = "(You've completed the tutorial. Select a reward to help you start your ventures in the Wasteland.)"
+lang["#MISSION_STARTER_MAJORREDMAN_COMPLETE"] = "(You've completed the tutorial. Select a reward to help you start your adventures in the Wasteland.)"
 lang["#MISSION_STARTER_MAJORREDMAN_CUSTOMUI"] = "Talk to Major Redman"
 
 -- ██████╗ ███████╗██████╗ ███╗   ███╗ █████╗ ███╗   ██╗███████╗    ███╗   ███╗██╗███████╗███████╗██╗ ██████╗ ███╗   ██╗███████╗

@@ -166,7 +166,7 @@ lang["#INEU_RAIDERFACTORYLOG"] = {
 
 			Chilled around for a minute, then we could hear the chittering, they started coming out of every tunnel, attacking the generators, so we went up the elevator, guy in a fucking suit locked a door on us, then we shot at the ants from above, let the power run out, and waited for them to leave.
 
-			Took us a bit to get back, 	
+			Took us a bit to get back.
 		]]}
 	}
 }
