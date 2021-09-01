@@ -390,7 +390,7 @@ lang["#ULTRAJET_NAME"] = "Ультра-винт"
 lang["#ANTPHERO_NAME"] = "Феромоны муравьиной матки"
 lang["#ANTNECTAR_NAME"] = "Муравьиный нектар"
 lang["#ANTNECTARFIRE_NAME"] = "Нектар огненного муравья"
-ang["#EIGHTBALL_NAME"] = "Шар судьбы"
+lang["#EIGHTBALL_NAME"] = "Шар судьбы"
 
 -- Addictions
 lang["#ADDICTION_JET"] = "Ввод винта"
