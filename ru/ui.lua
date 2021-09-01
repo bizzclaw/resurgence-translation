@@ -157,7 +157,7 @@ lang["#EFFECTSLOT_CONSUMABLE"] = "Потребление"
 lang["#CRAFTING_GIVES"] = "Даёт"
 
 lang["#UI_SORT"] = "[C] Сортировать"
-lang["#UI_STOREMISC"] = "[T] Положить в хранилище предметы для изготовления"
+lang["#UI_STOREMISC"] = "[T] Хранить предметы изготовления"
 lang["#UI_STORINGMISC"] = "Складываем полезные предметы для изготовления..."
 lang["#SORT_AGE"] = "Возраст"
 lang["#SORT_NAME"] = "Название"
@@ -552,7 +552,7 @@ lang["#UI_WORLDMAPLOADIN"] = "Вы вошли в регион.\nНажмите �
 lang["#WORLDNAME"] = "Пустошь Тихоокеанского Севера" -- The Pacific Northwest (Northern California to British Columbia) is nicknamed "The Pacific North Wastes"
 
 -- Statistics
-lang["#STAT_TIMEPLAYED"] = "Наиграно за всё время"
+lang["#STAT_TIMEPLAYED"] = "Наиграно времени"
 
 -- Settings
 
