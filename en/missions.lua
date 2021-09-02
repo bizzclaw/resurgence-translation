@@ -238,6 +238,26 @@ lang["#MISSION_ISAAC_SPECIALKINDOFHIDE_COMPLETE"] = "Wow, did you actually kill 
 
 --Weapon challenge
 
+lang["#MISSION_CROWMAN_SINGLESHOTGUN"] = "Everyone Starts Somewhere"
+lang["#MISSION_CROWMAN_SINGLESHOTGUN_DESC"] = "You d'ere! Brat! Here to steal my corn?! No? Must'a waddled outta town while yer parents were distracted. Bet a cross-eyed brat like you couldn't hit a crow if it sat on yer nose! A brat like you needs to be learn'd in the principles! Bag yerself a crow usin' a good ol' Single-Shot Shotgun, AND NUTTIN' ELSE! I'LL KNOW! Nimrod's kin taught me how ta track a liar usin' smell!"
+lang["#MISSION_CROWMAN_SINGLESHOTGUN_HINT"] = "Acquire a Single Shotgun, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
+lang["#MISSION_CROWMAN_SINGLESHOTGUN_COMPLETE"] = "Guess'n yer not as stupid as ye look. But don't git full of yer'self! I killed my first crow at the age of two!"
+
+lang["#MISSION_CROWMAN_357"] = "Feathered Hammer"
+lang["#MISSION_CROWMAN_357_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill six crows, using .357 Revolver, AND NUTTIN' ELSE! I'LL KNOW!"
+lang["#MISSION_CROWMAN_357_HINT"] = "Acquire a .357 Revolver, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
+lang["#MISSION_CROWMAN_357_COMPLETE"] = "Finally done? Took ya long enough!"
+
+lang["#MISSION_CROWMAN_SERVICERIFLE"] = "Full Metal Jackdaw"
+lang["#MISSION_CROWMAN_SERVICERIFLE_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill twenty crows, using one of those NCR boys' rifles, AND NUTTIN' ELSE! I'LL KNOW!"
+lang["#MISSION_CROWMAN_SERVICERIFLE_HINT"] = "Acquire a Service Rifle, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
+lang["#MISSION_CROWMAN_SERVICERIFLE_COMPLETE"] = "Finally done? Took ya long enough!"
+
+lang["#MISSION_CROWMAN_SXS"] = "The Farmer's Daughter's Father"
+lang["#MISSION_CROWMAN_SXS_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill two crows, using a Side-By-Side Shotgun, AND NUTTIN' ELSE! I'LL KNOW!"
+lang["#MISSION_CROWMAN_SXS_HINT"] = "Acquire a SxS Shotgun, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
+lang["#MISSION_CROWMAN_SXS_COMPLETE"] = "Finally done? Took ya long enough!"
+
 lang["#MISSION_CROWMAN_870"] = "Trap Club Member"
 lang["#MISSION_CROWMAN_870_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill five crows, using a Pump Action Shotgun, AND NUTTIN' ELSE! I'LL KNOW!"
 lang["#MISSION_CROWMAN_870_HINT"] = "Acquire a Pump Action Shotgun, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
