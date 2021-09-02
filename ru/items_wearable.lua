@@ -2,7 +2,7 @@ local lang = RSRG.Languages["ru"]
 
 --Disclaimers
 lang["#WIP"] = "[WIP]"
-lang["#WIP_DESC"] = "[В РАЗРАБОТКЕ, ТЕКУЩАЯ ВЕРСИЯ ЯВЛЯЕТСЯ ВРЕМЕННОЙ В ОЖИДАНИИ ДОПОЛНИТЕЛЬНЫХ ПРОВЕРОК]"
+lang["#WIP_DESC"] = "[В РАЗРАБОТКЕ]"
 
 --Armor Tiers
 lang["#ARMOR_STANDARD"] = "лёгкая"
