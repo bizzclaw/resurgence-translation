@@ -106,15 +106,15 @@ lang["#INEU_GREGLOG"] = {
 				
 				Надеюсь, это последний раз, когда я вижу этих уродов.
 			]]},
-			{"They're back.", [[
-				Those freaks from earlier this week came back.
+			{"Они вернулись.", [[
+				Эти уроды с начала этой недели вернулись.
 				
-				This time they begged me to let them stay, and on top of that- they want to set up shop here. I almost started shooting before the fella told me something that actually changed my mind.
+				В своё время они умоляли меня позволить им остаться, и вдобавок ко всему - они хотят открыть здесь магазин. Я почти начал стрелять, прежде чем парень сказал мне что-то, что действительно изменило моё мнение.
 				
-				They sell a luxury item, to luxurious people. By setting up shop in my bar, they'd give me a lot of traffic, and traffic that's willing to shell out a pretty penny too.
-				The idea sounded right at the time, so I didn't shoot them. I told them they could stay provided they got some better clothes, tried to help the smell, and promised to pay me a share of their profits.
+				Они продают роскошные предметы роскошным людям. Открыв магазин в моём баре, они обеспечили бы мне большой трафик, и трафик, который тоже готов выложить кругленькую сумму.
+				Идея прозвучала правильной в то время, поэтому я не стал в них стрелять. Я сказал им, что они могут остаться при условии, что у них будет одежда получше, а так же, если они избавятся от запаха и если они пообещают заплатить мне часть их прибыли.
 				
-				They came back the next day with some shitty, dirty suits and some slightly better smelling product. Still smells like vomit, but whatever. We'll have to see how much money they make me.
+				Они вернулись на следующий день с какими-то дерьмовыми, грязными костюмами и стали пахнуть чуть лучше. Всё ещё пахнет блевотиной, но неважно. Посмотрим, сколько денег они мне принесут.
 			]]},
 			{"Следующая страница - Старые записи", [[
 				ЗАБЛОКИРОВАНО - ТРЕБУЕТСЯ ПАРОЛЬ.
