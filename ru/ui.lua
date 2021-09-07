@@ -587,7 +587,7 @@ lang["#UI_FACTIONS"] = "Фракции"
 lang["#MISSION_ACCEPT"] = "Принять миссию"
 lang["#MISSION_TURNIN"] = "Сдать"
 lang["#MISSION_COMPLETE"] = "завершено."
-lang["#MISSION_KILLS"] = "Убито"
+lang["#MISSION_KILLS"] = "убито"
 lang["#MISSION_SELECTREWARD"] = "Вы выполнили миссию. Выберите награду."
 lang["#MISSION_CLAIMREWARD"] = "Забрать"
 
