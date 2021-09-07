@@ -42,7 +42,7 @@ lang["#MISSION_GIVER_ISAAC_GREET_FINISHED"] = "Привет, $playername, что
 --Crowman Joe
 lang["#MISSION_GIVER_CROWMAN"] = "Кроумен Джо"
 lang["#MISSION_GIVER_CROWMAN_SUBTITLE"] = "Соль земли, жара - мозги."
-lang["#MISSION_GIVER_CROWMAN_GREET_0"] = "Ты здесь! Брат! Иди сюда! Вороны опять замышляют украсть мою кукурузу! Я уже слышу, как они приближаются!"
+lang["#MISSION_GIVER_CROWMAN_GREET_0"] = "Вот ты где! Сопляк! Иди сюда! Вороны опять замышляют украсть мою кукурузу! Я уже слышу, как они приближаются!"
 
 -- ██╗   ██╗ ██████╗ ██╗     ██╗      █████╗     ██████╗  ██████╗ ██╗     ██╗  ██╗   ██╗
 -- ╚██╗ ██╔╝██╔═══██╗██║     ██║     ██╔══██╗    ██╔══██╗██╔═══██╗██║     ██║  ╚██╗ ██╔╝
@@ -141,7 +141,7 @@ lang["#MISSION_GIVER_NICK_GREET_FINISHED"] = "Не знаю, почему ты �
 lang["#DISCOVER_INFO"] = "Исследовать $location."
 lang["#DELIVER_INFO"] = "Найти и отдать $item персонажу $character."
 lang["#DELIVER_INFO_NOITEM"] = "Поговорить с $character."
-lang["#SCAVENGE_INFO"] = "Обыскать $amount контейнера."
+lang["#SCAVENGE_INFO"] = "Обыскать $amount предметов."
 lang["#SALVAGE_INFO"] = "Разобрать $amount старых машин."
 lang["#HARVEST_INFO"] = "Собрать $amount растений."
 lang["#FETCH_INFO"] = "Заполучить $amount $name."
@@ -159,8 +159,8 @@ lang["#MASSACARE_INFO_LOCWEP"] = "Убить $amount $target в $location, ис�
 -- ██║  ██║╚██████╔╝██████╔╝    ██████╔╝██║███████║██║     ███████╗██║  ██║   ██║
 -- ╚═╝  ╚═╝ ╚═════╝ ╚═════╝     ╚═════╝ ╚═╝╚══════╝╚═╝     ╚══════╝╚═╝  ╚═╝   ╚═╝
 
-lang["#MASSACRE_UI"] = "Убито"
-lang["#SCAVENGE_UI"] = "Контейнеров обыскано"
+lang["#MASSACRE_UI"] = "убито"
+lang["#SCAVENGE_UI"] = "Предметов обыскано"
 lang["#SALVAGE_UI"] = "Машин разобрано"
 lang["#HARVEST_UI"] = "Растений собрано"
 lang["#CRAFT_UI"] = "Создайте"
