@@ -139,7 +139,7 @@ lang["#MISSION_GIVER_NICK_GREET_FINISHED"] = "Не знаю, почему ты �
 --    ╚═╝      ╚═╝   ╚═╝     ╚══════╝╚══════╝
 
 lang["#DISCOVER_INFO"] = "Исследовать $location."
-lang["#DELIVER_INFO"] = "Найти и отдать $item персонажу $character."
+lang["#DELIVER_INFO"] = "Найти: $item и отдать $character."
 lang["#DELIVER_INFO_NOITEM"] = "Поговорить с $character."
 lang["#SCAVENGE_INFO"] = "Обыскать $amount предметов."
 lang["#SALVAGE_INFO"] = "Разобрать $amount старых машин."
