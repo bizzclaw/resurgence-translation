@@ -275,8 +275,7 @@ lang["#SM_LIGHTARMOR_DESC"] = "Placas grades de chatarra y recuperadas, contorne
 lang["#SM_COWLARMOR_DESC"] = "Un conjunto de armadura de buena proteccion construido con restosw de metal reforjado.\nLa armadura en si tiene una gran cobertura del torso y los hombros. #SUPERMUTANT_CLOTHES"
 lang["#SM_HEAVYARMOR_DESC"] = "Esta armadura esta hecha de una serie de placas de chatarra superpuestas. #SUPERMUTANT_CLOTHES"
 lang["#SM_WASTCLOTH_DESC"] = "Tejidos hasta la rodilla con un cinturon de placas metalicas.\nEl bulto lleva tambien vendas en los tobillos y en los pies, mas que probablemente del mismo corte que la falda. #SUPERMUTANT_CLOTHES"
-lang["#SM_LEGGUARDS_DESC"] = "Una base de piel aspera cubierta con una manta de metal.\nLas placas atraparian y proteger
-an facilmente de un golpe contundente, pero no ofrecen una intrincada\n proteccion contra armas de fuego o ataques punzantes. #SUPERMUTANT_CLOTHES "
+lang["#SM_LEGGUARDS_DESC"] = "Una base de piel aspera cubierta con una manta de metal.\nLas placas protgeran facilmente de un golpe contundente, pero no ofrecen una intrincada\n proteccion contra armas de fuego o ataques punzantes. #SUPERMUTANT_CLOTHES "
 lang["#SM_LEGARMOR_DESC"] = "Botas metalicas improvisadas de salvamento, armadura para las piernas y proteccion para las caderas que es demasiado grande para caber en un cuerpo de tamaño normal.\n Quien quiera que pudiera caber en esta armadura obtendria una excelente cobertura de proteccion en los muslos, los tobillos y las rodillas. #SUPERMUTANT_CLOTHES"
 lang["#SM_WRISTWRAPS_DESC"] = "Para una muñeca y un antebrazo de tamaño normal, estas \"muñequeras\" se extenderian hasta la parte superior del brazo y quiza hasta el hombro. #SUPERMUTANT_CLOTHES"
 lang["#SM_BRACERS_DESC"] = "Cuero y chatarra de acero reforzados en coberturas para los antebrazos.\nEn tamaño XXL, pero gran cobertura para quien tiene un ajuste adecuado. #SUPERMUTANT_CLOTHES"
@@ -1391,25 +1390,25 @@ lang["#CANOPENER_NAME"] = "Abre latas"
 
 --Melee Weapons Desc
 lang["#BOTTLESHANK_DESC"] = "Una botella rota.\n La etiqueta esta gastada mas alla del reconocimiento, pero puedes distinguir dos letras: B.E. \n Podria usarse como un arma de combate cuerpo a cuerpo, si te gusta."
-lang ["# COMBATKNIFE_DESC"] = "Un cuchillo de combate utilizado principalmente por militares. \n \nUn elemento basico del combate cuerpo a cuerpo, que lo convirtio en un cuchillo popular entre los entusiastas y los supervivientes. \n \nPuede usarse como bayoneta en algunos armas ".
+lang ["# COMBATKNIFE_DESC"] = "Un cuchillo de combate utilizado principalmente por militares. \n \nUn elemento basico del combate cuerpo a cuerpo, que lo convirtio en un cuchillo popular entre los entusiastas y los supervivientes. \n \nPuede usarse como bayoneta en algunos armas."
 lang ["# CROWBAR_DESC"] = "Una simple barra de acero con un extremo curvo, pero una herramienta eficaz de todos modos. \nA pesar de su intencion como dispositivo de utilidad, el peso y el equilibrio de esta herramienta la convierten en una alternativa eficaz como arma cuerpo a cuerpo . "
-lang ["# FIREAXE_DESC"] = "El hacha de fuego es un hacha con mango de madera con una cabeza de acero pesado destinada al uso de extincion de incendios. El mango largo de madera dura permite ataques de barrido a una distancia razonable y esta parcialmente recubierto de goma para asegurar un buen agarre en el arma. \n \nDiseñada originalmente para derribar paredes y puertas, esta arma puede infligir daños severos a un objetivo blando ".
+lang ["# FIREAXE_DESC"] = "El hacha de fuego es un hacha con mango de madera con una cabeza de acero pesado destinada al uso de extincion de incendios. El mango largo de madera dura permite ataques de barrido a una distancia razonable y esta parcialmente recubierto de goma para asegurar un buen agarre en el arma. \n \nDiseñada originalmente para derribar paredes y puertas, esta arma puede infligir daños severos a un objetivo blando."
 lang ["# KATANA_DESC"] = "Arma cuerpo a cuerpo mortal. \nAleacion de acero trabajada que se ha afilado y aplanado perfectamente mas de mil veces para producir una hoja perfecta; util para todos los estilos de combate con espada, como apuñalar, cortar y estocar. "
 lang ["# MACHETE_DESC"] = "Arma cuerpo a cuerpo afilada. \n Metal reelaborado con forma de hoja de longitud media. Un extremo tiene un mango envuelto en cuero para un buen agarre. \nPuede usarse para un arma cuerpo a cuerpo de alcance medio."
-lang ["# REBARCLUB_DESC"] = "Arma cuerpo a cuerpo sin filo improvisado. \nUna varilla de refuerzo como mango y un trozo de hormigon como cabeza de martillo; esta es una eleccion de armamento cuestionable, es efectiva pero desequilibrada, lo que dificulta use. \nPuede usarse como un arma de alcance medio ".
-lang ["# SHISHKEBAB_DESC"] = "Arma cuerpo a cuerpo incendiaria. \nUn diseño muy elaborado de gran intelecto; algun tipo de combustible fluye hacia una llama que rodea la hoja plana y afilada del dispositivo, realmente maravilloso. \nPuede usarse como un arma eficaz de alcance medio que puede prender fuego a sus objetivos ".
-lang ["# SHOVEL_DESC"] = "Extraña eleccion de armamento, ¿puedes cavarlo? \nUna placa de metal plana pero curva en el extremo de un mango de madera; su proposito funciona como un dispositivo de utilidad para hacer palanca y recoger. \nPuede ser utilizado como arma de largo alcance ".
+lang ["# REBARCLUB_DESC"] = "Arma cuerpo a cuerpo sin filo improvisado. \nUna varilla de refuerzo como mango y un trozo de hormigon como cabeza de martillo; esta es una eleccion de armamento cuestionable, es efectiva pero desequilibrada, lo que dificulta use. \nPuede usarse como un arma de alcance medio."
+lang ["# SHISHKEBAB_DESC"] = "Arma cuerpo a cuerpo incendiaria. \nUn diseño muy elaborado de gran intelecto; algun tipo de combustible fluye hacia una llama que rodea la hoja plana y afilada del dispositivo, realmente maravilloso. \nPuede usarse como un arma eficaz de alcance medio que puede prender fuego a sus objetivos."
+lang ["# SHOVEL_DESC"] = "Extraña eleccion de armamento, ¿puedes cavarlo? \nUna placa de metal plana pero curva en el extremo de un mango de madera; su proposito funciona como un dispositivo de utilidad para hacer palanca y recoger. \nPuede ser utilizado como arma de largo alcance."
 lang ["# SPIKEKNUCKLES_DESC"] = "Arma cuerpo a cuerpo tosca. \nMetal reelaborado con forma de empuñadura con puntas afiladas en los nudillos. \nPuede usarse como arma de combate cuerpo a cuerpo."
-lang ["# SUPERSLEDGE_DESC"] = "Arma cuerpo a cuerpo sin filo eficaz. \nUn piston hidraulico grande en el extremo de un mango largo de vara; el piston y el mango tienen forma de martillo, el piston funciona con fuerzas invisibles. \nPuede usarse como un arma aplastante eficaz, que tambien es de largo alcance ".
+lang ["# SUPERSLEDGE_DESC"] = "Arma cuerpo a cuerpo sin filo eficaz. \nUn piston hidraulico grande en el extremo de un mango largo de vara; el piston y el mango tienen forma de martillo, el piston funciona con fuerzas invisibles. \nPuede usarse como un arma aplastante eficaz, que tambien es de largo alcance."
 lang ["# 9IRON_DESC"] = "Esta vieja plancha 9 esta doblada y maltratada despues de muchos años de exposicion a los elementos."
 lang ["# BASEBALLBAT_DESC"] = "Este bate de beisbol de madera noble totalmente estadounidense sacara cualquier cosa del parque."
-lang ["# CATTLEPROD_DESC"] = "Normalmente se usa para arrear ganado rebelde, se ha reutilizado como un arma no letal contra los humanos. \n \nAdemas de las puntas tipo Taser en la punta que normalmente se encuentran en las picanas para ganado , ha sido equipado con una bobina de metal gruesa y electrificada alrededor del extremo del golpe, conectada a un par de baterias pegadas con cinta cerca del mango ".
+lang ["# CATTLEPROD_DESC"] = "Normalmente se usa para arrear ganado rebelde, se ha reutilizado como un arma no letal contra los humanos. \n \nAdemas de las puntas tipo Taser en la punta que normalmente se encuentran en las picanas para ganado , ha sido equipado con una bobina de metal gruesa y electrificada alrededor del extremo del golpe, conectada a un par de baterias pegadas con cinta cerca del mango."
 lang ["# CLEAVER_DESC"] = "¡Un utensilio de cocina hecho especificamente para Hackin ', Whackin', Choppin 'esa carne!"
 lang ["# DRESSCANE_DESC"] = "Un baston de vestir de antes de la guerra. \n \nComo todas las cosas que pertenecen a la alta sociedad, esta en excelentes condiciones y esta hecho de una madera negra brillante y resistente con un mango de marfil."
-lang ["# LEADPIPE_DESC"] = "Un arma cuerpo a cuerpo barata y ampliamente disponible. Uno de los extremos tiene cinta envuelta alrededor para mejorar el agarre, mientras que el otro esta cubierto con un accesorio de tuberia. \n \nPrecaucion: Conocido por el estado de Nueva California para causar defectos de nacimiento ".
+lang ["# LEADPIPE_DESC"] = "Un arma cuerpo a cuerpo barata y ampliamente disponible. Uno de los extremos tiene cinta envuelta alrededor para mejorar el agarre, mientras que el otro esta cubierto con un accesorio de tuberia. \n \nPrecaucion: Conocido por el estado de Nueva California para causar defectos de nacimiento."
 lang ["# HATCHET_DESC"] = "Es un hacha de mano con un mango de madera con agarre de goma para cortar madera y ramas por igual. \n \nA diferencia de las hachas arrojadizas, estas no estan equilibradas para usarse como arma de proyectiles."
 lang ["# KITCHENKNIFE_DESC"] = "Para todas sus necesidades relacionadas con peliculas de terror, o si solo necesita cortar algunas zanahorias."
-lang ["# DRIVER_DESC"] = "Asegurese siempre de tener la ultima version".
+lang ["# DRIVER_DESC"] = "Asegurese siempre de tener la ultima version."
 lang ["# NAILBOARD_DESC"] = "Este 2x4 tiene varios clavos atravesados, con un eje tallado para asegurar un mejor agarre. \n \nComunmente usado por supermutantes y otros idiotas."
 lang ["# PIPEWRENCH_DESC"] = "Una llave inglesa tipica utilizada por los mecanicos para lastimar a las personas. \n \n [TRABAJO EN CURSO, LA VERSIoN ACTUAL ES UN LUGAR PENDIENTE DE PRUEBAS ADICIONALES]"
 lang ["# STRAIGHTRAZOR_DESC"] = "Una navaja de afeitar antigua con un mango de madera pulida. Aunque su hoja es corta, es liviana y puede dar varios golpes cortantes en rapida sucesion."
@@ -1418,8 +1417,8 @@ lang ["# SLEDGE_DESC"] = "La especialidad del hombre fuerte hace acto de presenc
 lang ["# SHOVEL_DESC"] = "Una pala con mango de madera, util para cavar tumbas o golpear un grano de arena. \n \n [TRABAJO EN CURSO, LA VERSIoN ACTUAL ES UN LUGAR PENDIENTE DE PRUEBAS ADICIONALES]"
 lang ["# SWITCHBLADE_DESC"] = "La hoja de este pequeño cuchillo esta sujeta por un resorte. Cuando se presiona un boton en el mango, las hojas salen disparadas con un satisfactorio sonido '' Sssssshk ''."
 lang ["# WAKAZASHI_DESC"] = "Un cuchillo corto finamente elaborado. \n \nLa punta parece estar diseñada para perforar armaduras"
-lang ["# BUMPER_DESC"] = "Mas un trozo de acero en bruto que un arma, la espada de parachoques es un arma extremadamente pesada y afilada creada a partir del parachoques de un automovil, que inflige un daño masivo".
-lang ["# BATON_DESC"] = "Un modelo de baston de aplicacion de la ley plegable, utilizado por varios departamentos de policia antes de la Gran Guerra".
+lang ["# BUMPER_DESC"] = "Mas un trozo de acero en bruto que un arma, la espada de parachoques es un arma extremadamente pesada y afilada creada a partir del parachoques de un automovil, que inflige un daño masivo."
+lang ["# BATON_DESC"] = "Un modelo de baston de aplicacion de la ley plegable, utilizado por varios departamentos de policia antes de la Gran Guerra."
 lang ["# POWERFIST_DESC"] = "Originalmente utilizado como hardware de antes de la guerra para los equipos de demolicion en lugar de como un arma. \n \nEl puño de poder usa un ariete neumatico para lanzar poderosos golpes de velocidad media a los atacantes"
 
 
@@ -1537,9 +1536,9 @@ lang ["# TINCANBENT_NAME"] = "Lata doblada"
 lang ["# TININGOT_NAME"] = "Lingote de estaño"
 lang ["# THREAD_NAME"] = "Hilo"
 lang ["# HEPACARTRIDGE_NAME"] = "Filtro de cartucho HEPA 20"
-lang ["# TOYSBOAT_NAME"] = "Lancha rapida de juguete",
-lang ["# TOYFBOAT_NAME"] = "Barco de pesca de juguete",
-lang ["# TOYTBOAT_NAME"] = "Remolcador de juguete",
+lang ["# TOYSBOAT_NAME"] = "Lancha rapida de juguete,"
+lang ["# TOYFBOAT_NAME"] = "Barco de pesca de juguete,"
+lang ["# TOYTBOAT_NAME"] = "Remolcador de juguete,"
 lang ["# TOYMOTORCYCLE_NAME"] = "Motocicleta de juguete"
 lang ["# TOYTRUCK_NAME"] = "Semirremolque de juguete"
 lang ["# TOYTRUCKARMY_NAME"] = "Camion militar de juguete"
@@ -1564,7 +1563,7 @@ lang ["# STEELCASINGNAME"] = "Carcasa de acero -"
 lang ["# BRASSCASINGNAME"] = "Carcasa de laton -"
 lang ["# HULLCASINGNAME"] = "Casco -"
 lang ["# JUNKROUND_NAME"] = "Basura"
-lang ["# AMMOBOX_NAME"] = "Caja de municion",
+lang ["# AMMOBOX_NAME"] = "Caja de municion,"
 
 
 --MISC Items Desc
