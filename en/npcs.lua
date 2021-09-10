@@ -67,6 +67,8 @@ lang["#NPC_80SBANDITS"] = "80s Tribe Bandits"
 lang["#NPC_ICEPICKBANDIT"] = "Ice Pick Bandit"
 lang["#NPC_ICEPICKBANDITS"] = "Ice Pick Bandits"
 lang["#NPC_ICEPICKBANDITSNIPERS"] = "Ice Pick Head-Hunters"
+lang["#NPC_ROCKBITERBANDIT"] = "Rock-Biter Bandit"
+lang["#NPC_ROCKBITERBANDITS"] = "Rock-Biter Bandits"
 -- Super Mutants
 lang["#NPC_SUPERMUTANT"] = "Super Mutant"
 lang["#NPC_SUPERMUTANTS"] = "Super Mutants"

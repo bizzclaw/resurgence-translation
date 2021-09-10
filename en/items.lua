@@ -475,6 +475,7 @@ lang["#WIGCONE_DESC"] = "For when you need to stand out like a sore thumb. Liter
 
 lang["#GATLASER_NAME"] = "Gatling Laser"
 lang["#LASERGUN_NAME"] = "Laser Gun"
+lang["#PLASMAGUN_NAME"] = "Plasma Gun"
 lang["#TRILASER_NAME"] = "Tri-Beam Laser Gun"
 lang["#PLASMACASTER_NAME"] = "Plasma Caster"
 lang["#GAUSSRIFLE_NAME"] = "Gauss Rifle"
@@ -493,7 +494,6 @@ lang["#PLASMADEFENDER_NAME"] = "Glock 86"
 
 -- Plasma
 
-lang["#PLASMAGUN_NAME"] = "Plasma Gun"
 lang["#PLASMAGUN_PISTOL_NAME"] = "Plasma Pistol"
 lang["#PLASMAGUN_MAGNUM_NAME"] = "Plasma Blaster"
 lang["#PLASMAGUN_RIFLE_NAME"] = "Plasma Rifle"
@@ -509,6 +509,7 @@ lang["#PLASMAGUN_SNIPERRIFLE_NAME"] = "Plasma Sniper Rifle"
 
 lang["#LASERGUN_PISTOL_NAME"] = "Laser Pistol"
 lang["#LASERGUN_PISTOL_STARTER_NAME"] = "Unfocused Laser Pistol"
+lang["#LASERGUN_RIFLE_STARTER_NAME"] = "Unfocused Laser Carbine"
 lang["#LASERGUN_BLASTER_NAME"] = "Laser Blaster"
 lang["#LASERGUN_RIFLE_NAME"] = "Laser Rifle"
 lang["#LASERGUN_CARBINE_NAME"] = "Laser Carbine"
@@ -538,6 +539,7 @@ lang["#GATLASER_DESC"] = "A multi-prism Gatling Laser.\n\nDesigned specifically 
 lang["#INCENERATOR_DESC"] = "Designed by some high-tech faction claiming to be the old world government, this monster shoots napalm like a mortar."
 lang["#AERPISTOL_DESC"] = "The AER7 Laser Pistol is a military-grade laser, infrequently used by police and military units before the war. It makes use of a crystal array making it far more lethal than a Wattz."
 lang["#AERPISTOL_STARTER_DESC"] = "A defective laser pistol pieced together from other defective laser pistols."
+lang["#AERRIFLE_STARTER_DESC"] = "A defective laser carbine pieced together from other defective laser guns."
 lang["#AERRIFLE_DESC"] = "The AER9 Laser Rifle is a high-power laser rifle that makes use of a crystal array, and was on track to be fielded by domestic military units prior to the Great War."
 lang["#PLASMACASTER_DESC"] = "The Winchester P94 Caster was used as an industrial destruction tool utilizing plasma bolts before the the war.\n\nNow it's just a destruction tool that uses plasma bolts.\n\n#WIP_DESC"
 lang["#PLASMAGUN_DESC"] = "Plasma rifles are high-tech weapons which find numerous applications in military and industrial fields.\n\nThe plasma bolt is a toroid of superheated hydrogen gas that delivers high levels of both thermal and kinetic energy damage to the target, melting through most types of armors and causing massive 3rd-degree and 4th-degree burns."
@@ -637,7 +639,7 @@ lang["#MINIGUN_NAME"] = "5mm Minigun"
 lang["#VINDICATOR_NAME"] = "Vindicator Minigun"
 --other
 lang["#SYRINGER_NAME"] = "Dart Gun"
-lang["#FARTNADE_NAME"] = "Fart-Nade"
+--lang["#FARTNADE_NAME"] = "Fart-Nade"
 
 --explosive
 lang["#APW_NAME"] = "25mm APW"
@@ -913,7 +915,7 @@ lang["#DART_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hol
 lang["#DART_STIM_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns.\n\nSupport Variant\n\nContaining a partial dose of the Pre-War wonder drug, Stimdarts are useful as a form of ''long-range first aid''."
 lang["#DART_RADSCOPRION_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns.\n\nPoison Variant\n\nFilled with venom from the fearsome Radscorpion, be sure to warn your target ''this might sting a little''."
 lang["#DART_GREENGECKO_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns.\n\nPoison Variant\n\nFilled with concentrated poison from the Green Gecko, it acts quickly, but doesn't last long."
-lang["#DART_GREENGECKO_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns.\n\nPoison Variant\n\nContains a dose to wear out people from running."
+lang["#DART_FATIGUE_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns.\n\nPoison Variant\n\nContains a dose to wear out people from running."
 lang["#DART_RAD_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns.\n\nPoison Variant\n\nLoaded with radioactive liquid, these ''dirty darts'' are best used against human targets, not mutants."
 lang["#DART_SBLOCK_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns.\n\nCounter-Support Variant\n\nA specialized drug cocktail designed to subdue the body's ability to heal, rendering target-consumed healing items like stimpaks temporarily usesless."
 lang["#DART_CBLOCK_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns.\n\nCounter-Support Variant\n\nA specialized drug cocktail designed to subdue the body's adrenal system, rendering target-consumed combat chems like Buffout temporarily usesless."
@@ -952,11 +954,15 @@ lang["#MOLOTOV_DESC"] = "An improvised thrown explosive that erupts in a firebal
 lang["#FRAGMINE_NAME"] = "Frag Mine"
 lang["#PLASMAMINE_NAME"] = "Plasma Mine"
 lang["#POWDERCHARGE_NAME"] = "Powder Charge"
+lang["#FATMINE_NAME"] = "Fat-Mine"
 
 -- Mine Desc
 lang["#FRAGMINE_DESC"] = "A pre-war explosive weapon used for area denial. Once activated; will explode if touched, or its proximity timer ends, blasting the offender with shrapnel.\n\nTry not to catch a new piercing."
 lang["#PLASMAMINE_DESC"] = "A high-tech explosive weapon used for area denial. Once activated; will explode if touched, or its proximity timer ends, blasting the offender with plasma fire.\n\nDon't get your face melted off."
 lang["#POWDERCHARGE_DESC"] = "An improvised explosive weapon used for area denial. Once activated; will explode if touched, or its proximity timer ends, blasting the offender with whatever crap you stuffed inside.\n\nI hope your wiring is good.\n\n#WIP_DESC"
+lang["#FATMINE_DESC"] = "An improvised fusion weapon used for area denial. Once activated; will explode if touched, or its proximity timer ends, blasting the offender with the power of a small Sun.\n\nWhat kind of monster would create this?.\n\n#WIP_DESC"
+
+
 --███████╗ ██████╗  ██████╗ ██████╗
 --██╔════╝██╔═══██╗██╔═══██╗██╔══██╗
 --█████╗  ██║   ██║██║   ██║██║  ██║
@@ -1449,6 +1455,7 @@ lang["#PIPEWRENCH_NAME"] = "Pipewrench"
 lang["#STRAIGHTRAZOR_NAME"] = "Straight Razor"
 lang["#ROLLINGPIN_NAME"] = "Rolling Pin"
 lang["#SLEDGE_NAME"] = "Sledgehammer"
+lang["#WEIGHTBAR_NAME"] = "The 45 Pounder"
 lang["#SHOVEL_NAME"] = "Shovel"
 lang["#HOE_NAME"] = "Hoe"
 lang["#SPADE_NAME"] = "Spade"
@@ -1487,6 +1494,7 @@ lang["#PIPEWRENCH_DESC"] = "A typical wrench used by mechanics for hurting peopl
 lang["#STRAIGHTRAZOR_DESC"] = "An old-fashioned shaving razor with a polished wooden handle. Though its blade is short, it's lightweight and can deliver several slashing hits in rapid succession."
 lang["#ROLLINGPIN_DESC"] = "A plain wooden rolling pin used in baking to flatten dough, with a couple thin streaks of blood down one side."
 lang["#SLEDGE_DESC"] = "The strongman's specialty makes an appearance in the wasteland.\n\n#WIP_DESC"
+lang["#WEIGHTBAR_DESC"] = "Clearly never intended to be used as a weapon, this baneful mass of lead and steel is no stranger to being weilded by only the strongest of the strong.\n\n#WIP_DESC"
 lang["#SHOVEL_DESC"] = "A wood-handed shovel. Useful for digging up graves, or hitting your targets from the furthest possible range. Meant for those who are true shovel knights."
 lang["#HOE_DESC"] = "An old gardening tool. A long stick with a thick piece of metal attached to the end of it. Not sure what you plan to do with this, but it may prove to be a useful weapon."
 lang["#SPADE_DESC"] = "Similar to a shovel, but significantly smaller. What's the actual difference between these two? They'll still bash a head in."
@@ -1558,7 +1566,7 @@ lang["#DRAINEDSEC_NAME"] = "Drained Small Energy Cell"
 lang["#DRINKINGGLASS_NAME"] = "Drinking Glass"
 lang["#BOWL_NAME"] = "Bowl"
 lang["#HARDPLATE_NAME"] = "Hardplate"
-lang["#DUCTAPE_NAME"] = "Duct tape"
+lang["#DUCTAPE_NAME"] = "Duct Tape"
 lang["#EGGTIMER_NAME"] = "Egg Timer"
 lang["#EMPTYBOTTLE_NAME"] = "Empty Bottle"
 lang["#EMPTYNCBOTTLE_NAME"] = "Empty Nuka-Cola Bottle"
