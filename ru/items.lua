@@ -98,7 +98,7 @@ lang["#PREWARMAC&CHEESE_NAME"] = "Довоенные макароны с сыр�
 
 lang["#NUKACOLA_NAME"] = "Ядер-Кола"
 lang["#NUKAQUARTZ_NAME"] = "Кварцевая Ядер-Кола"
-lang["#NUKAVICTORY_NAME"] = "Ядер-Кола Победа"
+lang["#NUKAVICTORY_NAME"] = "Ядер-Кола 'Победа'"
 lang["#NUKAQUANTUM_NAME"] = "Квантовая Ядер-Кола"
 lang["#CHERRYNUKACOLA_NAME"] = "Ядер-Вишня"
 lang["#PREWARNUKACOLA_NAME"] = "Довоенная Ядер-Кола"
