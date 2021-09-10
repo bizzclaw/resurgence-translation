@@ -263,6 +263,11 @@ lang["#MISSION_CROWMAN_870_DESC"] = "You d'ere! Brat! I got a new challenge for 
 lang["#MISSION_CROWMAN_870_HINT"] = "Acquire a Pump Action Shotgun, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
 lang["#MISSION_CROWMAN_870_COMPLETE"] = "Finally done? Took ya long enough!"
 
+lang["#MISSION_CROWMAN_DARTGUN"] = "Corvid Vaccine"
+lang["#MISSION_CROWMAN_DARTGUN_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill nineteen crows, using one of those fancy Dart Guns, the kind they used pre-war to catch escaped zoo animals. AND NUTTIN' ELSE! I'LL KNOW!"
+lang["#MISSION_CROWMAN_DARTGUN_HINT"] = "Acquire a Dart Gun, via trade, crafting one at a workbench, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
+lang["#MISSION_CROWMAN_DARTGUN_COMPLETE"] = "Finally done? Took ya long enough!"
+
 lang["#MISSION_CROWMAN_44"] = "CrowMAGNUM Man"
 lang["#MISSION_CROWMAN_44_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill twelve crows, using a .44 Revolver, AND NUTTIN' ELSE! I'LL KNOW!"
 lang["#MISSION_CROWMAN_44_HINT"] = "Acquire a .44 Magnum Revolver, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
@@ -288,6 +293,16 @@ lang["#MISSION_CROWMAN_ASSAULTCARBINE_DESC"] = "You d'ere! Brat! I got a new cha
 lang["#MISSION_CROWMAN_ASSAULTCARBINE_HINT"] = "Acquire an Assault Carbine, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
 lang["#MISSION_CROWMAN_ASSAULTCARBINE_COMPLETE"] = "Finally done? Took ya long enough!"
 
+lang["#MISSION_CROWMAN_PLASMA"] = "Don't let it get on your car"
+lang["#MISSION_CROWMAN_PLASMA_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill sixteen crows, using a Plasma Gun. Dosen't matter how its modified, just gotta be a Plasma Gun. AND NUTTIN' ELSE! I'LL KNOW!"
+lang["#MISSION_CROWMAN_PLASMA_HINT"] = "Acquire a Plasma Gun, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
+lang["#MISSION_CROWMAN_PLASMA_COMPLETE"] = "Finally done? Took ya long enough!"
+--[[
+lang["#MISSION_CROWMAN_ASSAULTCARBINE"] = "Black Rifle, Black Bird"
+lang["#MISSION_CROWMAN_ASSAULTCARBINE_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill thirty crows, using one of those paratrooper guns, an Assault Carbine. AND NUTTIN' ELSE! I'LL KNOW!"
+lang["#MISSION_CROWMAN_ASSAULTCARBINE_HINT"] = "Acquire an Assault Carbine, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
+lang["#MISSION_CROWMAN_ASSAULTCARBINE_COMPLETE"] = "Finally done? Took ya long enough!"
+]]
 --Quantity challenge
 
 
@@ -325,7 +340,7 @@ lang["#MISSION_CROWMAN_X200_COMPLETE"] = "Is... is it over? Did we win? We did i
 --  ╚════╝ ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝    ╚═╝     ╚═╝╚═╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
 
 lang["#MISSION_JACKSON_THEMOUNTAINS"] = "The Mountains"
-lang["#MISSION_JACKSON_THEMOUNTAINS_DESC"] = "Weird place to have a town at, right? Anyways, I'm glad you're here, we need any extra help we can get. I should also explain myself. I'm assuming you found that message I left, otherwise how else would you know where I am, right? Couple weeks ago, I had two old friends come to my door asking for my help because their group had traveled here. Traveling here was not the problem, it was after they had set up the town here. There were a few jackasses who walked into town. Spent a few minutes looking around, and then they demanded payment for setting up on 'their' land, a few days after the group arrived. At first they were planning to refuse, because a couple of raiders wouldn't be that hard to deal with. It wasn't a couple. So, they took them up on their offer. Problem is, they didn't have enough money, which is why my friends came to me in the first place, and here we are now. Most of the group is broke, and we can't do trading. I need you to get us enough money, atleast to start trading. I'll pay you back."
+lang["#MISSION_JACKSON_THEMOUNTAINS_DESC"] = "Weird place to have a town at, right? Anyways, I'm glad you're here, we need any extra help we can get. I should also explain myself. I'm assuming you found that message I left, otherwise how else would you know where I am, right? Couple weeks ago, I had two old friends come to my door asking for my help because their group had traveled here. Coming here was not the problem, it was after they had set up the town here. There were a few jackasses who walked into town. Spent a few minutes looking around, and then they demanded payment for setting up on 'their' land, a few days after the group arrived. At first they were planning to refuse, because a couple of random raiders wouldn't be that hard to deal with. Turns out there's a whole group of them. So, they took them up on their offer. Problem is, they didn't have enough money, which is why my friends came to me in the first place, and here we are now. Most of the group is broke, and we can't do trading. I need you to get us enough money, at least to start trading. I'll pay you back."
 lang["#MISSION_JACKSON_THEMOUNTAINS_HINT"] = "Obtain NCR Dollars. You can get it from completing missions or tasks, and also selling items to traders."
 lang["#MISSION_JACKSON_THEMOUNTAINS_COMPLETE"] = "Thank you. A promise is a promise."
 
@@ -357,7 +372,7 @@ lang["#MISSION_JACKSON_RETRIBUTION_COMPLETE"] = "We'll be safe from them, for no
 lang["#MISSION_JACKSON_THEBUNKER_MATERIEL"] = "The Bunker: Materiel"
 lang["#MISSION_JACKSON_THEBUNKER_MATERIEL_DESC"] = "Just recently we discovered an old military bunker, which seems to be absolutely untouched by any scavengers. The reason why it's completely untouched, well it's flooded by old military-grade protectrons, built with some of the best security, and it doesn't look like they're allowing anyone in. There could be some extremely good materials in there, which could help us rapidly progress out of our current situation. I want you to go in and clear it, but first I want to make you something that will help you get rid of them. Here, take this list and get me some of these materials."
 lang["#MISSION_JACKSON_THEBUNKER_MATERIEL_HINT"] = "Obtain Tin Cans, Duct Tape, and a Pistol Powder Jug. Tin Cans and Duct Tape can be found from scavenging, and generally sold by traders. Pistol Powder can be found from traders, and can also be mined at the Ashlands miners."
-lang["#MISSION_JACKSON_THEBUNKER_MATERIEL_COMPLETE"] = "Light it, throw it, and don't look back."
+lang["#MISSION_JACKSON_THEBUNKER_MATERIEL_COMPLETE"] = "Light it, throw it, run and don't look back."
 
 lang["#MISSION_JACKSON_THEBUNKER_DISPOSAL"] = "The Bunker: Disposal"
 lang["#MISSION_JACKSON_THEBUNKER_DISPOSAL_DESC"] = "You better check yourself and make sure you're prepared before you head in. For now, I just need you to clear out the protectrons. Anything else you find in there is yours to keep. And don't get yourself killed."
@@ -384,27 +399,15 @@ lang["#MISSION_JACKSON_STRANGEBUILDING_COMPLETE"] = "Hmm. Seriously a weird plac
 
 -- T5
 
-lang["#MISSION_JACKSON_MINES_INPRODUCTION"] = "Mines: In Production"
-lang["#MISSION_JACKSON_MINES_INPRODUCTION_DESC"] = "Hey, we just got word that there was a huge mining camp on the other side of the valley, relatively close to the mansion. I know this is a quick ask as of right now, but I'm busy with some other stuff, and I need you to go check it out. I'll get you some payment when you're back."
-lang["#MISSION_JACKSON_MINES_INPRODUCTION_HINT"] = "Explore The Caves, The Mining Town, and The Elevated Buildings. The mines can be found near the mansion on the opposing side of Waxton, in a deep tunnel."
-lang["#MISSION_JACKSON_MINES_INPRODUCTION_COMPLETE"] = "Wait, the mines still function there?"
+lang["#MISSION_JACKSON_ROCKBITERS_INPRODUCTION"] = "Rock Biters: In Production"
+lang["#MISSION_JACKSON_ROCKBITERS_INPRODUCTION_DESC"] = "Hey, we just got word that there was a huge mining camp on the other side of the valley, relatively close to the mansion. I know this is a quick ask as of right now, but I'm busy with some other stuff, and I need you to go check it out. I'll get you some payment when you're back."
+lang["#MISSION_JACKSON_ROCKBITERS_INPRODUCTION_HINT"] = "Explore The Caves, The Mining Town, and The Elevated Buildings. The mines can be found near the mansion on the opposing side of Waxton, in a deep tunnel."
+lang["#MISSION_JACKSON_ROCKBITERS_INPRODUCTION_COMPLETE"] = "Wait, you found a their base?"
 
-lang["#MISSION_JACKSON_MINES_ANTHELL"] = "Mines: Ant Hell"
-lang["#MISSION_JACKSON_MINES_ANTHELL_DESC"] = "Not too long ago we had a group of people try to get the mines running again, and it seems like they still work. It's amazing for a creation so old to still function as of right now. The problem is, when the mines got turned on, so did all the ants in the area. They said that they've never seen so many before, and just bucked it and ran. Those mines can be extremely useful, we know that they dig up Lead and Copper, but it pisses off all the ants within the area. I need you to clear out as many as you can, and I'll make it worth the effort."
-lang["#MISSION_JACKSON_MINES_ANTHELL_HINT"] = "Eliminate Ants in the Mines. The mines can be found near the mansion on the opposing side of Waxton, in a deep tunnel. Ants are dangerous, so it is recommended to bring a decent-powered gun."
-lang["#MISSION_JACKSON_MINES_ANTHELL_COMPLETE"] = "Hell yeah, thanks. Those ants are hell."
-
--- T6
-
-lang["#MISSION_JACKSON_MINES_RETURNINGPROBLEMI"] = "Returning Problem, I"
-lang["#MISSION_JACKSON_MINES_RETURNINGPROBLEMI_DESC"] = "Good thing that you're here. Remember our old situation with the other group of assholes? They came back into town about an hour ago, and they came straight to me. They demanded even more payment than last time for the land up here, and they amount they wanted was beyond what we have or could get within a day. I've had enough with them, but we don't have the power or enough people to take them on. Plus, we don't have any idea where their camp may be. I know this is going to be a huge ask, but see if you can find their camp, and if you do, inform me on it."
-lang["#MISSION_JACKSON_MINES_RETURNINGPROBLEMI_HINT"] = "Find the Raider's Camp. There is no knowledge on where it may be."
-lang["#MISSION_JACKSON_MINES_RETURNINGPROBLEMI_COMPLETE"] = "Nice job. Take these."
-
-lang["#MISSION_JACKSON_MINES_RETURNINGPROBLEMII"] = "Returning Problem, II"
-lang["#MISSION_JACKSON_MINES_RETURNINGPROBLEMII_DESC"] = "I know this is a lot to ask, and I suggest that you bring a friend or two along. I want you to go and eliminate their entire group. I usually hate resorting to violence, but to cause trouble for others, they should expect some for themselves. I will pay you greatly."
-lang["#MISSION_JACKSON_MINES_RETURNINGPROBLEMII_HINT"] = "Eliminate any type of Raiders on Yolla Bolly. Raiders are usually armed with pistols and rifles, and have decent protection. It is recommended to use a ranged weapon against them, and some armor too."
-lang["#MISSION_JACKSON_MINES_RETURNINGPROBLEMII_COMPLETE"] = "No longer a problem. I owe you."
+lang["#MISSION_JACKSON_ROCKBITERS_WIPEOUT"] = "Rock Biters: Wipeout"
+lang["#MISSION_JACKSON_ROCKBITERS_WIPEOUT_DESC"] = "Holy shit, that's their main base! These assholes, the same ones who made us pay for this land we were at first. You know what? Were gonna get some payback. Not only is this for us, but to establish a safer path in this valley."
+lang["#MISSION_JACKSON_ROCKBITERS_WIPEOUT_HINT"] = "Eliminate any type of Rock-Biter on Yolla Bolly. The Rock-Biters can be found in the upper levels of the mines. They are heavily armed and it is recommened to bring a group of friends to help fight them."
+lang["#MISSION_JACKSON_ROCKBITERS_WIPEOUT_COMPLETE"] = "Great fucking job. I owe you, whatever you need."
 
 -- ███████╗██╗   ██╗███████╗ █████╗ ███╗   ██╗███████╗    ███╗   ███╗██╗███████╗███████╗██╗ ██████╗ ███╗   ██╗███████╗
 -- ██╔════╝██║   ██║██╔════╝██╔══██╗████╗  ██║██╔════╝    ████╗ ████║██║██╔════╝██╔════╝██║██╔═══██╗████╗  ██║██╔════╝
@@ -613,9 +616,19 @@ lang["#MISSION_SALTWELLS_WEAPONREQUESTII_HINT"] = "Obtain a .357 Revolver. You c
 lang["#MISSION_SALTWELLS_WEAPONREQUESTII_COMPLETE"] = "You've completed the task."
 
 lang["#MISSION_SALTWELLS_WEAPONREQUESTIII"] = "Weapon Request, III"
-lang["#MISSION_SALTWELLS_WEAPONREQUESTIII_DESC"] = "This task is open to those who are willing to get a Machete for the hirer. They are willing to pay decent currency for it."
-lang["#MISSION_SALTWELLS_WEAPONREQUESTIII_HINT"] = "Obtain a Machete. You can get them by crafting."
+lang["#MISSION_SALTWELLS_WEAPONREQUESTIII_DESC"] = "This task is open to those who are willing to get a Side-by-Side Shotgun for the hirer. They are willing to pay decent currency for it."
+lang["#MISSION_SALTWELLS_WEAPONREQUESTIII_HINT"] = "Obtain a SxS Shotgun. Bandits are usually in possesion of them. Some traders also sell them."
 lang["#MISSION_SALTWELLS_WEAPONREQUESTIII_COMPLETE"] = "You've completed the task."
+
+lang["#MISSION_SALTWELLS_WEAPONREQUESTIV"] = "Weapon Request, IV"
+lang["#MISSION_SALTWELLS_WEAPONREQUESTIV_DESC"] = "This task is open to those who are willing to get a 9mm SMG for the hirer."
+lang["#MISSION_SALTWELLS_WEAPONREQUESTIV_HINT"] = "Obtain a 9mm SMG. Bandits commonly have them, and some traders also sell them."
+lang["#MISSION_SALTWELLS_WEAPONREQUESTIV_COMPLETE"] = "You've completed the task."
+
+lang["#MISSION_SALTWELLS_WEAPONREQUESTV"] = "Weapon Request, V"
+lang["#MISSION_SALTWELLS_WEAPONREQUESTV_DESC"] = "This task is open to those who are willing to get a Machete for the hirer."
+lang["#MISSION_SALTWELLS_WEAPONREQUESTV_HINT"] = "Obtain a Machete. You can only get them by crafting."
+lang["#MISSION_SALTWELLS_WEAPONREQUESTV_COMPLETE"] = "You've completed the task."
 
 lang["#MISSION_SALTWELLS_REAVERELIMINATION"] = "Reaver Elimination"
 lang["#MISSION_SALTWELLS_REAVERELIMINATION_DESC"] = "This task is open to those who are willing to eliminate Feral Ghoul Reavers for the hirer. The hirer is willing to pay a reasonable price for it."

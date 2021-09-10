@@ -486,7 +486,9 @@ You were born in a Vault-Tec vault; A shelter built before the war where your an
 lang["#RACE_GHOUL_DESC"] = [[
 - Increased Intelligence Capacity.
 - Decreased Endurance Capacity.
+- Decreased Charisma Capacity.
 - Immunity to Radiation; Higher Radiation levels will heal you, and buff your Endurance.
+- All damage you take is increased by 30%, but having 500 rads or more will bring this down to 10%.
 
 You were human once upon a time, but at some point you were exposed to a fatal dose of radiation. Maybe there was a leak in your rad suit, perhaps you fell into a big crater, or possibly you were even around back before the bombs fell. You might not even remember. Whatever it was, you survived thanks to some genetic quirk and now you've became this... thing.
 ]]
