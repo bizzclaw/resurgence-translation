@@ -7,18 +7,18 @@ local lang = RSRG.Languages["zh-CN"]
 -- ██║██║ ╚████║███████║███████╗╚██████╗   ██║   ███████║
 -- ╚═╝╚═╝  ╚═══╝╚══════╝╚══════╝ ╚═════╝   ╚═╝   ╚══════╝
 
--- Radroaches
-lang["#NPC_RADROACH"] = "Radroach"
-lang["#NPC_RADROACHES"] = "Radroaches"
--- Mantids
-lang["#NPC_MANTIS"] = "Mantis"
-lang["#NPC_MANTIDS"] = "Mantids"
--- Giant Ants
+-- 辐射蟑螂
+lang["#NPC_RADROACH"] = "辐射蟑螂"
+lang["#NPC_RADROACHES"] = "辐射蟑螂"
+-- 螳螂
+lang["#NPC_MANTIS"] = "螳螂"
+lang["#NPC_MANTIDS"] = "螳螂"
+-- 巨型蚂蚁
 lang["#NPC_GIANTANT"] = "巨型蚂蚁"
 lang["#NPC_GIANTANTS"] = "巨型蚂蚁"
--- Radscorpion
-lang["#NPC_RADSCORPION"] = "Radscorpion"
-lang["#NPC_RADSCORPIONS"] = "Radscorpions"
+-- 辐射蝎
+lang["#NPC_RADSCORPION"] = "辐射蝎"
+lang["#NPC_RADSCORPIONS"] = "辐射蝎"
 
 --  █████╗ ███╗   ██╗██╗███╗   ███╗ █████╗ ██╗     ███████╗
 -- ██╔══██╗████╗  ██║██║████╗ ████║██╔══██╗██║     ██╔════╝
@@ -27,25 +27,25 @@ lang["#NPC_RADSCORPIONS"] = "Radscorpions"
 -- ██║  ██║██║ ╚████║██║██║ ╚═╝ ██║██║  ██║███████╗███████║
 -- ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝
 
--- Crows
+-- 乌鸦
 lang["#NPC_CROW"] = "乌鸦"
 lang["#NPC_CROWS"] = "乌鸦"
--- Molerats
-lang["#NPC_MOLERAT"] = "Molerat"
-lang["#NPC_MOLERATS"] = "Molerats"
--- Geckos
-lang["#NPC_GECKO"] = "壁虎"
-lang["#NPC_GECKOS"] = "壁虎"
-lang["#NPC_GECKO_GOLD"] = "黄金壁虎"
-lang["#NPC_GECKOS_GOLD"] = "黄金壁虎"
-lang["#NPC_GECKO_GREEN"] = "绿色壁虎"
-lang["#NPC_GECKOS_GREEN"] = "绿色壁虎"
--- Yao Guais
+-- 鼹鼠
+lang["#NPC_MOLERAT"] = "鼹鼠"
+lang["#NPC_MOLERATS"] = "鼹鼠"
+-- 蜥蜴
+lang["#NPC_GECKO"] = "蜥蜴"
+lang["#NPC_GECKOS"] = "蜥蜴"
+lang["#NPC_GECKO_GOLD"] = "金蜥蜴"
+lang["#NPC_GECKOS_GOLD"] = "金蜥蜴"
+lang["#NPC_GECKO_GREEN"] = "绿蜥蜴"
+lang["#NPC_GECKOS_GREEN"] = "绿蜥蜴"
+-- 妖怪
 lang["#NPC_YAOGUAI"] = "妖怪"
 lang["#NPC_YAOGUAIS"] = "妖怪"
--- Mirelurks
-lang["#NPC_MIRELURK"] = "Mirelurk"
-lang["#NPC_MIRELURKS"] = "Mirelurks"
+-- 泥沼蟹
+lang["#NPC_MIRELURK"] = "泥沼蟹"
+lang["#NPC_MIRELURKS"] = "泥沼蟹"
 
 -- ██╗  ██╗██╗   ██╗███╗   ███╗ █████╗ ███╗   ██╗ ██████╗ ██╗██████╗
 -- ██║  ██║██║   ██║████╗ ████║██╔══██╗████╗  ██║██╔═══██╗██║██╔══██╗
@@ -54,22 +54,22 @@ lang["#NPC_MIRELURKS"] = "Mirelurks"
 -- ██║  ██║╚██████╔╝██║ ╚═╝ ██║██║  ██║██║ ╚████║╚██████╔╝██║██████╔╝
 -- ╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝╚═════╝
 
--- Ghouls
-lang["#NPC_FERALGHOUL"] = "狂暴食尸鬼"
-lang["#NPC_FERALGHOULS"] = "狂暴食尸鬼"
-lang["#NPC_FERALGHOUL_REAVER"] = "狂暴食尸鬼掠夺者"
-lang["#NPC_FERALGHOUL_REAVERS"] = "狂暴食尸鬼掠夺者"
--- Bandits
-lang["#NPC_BANDIT"] = "土匪"
-lang["#NPC_BANDITS"] = "土匪"
-lang["#NPC_80SBANDIT"] = "80s Tribe Bandit"
-lang["#NPC_80SBANDITS"] = "80s Tribe Bandits"
-lang["#NPC_ICEPICKBANDIT"] = "Ice Pick Bandit"
-lang["#NPC_ICEPICKBANDITS"] = "Ice Pick Bandits"
-lang["#NPC_ICEPICKBANDITSNIPERS"] = "Ice Pick Head-Hunters"
-lang["#NPC_ROCKBITERBANDIT"] = "Rock-Biter Bandit"
-lang["#NPC_ROCKBITERBANDITS"] = "Rock-Biter Bandits"
--- Super Mutants
+-- 尸鬼
+lang["#NPC_FERALGHOUL"] = "狂尸鬼"
+lang["#NPC_FERALGHOULS"] = "狂尸鬼"
+lang["#NPC_FERALGHOUL_REAVER"] = "狂尸鬼掠夺者" --Not sure
+lang["#NPC_FERALGHOUL_REAVERS"] = "狂尸鬼掠夺者" --Not sure
+-- 土匪
+lang["#NPC_BANDIT"] = "土匪" --Not sure
+lang["#NPC_BANDITS"] = "土匪" --Not sure
+lang["#NPC_80SBANDIT"] = "80 年代部落土匪" --Not sure
+lang["#NPC_80SBANDITS"] = "80 年代部落土匪" --Not sure
+lang["#NPC_ICEPICKBANDIT"] = "冰镐土匪" --Not sure
+lang["#NPC_ICEPICKBANDITS"] = "冰镐土匪" --Not sure
+lang["#NPC_ICEPICKBANDITSNIPERS"] = "冰镐猎手" --Not sure
+lang["#NPC_ROCKBITERBANDIT"] = "岩匪" --Not sure
+lang["#NPC_ROCKBITERBANDITS"] = "岩匪" --Not sure
+-- 超级变种人
 lang["#NPC_SUPERMUTANT"] = "超级变种人"
 lang["#NPC_SUPERMUTANTS"] = "超级变种人"
 
@@ -80,8 +80,8 @@ lang["#NPC_SUPERMUTANTS"] = "超级变种人"
 -- ██║  ██║╚██████╔╝██████╔╝╚██████╔╝   ██║   ██║╚██████╗
 -- ╚═╝  ╚═╝ ╚═════╝ ╚═════╝  ╚═════╝    ╚═╝   ╚═╝ ╚═════╝
 
-lang["#NPC_PROTECTRON"] = "Protectron"
-lang["#NPC_PROTECTRONS"] = "Protectrons"
+lang["#NPC_PROTECTRON"] = "保护者"
+lang["#NPC_PROTECTRONS"] = "保护者"
 
 --  █████╗ ██████╗  ██████╗ ███╗   ███╗██╗███╗   ██╗ █████╗ ████████╗██╗ ██████╗ ███╗   ██╗███████╗
 -- ██╔══██╗██╔══██╗██╔═══██╗████╗ ████║██║████╗  ██║██╔══██╗╚══██╔══╝██║██╔═══██╗████╗  ██║██╔════╝
