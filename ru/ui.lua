@@ -62,22 +62,22 @@ lang["#PIP_STATISTICS"] = "СТАТИСТИКА"
 
 lang["#PIP_KNOWNSTATIONS"] = "Известные станции"
 
--- Shorthands
-lang["#SHORT_HP"] = "ОЗ" -- Health Points
-lang["#SHORT_AP"] = "ОД" -- Action Points
-lang["#SHORT_DMG"] = "УРН" -- Damage
-lang["#SHORT_CXP"] = "ОПБ" -- Combat Experience
-lang["#SHORT_UXP"] = "ОПМ" -- Utility Experience
-lang["#SHORT_LMB"] = "ЗДК" -- Limb Health
-lang["#SHORT_SPECIAL"] = "SPECIAL" -- Special
-lang["#SHORT_TIME"] = "ВРЕМ" -- Time
-lang["#SHORT_WGT"] = "ВЕС" -- shorthand for "weight"
-lang["#SHORT_SWGT"] = "Сохр. ВЕС" -- shorthand for "weight"
-lang["#SHORT_DT"] = "ПУ" -- Damage Threshold
-lang["#SHORT_STR"] = "СИЛ" -- Strength
-lang["#SHORT_CND"] = "ССТ" -- Condition
-lang["#SHORT_RADS"] = "РАД" -- Radiation level
-lang["#SHORT_SAT"] = "НСЩ" -- Satiation, hunger combined with thirst into one stat.
+-- Стенографии
+lang["#SHORT_HP"] = "ОЗ" -- Очко здоровья
+lang["#SHORT_AP"] = "ОД" -- Очко действия
+lang["#SHORT_DMG"] = "УРН" -- Урон
+lang["#SHORT_CXP"] = "ОБ" -- Опыт боя
+lang["#SHORT_UXP"] = "ОП" -- Опыт полезности
+lang["#SHORT_LMB"] = "ЗДК" -- Здоровье конечностей
+lang["#SHORT_SPECIAL"] = "SPECIAL" -- Спешл
+lang["#SHORT_TIME"] = "ВРЕМ" -- Время
+lang["#SHORT_WGT"] = "ВЕС"
+lang["#SHORT_SWGT"] = "Сохр. ВЕС" -- Сохранённый вес
+lang["#SHORT_DT"] = "ПУ" -- Предел урона
+lang["#SHORT_STR"] = "СИЛ" -- Сила
+lang["#SHORT_CND"] = "ССТ" -- Состояние
+lang["#SHORT_RADS"] = "РАД" -- Уровень радиации
+lang["#SHORT_SAT"] = "СЫТ" -- Сытость
 
 -- UI Labels
 lang["#UI_SEARCH"] = "Поиск..."
