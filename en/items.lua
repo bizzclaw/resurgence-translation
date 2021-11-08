@@ -1964,7 +1964,7 @@ lang["#MOD_MUZDEV_CHOKE12PAIR_R_NAME"] = "12GA Rifled Choke Pair"
 lang["#MOD_MUZDEV_CHOKE12PAIR_SPIKE_NAME"] = "12GA Standoff Choke Pair"
 
 --MAG
-lang["#MOD_MAG_STANAG30_NAME"] = "STANAG 30rd Magazine"
+lang["#MOD_MAG_STANAG30_NAME"] = "STANAG: 30rd Magazine"
 lang["#MOD_MAG_STANAG100_NAME"] = "STANAG Drum Magazine"
 --STOCK
 lang["#MOD_GRIP_PIPEGUN_CURVE_NAME"] = "Pipegun Curved Grip"
@@ -2208,7 +2208,7 @@ lang["#MOD_MAG_DKS5_NAME"] = "Sniper Rifle 5rd Magazine"
 lang["#MOD_MAG_DKS10_NAME"] = "Sniper Rifle 10rd Magazine"
 lang["#MOD_MAG_9SMG_NAME"] = "9mm SMG Drum Magazine"
 lang["#MOD_MAG_10SMG_NAME"] = "10mm SMG Extended Magazine"
-lang["#MOD_MAG_TOMMY_50_NAME"] = ".45 Auto Submachine Gun 50rd Magazine"
+lang["#MOD_MAG_TOMMY_50_NAME"] = ".45 Auto Submachine Gun: 50rd Magazine"
 lang["#MOD_MAG_AKM30_NAME"] = "Soviet Rifle Extended Magazine"
 lang["#MOD_MAG_AKM75_NAME"] = "Soviet Rifle Drum Magazine"
 lang["#MOD_MAG_5MM_NAME"] = "5mm Minigun Extended Magazine"
