@@ -55,7 +55,7 @@ lang["#SADISTARMOR_NAME"] = "Броня рейдеров-садистов"
 lang["#T45DPOWER_NAME"] = "Силовая броня T45D"
 lang["#MWPA_NAME"] = "Силовая броня Братства"
 lang["#T51BPOWER_NAME"] = "Силовая броня T51B"
-lang["#RAIDERARMOR_NAME"] = "Металлическая броня"
+lang["#RAIDERARMOR_NAME"] = "Укреплённая металл. броня"
 lang["#ENCLAVEHAZMAT_NAME"] = "Продвинутый защитный комплект"
 lang["#SECRETAGENTSUIT_NAME"] = "Неприметный костюм"
 
