@@ -87,6 +87,17 @@ lang["#MISSION_GIVER_SUSAN_GREET_0"] = "Hey. I may still need some help with iss
 lang["#MISSION_GIVER_SUSAN_GREET_350"] = "Hey, $playername, We've still got some problems if you're looking for something to do.\n\n\nHere's what we need help with."
 lang["#MISSION_GIVER_SUSAN_GREET_FINISHED"] = "Hi, $playername. Unfortunately, if you're looking for something to do, we're good on all current assignments, and this region is protected from any further harm with those damn ghouls, thanks to you. I'd recommend checking out our town board, or talking to other people."
 
+-- Bos Greeter
+lang["#MISSION_GIVER_BOSGUARD"] = "Knight Connors"
+lang["#MISSION_GIVER_BOSGUARD_NEW"] = "Halt Civilian! This is a restricted area. We don't let just let anyone in. We're running a very sensitive operation here and we don't need civilians getting in the way.\n\nOnly those who prove useful can enter."
+lang["#MISSION_GIVER_BOSGUARD_N0"] = "You have a lot of nerve showing up here. You have a long way to go and a lot to do if you want to be in our favor again."
+lang["#MISSION_GIVER_BOSGUARD_0"] = "Oh. Its you... well, if you're still feeling like you want to help, there's always more we need done."
+lang["#MISSION_GIVER_BOSGUARD_25"] = "I'm impressed, but you're going to need to do a little more than that before you can come in. Here's what needs doing."
+lang["#MISSION_GIVER_BOSGUARD_50"] = "Well, I guess you're not useless after all... The boys inside will let you in. They'll have supplies and some more missions for you."
+lang["#MISSION_GIVER_BOSGUARD_100"] = "Hey $playername, I'm glad you're still helping out. I've still got things to do if you have any spare time."
+
+lang["#MISSION_GIVER_BOSSCRIBE"] = "Scribe "
+
 --  █████╗ ███████╗██╗  ██╗██╗      █████╗ ███╗   ██╗██████╗ ███████╗
 -- ██╔══██╗██╔════╝██║  ██║██║     ██╔══██╗████╗  ██║██╔══██╗██╔════╝
 -- ███████║███████╗███████║██║     ███████║██╔██╗ ██║██║  ██║███████╗

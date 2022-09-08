@@ -46,7 +46,7 @@ RSRG.Hints[HINTS_COMMON] = {
 "Guns with long barrels have increased accuracy while aimed, but decreased accuracy when shot ''from the hip''.",
 "Using an magnified optic like a Hunting Rifle Scope will slow down your aiming speed, allowing you to line up long range shots more easily.",
 "Muzzle brakes and compensators can reduce the felt recoil on weapons by an incredible amount, at the cost of making the firing noise that much louder.",
-"Supressors significantly reduce the sound of a weapon firing, at the cost of velocity, and ultimately lethality.",
+"suppressors significantly reduce the sound of a weapon firing, at the cost of velocity, and ultimately lethality.",
 "Weapon bashing with a firearm is often a last resort, but with the addition of a bayonet or a spiked choke..." ,
 --[[
  █████╗ ██████╗ ███╗   ███╗ ██████╗ ██████╗

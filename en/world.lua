@@ -26,15 +26,20 @@ lang["#REGION_CUTLER_NWTUNNEL"] = "U.S. 101, North"
 
 lang["#REGION_YOLLABOLLY"] = "Yolla Bolly Mountain Range"
 lang["#REGION_YOLLABOLLY_CLIFFCONVY"] = "Abandoned Convoy"
-lang["#REGION_YOLLABOLLY_CLIFFEDGE"] = "Cliff Edge"
+lang["#REGION_YOLLABOLLY_HYDRO"] = "Hydro Dam Pass"
 lang["#REGION_YOLLABOLLY_TUNNELTRAILER"] = "Tunnel Barricade"
 lang["#REGION_YOLLABOLLY_TOWN"] = "Cliffside Town"
 
 lang["#REGION_DEADESTUARY"] = "Dead Estuary"
 lang["#REGION_DEADESTUARY_NORTH"] = "Northern Boat"
 lang["#REGION_DEADESTUARY_SW"] = "Smuggler's Camp"
-lang["#REGION_DEADESTUARY_NW"] = "Northwest Shack"
-lang["#REGION_DEADESTUARY_E"] = "Makeshift Floatilla"
+lang["#REGION_DEADESTUARY_NW"] = "Westward Shack"
+lang["#REGION_DEADESTUARY_E"] = "Makeshift Flotilla"
+
+lang["#REGION_SALEM"] = "Salem Ruins" 
+lang["#REGION_SALEM_SE"] = "Southeast Streets"
+lang["#REGION_SALEM_S"] = "Collapsed Building"
+lang["#REGION_SALEM_NW"] = "Residential Block"
 
 -- Factions
 lang["#FACTION_NCR_NAME"] = "New California Republic"
@@ -60,6 +65,10 @@ lang["#FACTION_VAULTCITY_DESC"] = "An isolationist community located in northeas
 
 lang["FACTION_FOLLOWERSOFTHEAPOCALYPSE_NAME"] = "Followers of the Apocalypse"
 lang["FACTION_FOLLOWERSOFTHEAPOCALYPSE_DESC"] = "The Followers are a humanitarian organization originating in New California and focus on providing education and medical services to those in need, as well as furthering research in non-military areas."
+
+lang["#FACTION_BOS_NAME"] = "Brotherhood of Steel"
+lang["#FACTION_BOS_DESC"] = "The Brotherhood of Steel is a techno-religous organization that collects and maintains advanced technology with roots in the Pre-War American Military. They are highly reclusive and"
+
 -- Laws
 lang["#LAW_MURDER_NAME"] = "Murder"
 lang["#LAW_MURDER_DESC"] = "Unlawful killing of another individual"
@@ -112,7 +121,6 @@ lang["#FACTORY_CHARGEFULL"] = "Loading any more would exceed capacity."
 lang["#FACTORY_RECIEVINGCHARGE"] = "Opening Hopper."
 lang["#FACTORY_REMOTEACCESS"] = "Machine Remote Access."
 
-
 -- Power Generator
 lang["#FUSIONGENERATOR_NAME"] = "General Automics Fusion Generator"
 
@@ -120,16 +128,21 @@ lang["#FUSIONGENERATOR_NAME"] = "General Automics Fusion Generator"
 lang["#DISTRIBUTOR"] = "Power Distributor"
 lang["#DISTRIBUTOR_TOTAL"] = "Production Capacity"
 
--- Ineu Distributors
+-- Distributor Locations
 lang["#DISTRIBUTOR_BACKALLEY"] = "Back Alley"
 lang["#DISTRIBUTOR_LOADINGALLEY"] = "Loading Bay Alley"
 lang["#DISTRIBUTOR_GENERATORROOM"] = "Generator Room"
 lang["#DISTRIBUTOR_FACTORYFLOOR"] = "Factory Floor"
+lang["#DISTRIBUTOR_OUTSIDE"] = "Outside"
 
--- Lead Miner
+
 lang["#MINER_NAME"] = "Miner"
+lang["#MINERS_NAME"] = "Miners"
 lang["#LEADMINER_NAME"] = "Lead Miner"
 lang["#COPPERMINER_NAME"] = "Copper Miner"
+lang["#LIFTBOTTOM_NAME"] = "Lower Elevator Shaft"
+lang["#LIFTTOP_NAME"] = "Upper Elevator Shaft"
+lang["#ENTRANCERAMP_NAME"] = "Entrance Ramp"
 
 -- Ammo Factory
 lang["#AMMOFACTORY_NAME"] = "Circle G Munitions Processing Plant"
@@ -145,6 +158,7 @@ lang["#AMMOFACTORY_DESC"] = [[
 lang["#AMMOFACTORY_PRESS_NAME"] = "CHME-1000JL Hydraulic Forging Press"
 
 -- New Format for terminals, put the title of the button in [brackets]
+lang["#ASHLANDMINE_NAME"] = "Ashland Excavation Site"
 
 -- Ineu Mine
 
@@ -169,5 +183,9 @@ To Do List
 -Figure out a way to get those TVs working again.
 ]]
 
+
+-- Locations
+
+lang["#BOS_BUNKER"] = "Brotherhood Bunker"
 
 RELOADSCHEMA = true

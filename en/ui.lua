@@ -3,16 +3,20 @@ local lang = RSRG.Languages["en"]
 
 --Main menu
 lang["#GAMEMODE_NAME"] = "Fallout Resurgence"
-lang["#WIPWARN_TITLE"] = "Resurgence is in a Beta state"
-lang["#WIPWARN_SUB"] = "You will encounter bugs and unfinished features"
+lang["#WIPWARN_TITLE"] = "Resurgence is an Unfinished Project"
+lang["#WIPWARN_SUB"] = "You will encounter bugs and unfinished features."
 lang["#UI_ANYKEY"] = "Press Any Key to Start"
 
 -- Teleport Doors
 lang["#UI_OPEN"] = "Open"
 lang["#UI_TRAVEL"] = "Travel"
 lang["#UI_ENTER"] = "Enter"
+lang["#UI_EXIT"] = "Exit"
 lang["#UI_CLOSE"] = "Close"
 lang["#UI_TELEPORTLEAVE"] = "Are you sure you want to leave?\n\n$requirement required to return."
+
+lang["#UI_TELEPORTERBLOCK_FACTION_FAVOR"] = "You do not have a high enough Favor with $faction to Enter.\n\nYou need: $favorRequired\nYou have: $favorCurrent\n\nGain Favor by completing Missions for the $faction."
+lang["#UI_TELEPORTERBLOCK_FACTION_HOSTILE"] = "You are currently Hostile with the $faction\n\nYou cannot enter this area."
 
 lang["#UI_ITEMCONSUMED"] = "$item will Be taken"
 lang["#UI_ITEMNOTCONSUMED"] = "$item must be in your Inventory (Not taken)"
@@ -27,11 +31,14 @@ lang["#UI_SELCHAR"] = "Select Character"
 lang["#UI_LOADCHAR"] = "Load Character"
 lang["#UI_NEWCHAR"] = "Create Character"
 lang["#UI_DELCHAR"] = "Delete Character"
+lang["#UI_DELCHAR_CONFIRM"] = "Enter Character's name to confirm deletion"
+lang["#UI_DELCHAR_NOMATCH"] = "Name does not match.\n\nPlease try again."
+
 
 --Main Menu
 lang["#UI_STARTPLAYING"] = "Start Playing"
 lang["#UI_RESUME"] = "Resume"
-lang["#UI_SETTINGS"] = "Settings"
+lang["#UI_SETTINGS"] = "Resurgence Settings"
 lang["#UI_STEAMGROUP"] = "Steam Group"
 lang["#UI_GMODMENU"] = "Garry's Mod Menu"
 lang["#UI_SIGNOUT"] = "Resurgence Main Menu"
@@ -81,6 +88,8 @@ lang["#SHORT_SAT"] = "SAT" -- Satiation, hunger combined with thirst into one st
 -- UI Labels
 lang["#UI_SEARCH"] = "Search..."
 lang["#UI_MISC"] = "Misc"
+lang["#UI_VALUE"] = "Value"
+lang["#UI_DECAY"] = "Decay"
 lang["#UI_DROP"] = "[R] Drop"
 lang["#UI_EQUIP"] = "Equip"
 lang["#UI_HOTKEY"] = "Hotkey"
@@ -91,6 +100,7 @@ lang["#UI_SAVE"] = "Save"
 lang["#UI_SAVEWEIGHT"] = "Save Weight"
 lang["#UI_EMPTYSTORAGE"] = "<Empty>"
 lang["#UI_ETAKE"] = "@+use Take"
+lang["#UI_INSPECT"] = "Inspect"
 lang["#UI_EUSE"] = "@+use Use"
 lang["#UI_RTAKEALL"] = "@+reload Take All"
 lang["#UI_FMOUSE"] = "@impulse 100|Mouse"
@@ -108,6 +118,7 @@ lang["#UI_NOBOTTLES"] = "No Empty Bottles"
 lang["#UI_UNSTUCKWAIT"] = "You must wait $time more seconds before you can unstuck again."
 lang["#UI_UNSTUCKFAILED"] = "Unstuck Failed! Try contacting staff by putting @ sign before your message!"
 lang["#UI_TOGGLERAISEHELP"] = "You can lower your weapon by holding @+use and tapping @+reload .\n\nHolding @+reload will holster your weapon."
+lang["#UI_CREATOR"] = "Creator"
 
 -- Use Prompts
 
@@ -143,6 +154,8 @@ lang["#CATEGORY_STD"] = "Standard"
 lang["#CATEGORY_HP"] = "Hollow Point"
 lang["#CATEGORY_AP"] = "Armor Piercing"
 lang["#CATEGORY_CASE"] = "Brass Casings"
+lang["#CATEGORY_SMELTING"] = "Smelting"
+lang["#CATEGORY_INGOT"] = "Ingots"
 
 -- Effect Slots
 lang["#UI_EFFECTSLOT"] = "Effect Slot"
@@ -151,7 +164,8 @@ lang["#EFFECTSLOT_AIDHEALING"] = "Aid - Healing"
 lang["#EFFECTSLOT_CHEMCOMBAT"] = "Chem - Combat"
 lang["#EFFECTSLOT_CHEMSUPPORT"] = "Chem - Support"
 lang["#EFFECTSLOT_ALCOHOL"] = "Alcohol"
-lang["#EFFECTSLOT_CONSUMABLE"] = "Consumable"
+lang["#EFFECTSLOT_FOOD"] = "Food - Passive"
+lang["#EFFECTSLOT_FOODSUPPORT"] = "Food - Support"
 
 lang["#CRAFTING_GIVES"] = "Gives"
 
@@ -164,8 +178,10 @@ lang["#SORT_WGT"] = "Weight"
 lang["#SORT_VALUE"] = "Value"
 lang["#SORT_CND"] = "Condition"
 lang["#SORT_LOOT"] = "Loot Priority"
+lang["#UI_STORAGE_MAXWEIGHT"] = "Storage at Maximum Capacity"
 
 lang["#UI_REQUIRES"] = "Requires"
+lang["#UI_REQUIREMENTS"] = "Requirements"
 
 
 -- Currently used for doors that have an item requirement: OPEN with 1 RED KEYCARD
@@ -191,6 +207,7 @@ lang["#UI_OKAY"] = "Okay"
 lang["#UI_HOWMANY"] = "How Many?" -- used in the bulk drop menu.
 lang["#UI_ACTIVEEFFECTS"] = "Active Effects" -- Effects char
 lang["#UI_LEVEL"] = "Level" -- Experience "Level", Skill "Level"
+lang["#UI_XPGAIN"] = "Experience Gain"
 
 
 -- Effects. All effects will start with NOW_SICK or NO_LONGER_SICK
@@ -247,7 +264,7 @@ lang['#DISEASE_CRUNCH'] = "Crunch Cramp"
 lang['#DISEASE_CALAMITOUS'] = "Calamitous Rash"
 lang['#DISEASE_BADLUCK'] = "Bad Luck"
 
-lang['#DISEASE_BONEITIS'] = "Bonitis"
+lang['#DISEASE_BONEITIS'] = "Boneitis"
 --Effect
 lang['#BITE_GOLDGECKO'] = "Radioactive Bite"
 lang['#MELEE_REAVER'] = "Reaver's Embrace"
@@ -261,9 +278,9 @@ lang["#NOTIFY_ARMOR_BROKEN"] = "Your armor has broken and can no longer be used!
 lang["#NOTIFY_OVERECUMBERED_1"] = "You are carrying too much and are moving slower."
 lang["#NOTIFY_OVERECUMBERED_2"] = "You are carrying too much and can no longer run."
 lang["#NOTIFY_OVERECUMBERED_3"] = "You are carrying too much and can no longer move."
-lang["#NOTIFY_TOFARTOTRADE"] = "Target is too far away to trade with now."
-lang["#NOTIFY_WANTSTOTRADE"] = "Would like to trade with you. Look at them and hold @use to accept the trade request."
 lang["#NOTIFY_SKILLTOOLOW"] = "You do not meet the skill requirements."
+lang["#NOTIFY_SATIATIONEND"] = "You are no longer satiated."
+lang["#NOTIFY_WANTED"] = "[ WANTED ]"
 lang["#UI_NOTCURRENTLYPOSSIBLE"] = "Not Currently Possible"
 lang["#UI_HPFULL"] = "HP Full."
 lang["#UI_STIMPAKACTIVE"] = "Your last stimpak is still active!"
@@ -274,6 +291,8 @@ lang["#UI_ADDICTED"] = "You have become addicted to $item"
 lang["#UI_NOTADDICTED"] = "You are no longer addicted to $item"
 lang["#UI_WITHDRAWAL"] = "$item Withdrawal"
 lang["#UI_DELAYED"] = "Delayed"
+lang["#UI_WAITTOUSE"] = "You must wait $time seconds to use this!"
+lang["#UI_WANTEDBY"] = "Wanted by the $faction"
 
 -- Inventory
 lang["#INV_ADDED"] = "$item Added"
@@ -285,6 +304,7 @@ lang["#EIGHTBALL_REMOVED"] = "OUTLOOK: NOT SO GREAT."
 
 --PARTY
 -- new feature, $person will be automatically replaced with subject's name
+lang["#PARTY_INVITE"] = "Invite to Party"
 lang["#PARTY_HASINVITED"] = "$person has invited you to join their party."
 lang["#PARTY_LEAVE"] = "Leave Party"
 lang["#PARTY_JOIN"] = "Join Party"
@@ -307,6 +327,18 @@ lang["#PARTY_PROMOTE"] = "Promote to Leader"
 lang["#PARTY_PROMOTECONFIRM"] = "Promote $person to party leader?"
 lang["#PARTY_FRIENDLYFIRE"] = "Watch your fire!"
 
+--TRADING
+lang["#TRADE_REQUEST"] = "Trade With"
+lang["#TRADE_TOOFAR"] = "This player is too far to be traded with."
+lang["#TRADE_REQUESTED"] = "You have requested to trade with $person."
+lang["#TRADE_ALREADYPENDING"] = "You already have a trade request pending."
+lang["#TRADE_HASREQUESTED"] = "$person has requested to trade with you."
+lang["#TRADE_ACCEPTREQUEST"] = "Accept Request"
+lang["#TRADE_DECLINEREQUEST"] = "Decline Request"
+lang["#TRADE_ACCEPTED"] = "You have accepted the trade request."
+lang["#TRADE_DECLINED"] = "You have declined the trade request."
+lang["#TRADE_OTHERACCEPTED"] = "$person has accepted your trade request."
+lang["#TRADE_OTHERDECLINED"] = "$person has declined your trade request."
 
 --ToolTips
 lang["#TOOLTIP_RELOAD"] = "@+reload Reload."
@@ -328,7 +360,13 @@ lang["#TUTORIAL_CRAFTING"] = "Crafting\n\nSelect a recipe to see what it require
 lang["#TUTORIAL_REPAIR"] = "Repair\n\nTo repair an item, you must break another item down into it. Select an item in the list to use it for repair.\n\nDecay\n\nUsing another instance of that weapon is your best choice, otherwise you can use a repair kit, but this will add Decay.\n\nDecay is a multiplier on how fast that item will break, and cannot be reduced."
 lang["#TUTORIAL_LOWERWEP"] = "@+use + @+reload Lower Weapon"
 lang["#TUTORIAL_ARMORCOVERAGE"] = "You've equipped a piece of Apparel!\n\nSome pieces of Apparel provide armor\nagainst certain damage types\n\nIMPORTANT: Armor will ONLY protect\nthe part of the body it covers!"
-lang["#TUTORIAL_NEARDEATH"] = "You're Near Death!\n\nAnother hit like that and you'll go down for good if you don't treat your wounds."
+lang["#TUTORIAL_NEARDEATH"] = "You're Near Death!\n\nAnother hit like that and you'll go down for good if you don't treat your wounds. When your health bar stops flashing, you'll be safe again."
+lang["#TUTORIAL_STRREQ"] = "The Strength Requirement on this weapon is higher than your Strength Stat!\n\nYou can still use it, but it will be harder to use.\n\nIf your Strength is more than 2 points too low, you will damage your arms from using it!\n\nNote: Many Firearms require a stock to lower their Strength Requirement!"
+
+lang["#TUTORIAL_WANTEDDEAD"] = "You are Wanted!\n\nYou have entered a region controlled by a faction hostile to you for crimes you have comitted. Members of this faction will attack you on sight!\n\nYou can clear your wanted status by going to your Pip Boy Data Tab, Selecting the Crime Tab and clicking on specific crimes to pay off their fine.\n\nCrimes can be paid off in installments."
+
+
+lang["#TUTORIAL_PVP"] = "WARNING!!\n\nYou are about to enter a PVP Area!\n\nOther players will be able to damage and kill you!\n\nYou will not be able to save items in PVP areas until you return to a safe zone."
 
 -- Radio Station
 lang["#UI_ADJUSTVOLUME"] = "Set Volume"
@@ -343,6 +381,9 @@ lang["#RADIO_NCRPR"] = "NCR Public Radio"
 lang["#RADIO_RAIDER"] = "Oregon Public Radio - Accepting Ad Space Now!"
 lang["#RADIO_SFM"] = "Synthstream FM"
 lang["#RADIO_CLASSICAL"] = "Salem Historical Arts Society Automated Radio"
+
+lang["#RADIO_HALLOWEEN"] = "The Signal... from Beyond!"
+
 
 --Door Names
 lang["#DOOR_GATE_OPEN"] = "Open Gate"
@@ -384,6 +425,7 @@ lang["#CRAFTING_TOOL"] = "Tool"
 lang["#UI_CRAFT"] = "Craft"
 lang["#UI_PURCHASE"] = "Purchase"
 lang["#UI_TAKE"] = "Take"
+lang["#UI_GRAB"] = "Grab"
 lang["#UI_STORAGE"] = "Storage"
 lang["#UI_NOMOD"] = "No Mod"
 
@@ -418,6 +460,10 @@ lang["#GENDER_FEMALE"] = "Female"
 lang["#CHARMAKE_DISCARDCHAR"] = "This will reset your character data. Continue?"
 lang["#UI_NAMECHARACTER"] = "Finalize Character"
 lang["#UI_ENTERNAME"] = "Enter Name..."
+
+lang["#UI_NAMETOOLONG"] = "Name is too long, must be below 40 characters."
+lang["#UI_NAMETOOSHORT"] = "Name is too short, must be above 4 characters."
+lang["#UI_NONAMEENTERED"] = "Please Enter a Name for your Character."
 
 -- Looks
 lang["#LOOKS_RANDOMIZE"] = "Randomize"
@@ -554,6 +600,11 @@ lang["#WORLDNAME"] = "Pacific North Wastes" -- The Pacific Northwest (Northern C
 
 -- Statistics
 lang["#STAT_TIMEPLAYED"] = "Time Played"
+lang["#STAT_TIMEALIVE"] = "Time Alive"
+lang["#STAT_DEATHS"] = "Deaths"
+lang["#STAT_MISSIONSCOMPLETED"] = "Missions Completed"
+lang["#STAT_SALVAGEHARVESTS"] = "Vehicle Harvests"
+lang["#STAT_SALVAGEDEPLETED"] = "Vehicles Depleted"
 
 -- Settings
 
@@ -569,17 +620,24 @@ lang["#SETTING_FOV"] = "Field Of View (Unsighted)" -- imply that the field of vi
 lang["#SETTING_PIPSPEED"] = "Pip-Boy Cursor Sensitivity"
 lang["#SETTING_VIEWBOB"] = "View Bob Scale"
 lang["#SETTING_SCOPESCALE"] = "Scoped Sensitity Modifier"
+lang["#SETTING_MAXCORPSES"] = "Max NPC Corpses"
 lang["#SETTING_GRASS"] = "Grass Distance"
 lang["#SETTING_MAXSHELLS"] = "Max Firearm Casings"
+lang["#SETTING_HUD"] = "Enable HUD"
 lang["#SETTING_OTHERLIGHTS"] = "Other Player's Lights"
 lang["#SETTING_TOGGLEAIM"] = "Weapon Toggle Aim"
 lang["#SETTING_CROSSHAIR"] = "Enable Crosshair"
+lang["#SETTING_TOGGLESPRINT"] = "Toggle Sprinting"
 lang["#SETTING_RADIO_EXTRA"] = "Extra Radio Stations (not lore friendly)"
+lang["#SETTING_SKIPFADEIN"] = "Skip Intro Fadein"
 
 -- Mission Board
 lang["#MISSIONBOARD_TITLE"] = "Contract Board"
 lang["#MISSIONBOARD_SUBTITLE"] = "Looking for work? Here's where you can find it!"
 lang["#MISSIONBOARD_REWARDOPTIONS"] = "Reward Options for this Contract"
+lang["#MISSIONBOARD_MISSIONSCOMPLETED"] = "Missions Completed"
+lang["#MISSIONBOARD_REQUIRED"] = "Required"
+lang["#MISSIONBOARD_CONTRACTREQUIRED"] = "Missing Completed Contract"
 lang["#UI_ACCEPTCONTRACT"] = "Accept Contract: $contractName ?"
 lang["#UI_FACTIONS"] = "Factions"
 
@@ -612,10 +670,63 @@ lang["#MISSIONREWARD_OPTION2DESC"] = "Take the rewards of the second option."
 lang["#MISSIONREWARD_OPTION3"] = "Third Option"
 lang["#MISSIONREWARD_OPTION3DESC"] = "Take the rewards of the third option."
 
-lang["#MISSIONREWARD_INFLUENCE_COMMUNITYREQUIRED"] = "You can only accept this reward if you are in a community.\n\nPlayer Communities Coming Soon."
+lang["#MISSIONREWARD_INFLUENCE_COMMUNITYREQUIRED"] = "You can only accept this reward if you are in a community.\n\nPlayer Communities are not yet Implemented."
 
 lang["#UI_REPUTATION"] = "Reputation"
 lang["#UI_INFLUENCE"] = "Influence"
+
+-- Community
+lang["#COMMUNITY_PERM_KICK_MEMBER"] = "Kick Member"
+lang["#COMMUNITY_PERM_KICK_MEMBER_DESC"] = "Remove Member's with ranks below ours."
+lang["#COMMUNITY_PERM_ADD_MEMBER"] = "Add Member"
+lang["#COMMUNITY_PERM_ADD_MEMBER_DESC"] = "Add members to ranks below our own."
+lang["#COMMUNITY_PERM_EDIT_RANKS"] = "Edit Ranks"
+lang["#COMMUNITY_PERM_EDIT_RANKS_DESC"] = "Add/Remove permissions available to this group on groups below it."
+lang["#COMMUNITY_PERM_EDIT_RELATIONS"] = "Manage Relations"
+lang["#COMMUNITY_PERM_EDIT_RELATIONS_DESC"] = "Accept or Deny Ally Requests or Declare War with other communities."
+lang["#COMMUNITY_PERM_ACCESSSTORAGE"] = "Access Storage"
+lang["#COMMUNITY_PERM_ACCESSSTORAG_DESC"] = "Take or Remove items in the community storages"
+lang["#COMMUNITY_PERM_SPAWNSTORAGE"] = "Spawn Storage"
+lang["#COMMUNITY_PERM_SPAWNSTORAG_DESCE"] = "Spawn Storage Lockers in the world"
+lang["#COMMUNITY_RANK_RECRUIT"] = "Recruit"
+lang["#COMMUNITY_RANK_MEMBER"] = "Member"
+lang["#COMMUNITY_RANK_OFFICER"] = "Officer"
+lang["#COMMUNITY_RANK_LEADER"] = "Leader"
+lang["#COMMUNITY_RANK_FOUNDER"] = "Founder"
+
+lang["#COMMUNITY_SUBJECT_INVALID"] = "Subject is not in your community!"
+lang["#COMMUNITY_INCOMMUNITY"] = "You are already in a community!"
+lang["#COMMUNITY_KICKED"] = "You haved been removed from $communityName."
+
+lang["#COMMUNITY_TERMINAL"] = "Community Terminal"
+
+lang["#COMMUNITY_INFO"] = "Community Information"
+
+lang["#COMMUNITY_INFO_INFLUENCE"] = "Community Influence"
+lang["#COMMUNITY_INFO_INFLUENCE_TEXT"] = "Community influence is your community's \"Credit\" in the wasteland and is used to purchase upgrades for your community such as storage capacity and member size increases.\nInflunce can be gained by donating items, completing missions in the name of your community, or killing members of an opposing faction and taking their faction's influence."
+
+lang["#COMMUNITY_INFO_INFLUENCE"] = "Community Ranks"
+lang["#COMMUNITY_INFO_INFLUENCE_TEXT"] = "Each community has 5 ranks by default. You can freely edit the existing ranks or add more. Each rank has a set of permissions, and with those permissions can act on members below their rank."
+
+lang["#COMMUNITY_INFO_RELATIONS"] = "Community Relations"
+lang["#COMMUNITY_INFO_RELATIONS_TEXT"] = "You can establish relationships with other communities such as ally to form an aliance, or enemy to declare war. Allied communities will not take eachother's influence in the event of friendly fire, but warring communities will take even more influence from eachother than neutral ones.\n\nA community can declare war on any other community without confirmation, but alliances must be agreed on by both communities."
+
+-- faction interaction
+lang["#FACTION_CANNOT_ACCESS_HOSTILE"] = "You cannot access this area because you are hostile with $faction."
+
+
+lang["#UI_FACTION"] = "Faction"
+lang["#UI_CRIME"] = "Crime"
+lang["#UI_COUNTS"] = "Counts"
+lang["#UI_FINE"] = "Fine"
+lang["#UI_PAYFINE"] = "Pay Fine"
+lang["#UI_FINEAMOUNT"] = "Pay Amount"
+lang["#UI_CRIME_PAIDOFF"] = "You Paid off: $amount. Fine remaining: $remaining."
+lang["#UI_CRIME_PAIDOFF_FULL"] = "This crime has been paid off and Removed!"
+lang["#UI_CRIME_INVOKES_HOSTILITY"] = "Invokes Hostility"
+lang["#UI_CRIME_INVOKES_HOSTILITY_ATFINE"] = "Invokes Hostility at Fine"
+
+lang["#UI_PAYOFFCRIME"] = "Payoff fine for this crime?\n\nYou can pay the Crime off in Installments\n\nCurrency: $currency\nRemaining: $ammount\nOwned: $owned"
 
 --If there's any items you know I'll add, feel free to add them yourself and write their description. Heck add anything you like. Just make sure it follows the format here. Also, it MUST have a # in front of the name and the name must be all caps.
 

@@ -64,7 +64,7 @@ lang["#SKL_EXPDESC"] = "Knowledge and application of volatile materials. A maste
 lang["#SKL_SNEAK"] = "Sneak"
 lang["#SKL_SNEAKDESC"] = "The Ability to remain hidden. Affects footstep sound volume and NPC Visibility"
 
-lang["#SKL_SECURITY"] = "Security"
+lang["#SKL_SECURITY"] = "[NOT FUNCTIONAL] Security"
 lang["#SKL_SECURITYDESC"] = "Knowledge over security, encompasses your ability to not only break in to tightly secured areas, but secure them yourself by creating various traps, pairs with knowledge in explosves to create mines."
 
 lang["#SKL_SCAV"] = "Prospecting"
@@ -73,7 +73,7 @@ lang["#SKL_SCAVDESC"] = "Efficiency in mining minerals, salvaging wreckages, and
 lang["#SKL_ENG"] = "Engineer"
 lang["#SKL_ENGDESC"] = "Governs engineering knowledge; equipment repair and maintenance, as well as the creation of unique items."
 
-lang["#SKL_VEH"] = "Vehicles"
+lang["#SKL_VEH"] = "[NOT FUNCTIONAL] Vehicles"
 lang["#SKL_VEHDESC"] = "The ability to operate, control and optimize the use of vehicles. Your experience in driving will allow you to handle vehicles better and get more out of their fuel."
 
 lang["#SKL_SCI"] = "Science"
@@ -88,7 +88,7 @@ lang["#SKL_FOODDESC"] = "Knowledge of living in the outdoors. Effects profiency 
 lang["#SKL_BARTER"] = "Barter"
 lang["#SKL_BARTERDESC"] = "Overall understanding and knowledge of mercantile and bartering. May affect prices of purchasing or selling commodities."
 
-lang["#SKL_SPEECH"] = "Speech"
+lang["#SKL_SPEECH"] = "[NOT FUNCTIONAL] Speech"
 lang["#SKL_SPEECHDESC"] = "The act of persuasion and influence. Affects the ability to convince others."
 
 -- Stats
@@ -121,6 +121,9 @@ lang["#PERK_RUNNGUN_DESC"] = "Moving and shooting? Not that hard! Just like how 
 lang["#PERK_WILDWEST_NAME"] = "Wild West"
 lang["#PERK_WILDWEST_DESC"] = "Born and raised in the West.\n\n-When using Revolvers, Lever Action Rifles or Pump Shotguns, you can fire 25% faster."
 
+lang["#PERK_LIGHTWIELDER_NAME"] = "Light Wielder"
+lang["#PERK_LIGHTWIELDER_DESC"] = "Run while handling heftier melee weapons with ease!\n\n-While using a melee weapon, you can always sprint while swinging, swinging will not affect movement speed as much, and it will consume significantly less AP."
+
 lang["#PERK_LANDRECOVER_NAME"] = "Land Posture"
 lang["#PERK_LANDRECOVER_DESC"] = "You are more agile, and landing is a lot easier to pick yourself up from."
 lang["#PERK_LANDRECOVER_LEVEL_1"] = "-You recover from falls 50% faster.\n-Fall Damage reduced by 3%"
@@ -141,14 +144,19 @@ lang["#PERK_RAPIDRELOADDESC_DESC"] = "All of your weapon reloads are 10% faster 
 lang["#PERK_CANNIBAL_NAME"] = "Cannibal"
 lang["#PERK_CANNIBAL_DESC"] = "" -- WIP
 
+lang["#PERK_WEAPONHANDLING_NAME"] = "Weapon Handling"
+lang["#PERK_WEAPONHANDLING_DESC"] = "Makes all of your weapons easier to use"
+lang["#PERK_WEAPONHANDLING_LEVEL_1"] = "Reduces Strength Requirement for all weapons by 2."
+lang["#PERK_WEAPONHANDLING_LEVEL_2"] = "Reduces Strength Requirement for all weapons by 1 for a total of 3. Increases Weapon durability by 20%"
+
 -- Utility
 lang["#PERK_EDUCATED_NAME"] = "Educated"
 lang["#PERK_EDUCATED_DESC"] = "You prefer to use your intelligence as a survival skill in the wasteland.\n\n-Gain 5 more utility skill points every time you level up in utility.\n-You cannot take the Combatant perk."
 
 lang["#PERK_GECKOSKINNING_NAME"] = "Scale Skinning"
 lang["#PERK_GECKOSKINNING_DESC"] = "Know how to 'properly' skin any animal with scales for their hides and use them for crafting or sell them for profit!"
-lang["#PERK_GECKOSKINNING_LEVEL_1"] = "-Regular Geckos, Golden Geckos, Green Geckos, and Deathclaws can drop hides."
-lang["#PERK_GECKOSKINNING_LEVEL_2"] = "-Regular Geckos, Fire Geckos, Golden Geckos, Green Geckos, and Deathclaws can drop hides."
+lang["#PERK_GECKOSKINNING_LEVEL_1"] = "-Regular Geckos and Golden Geckos can drop hides."
+lang["#PERK_GECKOSKINNING_LEVEL_2"] = "-Regular Geckos, Golden Geckos, Fire Geckos, Green Geckos, and Deathclaws can drop hides."
 
 lang["#PERK_MADBOMBER_NAME"] = "Mad Bomber"
 lang["#PERK_MADBOMBER_DESC"] = "Specialized training for wastelanders with a talent for Repair and a love of Explosives!\n\n-You can craft handmade grenades and other explosives at a workbench."
@@ -162,6 +170,11 @@ lang["#PERK_HANDLOADER_DESC"] = "You know a way to make stronger bullets, and do
 lang["#PERK_JUNKROUNDS_NAME"] = "Junk Rounds"
 lang["#PERK_JUNKROUNDS_DESC"] = "Who needs factory loaded brass anyway?\n\n-You can craft junk bullets with scrap metal instead of brass."
 
+lang["#PERK_ARMORSMITHING_NAME"] = "Armor Smithing"
+lang["#PERK_ARMORSMITHING_DESC"] = "You've learned how to create strengthy armors by just by welding metal together!"
+lang["#PERK_ARMORSMITHING_LEVEL_1"] = "-You can craft Metal Armor and Super Mutant Armor Pieces."
+lang["#PERK_ARMORSMITHING_LEVEL_2"] = "-You can craft Metal Armor, Super Mutant Armor, and Combat Armor Pieces."
+
 lang["#PERK_CHEMIST_NAME"] = "Chemist"
 lang["#PERK_CHEMIST_DESC"] = "You have a clear understanding of combining elements and compounds into mixtures and using it to your advantage."
 lang["#PERK_CHEMIST_LEVEL_1"] = "-You can craft regular chemical items."
@@ -174,8 +187,13 @@ lang["#PERK_STRONGBACK_LEVEL_2"] = "-You gain an extra 40 to carry weight."
 
 lang["#PERK_MARATHONRUNNER_NAME"] = "Marathon Runner"
 lang["#PERK_MARATHONRUNNER_DESC"] = "Running is part of your daily routine!"
-lang["#PERK_MARATHONRUNNER_LEVEL_1"] = "-Sprinting takes 5% less AP."
-lang["#PERK_MARATHONRUNNER_LEVEL_2"] = "-Sprinting takes 10% less AP."
+lang["#PERK_MARATHONRUNNER_LEVEL_1"] = "-Sprinting takes 10% less AP while performing."
+lang["#PERK_MARATHONRUNNER_LEVEL_2"] = "-Sprinting takes 20% less AP while performing."
+
+lang["#PERK_BUNNYHOPPER_NAME"] = "Bunny Hopper"
+lang["#PERK_BUNNYHOPPER_DESC"] = "Trained to jump any obstacles in your way!"
+lang["#PERK_BUNNYHOPPER_LEVEL_1"] = "-Jumping uses 10% less AP while performing."
+lang["#PERK_BUNNYHOPPER_LEVEL_2"] = "-Jumping uses 20% less AP while performing."
 
 lang["#PERK_GREENTHUMB_NAME"] = "Green Thumb"
 lang["#PERK_GREENTHUMB_DESC"] = "You have a natural affinity for plants. Gain a 50% chance to gain an extra yield for most picked plants" -- WIP
@@ -183,12 +201,15 @@ lang["#PERK_GREENTHUMB_DESC"] = "You have a natural affinity for plants. Gain a 
 lang["#PERK_EXQUISITECHEF_NAME"] = "Exquisite Chef"
 lang["#PERK_EXQUISITECHEF_DESC"] = "You've figured out a way to cook some foods into a more exquisite version." -- WIP
 
+lang["#PERK_JURYRIG_NAME"] = "Jury Rigging"
+lang["#PERK_JURYRIG_DESC"] = "You possess the amazing ability to repair any firearm, raygun, launcher, clothing, or armor using a similar item. Fix an Assault Carbine with a Chinese Assault Rifle, a Plasma Rifle with a Laser RCW, or even a Fatman with a Missile Launcher. How does it work? Nobody knows... except you.." -- WIP
+
 -- UI
 lang["#PERKREQ_COST"] = "Not Enough Perk Points"
 lang["#PERKREQ_MAXED"] = "Perk Maxed Out"
 lang["#PERKREQ_NOPERK"] = "Cannot Be Taken"
 lang["#PERKREQ_SPC"] = "S.P.E.C.I.A.L too low"
-lang["#PERKREQ_SKL"] = "Skill too low"
+lang["#PERKREQ_SKL"] = "Skill Issue?"
 
 lang["#PERKPOINT"] = "Perk Point"
 lang["#PERKPOINTS"] = "Perk Points"

@@ -203,14 +203,14 @@ lang["#MISSION_ISAAC_COUPLESMOKES_HINT"] = "Obtain Cigarette Packs. They can be 
 lang["#MISSION_ISAAC_COUPLESMOKES_COMPLETE"] = "Dude probably smokes quite a bit. Here."
 
 lang["#MISSION_ISAAC_PREWARSNACKS"] = "Pre-War Snacks"
-lang["#MISSION_ISAAC_PREWARSNACKS_DESC"] = "Some guy wants us to get him serveral pre-war snacks. I don't know why he would want them, but to be honest, some of the things on this list do taste good."
+lang["#MISSION_ISAAC_PREWARSNACKS_DESC"] = "Some guy wants us to get him serveral Pre-War snacks. I don't know why he would want them, but to be honest, some of the things on this list do taste good."
 lang["#MISSION_ISAAC_PREWARSNACKS_HINT"] = "Obtain Potato Crisps, Instamash, Cotton Candy, and Cakes. All can be found from scavenging and sometimes sold by traders."
 lang["#MISSION_ISAAC_PREWARSNACKS_COMPLETE"] = "Man, only if they could've been for us."
 
 -- T3
 
 lang["#MISSION_ISAAC_CARREPAIR"] = "Car Repair"
-lang["#MISSION_ISAAC_CARREPAIR_DESC"] = "Hey, got some guy who wants what looks like... makeshift batteries and car wheels? Haven't seen people wanting those in a while. I've only ever seen a few function vehicles around here, which sounds really useful. Anyways, back to work."
+lang["#MISSION_ISAAC_CARREPAIR_DESC"] = "Hey, got some guy who wants what looks like... makeshift batteries and car wheels? Haven't seen people wanting those in a while. I've only ever seen a few functional vehicles around here, which sounds really useful. Anyways, back to work."
 lang["#MISSION_ISAAC_CARREPAIR_HINT"] = "Obtain Makeshift Batteries and Wheels. Makeshift Batteries can be crafted at workbenches. Wheels can also be crafted at workbenched or found from broken down vehicles."
 lang["#MISSION_ISAAC_CARREPAIR_COMPLETE"] = "Maybe I'll make my own vehicle one day, with you teaching me, of course."
 
@@ -244,65 +244,93 @@ lang["#MISSION_CROWMAN_SINGLESHOTGUN_HINT"] = "Acquire a Single Shotgun, via tra
 lang["#MISSION_CROWMAN_SINGLESHOTGUN_COMPLETE"] = "Guess'n yer not as stupid as ye look. But don't git full of yer'self! I killed my first crow at the age of two!"
 
 lang["#MISSION_CROWMAN_357"] = "Feathered Hammer"
-lang["#MISSION_CROWMAN_357_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill six crows, using .357 Revolver, AND NUTTIN' ELSE! I'LL KNOW!"
-lang["#MISSION_CROWMAN_357_HINT"] = "Acquire a .357 Revolver, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
+lang["#MISSION_CROWMAN_357_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill a crow, using .357 Revolver or Cowboy Repeater, AND NUTTIN' ELSE! I'LL KNOW!"
+lang["#MISSION_CROWMAN_357_HINT"] = "Acquire a .357 Revolver or Cowboy Repeater, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
 lang["#MISSION_CROWMAN_357_COMPLETE"] = "Finally done? Took ya long enough!"
+lang["#MISSION_CROWMAN_357_WEP"] = ".357 Revolver or Cowboy Repeater"
 
 lang["#MISSION_CROWMAN_SERVICERIFLE"] = "Full Metal Jackdaw"
-lang["#MISSION_CROWMAN_SERVICERIFLE_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill twenty crows, using one of those NCR boys' rifles, AND NUTTIN' ELSE! I'LL KNOW!"
+lang["#MISSION_CROWMAN_SERVICERIFLE_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill a crow, using one of those NCR boys' rifles, AND NUTTIN' ELSE! I'LL KNOW!"
 lang["#MISSION_CROWMAN_SERVICERIFLE_HINT"] = "Acquire a Service Rifle, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
 lang["#MISSION_CROWMAN_SERVICERIFLE_COMPLETE"] = "Finally done? Took ya long enough!"
 
 lang["#MISSION_CROWMAN_SXS"] = "The Farmer's Daughter's Father"
-lang["#MISSION_CROWMAN_SXS_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill two crows, using a Side-By-Side Shotgun, AND NUTTIN' ELSE! I'LL KNOW!"
+lang["#MISSION_CROWMAN_SXS_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill a crow, using a Side-By-Side Shotgun, AND NUTTIN' ELSE! I'LL KNOW!"
 lang["#MISSION_CROWMAN_SXS_HINT"] = "Acquire a SxS Shotgun, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
 lang["#MISSION_CROWMAN_SXS_COMPLETE"] = "Finally done? Took ya long enough!"
 
 lang["#MISSION_CROWMAN_870"] = "Trap Club Member"
-lang["#MISSION_CROWMAN_870_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill five crows, using a Pump Action Shotgun, AND NUTTIN' ELSE! I'LL KNOW!"
+lang["#MISSION_CROWMAN_870_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill a crow, using a Pump Action Shotgun, AND NUTTIN' ELSE! I'LL KNOW!"
 lang["#MISSION_CROWMAN_870_HINT"] = "Acquire a Pump Action Shotgun, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
 lang["#MISSION_CROWMAN_870_COMPLETE"] = "Finally done? Took ya long enough!"
 
 lang["#MISSION_CROWMAN_DARTGUN"] = "Corvid Vaccine"
-lang["#MISSION_CROWMAN_DARTGUN_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill nineteen crows, using one of those fancy Dart Guns, the kind they used pre-war to catch escaped zoo animals. AND NUTTIN' ELSE! I'LL KNOW!"
+lang["#MISSION_CROWMAN_DARTGUN_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill a crow, using one of those fancy Dart Guns, the kind they used Pre-War to catch escaped zoo animals. AND NUTTIN' ELSE! I'LL KNOW!"
 lang["#MISSION_CROWMAN_DARTGUN_HINT"] = "Acquire a Dart Gun, via trade, crafting one at a workbench, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
 lang["#MISSION_CROWMAN_DARTGUN_COMPLETE"] = "Finally done? Took ya long enough!"
 
 lang["#MISSION_CROWMAN_44"] = "CrowMAGNUM Man"
-lang["#MISSION_CROWMAN_44_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill twelve crows, using a .44 Revolver, AND NUTTIN' ELSE! I'LL KNOW!"
-lang["#MISSION_CROWMAN_44_HINT"] = "Acquire a .44 Magnum Revolver, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
+lang["#MISSION_CROWMAN_44_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill a crow, using a .44 Revolver or Trail Carbine, AND NUTTIN' ELSE! I'LL KNOW!"
+lang["#MISSION_CROWMAN_44_HINT"] = "Acquire a .44 Magnum Revolver or Trail Carbine, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
 lang["#MISSION_CROWMAN_44_COMPLETE"] = "Finally done? Took ya long enough!"
+lang["#MISSION_CROWMAN_44_WEP"] = ".44 Magnum Revolver or Trail Carbine"
 
 lang["#MISSION_CROWMAN_LASER"] = "Heated Crowmium"
-lang["#MISSION_CROWMAN_LASER_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill twenty four crows, using a Laser Gun. Dosen't matter how its modified, just gotta be part of the AE series, AND NUTTIN' ELSE! I'LL KNOW!"
+lang["#MISSION_CROWMAN_LASER_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill a crow, using a Laser Gun. Dosen't matter how its modified, just gotta be part of the AE series, AND NUTTIN' ELSE! I'LL KNOW!"
 lang["#MISSION_CROWMAN_LASER_HINT"] = "Acquire any Laser Gun variant, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
 lang["#MISSION_CROWMAN_LASER_COMPLETE"] = "Finally done? Took ya long enough!"
 
 lang["#MISSION_CROWMAN_STREETSWEEPER"] = "Banned from the Trap club"
-lang["#MISSION_CROWMAN_STREETSWEEPER_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill thirteen crows, using one of those Street Sweeper Shotguns, AND NUTTIN' ELSE! I'LL KNOW!"
+lang["#MISSION_CROWMAN_STREETSWEEPER_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill a crow, using one of those Street Sweeper Shotguns, AND NUTTIN' ELSE! I'LL KNOW!"
 lang["#MISSION_CROWMAN_STREETSWEEPER_HINT"] = "Acquire a Street Sweeper, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
 lang["#MISSION_CROWMAN_STREETSWEEPER_COMPLETE"] = "Finally done? Took ya long enough!"
 
 lang["#MISSION_CROWMAN_R91"] = "Brass Chicken"
-lang["#MISSION_CROWMAN_R91_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill thirty crows, using an Assault Rifle, the kind the National Guard used to use. AND NUTTIN' ELSE! I'LL KNOW!"
+lang["#MISSION_CROWMAN_R91_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill a crow, using an Assault Rifle, the kind the National Guard used to use. AND NUTTIN' ELSE! I'LL KNOW!"
 lang["#MISSION_CROWMAN_R91_HINT"] = "Acquire an R91 Assault Rifle, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
 lang["#MISSION_CROWMAN_R91_COMPLETE"] = "Finally done? Took ya long enough!"
 
 lang["#MISSION_CROWMAN_ASSAULTCARBINE"] = "Black Rifle, Black Bird"
-lang["#MISSION_CROWMAN_ASSAULTCARBINE_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill thirty crows, using one of those paratrooper guns, an Assault Carbine. AND NUTTIN' ELSE! I'LL KNOW!"
+lang["#MISSION_CROWMAN_ASSAULTCARBINE_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill a crow, using one of those paratrooper guns, an Assault Carbine. AND NUTTIN' ELSE! I'LL KNOW!"
 lang["#MISSION_CROWMAN_ASSAULTCARBINE_HINT"] = "Acquire an Assault Carbine, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
 lang["#MISSION_CROWMAN_ASSAULTCARBINE_COMPLETE"] = "Finally done? Took ya long enough!"
 
 lang["#MISSION_CROWMAN_PLASMA"] = "Don't let it get on your car"
-lang["#MISSION_CROWMAN_PLASMA_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill sixteen crows, using a Plasma Gun. Dosen't matter how its modified, just gotta be a Plasma Gun. AND NUTTIN' ELSE! I'LL KNOW!"
+lang["#MISSION_CROWMAN_PLASMA_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill a crow, using a Plasma Gun. Dosen't matter how its modified, just gotta be a Plasma Gun. AND NUTTIN' ELSE! I'LL KNOW!"
 lang["#MISSION_CROWMAN_PLASMA_HINT"] = "Acquire a Plasma Gun, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
 lang["#MISSION_CROWMAN_PLASMA_COMPLETE"] = "Finally done? Took ya long enough!"
---[[
-lang["#MISSION_CROWMAN_ASSAULTCARBINE"] = "Black Rifle, Black Bird"
-lang["#MISSION_CROWMAN_ASSAULTCARBINE_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill thirty crows, using one of those paratrooper guns, an Assault Carbine. AND NUTTIN' ELSE! I'LL KNOW!"
-lang["#MISSION_CROWMAN_ASSAULTCARBINE_HINT"] = "Acquire an Assault Carbine, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
-lang["#MISSION_CROWMAN_ASSAULTCARBINE_COMPLETE"] = "Finally done? Took ya long enough!"
-]]
+
+lang["#MISSION_CROWMAN_COMBATSHOTGUN"] = "Flak Attack"
+lang["#MISSION_CROWMAN_COMBATSHOTGUN_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill a crow, using one of those military shotguns, a Combat Shotgun. AND NUTTIN' ELSE! I'LL KNOW!"
+lang["#MISSION_CROWMAN_COMBATSHOTGUN_HINT"] = "Acquire a Combat Shotgun, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
+lang["#MISSION_CROWMAN_COMBATSHOTGUN_COMPLETE"] = "Finally done? Took ya long enough!"
+
+lang["#MISSION_CROWMAN_SOVIETRIFLE"] = "KalashniCAWWWv"
+lang["#MISSION_CROWMAN_SOVIETRIFLE_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill a crow, using one of those old thirty caliber Combloc type rifles, a Soviet Rifle. AND NUTTIN' ELSE! I'LL KNOW!"
+lang["#MISSION_CROWMAN_SOVIETRIFLE_HINT"] = "Acquire a Soviet Rifle, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
+lang["#MISSION_CROWMAN_SOVIETRIFLE_COMPLETE"] = "Finally done? Took ya long enough!"
+
+lang["#MISSION_CROWMAN_LMG"] = "Shooting Spree in the Aviary"
+lang["#MISSION_CROWMAN_LMG_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill a crow, using a Light Machine Gun. AND NUTTIN' ELSE! I'LL KNOW!"
+lang["#MISSION_CROWMAN_LMG_HINT"] = "Acquire a Light Machine Gun, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
+lang["#MISSION_CROWMAN_LMG_COMPLETE"] = "Finally done? Took ya long enough!"
+
+lang["#MISSION_CROWMAN_MINIGUN"] = "A Vulcan for Ravens"
+lang["#MISSION_CROWMAN_MINIGUN_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I want you to kill a crow, using a 5mm Minigun. AND NUTTIN' ELSE! I'LL KNOW!"
+lang["#MISSION_CROWMAN_MINIGUN_HINT"] = "Acquire a 5mm Minigun, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
+lang["#MISSION_CROWMAN_MINIGUN_COMPLETE"] = "Finally done? Took ya long enough!"
+
+lang["#MISSION_CROWMAN_BAZOOKA"] = "How Odin lost his eye"
+lang["#MISSION_CROWMAN_BAZOOKA_DESC"] = "You d'ere! Brat! I got a new challenge for ya. This time, I all I want is for you to kill a single crow. Thats right, just one single crow, using a Missile Launcher. AND NUTTIN' ELSE! I'LL KNOW!"
+lang["#MISSION_CROWMAN_BAZOOKA_HINT"] = "Acquire a Missile Launcher, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area. Be sure to 'lead the target' before firing!"
+lang["#MISSION_CROWMAN_BAZOOKA_COMPLETE"] = "Finally done? Took ya long enough!"
+
+
+lang["#MISSION_CROWMAN_CROWBAR"] = "I don't mean to pry. . ."
+lang["#MISSION_CROWMAN_CROWBAR_DESC"] = "You d'ere! Brat! I got you this time! I got yer number! D'eres NO WAY yer gonna beat this challenge. I want you to kill a crow. Jus' one more. An' yer gonna do it, using a crowbar. AND NUTTIN' ELSE! I'LL KNOW!"
+lang["#MISSION_CROWMAN_CROWBAR_HINT"] = "Acquire a Crowbar, via trade, scavenging, or otherwise...\n\nCrows can be found flying around the town of Salt Wells and the surrounding area."
+lang["#MISSION_CROWMAN_CROWBAR_COMPLETE"] = "Alright, you win. You can have these. And this shotgun. It was to be my boy's when he came of age. Before. . . the crows got 'em. . ."
+
 --Quantity challenge
 
 
@@ -402,7 +430,7 @@ lang["#MISSION_JACKSON_STRANGEBUILDING_COMPLETE"] = "Hmm. Seriously a weird plac
 lang["#MISSION_JACKSON_ROCKBITERS_INPRODUCTION"] = "Rock Biters: In Production"
 lang["#MISSION_JACKSON_ROCKBITERS_INPRODUCTION_DESC"] = "Hey, we just got word that there was a huge mining camp on the other side of the valley, relatively close to the mansion. I know this is a quick ask as of right now, but I'm busy with some other stuff, and I need you to go check it out. I'll get you some payment when you're back."
 lang["#MISSION_JACKSON_ROCKBITERS_INPRODUCTION_HINT"] = "Explore The Caves, The Mining Town, and The Elevated Buildings. The mines can be found near the mansion on the opposing side of Waxton, in a deep tunnel."
-lang["#MISSION_JACKSON_ROCKBITERS_INPRODUCTION_COMPLETE"] = "Wait, you found a their base?"
+lang["#MISSION_JACKSON_ROCKBITERS_INPRODUCTION_COMPLETE"] = "Wait, you found the bandits' hideout?"
 
 lang["#MISSION_JACKSON_ROCKBITERS_WIPEOUT"] = "Rock Biters: Wipeout"
 lang["#MISSION_JACKSON_ROCKBITERS_WIPEOUT_DESC"] = "Holy shit, that's their main base! These assholes, the same ones who made us pay for this land we were at first. You know what? Were gonna get some payback. Not only is this for us, but to establish a safer path in this valley."
@@ -567,6 +595,36 @@ lang["#MISSION_NICK_WHATAPLACE_DESC"] = "You're probably wondering what the hell
 lang["#MISSION_NICK_WHATAPLACE_HINT"] = "Find the crate with military electronics. Nick said that the boat carrying this crate was attacked and looted by smugglers near the trader shack."
 lang["#MISSION_NICK_WHATAPLACE_COMPLETE"] = "Shit, dude. You actually found it. Here, for your troubles."
 lang["#MISSION_NICK_WHATAPLACE_ITEMNAME"] = "Crate with Electronics"
+
+
+-- ██████╗  ██████╗ ███████╗     ██████╗ ██╗   ██╗ █████╗ ██████╗ ██████╗     ███╗   ███╗██╗███████╗███████╗██╗ ██████╗ ███╗   ██╗███████╗
+-- ██╔══██╗██╔═══██╗██╔════╝    ██╔════╝ ██║   ██║██╔══██╗██╔══██╗██╔══██╗    ████╗ ████║██║██╔════╝██╔════╝██║██╔═══██╗████╗  ██║██╔════╝
+-- ██████╔╝██║   ██║███████╗    ██║  ███╗██║   ██║███████║██████╔╝██║  ██║    ██╔████╔██║██║███████╗███████╗██║██║   ██║██╔██╗ ██║███████╗
+-- ██╔══██╗██║   ██║╚════██║    ██║   ██║██║   ██║██╔══██║██╔══██╗██║  ██║    ██║╚██╔╝██║██║╚════██║╚════██║██║██║   ██║██║╚██╗██║╚════██║
+-- ██████╔╝╚██████╔╝███████║    ╚██████╔╝╚██████╔╝██║  ██║██║  ██║██████╔╝    ██║ ╚═╝ ██║██║███████║███████║██║╚██████╔╝██║ ╚████║███████║
+-- ╚═════╝  ╚═════╝ ╚══════╝     ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝     ╚═╝     ╚═╝╚═╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
+
+lang["#MISSION_BOSGUARD_PROVE"] = "Prove your Worth"
+lang["#MISSION_BOSGUARD_PROVE_DESC"] = "Look.. If you really want in, you have to prove you can be useful. If you head north, you'll wind up in a place called Ash Lands. Find a gas station, and inside it, you'll find an entrance to a bunker. We sent a team to retrieve some technical data, but we lost contact with them after they reported Super Mutants.\n\nIf you can recover the technical data they went to retrieve... Then I'll think about letting you in."
+lang["#MISSION_BOSGUARD_PROVE_HINT"] = "Find the Technical Data. It's stored on a holo-tape found at the second level of a bunker under a gas station in ash-lands. The bunker is crawling with Super Mutants, so this won't be easy.\n\nA group is recommended to tackle the bunker."
+lang["#MISSION_BOSGUARD_PROVE_COMPLETE"] = "No way... you actually made it- I mean, ha, I knew you could do it... well... I suppose you can be useful."
+lang["#MISSION_BOSGUARD_PROVE_ITEMNAME"] = "Technical Data"
+
+lang["#MISSION_BOSGUARD_ICEPICKS"] = "Icepick Massacare"
+lang["#MISSION_BOSGUARD_ICEPICKS_DESC"] = "There's a lot more Raiders out in these mountains than we initially thought... they're proving to be quite a menace, to our patrols. Particularly, this group that goes by the \"Ice Picks\". They use Armor Piercing ammunition and have already given us a couple of casulties. We're putting a bounty out for 10 Ice Picks. Take out 10 of them, and a reward is yours."
+lang["#MISSION_BOSGUARD_ICEPICKS_HINT"] = "Eliminate 10 Ice Pick Bandits in Mountain Pass. They're scattered all over, but they like to camp out along the bridge over the Lake."
+lang["#MISSION_BOSGUARD_ICEPICKS_COMPLETE"] = "Excellent Work. That should make things a little easier to patrol around here."
+
+lang["#MISSION_BOSGUARD_ICEPICKAP"] = "Supplyment Inquiry"
+lang["#MISSION_BOSGUARD_ICEPICKAP_DESC"] = "I have another matter concerning the Raiders in this area. Remember how I mentioned those Ice Picks are using Armor Piercing Munitions? Well, Ammunition like that is not easy to come by. We want to find out how they're getting it and we suspect someone is supplying them. They're too spread out up in these mountains, but if we can cut off their source of ammo, they'd be far less of a threat."
+lang["#MISSION_BOSGUARD_ICEPICKAP_HINT"] = "Find any information on how the Ice Picks are getting their ammo. Check their bases and encampments to see if you can find any evidence on their munitions supplier."
+lang["#MISSION_BOSGUARD_ICEPICKAP_COMPLETE"] = "You found something? Oh... I think I know what this means. I'm going to have it confirmed. Here's your reward."
+lang["#MISSION_BOSGUARD_ICEPICKAP_ITEMNAME"] = "Ammo Crate"
+
+lang["#MISSION_BOSGUARD_ADVANCEDMATS"] = "Advanced Materials"
+lang["#MISSION_BOSGUARD_ADVANCEDMATS_DESC"] = "If you're looking to help, one of the best ways you can do that is help us secure materials needed to maintain our power armor. We're a long way from HQ, and getting supplies can take longer than we'd like."
+lang["#MISSION_BOSGUARD_ADVANCEDMATS_HINT"] = "Find and retrieve 5 Advanced Materials. The most reliable source of these is by taking them from other enemies that use Power Armor."
+lang["#MISSION_BOSGUARD_ADVANCEDMATS_COMPLETE"] = "Thank you. This will greatly help us stay supplied."
 
 -- ███╗   ███╗██████╗        ███████╗ █████╗ ██╗  ████████╗    ██╗    ██╗███████╗██╗     ██╗     ███████╗
 -- ████╗ ████║██╔══██╗██╗    ██╔════╝██╔══██╗██║  ╚══██╔══╝    ██║    ██║██╔════╝██║     ██║     ██╔════╝

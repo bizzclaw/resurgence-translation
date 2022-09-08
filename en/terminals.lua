@@ -1,6 +1,26 @@
 local lang = RSRG.Languages["en"]
 
 
+--DRY STATE
+
+lang["#TERMINAL_DRYSTATE_JUNKYARD"] ={
+	name = "Junkyard Terminal",
+	logs = {
+		{"Journal", {
+			{"Lucky", [[
+				I can't believe it. They actually did it, Nuclear war. I'm sitting in a scrap heap while the world is burning. A plane flew over even this area and I saw it drop something. Looks like it dropped in the salt flats. I can only assume the worst and I thought I was a goner as I watched it fall.
+
+				Somehow though, it didn't seem to detonate. Maybe they were aiming for the Water Treatment Facility, but the salt flats made it dud?. Either way, its only a matter of time before this whole place goes to hell. I'm going to try and make my way to that Vault they were advertising. Hopefully they're still letting people in.
+			]]},
+			{"Unlucky", [[
+				Welp, the vault is completely sealed already. Tried to figure out what I'd do, but decided to pick up some supplies from home. I wanted to stay, but once I saw my neighbhors get broken into by looters, I came out here.
+					
+				It's remote and there's a ton of scrap metal and junk around. Maybe I can try and make a better shelter, but first, I need to protect myself. Going to go into the warehouse and try to fix that pipe rifle I was working on.
+			]]}
+		}}
+	}
+}
+
 --[[
 ██╗███╗   ██╗███████╗██╗   ██╗    ████████╗███████╗██████╗ ███╗   ███╗██╗███╗   ██╗ █████╗ ██╗     ███████╗
 ██║████╗  ██║██╔════╝██║   ██║    ╚══██╔══╝██╔════╝██╔══██╗████╗ ████║██║████╗  ██║██╔══██╗██║     ██╔════╝
@@ -194,6 +214,77 @@ lang["#SALEM_FACTORYLOG"] = {
 		]]}
 	}
 }
+
+lang["#DE_ENCLAVEBUNKER1"] = {
+	name = "Safehouse Check-In",
+	logs = {
+		{"Check-In", [[
+			ERROR: MISSING DATA
+		]]},
+		{"Log", [[
+			05.26.2075 - 1 IN.
+			05.26.2075 - 1 OUT.
+
+			02.02.2076 - 2 IN.
+			02.03.2076 - 2 OUT.
+
+			03.12.2077 - 3 IN.
+
+			08.17.2077 - 1 IN.
+			08.17.2077 - 1 OUT.
+			10.19.2077 - 1 IN.
+			10.20.2077 - 1 IN.
+			10.20.2077 - 1 OUT.
+			10.21.2077 - 1 IN.
+			10.22.2077 - 3 IN.
+			10.23.2077 - 1 IN.
+			
+			11.24.2079 - 9 OUT.
+
+			11.25.2235 - 5 IN.
+			11.27.2235 - 5 OUT.
+		]]}
+	}
+}
+
+lang["#DE_ENCLAVEBUNKER2"] = {
+	name = "Bunker Database",
+	logs = {
+		{"Environmental Readings", [[
+			DATA PURGED 11.27.2235
+		]]},
+		{"Reports", [[
+			DATA PURGED 11.27.2235
+		]]},
+		{"User Entries", [[
+			DATA PURGED 11.27.2235
+		]]},
+		{"Inbox", [[
+			DATA PURGED 11.27.2235
+		]]},
+		{"Log", [[
+			03.02.2075 - Bunker Online.
+
+			03.12.2077 - Connection Established with [CONTROL STATION].
+			08.17.2077 - Environmental Scanner Activated. 
+			08.17.2077 - Sending Scanner reports to [CONTROL STATION] yearly.
+			10.23.2077 - Alarm Activated. All Systems Activated.
+
+			11.24.2079 - Bunker Offline.
+
+
+			11.25.2235 - Bunker Online.
+			11.25.2235 - Connection Established with [CONTROL STATION].
+			11.27.2235 - Environmental Readings Purged.
+			11.27.2235 - User Entries Purged.
+			11.27.2235 - Inboxes Purged.
+			11.27.2235 - User Data Purged.
+			11.27.2235 - Connection Severed with [CONTROL STATION].
+			11.27.2235 - Bunker Offline.
+		]]}
+	}
+}
+
 
 --[[
 ███████╗██╗   ██╗███████╗███╗   ██╗████████╗    ██████╗ ███████╗██╗      █████╗ ████████╗███████╗██████╗
