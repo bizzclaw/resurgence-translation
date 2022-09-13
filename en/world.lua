@@ -57,7 +57,7 @@ lang["#FACTION_NEWRENO_DESC"] = "'The Biggest Little City in the World', New Ren
 lang["#FACTION_CRIMSONCARAVAN_NAME"] = "Crimson Caravan Company"
 lang["#FACTION_CRIMSONCARAVAN_DESC"] = "The Crimson Caravan Company is one of, if not the singular largest caravan house in New California and beyond with a CCC branch in nearly every large town in the territory."
 
-lang["#FACTION_CORPORATION_NAME"] = "Cipher"
+lang["#FACTION_CORPORATION_NAME"] = "Cipher Company"
 lang["#FACTION_CORPORATION_DESC"] = "Cipher, more known as 'The Corporation', are a highly secretive organised group of mercenaries from the north. They deal in anything most lawful types would turn their heads at if it'll result in a payday- slave trading, paid murder, sabotage, you name it."
 
 lang["#FACTION_VAULTCITY_NAME"] = "Vault City"
@@ -69,12 +69,26 @@ lang["FACTION_FOLLOWERSOFTHEAPOCALYPSE_DESC"] = "The Followers are a humanitaria
 lang["#FACTION_BOS_NAME"] = "Brotherhood of Steel"
 lang["#FACTION_BOS_DESC"] = "The Brotherhood of Steel is a techno-religous organization that collects and maintains advanced technology with roots in the Pre-War American Military. They are highly reclusive and"
 
+lang["#FACTION_ICEPICK"] = "Ice Picks"
+lang["#FACTION_SMREJECTS"] = "Super Mutant Rejects"
+lang["#FACTION_UNITY"] = "Unity Remnants"
+lang["#FACTION_SMUGGLER"] = "Smugglers"
+lang["#FACTION_TRADEGUILD_NAME"] = "Merchant's Guild"
+lang["#FACTION_ROCKBITER"] = "Rock Biters"
+lang["#FACTION_ENCLAVE"] = "Enclave"
+lang["#FACTION_BANDITRUSTLER"] = "Rustlers"
+lang["#FACTION_BANDIT80S"] = "80s Tribe"
+lang["#FACTION_DESERTRANGER_NAME"] = "Desert Rangers"
+lang["#FACTION_SHADOWED"] = "Shadowed"
+
 -- Laws
 lang["#LAW_MURDER_NAME"] = "Murder"
 lang["#LAW_MURDER_DESC"] = "Unlawful killing of another individual"
+lang["#LAW_MURDER_NOTIFY"] = "You have commited an act of Murder against the $faction"
 
 lang["#LAW_ASSAULT_NAME"] = "Assault"
 lang["#LAW_ASSAULT_DESC"] = "Defined as comitting excessive damage to an individual for non-self defense reasons."
+lang["#LAW_ASSAULT_NOTIFY"] = "You have commited an act of Assault against the $faction"
 
 -- Profiles
 
@@ -86,6 +100,7 @@ lang["#NCRRANGER_NAME"] = "NCR Ranger"
 
 lang["#WORKBENCH_NAME"] = "Work Bench"
 lang["#CAMPFIRE_NAME"] = "Camp fire"
+lang["#STOVE_NAME"] = "Stove"
 lang["#RELOADINGBENCH_NAME"] = "Reloading Bench"
 lang["#WEAPONBENCH_NAME"] = "Weapon Bench"
 

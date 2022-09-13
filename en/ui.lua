@@ -202,6 +202,7 @@ lang["#UI_APPLY"] = "Apply"
 lang["#UI_RCancel"] = "Cancel @+Reload "
 lang["#UI_SPACEConfirm"] = "Confirm @+Jump "
 lang["#UI_CONFIRM"] = "Confirm"
+lang["#UI_AREYOUSURE"] = "Are you sure?"
 lang["#UI_CANCEL"] = "Cancel"
 lang["#UI_OKAY"] = "Okay"
 lang["#UI_HOWMANY"] = "How Many?" -- used in the bulk drop menu.
@@ -673,6 +674,7 @@ lang["#MISSIONREWARD_OPTION3DESC"] = "Take the rewards of the third option."
 lang["#MISSIONREWARD_INFLUENCE_COMMUNITYREQUIRED"] = "You can only accept this reward if you are in a community.\n\nPlayer Communities are not yet Implemented."
 
 lang["#UI_REPUTATION"] = "Reputation"
+lang["#UI_FAVOR"] = "Favor"
 lang["#UI_INFLUENCE"] = "Influence"
 
 -- Community
@@ -714,6 +716,15 @@ lang["#COMMUNITY_INFO_RELATIONS_TEXT"] = "You can establish relationships with o
 -- faction interaction
 lang["#FACTION_CANNOT_ACCESS_HOSTILE"] = "You cannot access this area because you are hostile with $faction."
 
+-- --[[
+-- ██████╗ ███████╗██████╗ ██╗   ██╗████████╗ █████╗ ████████╗██╗ ██████╗ ███╗   ██╗     █████╗ ███╗   ██╗██████╗      ██████╗██████╗ ██╗███╗   ███╗███████╗███████╗
+-- ██╔══██╗██╔════╝██╔══██╗██║   ██║╚══██╔══╝██╔══██╗╚══██╔══╝██║██╔═══██╗████╗  ██║    ██╔══██╗████╗  ██║██╔══██╗    ██╔════╝██╔══██╗██║████╗ ████║██╔════╝██╔════╝
+-- ██████╔╝█████╗  ██████╔╝██║   ██║   ██║   ███████║   ██║   ██║██║   ██║██╔██╗ ██║    ███████║██╔██╗ ██║██║  ██║    ██║     ██████╔╝██║██╔████╔██║█████╗  ███████╗
+-- ██╔══██╗██╔══╝  ██╔═══╝ ██║   ██║   ██║   ██╔══██║   ██║   ██║██║   ██║██║╚██╗██║    ██╔══██║██║╚██╗██║██║  ██║    ██║     ██╔══██╗██║██║╚██╔╝██║██╔══╝  ╚════██║
+-- ██║  ██║███████╗██║     ╚██████╔╝   ██║   ██║  ██║   ██║   ██║╚██████╔╝██║ ╚████║    ██║  ██║██║ ╚████║██████╔╝    ╚██████╗██║  ██║██║██║ ╚═╝ ██║███████╗███████║
+-- ╚═╝  ╚═╝╚══════╝╚═╝      ╚═════╝    ╚═╝   ╚═╝  ╚═╝   ╚═╝   ╚═╝ ╚═════╝ ╚═╝  ╚═══╝    ╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝      ╚═════╝╚═╝  ╚═╝╚═╝╚═╝     ╚═╝╚══════╝╚══════╝
+
+-- ]]
 
 lang["#UI_FACTION"] = "Faction"
 lang["#UI_CRIME"] = "Crime"
@@ -723,10 +734,120 @@ lang["#UI_PAYFINE"] = "Pay Fine"
 lang["#UI_FINEAMOUNT"] = "Pay Amount"
 lang["#UI_CRIME_PAIDOFF"] = "You Paid off: $amount. Fine remaining: $remaining."
 lang["#UI_CRIME_PAIDOFF_FULL"] = "This crime has been paid off and Removed!"
+lang["#UI_CRIME_PAIDOFF_BLOCKED_DELAY"] = "You must wait $minutesLeft minutes before you can pay off this crime!"
 lang["#UI_CRIME_INVOKES_HOSTILITY"] = "Invokes Hostility"
 lang["#UI_CRIME_INVOKES_HOSTILITY_ATFINE"] = "Invokes Hostility at Fine"
 
+
 lang["#UI_PAYOFFCRIME"] = "Payoff fine for this crime?\n\nYou can pay the Crime off in Installments\n\nCurrency: $currency\nRemaining: $ammount\nOwned: $owned"
+
+
+lang["#UI_REP_NEUTRAL_NAME"] = "Neutral"
+lang["#UI_REP_NEUTRAL_DESC"] = "People don't know enough about you to form an opinion."
+
+lang["#UI_REP_ACCEPTED_NAME"] = "Accepted"
+lang["#UI_REP_ACCEPTED_DESC"] = "Folks have come to accept you for your helpful nature."
+
+lang["#UI_REP_LIKED_NAME"] = "Liked"
+lang["#UI_REP_LIKED_DESC"] = "Enough news of your good works has been passed around that people like you."
+
+lang["#UI_REP_IDOLIZED_NAME"] = "Idolized"
+lang["#UI_REP_IDOLIZED_DESC"] = "Renowned for your extensive support and goodwill, you are idolized by the community."
+
+lang["#UI_REP_SHUNNED_NAME"] = "Shunned"
+lang["#UI_REP_SHUNNED_DESC"] = "You've left a poor impression on the community and may be shunned as a result."
+
+lang["#UI_REP_MIXED_NAME"] = "Mixed"
+lang["#UI_REP_MIXED_DESC"] = "A little bit good mixed with a little bit bad, people haven't figured you out yet."
+
+lang["#UI_REP_SMILING_TROUBLEMAKER_NAME"] = "Smiling Troublemaker"
+lang["#UI_REP_SMILING_TROUBLEMAKER_DESC"] = " People know you're good at heart even though you're occasionally a troublemaker."
+
+lang["#UI_REP_GOOD_NATURED_RASCAL_NAME"] = "Good-Natured Rascal"
+lang["#UI_REP_GOOD_NATURED_RASCAL_DESC"] = "Your reputation as a good-natured friend of the community manages to outshine your dark side."
+
+lang["#UI_REP_HATED_NAME"] = "Hated"
+lang["#UI_REP_HATED_DESC"] = "Now that folks know you're bad, most people outright hate you."
+
+lang["#UI_REP_SNEERING_PUNK_NAME"] = "Sneering Punk"
+lang["#UI_REP_SNEERING_PUNK_DESC"] = "Even though you've done some good for the community, people still think you're a punk."
+
+lang["#UI_REP_UNPREDICTABLE_NAME"] = "Unpredictable"
+lang["#UI_REP_UNPREDICTABLE_DESC"] = "No one's sure what to make of your unpredictable nature, but you've left a strong impression."
+
+lang["#UI_REP_DARK_HERO_NAME"] = "Dark Hero"
+lang["#UI_REP_DARK_HERO_DESC"] = "Folks still think you're some kind of hero, but you sure can be nasty sometimes."
+
+lang["#UI_REP_VILIFIED_NAME"] = "Vilified"
+lang["#UI_REP_VILIFIED_DESC"] = "For your overwhelmingly monstrous behavior, you have become vilified by the community."
+
+lang["#UI_REP_MERCIFUL_THUG_NAME"] = "Merciful Thug"
+lang["#UI_REP_MERCIFUL_THUG_DESC"] = "Despite your reputation as a thug, you are known to occasionally show a charitable side."
+
+lang["#UI_REP_SOFT_HEARTED_DEVIL_NAME"] = "Soft Hearted Devil"
+lang["#UI_REP_SOFT_HEARTED_DEVIL_DESC"] = "Most people say you're the devil himself, but most admit you've also done a world of good."
+
+lang["#UI_REP_WILD_CHILD_NAME"] = "Wild Child"
+lang["#UI_REP_WILD_CHILD_DESC"] = "Your wild, seemingly capricious behavior leaves people scratching their heads in confusion and avoiding close contact."
+
+lang["#UI_REP_UNTRUSTED_NAME"] = "Untrusted" -- Favor < 0
+lang["#UI_REP_UNTRUSTED_DESC"] = "Due to your negative impact on the community, you can hardly be trusted."
+
+lang["#UI_REP_UNCERTAIN_NAME"] = "Uncertain" -- favor 0 - 200
+lang["#UI_REP_UNCERTAIN_DESC"] = "While you won't be trusted by most folks, you will have plenty of opportunities to distinguish yourself."
+
+lang["#UI_REP_CREDIBLE_NAME"] = "Credible" -- favor 200 - 400
+lang["#UI_REP_CREDIBLE_DESC"] = "You've done enough good recently that folks are more willing to trust you."
+
+lang["#UI_REP_TRUSTED_NAME"] = "Trusted" -- favor 400 - 800
+lang["#UI_REP_TRUSTED_DESC"] = "Thanks to your recent service, You are trusted with most issues."
+
+lang["#UI_REP_HONORED_NAME"] = "Honored" -- favor 800 - 1000
+lang["#UI_REP_HONORED_DESC"] = "The people have benfitted greatly from your support, and will come to you for the most sensitive of issues."
+
+lang["#UI_REP_NEUTRAL"] = "Neutral" -- They will not attack you and will count crimes from you if you attack them.
+lang["#UI_REP_HOSTILE"] = "Hostile" -- Factions that are hostile with you will not count crimes against them, as they generally shoot at you first.
+lang["#UI_REP_ALLIED"] = "Allied" -- You are currently representing this faction. you cannot be damaged by other players who have this status
+lang["#UI_REP_EXILED"] = "Exiled" -- Currently unused. Will be used if you betray a faction by doing certain missions.
+
+lang["#NOTIFY_REP_STATUS"] = "Your status with the $faction is now $status"
+lang["#NOTIFY_REP_WANTED"] = "You are now wanted by the $faction in regions they control and they will attack you on sight!"
+lang["#NOTIFY_REP_WANTED_ENDED"] = "You are no longer wanted by the $faction in regions they control."
+lang["#NOTIFY_REP_FAVOR"] = "Your Favor with the $faction has changed too $favor."
+lang["#NOTIFY_REP_RELATION"] = "Your Reputation with the $faction is now $relation."
+
+lang["#UI_FACTION_REPRESENT"] = "Represent"
+lang["#UI_FACTION_UNREPRESENT"] = "Unrepresent"
+lang["#UI_FACTION_REPRESENT_DESC"] = "Faction Representation:\nYou can represent a faction to indicate you are part of that faction under your nametag.\n\nRepresenting a faction has the following effects:\n\n - You will gain 25 Extra Save Weight.\n\n - Crimes committed against you will be tracked in all regions by this faction, not just ones they control\n\n - Damage with other members of the faction, NPC and Player is disabled even in PVP areas\n\n - Players Representing Factions hostile with your this faction WILL BE ABLE TO DAMAGE YOU IN PVE REGIONS! (but not safe zones)\n\n - You can only change your representation status in safe zones once every 12 hours."
+
+lang["#UI_REPRESENT_FAILED_TIME"] = "You can only change your Representation once every 12 hours!"
+lang["#UI_REPRESENT_FAILED_FAVOR"] = "Your must have at least 400 favor to represent a faction."
+lang["#UI_REPRESENT_FAILED_HOSTILE"] = "You cannot represent a faction that is hostile towards you!"
+lang["#UI_REPRESENT_FAILED_ZONE"] = "You can only change your Faction Representation in Safe Zones!"
+
+lang["#UI_REPRESENT_STARTED"] = "You are now Representing as a member of the $faction!"
+lang["#UI_REPRESENT_ENDED"] = "You are No longer representing the $faction."
+
+lang["#UI_REPUTATION_PROTECTED"] = "Protected"
+lang["#UI_REPUTATION_PROTECTED_DESC"] = "Attacking you is a crime."
+
+lang["#UI_REPUTATION_UNPROTECTED"] = "Not Protected"
+lang["#UI_REPUTATION_UNPROTECTED_DESC"] = "Attacking you is not a crime against them."
+
+lang["#SETTING_PVP_PROTECTION"] = "Prevent damage too characters that attacking will cause a crime, and from allied factions."
+lang["#SETTING_PVP_REPORT_CRIMES"] = "Report Crimes against me to regional or representing factions."
+
+lang["#UI_PROTECTION_TOWNUPDATE"] = "Your protection setting will apply only the next time you enter a safe zone!"
+
+lang["#SETTING_PVP_PROTECTION_ENABLED"] = "PVP Protection settings are Enabled"
+lang["#SETTING_PVP_PROTECTION_DISABLED"] = "PVP Protection settings are Disabld!"
+
+lang["#SETTING_PVP_TARGET_PROTECTION"] = "You cannot take or do damage because the target is protected by the $faction, which will trigger a crime if you attack. You can disable this from settings."
+lang["#SETTING_PVP_ATTACKER_PROTECTION"] = "You cannot take or do damage do this player because they have protections enabled and are protected by the $faction."
+lang["#SETTING_PVP_FACTION_PROTECTION"] = "You cannot damage Faction Members!"
+
+
+
 
 --If there's any items you know I'll add, feel free to add them yourself and write their description. Heck add anything you like. Just make sure it follows the format here. Also, it MUST have a # in front of the name and the name must be all caps.
 

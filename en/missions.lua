@@ -611,7 +611,7 @@ lang["#MISSION_BOSGUARD_PROVE_COMPLETE"] = "No way... you actually made it- I me
 lang["#MISSION_BOSGUARD_PROVE_ITEMNAME"] = "Technical Data"
 
 lang["#MISSION_BOSGUARD_ICEPICKS"] = "Icepick Massacare"
-lang["#MISSION_BOSGUARD_ICEPICKS_DESC"] = "There's a lot more Raiders out in these mountains than we initially thought... they're proving to be quite a menace, to our patrols. Particularly, this group that goes by the \"Ice Picks\". They use Armor Piercing ammunition and have already given us a couple of casulties. We're putting a bounty out for 10 Ice Picks. Take out 10 of them, and a reward is yours."
+lang["#MISSION_BOSGUARD_ICEPICKS_DESC"] = "There's a lot more Raiders out in these mountains than we initially thought... they're proving to be quite a menace to our patrols. Notably, a group that goes by the \"Ice Picks\" have already given us a couple of casulties, especially thanks to the Armor Piercing munitions they're using. We're putting a bounty out for 10 Ice Picks. Take out 10 of them, and a reward is yours."
 lang["#MISSION_BOSGUARD_ICEPICKS_HINT"] = "Eliminate 10 Ice Pick Bandits in Mountain Pass. They're scattered all over, but they like to camp out along the bridge over the Lake."
 lang["#MISSION_BOSGUARD_ICEPICKS_COMPLETE"] = "Excellent Work. That should make things a little easier to patrol around here."
 
@@ -625,6 +625,32 @@ lang["#MISSION_BOSGUARD_ADVANCEDMATS"] = "Advanced Materials"
 lang["#MISSION_BOSGUARD_ADVANCEDMATS_DESC"] = "If you're looking to help, one of the best ways you can do that is help us secure materials needed to maintain our power armor. We're a long way from HQ, and getting supplies can take longer than we'd like."
 lang["#MISSION_BOSGUARD_ADVANCEDMATS_HINT"] = "Find and retrieve 5 Advanced Materials. The most reliable source of these is by taking them from other enemies that use Power Armor."
 lang["#MISSION_BOSGUARD_ADVANCEDMATS_COMPLETE"] = "Thank you. This will greatly help us stay supplied."
+
+lang["#MISSION_BOSGUARD_FOODSUPPLIES"] = "Food Supplies"
+lang["#MISSION_BOSGUARD_FOODSUPPLIES_DESC"] = "Even with all of the caravans, Supplies are pretty scarce this far north. With how long we're planning on staying here, we're going to need more food. If you wouldn't mind some hunting in the local area, the local wildlife have been a reliable source of food."
+lang["#MISSION_BOSGUARD_FOODSUPPLIES_HINT"] = "Source and Retrieve the required meat. It can be bought from merchants or hunted from the local wildlife of the mountain pass."
+lang["#MISSION_BOSGUARD_FOODSUPPLIES_COMPLETE"] = "Good work! This will help keep our men fed and focused on the task at hand."
+
+lang["#MISSION_BOSGUARD_SPECIALSAMPLE"] = "Special Sample"
+lang["#MISSION_BOSGUARD_SPECIALSAMPLE_DESC"] = "The Sribes inside are looking for a special kind of plant. Apparently, it only appears farther north, but apparently there's some that grow here in this mountain. If you can bring us a sample of this plant, the sribes will be able to put it towards their research."
+lang["#MISSION_BOSGUARD_SPECIALSAMPLE_HINT"] = "Source and Retrieve Blood Leaf. It can be found growing around the edge of the lake in Mountain Pass."
+lang["#MISSION_BOSGUARD_SPECIALSAMPLE_COMPLETE"] = "Let's see... Yes, this looks like how the Scribes described it. I'll pass it along to them. Thank you."
+
+lang["#MISSION_BOSGUARD_ELECTRONICS"] = "Electronic Supply"
+lang["#MISSION_BOSGUARD_ELECTRONICS_DESC"] = "We're always running low on miscellaneous items, but what the Scribes always need are more scrap electronics. Apparently, many of the raw materials in them can be repurposed for use in our equipment. If you can bring us some, your efforts will be most appreciated."
+lang["#MISSION_BOSGUARD_ELECTRONICS_HINT"] = "Source and Retrieve Scrap Electronics. They can be found in metal boxes, commonly found in corporate or industrial ruins."
+lang["#MISSION_BOSGUARD_ELECTRONICS_COMPLETE"] = "This is a good amount. These will be very useful, so here's your reward."
+
+lang["#MISSION_BOSGUARD_GHOULWOES"] = "Ghoul Woes"
+lang["#MISSION_BOSGUARD_GHOULWOES_DESC"] = "The caravans aren't the only thing that comes through here. For some reason, ghouls are always flooding through the roads. They're mothing more than a nuisance to us mostly, but if you some of them out, it could certainly help."
+lang["#MISSION_BOSGUARD_GHOULWOES_HINT"] = "Find and Kill Feral Ghouls in Mountain Pass. Ghouls typically roam the roads."
+lang["#MISSION_BOSGUARD_GHOULWOES_COMPLETE"] = "Clean work again. Here's your reward."
+
+lang["#MISSION_BOSGUARD_SUPPLYRUN"] = "Package Retreival"
+lang["#MISSION_BOSGUARD_SUPPLYRUN_DESC"] = "We've put in an order with the NCR Camp to the south for some supplies. We need someone we can trust to head south to the town and pick up those supplies"
+lang["#MISSION_BOSGUARD_SUPPLYRUN_HINT"] = "Source and Retrieve the required supplies."
+lang["#MISSION_BOSGUARD_SUPPLYRUN_COMPLETE"] = "Good work! This will help keep our men fed and focused on the task at hand."
+
 
 -- ███╗   ███╗██████╗        ███████╗ █████╗ ██╗  ████████╗    ██╗    ██╗███████╗██╗     ██╗     ███████╗
 -- ████╗ ████║██╔══██╗██╗    ██╔════╝██╔══██╗██║  ╚══██╔══╝    ██║    ██║██╔════╝██║     ██║     ██╔════╝
