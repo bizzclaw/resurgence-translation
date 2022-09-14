@@ -16,8 +16,8 @@ lang["#UI_EXIT"] = "Выйти"
 lang["#UI_CLOSE"] = "Закрыть"
 lang["#UI_TELEPORTLEAVE"] = "Вы уверены, что хотите уйти?\n\nПотребуется $requirement, чтобы вернуться."
 
-lang["#UI_TELEPORTERBLOCK_FACTION_FAVOR"] = "У вас нет достаточно высокого уровня влияния у фракции $faction, чтобы войти.\n\nВам нужно: $favorRequired\nВы имеете: $favorCurrent\n\nПолучите влияние, выполняя задания фракции $faction."
-lang["#UI_TELEPORTERBLOCK_FACTION_HOSTILE"] = "You are currently Hostile with the $faction\n\nYou cannot enter this area."
+lang["#UI_TELEPORTERBLOCK_FACTION_FAVOR"] = "У вас нет достаточно уровня благосклонности с фракцией $faction, чтобы войти.\n\nВам нужно: $favorRequired\nВы имеете: $favorCurrent\n\nПолучите благосклонность, выполняя задания фракции $faction."
+lang["#UI_TELEPORTERBLOCK_FACTION_HOSTILE"] = "Сейчас вы находитесь во враждебных отношениях с фракцией $faction\n\nВы не можете войти в эту зону."
 
 lang["#UI_ITEMCONSUMED"] = "$item будет изъят"
 lang["#UI_ITEMNOTCONSUMED"] = "$item должен быть в вашем инвентаре (Не принято)"
@@ -202,6 +202,7 @@ lang["#UI_APPLY"] = "Принять"
 lang["#UI_RCancel"] = "Отмена @+Reload "
 lang["#UI_SPACEConfirm"] = "Подтвердить @+Jump "
 lang["#UI_CONFIRM"] = "Подтвердить"
+lang["#UI_AREYOUSURE"] = "Вы уверены?"
 lang["#UI_CANCEL"] = "Отмена"
 lang["#UI_OKAY"] = "Хорошо"
 lang["#UI_HOWMANY"] = "Сколько?" -- used in the bulk drop menu.
@@ -674,6 +675,7 @@ lang["#MISSIONREWARD_OPTION3DESC"] = "Получить награду треть
 lang["#MISSIONREWARD_INFLUENCE_COMMUNITYREQUIRED"] = "Вы можете принять эту награду, только если вы состоите в сообществе.\n\nСообщества игроков ещё не реализованы."
 
 lang["#UI_REPUTATION"] = "Репутация"
+lang["#UI_FAVOR"] = "Благосклонность"
 lang["#UI_INFLUENCE"] = "Влияние"
 
 -- Community
@@ -715,6 +717,15 @@ lang["#COMMUNITY_INFO_RELATIONS_TEXT"] = "Вы можете установить
 -- faction interaction
 lang["#FACTION_CANNOT_ACCESS_HOSTILE"] = "Вы не можете получить доступ к этой зоне, потому что враждуете с фракцией $faction."
 
+-- --[[
+-- ██████╗ ███████╗██████╗ ██╗   ██╗████████╗ █████╗ ████████╗██╗ ██████╗ ███╗   ██╗     █████╗ ███╗   ██╗██████╗      ██████╗██████╗ ██╗███╗   ███╗███████╗███████╗
+-- ██╔══██╗██╔════╝██╔══██╗██║   ██║╚══██╔══╝██╔══██╗╚══██╔══╝██║██╔═══██╗████╗  ██║    ██╔══██╗████╗  ██║██╔══██╗    ██╔════╝██╔══██╗██║████╗ ████║██╔════╝██╔════╝
+-- ██████╔╝█████╗  ██████╔╝██║   ██║   ██║   ███████║   ██║   ██║██║   ██║██╔██╗ ██║    ███████║██╔██╗ ██║██║  ██║    ██║     ██████╔╝██║██╔████╔██║█████╗  ███████╗
+-- ██╔══██╗██╔══╝  ██╔═══╝ ██║   ██║   ██║   ██╔══██║   ██║   ██║██║   ██║██║╚██╗██║    ██╔══██║██║╚██╗██║██║  ██║    ██║     ██╔══██╗██║██║╚██╔╝██║██╔══╝  ╚════██║
+-- ██║  ██║███████╗██║     ╚██████╔╝   ██║   ██║  ██║   ██║   ██║╚██████╔╝██║ ╚████║    ██║  ██║██║ ╚████║██████╔╝    ╚██████╗██║  ██║██║██║ ╚═╝ ██║███████╗███████║
+-- ╚═╝  ╚═╝╚══════╝╚═╝      ╚═════╝    ╚═╝   ╚═╝  ╚═╝   ╚═╝   ╚═╝ ╚═════╝ ╚═╝  ╚═══╝    ╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝      ╚═════╝╚═╝  ╚═╝╚═╝╚═╝     ╚═╝╚══════╝╚══════╝
+
+-- ]]
 
 lang["#UI_FACTION"] = "Фракция"
 lang["#UI_CRIME"] = "Преступление"
@@ -724,10 +735,117 @@ lang["#UI_PAYFINE"] = "Оплатить штраф"
 lang["#UI_FINEAMOUNT"] = "Размер оплаты"
 lang["#UI_CRIME_PAIDOFF"] = "Вы оплатили: $amount. Остаток штрафа: $remaining."
 lang["#UI_CRIME_PAIDOFF_FULL"] = "Это преступление было погашено и устранено!"
+lang["#UI_CRIME_PAIDOFF_BLOCKED_DELAY"] = "Вы должны подождать $minutesLeft мин., прежде чем сможете расплатиться за это преступление!"
 lang["#UI_CRIME_INVOKES_HOSTILITY"] = "Вызывает вражду"
 lang["#UI_CRIME_INVOKES_HOSTILITY_ATFINE"] = "Вызывает вражду у штрафа"
 
+
 lang["#UI_PAYOFFCRIME"] = "Заплатить штраф за это преступление?\n\nВы можете выплатить его частями\n\nВалюта: $currency\nОстаток: $ammount\nПри себе: $owned"
+
+
+lang["#UI_REP_NEUTRAL_NAME"] = "Нейтральный"
+lang["#UI_REP_NEUTRAL_DESC"] = "Люди недостаточно знают о вас, чтобы составить о вас мнение."
+
+lang["#UI_REP_ACCEPTED_NAME"] = "Свой человек"
+lang["#UI_REP_ACCEPTED_DESC"] = "Люди приняли вас за вашу доброжелательность."
+
+lang["#UI_REP_LIKED_NAME"] = "Любимец"
+lang["#UI_REP_LIKED_DESC"] = "Вокруг распространилось достаточно новостей о ваших добрых делах, чтобы вы понравились людям."
+
+lang["#UI_REP_IDOLIZED_NAME"] = "Кумир"
+lang["#UI_REP_IDOLIZED_DESC"] = "Вы известны своей широкой поддержкой и доброй волей, вас боготворит общество."
+
+lang["#UI_REP_SHUNNED_NAME"] = "Изгой"
+lang["#UI_REP_SHUNNED_DESC"] = "Вы оставили плохое впечатление в обществе, и в результате вас могут сторониться."
+
+lang["#UI_REP_MIXED_NAME"] = "В полоску"
+lang["#UI_REP_MIXED_DESC"] = "Немного хорошего вперемешку с немного плохим - люди ещё не поняли вас."
+
+lang["#UI_REP_SMILING_TROUBLEMAKER_NAME"] = "Улыбчивый проказник"
+lang["#UI_REP_SMILING_TROUBLEMAKER_DESC"] = "Люди знают, что в душе вы добры, даже если вы иногда нарушаете спокойствие."
+
+lang["#UI_REP_GOOD_NATURED_RASCAL_NAME"] = "Добродушная каналья"
+lang["#UI_REP_GOOD_NATURED_RASCAL_DESC"] = "Ваша репутация добродушного друга общества сумела затмить вашу тёмную сторону."
+
+lang["#UI_REP_HATED_NAME"] = "Ненавистный"
+lang["#UI_REP_HATED_DESC"] = "Теперь, когда все знают, что вы плохи, большинство людей вас откровенно ненавидят."
+
+lang["#UI_REP_SNEERING_PUNK_NAME"] = "Мелкий мошенник"
+lang["#UI_REP_SNEERING_PUNK_DESC"] = "Даже если вы сделали что-то хорошее для общества, люди всё равно считают вас плохим."
+
+lang["#UI_REP_UNPREDICTABLE_NAME"] = "Непредсказуемый"
+lang["#UI_REP_UNPREDICTABLE_DESC"] = "Никто не знает, что делать с вашим непредсказуемым характером, но вы оставили сильное впечатление."
+
+lang["#UI_REP_DARK_HERO_NAME"] = "Тёмный герой"
+lang["#UI_REP_DARK_HERO_DESC"] = "Люди до сих пор считают вас героем, но иногда вы бываете неприятны."
+
+lang["#UI_REP_VILIFIED_NAME"] = "Презренный"
+lang["#UI_REP_VILIFIED_DESC"] = "За своё чудовищное поведение вы были очернены обществом."
+
+lang["#UI_REP_MERCIFUL_THUG_NAME"] = "Благородный бандит"
+lang["#UI_REP_MERCIFUL_THUG_DESC"] = "Несмотря на репутацию бандита, вы известны тем, что иногда проявляете благотворительность."
+
+lang["#UI_REP_SOFT_HEARTED_DEVIL_NAME"] = "Мягкосердечный дьявол"
+lang["#UI_REP_SOFT_HEARTED_DEVIL_DESC"] = "Большинство людей говорят, что вы - сам дьявол, но большинство признают, что вы также сделали много хорошего."
+
+lang["#UI_REP_WILD_CHILD_NAME"] = "Каприз природы"
+lang["#UI_REP_WILD_CHILD_DESC"] = "Ваше дикое, кажущееся капризным поведение заставляет людей в замешательстве чесать затылки и избегать близкого контакта."
+
+lang["#UI_REP_UNTRUSTED_NAME"] = "Недоверенный" -- Favor < 0
+lang["#UI_REP_UNTRUSTED_DESC"] = "Из-за вашего негативного влияния на сообщество вам вряд ли можно доверять."
+
+lang["#UI_REP_UNCERTAIN_NAME"] = "Ненадёжный" -- favor 0 - 200
+lang["#UI_REP_UNCERTAIN_DESC"] = "Хотя большинство людей не будут вам доверять, у вас будет много возможностей отличиться."
+
+lang["#UI_REP_CREDIBLE_NAME"] = "Влиятельный" -- favor 200 - 400
+lang["#UI_REP_CREDIBLE_DESC"] = "В последнее время вы сделали достаточно хорошего, чтобы люди больше доверяли вам."
+
+lang["#UI_REP_TRUSTED_NAME"] = "Доверенный" -- favor 400 - 800
+lang["#UI_REP_TRUSTED_DESC"] = "Благодаря вашей недавней помощи, вам доверяют большинство заданий."
+
+lang["#UI_REP_HONORED_NAME"] = "Уважаемый" -- favor 800 - 1000
+lang["#UI_REP_HONORED_DESC"] = "Люди получили огромную пользу от вашей поддержки и будут обращаться к вам по самым важным заданиям."
+
+lang["#UI_REP_NEUTRAL"] = "Нейтральный" -- They will not attack you and will count crimes from you if you attack them.
+lang["#UI_REP_HOSTILE"] = "Враждебный" -- Factions that are hostile with you will not count crimes against them, as they generally shoot at you first.
+lang["#UI_REP_ALLIED"] = "Союзник" -- You are currently representing this faction. you cannot be damaged by other players who have this status
+lang["#UI_REP_EXILED"] = "Изгнанный" -- Currently unused. Will be used if you betray a faction by doing certain missions.
+
+lang["#NOTIFY_REP_STATUS"] = "Ваш статус в фракции $faction теперь: $status"
+lang["#NOTIFY_REP_WANTED"] = "Теперь вы разыскиваетесь фракцией $faction в регионах, которые они контролируют, и они нападут на вас, как только увидят!"
+lang["#NOTIFY_REP_WANTED_ENDED"] = "Вы больше не нужны фракции $faction в регионах, которые они контролируют."
+lang["#NOTIFY_REP_FAVOR"] = "Ваша благосклонность к фракции $faction изменилась на: $favor."
+lang["#NOTIFY_REP_RELATION"] = "Ваша репутация в фракции $faction стала: $relation."
+
+lang["#UI_FACTION_REPRESENT"] = "Представить"
+lang["#UI_FACTION_UNREPRESENT"] = "Не представлять"
+lang["#UI_FACTION_REPRESENT_DESC"] = "Представление фракции:\nВы можете представлять фракцию, чтобы обозначить свою принадлежность к ней под своим именем.\n\nПредставление фракции имеет следующие эффекты:\n\n - Вы получите 25 дополнительного сохранения веса.\n\n - Преступления, совершённые против вас, будут отслеживаться во всех регионах этой фракции, а не только в тех, которые они контролируют\n\n - Урон между членами фракции, NPC и игроками отключены даже в зонах игрока против игрока\n\n - Игроки, представляющие фракции, враждующие с вашей фракцией, СМОГУТ НАНОСИТЬ ВАМ УРОН В РЕГИОНАХ ИГРОКА ПРОТИВ ОКРУЖЕНИЯ! (но не в безопасных зонах)\n\n - Вы можете менять статус представительства в безопасных зонах только раз в 12 часов."
+
+lang["#UI_REPRESENT_FAILED_TIME"] = "Вы можете менять своё представительство только раз в 12 часов!"
+lang["#UI_REPRESENT_FAILED_FAVOR"] = "Чтобы представлять фракцию, у вас должно быть не менее 400 ед. благосклонности."
+lang["#UI_REPRESENT_FAILED_HOSTILE"] = "Вы не можете представлять фракцию, которая враждебна по отношению к вам!"
+lang["#UI_REPRESENT_FAILED_ZONE"] = "Вы можете изменить своё представительство фракции только в безопасных зонах!"
+
+lang["#UI_REPRESENT_STARTED"] = "Теперь вы являетесь представителем фракции $faction!"
+lang["#UI_REPRESENT_ENDED"] = "Вы больше не являетесь представителем фракции $faction."
+
+lang["#UI_REPUTATION_PROTECTED"] = "Защищённый"
+lang["#UI_REPUTATION_PROTECTED_DESC"] = "Нападение на вас - это преступление."
+
+lang["#UI_REPUTATION_UNPROTECTED"] = "Не защищён"
+lang["#UI_REPUTATION_UNPROTECTED_DESC"] = "Нападение на вас не является преступлением против атакующего."
+
+lang["#SETTING_PVP_PROTECTION"] = "Предотвращать урон от персонажей, атака которых приведёт к преступлению, и от дружественных фракций."
+lang["#SETTING_PVP_REPORT_CRIMES"] = "Сообщать о преступлениях против меня в региональные или представляющие фракции."
+
+lang["#UI_PROTECTION_TOWNUPDATE"] = "Ваша настройка защиты будет действовать только при следующем входе в безопасную зону!"
+
+lang["#SETTING_PVP_PROTECTION_ENABLED"] = "Настройки защиты против игроков включены"
+lang["#SETTING_PVP_PROTECTION_DISABLED"] = "Настройки защиты против игроков отключены!"
+
+lang["#SETTING_PVP_TARGET_PROTECTION"] = "Вы не можете получить или нанести урон, потому что цель находится под защитой фракции $faction, которая вызовет преступление, если вы атакуете её. Это можно отключить в настройках."
+lang["#SETTING_PVP_ATTACKER_PROTECTION"] = "Вы не можете принимать или наносить урон этому игроку, потому что у него включена защита и он находится под защитой фракции $faction."
+lang["#SETTING_PVP_FACTION_PROTECTION"] = "Вы не можете наносить урон членам фракции!"
 
 --If there's any items you know I'll add, feel free to add them yourself and write their description. Heck add anything you like. Just make sure it follows the format here. Also, it MUST have a # in front of the name and the name must be all caps.
 
