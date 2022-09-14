@@ -617,7 +617,7 @@ lang["#SETTING_GUDCOL"] = "Цвет друга"
 lang["#SETTING_AMBIENT_MUSIC"] = "Громкость окружающей музыки"
 lang["#SETTING_COMBAT_MUSIC"] = "Громкость музыки боя"
 lang["#SETTING_RADIO_MUSIC"] = "Громкость музыки радио"
-lang["#SETTING_FOV"] = "Поле зрения (неприцельное)" -- imply that the field of view settings does not affect aiming zoom.
+lang["#SETTING_FOV"] = "Поле зрения (без прицела)" -- imply that the field of view settings does not affect aiming zoom.
 lang["#SETTING_PIPSPEED"] = "Чувствительность курсора пип-боя"
 lang["#SETTING_VIEWBOB"] = "Размер покачивания экрана при движении"
 lang["#SETTING_SCOPESCALE"] = "Модификатор чувствительности прицела"
@@ -625,12 +625,12 @@ lang["#SETTING_MAXCORPSES"] = "Макс. трупов NPC"
 lang["#SETTING_GRASS"] = "Расстояние отображения травы"
 lang["#SETTING_MAXSHELLS"] = "Макс. огнестрельных гильз"
 lang["#SETTING_HUD"] = "Включить интерфейс"
-lang["#SETTING_OTHERLIGHTS"] = "Подсвечивание других игроков"
+lang["#SETTING_OTHERLIGHTS"] = "Подсвеч. других игроков"
 lang["#SETTING_TOGGLEAIM"] = "Залипание прицеливания"
 lang["#SETTING_CROSSHAIR"] = "Включить прицеливание"
 lang["#SETTING_TOGGLESPRINT"] = "Залипание бега"
 lang["#SETTING_RADIO_EXTRA"] = "Дополнительные радиостанции (не относятся к сюжету)"
-lang["#SETTING_SKIPFADEIN"] = "Пропустить затухание вступления"
+lang["#SETTING_SKIPFADEIN"] = "Пропустить вступление"
 
 -- Mission Board
 lang["#MISSIONBOARD_TITLE"] = "Доска контрактов"
