@@ -32,7 +32,7 @@ lang["#UI_SELCHAR"] = "Выберите персонажа"
 lang["#UI_LOADCHAR"] = "Загрузить персонажа"
 lang["#UI_NEWCHAR"] = "Создать персонажа"
 lang["#UI_DELCHAR"] = "Удалить персонажа"
-lang["#UI_DELCHAR_CONFIRM"] = "Введите имя персонажа для подтверждения"
+lang["#UI_DELCHAR_CONFIRM"] = "Введите имя персонажа для удаления"
 lang["#UI_DELCHAR_NOMATCH"] = "Имя не совпадает.\n\nПопробуйте ещё раз."
 
 --Main Menu
