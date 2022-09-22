@@ -651,12 +651,49 @@ lang["#MISSION_BOSGUARD_SUPPLYRUN_DESC"] = "I have one more mission for you, $pl
 lang["#MISSION_BOSGUARD_SUPPLYRUN_HINT"] = "Source and retrieve the specialist supplies from Camp Willow. They can be found in the store."
 lang["#MISSION_BOSGUARD_SUPPLYRUN_COMPLETE"] = "I was afraid that you would not come back. I am full glad to see that I was mistaken. Here is your courier's fee."
 
+--   █████╗  █████╗ ████ ███████╗        ████████╗██╗    ██╗███████╗ █████╗ ██╗  ██╗  ███╗   ███╗██╗███████╗███████╗██╗ ██████╗ ███╗   ██╗███████╗
+--  ██╔══██╗██╔══██╗  ██ ██╔════╝        ╚══██╔══╝██║    ██║██╔════╝██╔══██╗██║ ██╔╝  ████╗ ████║██║██╔════╝██╔════╝██║██╔═══██╗████╗  ██║██╔════╝
+--  ███████║██   ██║  █  ███████╗  ████     ██║   ██║ █╗ ██║█████╗  ███████║█████╔╝   ██╔████╔██║██║███████╗███████╗██║██║   ██║██╔██╗ ██║███████╗
+--  ██╔══██╗██╔══██╗     ╚════██║  ████     ██║   ██║███╗██║██╔══╝  ██╔══██║██╔═██╗   ██║╚██╔╝██║██║╚════██║╚════██║██║██║   ██║██║╚██╗██║╚════██║
+--   █████╔╝ █████╔╝     ███████║           ██║   ╚███╔███╔╝███████╗██║  ██║██║  ██╗  ██║ ╚═╝ ██║██║███████║███████║██║╚██████╔╝██║ ╚████║███████║
+--   ═════╝  ═════╝      ╚══════╝           ╚═╝    ╚══╝╚══╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝  ╚═╝     ╚═╝╚═╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
 
--- ███╗   ███╗██████╗        ███████╗ █████╗ ██╗  ████████╗    ██╗    ██╗███████╗██╗     ██╗     ███████╗
--- ████╗ ████║██╔══██╗██╗    ██╔════╝██╔══██╗██║  ╚══██╔══╝    ██║    ██║██╔════╝██║     ██║     ██╔════╝
--- ██╔████╔██║██████╔╝╚═╝    ███████╗███████║██║     ██║       ██║ █╗ ██║█████╗  ██║     ██║     ███████╗
--- ██║╚██╔╝██║██╔══██╗██╗    ╚════██║██╔══██║██║     ██║       ██║███╗██║██╔══╝  ██║     ██║     ╚════██║
--- ██║ ╚═╝ ██║██████╔╝╚═╝    ███████║██║  ██║███████╗██║       ╚███╔███╔╝███████╗███████╗███████╗███████║
+lang["#MISSION_TWEAK_OFFERING"] = "An Offering"
+lang["#MISSION_TWEAK_OFFERING_DESC"] = "Gotta admit, you got some balls coming out all the way. What do you hope to find out here, exactly? Death? Robbery at gunpoint? Botha those I can do for you.\n\n\No, you're here to make money, aren't you? Aight, now that I can respect. But if you wanna ride with the meanest, baddest sons of bitches this side of New Reno you're gonna have to show us that you can pull your own weight. For now, I got a simple task for ya. What is that task, you ask?\n\n\nPay the entry fee. $250 NCR and we're in business.
+lang["#MISSION_TWEAK_OFFERING_HINT"] = "Pay Tweak $250 NCR Dollars. NCR Dollars can be acquired in many ways, but usually as quest rewards or selling items to vendors.
+lang["#MISSION_TWEAK_OFFERING_COMPLTE"] = "Heh... I like what I see, rookie. Alright, I think we can make use of you. I'll tell the boys not to shoot you on sight."
+-- Reward should be enough 80s Favor to access their camp and nothing else.
+
+lang["#MISSION_TWEAK_BLAST"] = "Blasting Caps"
+lang["#MISSION_TWEAK_BLAST_DESC"] = "Alright, now that we've got that friendly bit of extortion done, it's time to move on to actual work. Though I can't give you the details yet, we've got something big in the works and I think you showed up at a pretty damn good time.\n\n\nYou're a little too green to throw at the NCR, so instead you're gonna help us with long term prep. You familiar with the old limestone quarry near Salt Wells? I need you to go there and head into the caves near the abandoned shack. We've heard rumors of some dynamite down there and we're gonna need a shit ton of it.
+lang["#MISSION_TWEAK_BLAST_HINT"] = "Retrieve four sticks of dynamite for Tweak. They can be found in the limestone quarry in the northern caves. Alternatively, they can be bought or traded for by vendors in Salt Wells."
+lang["#MISSION_TWEAK_BLAST_COMPLETE"] = "Lemme get a sniff of that.\n\n\nMm... still good. Good find, rookie. Now you're gonna start earning some actual money."
+-- Reward should include caps (50-100) and one or two raid trophies (vouchers).
+
+lang["#MISSION_TWEAK_MAINTENANCE"] = "Preventative Maintenance"
+lang["#MISSION_TWEAK_MAINTENANCE_DESC"] = "Like I said earlier, that particular trip was long term prep. We've got plenty of time to kill until the boss sends the orders for us to do our thing, so we're instead gonna turn to some matters of maintenance. I need you to go have a dig around a couple of locations and see if you can retrieve several choice parts for me. I need you to take the gas tank off of the motorcycle the Crimson Caravan keeps stashed, a new truck muffler, and a battery from the crane in the quarry.
+lang["#MISSION_TWEAK_MAINTENANCE_HINT"] = "Retrieve the Gas Tank, Truck Muffler, and Crane Battery. The gas tank can be found in Salt Wells, the muffler in the junkyard near Andrew, and the battery from the large crane in the quarry."
+lang["#MISSION_TWEAK_MAINTENANCE_COMPLETE"] = "Got it all? Sweet, this stuff will do the job just fine. Now lemme just work some magic here aaaaaand... bam, a pipe gun. It's yours if you want it."
+-- Reward should include the choice of a pipe gun with ammo and a raid trophy or two raid trophies.
+
+lang["#MISSION_TWEAK_TEETH"] = "Cutting Teeth"
+lang["#MISSION_TWEAK_TEETH_DESC"] = "Alright, you aren't totally useless, so I think it's time to actually start sending you into combat. It's still a little too early to jump into action against the NCR, but we've got plenty of shit that we need to shoot. I want you to go out and prove to me that you can fire a gun as well as you dig through trash. Go take care of some ghouls and then we'll go from there."
+lang["#MISSION_TWEAK_TEETH_HINT"] = "Eliminate ten of any type of Feral Ghoul in Salt Wells. Ghouls are commonly found near ruins or abandoned buildings."
+lang["#MISSION_TWEAK_TEETH_COMPLTE"] = "Didn't die on your first mission? That's what I like to see, rookie. Now time for a real test. Take your pick of supplies."
+-- Reward should include the choice of a light raider chest piece with 1x decay and a raid trophy, 64 rounds of 9mm and a raid trophy, or 150 caps and one raid trophy,
+
+lang["#MISSION_TWEAK_TROOPERS"] = "Taking On the Troopers"
+lang["#MISSION_TWEAK_TROOPERS_DESC"] = "Have you spent any amount of time in the NCR, $playername? Corporate swine, lobbyists, petty tyrants, and sycophants clinging to the old world like it will bring them deliverance... hmph. Today you're going to be striking at the symbol of their power; the humble trooper. Don't let their unkempt and ragged appearance fool you; NCR troopers are formidable. Their plate carriers can tank low caliber rounds, so you may need to bring something beefier or aim for their unprotected limbs. Go kill a few patrols and we'll go from there."
+lang["#MISSION_TWEAK_TROOPERS_HINT"] = "Eliminate four NCR Troopers of any kind. They can commonly be found patrolling the streets of Salt Wells. Attacking NCR Troopers will get you a bounty with the NCR, so be careful!"
+lang["#MISSION_TWEAK_TROOPERS_COMPLTE"] = "Watch out, boys, we got a real killer in the house now! Good job, kid. I can officially call you a member of the 80s now; once you're blooded in, the only way out is through blood in turn..."
+-- Reward should include a set of raider leathers, a sack hood, and the choice between a varmint rifle with one raid trophy or a single shotgun with one raid trophy.
+
+
+-- ███╗   ███╗██████╗        ███████╗ █████╗ ██╗  ████████╗    ██╗    ██╗███████╗██╗     ██╗     ███████╗ 
+-- ████╗ ████║██╔══██╗██╗    ██╔════╝██╔══██╗██║  ╚══██╔══╝    ██║    ██║██╔════╝██║     ██║     ██╔════╝ 
+-- ██╔████╔██║██████╔╝╚═╝    ███████╗███████║██║     ██║       ██║ █╗ ██║█████╗  ██║     ██║     ███████╗ 
+-- ██║╚██╔╝██║██╔══██╗██╗    ╚════██║██╔══██║██║     ██║       ██║███╗██║██╔══╝  ██║     ██║     ╚════██║ 
+-- ██║ ╚═╝ ██║██████╔╝╚═╝    ███████║██║  ██║███████╗██║       ╚███╔███╔╝███████╗███████╗███████╗███████║ 
 -- ╚═╝     ╚═╝╚═════╝        ╚══════╝╚═╝  ╚═╝╚══════╝╚═╝        ╚══╝╚══╝ ╚══════╝╚══════╝╚══════╝╚══════╝
 
 lang["#MISSION_SALTWELLS_LOOSEPARTS"] = "Loose Parts"
