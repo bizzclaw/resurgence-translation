@@ -44,7 +44,7 @@ lang["#SKL_PISTOLS"] = "Pistolero" -- for skills, no need to keep the english wo
 lang["#SKL_PISTOLSDESC"] = "Viser, condition et vitesse de recharge des Pistolets."
 
 lang["#SKL_ASSAULT"] = "Commando"
-lang["#SKL_ASSAULTDESC"] = "Viser, Condition et vitesse de recharge des Armes Automatiques."
+--lang["#SKL_ASSAULTDESC"] = "Viser, Condition et vitesse de recharge des Armes Automatiques."
 
 lang["#SKL_RIFLES"] = "infantrie"
 lang["#SKL_RIFLESDESC"] = "Viser, Condition et vitesse de recharge des armes semi-automatiques, des armes a un tir, fusils à pompes, fusils à levier, et fusils a verrous."
@@ -64,7 +64,7 @@ lang["#SKL_EXPDESC"] = "Connaissance et application de substances volatiles. Une
 lang["#SKL_SNEAK"] = "Filature"
 lang["#SKL_SNEAKDESC"] = "L'abilité a rester caché. Affecte le sonds de vos pas et si les PNJs et Créatures vous voient"
 
-lang["#SKL_SECURITY"] = "Securité"
+--lang["#SKL_SECURITY"] = "Securité"
 lang["#SKL_SECURITYDESC"] = "Connaissance des protocoles de securité, Permets de vous donner acces à des endroits sécuriser, mais aussi de rendre des endroits sécurisé en créant des pieges, Se Paire avec la compétence Explosifs pour créé des mines anti-personels ou anti-vehiculaire."
 
 lang["#SKL_SCAV"] = "Prospection"
@@ -73,7 +73,7 @@ lang["#SKL_SCAVDESC"] = "Efficacité a miner les minerais des la terre, Recupere
 lang["#SKL_ENG"] = "Ingénieur"
 lang["#SKL_ENGDESC"] = "Gouverne les connaissances d'ingénérie; reparation et maintenance des objets ainsi que la création de tout nouveaux objects."
 
-lang["#SKL_VEH"] = "Véhicules"
+--lang["#SKL_VEH"] = "Véhicules"
 lang["#SKL_VEHDESC"] = "La compétence d'utiliser, contrôler et optimiser les deplacemnts des vehicules. Votre experience a manipuler les vehicules vous permetra de faire en sorte de tirer profit le plus possible de votre véhicule et son carburant."
 
 lang["#SKL_SCI"] = "Science"
@@ -88,7 +88,7 @@ lang["#SKL_FOODDESC"] = "Vos connaissances relier a vivre de la terres et des bo
 lang["#SKL_BARTER"] = "Troc"
 lang["#SKL_BARTERDESC"] = "Connaissance du troc, des échanges et du commerce. Peut affecter le niveux auquel vous vendez votre marchandise."
 
-lang["#SKL_SPEECH"] = "Discours"
+--lang["#SKL_SPEECH"] = "Discours"
 lang["#SKL_SPEECHDESC"] = "L'acte de persuader et convaincre. aide a convaincre les autres."
 
 -- Stats
@@ -111,25 +111,25 @@ lang["#STAT_WGDESC"] = "Votre capacité a transporter des objets."
 --██║     ███████╗██║  ██║██║  ██╗███████║
 --╚═╝     ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
 
-lang["#PERK_RUNNGUN"] = "Run'n Gun"
-lang["#PERK_RUNNGUNDESC"] = "Courrir et tirer des armes a une mains ne contraints plus autant a votre viser."
-lang["#PERK_WILDWEST"] = "Wild West"
-lang["#PERK_WILDWESTDESC"] = "Vous tirer 25% plus vite en utilisant des revolvers, des fusils a verrous, des fusils a levier et fusils à pompe."
-lang["#PERK_SHOTGUNSURGEON"] = "Chirurgien du fusils a pompe"
-lang["#PERK_SHOTGUNSURGEONDESC"] = "En utilisant des armes a chevrotine, vous savez bien ou viser. votre precision vous permet d'ignorer 10 point d'armure sur les PNJs tant que vous utilitser des munitions type chevrotine."
-lang["#PERK_COMBATANT"] = "Combatant"
-lang["#PERK_COMBATANTDESC"] = "Vous savez quoi faire lors des combats.Vous ganger 5 point de competence additionel pour les competences de combats seulement, Par contre, vous ne pouvez pas prendre l'Atout Éduqué."
-lang["#PERK_RAPIDRELOAD"] = "Rechargement rapide"
-lang["#PERK_RAPIDRELOADDESC"] = "vos armes recharge 10% plus rapidement.."
-lang["#PERK_EDUCATED"] = "Éduqué"
-lang["#PERK_EDUCATEDDESC"] = "Vous apprenez vite. Gagner 5 points de competences additionel pour les competences Utilitaire seulement, par contre, vous ne pouvez pas prendre l'Atout Combatant."
-lang["#PERK_CANNIBAL"] = "Cannibale"
-lang["#PERK_CANNIBALDESC_1"] = " "
-lang["#PERK_GREENTHUMB"] = "Pouce vert"
-lang["#PERK_GREENTHUMBDESC"] = "Vous avez une affinité naturel pour les plantes, vous avez maintenant 50% de chance de doubler vos récoltes sur les plantes"
-lang["#PERK_GECKOSKINNINGNAME"] = "dépouillage"
-lang["#PERK_GECKOSKINNINGDESC"] = "Vous savez maintenant comment dépouiller les corps des creatures à ecailles comme les geckos\n\nDonne la permission aux joueur de dépouiller les gecko (excluant les Gecko de feux) et les Griffes-De-La-Mort. de leurs peaux et ainsi de les vendres."
-lang["#PERK_GECKOSKINNING2DESC"] = "vous avez decouvert la technique secret pour dépouiller les Gecko de feux!\n\nLaisse la chance au joueur de dépouiller les Gecko de feux et ainsi les vendre à profit."
+lang["#PERK_RUNNGUN_NAME"] = "Run'n Gun"
+lang["#PERK_RUNNGUN_DESC"] = "Courrir et tirer des armes a une mains ne contraints plus autant a votre viser."
+lang["#PERK_WILDWEST_NAME"] = "Wild West"
+lang["#PERK_WILDWEST_DESC"] = "Vous tirer 25% plus vite en utilisant des revolvers, des fusils a verrous, des fusils a levier et fusils à pompe."
+lang["#PERK_SHOTGUNSURGEON_NAME"] = "Chirurgien du fusils a pompe"
+lang["#PERK_SHOTGUNSURGEON_DESC"] = "En utilisant des armes a chevrotine, vous savez bien ou viser. votre precision vous permet d'ignorer 10 point d'armure sur les PNJs tant que vous utilitser des munitions type chevrotine."
+lang["#PERK_COMBATANT_NAME"] = "Combatant"
+lang["#PERK_COMBATANT_DESC"] = "Vous savez quoi faire lors des combats.Vous ganger 5 point de competence additionel pour les competences de combats seulement, Par contre, vous ne pouvez pas prendre l'Atout Éduqué."
+lang["#PERK_RAPIDRELOAD_NAME"] = "Rechargement rapide"
+lang["#PERK_RAPIDRELOADDESC_DESC"] = "vos armes recharge 10% plus rapidement.."
+lang["#PERK_EDUCATED_NAME"] = "Éduqué"
+lang["#PERK_EDUCATED_DESC"] = "Vous apprenez vite. Gagner 5 points de competences additionel pour les competences Utilitaire seulement, par contre, vous ne pouvez pas prendre l'Atout Combatant."
+lang["#PERK_CANNIBAL_NAME"] = "Cannibale"
+lang["#PERK_CANNIBAL_DESC"] = " "
+lang["#PERK_GREENTHUMB_NAME"] = "Pouce vert"
+lang["#PERK_GREENTHUMB_DESC"] = "Vous avez une affinité naturel pour les plantes, vous avez maintenant 50% de chance de doubler vos récoltes sur les plantes"
+lang["#PERK_GECKOSKINNING_NAME"] = "dépouillage"
+--lang["#PERK_GECKOSKINNINGDESC"] = "Vous savez maintenant comment dépouiller les corps des creatures à ecailles comme les geckos\n\nDonne la permission aux joueur de dépouiller les gecko (excluant les Gecko de feux) et les Griffes-De-La-Mort. de leurs peaux et ainsi de les vendres."
+--lang["#PERK_GECKOSKINNING2DESC"] = "vous avez decouvert la technique secret pour dépouiller les Gecko de feux!\n\nLaisse la chance au joueur de dépouiller les Gecko de feux et ainsi les vendre à profit."
 lang["#PERK_MADBOMBER_NAME"] = "Bombardier Fou"
 lang["#PERK_MADBOMBER_DESC"] = "Un Entrainement Spécializé est maintenant disponible pours les survivants avec un talent pour les reparation et un amour pour les explosifs.\n\nCreation de Grenades en Conserve, Fat Mines, et aussi le puissantes Nuka-Grenades sont annodines pour les gens avec le talent."
 lang["#PERK_ECOLOADER_NAME"] = "Munition Econo"
@@ -138,11 +138,11 @@ lang["#PERK_HANDLOADER_NAME"] = "Chargement manuel"
 lang["#PERK_HANDLOADER_DESC"] = "Vous connaissez bien comment travailler avec un banc a rechargement et vous ne laissez pas aller du bon laiton et des cartouche aller a la poubelles!\n\nQuand vous utilizer vos armes, vous êtes plus apte a recuperer les cartouches utilisé. vous débloquez aussi des recettes de construction de munition a main.."
 lang["#PERK_JUNKROUNDS_NAME"] = "Munition feraille"
 lang["#PERK_JUNKROUNDS_DESC"] = "Qui a besoin de laiton de manufacture?\n\nvous pouvez ainsi maintenant créer des munition a cartouches d'acier."
-lang["#PERK_EXQUISITECHEFNAME"] = "Chef gastronome"
-lang["#PERK_EXQUISITECHEFDESC"] = "Vous avez trouvé les recettes sur comment cuisiner des repas exquis." -- WIP
-lang["#PERK_CHEMISTNAME"] = "Chimiste"
-lang["#PERK_CHEMISTDESC"] = "Vous avez decouvert les recettes pour faire des chems." -- WIP
-lang["#PERK_CHEMIST2DESC"] = "Vous Etes Celui Qui Cogne. Vous pouvez maintenant faire des combinaisons de chems.." -- WIP
+lang["#PERK_EXQUISITECHEF_NAME"] = "Chef gastronome"
+lang["#PERK_EXQUISITECHEF_DESC"] = "Vous avez trouvé les recettes sur comment cuisiner des repas exquis." -- WIP
+lang["#PERK_CHEMIST_NAME"] = "Chimiste"
+--lang["#PERK_CHEMISTDESC"] = "Vous avez decouvert les recettes pour faire des chems." -- WIP
+--lang["#PERK_CHEMIST2DESC"] = "Vous Etes Celui Qui Cogne. Vous pouvez maintenant faire des combinaisons de chems.." -- WIP
 
 lang["#PERKREQ_COST"] = "Pas assez de points D'Atout"
 lang["#PERKREQ_MAXED"] = "Atout Maxé"
