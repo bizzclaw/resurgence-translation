@@ -138,7 +138,7 @@ lang["#PROTECTION_UNSAVE_WARNING"] = "ВНИМАНИЕ!\n\nЕсли вы не с
 
 -- Categories
 lang["#CATEGORY_ALL"] = "Всё"
-lang["#CATEGORY_AMMO"] = "Патроны"
+lang["#CATEGORY_AMMO"] = "Птрны"
 lang["#CATEGORY_APP"] = "Одежда"
 lang["#CATEGORY_TOOL"] = "Оружие"
 lang["#CATEGORY_AID"] = "Помощь"
@@ -190,8 +190,8 @@ lang["#UI_OWNEDOVERNEEDED"] = "Имеется / Нужно"
 lang["#UI_BREAKDOWN"] = "Разобрать"
 lang["#UI_RECYCLING"] = "Переработать"
 
-lang["#UI_UTILITYSKILLPOINTS"] = "Очки мастерства "
-lang["#UI_COMBATSKILLPOINTS"] = "Очки боевого мастерства"
+lang["#UI_UTILITYSKILLPOINTS"] = "Очки мастерства"
+lang["#UI_COMBATSKILLPOINTS"] = "Очки боя"
 lang["#UI_POINTSABAILABLE"] = "Очки персонажа"
 lang["#UI_TAGSKILLS"] = "Особые навыки:"
 lang["#UI_SKILL"] = "Навык"
