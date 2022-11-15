@@ -296,8 +296,8 @@ lang["#UI_WAITTOUSE"] = "Вы должны подождать $time сек., ч�
 lang["#UI_WANTEDBY"] = "Разыскивается фракцией: $faction"
 
 -- Inventory
-lang["#INV_ADDED"] = "$item - получено"
-lang["#INV_REMOVED"] = "$item - удалено"
+lang["#INV_ADDED"] = "$item - предмет получен"
+lang["#INV_REMOVED"] = "$item - предмет удалён"
 lang["#EQUIPDENY_NOSLOTS"] = "Вы не можете это надеть."
 lang["#EQUIPDENY_ANIMSET"] = "Оно не подходит для вас."
 
