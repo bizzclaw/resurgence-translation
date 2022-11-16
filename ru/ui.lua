@@ -138,7 +138,7 @@ lang["#PROTECTION_UNSAVE_WARNING"] = "ВНИМАНИЕ!\n\nЕсли вы не с
 
 -- Categories
 lang["#CATEGORY_ALL"] = "Всё"
-lang["#CATEGORY_AMMO"] = "Птрны"
+lang["#CATEGORY_AMMO"] = "Боеп"
 lang["#CATEGORY_APP"] = "Одежда"
 lang["#CATEGORY_TOOL"] = "Оружие"
 lang["#CATEGORY_AID"] = "Помощь"
