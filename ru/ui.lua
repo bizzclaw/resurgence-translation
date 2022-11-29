@@ -600,8 +600,8 @@ lang["#UI_WORLDMAPLOADIN"] = "Вы вошли в регион.\nНажмите �
 lang["#WORLDNAME"] = "Пустошь Тихоокеанского Севера" -- The Pacific Northwest (Northern California to British Columbia) is nicknamed "The Pacific North Wastes"
 
 -- Statistics
-lang["#STAT_TIMEPLAYED"] = "Отыгр. время"
-lang["#STAT_TIMEALIVE"] = "Врем. в живых"
+lang["#STAT_TIMEPLAYED"] = "Отыграно"
+lang["#STAT_TIMEALIVE"] = "Времени в живых"
 lang["#STAT_DEATHS"] = "Смертей"
 lang["#STAT_MISSIONSCOMPLETED"] = "Миссий выполнено"
 lang["#STAT_SALVAGEHARVESTS"] = "Машин разобрано"
