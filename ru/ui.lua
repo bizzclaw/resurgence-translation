@@ -99,7 +99,7 @@ lang["#UI_REPAIR"] = "Починить"
 lang["#UI_SAVE"] = "Сохранить"
 lang["#UI_SAVEWEIGHT"] = "Сохранить ВЕС"
 lang["#UI_EMPTYSTORAGE"] = "<Пусто>"
-lang["#UI_ETAKE"] = "@+use Взять"
+lang["#UI_ETAKE"] = "@+use Взять:"
 lang["#UI_INSPECT"] = "Осмотреть"
 lang["#UI_EUSE"] = "@+use Использовать"
 lang["#UI_RTAKEALL"] = "@+reload Взять всё"
@@ -111,7 +111,7 @@ lang["#UI_NO"] = "Нет"
 lang["#UI_NOTENOUGH"] = "Вам не хватает необходимых предметов."
 lang["#UI_CONFIRMITEMUSE_REPAIR"] = "Использовать предметы для ремонта?"
 lang["#UI_REPAIRNOTREQUIRED"] = "Ремонт не требуется"
-lang["#UI_TARGETDT"] = "ПУ боеприпаса"
+lang["#UI_TARGETDT"] = "ПУ боеп"
 lang["#UI_WEPONWEAR"] = "Износ оружия"
 lang["#UI_COUNTER"] = "@+attack| Контр-атака"
 lang["#UI_NOBOTTLES"] = "Нет пустых бутылок"
@@ -122,7 +122,7 @@ lang["#UI_CREATOR"] = "Создатель"
 
 -- Use Prompts
 
-lang["#UI_PICK"] = "Подобрать"
+lang["#UI_PICK"] = "Сорвать"
 lang["#UI_HARVEST"] = "Добыть"
 lang["#UI_MINE"] = "Добыть"
 lang["#UI_EXTRACT"] = "Извлечь"
@@ -149,7 +149,7 @@ lang["#CATEGORY_SOUP"] = "Супы"
 lang["#CATEGORY_CURR"] = "Валюты"
 lang["#CATEGORY_MISC"] = "Разное"
 lang["#CATEGORY_CONV"] = "Преобразование"
-lang["#CATEGORY_MOD"] = "Модификации оружия"
+lang["#CATEGORY_MOD"] = "Модификации"
 lang["#CATEGORY_STD"] = "Обычный"
 lang["#CATEGORY_HP"] = "Экспансивный"
 lang["#CATEGORY_AP"] = "Бронебойный"
@@ -187,8 +187,8 @@ lang["#UI_REQUIREMENTS"] = "Требования"
 -- Currently used for doors that have an item requirement: OPEN with 1 RED KEYCARD
 lang["#UI_CRAFTNEEDED"] = "Необходимо"
 lang["#UI_OWNEDOVERNEEDED"] = "Имеется / Нужно"
-lang["#UI_BREAKDOWN"] = "Разобрать"
-lang["#UI_RECYCLING"] = "Переработать"
+lang["#UI_BREAKDOWN"] = "Разборка:"
+lang["#UI_RECYCLING"] = "Переработка"
 
 lang["#UI_UTILITYSKILLPOINTS"] = "Очки мастерства"
 lang["#UI_COMBATSKILLPOINTS"] = "Очки боя"
@@ -213,21 +213,21 @@ lang["#UI_XPGAIN"] = "Получения опыта"
 
 -- Effects. All effects will start with NOW_SICK or NO_LONGER_SICK
 -- Radiation Sickness
-lang["#NOW_SICK"] = "Теперь у вас"
-lang["#NO_LONGER_SICK"] = "У вас больше нет"
+lang["#NOW_SICK"] = "Вы получили:"
+lang["#NO_LONGER_SICK"] = "У вас больше нет:"
 
 -- Human Rad Effects
-lang["#RAD1_NAME"] = "незначительное радиационное отравление"
-lang["#RAD2_NAME"] = "расширенное радиационное отравление"
-lang["#RAD3_NAME"] = "критическое радиационное отравление"
-lang["#RAD4_NAME"] = "смертельное радиационное отравление"
-lang["#RAD5_NAME"] = "фатальное радиационное отравление"
+lang["#RAD1_NAME"] = "Незначительное радиационное отравление"
+lang["#RAD2_NAME"] = "Прогрессирующее радиационное отравление"
+lang["#RAD3_NAME"] = "Критическое радиационное отравление"
+lang["#RAD4_NAME"] = "Смертельное радиационное отравление"
+lang["#RAD5_NAME"] = "Фатальное радиационное отравление"
 
 -- Non Harmful Radiation effects (Super Mutant / Ghoul)
-lang["#GOODRAD1_NAME"] = "небольшая дозировка излучения"
-lang["#GOODRAD2_NAME"] = "средняя дозировка излучения"
-lang["#GOODRAD3_NAME"] = "высокая дозировка излучения"
-lang["#GOODRAD4_NAME"] = "макс. дозировка излучения"
+lang["#GOODRAD1_NAME"] = "Небольшая дозировка излучения"
+lang["#GOODRAD2_NAME"] = "Средняя дозировка излучения"
+lang["#GOODRAD3_NAME"] = "Высокая дозировка излучения"
+lang["#GOODRAD4_NAME"] = "Максимальная дозировка излучения"
 
 
 --[[
@@ -422,7 +422,7 @@ lang["#CRAFTING_RELOADING"] = "Верстак для снаряжения пат
 lang["#CRAFTING_WORKBENCH"] = "Верстак"
 lang["#CRAFTING_MODBENCH"] = "Верстак для модификаций"
 lang["#CRAFTING_TOOL"] = "Инструмент"
-lang["#UI_CRAFT"] = "Создать"
+lang["#UI_CRAFT"] = "Изготовление"
 lang["#UI_PURCHASE"] = "Приобрести"
 lang["#UI_TAKE"] = "Взять:"
 lang["#UI_GRAB"] = "Схватить"
@@ -660,7 +660,7 @@ lang["#MISSIONREWARD_MONEYDESC"] = "Получите полную денежну
 lang["#MISSIONREWARD_REPUTATION"] = "Награда репутацией"
 lang["#MISSIONREWARD_REPUTATIONDESC"] = "Примите меньшую награду за выполнение этой миссии, чтобы получить больше благосклонности этой фракции."
 
-lang["#MISSIONREWARD_INFLUENCE"] = "Награда влиянием сообщества"
+lang["#MISSIONREWARD_INFLUENCE"] = "Награда влиянием"
 lang["#MISSIONREWARD_INFLUENCEDESC"] = "Завершите эту миссию от имени вашего сообщества, чтобы дать вашему сообществу больше влияния."
 
 lang["#MISSIONREWARD_OPTION1"] = "Первый вариант"
