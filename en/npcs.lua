@@ -46,6 +46,9 @@ lang["#NPC_YAOGUAIS"] = "Yao Guais"
 -- Mirelurks
 lang["#NPC_MIRELURK"] = "Mirelurk"
 lang["#NPC_MIRELURKS"] = "Mirelurks"
+--Anglers
+lang["#NPC_ANGLER"] = "Angler"
+lang["#NPC_ANGLERS"] = "Anglers"
 
 -- ██╗  ██╗██╗   ██╗███╗   ███╗ █████╗ ███╗   ██╗ ██████╗ ██╗██████╗
 -- ██║  ██║██║   ██║████╗ ████║██╔══██╗████╗  ██║██╔═══██╗██║██╔══██╗
@@ -132,10 +135,23 @@ lang["#NPC_CIPHERAGENT_RANK4"] = "Cipher Management"
 lang["#NPC_CIPHERAGENT_RANK5"] = "Cipher Executive"
 lang["#NPC_CIPHERAGENT_SNIPER"] = "Watcher"
 
+--Enclave
+lang["#NPC_ENCLAVERANK1"] = "Soldier" --Enclave Light Infantry
+lang["#NPC_ENCLAVERANK1A"] = "Soldier" --Enclave Light Infantry
+lang["#NPC_ENCLAVERANK1B"] = "Soldier" --Enclave Light Infantry
+lang["#NPC_ENCLAVERANK1C"] = "Soldier" --Enclave Light Infantry
+lang["#NPC_ENCLAVERANK1D"] = "Soldier" --Enclave Light Infantry
+lang["#NPC_ENCLAVERANK1E"] = "Soldier" --Enclave Light Infantry
+lang["#NPC_ENCLAVERANK2"] = "Heavily Armored Soldier" --Enclave Patrolman
+lang["#NPC_ENCLAVERANK3"] = "Heavily Armored Soldier" --Enclave Heavy Infantry
+lang["#NPC_ENCLAVESCIENTIST1"] = "Scientist" --Enclave Scientist
+lang["#NPC_ENCLAVESCIENTIST2"] = "Combat Medic" --Enclave Combat Medic
+lang["#NPC_ENCLAVESCIENTIST3"] = "Scientist" --Enclave Geologist
+
 -- Super Mutants
 lang["#NPC_SUPERMUTANT"] = "Super Mutant"
 lang["#NPC_SUPERMUTANTS"] = "Super Mutants"
---Super Mutant "Rejected" clan name
+--Super Mutant "Rejects" clan name
 lang["#NPC_REJECTEDSM_RANK1"] = "Rejected Grunt"
 lang["#NPC_REJECTEDSM_RANK2"] = "Rejected Brute"
 lang["#NPC_REJECTEDSM_RANK3"] = "Rejected Master"

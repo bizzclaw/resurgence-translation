@@ -17,6 +17,7 @@ lang["#UI_TELEPORTLEAVE"] = "Are you sure you want to leave?\n\n$requirement req
 
 lang["#UI_TELEPORTERBLOCK_FACTION_FAVOR"] = "You do not have a high enough Favor with $faction to Enter.\n\nYou need: $favorRequired\nYou have: $favorCurrent\n\nGain Favor by completing Missions for the $faction."
 lang["#UI_TELEPORTERBLOCK_FACTION_HOSTILE"] = "You are currently Hostile with the $faction\n\nYou cannot enter this area."
+lang["#UI_TELEPORTERBLOCK_FACTION_REPRESENT"] = "You must be representing the $faction to enter!\n\nYou can represent a faction by getting enough favor and clicking on the faction in the reputation menu."
 
 lang["#UI_ITEMCONSUMED"] = "$item will Be taken"
 lang["#UI_ITEMNOTCONSUMED"] = "$item must be in your Inventory (Not taken)"
@@ -271,6 +272,9 @@ lang['#BITE_GOLDGECKO'] = "Radioactive Bite"
 lang['#MELEE_REAVER'] = "Reaver's Embrace"
 lang['#MELEE_GLOWING'] = "One's Glow"
 
+--Special
+lang['#DISEASE_HALLOWEENCURSE'] = "The Curse"
+
 --Notifications
 lang["#NOTIFY_WEAPON_BROKEN"] = "Weapon broken!"
 lang["#NOTIFY_WEAPON_JAM"] = "Weapon Misfired!"
@@ -368,6 +372,32 @@ lang["#TUTORIAL_WANTEDDEAD"] = "You are Wanted!\n\nYou have entered a region con
 
 
 lang["#TUTORIAL_PVP"] = "WARNING!!\n\nYou are about to enter a PVP Area!\n\nOther players will be able to damage and kill you!\n\nYou will not be able to save items in PVP areas until you return to a safe zone."
+
+lang["#TUTORIAL_WEAPONBASH"] = "@gmod_undo - Melee Bash"
+lang["#TUTORIAL_POWERATTACK"] = "@gmod_undo - Power Attack"
+
+lang["#TUTORIAL_PERSONALSTORAGE"] = "Store items in your Personal Storage."
+lang["#TUTORIAL_MISSIONBOARDS"] = "Complete tasks for rewards at the mission board."
+lang["#TUTORIAL_PICKPLANT"] = "@+use Harvest."
+lang["#TUTORIAL_MISSIONGIVER"] = "Talk to Certain Characters to take on missions."
+lang["#TUTORIAL_TERMINAL"] = "Terminals contain notes from the past."
+lang["#TUTORIAL_MODBENCH"] = "Modify Equipment at Mod Benches."
+lang["#TUTORIAL_WORKBENCH"] = "Break down Junk and craft Items at Workbenches."
+lang["#TUTORIAL_CAMPFIRE"] = "Campfires can cook food and Restore Health when close."
+lang["#TUTORIAL_ARMORBENCH"] = "Craft Armor and Clothing at Armor Benches."
+lang["#TUTORIAL_LOADINGPRESS"] = "Break down and Craft Ammo at Loading Presses."
+lang["#TUTORIAL_CHEMSTATION"] = "Make Drugs at Chemistry Stations."
+lang["#TUTORIAL_AMMOFACTORY"] = "Power the factory up to make ammo."
+
+lang["#TUTORIAL_POWER_CONTROLLER"] = "Remotely Access all connected Factory Machines."
+lang["#TUTORIAL_POWER_DISTRIBUTOR"] = "Maintain and Protect Distributors to upkeep production."
+lang["#TUTORIAL_POWER_GENERATOR"] = "Load Nuclear Material to start Generator."
+lang["#TUTORIAL_POWER_BRASSPRESS"] = "Load Copper to make Brass."
+lang["#TUTORIAL_POWER_MINER"] = "Power the Generator to start Mining."
+
+-- Campfire Healing
+lang["#CAMPFIRE_TOOLOW"] = "Your health is too low to heal from a camp fire."
+lang["#CAMPFIRE_HEAL"] = "The fire warms and relaxes you, healing your wounds."
 
 -- Radio Station
 lang["#UI_ADJUSTVOLUME"] = "Set Volume"
@@ -618,6 +648,7 @@ lang["#SETTING_AMBIENT_MUSIC"] = "Ambient Music Volume"
 lang["#SETTING_COMBAT_MUSIC"] = "Combat Music Volume"
 lang["#SETTING_RADIO_MUSIC"] = "Radio Music Volume"
 lang["#SETTING_FOV"] = "Field Of View (Unsighted)" -- imply that the field of view settings does not affect aiming zoom.
+lang["#SETTING_FOVADS"] = "Field Of View (ADS)"
 lang["#SETTING_PIPSPEED"] = "Pip-Boy Cursor Sensitivity"
 lang["#SETTING_VIEWBOB"] = "View Bob Scale"
 lang["#SETTING_SCOPESCALE"] = "Scoped Sensitity Modifier"
@@ -628,6 +659,7 @@ lang["#SETTING_HUD"] = "Enable HUD"
 lang["#SETTING_OTHERLIGHTS"] = "Other Player's Lights"
 lang["#SETTING_TOGGLEAIM"] = "Weapon Toggle Aim"
 lang["#SETTING_CROSSHAIR"] = "Enable Crosshair"
+lang["#SETTING_TPPTOFPP"] = "Enable FPP ADS with Scoped Weapons"
 lang["#SETTING_TOGGLESPRINT"] = "Toggle Sprinting"
 lang["#SETTING_RADIO_EXTRA"] = "Extra Radio Stations (not lore friendly)"
 lang["#SETTING_SKIPFADEIN"] = "Skip Intro Fadein"
@@ -813,7 +845,7 @@ lang["#UI_REP_EXILED"] = "Exiled" -- Currently unused. Will be used if you betra
 lang["#NOTIFY_REP_STATUS"] = "Your status with the $faction is now $status"
 lang["#NOTIFY_REP_WANTED"] = "You are now wanted by the $faction in regions they control and they will attack you on sight!"
 lang["#NOTIFY_REP_WANTED_ENDED"] = "You are no longer wanted by the $faction in regions they control."
-lang["#NOTIFY_REP_FAVOR"] = "Your Favor with the $faction has changed too $favor."
+lang["#NOTIFY_REP_FAVOR"] = "Your Favor with the $faction has changed to $favor."
 lang["#NOTIFY_REP_RELATION"] = "Your Reputation with the $faction is now $relation."
 
 lang["#UI_FACTION_REPRESENT"] = "Represent"
@@ -834,18 +866,60 @@ lang["#UI_REPUTATION_PROTECTED_DESC"] = "Attacking you is a crime."
 lang["#UI_REPUTATION_UNPROTECTED"] = "Not Protected"
 lang["#UI_REPUTATION_UNPROTECTED_DESC"] = "Attacking you is not a crime against them."
 
-lang["#SETTING_PVP_PROTECTION"] = "Prevent damage too characters that attacking will cause a crime, and from allied factions."
-lang["#SETTING_PVP_REPORT_CRIMES"] = "Report Crimes against me to regional or representing factions."
+lang["#SETTING_PVP_PROTECTION"] = "Disable Damage to and from players/npcs protected by factions that protect you."
+lang["#SETTING_PVP_REPORT_CRIMES"] = "Report Crimes against me to protecting or representing factions."
 
 lang["#UI_PROTECTION_TOWNUPDATE"] = "Your protection setting will apply only the next time you enter a safe zone!"
 
-lang["#SETTING_PVP_PROTECTION_ENABLED"] = "PVP Protection settings are Enabled"
-lang["#SETTING_PVP_PROTECTION_DISABLED"] = "PVP Protection settings are Disabld!"
+lang["#SETTING_PVP_PROTECTION_ENABLED"] = "Faction Protection settings are Enabled"
+lang["#SETTING_PVP_PROTECTION_DISABLED"] = "Faction Protection settings are Disabld!"
 
-lang["#SETTING_PVP_TARGET_PROTECTION"] = "You cannot take or do damage because the target is protected by the $faction, which will trigger a crime if you attack. You can disable this from settings."
-lang["#SETTING_PVP_ATTACKER_PROTECTION"] = "You cannot take or do damage do this player because they have protections enabled and are protected by the $faction."
+lang["#SETTING_PVP_PROTECTION_NOFACTION"] = "You cannot take or do damage because the target is protected by the $faction, which you are also protected by. You can disable this from settings."
+lang["#SETTING_PVP_PROTECTION_CHARGED"] = "You cannot take or do damage because the target is protected by the $faction, which will give you a crime. You can disable this from settings."
+lang["#SETTING_PVP_ATTACKER_INFACTION"] = "You cannot take or do damage do this individual because they are protected by your faction, the $faction."
 lang["#SETTING_PVP_FACTION_PROTECTION"] = "You cannot damage Faction Members!"
+lang["#SETTING_PVP_FACTION_PROTECTED"] = "Protected by your faction."
 
+
+
+
+
+lang["#MISSION_GIVER"] = "Assigner" 
+
+-- ████████╗██╗   ██╗██████╗ ███████╗███████╗
+-- ╚══██╔══╝╚██╗ ██╔╝██╔══██╗██╔════╝██╔════╝
+--    ██║    ╚████╔╝ ██████╔╝█████╗  ███████╗
+--    ██║     ╚██╔╝  ██╔═══╝ ██╔══╝  ╚════██║
+--    ██║      ██║   ██║     ███████╗███████║
+--    ╚═╝      ╚═╝   ╚═╝     ╚══════╝╚══════╝
+
+lang["#DISCOVER_INFO"] = "Explore $location."
+lang["#DELIVER_INFO"] = "Give $item to $character."
+lang["#DELIVER_INFO_NOITEM"] = "Talk to $character."
+lang["#SCAVENGE_INFO"] = "Loot $amount containers."
+lang["#SALVAGE_INFO"] = "Fully salvage $amount vehicles."
+lang["#HARVEST_INFO"] = "Harvest $amount plants."
+lang["#FETCH_INFO"] = "Obtain $amount $name."
+lang["#SPECIALFETCH_INFO"] = "Retrieve The $item."
+lang["#CRAFT_INFO"] = "Create $amount $name."
+lang["#MASSACARE_INFO"] = "Find and kill $amount $target."
+lang["#MASSACARE_INFO_LOCATION"] = "Kill $amount $target in $location."
+lang["#MASSACARE_INFO_WEP"] = "Find and Kill $amount $target with a $wep."
+lang["#MASSACARE_INFO_LOCWEP"] = "Kill $amount $target in $location with a $wep."
+
+-- ██╗  ██╗██╗   ██╗██████╗     ██████╗ ██╗███████╗██████╗ ██╗      █████╗ ██╗   ██╗
+-- ██║  ██║██║   ██║██╔══██╗    ██╔══██╗██║██╔════╝██╔══██╗██║     ██╔══██╗╚██╗ ██╔╝
+-- ███████║██║   ██║██║  ██║    ██║  ██║██║███████╗██████╔╝██║     ███████║ ╚████╔╝
+-- ██╔══██║██║   ██║██║  ██║    ██║  ██║██║╚════██║██╔═══╝ ██║     ██╔══██║  ╚██╔╝
+-- ██║  ██║╚██████╔╝██████╔╝    ██████╔╝██║███████║██║     ███████╗██║  ██║   ██║
+-- ╚═╝  ╚═╝ ╚═════╝ ╚═════╝     ╚═════╝ ╚═╝╚══════╝╚═╝     ╚══════╝╚═╝  ╚═╝   ╚═╝
+
+lang["#MASSACRE_UI"] = "Killed"
+lang["#SCAVENGE_UI"] = "Containers Looted"
+lang["#SALVAGE_UI"] = "Vehicles Salvaged"
+lang["#HARVEST_UI"] = "Plants Harvested"
+lang["#CRAFT_UI"] = "Create"
+lang["#DISCOVER_UI"] = "Explore"
 
 
 

@@ -191,6 +191,389 @@ lang["#INEU_RAIDERFACTORYLOG"] = {
 	}
 }
 
+-- missile base logs
+lang["#YB_BARRACKS"] = {
+	name = "Terminal",
+	logs = {
+		{"It's happening.", [[
+			**** NORTH YOLLA BOLLY MISSILE SILOS ****
+			10.23.2077
+
+			Thought I should document this in writing for historical purposes- they did it. The world is ending.
+
+			You won't catch me spending my last minutes crying into a computer though. We're gonna go drink all the alcohol rations and blow up as much munitions as we can. Fireworks.
+			
+			If we survive this- who am I kidding, we're not surviving this. We live in a missile base!
+
+			Best, Cpl. Gerald Tabisola
+		]]},
+		{"Weird meetings.", [[
+			**** NORTH YOLLA BOLLY MISSILE SILOS ****
+			08.07.2077
+
+			I've been stationed here about a year now, so I guess it hasn't been long, but it's been real strange these past few months. Ever since our esteemed guest arrived and departed, we've been getting a lot of weird visitors for "very important, classified meetings" constantly.
+			Supposedly they're engineers here to work on the continued automation of the base. They come at random times, never listed on any schedules, get the entire red carpet put out for them, and head into that conference room in the control room. Thing is, nobody's ever seen them leave.
+			
+			Not only that, A lot of these people don't seem like engineers. And some of them had kids with them. Lt. Faolan thinks she saw the Secretary of Defense come through last week. I think she made it up- who the fuck knows what the Secretary of Defense looks like?
+
+			Best answer anyone's gotten is "The meetings last really long, you just didn't see when they left." Gotta be horseshit.
+		]]},
+		{"THE PRESIDENT!!!", [[
+			**** NORTH YOLLA BOLLY MISSILE SILOS ****
+			04.10.2077
+
+			The President stayed here. Yes, The President of the fucking United States of America visited our shitty little missile base. He was "just visiting America's vigilant last line of defense", as he called us, to keep our spirits up- apparently.
+			
+			We had a great time, partied with the president, then prompty told to keep our mouths SHUT about it, with threat of the bad end of a barrel if word got out. It's extremely classified that he even left Washington.
+			
+			I think they're moving him around the country incase the reds try to get him- keeping his location secret. Why us, though? 
+		]]},
+		{"Next Page - Older Entries", [[
+			**** NORTH YOLLA BOLLY MISSILE SILOS ****
+
+			LOCKED - PASSWORD REQUIRED.
+		]]}
+	}
+}
+
+--Yolly Bolly, Sea Pit (Dark part of the Yolly Bolly cave with water in it)
+
+lang["#TERMINAL_DIRECTORS_EVANS"] ={
+	name = "Directors Terminal",
+	logs = {
+		{"Logistics and Information Recording", {
+			{"Introductions", [[
+				**** YOLLY BOLLY EIRE' MINING CORPERATION ****
+                May 2nd, 2201.
+                
+                God praise be to the fact that introductions went smoothly! Last time I had crews meet with one another back in Redding they nearly fought over a pack of preserved cigarettes. We even assigned some crew leads.
+
+                Marcus was the first lead, real headstrong fellow who didn't listen to anything lest it had breasts and a promise. If it weren't for the fact that he's stupid and doesn't complain then he'd be off the team.
+
+                Ashley was the second crew lead, she had a weird aura about here. Kind of shy but loud when on the job, confidence on command kind of girl.
+                
+                Schanelle was the third person. I guess you could call her that. She was a ghoul, skin still melting and all that. Regardless of how ugly she is she's got the most experience out of everyone combined.
+			
+                Can't wait to see you Dilligan, love you!
+                ]]},
+			{"Operations Progress - 2201", [[
+                **** YOLLY BOLLY EIRE' MINING CORPERATION ****
+                SENT DECEMBER 5TH, 2201
+
+			    May 11th, 2201: Forming tracks into what'll soon be the greatest mining operation south of Redding. With a few negotiations here and there word hasn't gotten back to those ore barons up north in Redding. No complications.
+
+                May 29th, 2201: Beginning operations on digging into the side of the mountain, deeper we go, the more we'll find. One injury, faulty equipment.
+
+                July 3rd, 2201: Framework for future development has been set up as wood pillars and struts are constructed and fashioned along the sides of the walls. Sheet metal should be in by next week. No complications.
+
+                November 23rd, 2201: Paid leave has been asked for incessantly by several onsite workers due to "festive" reasonings. I've denied nearly all of them, with this in mind I've also asked that desserts be bought this next Wednesday for the crew to assure they are compliant with future change. No complications.
+                ]]},
+            {"Operations Progress - 2202", [[
+                **** YOLLY BOLLY EIRE' MINING CORPERATION ****
+                SENT NOVEMBER 11th, 2202.
+
+                January 2nd, 2202: I told them for nearly two months now! Festivities and holidays aren't covered in their contracts. I've even heard they're having late night meetings. No complications, expect that to change.
+
+                March 16th, 2202: Schanelle and the other crew leads approached me with a paper with demands on it. Marcus just agreed with everything that Schanelle said and Ashely just sat there quietly. The mines framework is nearly complete and they know that, trying to drain us dry! Its extortion!
+
+                April 1st, 2202: Following new union protocols, we've had to offer each laborer a minimum amount of days off, so progress has slowed but stabalized. 
+
+                October 3rd, 2202: We've recently broken into a new underground cavern. Wateres deeply embedded in it. Besides that, I'll be honest, I'm kind of scared. The crew leads haven't speaked to me in a while. Something is up.
+			    ]]},
+            {"Operations Progress - 2203", [[
+                **** YOLLY BOLLY EIRE' MINING CORPERATION ****
+                SENT %ERROR%, MESSAGE TRANSMISSION DISRUPTED.
+
+                February 3rd, 2203: They're here! I've gotten what has felt like nearly one-hundred reports on some sickos going around and threatening my boys to quit the team. Things aren't looking good Dillinger.
+
+                May 18th, 2203: I got a personal visit from a few mercenaries at our mining camp last night, with everything nearly complete and dough coming in I thought we'd be fine. They were with Dan, the Morningstar company in Redding. He threatened me Dilligan, I'm scared.
+
+                June 21st, 2203: You are pulling through sweetheart! The outpost got completed and we're making more money than ever. Lobbying the NCR to protect frontier investments has never been greater. I even heard the unions are in trouble because the NCR's cracking down on demonstrations! Things are on the up, love.
+
+                December 29th, 2203: Dilligan I'm going back to Reno, I got a bad feeling about this. 
+
+                ]]},
+            {"EMERGENCY HELP HELP HELP", [[
+				**** YOLLY BOLLY EIRE' MINING CORPERATION ****
+                January 1st, 2204. 
+                
+               |MESSAGE NOT RECIEVED, TRANSMISSION ERROR. DISPOSABLE HOLOTAPE AVAILABLE.|
+            
+                Last night there was fire everywhere, the whole cave! I don't know what happened but explosions started going off. Oh god I think they're about to come in. Dillinger if I die I just wanted to say I LOVE YOU YOU MEAN THE WORLD TO ME STAY STR-
+                ]]},
+            
+            
+		}}
+      
+	}
+}
+
+lang["#TERMINAL_CREW_LEADER"] = { 
+	name = "Crew Leaders Terminal",
+	logs = {
+		{"Crew Records", {
+			{"Crew Additions", [[
+				**** YOLLY BOLLY EIRE' MINING CORPERATION ****
+				May 3rd, 2201. 
+
+				Michael Scotts - 23 - Hard Laborer - May 4th, 2201
+
+				Kathryn Schinks - 62 - Hard Laborer - May 7th, 2201
+
+				Salty Samuel - 15 - Hard Laborer - May 9th, 2201.
+
+				Zachariah Abrams - 21 - General Security - December 15th, 2203.
+
+				Jackson Abrams - 22 - General Security - December 15th, 2203.
+
+				
+			
+			]]},
+			{"Original Crew Roster", [[
+				**** YOLLY BOLLY EIRE' MINING CORPERATION ****
+				
+				Steve Maxsons - 28 - Hard Laborerer - May 8th, 2201.
+
+				Robert Bittens - 21 - Hard Laborer - May 9th, 2201.
+
+				Lynch M'Galiger - 25 - Hard Laborer - May 9th, 2201.
+
+				Jackson Ruffalo - 19 - Hard Laborer - May 10th, 2201.
+
+				Killstone Maxpad - 29 - Human Resources, Onsite Doctor - May 10th, 2201.
+
+				Rapids Ula - 23 - Human Resources - May 10th, 2201.
+
+				Slav Urikson - 37 - Explosives Expert, Animal Tamer - May 10th, 2201.
+
+				Max Abrams - 24 - Ore Diagnostics - May 11th, 2201.
+		
+		   
+			]]},
+		}},
+		{"Journal", {
+			{"Orientation", [[
+			    **** YOLLY BOLLY EIRE' MINING CORPERATION ****
+			    May 3rd, 2201.
+
+				Orientation was a disaster. I have to work with a near mute and an idiot who can't stand but to look down at anyones chest with an idiotic slur. Guy doesn't even know my name and he's craving raw flesh, and I thought that I was the feral one.
+
+				Only good thing about this job is the pay. I've had to spend nearly 200 years trying to find a job like this, can't throw an opprotunity like this away, y'know, lest the director tries and pull a fast one like Jammer Mills did in 45'.
+			]]},
+
+			{"Idiots By The Hundreds", [[
+				**** YOLLY BOLLY EIRE' MINING CORPERATION ****
+				March 14th, 2202. 
+
+				I don't keep records that often but I nearly dented my terminal just thinking about it! Director, especially after what we're going through, didn't offer us paid leave again! 
+
+				Y'know with bombs melting my skin off and all that I'd at least hope that we'd consider that people have better things than to slave away in dante's inferno. 
+
+				I'm gonna get with the other crew leads, see what I can do. That director ain't shorting me again. 
+				
+				]]},
+
+				{"WE NEED CHANGE", [[
+				**** YOLLY BOLLY EIRE' MINING CORPERATION ****
+				February 12th, 2203.
+
+				I woke up and found a dead mutated mantis on my doorstep. Some thugs came and dropped right outside. They must've been the ones from last night. I'm hiring some security from the Abrams family, I'm in desperate need of some help, now or never. 
+				
+				I know Max is related to the guys so I'll ask him, see if they can investigate into the issue, see what's going on out there.
+
+				Regardless I'm sick and tired of the director not doing anything. If I hear one more complaint about team effectiveness I'm gonna break! I'm calling the unions, IM NOT LETTING THOSE RUNTS TAKE MY HARD EARNED MONEY AWAY FROM ME SO GOD MAY HELP ME.
+				
+				]]},
+
+				{"Action Must Be Taken", [[
+				**** YOLLY BOLLY EIRE' MINING CORPERATION ****
+				October 12th, 2203.
+
+				Me and the others have been gathering some family and anyone who could help us. I've gotten together some teams going out east and getting some contacts past New Reno. 
+				
+				A small town, Salt Wells, nice place. Past it though are some less than favorable figures, people that'd be more than glad to help a couple misfits take down some troopers.
+
+				They called themselves the 80's, me? I call them our best shot at getting what we want. I'm not letting those narrow brained brahmin herders in the NCR held build monopolies!
+				
+				]]},
+				{"The Time has Come", [[
+				**** YOLLY BOLLY EIRE' MINING CORPERATION ****
+				December 28th, 2203.
+
+				Tomorrow blood will spill. My head will bow and my eyes will furrow. The NCR knew what was coming to them long before they came here. 
+
+				They think this is it? That it'll just be us that fight against their rule?!? The whole wasteland will! 
+				
+				ALL UNTIL WE GET WHAT WE WANT, WE WILL CONSUME THEM, I WILL CONSUME THEM, I WILL I WILL I WILL I WILL!
+				
+				I, SCHANELLE, NO, KILLER-ROCK, WILL TAKE THE NCR DOWN WITH ME IF I HAVE TO! NO WORKER LEFT TO ROT UNDER AUTHORITARIAN RULE NO MATTER THE COST!
+
+
+				]]},
+		}}
+	}
+}
+
+lang["#TERMINAL_RAIDER_LT_MARCUS"] = { 
+	name = "Marcus Wranglers Terminal",
+	logs = {
+		{"Journal", {
+			{"Scum, ALL OF THEM", [[
+			January 2nd, 2204.
+
+			I don't even care about those gurls! They don't hate the NCR as much as me. Schanelle and Ashely been talking behind my back lots, I hate those rats! 
+
+			Just becuse I got a taste don't mean I'm an ofender. I'm an entrepreneur! That's Marcus baby, best of the best, womanizer and ghoulslazer at heart.
+			   
+			]]},
+
+			{"BASHING TIME", [[
+			January 5th, 2204.
+			
+			Stupide NCR patrols came down to finally investigate what happend here at the mines. We pade them a little visit and capped there heds in with lead pipes.
+
+			Me and the guys are readyng the rest to sweep over the plac. Ain't no crevice where Rock Bitrs won't be! They won't evn know what'll hit em! 
+				
+
+			]]},
+
+			{"Racking Up Kills", [[
+			February 8th, 2204
+
+			I've been racking up kills on settlers left and right! I ravaged a few settlements with the boys, specially that one in town. Heard some people were holding up there with NCR protection-
+
+			DON'T THAY KNOW THEY ARE THE ENEME?!?! THEY'RE THE ONES THAT SURPRESS US AND KEEP US WEAK, I'LL SKIN EVERY MAN, WOMAN, OR CHILD THAT WORKS FOR THOSE RUNTS! WE ARE GOOD, THEY ARE BAAAD.
+			
+			I KILLED THEM ALL, WE MADE THAT FACTORIE TOWN A BIG OLE GHOST TOWN. SHOWS THOSE TRATORS OF THE WORKIN CLAS RITE!
+			]]},
+
+			{"The FAT SACKIN' ", [[
+			May 2nd, 2204. 
+
+			Boss talked about som spirtual mening with the date today. Told me and the boys to go lay out clifside and burne it up. 
+
+			Befor I left, Ashley taugt me how to ad more flaver to my text. 
+
+			So it went lik this... I, Marcus, jumpd intoo the fray with me and the guys, we snuk along the clif ege on the est side out of the snipers view.
+
+			We jumpd up from the canyoon, overuming the NCR defenses, and killed nearly all of them! I ran after they pushd but the fire coold be seen all throughout Yolly.
+
+			NOW THAT'S A DISPLEY, TAKE THAT SCHANELLY. I'M THE BETER BOSS!
+
+
+
+			]]},
+			{"NCR got MAD", [[
+			July 9th, 2204.
+
+			NCR forces ran us down in town! We had to retreet to the mining settlement, in the end fougt them back but Ashley and Schanelle are tryng to cut me off, not listenin to me. 
+			
+			DON'T THAY KNOW WHO I AM! I AM MARCUS, MAN-STOMPER, I'LL KILL THEM I SWEAR!
+
+
+			]]},
+
+			{"THAY ARE AGAINST ME", [[
+			November 12th, 2204.
+
+			We've lost grond... Ashley said to usee mor... I'm startin to get sad... we've retreeted into the mines... and while we may hold for another life.
+
+			We could win... BUT WHY ARE THAY NOT LISTENING TO ME, I WANT TO KILL KILL KILL KILL KILL YET THAY SIT SIT SIT SIT SIT SIT SIT SIT- 
+
+			**** DATA FILE FULL ****
+			]]},
+		}}
+	}
+}
+
+lang["#TERMINAL_RAIDER_PLANNER_ASHLEY"] = { 
+	name = "Ashley Lynch's Terminal",
+	logs = {
+		{"Analysis Of Environmental Changes and Daily Life", {
+			{"Preperation and Environmental Analysis", [[
+			January 1st, 2204.
+
+			Environmental analysis of the environment dictates that a defensive conflict will, eventually, result in a 89% chance at a loss.
+
+			In regards to plans established by Schanelle. I believe that peace can still be achieved, even if we're being puppeted by a couple of bike junkies.
+			
+			Regardless of how savage they are, they're still helping us. This fact in mind, they've added to our munitions stockpile tenfold, allowing for a 225% increase in unit effectiveness in the long term.
+
+			This current base of operation will allow us to deploy our units more effectively. Before we arrived a cult was present here, after a quick "removal" of them and their assets, we established ourselves without any trouble.
+			]]},
+
+			{"Unknown Source of New Recruits, Radicals and Savages", [[
+			January 29th, 2204.
+			
+			Recent labor contractors and asssociated corperations within NCR borders have cut down on their overall maximum pay and have tried subverting NCR anti-baron and anti-monoply laws.
+
+			With all this in mind. A collection in analysis, angry men, women, and other indivudals, all who want payback at a system that rips them apart. They are incompetent in all regards so require training. 
+
+			We'll leave training to Marcus. A meathead with a heart as large as his brain. Will forward these thoughts to Schanelle, we need to convene on unit assignment.
+
+			]]},
+
+			{"AWOL Units, Meathead Marcus ", [[
+			February 16th, 2204
+
+			Marcus and his personal crew of meatheads nearly a week ago raided the factory town after the NCR launched a expeditionary initiative. 
+
+			Like the Romans, the NCR brought auxiliaries and citizens wanting to expand colonization efforts.
+
+			Marcus and his men fell upon them like the Britons did at Londinium. Marcus with a group of ten surrounded the town, ripped through what we estimated to be thirty fully trained soldiers.
+
+			I'll give that idiot the benefit of the doubt. He's far more capable than what we made him out to be.
+			]]},
+
+			{"Operation High-End", [[
+			May 1st, 2204. 
+
+			We've realized the threat that Marcus has posed. We've established an end-all mission that he'll hopefully take a calculated mistake on.
+
+			Marcus will be sent to attack Cliffside tomorrow. If he succeeds good, if he doesn't, then it's a loss we're willing to take.
+
+			Marcus, at least he'll die how he lived. I took a peak at his terminal the other day, told him that he needed to use more periods, sentences were too long.
+
+			Now he's ending all of them with three... strange, but cute.
+
+			]]},
+			{"NCR Offensive, Success Will Wait", [[
+			July 9th, 2204.
+
+			After our narrow success at cliffside. We've been able to keep the NCR forces on the ropes. Sadly it seems that our 79% chance at victory in the region has dropped to 54%.
+
+			We've had new factors that have been introduced; NCR Rangers, Desert Rangers, and other associates of the NCR have reinforced this region. 
+
+			Marcus and Schanelle had firsthand experience. Schanelle was ambushed by some Desert Rangers near the Hydro Dam Pass. Marcus, while holding the town, got pushed out and his forces were obliterated.
+
+			The NCR are putting far more than what we anticipated in the region. A failure on my part for not expecting such a thing.
+
+			]]},
+
+			{"Nicknames and Leadership Failing", [[
+			October 28th, 2204.
+
+			We are on the verge of falling apart. It is only a matter of time till we tear each other apart like savage animals. 
+
+			I've taken the initiative to talk with my piers, Marcus and Schanelle. Maybe it is time someone put their foot down.
+
+			I've spoken with them, understanding their needs and issues. I believe it is only appropriate we hold a meeting soon. If not for us but for the preservation of our ideals. 
+
+			]]},
+
+			{"The Future, Evacuation", [[
+			December 5th, 2204.
+			
+			The NCR is on the other side of the ant nest below the mansion. I'll be taking my leave, Marcus has decided to take on the enemy in one last blaze of glory. 
+
+			Try and hold them off while we escape back into the mines. 
+
+			I'll admit. The big dumb idiot has grown on me after we all talked. Whatever illogical God there is, if there is one, Marcus, I'll pray for you. 
+			
+			]]},
+		}}
+	}
+}
 --[[
 ███████╗ █████╗ ██╗     ███████╗███╗   ███╗
 ██╔════╝██╔══██╗██║     ██╔════╝████╗ ████║
@@ -199,7 +582,6 @@ lang["#INEU_RAIDERFACTORYLOG"] = {
 ███████║██║  ██║███████╗███████╗██║ ╚═╝ ██║
 ╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝     ╚═╝
 ]]
-
 lang["#SALEM_FACTORYLOG"] = {
 	name = "Factory Logs",
 	logs = {
@@ -213,15 +595,23 @@ lang["#SALEM_FACTORYLOG"] = {
 			S
 		]]}
 	}
-}
+} 
 
+
+
+--[[
+███████╗███╗░░██╗░█████╗░██╗░░░░░░█████╗░██╗░░░██╗███████╗  ██████╗░██╗░░░██╗███╗░░██╗██╗░░██╗███████╗██████╗░
+██╔════╝████╗░██║██╔══██╗██║░░░░░██╔══██╗██║░░░██║██╔════╝  ██╔══██╗██║░░░██║████╗░██║██║░██╔╝██╔════╝██╔══██╗
+█████╗░░██╔██╗██║██║░░╚═╝██║░░░░░███████║╚██╗░██╔╝█████╗░░  ██████╦╝██║░░░██║██╔██╗██║█████═╝░█████╗░░██████╔╝
+██╔══╝░░██║╚████║██║░░██╗██║░░░░░██╔══██║░╚████╔╝░██╔══╝░░  ██╔══██╗██║░░░██║██║╚████║██╔═██╗░██╔══╝░░██╔══██╗
+███████╗██║░╚███║╚█████╔╝███████╗██║░░██║░░╚██╔╝░░███████╗  ██████╦╝╚██████╔╝██║░╚███║██║░╚██╗███████╗██║░░██║
+╚══════╝╚═╝░░╚══╝░╚════╝░╚══════╝╚═╝░░╚═╝░░░╚═╝░░░╚══════╝  ╚═════╝░░╚═════╝░╚═╝░░╚══╝╚═╝░░╚═╝╚══════╝╚═╝░░╚═╝
+]]
+--Dead Estuary
 lang["#DE_ENCLAVEBUNKER1"] = {
-	name = "Safehouse Check-In",
+	name = "Tillamook Safehouse Check-In",
 	logs = {
 		{"Check-In", [[
-			ERROR: MISSING DATA
-		]]},
-		{"Log", [[
 			05.26.2075 - 1 IN.
 			05.26.2075 - 1 OUT.
 
@@ -239,28 +629,52 @@ lang["#DE_ENCLAVEBUNKER1"] = {
 			10.22.2077 - 3 IN.
 			10.23.2077 - 1 IN.
 			
-			11.24.2079 - 9 OUT.
+			10.24.2079 - 9 OUT.
 
-			11.25.2235 - 5 IN.
-			11.27.2235 - 5 OUT.
+			04.16.2236 - 5 IN.
+			04.17.2236 - 5 OUT.
+		]]},
+		{"Inbox [1] new message", [[
+			FROM: [LIST. STATION YOLLA BOLLY]
+			TO: [LIST. STATION TILLAMOOK]
+			Monday, April 11, 2236, 10:43 AM
+
+			Don't leave anything behind. -J79
 		]]}
 	}
 }
-
 lang["#DE_ENCLAVEBUNKER2"] = {
 	name = "Bunker Database",
 	logs = {
 		{"Environmental Readings", [[
-			DATA PURGED 11.27.2235
+			Data_Unavailable_________________
+			Data_Unavailable_________________
+			Data_Unavailable_________________
+			_______________________________
+			_______________________________
+			_______________________________
+
+            Data Purged.
 		]]},
 		{"Reports", [[
-			DATA PURGED 11.27.2235
+			Data_Unavailable_________________
+			Data_Unavailable_________________
+			Data_Unavailable_________________
+			_______________________________
+			_______________________________
+			_______________________________
+
+            Data Purged.
 		]]},
 		{"User Entries", [[
-			DATA PURGED 11.27.2235
-		]]},
-		{"Inbox", [[
-			DATA PURGED 11.27.2235
+			Data_Unavailable_________________
+			Data_Unavailable_________________
+			Data_Unavailable_________________
+			_______________________________
+			_______________________________
+			_______________________________
+
+            Data Purged.
 		]]},
 		{"Log", [[
 			03.02.2075 - Bunker Online.
@@ -269,21 +683,467 @@ lang["#DE_ENCLAVEBUNKER2"] = {
 			08.17.2077 - Environmental Scanner Activated. 
 			08.17.2077 - Sending Scanner reports to [CONTROL STATION] yearly.
 			10.23.2077 - Alarm Activated. All Systems Activated.
+			10.23.2077 - Connection with [CONTROL STATION] lost.
 
-			11.24.2079 - Bunker Offline.
+			10.24.2079 - Bunker Offline.
 
+			04.17.2236 - Bunker Online.
+			04.17.2236 - Connection Established with [LIST. STATION YOLLA].
+			04.17.2236 - Data transferred to external device.
+			04.17.2236 - Environmental Readings Purged.
+			04.17.2236 - User Entries Purged.
+			04.17.2236 - Inboxes Purged... Error deleting [1] message.
+			04.17.2236 - User Data Purged.
+			04.17.2236 - Connection Severed with [LIST. STATION YOLLA].
+			04.17.2236 - Bunker Offline.
 
-			11.25.2235 - Bunker Online.
-			11.25.2235 - Connection Established with [CONTROL STATION].
-			11.27.2235 - Environmental Readings Purged.
-			11.27.2235 - User Entries Purged.
-			11.27.2235 - Inboxes Purged.
-			11.27.2235 - User Data Purged.
-			11.27.2235 - Connection Severed with [CONTROL STATION].
-			11.27.2235 - Bunker Offline.
+			Today - Bunker Online.
+			Today - Error Connecting to network.
 		]]}
 	}
 }
+
+--Yolla
+
+lang["#YB_LISTENINGPOST2"] = {
+	name = "Yolla Bolly Safehouse Check-In",
+	logs = {
+		{"Check-In", [[
+			LOADING LAST 10 ENTRIES...
+
+			04.28.2236 - 4 IN. dropped off a bunch of ids we found on zombies. maybe one of them works.
+			- J12,Y67,J79,K12,
+
+			01.20.2236 - 3 IN. getting some rest after scouting mission
+			- M22,J79,E98
+
+			10.29.2235 - 3 IN. dropping off supplies.
+			- J12,M22,J79
+
+			06.24.2235 - 4 IN. getting some rest after scouting mission
+			- J12,O61,K12,E98
+
+			04.15.2235 - 4 IN. dropping off supplies.
+			- J12,J79,M22,E98
+
+			09.12.2234 - 5 IN. getting some rest after enviro scan.
+			- J12,M22,R18,K12,E98
+
+			06.24.2234 - 3 IN. dropping off supplies, should last awhile.
+			- J12,M22,K12
+
+			06.17.2234 - 5 IN. reactivating bunker, set up enviro scanner to send to CSE.
+			- J12,L41,J89,K12,E98
+
+			10.20.2079 - 7 OUT. Last night before the reunion. Shutting off bunker when we leave. Our wait is finally over.
+			- KM,LN,PR,EM,JK,VT,QM
+
+			10.13.2079 - 2 IN. Returning from supply run.
+			- EM,VT
+		]]},
+		{"04.26.2236", [[
+			Hey team.
+			
+			K90 wants us to get into a subsection of the missile base.
+			
+			I want you all scrounging the base and nearby buildings for keycards. I have our boys back on the rig digging through our archives for addresses. Maybe one of them left their ID at home.
+
+			Also be on the lookout for any official-looking zombies in the area. They might have ID cards on them that will get us in there.
+
+			-J79
+		]]},
+		{"04.08.2236", [[
+			Hey team.
+			
+			The dog has us on reset missions to various prewar safehouses. Part of the whole 'reactivate' plan.
+			
+			We are to:
+			1- Save the databases to a drive,
+			2- Wipe the bunker terminals,
+			3- Prep the bunkers for safehouse/observation usage.
+
+			Be prepared for a lot of movement in the coming weeks.
+
+			-J79
+		]]},
+		{"11.18.35", [[
+			Hey team.
+			
+			After last week's incident I want you all taking extra caution around Clifton. (Or Cliff Town as the locals call it)
+
+			M22 and J12 had to put down a couple because they saw J12 in his Power Armor. It was ugly.
+			
+			If you're going to head near town, do it outside of your fatigues.
+
+			-J79
+		]]},
+		{"10.07.34", [[
+			Hey team.
+			
+			The dog has us out sniffing our noses.
+			
+			We're going to start heading out on a lot of missions, getting environmental readings and scouting around, making note of anything... notable.
+
+			Get ready because we're about to be actually doing something out here.
+
+			-J79
+		]]},
+		{"06.18.34- IMPORTANT", [[
+			Hey team.
+			
+			Setting up this terminal as a log. Reminder that it is MANDATORY to log your visits.
+
+			Reminder why you're all here: This is top secret stuff we're up to. K90 doesn't want us to be seen while doing it. If anyone does, you know what to do.
+			
+			'Why do we need to be so secretive?' you may ask; Don't ask me because I don't know, just do your job people.
+			
+			Feel free to use the terminal in the sideway as a diary or whatever- It isn't connected to the network so don't worry about the dog snooping on you.
+			
+			-J79
+		]]}
+	}
+}
+
+lang["#YB_LISTENINGPOST4"] = {
+	name = "Safehouse Terminal",
+	logs = {
+		{"06.23.34 - M22 Personal Log -KEEP OUT!", [[
+			Don't read if you're not me, fucker.
+			
+			I was bored so I did some snooping through the mainframe terminal. J79 never wiped it- all the old journal entries are still there. Great reading material.
+
+			I figured this was some prepper bunker, but this was one of ours before the war. The people who worked here were listening to every communication in and out of the valley. They logged it all nicely and stored it all.
+			
+			They weren't lying about how paranoid people were before the war. They must've accused over half the town of being communist in these files.
+
+			-m22
+		]]},
+		{"06.29.34 - M22 Personal Log -KEEP OUT!", [[
+			Don't read if you're not me, fucker.
+
+			Two weeks in, it really is surreal to be on mainland.
+
+			This is the place I was told about my entire life. Watching it on the horizon from the rig. I mean, I've been off the rig before but it was only ever to the surrounding islands. Visting family and such. Never actually been to America proper. Not many people have.
+
+			Everything is fucked up. Of course it is, it was blown up like two hundred years ago. But nobody's really rebuilt yet. I mean, not here anyway. Our scouting reports say there's actual civilizations further east. I wonder if they speak the same language we do.
+			
+			-m22
+		]]},
+		{"04.24.36 - M22 Personal Log -KEEP OUT!", [[
+			Don't read if you're not me, fucker.
+			
+			It's been awhile. I completely forgot about this journal. Whoops. A lot has changed.
+
+			Finally got an answer to that question I asked in that last entry. Was on a mission to meet some tribals living in what used to be Reno a couple weeks ago.
+			
+			Command needs supplies and workers for an upcoming project, apparently. These guys give us some labor in exchange for guns and meds. I was guarding our diplomat as he negotiated terms. Apparently this is going to be a regular thing.
+
+			The people out here are so dirty. Vulgar. We aren't allowed to get close without suits on. May have rare diseases, mutations, etc. We've gotten shot at by random muties on enviros and scoutings. They got L41 last mission.
+			
+			Above all else- we aren't allowed to talk to any mutants without express permission. Shoot on sight outside of special circumstances.
+
+			Fine by me.
+
+			-m22
+		]]},
+	}
+}
+lang["#YB_LISTENINGPOST3"] = {
+	name = "Inbox Terminal",
+	logs = {
+		{"Subject Blank - 04.26.2236", [[
+			FROM: [STATION SOUTH SISTER]
+			TO: [LIST. STATION YOLLA BOLLY]
+			Friday, April 26, 2236, 10:24 AM
+
+			Sent you a mission briefing. Need you to investigate the missile base.
+			
+			There's a locked off part of the facility. Lots of data that needs to be wiped. Details are in the attached file.
+			
+			By the way- You ARE deleting these emails after you read them, right?
+
+			-K90
+		]]},
+		{"ATTACHED FILE-Subject Blank - 04.26.2236", [[
+			M I S S I O N   B R I E F I N G
+			APPROVAL: K90
+
+			ORDERS
+			1.INFILTRATE SUBSECTION OF YOLLA BOLLY MISSILE BASE
+			2.SECURE THEN PURGE DATA OFF OF SUBNET
+
+			There's a subsection of the Yolla Bolly Missile base enterable via a conference room located in the control room of the base. It was used to ██████████████████ before the war, and ██████████████ for early ████████.
+
+			The data in there is incredibly valuable. This site was instrumental in ████████████████████████████, and contains a lot of lost data.
+			
+			Number one reason for this mission; if this information were to fall into the wrong hands, we would be at extreme risk.
+
+			Blueprints indicate forcible entry of the area will trigger a data wipe. I need you to get everything intact before you wipe it. No explosives to get into the conference room, or any other locked areas within it. Find an identification card.
+		]]},
+		{"Subject Blank - 04.18.36", [[
+			FROM: [STATION SOUTH SISTER]
+			TO: [LIST. STATION YOLLA BOLLY]
+			Monday, April 18, 2236, 10:43 AM
+
+			Need a status report on the safehouse database purges. Have it sent to me by Friday.
+
+			And stop referring to me as 'the dog'.
+			
+			-K90
+		]]}
+	}
+}
+
+lang["#YB_LISTENINGPOST1"] = {
+	name = "Listening Station Terminal",
+	logs = {
+		{"Enter Password.", [[
+			Data_Unavailable_________________
+			Data_Unavailable_________________
+			Data_Unavailable_________________
+			_______________________________
+			_______________________________
+			_______________________________
+
+			Bad Password.
+		]]},
+		{"Log", [[
+			02.10.2077 - Connection Established with [CONTROL STATION].
+			02.11.2077 - Wiretap 'cliffton' successful. Communications intercepted. Saving recordings to local drive.
+			02.15.2077 - Wiretap 'mine' successful. Communications intercepted. Saving recordings to local drive.
+			02.28.2077 - Wiretap 'yollabunker' successful. Communications intercepted. Saving recordings to local drive.
+			10.23.2077 - Alarm Activated. All Systems Activated.
+
+			10.21.2079 - Bunker Offline.
+
+			06.17.2234 - Bunker Online.
+			06.17.2234 - Connection Established with [CONTROL STATION].
+			06.17.2234 - Environmental Scanner Activated. 
+			06.17.2234 - Sending Scanner reports to [CONTROL STATION] yearly.
+
+			04.10.2236 - Connection Established with [LIST. STATION MTCASCADE].
+			04.11.2236 - Connection Severed with [LIST. STATION MTCASCADE].
+			04.16.2236 - Connection Established with [LIST. STATION TILLAMOOK].
+			04.17.2236 - Connection Severed with [LIST. STATION TILLAMOOK].
+			04.19.2236 - Connection Established with [LIST. STATION SLOUGH].
+			04.20.2236 - Connection Severed with [LIST. STATION SLOUGH].
+		]]}
+	}
+}
+
+lang["#YB_BUNKERDORM1"] = {
+	name = "Onboarding Terminal",
+	logs = {
+		{"START HERE - What is this place?",[[
+			**** NORTH YOLLA BOLLY MISSILE SILOS ****
+			
+			Welcome to the North Yolla Bolly Missile Base- home to the beginning of the last line of defense our country has.
+			The missiles in these silos will be some of the first to hit Red Chinese land, should it come to that.
+
+			If you're reading this, congratulations! You have completed your final evaluation and we are happy to announce you have been officially accepted into the evacuation program.
+			
+			As you have already been informed- you are now under government custody until further notice. You and any family you have brought with you are being relocated to a secure location where you will be safe from any nuclear holocaust.
+
+			Please proceed to the next entry, titled "Next Steps".
+		]]},
+		{"Next Steps",[[
+			**** NORTH YOLLA BOLLY MISSILE SILOS ****
+
+			While we prepare for your relocation, You can expect to spend the next few days in these dormitories.
+			Now that you have entered your room you may not leave until your flight is ready. This is not only for your safety, but for matters of national security.
+
+			All we need to do now is to gather further formal information for our file. Please fill out the questionnaire and keep the ticket you receive handy for your flight.
+
+			NOTE: Pre-approved individuals need not complete the questionnaire. Please use the keycard that was mailed to the address provided to us and proceed to the hangar bay. We will meet with you there.
+			If do not have your keycard, report to a representative to confirm your identity.
+		]]},
+		{"Begin Questionnaire",[[
+			**** NORTH YOLLA BOLLY MISSILE SILOS ****
+
+			Error: Questionnaire unavailable. Please report to nearest representative for support.
+			
+		]]},
+		{"Print Ticket",[[
+			**** NORTH YOLLA BOLLY MISSILE SILOS ****
+
+			Error: Please return after completing the questionnaire.
+		]]}
+	}
+}
+
+lang["#YB_BUNKERDORM2"] = {
+	name = "Dorm Terminal",
+	logs = {
+		{"Re: I forgot my authorization", [[
+            FROM: [GEN S. MAYHEW]
+            Friday, October 22nd, 2077, 11:42 AM
+
+            We're sorry you forgot your Evacuation Authorization keycard.
+            
+            Unfortunately, even though you may be a Pre-Approved Individual, we still need to verify this information, which may take a few days.
+
+            Pending verification, you may not exit the dormitory areas under law. Feel free to enjoy the recreation room until this time has passed.
+
+            Please enjoy enjoy your stay with us at the Yolla Bolly Missile Base, Senator.
+		]]},
+		{"Re: Re: I forgot my authorization", [[
+            FROM: [GEN S. MAYHEW]
+            Friday, October 22nd, 2077, 11:54 AM
+
+            We're sorry you believe we may have sent your Evacuation Authorization keycard to the wrong address.
+
+            However, we are 100% certain the keycard was sent and received to the address we have for you on file:
+
+            1043 Main Street, Salem, Oregon, 97302
+
+            Unfortunately, we still need to verify your Pre-Approved Individual status, which may take a few days.
+
+            Pending verification, you may not exit the dormitory areas under law. Feel free to enjoy the recreation room until this time has passed.
+
+            Please enjoy enjoy your stay with us at the Yolla Bolly Missile Base, Senator.
+		]]},
+		{"Re: Re: Re: I forgot my authorization", [[
+            FROM: [GEN S. MAYHEW]
+            Friday, October 22nd, 2077, 12:15 PM
+			
+            We're sorry you are unhappy with the current state of events, Senator.
+
+            Unfortunately, even though you may be a Pre-Approved Individual, we still need to verify this information, which may take a few days.
+
+            Pending verification, you may not exit the dormitory areas under law. Feel free to enjoy the recreation room until this time has passed.
+
+            Please enjoy enjoy your stay with us at the Yolla Bolly Missile Base, Senator.
+		]]}
+	}
+}
+
+
+lang["#YB_CONFERENCEROOM1"] = {
+	name = "Systems Terminal",
+	logs = {
+		{"Meeting Schedule",[[
+			**** NORTH YOLLA BOLLY MISSILE SILOS ****
+				
+			Data_Unavailable_________________
+			Data_Unavailable_________________
+			Data_Unavailable_________________
+			_______________________________
+			_______________________________
+			_______________________________
+
+			Data Corrupted.
+		]]},
+		{"Transcripts", [[
+			**** NORTH YOLLA BOLLY MISSILE SILOS ****
+			
+			Data_Unavailable_________________
+			Data_Unavailable_________________
+			Data_Unavailable_________________
+			_______________________________
+			_______________________________
+			_______________________________
+
+			Data Corrupted.
+		]]}
+	}
+}
+
+lang["#YB_HANGAR1"] = {
+	name = "Hangar Terminal",
+	logs = {
+		{"Inbox [Logged in: GEN MAYHEW]", {
+			{"[DATA PURGED]", [[
+				.... ISOLATED INTRANET ....
+				
+				Data_Unavailable_________________
+				Data_Unavailable_________________
+				Data_Unavailable_________________
+				_______________________________
+				_______________________________
+				_______________________________
+			]]},
+			{"[DATA PURGED]", [[
+				.... ISOLATED INTRANET ....
+				
+				Data_Unavailable_________________
+				Data_Unavailable_________________
+				Data_Unavailable_________________
+				_______________________________
+				_______________________________
+				_______________________________
+			]]},
+			{"[DATA PURGED]", [[
+				.... ISOLATED INTRANET ....
+				
+				Data_Unavailable_________________
+				Data_Unavailable_________________
+				Data_Unavailable_________________
+				_______________________________
+				_______________________________
+				_______________________________
+			]]},
+			{"[DATA PURGED]", [[
+				.... ISOLATED INTRANET ....
+				
+				Data_Unavailable_________________
+				Data_Unavailable_________________
+				Data_Unavailable_________________
+				_______________________________
+				_______________________________
+				_______________________________
+			]]},
+		}},
+		{"Flight Log", [[
+			.... ISOLATED INTRANET ....
+			
+			\  DATE  \ FROM \ TO  \ NO. \ REMARKS \
+			/04.01.77/  YB  / CSE / 45  /██,██    /
+			\04.08.77\  YB  \ CSE \ 46  \EM,██,██ \
+			/04.12.77/  YB  / CSE / 47  /PRESIDENT/
+			\04.15.77\  YB  \ CSE \ 48  \██,JL,██ \
+			/04.20.77/  YB  / CSE / 49  /HT,PM    /
+			\04.28.77\  YB  \ CSE \ 50  \DT,██,JK \
+			/05.02.77/  YB  / CSE / 51  /█████████/
+			\05.13.77\  YB  \ CSE \ 52  \ PL  ██  \
+			/09.28.77/  YB  / CSE / 53  / PL,██   /
+			\10.02.77\  YB  \ CSE \ 54  \  KD,ID  \
+            /10.22.77/  YB  / CSE / 55  /██,███,██/
+            \10.31.79\  YB  \ CSE \ 56  \         \
+            /11.02.77/  YB  / CSE / 57  /         /
+		]]},
+		{"08.21.2077", [[
+			.... ISOLATED INTRANET ....
+			
+			Data_Unavailable_________________
+			Data_Unavailable_________________
+			Data_Unavailable_________________
+			_______________________________
+			_______________________________
+			_______________________________
+		]]},
+		{"09.02.2077", [[
+			.... ISOLATED INTRANET ....
+			
+			Data_Unavailable_________________
+			Data_Unavailable_________________
+			Data_Unavailable_________________
+			_______________________________
+			_______________________________
+			_______________________________
+		]]},
+		{"10.12.2077", [[
+			.... ISOLATED INTRANET ....
+			
+			Data_Unavailable_________________
+			Data_Unavailable_________________
+			Data_Unavailable_________________
+			_______________________________
+			_______________________________
+			_______________________________
+		]]}
+	}
+}
+
 
 
 --[[
@@ -353,5 +1213,6 @@ lang["#SALT_EVENTOILCAN"] = {
 		}}
 	}
 }
+
 
 RELOADSCHEMA = true

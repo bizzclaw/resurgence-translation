@@ -54,6 +54,9 @@ lang["#FACTION_VALLEYSURVIVALISTS_DESC"] = "A small group of experienced individ
 lang["#FACTION_NEWRENO_NAME"] = "New Reno Crime Families"
 lang["#FACTION_NEWRENO_DESC"] = "'The Biggest Little City in the World', New Reno is a cesspool of sin run by a syndicate of four families; The Mordinos, the Bishops, the Wrights and the Salvatores, each vying for control. They might not be working together, but they've all got a common interest in keeping things nice and calm and open for business. Troublemakers usually don't last long."
 
+lang["#FACTION_FRONTIERSMEN_NAME"] = "The Frontiersmen"
+lang["#FACTION_FRONTIERSMEN_DESC"] = "A group of heavily armed, nomadic miners who have been brought up north by rumors of gold. They are staunchly independent, and are vehemently against aligning themselves with any of the major factions."
+
 lang["#FACTION_CRIMSONCARAVAN_NAME"] = "Crimson Caravan Company"
 lang["#FACTION_CRIMSONCARAVAN_DESC"] = "The Crimson Caravan Company is one of, if not the singular largest caravan house in New California and beyond with a CCC branch in nearly every large town in the territory."
 
@@ -69,13 +72,16 @@ lang["FACTION_FOLLOWERSOFTHEAPOCALYPSE_DESC"] = "The Followers are a humanitaria
 lang["#FACTION_BOS_NAME"] = "Brotherhood of Steel"
 lang["#FACTION_BOS_DESC"] = "The Brotherhood of Steel is a techno-religous organization that collects and maintains advanced technology with roots in the Pre-War American Military. They are highly reclusive and"
 
+lang["#FACTION_ENCLAVE_NAME"] = "???"
+lang["#FACTION_ENCLAVE_DESC"] = "An unknown paramilitary organization that has made sparse appearances very recently. Nobody knows anything about them, or what their purpose is. Most don't even know they exist."
+
+
 lang["#FACTION_ICEPICK"] = "Ice Picks"
-lang["#FACTION_SMREJECTS"] = "Super Mutant Rejects"
+lang["#FACTION_SMREJECTS"] = "Rejects"
 lang["#FACTION_UNITY"] = "Unity Remnants"
 lang["#FACTION_SMUGGLER"] = "Smugglers"
 lang["#FACTION_TRADEGUILD_NAME"] = "Merchant's Guild"
 lang["#FACTION_ROCKBITER"] = "Rock Biters"
-lang["#FACTION_ENCLAVE"] = "Enclave"
 lang["#FACTION_BANDITRUSTLER"] = "Rustlers"
 lang["#FACTION_BANDIT80S"] = "80s Tribe"
 lang["#FACTION_DESERTRANGER_NAME"] = "Desert Rangers"
@@ -84,11 +90,28 @@ lang["#FACTION_SHADOWED"] = "Shadowed"
 -- Laws
 lang["#LAW_MURDER_NAME"] = "Murder"
 lang["#LAW_MURDER_DESC"] = "Unlawful killing of another individual"
-lang["#LAW_MURDER_NOTIFY"] = "You have commited an act of Murder against the $faction"
+lang["#LAW_MURDER_NOTIFY"] = "You have commited an act of Murder against the $faction!"
 
 lang["#LAW_ASSAULT_NAME"] = "Assault"
 lang["#LAW_ASSAULT_DESC"] = "Defined as comitting excessive damage to an individual for non-self defense reasons."
-lang["#LAW_ASSAULT_NOTIFY"] = "You have commited an act of Assault against the $faction"
+lang["#LAW_ASSAULT_NOTIFY"] = "You have commited an act of Assault against the $faction!"
+
+lang["#LAW_MURDER_ACCESSORY_NAME"] = "Accessory to Murder"
+lang["#LAW_MURDER_ACCESSORY_DESC"] = "Unlawful killing of another individual by your party member"
+lang["#LAW_MURDER_ACCESSORY_NOTIFY"] = "$altPlayer, your party member, has committed murder! You are an accessory. You can leave the party from the party menu by pressing esc."
+
+lang["#LAW_ASSAULT_ACCESSORY_NAME"] = "Accessory to Assault"
+lang["#LAW_ASSAULT_ACCESSORY_DESC"] = "Defined as your party member comitting excessive damage to an individual for non-self defense reasons."
+lang["#LAW_ASSAULT_ACCESSORY_NOTIFY"] = "$altPlayer, your party member, has committed assault! You are an accessory. You can leave the party from the party menu by pressing esc."
+
+lang["#LAW_THEFT_NAME"] = "Theft"
+lang["#LAW_THEFT_DESC"] = "Defined as taking property that does not belong to you."
+lang["#LAW_THEFT_NOTIFY"] = "You have been caught stealing from the $faction! Stealing too much can make them hostile towards you."
+
+lang["#LAW_BOSRESELL_NAME"] = "Technology Redistribution"
+lang["#LAW_BOSRESELL_DESC"] = "Redistribution of $faction Technology is a serious offense and not taken lightly. For this transgression you have been marked for death."
+lang["#LAW_BOSRESELL_NOTIFY"] = "The $faction has caught wind of you sharing their technology!"
+
 
 -- Profiles
 
@@ -103,6 +126,8 @@ lang["#CAMPFIRE_NAME"] = "Camp fire"
 lang["#STOVE_NAME"] = "Stove"
 lang["#RELOADINGBENCH_NAME"] = "Reloading Bench"
 lang["#WEAPONBENCH_NAME"] = "Weapon Bench"
+
+lang["#BOS_POWERARMORFAB_NAME"] = "Brotherhood Power Armor Fabricator"
 
 
 -- Terminal
