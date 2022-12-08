@@ -156,14 +156,14 @@ lang["#FACTORY_SHUTTINGDOWN"] = "Выключение"
 lang["#FACTORY_POWERINGON"] = "Включение"
 lang["#FACTORY_CHECKCHARGE"] = "Проверить текущую ёмкость"
 lang["#FACTORY_CURRENTCHARGE"] = "Текущая ёмкость"
-lang["#FACTORY_LOADMINERAL"] = "Загрузить: $mineral"
-lang["#FACTORY_NOTENOUGHMINERAL"] = "У вас нет ни одного $mineral для загрузки."
-lang["#FACTORY_CHARGEFULL"] = "Загрузка больше будет превышать ёмкость."
+lang["#FACTORY_LOADMINERAL"] = "Погрузить: $mineral"
+lang["#FACTORY_NOTENOUGHMINERAL"] = "У вас нет предмета: $mineral."
+lang["#FACTORY_CHARGEFULL"] = "Поместив ещё больше, вы превысите пропускную способность."
 lang["#FACTORY_RECIEVINGCHARGE"] = "Открытие воронки."
 lang["#FACTORY_REMOTEACCESS"] = "Удалённый доступ к машине."
 
 -- Power Generator
-lang["#FUSIONGENERATOR_NAME"] = "Генератор атомного синтеза"
+lang["#FUSIONGENERATOR_NAME"] = "Ядерный генератор 'Дженерал Атомикс'"
 
 -- Distributor
 lang["#DISTRIBUTOR"] = "Распределитель мощности"

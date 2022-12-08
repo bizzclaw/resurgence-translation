@@ -391,8 +391,8 @@ lang["#TUTORIAL_AMMOFACTORY"] = "Включите питание завода д
 
 lang["#TUTORIAL_POWER_CONTROLLER"] = "Управляйте удалённо всеми подключенными заводскими машинами."
 lang["#TUTORIAL_POWER_DISTRIBUTOR"] = "Обслуживайте и защищайте распределители для поддержания производства."
-lang["#TUTORIAL_POWER_GENERATOR"] = "Загрузите ядерный материал для запуска генератора."
-lang["#TUTORIAL_POWER_BRASSPRESS"] = "Загрузите медь, чтобы получить латунь."
+lang["#TUTORIAL_POWER_GENERATOR"] = "Погрузите ядерный материал для запуска генератора."
+lang["#TUTORIAL_POWER_BRASSPRESS"] = "Погрузите медь, чтобы получить латунь."
 lang["#TUTORIAL_POWER_MINER"] = "Включите генератор, чтобы начать добычу."
 
 -- Campfire Healing
