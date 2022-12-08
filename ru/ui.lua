@@ -16,11 +16,12 @@ lang["#UI_EXIT"] = "Выйти"
 lang["#UI_CLOSE"] = "Закрыть"
 lang["#UI_TELEPORTLEAVE"] = "Вы уверены, что хотите уйти?\n\nПотребуется $requirement, чтобы вернуться."
 
-lang["#UI_TELEPORTERBLOCK_FACTION_FAVOR"] = "У вас нет достаточно уровня благосклонности с фракцией $faction, чтобы войти.\n\nВам нужно: $favorRequired\nВы имеете: $favorCurrent\n\nПолучите благосклонность, выполняя задания фракции $faction."
-lang["#UI_TELEPORTERBLOCK_FACTION_HOSTILE"] = "Сейчас вы находитесь во враждебных отношениях с фракцией $faction\n\nВы не можете войти в эту зону."
+lang["#UI_TELEPORTERBLOCK_FACTION_FAVOR"] = "У вас не достаточно благосклонности у фракции ($faction), чтобы войти.\n\nВам нужно: $favorRequired\nВы имеете: $favorCurrent\n\nПолучите благосклонность, выполняя задания фракции: $faction."
+lang["#UI_TELEPORTERBLOCK_FACTION_HOSTILE"] = "Сейчас вы находитесь во враждебных отношениях с фракцией: $faction\n\nВы не можете войти в эту зону."
+lang["#UI_TELEPORTERBLOCK_FACTION_REPRESENT"] = "Вы должны представлять фракцию ($faction), чтобы войти!\n\nВы можете представлять фракцию, получив достаточно благосклонности и нажав на фракцию в меню репутации."
 
-lang["#UI_ITEMCONSUMED"] = "$item будет изъят"
-lang["#UI_ITEMNOTCONSUMED"] = "$item должен быть в вашем инвентаре (Не принято)"
+lang["#UI_ITEMCONSUMED"] = "$item - предмет будет изъят"
+lang["#UI_ITEMNOTCONSUMED"] = "$item - предмет должен быть в инвентаре (Не принято)"
 
 -- General UI
 lang["#UI_EQUIPMENT"] = "Снаряжение"
@@ -271,6 +272,9 @@ lang['#BITE_GOLDGECKO'] = "Радиоактивный укус"
 lang['#MELEE_REAVER'] = "Объятие потрошителя"
 lang['#MELEE_GLOWING'] = "Свечение"
 
+--Special
+lang['#DISEASE_HALLOWEENCURSE'] = "Проклятие"
+
 --Notifications
 lang["#NOTIFY_WEAPON_BROKEN"] = "Оружие сломано!"
 lang["#NOTIFY_WEAPON_JAM"] = "Оружие дало осечку!"
@@ -369,6 +373,32 @@ lang["#TUTORIAL_WANTEDDEAD"] = "Вы объявлены в розыск!\n\nВы
 
 lang["#TUTORIAL_PVP"] = "ВНИМАНИЕ!!\n\nВы собираетесь войти в зону игрока против игрока!\n\nДругие игроки смогут нанести вам урон и убить вас!\n\nВы не сможете сохранить предметы в зоне игрока против игрока, пока не вернётесь в безопасную зону."
 
+lang["#TUTORIAL_WEAPONBASH"] = "@gmod_undo - Удар в рукопашную"
+lang["#TUTORIAL_POWERATTACK"] = "@gmod_undo - Сильный удар"
+
+lang["#TUTORIAL_PERSONALSTORAGE"] = "Храните предметы в своём личном хранилище."
+lang["#TUTORIAL_MISSIONBOARDS"] = "Выполняйте задания, чтобы получить вознаграждение на доске заданий."
+lang["#TUTORIAL_PICKPLANT"] = "@+use Сорвать растение."
+lang["#TUTORIAL_MISSIONGIVER"] = "Разговаривайте с определёнными персонажами для получения заданий."
+lang["#TUTORIAL_TERMINAL"] = "Терминалы содержат записи из прошлого."
+lang["#TUTORIAL_MODBENCH"] = "Модифицируйте снаряжение на верстаках модификаций."
+lang["#TUTORIAL_WORKBENCH"] = "Разбирайте хлам и изготавливайте предметы на верстаках."
+lang["#TUTORIAL_CAMPFIRE"] = "На кострах можно готовить еду и восстанавливать здоровье, когда стоите близко к ним."
+lang["#TUTORIAL_ARMORBENCH"] = "Создавайте броню и одежду на верстаках брони."
+lang["#TUTORIAL_LOADINGPRESS"] = "Разбирайте и изготавливайте патроны на загрузочных прессах."
+lang["#TUTORIAL_CHEMSTATION"] = "Изготавливайте препараты в химлаборатории."
+lang["#TUTORIAL_AMMOFACTORY"] = "Включите питание завода для производства боеприпасов."
+
+lang["#TUTORIAL_POWER_CONTROLLER"] = "Управляйте удалённо всеми подключенными заводскими машинами."
+lang["#TUTORIAL_POWER_DISTRIBUTOR"] = "Обслуживайте и защищайте распределители для поддержания производства."
+lang["#TUTORIAL_POWER_GENERATOR"] = "Загрузите ядерный материал для запуска генератора."
+lang["#TUTORIAL_POWER_BRASSPRESS"] = "Загрузите медь, чтобы получить латунь."
+lang["#TUTORIAL_POWER_MINER"] = "Включите генератор, чтобы начать добычу."
+
+-- Campfire Healing
+lang["#CAMPFIRE_TOOLOW"] = "Ваш уровень здоровья слишком мал, чтобы лечиться у костра."
+lang["#CAMPFIRE_HEAL"] = "Огонь согревает и расслабляет вас, заживляя ваши раны."
+
 -- Radio Station
 lang["#UI_ADJUSTVOLUME"] = "Громкость"
 lang["#RADIO_LTTBR"] = "'Громче, чем бомбы'"
@@ -381,7 +411,7 @@ lang["#RADIO_BANDIT"] = "Бандитское радио"
 lang["#RADIO_NCRPR"] = "Общественное радио НКР"
 lang["#RADIO_RAIDER"] = "Орегонское общественное радио - принимаем объявления!"
 lang["#RADIO_SFM"] = "Synthstream FM"
-lang["#RADIO_CLASSICAL"] = "Радио общество исторических искусств Салема"
+lang["#RADIO_CLASSICAL"] = "Радио общество исторических искусств Сейлема"
 
 lang["#RADIO_HALLOWEEN"] = "Сигнал... извне!"
 
@@ -618,18 +648,20 @@ lang["#SETTING_AMBIENT_MUSIC"] = "Громкость окружающей муз
 lang["#SETTING_COMBAT_MUSIC"] = "Громкость музыки боя"
 lang["#SETTING_RADIO_MUSIC"] = "Громкость музыки радио"
 lang["#SETTING_FOV"] = "Поле зрения (без прицела)" -- imply that the field of view settings does not affect aiming zoom.
+lang["#SETTING_FOVADS"] = "Поле зрения (при прицеливании)"
 lang["#SETTING_PIPSPEED"] = "Чувствительность курсора пип-боя"
 lang["#SETTING_VIEWBOB"] = "Размер покачивания экрана при движении"
 lang["#SETTING_SCOPESCALE"] = "Модификатор чувствительности прицела"
-lang["#SETTING_MAXCORPSES"] = "Макс. трупов NPC"
+lang["#SETTING_MAXCORPSES"] = "Макс. трупов персонажей"
 lang["#SETTING_GRASS"] = "Расстояние отображения травы"
 lang["#SETTING_MAXSHELLS"] = "Макс. огнестрельных гильз"
 lang["#SETTING_HUD"] = "Включить интерфейс"
 lang["#SETTING_OTHERLIGHTS"] = "Подсвеч. других игроков"
 lang["#SETTING_TOGGLEAIM"] = "Залипание прицеливания"
 lang["#SETTING_CROSSHAIR"] = "Включить прицеливание"
+lang["#SETTING_TPPTOFPP"] = "Прицел от 1-го лица при прицеливании"
 lang["#SETTING_TOGGLESPRINT"] = "Залипание бега"
-lang["#SETTING_RADIO_EXTRA"] = "Дополнительные радиостанции (не относятся к сюжету)"
+lang["#SETTING_RADIO_EXTRA"] = "Доп. радиостанции (не относятся к сюжету)"
 lang["#SETTING_SKIPFADEIN"] = "Пропустить вступление"
 
 -- Mission Board
@@ -715,7 +747,7 @@ lang["#COMMUNITY_INFO_RELATIONS"] = "Взаимоотношения сообще
 lang["#COMMUNITY_INFO_RELATIONS_TEXT"] = "Вы можете установить отношения с другими сообществами, например, в качестве союзников, чтобы создать альянс, или в качестве противников, чтобы объявить войну. Дружественные сообщества не будут принимать влияние друг друга в случае огня по своим, но враждующие сообщества будут принимать влияние друг друга даже больше, чем нейтральные.\n\nСообщество может объявить войну любому другому сообществу без подтверждения, но союзы должны быть согласованы обоими сообществами."
 
 -- faction interaction
-lang["#FACTION_CANNOT_ACCESS_HOSTILE"] = "Вы не можете получить доступ к этой зоне, потому что враждуете с фракцией $faction."
+lang["#FACTION_CANNOT_ACCESS_HOSTILE"] = "Вы не можете получить доступ к этой зоне, потому что враждуете с фракцией: $faction."
 
 -- --[[
 -- ██████╗ ███████╗██████╗ ██╗   ██╗████████╗ █████╗ ████████╗██╗ ██████╗ ███╗   ██╗     █████╗ ███╗   ██╗██████╗      ██████╗██████╗ ██╗███╗   ███╗███████╗███████╗
@@ -811,23 +843,23 @@ lang["#UI_REP_HOSTILE"] = "Враждебный" -- Factions that are hostile wi
 lang["#UI_REP_ALLIED"] = "Союзник" -- You are currently representing this faction. you cannot be damaged by other players who have this status
 lang["#UI_REP_EXILED"] = "Изгнанный" -- Currently unused. Will be used if you betray a faction by doing certain missions.
 
-lang["#NOTIFY_REP_STATUS"] = "Ваш статус в фракции $faction теперь: $status"
-lang["#NOTIFY_REP_WANTED"] = "Теперь вы разыскиваетесь фракцией $faction в регионах, которые они контролируют, и они нападут на вас, как только увидят!"
-lang["#NOTIFY_REP_WANTED_ENDED"] = "Вы больше не нужны фракции $faction в регионах, которые они контролируют."
-lang["#NOTIFY_REP_FAVOR"] = "Ваша благосклонность к фракции $faction изменилась на: $favor."
-lang["#NOTIFY_REP_RELATION"] = "Ваша репутация в фракции $faction стала: $relation."
+lang["#NOTIFY_REP_STATUS"] = "Ваш статус в фракции ($faction) теперь: $status"
+lang["#NOTIFY_REP_WANTED"] = "Теперь вы разыскиваетесь фракцией ($faction) в регионах, которые они контролируют, и они нападут на вас, как только увидят!"
+lang["#NOTIFY_REP_WANTED_ENDED"] = "Вы больше не разыскиваетесь фракцией ($faction) в регионах, которые они контролируют."
+lang["#NOTIFY_REP_FAVOR"] = "Ваша благосклонность к фракции ($faction) изменилась на: $favor."
+lang["#NOTIFY_REP_RELATION"] = "Ваша репутация в фракции ($faction) стала: $relation."
 
 lang["#UI_FACTION_REPRESENT"] = "Представить"
 lang["#UI_FACTION_UNREPRESENT"] = "Не представлять"
-lang["#UI_FACTION_REPRESENT_DESC"] = "Представление фракции:\nВы можете представлять фракцию, чтобы обозначить свою принадлежность к ней под своим именем.\n\nПредставление фракции имеет следующие эффекты:\n\n - Вы получите 25 дополнительного сохранения веса.\n\n - Преступления, совершённые против вас, будут отслеживаться во всех регионах этой фракции, а не только в тех, которые они контролируют\n\n - Урон между членами фракции, NPC и игроками отключены даже в зонах игрока против игрока\n\n - Игроки, представляющие фракции, враждующие с вашей фракцией, СМОГУТ НАНОСИТЬ ВАМ УРОН В РЕГИОНАХ ИГРОКА ПРОТИВ ОКРУЖЕНИЯ! (но не в безопасных зонах)\n\n - Вы можете менять статус представительства в безопасных зонах только раз в 12 часов."
+lang["#UI_FACTION_REPRESENT_DESC"] = "Представление фракции:\nВы можете представлять фракцию, чтобы обозначить свою принадлежность к ней под своим именем.\n\nПредставление фракции имеет следующие эффекты:\n\n - Вы получите 25 дополнительного сохранения веса.\n\n - Преступления, совершённые против вас, будут отслеживаться во всех регионах этой фракции, а не только в тех, которые они контролируют\n\n - Урон между членами фракции, персонажами и игроками отключены даже в зонах игрока против игрока\n\n - Игроки, представляющие фракции, враждующие с вашей фракцией, СМОГУТ НАНОСИТЬ ВАМ УРОН В РЕГИОНАХ ИГРОКА ПРОТИВ ОКРУЖЕНИЯ! (но не в безопасных зонах)\n\n - Вы можете менять статус представительства в безопасных зонах только раз в 12 часов."
 
 lang["#UI_REPRESENT_FAILED_TIME"] = "Вы можете менять своё представительство только раз в 12 часов!"
 lang["#UI_REPRESENT_FAILED_FAVOR"] = "Чтобы представлять фракцию, у вас должно быть не менее 400 ед. благосклонности."
 lang["#UI_REPRESENT_FAILED_HOSTILE"] = "Вы не можете представлять фракцию, которая враждебна по отношению к вам!"
 lang["#UI_REPRESENT_FAILED_ZONE"] = "Вы можете изменить своё представительство фракции только в безопасных зонах!"
 
-lang["#UI_REPRESENT_STARTED"] = "Теперь вы являетесь представителем фракции $faction!"
-lang["#UI_REPRESENT_ENDED"] = "Вы больше не являетесь представителем фракции $faction."
+lang["#UI_REPRESENT_STARTED"] = "Теперь вы являетесь представителем фракции: $faction!"
+lang["#UI_REPRESENT_ENDED"] = "Вы больше не являетесь представителем фракции: $faction."
 
 lang["#UI_REPUTATION_PROTECTED"] = "Защищённый"
 lang["#UI_REPUTATION_PROTECTED_DESC"] = "Нападение на вас - это преступление."
@@ -835,17 +867,60 @@ lang["#UI_REPUTATION_PROTECTED_DESC"] = "Нападение на вас - это
 lang["#UI_REPUTATION_UNPROTECTED"] = "Не защищён"
 lang["#UI_REPUTATION_UNPROTECTED_DESC"] = "Нападение на вас не является преступлением против атакующего."
 
-lang["#SETTING_PVP_PROTECTION"] = "Предотвращать урон от персонажей, атака которых приведёт к преступлению, и от дружественных фракций."
-lang["#SETTING_PVP_REPORT_CRIMES"] = "Сообщать о преступлениях против меня в региональные или представляющие фракции."
+lang["#SETTING_PVP_PROTECTION"] = "Отключить нанесение урона игрокам/существам, защищёнными фракциями, которые защищают вас."
+lang["#SETTING_PVP_REPORT_CRIMES"] = "Сообщать о преступлениях против меня защищающим или представляющим фракциям."
 
 lang["#UI_PROTECTION_TOWNUPDATE"] = "Ваша настройка защиты будет действовать только при следующем входе в безопасную зону!"
 
 lang["#SETTING_PVP_PROTECTION_ENABLED"] = "Настройки защиты против игроков включены"
 lang["#SETTING_PVP_PROTECTION_DISABLED"] = "Настройки защиты против игроков отключены!"
 
-lang["#SETTING_PVP_TARGET_PROTECTION"] = "Вы не можете получить или нанести урон, потому что цель находится под защитой фракции $faction, которая вызовет преступление, если вы атакуете её. Это можно отключить в настройках."
-lang["#SETTING_PVP_ATTACKER_PROTECTION"] = "Вы не можете принимать или наносить урон этому игроку, потому что у него включена защита и он находится под защитой фракции $faction."
+lang["#SETTING_PVP_PROTECTION_NOFACTION"] = "Вы не можете получить или нанести урон, потому что цель защищена фракцией - $faction, которая защищает и вас. Вы можете отключить это в настройках."
+lang["#SETTING_PVP_PROTECTION_CHARGED"] = "Вы не можете получить или нанести урон, потому что цель находится под защитой фракции - $faction, которая наложит на вас преступление. Вы можете отключить это в настройках."
+lang["#SETTING_PVP_ATTACKER_INFACTION"] = "Вы не можете получить или нанести урон этому человеку, потому что он находится под защитой вашей фракции, фракции: $faction."
 lang["#SETTING_PVP_FACTION_PROTECTION"] = "Вы не можете наносить урон членам фракции!"
+lang["#SETTING_PVP_FACTION_PROTECTED"] = "Под защитой вашей фракции."
+
+
+
+
+
+lang["#MISSION_GIVER"] = "Наниматель" 
+
+-- ████████╗██╗   ██╗██████╗ ███████╗███████╗
+-- ╚══██╔══╝╚██╗ ██╔╝██╔══██╗██╔════╝██╔════╝
+--    ██║    ╚████╔╝ ██████╔╝█████╗  ███████╗
+--    ██║     ╚██╔╝  ██╔═══╝ ██╔══╝  ╚════██║
+--    ██║      ██║   ██║     ███████╗███████║
+--    ╚═╝      ╚═╝   ╚═╝     ╚══════╝╚══════╝
+
+lang["#DISCOVER_INFO"] = "Исследовать $location."
+lang["#DELIVER_INFO"] = "Найти: $item и отдать $character."
+lang["#DELIVER_INFO_NOITEM"] = "Поговорить с $character."
+lang["#SCAVENGE_INFO"] = "Обыскать $amount предметов."
+lang["#SALVAGE_INFO"] = "Разобрать $amount старых машин."
+lang["#HARVEST_INFO"] = "Собрать $amount растений."
+lang["#FETCH_INFO"] = "Заполучить $name ($amount)."
+lang["#SPECIALFETCH_INFO"] = "Достать: $item."
+lang["#CRAFT_INFO"] = "Изготовьте: $name ($amount)."
+lang["#MASSACARE_INFO"] = "Найти и убить: $target ($amount)."
+lang["#MASSACARE_INFO_LOCATION"] = "Убить: $target ($amount) в $location."
+lang["#MASSACARE_INFO_WEP"] = "Найти и убить: $target ($amount), используя $wep."
+lang["#MASSACARE_INFO_LOCWEP"] = "Убить: $target ($amount) в $location, используя $wep."
+
+-- ██╗  ██╗██╗   ██╗██████╗     ██████╗ ██╗███████╗██████╗ ██╗      █████╗ ██╗   ██╗
+-- ██║  ██║██║   ██║██╔══██╗    ██╔══██╗██║██╔════╝██╔══██╗██║     ██╔══██╗╚██╗ ██╔╝
+-- ███████║██║   ██║██║  ██║    ██║  ██║██║███████╗██████╔╝██║     ███████║ ╚████╔╝
+-- ██╔══██║██║   ██║██║  ██║    ██║  ██║██║╚════██║██╔═══╝ ██║     ██╔══██║  ╚██╔╝
+-- ██║  ██║╚██████╔╝██████╔╝    ██████╔╝██║███████║██║     ███████╗██║  ██║   ██║
+-- ╚═╝  ╚═╝ ╚═════╝ ╚═════╝     ╚═════╝ ╚═╝╚══════╝╚═╝     ╚══════╝╚═╝  ╚═╝   ╚═╝
+
+lang["#MASSACRE_UI"] = "убито"
+lang["#SCAVENGE_UI"] = "Предметов обыскано"
+lang["#SALVAGE_UI"] = "Машин разобрано"
+lang["#HARVEST_UI"] = "Растений собрано"
+lang["#CRAFT_UI"] = "Изготовьте"
+lang["#DISCOVER_UI"] = "Исследуйте"
 
 --If there's any items you know I'll add, feel free to add them yourself and write their description. Heck add anything you like. Just make sure it follows the format here. Also, it MUST have a # in front of the name and the name must be all caps.
 
