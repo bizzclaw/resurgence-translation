@@ -46,6 +46,9 @@ lang["#NPC_YAOGUAIS"] = "Яо-гаев"
 -- Mirelurks
 lang["#NPC_MIRELURK"] = "Болотник"
 lang["#NPC_MIRELURKS"] = "Болотников"
+--Anglers
+lang["#NPC_ANGLER"] = "Удильщик"
+lang["#NPC_ANGLERS"] = "Удильщиков"
 
 -- ██╗  ██╗██╗   ██╗███╗   ███╗ █████╗ ███╗   ██╗ ██████╗ ██╗██████╗
 -- ██║  ██║██║   ██║████╗ ████║██╔══██╗████╗  ██║██╔═══██╗██║██╔══██╗
@@ -121,19 +124,33 @@ lang["#NPC_MERCLEADER"] = "Лидер наёмников"
 lang["#NPC_MERCSNIPER"] = "Снайпер наёмников"
 
 --Cipher Agents
-lang["#NPC_CIPHERAGENT"] = "Агент Шыфра"
-lang["#NPC_CIPHERAGENTS"] = "Агентов Шыфра"
-lang["#NPC_CIPHERAGENT_RANK1"] = "Интерн Шыфра"
-lang["#NPC_CIPHERAGENT_RANK2"] = "Подрядчик Шыфра"
-lang["#NPC_CIPHERAGENT_RANK3"] = "Партнёр Шыфра"
-lang["#NPC_CIPHERAGENT_RANK4"] = "Руководитель Шыфра"
-lang["#NPC_CIPHERAGENT_RANK5"] = "Директор Шыфра"
-lang["#NPC_CIPHERAGENT_SNIPER"] = "Наблюдатель"
+lang["#NPC_CIPHERAGENT"] = "Агент Шифра"
+lang["#NPC_CIPHERAGENTS"] = "Агентов Шифра"
+lang["#NPC_CIPHERAGENT_RANK1"] = "Интерн Шифра"
+lang["#NPC_CIPHERAGENT_RANK2"] = "Подрядчик Шифра"
+lang["#NPC_CIPHERAGENT_RANK3"] = "Партнёр Шифра"
+lang["#NPC_CIPHERAGENT_RANK4"] = "Руководитель Шифра"
+lang["#NPC_CIPHERAGENT_RANK5"] = "Директор Шифра"
+lang["#NPC_CIPHERAGENT_SNIPER"] = "Дозорный"
+
+--Enclave
+lang["#NPC_ENCLAVERANK1"] = "Солдат" --Enclave Light Infantry
+lang["#NPC_ENCLAVERANK1A"] = "Солдат" --Enclave Light Infantry
+lang["#NPC_ENCLAVERANK1B"] = "Солдат" --Enclave Light Infantry
+lang["#NPC_ENCLAVERANK1C"] = "Солдат" --Enclave Light Infantry
+lang["#NPC_ENCLAVERANK1D"] = "Солдат" --Enclave Light Infantry
+lang["#NPC_ENCLAVERANK1E"] = "Солдат" --Enclave Light Infantry
+lang["#NPC_ENCLAVERANK2"] = "Солдат в тяжёлой броне" --Enclave Patrolman
+lang["#NPC_ENCLAVERANK3"] = "Солдат в тяжёлой броне" --Enclave Heavy Infantry
+lang["#NPC_ENCLAVESCIENTIST1"] = "Учёный" --Enclave Scientist
+lang["#NPC_ENCLAVESCIENTIST2"] = "Военный врач" --Enclave Combat Medic
+lang["#NPC_ENCLAVESCIENTIST3"] = "Учёный" --Enclave Geologist
+
 
 -- Super Mutants
 lang["#NPC_SUPERMUTANT"] = "Супермутант"
 lang["#NPC_SUPERMUTANTS"] = "Супермутантов"
---Super Mutant "Rejected" clan name
+--Super Mutant "Rejects" clan name
 lang["#NPC_REJECTEDSM_RANK1"] = "Бугай отвергнутых"
 lang["#NPC_REJECTEDSM_RANK2"] = "Бестия отвергнутых"
 lang["#NPC_REJECTEDSM_RANK3"] = "Мастер отвергнутых"
