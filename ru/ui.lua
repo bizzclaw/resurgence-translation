@@ -678,7 +678,7 @@ lang["#UI_FACTIONS"] = "Фракции"
 -- Contracts
 lang["#MISSION_ACCEPT"] = "Принять миссию"
 lang["#MISSION_TURNIN"] = "Сдать"
-lang["#MISSION_COMPLETE"] = "завершено."
+lang["#MISSION_COMPLETE"] = "- миссия завершена."
 lang["#MISSION_KILLS"] = "убито"
 lang["#MISSION_SELECTREWARD"] = "Вы выполнили миссию. Выберите награду."
 lang["#MISSION_CLAIMREWARD"] = "Забрать"
