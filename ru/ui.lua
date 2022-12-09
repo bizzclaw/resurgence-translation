@@ -895,8 +895,8 @@ lang["#MISSION_GIVER"] = "Наниматель"
 --    ╚═╝      ╚═╝   ╚═╝     ╚══════╝╚══════╝
 
 lang["#DISCOVER_INFO"] = "Исследовать $location."
-lang["#DELIVER_INFO"] = "Найти: $item и отдать $character."
-lang["#DELIVER_INFO_NOITEM"] = "Поговорить с $character."
+lang["#DELIVER_INFO"] = "Найти: $item и отдать: $character."
+lang["#DELIVER_INFO_NOITEM"] = "Поговорить с: $character."
 lang["#SCAVENGE_INFO"] = "Обыскать $amount предметов."
 lang["#SALVAGE_INFO"] = "Разобрать $amount старых машин."
 lang["#HARVEST_INFO"] = "Собрать $amount растений."
