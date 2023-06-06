@@ -45,7 +45,7 @@ lang["#UI_GMODMENU"] = "Garry's Mod Menu"
 lang["#UI_SIGNOUT"] = "Resurgence Main Menu"
 lang["#UI_QUIT"] = "Disconnect"
 lang["#UI_SIGNOUTWARN"] = "You will leave your character behind!\n\nIt's dangerous here, try Leaving from a town or from the Travel Map."
-lang["#UI_SIGNOUTDEATHWARN"] = "YOU WILL DIE!\nIf you leave now, your character will parish!\n\nYou can still make it if you let yourself recover."
+lang["#UI_SIGNOUTDEATHWARN"] = "YOU WILL DIE!\nIf you leave now, your character will perish!\n\nYou can still make it if you let yourself recover."
 
 
 --Pip Tabs
@@ -101,6 +101,7 @@ lang["#UI_SAVE"] = "Save"
 lang["#UI_SAVEWEIGHT"] = "Save Weight"
 lang["#UI_EMPTYSTORAGE"] = "<Empty>"
 lang["#UI_ETAKE"] = "@+use Take"
+lang["#UI_ESTEAL"] = "@+use Steal"
 lang["#UI_INSPECT"] = "Inspect"
 lang["#UI_EUSE"] = "@+use Use"
 lang["#UI_RTAKEALL"] = "@+reload Take All"
@@ -676,6 +677,7 @@ lang["#UI_FACTIONS"] = "Factions"
 
 -- Contracts
 lang["#MISSION_ACCEPT"] = "Accept Mission"
+lang["#MISSION_ACCEPT_ONHOSTILE"] = "ACCEPTING MISSION FROM HOSTILE FACTION!\n\nAccepting this mission will make this faction neutral towards you and they will no longer attack you on sight\n\nATTACKING THEM WILL INCUR A CRIME!"
 lang["#MISSION_TURNIN"] = "Turn In"
 lang["#MISSION_COMPLETE"] = "Completed."
 lang["#MISSION_KILLS"] = "Kills"
@@ -764,6 +766,8 @@ lang["#UI_COUNTS"] = "Counts"
 lang["#UI_FINE"] = "Fine"
 lang["#UI_PAYFINE"] = "Pay Fine"
 lang["#UI_FINEAMOUNT"] = "Pay Amount"
+
+lang["#UI_CRIME_FINE_ADDED"] = "Fine of $amount added."
 lang["#UI_CRIME_PAIDOFF"] = "You Paid off: $amount. Fine remaining: $remaining."
 lang["#UI_CRIME_PAIDOFF_FULL"] = "This crime has been paid off and Removed!"
 lang["#UI_CRIME_PAIDOFF_BLOCKED_DELAY"] = "You must wait $minutesLeft minutes before you can pay off this crime!"

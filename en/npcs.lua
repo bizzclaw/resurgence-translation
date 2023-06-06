@@ -31,8 +31,8 @@ lang["#NPC_RADSCORPIONS"] = "Radscorpions"
 lang["#NPC_CROW"] = "Crow"
 lang["#NPC_CROWS"] = "Crows"
 -- Molerats
-lang["#NPC_MOLERAT"] = "Molerat"
-lang["#NPC_MOLERATS"] = "Molerats"   
+lang["#NPC_MOLERAT"] = "Mole Rat"
+lang["#NPC_MOLERATS"] = "Mole Rats"   
 -- Geckos
 lang["#NPC_GECKO"] = "Gecko"
 lang["#NPC_GECKOS"] = "Geckos"
@@ -82,6 +82,10 @@ lang["#NPC_80SBANDIT_RANK2_OVERWATCH"] = "80s Tribe Long Hauler" -- A "Long Haul
 lang["#NPC_80SBANDIT_RANK3"] = "80s Tribe Highwayman" -- a "Highwayman" is a name for a thief who opperates near commonly traveled roads
 lang["#NPC_80SBANDIT_RANK4"] = "80s Tribe Road Agent" -- another name for a "highwayman"
 lang["#NPC_80SBANDIT_RANK5"] = "80s Tribe Big Rig" -- a "Big Rig" is a nickname for a Semitruck, the kind used to haul large cargo trailers
+lang["#NPC_80SBANDIT_BOSS"] = "80s Tribe Gyro Captain" -- Mad Max reference
+-- New California Republic
+lang["#NPC_NCRTROOPER"] = "NCR Trooper"
+lang["#NPC_NCRTROOPERS"] = "NCR Troopers"
 -- Ice Picks
 lang["#NPC_ICEPICKBANDIT"] = "Ice Pick Bandit" -- "Ice Pick", as in the tool
 lang["#NPC_ICEPICKBANDITS"] = "Ice Pick Bandits"
@@ -119,7 +123,7 @@ lang["#NPC_SHADOWEDBANDIT_RANK2_OVERWATCH"] = "Shadowed Spotter"
 lang["#NPC_SHADOWEDBANDIT_RANK3"] = "Shadowed Looter"
 lang["#NPC_SHADOWEDBANDIT_RANK4"] = "Shadowed Housebreaker"
 
---Mercenarys
+--Mercenaries
 lang["#NPC_MERC"] = "Mercenary"
 lang["#NPC_MERCS"] = "Mercenaries"
 lang["#NPC_MERCLEADER"] = "Mercenary Leader"
@@ -151,11 +155,22 @@ lang["#NPC_ENCLAVESCIENTIST3"] = "Scientist" --Enclave Geologist
 -- Super Mutants
 lang["#NPC_SUPERMUTANT"] = "Super Mutant"
 lang["#NPC_SUPERMUTANTS"] = "Super Mutants"
+
 --Super Mutant "Rejects" clan name
 lang["#NPC_REJECTEDSM_RANK1"] = "Rejected Grunt"
 lang["#NPC_REJECTEDSM_RANK2"] = "Rejected Brute"
 lang["#NPC_REJECTEDSM_RANK3"] = "Rejected Master"
 lang["#NPC_REJECTEDSM_RANK4"] = "Rejected Overlord"
+
+--Unity Remnants - Mixes Children of the Cathedral ranks with standard super mutant ones
+lang["#NPC_UNITY"] = "Unity Soldiers"
+lang["#NPC_UNITY_RANK1"] = "Unity Initiate"
+lang["#NPC_UNITY_RANK2"] = "Unity Acolyte"
+lang["#NPC_UNITY_RANK3"] = "Unity Servitor"
+lang["#NPC_UNITY_RANK4"] = "Unity Flagellant"
+lang["#NPC_UNITY_SM_RANK1"] = "Unity Soldier"
+lang["#NPC_UNITY_SM_RANK2"] = "Unity Brute"
+lang["#NPC_UNITY_SM_RANK3"] = "Unity Nightkin" -- Squad leaders, not necessarily NV style
 
 -- ██████╗  ██████╗ ██████╗  ██████╗ ████████╗██╗ ██████╗
 -- ██╔══██╗██╔═══██╗██╔══██╗██╔═══██╗╚══██╔══╝██║██╔════╝
