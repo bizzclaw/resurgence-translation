@@ -42,4 +42,9 @@ lang["#MISSION_YOLLA_ABOMINATIONHATRED_DESC"] = "The hirer of this task wants so
 lang["#MISSION_YOLLA_ABOMINATIONHATRED_HINT"] = "Eliminate any type of Deathclaws in Yolla Bolly. They can be commonly found on a hill besides Waxton, and sometimes on the other side of it. Deathclaws are very dangerous, so it is recommended to use high-powered rifles with Armor Piercing rounds."
 lang["#MISSION_YOLLA_ABOMINATIONHATRED_COMPLETE"] = "You've completed the task."
 
+lang["#MISSION_YOLLA_ANTHILL"] = "Anthill"
+lang["#MISSION_YOLLA_ANTHILL_DESC"] = "The client who posted this notice is searching for experienced hunters to thin down the ant population of Yolla Bolly and is offering a cash reward."
+lang["#MISSION_YOLLA_ANTHILL_HINT"] = "Eliminate any type of Giant Ant in Yolla Bolly. They can be found in the dried lake bed on the lower end of the factory town and inside the mines."
+lang["#MISSION_YOLLA_ANTHILL_COMPLTE"] = "You've completed the task."
+
 RELOADSCHEMA = true

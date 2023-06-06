@@ -175,8 +175,11 @@ lang["#PERK_ARMORSMITHING_DESC"] = "You've learned how to create strengthy armor
 lang["#PERK_ARMORSMITHING_LEVEL_1"] = "-You can craft Metal Armor and Super Mutant Armor Pieces."
 lang["#PERK_ARMORSMITHING_LEVEL_2"] = "-You can craft Metal Armor, Super Mutant Armor, and Combat Armor Pieces."
 
+lang["#PERK_POWERPATCHER_NAME"] = "Power Patcher"
+lang["#PERK_POWERPATCHER_DESC"] = "You've learned the secret to piecing Power Armor back together! You can craft Power Armor Patch Kits at a Workbench."
+
 lang["#PERK_CHEMIST_NAME"] = "Chemist"
-lang["#PERK_CHEMIST_DESC"] = "You have a clear understanding of combining elements and compounds into mixtures and using it to your advantage."
+lang["#PERK_CHEMIST_DESC"] = "You have a clear understanding of combining elements and compounds into mixtures and using it to your advantage.\n\n-You cannot take the Tribal Secrets perk."
 lang["#PERK_CHEMIST_LEVEL_1"] = "-You can craft regular chemical items."
 lang["#PERK_CHEMIST_LEVEL_2"] = "-You can craft advanced chemical items."
 
@@ -203,6 +206,9 @@ lang["#PERK_EXQUISITECHEF_DESC"] = "You've figured out a way to cook some foods 
 
 lang["#PERK_JURYRIG_NAME"] = "Jury Rigging"
 lang["#PERK_JURYRIG_DESC"] = "You possess the amazing ability to repair any firearm, raygun, launcher, clothing, or armor using a similar item. Fix an Assault Carbine with a Chinese Assault Rifle, a Plasma Rifle with a Laser RCW, or even a Fatman with a Missile Launcher. How does it work? Nobody knows... except you.." -- WIP
+
+lang["#PERK_TRIBALSECRETS_NAME"] = "Tribal Secrets"
+lang["#PERK_TRIBALSECRETS_DESC"] = "By background or study, you've learned the secrets of the tribals! You can craft Healing Balm, Fiery Purgative, and Pemmican at a campfire.\n\n-You cannot take the Chemist perk."
 
 -- UI
 lang["#PERKREQ_COST"] = "Not Enough Perk Points"

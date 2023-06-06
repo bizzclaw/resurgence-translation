@@ -57,6 +57,8 @@ lang["#RAWBLOODBUG_NAME"] = "Raw Bloodbug Meat"
 lang["#RAWMIRELURK_NAME"] = "Raw Mirelurk Meat"
 lang["#RAWYAOGUAI_NAME"] = "Raw Yaoguai Meat"
 lang["#RAWBLOODWORM_NAME"] = "Raw Bloodworm Meat"
+lang["#RAWANGLER_NAME"] = "Raw Angler Meat"
+lang["#POACHEDANGLER_NAME"] = "Poached Angler"
 lang["#COOKEDPRAWN_NAME"] = "Cooked Prawn Meat"
 lang["#CRISPYSQUIRRELBITS_NAME"] = "Crispy Squirrel Bits"
 lang["#RAWDOGMEAT_NAME"] = "Raw Dog Meat"
@@ -108,7 +110,7 @@ lang["#CAKES_NAME"] = "Fancy Lad's Snack Cakes"
 lang["#PREWARCAKES_NAME"] = "Pre-War Fancy Lad's Snack Cakes"
 lang["#CHIPS_NAME"] = "Potato Crisps"
 lang["#CRAM_NAME"] = "Cram"
-lang["#RADSCORPIONOMELETTE_NAME"] = "Radscorpion Omelette"
+lang["#RADSCORPIONCASSEROLE_NAME"] = "Radscorpion Casserole"
 lang["#RADSCORPIONSTEAK_NAME"] = "Radscorpion Steak"
 lang["#DOGFOOD_NAME"] = "Dog Food"
 lang["#DANDYBOY_NAME"] = "Dandyboy Apples"
@@ -149,6 +151,7 @@ lang["#SCOTCH_NAME"] = "Scotch"
 lang["#WHISKEY_NAME"] = "Whiskey"
 lang["#RADWHISKEY_NAME"] = "Rad Whiskey"
 lang["#VODKA_NAME"] = "Vodka"
+lang["#RUM_NAME"] = "Rum"
 lang["#STRONGSLUDGE_NAME"] = "Strong Sludge Cocktail"
 lang["#MOONSHINE_NAME"] = "Moonshine"
 lang["#ATOMICCOCKTAIL_NAME"] = "Atomic Cocktail"
@@ -233,6 +236,8 @@ lang["#RAWBLOATFLY_DESC"] = "Crunchy. Sour. Would cook great with something swee
 lang["#BFLYLARVA_DESC"] = "Tender and juicy. If you don't mind the smell, it's a great source of protein."
 lang["#RAWBLOODBUG_DESC"] = "Tastes like blood, believe it for not. Has an odd sweet/sour aftertaste. You should probably cook it before eating it."
 lang["#RAWBLOODWORM_DESC"] = "Tastes like blood, believe it for not. A tough outer layer with a soft, tangy inside. You should probably cook it before eating it."
+lang["#RAWANGLER_DESC"] = "Heavily mutated fish meat.\n\nBony and flaky."
+lang["#POACHEDANGLER_DESC"] = "Dry and flaky, but high in protein and heart healthy oils. Tastes pretty good."
 lang["#RAWRADRAT_DESC"] = "Desperate times call for desperate measures..."
 lang["#COOKEDPRAWN_DESC"] = "Cool and yummy, and small enough to fit into your pocket for a quick snack. Make sure you're not allergic, though."
 lang["#RAWSTINGWING_DESC"] = "Crunchy. This stuff will make your entire mouth numb for atleast twenty minutes. Try cooking it first."
@@ -273,7 +278,7 @@ lang["#FUNGUSSOUP_DESC"] = "Green, goopy soup with mushy balls floating around i
 lang["#WELLINGTON_DESC"] = "A slab of deathclaw meat which has been wrapped in a homemade dough and baked until cooked."
 lang["#DESERTSALAD_DESC"] = "You'd have to be really pretentious to be on a salad diet in this economy."
 lang["#CRAM_DESC"] = "You never know with Cram!"
-lang["#RADSCORPIONOMELETTE_DESC"] = "It's... really sour. Make sure you wash it down with water."
+lang["#RADSCORPIONCASSEROLE_DESC"] = "Mole rat meat, jalapeno peppers, and a radscorpion poison gland baked together in a deep dish.\n\nSets your tongue on fire, but tastes surprisingly good."
 lang["#DOGFOOD_DESC"] = "It's not meant for humans, I'll tell you that much."
 lang["#DANDYBOY_DESC"] = "Sliced Apples covered in sugar."
 lang["#EGGS_DESC"] = "No one knows what 'deviled' even means."
@@ -322,6 +327,7 @@ lang["#SCOTCH_DESC"] = "A moderate-proof alcoholic beverage.\n\nMakes you thirst
 lang["#WHISKEY_DESC"] = "A high-proof alcoholic beverage.\n\nMakes you thirsty, but washes away the pain."
 lang["#RADWHISKEY_DESC"] = "Whiskey brewed with radioactive fruit and fluid. Not safe for human consumption. An alcohol alternative for ghouls."
 lang["#VODKA_DESC"] = "A high-proof alcoholic beverage.\n\nMakes you thirsty, but washes away the pain."
+lang["#RUM_DESC"] = "A high-proof alcoholic beverage.\n\nMakes you thirsty, but washes away the pain."
 lang["#STRONGSLUDGE_DESC"] = "A radioactive cocktail for ghouls. Makes them pretty strong but a little stupid, with a dose of rads."
 lang["#MOONSHINE_DESC"] = "An extremely high-proof, home brewed, alcohol.\n\nMakes you flat out drunk, but feel invincible."
 lang["#ATOMICCOCKTAIL_DESC"] = "A strong cocktail brewed from a few diferent drinks and some fruit. The alcohol is more than strong enough to knock out the rads from the fruit and gives you a nice long buzz."
@@ -417,6 +423,7 @@ lang["#ULTRASTIMPAK_Name"] = "Ultra Stimpak"
 lang["#RADX_NAME"] = "Rad-X"
 lang["#STRANGEVIAL_NAME"] = "Strange Vial"
 lang["#BUFFOUT_NAME"] = "Buffout"
+lang["#MOTOROIL_NAME"] = "80s Tribe 'Motor Oil'"
 lang["#PSYCHO_NAME"] = "Psycho"
 lang["#FIXER_NAME"] = "Fixer"
 lang["#HEALINGPOWDER_NAME"] = "Healing Powder"
@@ -430,6 +437,10 @@ lang["#ANTPHERO_NAME"] = "Ant Queen Pheromones"
 lang["#ANTNECTAR_NAME"] = "Ant Nectar"
 lang["#ANTNECTARFIRE_NAME"] = "Fire Ant Nectar"
 lang["#EIGHTBALL_NAME"] = "Eight Ball"
+lang["#IMPUREBALM_NAME"] = "Impure Balm"
+lang["#FOULPURGE_NAME"] = "Foul Purge"
+lang["#HEALINGBALM_NAME"] = "Healing Balm"
+lang["#FIERYPURGE_NAME"] = "Fiery Purgative"
 
 
 
@@ -449,10 +460,10 @@ lang["#ADDICTION_ANTPHERO_NOTIFY"] = "You have become addicted to Ant Queen Pher
 
 --Medical Items Description
 lang["#ADDICTOL_DESC"] = "A powerful anti-addiction drug.\n\nAddictol is an effective pre-War medicine that works both physically and psychologically to remove both the symptoms of drug abuse and the craving.\n\nSide effects include, but are not limited to, hunger, thirst, loss of sleep, loss of taste, nausea, heartburn, indigestion, erectile disfunction, and anal leakage."
-lang["#ANTIBIOTIC_DESC"] = "A vial of standard antibiotics, useful for curing bacterial diseases."
-lang["#LUCID_DESC"] = "A Pre-War drug useful for curing brain diseases."
-lang["#ANTIFLAME_DESC"] = "An anti-inflammatory drug, useful for curing inflammatory diseases."
-lang["#HEATUP_DESC"] = "A miracle drug that clears up spasms, and can treat muscle atrophy."
+lang["#ANTIBIOTIC_DESC"] = "A vial of standard antibiotics, useful for curing bacterial diseases.\n\nTreats The Vapors, Crotch Rot, Bacterial Infection, Light Cough, and Calamitous Rash."
+lang["#LUCID_DESC"] = "A Pre-War drug useful for curing brain diseases.\n\nTreats Bad Headache, Brain Congestion, Myopia, Glassy Eyes, and Brain Rot."
+lang["#ANTIFLAME_DESC"] = "An anti-inflammatory drug, useful for curing inflammatory diseases.\n\nTreats Fumigations, Light Cough, Bronchitis, Bad Headache, Tar Lung, and Slurs."
+lang["#HEATUP_DESC"] = "A miracle drug that clears up spasms, and can treat muscle atrophy.\n\nTreats Limp Wrist, Jumbles, Twitch Lips, THe Weakness, and Crunch Cramp."
 lang["#ANTIVENOM_DESC"] = "A bottle of antivenom created from Radscorpion stingers."--Curing item that removes sickness from players.
 lang["#JET_DESC"] = "A highly addictive drug created by one of the New Reno families. Doesn't smell nice, yet a second sniff is infinitely tempting."--Increases agility by 2, ignores armor speed de-buff for 70-100 seconds (Randomized)
 lang["#MEDSUPPLIES_DESC"] = "A box of various medical supplies."--Medical Supplies are a generic item that people with a medicine skill of over 30 can use to heal people with. imagine PNRP's current heal system, but with an item requirement
@@ -483,6 +494,7 @@ lang["#SUPERSTIMPAK_DESC"] = "A more advanced version of the already incredible 
 lang["#ULTRASTIMPAK_DESC"] = "The most advanced medicinal aid to come out of the 21st century, the Ultra Stimpak is able to treat even the most fatal injuries.\nDue to the powerful nature of the chems used, it can cause harm after a period of time."
 lang["#RADX_DESC"] = "A bottle of pills that prevent drastic radiation damage to the body.\n\nReduces Incoming Radiation by 25%."
 lang["#BUFFOUT_DESC"] = "Highly advanced steroids.\n\nWhile under effects, increases strength and endurance.\n\nVery addictive."
+lang["#MOTOROIL_DESC"] = "A refined form of ant nectar.\n\nThe chem nicknamed 'Motor Oil' is a refined, more powerful form of ant nectar mixed with powdered buffout, cut with abraxo cleaner, and then reconstituted with an atomic cocktail. Why the hell would you drink this abomination?\n\nVery addictive."
 lang["#PSYCHO_DESC"] = "This injected drug was intended for military use.\nCan cause extreme anger and recklessness.\n\nAP Is not consumed for 90 seconds."
 lang["#FIXER_DESC"] = "Fixer is a Pre-War invention adopted and replicated by various groups around the Wasteland.\nThe medication, coming in the form of small capsules, is known for its ability to temporarily and in most cases fully remove addictions."
 lang["#HEALINGPOWDER_DESC"] = "A powder made by crushed xander root and broc flower. It smells awful, but apparently can slowly heal wounds and helps coagulate blood. Commonly used by natives because of these special 'healing' properties."
@@ -496,6 +508,10 @@ lang["#ANTPHERO_DESC"] = "A naturally occurring substance secreted by Giant Ant 
 lang["#ANTNECTAR_DESC"] = "A naturally occurring substance secreted by Giant Ants.\n\nValued by tribals for its strength granting properties, it's drawbacks are lowered intelligence and charisma.\n\nExtremely addictive."
 lang["#ANTNECTARFIRE_DESC"] = "A naturally occurring substance secreted by Giant Fire Ants.\n\nValued by tribals for its agility granting properties, it's drawback is sharply lowered intelligence.\n\nExtremely addictive."
 lang["#EIGHTBALL_DESC"] = "A black ball with the number eight on it. Used for a good game of pool before the war, it's moreso used as a symbol of good luck nowadays."
+lang["#IMPUREBALM_DESC"] = "A crude healing balm mixed from healing powder, low proof alcohol, and antiseptic extracted from abraxo cleaner and allowed to thicken.\n\nVery painful to apply, but undeniably effective."
+lang["#FOULPURGE_DESC"] = "A cocktail of choice ingredients: white horsenettle, dirty water, and a broc flower.\n\nAt least you can vomit up all that radiation, right?"
+lang["#HEALINGBALM_DESC"] = "A traditional tribal recipe of healing powder mixed with Nevada agave fruit and pure distilled alcohol as antiseptic.\n\nCauses joint inflammation, but undeniably effective."
+lang["#FIERYPURGE_DESC"] = "Tribal radiation removal; peppers, white horsenettle, and high-proof vodka.\n\nEffective at clearing radiation, but burns like hell."
 
 
 --███╗   ███╗██╗███████╗ ██████╗
@@ -656,6 +672,7 @@ lang["#FUELCELLREGULATOR_NAME"] = "Fuel Cell Regulator"
 lang["#WHITEHORSENETTLE_NAME"] = "White Horsenettle"
 lang["#ADVANCEDMATERIAL_NAME"] = "Advanced Materials"
 lang["#BRAHMINDUNG_NAME"] = "Brahmin Dung"
+lang["#RECIPEMOTOROIL_NAME"] = "Recipe - 80s Tribe 'Motor Oil'"
 
 
 lang["#STEELCASINGNAME"] = "Steel Casing -"
@@ -664,6 +681,7 @@ lang["#HULLCASINGNAME"] = "Hull -"
 lang["#JUNKROUND_NAME"] = "Junk"
 lang["#AMMOBOX_NAME"] = "Ammo Box,"
 
+lang["#NCRSURVIVALKIT_NAME"] = "NCR Survival Kit"
 
 --MISC Items Desc
 lang["#ABRAXO_DESC"] = "A pre-War cleaning agent produced by Abraxodyne Chemical.\n\nIt can still be found throughout the U.S. over 150 years after the Great War."
@@ -820,17 +838,20 @@ lang["#FUELCELLREGULATOR_DESC"] = "Some car-owners installed this regulator, tha
 lang["#WHITEHORSENETTLE_DESC"] = "The berries of the White Horsenettle plant, also known as Silverleaf Nightshade.\n\nA delcared noxious weed in the Pre-War U.S., both the plants and berries are toxic, but indiginous people of the American Southwest have found use for the latter as a component in tanning hides."
 lang["#ADVANCEDMATERIAL_DESC"] = "Special materials found in fragments from special power armor. Maybe these materials could be put back together to make something new..."
 lang["#BRAHMINDUNG_DESC"] = "A bag of mushy, wet brahmin dung. Used as fertiziler, primarily.\n\nSmells absolutely disgusting."
+lang["#RECIPEMOTOROIL_DESC"] = "A hand-drawn recipe and diagrams on how to brew 'Motor Oil'; the specialty chem of the 80s Tribe.\n\nThis recipe is not consumed on use."
 
 
 lang["#BOBBLEHEAD_NAME"] = "Bobblehead"
 
-lang["#AMMOBOX_DESC"] = "An unbroken box of ammo, just like the Pre-war days.\n\nUn-packs on purchase."
+lang["#AMMOBOX_DESC"] = "An unbroken box of ammo, just like the Pre-war days.\n\nUnpacks on purchase."
 lang["#20ROUND_DESC"] = "Contains 20 rounds."
 lang["#50ROUND_DESC"] = "Contains 50 rounds."
 lang["#65ROUND_DESC"] = "Contains 65 rounds."
 lang["#80ROUND_DESC"] = "Contains 80 rounds."
 lang["#100ROUND_DESC"] = "Contains 100 rounds."
 lang["#250ROUND_DESC"] = "Contains 250 rounds."
+
+lang["#NCRSURVIVALKIT_DESC"] = "A prepackaged survival kit issued to rank-and-file NCR Troopers for use in low-intensity operations.\n\nContains two stimpaks, trail mix, purified water, two splints, and one bag of Rad-Away.\n\nUnpacks on purchase."
 
 
 
@@ -893,7 +914,7 @@ lang["#PREWARMONEY_FAKE_DESC"] = "Funny thing about counterfeit Pre-War bills, t
 lang["#NCRMONEY_DESC"] = "A paper bill similar to Pre-War money.\n\nIt features a picture of Aradesh on the face and the view of Shady Sands on the back."
 lang["#NCRMONEY_FAKE_DESC"] = "A newspaper ''bill'' ''similar'' to Pre-War money.\n\nIt features a picture of a dog (missing) on the face and a Super-Duper Mart coupon (expired) on the back.\n\nWho knew counterfeiting would survive the war?"
 lang["#NCRMONEY_VOUCHER_DESC"] = "Vouchers that can be redeemed for unique rewards with NCR quartermasters, found in territory they control."
-lang["#RAIDERMONEY_VOUCHER_DESC"] ="Trophies that can be redeemed for unique rewards with the various Raiders, found in territories they cause chaos in."
+lang["#RAIDERMONEY_VOUCHER_DESC"] = "Trophies that can be redeemed for unique rewards with the various raider gangs found in territories they cause chaos in.\n\nThe most common type of raider trophy is the victim's trigger finger so that they might never fight back again."
 lang["#SCRAPMETAL_DESC"] = "Metal scavenged from Pre-War artifacts."
 lang["#SCRAPCLOTH_DESC"] = "Scraps of cloth from old clothing and other artifacts."
 lang["#SCRAPCOPPER_DESC"] = "Scraps of copper that can be used for crafting."
