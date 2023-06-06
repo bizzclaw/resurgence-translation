@@ -8,7 +8,7 @@ lang["#REGION_NOTHERNCALIFORNIA_CANYONENTRANCE"] = "Железнодорожны
 
 lang["#REGION_MOJAVE"] = "Солт-Уэллс"
 lang["#REGION_MOJAVE_EAST"] = "Шоссе 50, восток"
-lang["#REGION_MOJAVE_WEST"] = "Шоссе 50, запад"
+lang["#REGION_MOJAVE_WEST"] = "Шоссе 50, западный охотничий аванпост"
 
 lang["#REGION_MOUNTAINPASS"] = "Маунтин-Пасс"
 lang["#REGION_MOUNTAINPASS_NORTH"] = "Северный перевал"
@@ -28,7 +28,7 @@ lang["#REGION_YOLLABOLLY"] = "Горный хребет Йолла Болли"
 lang["#REGION_YOLLABOLLY_CLIFFCONVY"] = "Заброшенный конвой"
 lang["#REGION_YOLLABOLLY_HYDRO"] = "Перевал Гидроплотины"
 lang["#REGION_YOLLABOLLY_TUNNELTRAILER"] = "Туннельная баррикада"
-lang["#REGION_YOLLABOLLY_TOWN"] = "Клиффсайд"
+lang["#REGION_YOLLABOLLY_TOWN"] = "Городок выживальщиков"
 
 lang["#REGION_DEADESTUARY"] = "Мёртвое устье"
 lang["#REGION_DEADESTUARY_NORTH"] = "Северная лодка"
@@ -36,7 +36,7 @@ lang["#REGION_DEADESTUARY_SW"] = "Лагерь контрабандистов"
 lang["#REGION_DEADESTUARY_NW"] = "Западная лачуга"
 lang["#REGION_DEADESTUARY_E"] = "Передвижная флотилия"
 
-lang["#REGION_SALEM"] = "Сейлемские руины" 
+lang["#REGION_SALEM"] = "Сейлемские руины"
 lang["#REGION_SALEM_SE"] = "Юго-восточные улицы"
 lang["#REGION_SALEM_S"] = "Обрушенное здание"
 lang["#REGION_SALEM_NW"] = "Жилой корпус"
