@@ -31,7 +31,7 @@ lang["#NPC_RADSCORPIONS"] = "Радскорпионов"
 lang["#NPC_CROW"] = "Ворона"
 lang["#NPC_CROWS"] = "Ворон"
 -- Molerats
-lang["#NPC_MOLERAT"] = "Кротокрыса"
+lang["#NPC_MOLERAT"] = "Кротокрыс"
 lang["#NPC_MOLERATS"] = "Кротокрысов"
 -- Geckos
 lang["#NPC_GECKO"] = "Геккон"
@@ -82,6 +82,10 @@ lang["#NPC_80SBANDIT_RANK2_OVERWATCH"] = "Дальнобойщик племен�
 lang["#NPC_80SBANDIT_RANK3"] = "Разбойник племени 80-х" -- a "Highwayman" is a name for a thief who opperates near commonly traveled roads
 lang["#NPC_80SBANDIT_RANK4"] = "Грабитель племени 80-х" -- another name for a "highwayman"
 lang["#NPC_80SBANDIT_RANK5"] = "Тягач племени 80-х" -- a "Big Rig" is a nickname for a Semitruck, the kind used to haul large cargo trailers
+lang["#NPC_80SBANDIT_BOSS"] = "Капитан гироскопа племени 80-х" -- Mad Max reference
+-- New California Republic
+lang["#NPC_NCRTROOPER"] = "Солдат НКР"
+lang["#NPC_NCRTROOPERS"] = "Солдатов НКР"
 -- Ice Picks
 lang["#NPC_ICEPICKBANDIT"] = "Рейдер Ледорубов" -- "Ice Pick", as in the tool
 lang["#NPC_ICEPICKBANDITS"] = "Рейдеров Ледорубов"
@@ -117,7 +121,7 @@ lang["#NPC_SHADOWEDBANDIT_RANK2_OVERWATCH"] = "Наводчик Теней"
 lang["#NPC_SHADOWEDBANDIT_RANK3"] = "Мародёр Теней"
 lang["#NPC_SHADOWEDBANDIT_RANK4"] = "Взломщик домов Теней"
 
---Mercenarys
+--Mercenaries
 lang["#NPC_MERC"] = "Наёмник"
 lang["#NPC_MERCS"] = "Наёмников"
 lang["#NPC_MERCLEADER"] = "Лидер наёмников"
@@ -155,6 +159,16 @@ lang["#NPC_REJECTEDSM_RANK1"] = "Бугай отвергнутых"
 lang["#NPC_REJECTEDSM_RANK2"] = "Бестия отвергнутых"
 lang["#NPC_REJECTEDSM_RANK3"] = "Мастер отвергнутых"
 lang["#NPC_REJECTEDSM_RANK4"] = "Босс отвергнутых"
+
+--Unity Remnants - Mixes Children of the Cathedral ranks with standard super mutant ones
+lang["#NPC_UNITY"] = "Солдаты единства"
+lang["#NPC_UNITY_RANK1"] = "Посвящённый единства"
+lang["#NPC_UNITY_RANK2"] = "Послушник единства"
+lang["#NPC_UNITY_RANK3"] = "Служитель единства"
+lang["#NPC_UNITY_RANK4"] = "Флагеллант единства"
+lang["#NPC_UNITY_SM_RANK1"] = "Солдат единства"
+lang["#NPC_UNITY_SM_RANK2"] = "Бестия единства"
+lang["#NPC_UNITY_SM_RANK3"] = "Тень единства" -- Squad leaders, not necessarily NV style
 
 -- ██████╗  ██████╗ ██████╗  ██████╗ ████████╗██╗ ██████╗
 -- ██╔══██╗██╔═══██╗██╔══██╗██╔═══██╗╚══██╔══╝██║██╔════╝
