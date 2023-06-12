@@ -36,10 +36,15 @@ lang["#MISSION_SALTWELLS_GECKOPROBLEM_DESC"] = "This task is open to those who a
 lang["#MISSION_SALTWELLS_GECKOPROBLEM_HINT"] = "Eliminate any type of Geckos in Salt Wells. Geckos can be found in generally open spaces throughout the wasteland."
 lang["#MISSION_SALTWELLS_GECKOPROBLEM_COMPLETE"] = "You've completed the task."
 
-lang["#MISSION_SALTWELLS_BANDITWIPEOUT"] = "Bandit Wipeout"
-lang["#MISSION_SALTWELLS_BANDITWIPEOUT_DESC"] = "This task is available to be taken by someone who is looking to clear some Bandits in the area."
+lang["#MISSION_SALTWELLS_BANDITWIPEOUT"] = "Bounty - 80s Tribe Bandits"
+lang["#MISSION_SALTWELLS_BANDITWIPEOUT_DESC"] = "This task is available to be taken by someone who is looking to clear some 80s Tribe Bandits in the area."
 lang["#MISSION_SALTWELLS_BANDITWIPEOUT_HINT"] = "Eliminate any type of Bandit in Salt Wells. Bandits can be found in makeshift camps around the region."
 lang["#MISSION_SALTWELLS_BANDITWIPEOUT_COMPLETE"] = "You've completed the task."
+
+lang["#MISSION_SALTWELLS_TROOPERWIPEOUT"] = "Bounty - NCR Troopers"
+lang["#MISSION_SALTWELLS_TROOPERWIPEOUT_DESC"] = "This task is available to be taken by someone who is looking to clear some NCR Troopers in the area."
+lang["#MISSION_SALTWELLS_TROOPERWIPEOUT_HINT"] = "Eliminate NCR Troopers in Salt Wells. Bandits can be found patrolling the region and in the radio tower outpost."
+lang["#MISSION_SALTWELLS_TROOPERWIPEOUT_COMPLETE"] = "You've completed the task."
 
 lang["#MISSION_SALTWELLS_WEAPONREQUESTI"] = "Weapon Request, I"
 lang["#MISSION_SALTWELLS_WEAPONREQUESTI_DESC"] = "This task is open to those who are willing to get a Pipe Gun for the hirer. They are willing to pay a good price for it."
@@ -68,7 +73,7 @@ lang["#MISSION_SALTWELLS_WEAPONREQUESTV_COMPLETE"] = "You've completed the task.
 
 lang["#MISSION_SALTWELLS_REAVERELIMINATION"] = "Reaver Elimination"
 lang["#MISSION_SALTWELLS_REAVERELIMINATION_DESC"] = "This task is open to those who are willing to eliminate Feral Ghoul Reavers for the hirer. The hirer is willing to pay a reasonable price for it."
-lang["#MISSION_SALT815185WELLS_REAVERELIMINATION_HINT"] = "Eliminate Feral Ghouls Reavers in Salt Wells. Feral ghouls are commonly found near ruins, broken buildings, and abandoned locations. Reavers are very resistant to melee weapons, it is recommended to use a firearm."
+lang["#MISSION_SALTWELLS_REAVERELIMINATION_HINT"] = "Eliminate Feral Ghouls Reavers in Salt Wells. Feral ghouls are commonly found near ruins, broken buildings, and abandoned locations. Reavers are very resistant to melee weapons, it is recommended to use a firearm."
 lang["#MISSION_SALTWELLS_REAVERELIMINATION_COMPLETE"] = "You've completed the task."
 
 RELOADSCHEMA = true

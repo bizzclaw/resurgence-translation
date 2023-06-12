@@ -16,7 +16,7 @@ lang["#SPC_STR"] = "Strength" -- for Specials, keep the first half of the name i
 lang["#SPC_STRDESC"] = "Raw Physical Power, A high Strength is good for physical acts.\n\n- Affects base melee attack strength.\n- Affects the ability to carry things.\n- Heftier Weapons are wielded more easily."
 
 lang["#SPC_PER"] = "Perception"
-lang["#SPC_PERDESC"] = "The tuning of the body's senses, A high Perception is good for exploring, or sharpshooting.\n\n- Affects the ability to prospect.\n- Affects the precision of weapons.\n- Affects Identifying."
+lang["#SPC_PERDESC"] = "The tuning of the body's senses, A high Perception is good for exploring, or sharpshooting.\n\n- Affects the ability to prospect.\n- Affects ranged weapon skills.\n- Increases Combat points gained from level advancement."
 
 lang["#SPC_EDR"] = "Endurance"
 lang["#SPC_EDRDESC"] = "The body's ability to resist the elements, A high Endurance rate may help you survive where others may not.\n\n- Affects Maximum Health.\n- Actions take less AP to perform."
@@ -25,7 +25,7 @@ lang["#SPC_CHR"] = "Charisma "
 lang["#SPC_CHRDESC"] = "Social acuteness, charisma allows for communication and persuasion. A high Charismatic Charm pulls people together.\n\n- Increases party size capacity.\n- Increases party benefits.\n- Reputation Rewards."
 
 lang["#SPC_INT"] = "Intelligence"
-lang["#SPC_INTDESC"] = "Wits and wisdom, the ability to think quickly is essential for survival in the Wastes.\n\n- Affects the ability to craft items and modifications.\n- Increases points gained from level advancement."
+lang["#SPC_INTDESC"] = "Wits and wisdom, the ability to think quickly is essential for survival in the Wastes.\n\n- Affects the ability to craft items and modifications.\n- Increases Utility points gained from level advancement."
 
 lang["#SPC_AGL"] = "Agility"
 lang["#SPC_AGLDESC"] = "The ability to be fast. A high Agility grants speed to movement and other actions.\n\n- Affects max AP and AP regeneration speed.\n- Increases Speed at which many actions are performed."
@@ -174,9 +174,6 @@ lang["#PERK_ARMORSMITHING_NAME"] = "Armor Smithing"
 lang["#PERK_ARMORSMITHING_DESC"] = "You've learned how to create strengthy armors by just by welding metal together!"
 lang["#PERK_ARMORSMITHING_LEVEL_1"] = "-You can craft Metal Armor and Super Mutant Armor Pieces."
 lang["#PERK_ARMORSMITHING_LEVEL_2"] = "-You can craft Metal Armor, Super Mutant Armor, and Combat Armor Pieces."
-
-lang["#PERK_POWERPATCHER_NAME"] = "Power Patcher"
-lang["#PERK_POWERPATCHER_DESC"] = "You've learned the secret to piecing Power Armor back together! You can craft Power Armor Patch Kits at a Workbench."
 
 lang["#PERK_CHEMIST_NAME"] = "Chemist"
 lang["#PERK_CHEMIST_DESC"] = "You have a clear understanding of combining elements and compounds into mixtures and using it to your advantage.\n\n-You cannot take the Tribal Secrets perk."

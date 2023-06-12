@@ -13,6 +13,7 @@ lang["#REGION_MOJAVE_WEST"] = "U.S. 50, West Hunter Outpost"
 lang["#REGION_MOUNTAINPASS"] = "Mountain Pass"
 lang["#REGION_MOUNTAINPASS_NORTH"] = "Northern Pass"
 lang["#REGION_MOUNTAINPASS_SOUTH"] = "Camp Willow"
+lang["#REGION_MOUNTAINPASS_MOUNTAIN"] = "Mountaintop Wilderness"
 
 lang["#REGION_ASHLANDS"] = "The Ash Lands"
 lang["#REGION_ASHLANDS_OUTPOST"] = "Arms Tent"

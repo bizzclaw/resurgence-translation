@@ -86,6 +86,15 @@ lang["#NPC_80SBANDIT_BOSS"] = "80s Tribe Gyro Captain" -- Mad Max reference
 -- New California Republic
 lang["#NPC_NCRTROOPER"] = "NCR Trooper"
 lang["#NPC_NCRTROOPERS"] = "NCR Troopers"
+-- Valley Survivalist
+lang["#NPC_SURVIVALIST"] = "Valley Survivalist"
+lang["#NPC_SURVIVALISTS"] = "Valley Survivalists"
+lang["#NPC_SURVIVALIST_RANK1"] = "Valley Settler"
+lang["#NPC_SURVIVALIST_RANK2"] = "Valley Militia"
+lang["#NPC_SURVIVALIST_RANK3"] = "Valley Sharpshooter"
+lang["#NPC_SURVIVALIST_RANK4"] = "Valley Deadeye"
+lang["#NPC_SURVIVALIST_RANK5"] = "Valley Frontier-Fighter"
+lang["#NPC_SURVIVALIST_BOSS"] = "Valley Militia Captain"
 -- Ice Picks
 lang["#NPC_ICEPICKBANDIT"] = "Ice Pick Bandit" -- "Ice Pick", as in the tool
 lang["#NPC_ICEPICKBANDITS"] = "Ice Pick Bandits"

@@ -47,6 +47,16 @@ lang["#UI_QUIT"] = "Disconnect"
 lang["#UI_SIGNOUTWARN"] = "You will leave your character behind!\n\nIt's dangerous here, try Leaving from a town or from the Travel Map."
 lang["#UI_SIGNOUTDEATHWARN"] = "YOU WILL DIE!\nIf you leave now, your character will perish!\n\nYou can still make it if you let yourself recover."
 
+-- Loading Screen
+lang["#UI_LOADINGCHARACTER"] = "Loading Character..."
+
+lang["#UI_LOADING_CREATING"] = "Creating Character..."
+lang["#UI_LOADING_FINDING"] = "Finding Character..."
+lang["#UI_LOADING_INVENTORY"] = "Loading Inventory..."
+lang["#UI_LOADING_CONTRACTS"] = "Loading Contracts..."
+lang["#UI_LOADING_REPUTATION"] = "Loading Reputation..."
+lang["#UI_LOADING_COMMUNITY"] = "Loading Community..."
+lang["#UI_LOADING_SPAWNING"] = "Spawning!"
 
 --Pip Tabs
 lang["#UI_STATS"] = "Stats"
@@ -85,9 +95,10 @@ lang["#SHORT_STR"] = "STR" -- Strength
 lang["#SHORT_CND"] = "CND" -- Condition
 lang["#SHORT_RADS"] = "RADS" -- Radiation level
 lang["#SHORT_SAT"] = "SAT" -- Satiation, hunger combined with thirst into one stat.
+lang["#SHORT_PVP"] = "PVP" -- Player Versus Player
 
 -- UI Labels
-lang["#UI_SEARCH"] = "Search..."
+lang["#UI_SEARCH"] = "Search"
 lang["#UI_MISC"] = "Misc"
 lang["#UI_VALUE"] = "Value"
 lang["#UI_DECAY"] = "Decay"
@@ -118,9 +129,13 @@ lang["#UI_WEPONWEAR"] = "Weapon Wear"
 lang["#UI_COUNTER"] = "@+attack| Counter"
 lang["#UI_NOBOTTLES"] = "No Empty Bottles"
 lang["#UI_UNSTUCKWAIT"] = "You must wait $time more seconds before you can unstuck again."
-lang["#UI_UNSTUCKFAILED"] = "Unstuck Failed! Try contacting staff by putting @ sign before your message!"
+lang["#UI_UNSTUCKFAILED"] = "Unstuck Failed! Sorry about that, please return to the main menu and wait 5 minutes for your character to unload."
 lang["#UI_TOGGLERAISEHELP"] = "You can lower your weapon by holding @+use and tapping @+reload .\n\nHolding @+reload will holster your weapon."
 lang["#UI_CREATOR"] = "Creator"
+lang["#UI_PVP_ENABLED"] = "[Player Damage Enabled]"
+
+lang["#PVP_ZONE_ENTERED"] = "Entering PVP Area!"
+lang["#PVP_ZONE_EXITED"] = "Exiting PVP Area."
 
 -- Use Prompts
 
@@ -174,6 +189,7 @@ lang["#CRAFTING_GIVES"] = "Gives"
 lang["#UI_SORT"] = "[C] Sort"
 lang["#UI_STOREMISC"] = "[T] Store Crafting Items"
 lang["#UI_STORINGMISC"] = "Storing Crafting Items..."
+lang["#UI_STORAGELOADING"] = "Storage Loading..."
 lang["#SORT_AGE"] = "Age"
 lang["#SORT_NAME"] = "Name"
 lang["#SORT_WGT"] = "Weight"
@@ -430,6 +446,12 @@ lang["#STAT_POWERARMOR"] = "Power Armor Frame"
 
 --Display timer
 lang["#UI_DOWNNOTICE"] = "Recovering..."
+
+-- Resting
+lang["#UI_RESTED"] = "Rested"
+lang["#UI_RESTING"] = "Resting"
+lang["#UI_RESTING_STARTED"] = "As you enter, you feel a sense of ease."
+lang["#UI_RESTING_FINISHED"] = "You feel rested."
 
 lang["#UI_BARTER"] = "Barter"
 lang["#UI_TALK"] = "Talk"
@@ -712,6 +734,9 @@ lang["#UI_FAVOR"] = "Favor"
 lang["#UI_INFLUENCE"] = "Influence"
 
 -- Community
+
+lang["#COMMUNITY_CREATE"] = "Create Community"
+
 lang["#COMMUNITY_PERM_KICK_MEMBER"] = "Kick Member"
 lang["#COMMUNITY_PERM_KICK_MEMBER_DESC"] = "Remove Member's with ranks below ours."
 lang["#COMMUNITY_PERM_ADD_MEMBER"] = "Add Member"
@@ -733,8 +758,6 @@ lang["#COMMUNITY_RANK_FOUNDER"] = "Founder"
 lang["#COMMUNITY_SUBJECT_INVALID"] = "Subject is not in your community!"
 lang["#COMMUNITY_INCOMMUNITY"] = "You are already in a community!"
 lang["#COMMUNITY_KICKED"] = "You haved been removed from $communityName."
-
-lang["#COMMUNITY_TERMINAL"] = "Community Terminal"
 
 lang["#COMMUNITY_INFO"] = "Community Information"
 
@@ -845,6 +868,8 @@ lang["#UI_REP_NEUTRAL"] = "Neutral" -- They will not attack you and will count c
 lang["#UI_REP_HOSTILE"] = "Hostile" -- Factions that are hostile with you will not count crimes against them, as they generally shoot at you first.
 lang["#UI_REP_ALLIED"] = "Allied" -- You are currently representing this faction. you cannot be damaged by other players who have this status
 lang["#UI_REP_EXILED"] = "Exiled" -- Currently unused. Will be used if you betray a faction by doing certain missions.
+
+lang["#UI_PVP_DISABLED"] = "PVP is not allowed in this area."
 
 lang["#NOTIFY_REP_STATUS"] = "Your status with the $faction is now $status"
 lang["#NOTIFY_REP_WANTED"] = "You are now wanted by the $faction in regions they control and they will attack you on sight!"

@@ -15,6 +15,7 @@ lang["#MISSION_GIVER_REDMAN_GREET_N100"] = "You're well known around here, and d
 lang["#MISSION_GIVER_REDMAN_GREET_0"] = "Welcome back, Wastelander. You're likely not here just to trade a few things, possibly looking for a job or two. I may have a few for you to look into.\n\n\nHere's a list of tasks we need help with currently."
 lang["#MISSION_GIVER_REDMAN_GREET_100"] = "Hey $playername, hope all is well for you. If you're here looking for stuff to do, I may have a few things available. I'm also considering looking into more jobs just for you, as you're pretty helpful around here.\n\n\nHere's a list of available jobs."
 lang["#MISSION_GIVER_REDMAN_GREET_FINISHED"] = "Hello, $playername. I'd assume that you're here looking for assignments. Unfortunately, I don't have anything available for you at the moment. If you're looking for work, I'd recommend checking in at the town board, or talking to others around here."
+lang["#MISSION_GIVER_REDMAN_GREET_HOSTILE_80"] = "You... I've heard some disturbing rumors about you. I can't accept your help in good conscience, but I can advise you to start proving those rumors false by helping us with the 80s."
 
 -- Missions
 lang["#MISSION_REDMAN_NATURALREMEDIES"] = "Natural Remedies"

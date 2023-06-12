@@ -17,6 +17,7 @@ lang["#MISSION_GIVER_TWEAK_GREET_0"] = "I don't have all day, prospect. Spit it 
 lang["#MISSION_GIVER_TWEAK_GREET_25"] = "You busy? We got shit to do, let's get moving."
 lang["#MISSION_GIVER_TWEAK_GREET_150"] = "Hey, new guy. You busy? There's plenty to do and we need all hands on deck."
 lang["#MISSION_GIVER_TWEAK_GREET_FINISHED"] = "Hey, killer, I ain't got anymore work for you. Not now, anyway. We're biding our time and getting shit ready though, just you wait. The 80's wont be complacent!"
+lang["#MISSION_GIVER_TWEAK_GREET_HOSTILE_NCR"] = "Well if it ain't the NCR's favorite new dog. Look as of now I have nothing to say to you. Maybe mess with the NCR a bit, then maybe we'll see."
 
 -- Missions
 lang["#MISSION_TWEAK_OFFERING"] = "An Offering"
