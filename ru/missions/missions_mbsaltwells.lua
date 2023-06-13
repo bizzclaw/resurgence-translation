@@ -36,10 +36,15 @@ lang["#MISSION_SALTWELLS_GECKOPROBLEM_DESC"] = "Это задание откры
 lang["#MISSION_SALTWELLS_GECKOPROBLEM_HINT"] = "Уничтожьте любой вид гекконов в Солт-Уэллс. Гекконов можно встретить на открытых пространствах по всей пустоши."
 lang["#MISSION_SALTWELLS_GECKOPROBLEM_COMPLETE"] = "Вы выполнили это задание."
 
-lang["#MISSION_SALTWELLS_BANDITWIPEOUT"] = "Уничтожение рейдеров"
-lang["#MISSION_SALTWELLS_BANDITWIPEOUT_DESC"] = "Это задание может взять тот, кто хочет очистить территорию от рейдеров."
+lang["#MISSION_SALTWELLS_BANDITWIPEOUT"] = "Награда - Рейдеры племени 80-х"
+lang["#MISSION_SALTWELLS_BANDITWIPEOUT_DESC"] = "Это задание может взять тот, кто хочет очистить территорию от рейдеров племени 80-х."
 lang["#MISSION_SALTWELLS_BANDITWIPEOUT_HINT"] = "Уничтожьте рейдеров любого типа в Солт-Уэллс. Рейдеров можно найти во временных лагерях по всему региону."
 lang["#MISSION_SALTWELLS_BANDITWIPEOUT_COMPLETE"] = "Вы выполнили это задание."
+
+lang["#MISSION_SALTWELLS_TROOPERWIPEOUT"] = "Награда - Солдаты НКР"
+lang["#MISSION_SALTWELLS_TROOPERWIPEOUT_DESC"] = "Это задание может взять тот, кто хочет очистить территорию от солдат НКР."
+lang["#MISSION_SALTWELLS_TROOPERWIPEOUT_HINT"] = "Уничтожьте солдат НКР в Солт-Уэллс. Солдат можно найти, патрулируя регион и в аванпосте радиовышки."
+lang["#MISSION_SALTWELLS_TROOPERWIPEOUT_COMPLETE"] = "Вы выполнили это задание."
 
 lang["#MISSION_SALTWELLS_WEAPONREQUESTI"] = "Поставка оружия, I"
 lang["#MISSION_SALTWELLS_WEAPONREQUESTI_DESC"] = "Эта задача открыта для тех, кто хочет получить гладкоствол для нанимателя. Наниматель готов заплатить за него хорошую сумму."
@@ -68,7 +73,7 @@ lang["#MISSION_SALTWELLS_WEAPONREQUESTV_COMPLETE"] = "Вы выполнили э
 
 lang["#MISSION_SALTWELLS_REAVERELIMINATION"] = "Ликвидация потрошителя"
 lang["#MISSION_SALTWELLS_REAVERELIMINATION_DESC"] = "Эта задача открыта для тех, кто готов устранить диких гулей-потрошителей для нанимателя. Наниматель готов заплатить за это разумную сумму."
-lang["#MISSION_SALT815185WELLS_REAVERELIMINATION_HINT"] = "Уничтожить диких гулей-потрошителей в Солт-Уэллс. Диких гулей обычно можно найти рядом с руинами, разбитыми зданиями и заброшенными местами. Потрошители очень живучи к оружию ближнего боя, рекомендуется использовать огнестрельное оружие."
+lang["#MISSION_SALTWELLS_REAVERELIMINATION_HINT"] = "Уничтожить диких гулей-потрошителей в Солт-Уэллс. Диких гулей обычно можно найти рядом с руинами, разбитыми зданиями и заброшенными местами. Потрошители очень живучи к оружию ближнего боя, рекомендуется использовать огнестрельное оружие."
 lang["#MISSION_SALTWELLS_REAVERELIMINATION_COMPLETE"] = "Вы выполнили это задание."
 
 RELOADSCHEMA = true

@@ -86,6 +86,15 @@ lang["#NPC_80SBANDIT_BOSS"] = "Капитан гироскопа племени 
 -- New California Republic
 lang["#NPC_NCRTROOPER"] = "Солдат НКР"
 lang["#NPC_NCRTROOPERS"] = "Солдатов НКР"
+-- Valley Survivalist
+lang["#NPC_SURVIVALIST"] = "Выживальщик долины"
+lang["#NPC_SURVIVALISTS"] = "Выживальщиков долины"
+lang["#NPC_SURVIVALIST_RANK1"] = "Поселенец долины"
+lang["#NPC_SURVIVALIST_RANK2"] = "Повстанец долины"
+lang["#NPC_SURVIVALIST_RANK3"] = "Снайпер долины"
+lang["#NPC_SURVIVALIST_RANK4"] = "Одноглазый стрелок долины"
+lang["#NPC_SURVIVALIST_RANK5"] = "Пограничник-боец долины"
+lang["#NPC_SURVIVALIST_BOSS"] = "Капитан повстанцев долины"
 -- Ice Picks
 lang["#NPC_ICEPICKBANDIT"] = "Рейдер Ледорубов" -- "Ice Pick", as in the tool
 lang["#NPC_ICEPICKBANDITS"] = "Рейдеров Ледорубов"
