@@ -17,7 +17,7 @@ lang["#MISSION_GIVER_TWEAK_GREET_0"] = "I don't have all day, prospect. Spit it 
 lang["#MISSION_GIVER_TWEAK_GREET_25"] = "You busy? We got shit to do, let's get moving."
 lang["#MISSION_GIVER_TWEAK_GREET_150"] = "Hey, new guy. You busy? There's plenty to do and we need all hands on deck."
 lang["#MISSION_GIVER_TWEAK_GREET_FINISHED"] = "Hey, killer, I ain't got anymore work for you. Not now, anyway. We're biding our time and getting shit ready though, just you wait. The 80's wont be complacent!"
-lang["#MISSION_GIVER_TWEAK_GREET_HOSTILE_NCR"] = "Well if it ain't the NCR's favorite new dog. Look as of now I have nothing to say to you. Maybe mess with the NCR a bit, then maybe we'll see."
+lang["#MISSION_GIVER_TWEAK_GREET_HOSTILE_NCR"] = "I know what you've been up to; you're just another NCR bottom bitch. You and the tribe have nothing to discuss until you bring fire and war to the NCR."
 
 -- Missions
 lang["#MISSION_TWEAK_OFFERING"] = "An Offering"
@@ -72,6 +72,11 @@ lang["#MISSION_TWEAK_DAMAGEREPAIR"] = "Damage Repair"
 lang["#MISSION_TWEAK_DAMAGEREPAIR_DESC"] = "You still wanting to work on your reputation, $playername? Simple enough to do.\n\nPay up.\n"
 lang["#MISSION_TWEAK_DAMAGEREPAIR_HINT"] = "Pay Tweak $250 NCR Dollars. NCR Dollars can be acquired in many ways, but usually as quest rewards or selling items to vendors."
 lang["#MISSION_TWEAK_DAMAGEREPAIR_COMPLETE"] = "Keep the money coming and people will forget your crimes soon enough."
+
+lang["#MISSION_TWEAK_BLOODPRICE"] = "Paying the Blood Price"
+lang["#MISSION_TWEAK_BLOODPRICE_DESC"] = "If you want to work on clearing your name, bring death to the enemies of the tribe. NCR troopers; kill as many as you can."
+lang["#MISSION_TWEAK_BLOODPRICE_HINT"] = "Eliminate 5 NCR Troopers for Tweak. They can be found all throughout Salt Wells."
+lang["#MISSION_TWEAK_BLOODPRICE_COMPLETE"] = "Spotters say you're putting in good work. It's a good start."
 
 lang["#MISSION_TWEAK_OLDMAN"] = "The Old Man"
 lang["#MISSION_TWEAK_OLDMAN_DESC"] = "You've faced every challenge I can give you, new guy; there's nothing more I can offer you. You've earned the right to enter camp; head inside and pay tribute to the Gridlock. The Old Man is our eldest member and leader. He's wearing power armour and looks fuckin' ancient; he's hard to miss.\n"

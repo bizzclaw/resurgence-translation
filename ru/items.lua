@@ -916,4 +916,4 @@ lang["#STARTER_AMMO_DISCLAIMER"] = "Нельзя обменять, выброс�
 lang["#DEV_DESC"] = "ЕСЛИ_ВЫ_ВИДИТЕ_ЭТО_ЗАПОЛНИТЕЛЬ"
 lang["#DEV_NAME"] = "ОБРАЗЕЦТЕКСТА."
 
-RELOADWEAPONS = true
+RELOADSCHEMA = true
