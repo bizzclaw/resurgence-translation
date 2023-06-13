@@ -43,7 +43,7 @@ lang["#MISSION_SALTWELLS_BANDITWIPEOUT_COMPLETE"] = "You've completed the task."
 
 lang["#MISSION_SALTWELLS_TROOPERWIPEOUT"] = "Bounty - NCR Troopers"
 lang["#MISSION_SALTWELLS_TROOPERWIPEOUT_DESC"] = "This task is available to be taken by someone who is looking to clear some NCR Troopers in the area."
-lang["#MISSION_SALTWELLS_TROOPERWIPEOUT_HINT"] = "Eliminate NCR Troopers in Salt Wells. Bandits can be found patrolling the region and in the radio tower outpost."
+lang["#MISSION_SALTWELLS_TROOPERWIPEOUT_HINT"] = "Eliminate NCR Troopers in Salt Wells. Troopers can be found patrolling the region and in the radio tower outpost."
 lang["#MISSION_SALTWELLS_TROOPERWIPEOUT_COMPLETE"] = "You've completed the task."
 
 lang["#MISSION_SALTWELLS_WEAPONREQUESTI"] = "Weapon Request, I"
