@@ -38,9 +38,9 @@ lang["#REGION_DEADESTUARY_NW"] = "Westward Shack"
 lang["#REGION_DEADESTUARY_E"] = "Makeshift Flotilla"
 
 lang["#REGION_SALEM"] = "Salem Ruins"
-lang["#REGION_SALEM_SE"] = "Southeast Streets"
+lang["#REGION_SALEM_SE"] = "Brotherhood Recon Outpost"
 lang["#REGION_SALEM_S"] = "Collapsed Building"
-lang["#REGION_SALEM_NW"] = "Residential Block"
+lang["#REGION_SALEM_NW"] = "Mercenary Camp"
 
 -- Factions
 lang["#FACTION_NCR_NAME"] = "New California Republic"

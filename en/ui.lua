@@ -18,6 +18,8 @@ lang["#UI_TELEPORTLEAVE"] = "Are you sure you want to leave?\n\n$requirement req
 lang["#UI_TELEPORTERBLOCK_FACTION_FAVOR"] = "You do not have a high enough Favor with $faction to Enter.\n\nYou need: $favorRequired\nYou have: $favorCurrent\n\nGain Favor by completing Missions for the $faction."
 lang["#UI_TELEPORTERBLOCK_FACTION_HOSTILE"] = "You are currently Hostile with the $faction\n\nYou cannot enter this area."
 lang["#UI_TELEPORTERBLOCK_FACTION_REPRESENT"] = "You must be representing the $faction to enter!\n\nYou can represent a faction by getting enough favor and clicking on the faction in the reputation menu."
+lang["#UI_TELEPORTERBLOCK_FACTION_HOSTILEWORK"] = "You cannot enter because your favor with an enemy faction, the $hostileFaction, is higher than $minFavor. It is currently $favorCurrent."
+lang["#UI_TELEPORTERBLOCK_FACTION_HOSTILEWORK_NORECOVER"] = "Due to your actions, you are no longer welcomed by this faction."
 
 lang["#UI_ITEMCONSUMED"] = "$item will Be taken"
 lang["#UI_ITEMNOTCONSUMED"] = "$item must be in your Inventory (Not taken)"
@@ -699,7 +701,7 @@ lang["#UI_FACTIONS"] = "Factions"
 
 -- Contracts
 lang["#MISSION_ACCEPT"] = "Accept Mission"
-lang["#MISSION_ACCEPT_ONHOSTILE"] = "ACCEPTING MISSION FROM HOSTILE FACTION!\n\nAccepting this mission will make this faction neutral towards you and they will no longer attack you on sight\n\nATTACKING THEM WILL INCUR A CRIME!"
+lang["#MISSION_ACCEPT_ONHOSTILE"] = "ACCEPTING MISSION FROM HOSTILE FACTION!\n\nCompleting this mission will make this faction neutral towards you and they will no longer attack you on sight\n\nATTACKING THEM WILL INCUR A CRIME!"
 lang["#MISSION_TURNIN"] = "Turn In"
 lang["#MISSION_COMPLETE"] = "Completed."
 lang["#MISSION_KILLS"] = "Kills"
