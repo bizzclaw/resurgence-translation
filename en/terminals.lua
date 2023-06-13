@@ -1103,7 +1103,7 @@ lang["#TERMINAL_NCR_ENTRY_13"] ={
 	logs = {
 		{"ML293:Golf, Sergeant Tuku Justini", {
 			{"11/27/2220", [[I’ve spent my entire tour fighting these savages. I’m a part of the last shipment out of here- and a voice calls to me. It rests in these hills, it calls my name. It feels distant yet homely- calls me to stay and explore. Savages begin to feel more akin to man, because I look out across the valley and smell the stench that ruins my mind- I see mass graves with sand washing over them, burying them with no honors. I believe it is God who calls- though the voices are separate and divine in an earthly way. It calls for vengeance… and asks me to uphold this, to be unyielding, and to liberate this valley.
-			]]},r
+			]]},
 		}}
 	}
 }
