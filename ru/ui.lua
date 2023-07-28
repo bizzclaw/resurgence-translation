@@ -346,7 +346,7 @@ lang["#PARTY_YOUARELEADER"] = "Вы были повышены до лидера 
 lang["#PARTY_INVALIDMEMBER"] = "Участник группы больше не действителен!"
 lang["#PARTY_DISBANDWARNING"] = "Группа будет расформирована."
 lang["#PARTY_LEADER"] = "Лидер"
-lang["#PARTY_OFFLINE"] = "Нет в сети"
+lang["#PARTY_OFFLINE"] = "Не в игре"
 lang["#PARTY_MINE"] = "Моя группа"
 lang["#PARTY_OTHERS"] = "Группа $person"
 lang["#PARTY_CONFIRMLEAVE"] = "Вы уверены, что хотите покинуть группу?"
@@ -710,7 +710,7 @@ lang["#MISSIONBOARD_GIVER_FALLBACK"] = "Местные наниматели"
 
 -- Contracts
 lang["#MISSION_ACCEPT"] = "Принять миссию"
-lang["#MISSION_ACCEPT_ONHOSTILE"] = "ПРИНЯТИЕ МИССИИ ОТ ВРАЖДЕБНОЙ ОРГАНИЗАЦИИ!\n\nЗавершив эту миссию, эта организация станет нейтральной по отношению к вам, и больше не будет нападать на вас без предупреждения\n\nНАПАДЕНИЕ НА НИХ ПОВЛЕЧЁТ ЗА СОБОЙ ПРЕСТУПЛЕНИЕ!"
+lang["#MISSION_ACCEPT_ONHOSTILE"] = "ВРАЖДЕБНАЯ ОРГАНИЗАЦИЯ!\n\nЗавершив эту миссию, эта организация станет нейтральной по отношению к вам, и больше не будет нападать на вас без предупреждения\n\nНАПАДЕНИЕ НА НИХ БУДЕТ ПРЕСТУПЛЕНИЕМ!"
 lang["#MISSION_TURNIN"] = "Сдать"
 lang["#MISSION_COMPLETE"] = "- миссия завершена."
 lang["#MISSION_KILLS"] = "убито"
