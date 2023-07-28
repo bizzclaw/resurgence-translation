@@ -86,6 +86,7 @@ lang["#NPC_80SBANDIT_BOSS"] = "Капитан гироскопа племени 
 -- New California Republic
 lang["#NPC_NCRTROOPER"] = "Солдат НКР"
 lang["#NPC_NCRTROOPERS"] = "Солдатов НКР"
+lang["#NPC_NCRPATROLRANGER2"] = "Рейнджер-патрульный НКР"
 -- Valley Survivalist
 lang["#NPC_SURVIVALIST"] = "Выживальщик долины"
 lang["#NPC_SURVIVALISTS"] = "Выживальщиков долины"
