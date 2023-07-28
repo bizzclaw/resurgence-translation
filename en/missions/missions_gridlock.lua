@@ -67,7 +67,7 @@ lang["#MISSION_GRIDLOCK_EXPLORE_COMPLETE"] = "You need not tell me of your explo
 --    ╚═╝   ╚═════╝
 
 lang["#MISSION_GRIDLOCK_COMBATII"] = "Combat Training - II"
-lang["#MISSION_GRIDLOCK_COMBATII_DESC"] = "Sending you to cull ghouls is a waste of your talents. Instead, I will unleash you back onto the New California Republic. I want you and you alone to engage a fireteam of NCR Troopers and destroy them. Twitch has informed me that you handled two without issue; four should be no greater a challenge.\n"
+lang["#MISSION_GRIDLOCK_COMBATII_DESC"] = "Sending you to cull ghouls is a waste of your talents. Instead, I will unleash you back onto the New California Republic. I want you and you alone to engage a fireteam of NCR Troopers and destroy them. Tweak has informed me that you handled two without issue; four should be no greater a challenge.\n"
 lang["#MISSION_GRIDLOCK_COMBATII_HINT"] = "Kill four NCR Troopers. They can be found patrolling the roads of Salt Wells."
 lang["#MISSION_GRIDLOCK_COMBATII_COMPLETE"] = "The echo of gunfire and the lamentations of the dying tell me all the story I need. Well done."
 
@@ -117,6 +117,16 @@ lang["#MISSION_GRIDLOCK_FINALTEST_DESC"] = "You have fought long and hard, and n
 lang["#MISSION_GRIDLOCK_FINALTEST_HINT"] = "Eliminate one Feral Ghoul Reaver. They can be found in the vault beneath Salt Wells. Reavers are highly resistant to melee damage, so use of a ranged weapon is recommended."
 lang["#MISSION_GRIDLOCK_FINALTEST_COMPLETE"] = "Well done, $playername... well done. Permit me to furnish you with some armor. Make your choice."
 
+lang["#MISSION_GRIDLOCK_SIGNAL"] = "Signal"
+lang["#MISSION_GRIDLOCK_SIGNAL_DESC"] = "Ah, $playername, it's good to see you after passing your test. I hope you are well, because I have a task for you. Some of our Road Agents have reported the NCR moving some sort of equipment to the previously abandoned radio station near their town. I want you to go there and investigate, and if they are attempting to repopulate it, slow their means, if they wish to make the radio work again, deny them power. Now go, we will wish for your safe return."
+lang["#MISSION_GRIDLOCK_SIGNAL_HINT"] =  "Gridlock wants you to investigate the radio station near near the main road, maybe looking for a radio tower is a good idea."
+lang["#MISSION_GRIDLOCK_SIGNAL_COMPLETE"] = "What? $playername, I never would have sent you there if I had known who was guarding that place. This is an issue, and so close to one of our tribute camps as well? They are expanding, at a rapid pace. I will be speaking to The Tribunal, take these as my thanks, it's time for a different approach."
+lang["#MISSION_GRIDLOCK_SIGNAL_ITEMNAME"] = "Generator"
+
+lang["#MISSION_GRIDLOCK_PUSHINGBACK"] = "Pushing Back"
+lang["#MISSION_GRIDLOCK_PUSHINGBACK_DESC"] = "$playername, I want you to kill some of the New California Republic's more advanced soldiers. They may be a bit difficult to take down, but it is crucial in us remaining here, if they are allowed to gain even more of a foothold, we may find ourselves retreating from here, and I don't know if our tribe can survive being uprooted again. Go, seek out their so called Rangers."
+lang["#MISSION_GRIDLOCK_PUSHINGBACK_HINT"] = "Kill NCR patrol rangers. You may find some in patrols around Salt Wells, and at the radio station outpost."
+lang["#MISSION_GRIDLOCK_PUSHINGBACK_COMPLETE"] = "Good, here is your reward. Return tomorrow to see if I have more things I need you to complete for me."
 
 
 -- ████████╗███████╗
