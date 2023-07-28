@@ -254,7 +254,7 @@ lang["#DERIVED_RELOADSPEED"] = "Бонус к скор-ти перез-дки"
 lang["#DERIVED_LOOTCHANCE"] = "Бонус шанса на добычу"
 lang["#DERIVED_SALVAGEBONUS"] = "Бонус к скор-ти разбора"
 lang["#DERIVED_DETECTIONRANGE"] = "Уменьш. дальн. обнаруж."
-lang["#DERIVED_FAVORBONUS"] = "Бонус благоск."
+lang["#DERIVED_FAVORBONUS"] = "Бонус к благосклонности"
 lang["#DERIVED_MAPSPEED"] = "Бонус к скор-ти на карте мира"
 lang["#DERIVED_BARTER"] = "Бонус к торговле"
 
