@@ -86,6 +86,7 @@ lang["#NPC_80SBANDIT_BOSS"] = "80s Tribe Gyro Captain" -- Mad Max reference
 -- New California Republic
 lang["#NPC_NCRTROOPER"] = "NCR Trooper"
 lang["#NPC_NCRTROOPERS"] = "NCR Troopers"
+lang["#NPC_NCRPATROLRANGER2"] = "NCR Patrol Ranger"
 -- Valley Survivalist
 lang["#NPC_SURVIVALIST"] = "Valley Survivalist"
 lang["#NPC_SURVIVALISTS"] = "Valley Survivalists"

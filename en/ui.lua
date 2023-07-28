@@ -89,7 +89,7 @@ lang["#SHORT_CXP"] = "CXP" -- Combat Experience
 lang["#SHORT_UXP"] = "UXP" -- Utility Experience
 lang["#SHORT_LMB"] = "LMB" -- Limb Health
 lang["#SHORT_SPECIAL"] = "SPECIAL" -- Special
-lang["#SHORT_TIME"] = "TIME" -- Time
+lang["#SHORT_TIME"] = "Time" -- Time
 lang["#SHORT_WGT"] = "WGT" -- shorthand for "weight"
 lang["#SHORT_SWGT"] = "SAVE WGT" -- shorthand for "weight"
 lang["#SHORT_DT"] = "DT" -- Damage Threshold
@@ -120,6 +120,7 @@ lang["#UI_EUSE"] = "@+use Use"
 lang["#UI_RTAKEALL"] = "@+reload Take All"
 lang["#UI_FMOUSE"] = "@impulse 100|Mouse"
 lang["#UI_PERKPOINTS"] = "Perk Points"
+lang["#UI_SPECIALPOINTS"] = "S.P.E.C.I.A.L Points"
 lang["#UI_BACK"] = "Back"
 lang["#UI_YES"] = "Yes"
 lang["#UI_NO"] = "No"
@@ -135,6 +136,10 @@ lang["#UI_UNSTUCKFAILED"] = "Unstuck Failed! Sorry about that, please return to 
 lang["#UI_TOGGLERAISEHELP"] = "You can lower your weapon by holding @+use and tapping @+reload .\n\nHolding @+reload will holster your weapon."
 lang["#UI_CREATOR"] = "Creator"
 lang["#UI_PVP_ENABLED"] = "[Player Damage Enabled]"
+lang["#UI_PERKPOINTGAINED"] = "You have gained a S.P.E.C.I.A.L point to spend!\n\nCheck your Pip-Boy's SPECIAL section to increase your character's attributes."
+lang["#UI_RACEBLOCK_SUPERMUTANT_GUNSLINGER"] = "You have attempted to tag GunSlinger, but Super Mutants cannot use pistols!"
+lang["#UI_DERIVEDSTATS"] = "Derived Stats"
+lang["#UI_SECONDS"] = "$time seconds"
 
 lang["#PVP_ZONE_ENTERED"] = "Entering PVP Area!"
 lang["#PVP_ZONE_EXITED"] = "Exiting PVP Area."
@@ -317,6 +322,7 @@ lang["#UI_WITHDRAWAL"] = "$item Withdrawal"
 lang["#UI_DELAYED"] = "Delayed"
 lang["#UI_WAITTOUSE"] = "You must wait $time seconds to use this!"
 lang["#UI_WANTEDBY"] = "Wanted by the $faction"
+lang["#UI_BLOCKEDBY"] = "$aidblocked by $name!"
 
 -- Inventory
 lang["#INV_ADDED"] = "$item Added"
@@ -445,6 +451,7 @@ lang["#UI_DOOR"] = "Door"
 --Status Effects
 lang["#STAT_NEARDEATH"] = "Near Death"
 lang["#STAT_POWERARMOR"] = "Power Armor Frame"
+lang["#STAT_LIGHT"] = "Pip-Boy Light"
 
 --Display timer
 lang["#UI_DOWNNOTICE"] = "Recovering..."
@@ -698,6 +705,7 @@ lang["#MISSIONBOARD_REQUIRED"] = "Required"
 lang["#MISSIONBOARD_CONTRACTREQUIRED"] = "Missing Completed Contract"
 lang["#UI_ACCEPTCONTRACT"] = "Accept Contract: $contractName ?"
 lang["#UI_FACTIONS"] = "Factions"
+lang["#MISSIONBOARD_GIVER_FALLBACK"] = "Local Contractors"
 
 -- Contracts
 lang["#MISSION_ACCEPT"] = "Accept Mission"
@@ -738,6 +746,10 @@ lang["#UI_INFLUENCE"] = "Influence"
 -- Community
 
 lang["#COMMUNITY_CREATE"] = "Create Community"
+lang["#COMMUNITY_SEARCH"] = "Community Search"
+lang["#COMMUNITY_UNSELECTED"] = "No Community Selected"
+
+lang["#COMMUNITY_LEAVE"] = "Leave Community"
 
 lang["#COMMUNITY_PERM_KICK_MEMBER"] = "Kick Member"
 lang["#COMMUNITY_PERM_KICK_MEMBER_DESC"] = "Remove Member's with ranks below ours."
@@ -909,7 +921,7 @@ lang["#SETTING_PVP_PROTECTION_NOFACTION"] = "You cannot take or do damage becaus
 lang["#SETTING_PVP_PROTECTION_CHARGED"] = "You cannot take or do damage because the target is protected by the $faction, which will give you a crime. You can disable this from settings."
 lang["#SETTING_PVP_ATTACKER_INFACTION"] = "You cannot take or do damage do this individual because they are protected by your faction, the $faction."
 lang["#SETTING_PVP_FACTION_PROTECTION"] = "You cannot damage Faction Members!"
-lang["#SETTING_PVP_FACTION_PROTECTED"] = "Protected by your faction."
+lang["#SETTING_PVP_FACTION_PROTECTED_BY"] = "Protected by the $factions."
 
 
 

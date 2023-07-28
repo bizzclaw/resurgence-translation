@@ -459,6 +459,9 @@ lang["#ADDICTION_STRANGEVIAL_NOTIFY"] = "You have become addicted to the Strange
 lang["#ADDICTION_ANTPHERO"] = "Ant Queen Pheromone Withdrawal"
 lang["#ADDICTION_ANTPHERO_NOTIFY"] = "You have become addicted to Ant Queen Pheromones!"
 
+-- Post Effects
+lang["#POSTEFFECT_STIMPAK_SICKNESS"] = "Stimpak Sickness"
+
 --Medical Items Description
 lang["#ADDICTOL_DESC"] = "A powerful anti-addiction drug.\n\nAddictol is an effective pre-War medicine that works both physically and psychologically to remove both the symptoms of drug abuse and the craving.\n\nSide effects include, but are not limited to, hunger, thirst, loss of sleep, loss of taste, nausea, heartburn, indigestion, erectile disfunction, and anal leakage."
 lang["#ANTIBIOTIC_DESC"] = "A vial of standard antibiotics, useful for curing bacterial diseases.\n\nTreats The Vapors, Crotch Rot, Bacterial Infection, Light Cough, and Calamitous Rash."
@@ -480,7 +483,7 @@ lang["#GLOWINGBLOOD_DESC"] = "Highly radioactive blood from glowing creatures."
 lang["#FEVSERUM_DESC"] = "Science never broke any boundaries since its conception, through medicine came addiction, terminals brought upon an age of dissent and unrest, yet... we never sought to create men-of-war, walking tanks upon the fields of war, what we didn't know, was that it was our greatest mistake. \n\nThe FEV Serum was created in response to something, nobody is really sure. The masses, at least the informed ones, say it was created by individuals who wanted to cure mutants of their affliction or created by mutants themselves, maybe it was by the master in his final hours or some crazed men somewhere east of the Mojave, wherever it came from, it's surely sought after by men and mer alike."--By Varen
 lang["#X111_DESC"] = "A Brotherhood concoction of Rad-X and Rad-Away slammed together into one bottle."--By Null
 lang["#STRANGEVIAL_DESC"] = "A green glowing vial with strange markings on the top and bottom."
-lang["#DOCTORBAG_DESC"] = "A bag of triage medical supplies, used to treat crippled limbs."
+lang["#DOCTORBAG_DESC"] = "A bag of triage medical supplies, used to treat crippled limbs.\n\nA Doctor's bag can fix just about everything, except your personality. That ones one you."
 lang["#HYDRA_DESC"] = "Hydra is a natural medicine that cleans and slowly restores crippled limbs over time."
 lang["#REPAIRKIT_DESC"] = "A package of various extra parts and furnishings.\n\nCan be used to repair most weapons, but increases its decay."
 lang["#REPAIRKITPREMO_DESC"] = "An elaborate package of various high quality extra parts and furnishings.\n\nCan be used to greatly repair most weapons, as well as decrease the weapon's decay."

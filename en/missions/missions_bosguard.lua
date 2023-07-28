@@ -60,7 +60,7 @@ lang["#MISSION_BOSGUARD_GHOULWOES_HINT"] = "Find and Kill Feral Ghouls in Mounta
 lang["#MISSION_BOSGUARD_GHOULWOES_COMPLETE"] = "Clean work again. Here's your reward."
 
 lang["#MISSION_BOSGUARD_SUPPLYRUN"] = "Package Retreival"
-lang["#MISSION_BOSGUARD_SUPPLYRUN_DESC"] = "I have one more mission for you, $playername. It is a trifle, really, but trusted couriers are in short supply.\n\nWe have ordered certain specialist materials from the Crimson Caravan that are waiting at Camp Willow for pickup. I will not trust a fresh-faced initiate with this task, for they are too vital to be lost or sold. The burden of this task falls to you; your final test of loyalty to the Brotherhood. Are you willing?"
+lang["#MISSION_BOSGUARD_SUPPLYRUN_DESC"] = "I have another mission for you, $playername. It is a trifle, really, but trusted couriers are in short supply.\n\nWe have ordered certain specialist materials from the Crimson Caravan that are waiting at Camp Willow for pickup. I will not trust a fresh-faced initiate with this task, for they are too vital to be lost or sold. The burden of this task falls to you; are you willing?"
 lang["#MISSION_BOSGUARD_SUPPLYRUN_HINT"] = "Source and retrieve the specialist supplies from Camp Willow. They can be found in the store."
 lang["#MISSION_BOSGUARD_SUPPLYRUN_COMPLETE"] = "I was afraid that you would not come back. I am full glad to see that I was mistaken. Here is your courier's fee."
 

@@ -3,6 +3,7 @@ local lang = RSRG.Languages["en"]
 
 --DRY STATE
 
+-- Placed in the small shack next to the road leading into the junkyard.
 lang["#TERMINAL_DRYSTATE_JUNKYARD"] ={
 	name = "Junkyard Terminal",
 	logs = {
@@ -21,6 +22,7 @@ lang["#TERMINAL_DRYSTATE_JUNKYARD"] ={
 	}
 }
 
+-- Placed in a small shack near Crowman Joe's Farm.
 lang["#TERMINAL_DRYSTATE_ENCLAVESHACK"] ={
 	name = "Inconspicuous Terminal",
 	logs = {
@@ -64,7 +66,7 @@ While I think we could have saved a lot of time and effort if we sent in the cav
 ╚═╝╚═╝  ╚═══╝╚══════╝ ╚═════╝        ╚═╝   ╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝╚══════╝
 ]]
 
---Ineu Factory Logs
+--Located in the Ammo Factory Command Room above the warehouse area.
 lang["#INEU_FACTORYLOG"] = {
 	name = "Circle G Foreman's Terminal",
 	logs = {
@@ -104,7 +106,7 @@ lang["#INEU_FACTORYLOG"] = {
 	}
 }
 
---Gorgeous Greg's Terminal
+-- Located behind a door in Greg's Bar in the mining town of Yolla.
 lang["#INEU_GREGLOG"] = {
 	name = "Greg's Terminal",
 	logs = {
@@ -177,7 +179,7 @@ lang["#INEU_GREGLOG"] = {
 	}
 }
 
---Allen's Terminal  In Progress.
+-- Allen's Terminal  In Progress. Not known to be placed.
 lang["#INEU_SHANTYLOG"] = {
 	name = "Allen's Terminal",
 	logs = {
@@ -201,7 +203,7 @@ lang["#INEU_SHANTYLOG"] = {
 	}
 }
 
--- Raider John's Factory Log
+-- Raider John's Factory Log. Placement Unknown
 lang["#INEU_RAIDERFACTORYLOG"] = {
 	name = "Raider Logs",
 	logs = {
@@ -225,7 +227,7 @@ lang["#INEU_RAIDERFACTORYLOG"] = {
 	}
 }
 
--- missile base logs
+-- missile base logs. Located in the barracks of the missile base
 lang["#YB_BARRACKS"] = {
 	name = "Terminal",
 	logs = {
@@ -1103,7 +1105,7 @@ lang["#TERMINAL_NCR_ENTRY_13"] ={
 	logs = {
 		{"ML293:Golf, Sergeant Tuku Justini", {
 			{"11/27/2220", [[I’ve spent my entire tour fighting these savages. I’m a part of the last shipment out of here- and a voice calls to me. It rests in these hills, it calls my name. It feels distant yet homely- calls me to stay and explore. Savages begin to feel more akin to man, because I look out across the valley and smell the stench that ruins my mind- I see mass graves with sand washing over them, burying them with no honors. I believe it is God who calls- though the voices are separate and divine in an earthly way. It calls for vengeance… and asks me to uphold this, to be unyielding, and to liberate this valley.
-			]]},
+			]]},r
 		}}
 	}
 }

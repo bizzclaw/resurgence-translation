@@ -36,6 +36,8 @@ lang["#LOCATION_COOLSNOW_BRIDGE"] = "The Bridge Lookout"
 lang["#LOCATION_COOLSNOW_OUTSKIRT"] = "The Outskirts Lookout"
 lang["#LOCATION_COOLSNOW_VALLEY"] = "The Valley Lookout"
 
+lang["#DOOR_SHACK"] = "Shack"
+
 --  █████╗ ███████╗██╗  ██╗██╗      █████╗ ███╗   ██╗██████╗ ███████╗
 -- ██╔══██╗██╔════╝██║  ██║██║     ██╔══██╗████╗  ██║██╔══██╗██╔════╝
 -- ███████║███████╗███████║██║     ███████║██╔██╗ ██║██║  ██║███████╗

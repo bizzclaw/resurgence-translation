@@ -22,7 +22,7 @@ lang["#SPC_EDR"] = "Endurance"
 lang["#SPC_EDRDESC"] = "The body's ability to resist the elements, A high Endurance rate may help you survive where others may not.\n\n- Affects Maximum Health.\n- Actions take less AP to perform."
 
 lang["#SPC_CHR"] = "Charisma "
-lang["#SPC_CHRDESC"] = "Social acuteness, charisma allows for communication and persuasion. A high Charismatic Charm pulls people together.\n\n- Increases party size capacity.\n- Increases party benefits.\n- Reputation Rewards."
+lang["#SPC_CHRDESC"] = "Social acuteness, charisma allows for communication and persuasion. A high Charismatic Charm pulls people together.\n"
 
 lang["#SPC_INT"] = "Intelligence"
 lang["#SPC_INTDESC"] = "Wits and wisdom, the ability to think quickly is essential for survival in the Wastes.\n\n- Affects the ability to craft items and modifications.\n- Increases Utility points gained from level advancement."
@@ -41,55 +41,55 @@ lang["#SPC_LCKDESC"] = "One will find that Luck works out situations for them in
 --╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝
 
 lang["#SKL_PISTOLS"] = "Gunslinger" -- for skills, no need to keep the english word.
-lang["#SKL_PISTOLSDESC"] = "Accuracy, Condition Rate and Reload Speed of Pistols."
+lang["#SKL_PISTOLSDESC"] = "Accuracy, Condition Rate and Reload Speed of Pistols.\n"
 
 lang["#SKL_ASSAULT"] = "Commando"
-lang["#SKL_ASSAULTDESC"] = "Accuracy, Condition Rate and Reload Speed of Automatic and Burst-Fire Weapons."
+lang["#SKL_ASSAULTDESC"] = "Accuracy, Condition Rate and Reload Speed of Automatic and Burst-Fire Weapons.\n"
 
 lang["#SKL_RIFLES"] = "Rifleman"
-lang["#SKL_RIFLESDESC"] = "Accuracy, Condition Rate and Reload Speed of Single-Shot, Pump, Lever, and Bolt Action Weapons."
+lang["#SKL_RIFLESDESC"] = "Accuracy, Condition Rate and Reload Speed of Single-Shot, Pump, Lever, and Bolt Action Weapons.\n"
     
 lang["#SKL_ENERGY"] = "Energy Weapons"
-lang["#SKL_ENERGYDESC"] = "Accuracy, Condition Rate and Reload Speed of Energy Based Weaponry."
+lang["#SKL_ENERGYDESC"] = "Accuracy, Condition Rate and Reload Speed of Energy Based Weaponry.\n"
 
 lang["#SKL_MELEE"] = "Melee Weapons"
-lang["#SKL_MELEEDESC"] = "Affects the Damage and Condition Rate of Melee Weapons."
+lang["#SKL_MELEEDESC"] = "Affects the Damage and Condition Rate of Melee Weapons.\n"
 
 lang["#SKL_UNARMED"] = "Unarmed"
-lang["#SKL_UNARMEDDESC"] = "Your combined knowledge of martial arts and hand to hand combat, your unarmed skill affects how well you can fight with your fists."
+lang["#SKL_UNARMEDDESC"] = "Your combined knowledge of martial arts and hand to hand combat, your unarmed skill affects how well you can fight with your fists.\n"
 
 lang["#SKL_EXP"] = "Explosives"
-lang["#SKL_EXPDESC"] = "Knowledge and application of volatile materials. A mastery of Explosives will allow easier use of Explosive Weapons and the creation of unique grenades."
+lang["#SKL_EXPDESC"] = "Knowledge and application of volatile materials. A mastery of Explosives will allow easier use of Explosive Weapons and the creation of unique grenades.\n"
 
 lang["#SKL_SNEAK"] = "Sneak"
-lang["#SKL_SNEAKDESC"] = "The Ability to remain hidden. Affects footstep sound volume and NPC Visibility"
+lang["#SKL_SNEAKDESC"] = "The Ability to remain hidden. Affects footstep sound volume and NPC Visibility.\n"
 
 lang["#SKL_SECURITY"] = "[NOT FUNCTIONAL] Security"
-lang["#SKL_SECURITYDESC"] = "Knowledge over security, encompasses your ability to not only break in to tightly secured areas, but secure them yourself by creating various traps, pairs with knowledge in explosves to create mines."
+lang["#SKL_SECURITYDESC"] = "Knowledge over security, encompasses your ability to not only break in to tightly secured areas, but secure them yourself by creating various traps, pairs with knowledge in explosves to create mines.\n"
 
 lang["#SKL_SCAV"] = "Prospecting"
-lang["#SKL_SCAVDESC"] = "Efficiency in mining minerals, salvaging wreckages, and searching for old-world treasures."
+lang["#SKL_SCAVDESC"] = "Efficiency in mining minerals, salvaging wreckages, and searching for old-world treasures.\n"
 
 lang["#SKL_ENG"] = "Engineer"
-lang["#SKL_ENGDESC"] = "Governs engineering knowledge; equipment repair and maintenance, as well as the creation of unique items."
+lang["#SKL_ENGDESC"] = "Governs engineering knowledge; equipment repair and maintenance, as well as the creation of unique items.\n"
 
 lang["#SKL_VEH"] = "[NOT FUNCTIONAL] Vehicles"
-lang["#SKL_VEHDESC"] = "The ability to operate, control and optimize the use of vehicles. Your experience in driving will allow you to handle vehicles better and get more out of their fuel."
+lang["#SKL_VEHDESC"] = "The ability to operate, control and optimize the use of vehicles. Your experience in driving will allow you to handle vehicles better and get more out of their fuel.\n"
 
 lang["#SKL_SCI"] = "Science"
-lang["#SKL_SCIDESC"] = "Knowledge of concepts relating to technology such as physics, chemistry, electricity and computers. Governs your hacking ability, and your potential for advanced crafts."
+lang["#SKL_SCIDESC"] = "Knowledge of concepts relating to technology such as physics, chemistry, electricity and computers. Governs your hacking ability, and your potential for advanced crafts.\n"
 
 lang["#SKL_MED"] = "Medicine"
-lang["#SKL_MEDDESC"] = "The understanding and application of medical knowledge, an important skill to have in a world where injury is commonplace."
+lang["#SKL_MEDDESC"] = "The understanding and application of medical knowledge, an important skill to have in a world where injury is commonplace.\n"
 
 lang["#SKL_FOOD"] = "Outdoorsman"
-lang["#SKL_FOODDESC"] = "Knowledge of living in the outdoors. Effects profiency of cooking, farming, world-map travel speed, and your chance to avoid otherwise dangerous encounters."
+lang["#SKL_FOODDESC"] = "Knowledge of living in the outdoors. Effects profiency of cooking, farming, world-map travel speed, and your chance to avoid otherwise dangerous encounters.\n"
 
 lang["#SKL_BARTER"] = "Barter"
-lang["#SKL_BARTERDESC"] = "Overall understanding and knowledge of mercantile and bartering. May affect prices of purchasing or selling commodities."
+lang["#SKL_BARTERDESC"] = "Overall understanding and knowledge of mercantile and bartering. May affect prices of purchasing or selling commodities.\n"
 
-lang["#SKL_SPEECH"] = "[NOT FUNCTIONAL] Speech"
-lang["#SKL_SPEECHDESC"] = "The act of persuasion and influence. Affects the ability to convince others."
+lang["#SKL_SPEECH"] = "Speech"
+lang["#SKL_SPEECHDESC"] = "The act of persuasion and influence. Affects the ability to convince others.\n"
 
 -- Stats
 lang["#STAT_HP"] = "Hit Points"
@@ -139,7 +139,7 @@ lang["#PERK_SHOTGUNSURGEON_NAME"] = "Shotgun Surgeon"
 lang["#PERK_SHOTGUNSURGEON_DESC"] = "When using a scattergun, you know just where to aim. Your precision allows you to ignore 10 of your target's DT when using buckshot-type weapons on non-player enemies." -- WIP
 
 lang["#PERK_RAPIDRELOAD_NAME"] = "Rapid Reload"
-lang["#PERK_RAPIDRELOADDESC_DESC"] = "All of your weapon reloads are 10% faster than normal." -- WIP
+lang["#PERK_RAPIDRELOAD_DESC"] = "All of your weapon reloads are 15% faster than normal."
 
 lang["#PERK_CANNIBAL_NAME"] = "Cannibal"
 lang["#PERK_CANNIBAL_DESC"] = "" -- WIP
@@ -148,6 +148,16 @@ lang["#PERK_WEAPONHANDLING_NAME"] = "Weapon Handling"
 lang["#PERK_WEAPONHANDLING_DESC"] = "Makes all of your weapons easier to use"
 lang["#PERK_WEAPONHANDLING_LEVEL_1"] = "Reduces Strength Requirement for all weapons by 2."
 lang["#PERK_WEAPONHANDLING_LEVEL_2"] = "Reduces Strength Requirement for all weapons by 1 for a total of 3. Increases Weapon durability by 20%"
+
+lang["#PERK_ARMORUPKEEP_NAME"] = "Armor Upkeep"
+lang["#PERK_ARMORUPKEEP_DESC"] = "You know how to wear armor to whether any storm."
+lang["#PERK_ARMORUPKEEP_LEVEL_1"] = "Reduces all wear on armor by 25%."
+lang["#PERK_ARMORUPKEEP_LEVEL_2"] = "Reduces all wear on armor by 50%."
+
+lang["#PERK_LEADER_NAME"] = "Natural Leader"
+lang["#PERK_LEADER_DESC"] = "You're a natural leader! You know how to lead a group of people, and how to make them work together."
+lang["#PERK_LEADER_LEVEL_1"] = "You can have 1 extra party member."
+lang["#PERK_LEADER_LEVEL_2"] = "You can have 2 extra party members."
 
 -- Utility
 lang["#PERK_EDUCATED_NAME"] = "Educated"
@@ -176,7 +186,7 @@ lang["#PERK_ARMORSMITHING_LEVEL_1"] = "-You can craft Metal Armor and Super Muta
 lang["#PERK_ARMORSMITHING_LEVEL_2"] = "-You can craft Metal Armor, Super Mutant Armor, and Combat Armor Pieces."
 
 lang["#PERK_CHEMIST_NAME"] = "Chemist"
-lang["#PERK_CHEMIST_DESC"] = "You have a clear understanding of combining elements and compounds into mixtures and using it to your advantage.\n\n-You cannot take the Tribal Secrets perk."
+lang["#PERK_CHEMIST_DESC"] = "You have a clear understanding of combining elements and compounds into mixtures and using it to your advantage."
 lang["#PERK_CHEMIST_LEVEL_1"] = "-You can craft regular chemical items."
 lang["#PERK_CHEMIST_LEVEL_2"] = "-You can craft advanced chemical items."
 
@@ -205,7 +215,16 @@ lang["#PERK_JURYRIG_NAME"] = "Jury Rigging"
 lang["#PERK_JURYRIG_DESC"] = "You possess the amazing ability to repair any firearm, raygun, launcher, clothing, or armor using a similar item. Fix an Assault Carbine with a Chinese Assault Rifle, a Plasma Rifle with a Laser RCW, or even a Fatman with a Missile Launcher. How does it work? Nobody knows... except you.." -- WIP
 
 lang["#PERK_TRIBALSECRETS_NAME"] = "Tribal Secrets"
-lang["#PERK_TRIBALSECRETS_DESC"] = "By background or study, you've learned the secrets of the tribals! You can craft Healing Balm, Fiery Purgative, and Pemmican at a campfire.\n\n-You cannot take the Chemist perk."
+lang["#PERK_TRIBALSECRETS_DESC"] = "By background or study, you've learned the secrets of the tribals! You can craft Healing Balm, Fiery Purgative, and Pemmican at a campfire."
+
+lang["#PERKNAME_BOY"] = "Boy"
+lang["#PERKNAME_GIRL"] = "Girl"
+
+lang["#PERK_PARTYBOY_NAME"] = "Party $boy"
+lang["#PERK_PARTYBOY_DESC"] = "You know how to party! You are 50% less likely to become addicted to alcohol, and your addictions last half as long."
+
+lang["#PERK_INTENSETRAINING_NAME"] = "Intense Training"
+lang["#PERK_INTENSETRAINING_DESC"] = "With each rank of the Intense Training perk, you can put a single point into any of your S.P.E.C.I.A.L. attributes."
 
 -- UI
 lang["#PERKREQ_COST"] = "Not Enough Perk Points"
@@ -218,5 +237,27 @@ lang["#PERKPOINT"] = "Perk Point"
 lang["#PERKPOINTS"] = "Perk Points"
 
 lang["#PERK_COMFIRM"] = "Take this Perk?"
+
+-- Derived Statistics
+
+lang["#DERIVED_MAXHP"] = "Max HP Bonus"
+lang["#DERIVED_MAXAP"] = "Max AP Bonus"
+lang["#DERIVED_PARTYSIZE"] = "Party Size Bonus"
+lang["#DERIVED_SPEED"] = "Speed Bonus"
+lang["#DERIVED_SPRINTSPEED"] = "Sprint Bonus"
+lang["#DERIVED_JUMP"] = "Jump Height Bonus"
+lang["#DERIVED_CARRYWEIGHT"] = "Carry Weight Bonus"
+lang["#DERIVED_MELEEDAMAGE"] = "Melee Damage Bonus"
+lang["#DERIVED_RECOIL"] = "Recoil Reduction"
+lang["#DERIVED_SPREADREDUCTION"] = "Spread Reduction"
+lang["#DERIVED_RELOADSPEED"] = "Reload Speed Bonus"
+lang["#DERIVED_LOOTCHANCE"] = "Loot Chance Bonus"
+lang["#DERIVED_SALVAGEBONUS"] = "Harvest Speed Bonus"
+lang["#DERIVED_DETECTIONRANGE"] = "Detection Range Reduce"
+lang["#DERIVED_FAVORBONUS"] = "Favor Reward Bonus"
+lang["#DERIVED_MAPSPEED"] = "World Map Speed Bonus"
+lang["#DERIVED_BARTER"] = "Barter Bonus"
+
+lang["#UI_STATBASE"] = "(Base: $base$suffix)" -- shown after stat, example: "HP Bonus: 25HP (Base: 100HP)". 100 is $base, HP is $suffix
 
 RELOADSCHEMA = true

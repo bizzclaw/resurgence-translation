@@ -10,8 +10,8 @@ local lang = RSRG.Languages["en"]
 
 
 -- Mission Giver
-lang["#MISSION_GIVER_UNITYLEADER"] = "Leucippus"
-lang["#MISSION_GIVER_UNITYLEADER_NEW"] = "I welcome you to our humble Monastery, child. I am Leucippus, High Priest of the Unity and a humble advisor to this flock. Here we tend to all who have been touched by the Master and the Holy Flame; where the NCR or the grey ghosts call us 'mutant' or 'zombie' or other such barbs, the Unity recognises the truth. We are the chosen, those have been touched by fire and war and emerged stronger and more pure.\n\nI invite you to stay a while and listen, child, for I have much to teach you.\n"
+lang["#MISSION_GIVER_UNITYLEADER"] = "Gilgamesh"
+lang["#MISSION_GIVER_UNITYLEADER_NEW"] = "I welcome you to our humble Monastery, child. I am Gilgamesh, High Priest of the Unity and a humble advisor to this flock. Here we tend to all who have been touched by the Master and the Holy Flame; where the NCR or the grey ghosts call us 'mutant' or 'zombie' or other such barbs, the Unity recognises the truth. We are the chosen, those have been touched by fire and war and emerged stronger and more pure.\n\nI invite you to stay a while and listen, child, for I have much to teach you.\n"
 lang["#MISSION_GIVER_UNITYLEADER_N0"] = "You have sinned, child. I do not blame you, and I wholeheartedly forgive you... but forgiveness does not excuse you from needing to repent.\n\nAttend to these further labors and we shall consider your penance ongoing.\n"
 lang["#MISSION_GIVER_UNITYLEADER_0"] = "Welcome back to the Monastery, child. Your aid is humbly requested with these tasks.\n"
 lang["#MISSION_GIVER_UNITYLEADER_50"] = "You have earned a place here, $playername. You are permitted into the lower levels of the Monastery, as well as access to our supplies. If you still desire to serve, we have much that needs to be done.\n"

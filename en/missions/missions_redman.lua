@@ -11,7 +11,7 @@ local lang = RSRG.Languages["en"]
 lang["#MISSION_GIVER_REDMAN"] = "Major Redman"
 lang["#MISSION_GIVER_REDMAN_SUBTITLE"] = "New California Republic"
 lang["#MISSION_GIVER_REDMAN_GREET_NEW"] = "Welcome to town, stranger. I'm assuming you're one of the many fellows who are looking for jobs, work, maybe to make some cash to help yourself out? Regardless, you came to the right place. My name's Redman. Major Redman. I handle most of the job assignments here, whether it'd be getting supplies, killing some mutants, or anything else. I try to prioritize most of these jobs for people who we know have experience and can get it done. You're obviously a bit new around these parts, I'll try to find something simple that may level with your experience. Depending on whether you're able to get these tasks completed or not, I may let you in on a few other job options.\n\n\nAnyways, here's a list of some easy jobs you could get done."
-lang["#MISSION_GIVER_REDMAN_GREET_N100"] = "You're well known around here, and definitely not in a good way either. You know very few are going to trust you for your actions, but I'm still willing to give the opportunity to make up for it, as I usually do with others. You could start by taking care of a few things around here.\n\n\nHere's a list of jobs."
+lang["#MISSION_GIVER_REDMAN_GREET_N100"] = "You're well known around here, and definitely not in a good way either. You know very few are going to trust you for your actions, but I'm still willing to give the opportunity to make up for it.\n\nCheck the missionboard in the town center. It'll have a few jobs for you to do, and if you can get back on the NCR's good side, I'll consider giving you more."
 lang["#MISSION_GIVER_REDMAN_GREET_0"] = "Welcome back, Wastelander. You're likely not here just to trade a few things, possibly looking for a job or two. I may have a few for you to look into.\n\n\nHere's a list of tasks we need help with currently."
 lang["#MISSION_GIVER_REDMAN_GREET_100"] = "Hey $playername, hope all is well for you. If you're here looking for stuff to do, I may have a few things available. I'm also considering looking into more jobs just for you, as you're pretty helpful around here.\n\n\nHere's a list of available jobs."
 lang["#MISSION_GIVER_REDMAN_GREET_FINISHED"] = "Hello, $playername. I'd assume that you're here looking for assignments. Unfortunately, I don't have anything available for you at the moment. If you're looking for work, I'd recommend checking in at the town board, or talking to others around here."
@@ -82,11 +82,11 @@ lang["#MISSION_REDMAN_VAULTEXPEDITION_PREPARATION_DESC"] = "A few hours ago we j
 lang["#MISSION_REDMAN_VAULTEXPEDITION_PREPARATION_HINT"] = "Obtain Stimpaks, Radaway, and NCR Dollars. Stimpaks and Radaway can be scavenged, crafted, or bought from traders. NCR Dollars can be obtained from selling items to traders or completing jobs."
 lang["#MISSION_REDMAN_VAULTEXPEDITION_PREPARATION_COMPLETE"] = "Alright, you seem ready. Here's your choice of ammunition."
 
-lang["#MISSION_REDMAN_VAULTEXPEDITION_CLEARANCE"] = "Vault Expedition: Eliminate"
+lang["#MISSION_REDMAN_VAULTEXPEDITION_CLEARANCE"] = "Vault Expedition: Investigate"
 lang["#MISSION_REDMAN_VAULTEXPEDITION_CLEARANCE_DESC"] = "You think you're ready now? While you're in there, see if you can find some information on the place too. There might be something like that in the Overseer's office. Be careful on your way there. Radscorpions live in the pit, so I'd recommend walking around it."
-lang["#MISSION_REDMAN_VAULTEXPEDITION_CLEARANCE_HINT"] = "Clear out the vault and find any information that may remain inside. There may likely be something in the Overseer's office."
+lang["#MISSION_REDMAN_VAULTEXPEDITION_CLEARANCE_HINT"] = "Clear out the vault and find any information that may remain inside. There may likely be something in the Overseer's office. You may need to go through the caves to get to it."
 lang["#MISSION_REDMAN_VAULTEXPEDITION_CLEARANCE_COMPLETE"] = "Hell of a job, $playername. We'll look into this holotape. Here's your reward."
-lang["#MISSION_REDMAN_VAULTEXPEDITION_CLEARANCE_CUSTOMUI"] = "Find any information on the vault"
+lang["#MISSION_REDMAN_VAULTEXPEDITION_CLEARANCE_CUSTOMUI"] = "Find any information on the vault."
 lang["#MISSION_REDMAN_VAULTEXPEDITION_CLEARANCE_ITEMNAME"] = "Holotape"
 
 -- T5
@@ -101,5 +101,12 @@ lang["#MISSION_REDMAN_DEVELOPMENT_DESC"] = "We've had rapid development on anoth
 lang["#MISSION_REDMAN_DEVELOPMENT_HINT"] = "Head to the Mountain Passage that people commonly use to go to the Ashlands, and give the note to Susan, The Task Assigner at the NCR camp."
 lang["#MISSION_REDMAN_DEVELOPMENT_COMPLETE"] = "Hey, did Redman send you here? Great, we need your help."
 lang["#MISSION_REDMAN_DEVELOPMENT_ITEMNAME"] = "The Note"
+
+lang["#MISSION_REDMAN_QUARRYSCOUTING"] = "Scouting Reports"
+lang["#MISSION_REDMAN_QUARRYSCOUTING_DESC"] = "Hey $playername, good to see you're still around. If you're interested, I need you to investigate some scouting reports from some of our patrols, got reports of the local bandit population down in the quarry, no idea what they could be doing down there, take a look around and see if they left anything behind so I can confirm or deny these and get these reports off my caseload, thanks in advance."
+lang["#MISSION_REDMAN_QUARRYSCOUTING_HINT"] = "Redman wants you to confirm reports of 80's in the quarry, take a look around from positions that may be good to scout from, and what 80's may leave behind."
+lang["#MISSION_REDMAN_QUARRYSCOUTING_COMPLETE"] = "Well, it seems in your time out things are heating up. Out antenna station got raided and we lost a few well trained soldiers, 80's usually aren't capable of stuff like that, think it's time for more advanced methods. I'll be putting some work on the board, these chem heads are getting out of control. Take these supplies as a forward payment from the NCR."
+lang["#MISSION_REDMAN_QUARRYSCOUTING_ITEMNAME"] = "80's Proof"
+
 
 RELOADSCHEMA = true
