@@ -322,7 +322,7 @@ lang["#UI_WITHDRAWAL"] = "$item изъят"
 lang["#UI_DELAYED"] = "Отложен"
 lang["#UI_WAITTOUSE"] = "Вы должны подождать $time сек., чтобы использовать это!"
 lang["#UI_WANTEDBY"] = "Разыскивается организацией: $faction"
-lang["#UI_BLOCKEDBY"] = "$aidblocked блокируется: $name!"
+lang["#UI_BLOCKEDBY"] = "$aid нельзя использовать из-за: $name!"
 
 -- Inventory
 lang["#INV_ADDED"] = "$item - предмет получен"

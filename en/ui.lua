@@ -322,7 +322,7 @@ lang["#UI_WITHDRAWAL"] = "$item Withdrawal"
 lang["#UI_DELAYED"] = "Delayed"
 lang["#UI_WAITTOUSE"] = "You must wait $time seconds to use this!"
 lang["#UI_WANTEDBY"] = "Wanted by the $faction"
-lang["#UI_BLOCKEDBY"] = "$aidblocked by $name!"
+lang["#UI_BLOCKEDBY"] = "$aidblocked by $name!" -- "$aid" is a string and "blocked" can be changed in translation.
 
 -- Inventory
 lang["#INV_ADDED"] = "$item Added"
