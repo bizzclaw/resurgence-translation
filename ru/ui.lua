@@ -68,7 +68,7 @@ lang["#UI_MAP"] = "Карта"
 lang["#UI_RADIO"] = "Радио"
 
 -- subtabs
-lang["#PIP_STATUS"] = "СТАТУС"
+lang["#PIP_STATUS"] = "СОСТОЯНИЕ"
 lang["#PIP_EFFECTS"] = "ЭФФЕКТЫ"
 lang["#PIP_SPECIAL"] = "SPECIAL"
 lang["#PIP_SKILLS"] = "НАВЫКИ"

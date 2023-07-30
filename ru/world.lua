@@ -77,7 +77,7 @@ lang["#FACTION_ENCLAVE_NAME"] = "???"
 lang["#FACTION_ENCLAVE_DESC"] = "Неизвестная военизированная организация, появившаяся совсем недавно. Никто ничего не знает ни о них, ни о том, какова их цель. Большинство даже не знают об их существовании."
 
 lang["#FACTION_ICEPICK"] = "Ледорубы"
-lang["#FACTION_SMREJECTS"] = "Отверженные"
+lang["#FACTION_SMREJECTS"] = "Отвергнутые"
 lang["#FACTION_UNITY"] = "Остатки единства"
 lang["#FACTION_SMUGGLER"] = "Контрабандисты"
 lang["#FACTION_TRADEGUILD_NAME"] = "Гильдия торговцев"
