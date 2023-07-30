@@ -1,7 +1,7 @@
 local lang = RSRG.Languages["ru"]
 
 --Disclaimers
-lang["#WIP"] = "[WIP]"
+lang["#WIP"] = "[РЗБ]"
 lang["#WIP_DESC"] = "[В РАЗРАБОТКЕ]"
 --Weapon grades
 lang["#PRISTINE_NAME"] = "- 1-го класса, нетронутый"
@@ -9,21 +9,21 @@ lang["#SERVICE_NAME"] = "- 2-го класса, боевой"
 lang["#RACK_NAME"] = "- 3-го класса, полочный"
 
 --Armor Tiers
-lang["#ARMOR_STANDARD"] = "лёгкая"
-lang["#ARMOR_STURDY"] = "крепкая"
-lang["#ARMOR_HEAVY"] = "тяжёлая"
+lang["#ARMOR_STANDARD"] = "- лёгкая"
+lang["#ARMOR_STURDY"] = "- крепкая"
+lang["#ARMOR_HEAVY"] = "- тяжёлая"
 --Armor variants
 lang["#ENCLAVE_NAME"] = "Анклавовая"
 lang["#WINTER_NAME"] = "Зимняя"
 lang["#GECKO_NAME"] = "Гекконовая"
 
 -- Armor Slots
-lang["#ARMOR_TORSO"] = "часть груди"
-lang["#ARMOR_LARM"] = "левая рука"
-lang["#ARMOR_RARM"] = "правая рука"
-lang["#ARMOR_LLEG"] = "левая нога"
-lang["#ARMOR_RLEG"] = "правая нога"
-lang["#ARMOR_HELMET"] = "Шлем"
+lang["#ARMOR_TORSO"] = "- грудь"
+lang["#ARMOR_LARM"] = "- левая рука"
+lang["#ARMOR_RARM"] = "- правая рука"
+lang["#ARMOR_LLEG"] = "- левая нога"
+lang["#ARMOR_RLEG"] = "- правая нога"
+lang["#ARMOR_HELMET"] = "- Шлем"
 
 lang["#PROTECTS_TORSO"] = "\n\nЗащищает торс"
 lang["#PROTECTS_LARM"] = "\n\nЗащищает левую руку"
@@ -98,10 +98,10 @@ lang["#ARMYHELMETPRISTINE_NAME"] = "Нетронутый армейский шл
 lang["#COMBATHELMET_NAME"] = "Боевой бронированный шлем"
 lang["#DIVINGHELMET_NAME"] = "Бронированный водолазный шлем"
 lang["#ENCLAVEHELMET_NAME"] = "Улучшенный шлем силовой брони"
-lang["#FLIGHTGRAYHELMET_NAME"] = "Серый лётный Шлем"
+lang["#FLIGHTGRAYHELMET_NAME"] = "Серый лётный шлем"
 lang["#FLIGHTREDHELMET_NAME"] = "Красный лётный шлем"
 lang["#FLIGHTBROWNHELMET_NAME"] = "Коричневый лётный шлем"
-lang["#FLIGHTYELLOWHELMET_NAME"] = "Жёлтый лётный Шлем"
+lang["#FLIGHTYELLOWHELMET_NAME"] = "Жёлтый лётный шлем"
 lang["#GASMASKVISOR_NAME"] = "Противогаз и козырек"
 lang["#GASMASKGOGGLE_NAME"] = "Противогаз с очками"
 lang["#GASMASKASSAULT_NAME"] = "Боевой противогаз"
@@ -195,7 +195,7 @@ lang["#BACKPACK_UPPER"] = "Верхний"
 lang["#BACKPACK_LOWER"] = "Нижний"
 
 -- Backpack Names
-lang["#BACKPACK_FIELD_NAME"] = "Полевой рюкзак"
+lang["#BACKPACK_FIELD_NAME"] = "походный рюкзак"
 
 --Hat Name
 lang["#8POINTMILITARY_NAME"] = "Военный берет морских сил"
@@ -209,7 +209,7 @@ lang["#NCRBERET_NAME"] = "Берет НКР"
 lang["#BERETRED_NAME"] = "Красный берет"
 lang["#BOWLER_NAME"] = "Котелок"
 lang["#BOSCAPTAINHAT_NAME"] = "Головной убор капитана Братства"
-lang["#BOSFIELDCOVER_NAME"] = "Полевое покрытие Братства"
+lang["#BOSFIELDCOVER_NAME"] = "Походная накидка Братства"
 lang["#CHEFHAT_NAME"] = "Шляпа шеф-повара"
 lang["#COWBOYHAT1_NAME"] = "Ковбойская шляпа головореза"
 lang["#COWBOYHAT2_NAME"] = "Ковбойская шляпа скотовода"
