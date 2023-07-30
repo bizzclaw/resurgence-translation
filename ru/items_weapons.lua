@@ -208,7 +208,7 @@ lang["#PIPERIFLE_STARTER_RIFLE_NAME"] = "Ломовая винтовка"
 lang["#PIPERIFLE_STARTER_SMG_NAME"] = "Ломовой пистолет-пулемёт"
 lang["#PIPERIFLEBOLT_NAME"] = "Гладкоствол с затвором"
 lang["#VARMINT_NAME"] = "Варминт-винтовка"
-lang["#VARMINT_STARTER_NAME"] = "Варминт-винтовка Буббаред"
+lang["#VARMINT_STARTER_NAME"] = "Варминт-винтовка Бубы"
 lang["#MACHINEGUN_NAME"] = "Лёгкий пулемёт"
 lang["#G11_NAME"] = "Скорострельное ружьё"
 
