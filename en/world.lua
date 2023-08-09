@@ -1,23 +1,37 @@
 local lang = RSRG.Languages["en"]
 
-lang["#CRIMES_NONE"] = "No Crimes"
+lang["#INTRO_1"] = "War. War never changes."
+lang["#INTRO_2"] = "After decades of worldwide conflict over the last of earth's remaining resources, war would bring nuclear holocaust, destroying life as we knew it on the planet."
+lang["#INTRO_3"] = "Humanity would survive, with many doing so in large bunkers beneath the earth known as vaults. When the fallout subsided, man emerged into an unfamiliar world ready to be claimed under new flags."
+lang["#INTRO_4"] = "Over a century passed, and with time one society resembling that of the old world formed. It was beneath the flag of the New California Republic that the values of democracy and the rule of law would return in large."
+lang["#INTRO_5"] = "As the Republic established itself, it desired to expand. Explorers spread in all directions, seeking territory and wealth. It was in the cold, green mountains of the north that they discovered a land of opportunity - Cascadia."
+lang["#INTRO_6"] = "These lands were full of life, as well as populations to integrate into the growing state. Gold was found in Cascadia, prompting many miners to travel in search of fortune, establishing settlements of their own throughout the region."
+lang["#INTRO_7"] = "New Reno, a city of sin run by four mafioso families, desires to gain control of the gold trade, but they aren't alone."
+lang["#INTRO_8"] = "Further up in the mountains, another conflict brews. If you believe the rumors, entire towns of people are being stolen in the night without a trace, never to return."
+lang["#INTRO_9"] = "The already lawless land has become even more dangerous."
+lang["#INTRO_10"] = "The year is 2236. You, for your own reasons, have decided to embark north, tagging along with an expedition of couriers to a newly established merchant outpost near the border."
+lang["#INTRO_11"] = "The journey has been a long one, but you are finally almost at your destination. It's time you stake your own claim and make a new life for yourself."
 
 -- Regions
 lang["#REGION_NOTHERNCALIFORNIA"] = "Northern California"
 lang["#REGION_NOTHERNCALIFORNIA_CANYONENTRANCE"] = "Train Tunnel"
+lang["#REGION_NOTHERNCALIFORNIA_DESC"] = "The northernmost region of California, this area is mostly mountainous and sparsely populated. The NCR has a small presence here, but the majority of the region is lawless."
 
 lang["#REGION_MOJAVE"] = "Salt Wells"
 lang["#REGION_MOJAVE_EAST"] = "U.S. 50, East"
 lang["#REGION_MOJAVE_WEST"] = "U.S. 50, West Hunter Outpost"
+lang["#REGION_MOJAVE_DESC"] = "A large desert region, the Mojave is home to the largest city in the region, Salt Wells. The NCR has a large presence here, but the region is still dangerous."
 
 lang["#REGION_MOUNTAINPASS"] = "Mountain Pass"
 lang["#REGION_MOUNTAINPASS_NORTH"] = "Northern Pass"
 lang["#REGION_MOUNTAINPASS_SOUTH"] = "Camp Willow"
 lang["#REGION_MOUNTAINPASS_MOUNTAIN"] = "Mountaintop Wilderness"
+lang["#REGION_MOUNTAINPASS_DESC"] = "The Mountain Pass is a stretch of the Interstate 5 passing by Mt. Shasta. The environment is frigid all year round, making traversal difficult, but it is the only known way to travel farther north. The NCR has a small presence here, and if rumors are to be believed, many people have gone missing in the area."
 
 lang["#REGION_ASHLANDS"] = "The Ash Lands"
 lang["#REGION_ASHLANDS_OUTPOST"] = "Arms Tent"
 lang["#REGION_ASHLANDS_CITY"] = "Dead City"
+lang["#REGION_ASHLANDS_DESC"] = "The Ash Lands are the ruins of the once humble city of Ashland Oregon. The NCR has no presence here, but is home to a community of Merchants, Mercenaries and Hunters who profit off the various riches found in the ruins."
 
 lang["#REGION_CUTLER"] = "Cutler City"
 lang["#REGION_CUTLER_SWTUNNEL"] = "U.S. 101, South"
@@ -30,17 +44,20 @@ lang["#REGION_YOLLABOLLY_CLIFFCONVY"] = "Abandoned Convoy"
 lang["#REGION_YOLLABOLLY_HYDRO"] = "Hydro Dam Pass"
 lang["#REGION_YOLLABOLLY_TUNNELTRAILER"] = "Tunnel Barricade"
 lang["#REGION_YOLLABOLLY_TOWN"] = "Survivalist Town"
+lang["#REGION_YOLLABOLLY_DESC"] = "The Yolla Bolly Mountain Range is a large mountain range in the north. The NCR has little presence here, but is home to a community of Survivalists have called the mountain range home."
 
 lang["#REGION_DEADESTUARY"] = "Dead Estuary"
 lang["#REGION_DEADESTUARY_NORTH"] = "Northern Boat"
 lang["#REGION_DEADESTUARY_SW"] = "Smuggler's Camp"
 lang["#REGION_DEADESTUARY_NW"] = "Westward Shack"
 lang["#REGION_DEADESTUARY_E"] = "Makeshift Flotilla"
+lang["#REGION_DEADESTUARY_DESC"] = "This dark swamp along the Oregon Coast has little in the way of civilzation. It is known for its harsh environment, dangerous wildlife, and the occasional smuggler."
 
 lang["#REGION_SALEM"] = "Salem Ruins"
 lang["#REGION_SALEM_SE"] = "Brotherhood Recon Outpost"
 lang["#REGION_SALEM_S"] = "Collapsed Building"
-lang["#REGION_SALEM_NW"] = "Mercenary Camp"
+lang["#REGION_SALEM_NW"] = "Merchant Guild Trading Post"
+lang["#REGION_SALEM_DESC"] = "Just before the war, Salem experienced a rapid growth in population and urban development. Now, it is a shell of its former self. Police robots patrol decayed streets, bandits prowl in the shadows, Super Mutants hold large portions of the city. The Merchants Guild have set up a large trading post, supplying those crazy enough to venture into the city to loot its vast wealth of technology and supplies."
 
 -- Factions
 lang["#FACTION_NCR_NAME"] = "New California Republic"
@@ -73,15 +90,16 @@ lang["FACTION_FOLLOWERSOFTHEAPOCALYPSE_DESC"] = "The Followers are a humanitaria
 lang["#FACTION_BOS_NAME"] = "Brotherhood of Steel"
 lang["#FACTION_BOS_DESC"] = "The Brotherhood of Steel is a techno-religous organization that collects and maintains advanced technology with roots in the Pre-War American Military. They are highly reclusive and"
 
-lang["#FACTION_ENCLAVE_NAME"] = "???"
+lang["#FACTION_ENCLAVE_NAME"] = "Enclave"
 lang["#FACTION_ENCLAVE_DESC"] = "An unknown paramilitary organization that has made sparse appearances very recently. Nobody knows anything about them, or what their purpose is. Most don't even know they exist."
 
+lang["#FACTION_TRADEGUILD_NAME"] = "Merchant's Guild"
 
 lang["#FACTION_ICEPICK"] = "Ice Picks"
 lang["#FACTION_SMREJECTS"] = "Rejects"
 lang["#FACTION_UNITY"] = "Unity Remnants"
 lang["#FACTION_SMUGGLER"] = "Smugglers"
-lang["#FACTION_TRADEGUILD_NAME"] = "Merchant's Guild"
+
 lang["#FACTION_ROCKBITER"] = "Rock-Biters"
 lang["#FACTION_BANDITRUSTLER"] = "Rustlers"
 lang["#FACTION_BANDIT80S"] = "80s Tribe"

@@ -365,7 +365,7 @@ lang["#TARBERRY_DESC"] = "Pretty big for berries. They're purple, containing a t
 lang["#GLOWINGMUSHROOM_DESC"] = "Tiny luminescent sprout with a dome on it's peak. Seems like it could be used for... something."
 
 lang["#MAGUNARMED_DESC"] = "A magazine containing information on unarmed combat."
-lang["#MAGREPAIR_DESC"] = "A magazine containing information on preforming repairs."
+lang["#MAGREPAIR_DESC"] = "A magazine containing information on performing repairs."
 lang["#MAGEWEAP_DESC"] = "A magazine containing information on energy weapons."
 lang["#MAGSURVIVAL_DESC"] = "A magazine containing useful survival tips."
 lang["#MAGSNEAK_DESC"] = "A magazine containing information on stealth."

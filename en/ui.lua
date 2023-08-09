@@ -322,7 +322,7 @@ lang["#UI_WITHDRAWAL"] = "$item Withdrawal"
 lang["#UI_DELAYED"] = "Delayed"
 lang["#UI_WAITTOUSE"] = "You must wait $time seconds to use this!"
 lang["#UI_WANTEDBY"] = "Wanted by the $faction"
-lang["#UI_BLOCKEDBY"] = "$aidblocked by $name!" -- "$aid" is a string and "blocked" can be changed in translation.
+lang["#UI_BLOCKEDBY"] = "$aidblocked by $name!"
 
 -- Inventory
 lang["#INV_ADDED"] = "$item Added"
@@ -803,6 +803,7 @@ lang["#UI_COUNTS"] = "Counts"
 lang["#UI_FINE"] = "Fine"
 lang["#UI_PAYFINE"] = "Pay Fine"
 lang["#UI_FINEAMOUNT"] = "Pay Amount"
+lang["#CRIMES_NONE"] = "No Crimes"
 
 lang["#UI_CRIME_FINE_ADDED"] = "Fine of $amount added."
 lang["#UI_CRIME_PAIDOFF"] = "You Paid off: $amount. Fine remaining: $remaining."
