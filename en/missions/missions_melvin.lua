@@ -36,7 +36,7 @@ lang["#MISSION_MELVIN_SHITTY_ITEMNAME"] = "A Massive Log"
 
 lang["#MISSION_MELVIN_CALLWEED"] = "Why They Call it Lure Weed"
 lang["#MISSION_MELVIN_CALLWEED_DESC"] = "Alrighty, so I looked at that literal shit, looked at your lack of findings from all those guts, and decided to finally go ask Rodger if he had any insight because I'm stumped. Figured I'd be okay for one quick trip since you've been killing shit all over. On my way there I saw some Lure Weed, went to snip it up, and SOME BIG FUCKING LAND FISH CAME UP AND ALMOST ATE MY ASS! Shot that fucker in the legs and ran back here to safety. So I guess those things are why they call it Lure Weed. Had the stuff growing out of its head. I wanna know why. Go bag and tag some of those stupid things for me, I gotta see what their biological relationship with that damn plant is."
-lang["#MISSION_MELVIN_CALLWEED_HINT"] = "Anglers usually hide in patchs of Lure Weed around the coasts of the islands on Dead Estuary. Dig them out and kill them."
+lang["#MISSION_MELVIN_CALLWEED_HINT"] = "Anglers usually hide in patches of Lure Weed around the coasts of the islands on Dead Estuary. Dig them out and kill them."
 lang["#MISSION_MELVIN_CALLWEED_COMPLETE"] = "You got them? Good, good. This hopefully gives me insight into how Lure Weed interacts with this ecosystem, it has to be something more than just growing here. Now I gotta figure out what came first, the Weed or the...Angler, that's what they call it? Yeah, Weed or the Angler. Anyway, here's the usual."
 
 lang["#MISSION_MELVIN_LITTER"] = "Litter Bugs"

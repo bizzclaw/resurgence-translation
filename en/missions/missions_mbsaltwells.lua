@@ -11,7 +11,7 @@ lang["#MISSION_BOARD_SALTWELLS"] = "Salt Wells Task Board"
 lang["#MISSION_BOARD_SALTWELLS_SUBTITLE"] = "Tasks and Jobs"
 lang["#MISSION_BOARD_SALTWELLS_GREET"] = "This board contains several papers with jobs from people who are looking to hire others in this area. You can accept any job that you meet the requirements for.\n\n\nA list of available jobs are below."
 
-lang["#MISSION_BOARD_SALTWELLSBANDIT"] = "Salt Wells Bandit Task Board"
+lang ["#MISSION_BOARD_SALTWELLSBANDIT"] = "Salt Wells Bandit Task Board"
 
 lang["#MISSION_SALTWELLS_LOOSEPARTS"] = "Loose Parts"
 lang["#MISSION_SALTWELLS_LOOSEPARTS_DESC"] = "This task is open to those who are willing to gather Scrap Metal for the hirer. They are willing to pay a reasonable price for it."

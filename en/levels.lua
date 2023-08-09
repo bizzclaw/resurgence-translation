@@ -116,7 +116,7 @@ lang["#PERK_COMBATANT_NAME"] = "Combatant"
 lang["#PERK_COMBATANT_DESC"] = "You prefer to use your combat training as a survival skill in the wasteland.\n\n-Gain 5 more skill points every time you level up in combat.\n-You cannot take the Educated perk."
 
 lang["#PERK_RUNNGUN_NAME"] = "Run'n Gun"
-lang["#PERK_RUNNGUN_DESC"] = "Moving and shooting? Not that hard! Just like how the baiters did it!\n\n-When using any one-handed weapon, Moving does not affect your spread nearly as much."
+lang["#PERK_RUNNGUN_DESC"] = "Moving and shooting? Not that hard!\n\n-When using any one-handed weapon, Moving does not affect your spread nearly as much."
 
 lang["#PERK_WILDWEST_NAME"] = "Wild West"
 lang["#PERK_WILDWEST_DESC"] = "Born and raised in the West.\n\n-When using Revolvers, Lever Action Rifles or Pump Shotguns, you can fire 25% faster."
@@ -223,8 +223,34 @@ lang["#PERKNAME_GIRL"] = "Girl"
 lang["#PERK_PARTYBOY_NAME"] = "Party $boy"
 lang["#PERK_PARTYBOY_DESC"] = "You know how to party! You are 50% less likely to become addicted to alcohol, and your addictions last half as long."
 
+lang["#PERK_TERRIFYINGPRESENCE_NAME"] = "Terrifying Presence"
+lang["#PERK_TERRIFYINGPRESENCE_DESC"] = "Your presence inspires terror in your enemies!\n\nPress @+USE to demoralized them.\n\nDemoralized players will have a debuff to their aim, agility and endurance for 30 seconds.\n\nNPCs will lose 10% of their health down to 50% and Aggro too you.\n\nHas a 1 minute cooldown."
+lang["#PERK_TERRIFYINGPRESENCE_INSULTS"] = {
+    "YOU LIKE THE SIGHT OF YOUR OWN BLOOD?!",
+    "You fight like a radroach!",
+    "Did your Pip-Boy teach you how to shoot?",
+    "Your aim is worse than a ghoul's fashion sense!",
+    "I've seen Protectrons with better combat skills!",
+    "Your mother was a hamster and your father smealt of elderberries!"
+}
+lang["#PERK_TP_SUCCESS"] = "Target is demoralized by your presence!"
+lang["#PERK_TP_PERKFAIL"] = "You do not have the Terrifying Presence perk!"
+lang["#PERK_TP_FAIL"] = "Invalid Target."
+lang["#PERK_TP_COOLDOWNFAIL"] = "You must wait $time seconds before using Terrifying Presence again!"
+lang["#PERK_TP_DISTANCEFAIL"] = "Target is not in Range."
+lang["#PERK_TP_LOSFAIL"] = "Target is not in Line of Sight."
+lang["#STAT_TERRIFIED"] = "Demoralized"
+lang["#PERK_TP_ENEMYFAIL"] = "Target is not an enemy."
+lang["#PERK_TP_PVPFAIL"] = "PVP is not currently allowed with Target."
+lang["#PERK_TP_FACTIONMEMBERFAIL"] = "Target is in your Faction."
+lang["#PERK_TP_PARTYMEMBER"] = "Target is a member of your Party."
+
+lang["#PERK_TP_ALREADYTERRIFIED"] = "Target is already demoralized."
+lang["#STAT_TERRIFIED_NOTIFY"] = "You are demoralized."
+
 lang["#PERK_INTENSETRAINING_NAME"] = "Intense Training"
 lang["#PERK_INTENSETRAINING_DESC"] = "With each rank of the Intense Training perk, you can put a single point into any of your S.P.E.C.I.A.L. attributes."
+
 
 -- UI
 lang["#PERKREQ_COST"] = "Not Enough Perk Points"
@@ -243,6 +269,7 @@ lang["#PERK_COMFIRM"] = "Take this Perk?"
 lang["#DERIVED_MAXHP"] = "Max HP Bonus"
 lang["#DERIVED_MAXAP"] = "Max AP Bonus"
 lang["#DERIVED_PARTYSIZE"] = "Party Size Bonus"
+lang["#DERIVED_PARTYSIZE_TOTAL"] = "Party Size"
 lang["#DERIVED_SPEED"] = "Speed Bonus"
 lang["#DERIVED_SPRINTSPEED"] = "Sprint Bonus"
 lang["#DERIVED_JUMP"] = "Jump Height Bonus"
