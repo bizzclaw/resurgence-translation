@@ -804,6 +804,7 @@ lang["#UI_COUNTS"] = "Случаи"
 lang["#UI_FINE"] = "Штраф"
 lang["#UI_PAYFINE"] = "Оплатить штраф"
 lang["#UI_FINEAMOUNT"] = "Размер оплаты"
+lang["#CRIMES_NONE"] = "Нет преступлений"
 
 lang["#UI_CRIME_FINE_ADDED"] = "Начислен штраф в размере $amount."
 lang["#UI_CRIME_PAIDOFF"] = "Вы оплатили: $amount. Остаток штрафа: $remaining."
