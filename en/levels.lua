@@ -28,7 +28,7 @@ lang["#SPC_INT"] = "Intelligence"
 lang["#SPC_INTDESC"] = "Wits and wisdom, the ability to think quickly is essential for survival in the Wastes.\n\n- Affects the ability to craft items and modifications.\n- Increases Utility points gained from level advancement."
 
 lang["#SPC_AGL"] = "Agility"
-lang["#SPC_AGLDESC"] = "The ability to be fast. A high Agility grants speed to movement and other actions.\n\n- Affects max AP and AP regeneration speed.\n- Increases Speed at which many actions are performed."
+lang["#SPC_AGLDESC"] = "The ability to be fast. A high Agility grants speed to movement and other actions.\n"
 
 lang["#SPC_LCK"] = "Luck"
 lang["#SPC_LCKDESC"] = "One will find that Luck works out situations for them in the strangest of ways.\n\n- Affects Item discovery.\n- Affects all Skills.\n- Affects all scenarios."
@@ -181,7 +181,7 @@ lang["#PERK_JUNKROUNDS_NAME"] = "Junk Rounds"
 lang["#PERK_JUNKROUNDS_DESC"] = "Who needs factory loaded brass anyway?\n\n-You can craft junk bullets with scrap metal instead of brass."
 
 lang["#PERK_ARMORSMITHING_NAME"] = "Armor Smithing"
-lang["#PERK_ARMORSMITHING_DESC"] = "You've learned how to create strengthy armors by just by welding metal together!"
+lang["#PERK_ARMORSMITHING_DESC"] = "You've learned how to create sturdy armors just by welding metal together!"
 lang["#PERK_ARMORSMITHING_LEVEL_1"] = "-You can craft Metal Armor and Super Mutant Armor Pieces."
 lang["#PERK_ARMORSMITHING_LEVEL_2"] = "-You can craft Metal Armor, Super Mutant Armor, and Combat Armor Pieces."
 
@@ -251,6 +251,11 @@ lang["#STAT_TERRIFIED_NOTIFY"] = "You are demoralized."
 lang["#PERK_INTENSETRAINING_NAME"] = "Intense Training"
 lang["#PERK_INTENSETRAINING_DESC"] = "With each rank of the Intense Training perk, you can put a single point into any of your S.P.E.C.I.A.L. attributes."
 
+lang["#PERK_WASTELANDGUIDE_NAME"] = "Wasteland Guide"
+lang["#PERK_WASTELANDGUIDE_DESC"] = "You've survived long enough in the wastes to pass your knowledge on to others.\n\nParty Members near you now gain 25% more experience if their level is 1/2 your own, and 50% more experience if their level is 1/4th your own."
+
+lang["#PERK_DRUNKMECHANIC_NAME"] = "Drunk Mechanic"
+lang["#PERK_DRUNKMECHANIC_DESC"] = "Most people work worse while drunk, but not you!\n\nFor each tier of Drunkeness you have, you gain +5 to your engineering skill, and do not suffer Intelligence debuffs from alcohol."
 
 -- UI
 lang["#PERKREQ_COST"] = "Not Enough Perk Points"
@@ -271,7 +276,9 @@ lang["#DERIVED_MAXAP"] = "Max AP Bonus"
 lang["#DERIVED_PARTYSIZE"] = "Party Size Bonus"
 lang["#DERIVED_PARTYSIZE_TOTAL"] = "Party Size"
 lang["#DERIVED_SPEED"] = "Speed Bonus"
+lang["#DERIVED_SPEED_TOTAL"] = "Speed"
 lang["#DERIVED_SPRINTSPEED"] = "Sprint Bonus"
+lang["#DERIVED_SPRINTSPEED_TOTAL"] = "Sprint Speed"
 lang["#DERIVED_JUMP"] = "Jump Height Bonus"
 lang["#DERIVED_CARRYWEIGHT"] = "Carry Weight Bonus"
 lang["#DERIVED_MELEEDAMAGE"] = "Melee Damage Bonus"
@@ -284,6 +291,8 @@ lang["#DERIVED_DETECTIONRANGE"] = "Detection Range Reduce"
 lang["#DERIVED_FAVORBONUS"] = "Favor Reward Bonus"
 lang["#DERIVED_MAPSPEED"] = "World Map Speed Bonus"
 lang["#DERIVED_BARTER"] = "Barter Bonus"
+lang["#DERIVED_REPAIR"] = "Repair Bonus"
+lang["#DERIVED_CRAFTCONDITION"] = "Craft Condition Bonus"
 
 lang["#UI_STATBASE"] = "(Base: $base$suffix)" -- shown after stat, example: "HP Bonus: 25HP (Base: 100HP)". 100 is $base, HP is $suffix
 

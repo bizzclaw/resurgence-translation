@@ -119,7 +119,7 @@ RSRG.Hints[HINTS_RARE] = { -- Would have a low chance of appearing. Maybe 5% or 
 "What the hell was that noise?!",
 "I'm losing my fucking mind.",
 "I'm about to snap.",
-"YOU KNOW WHAT THEY SAY, THE JET MAKES YOU JITTERY!",
+"YOU KNOW WHAT THEY SAY, THE PEYOTE MAKES YOU JITTERY!",
 "I'm watching you.",
 "We saw you do that, you know.",
 "If you hear banjo music, RUN.",

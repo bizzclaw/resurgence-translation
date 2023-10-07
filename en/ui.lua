@@ -6,6 +6,8 @@ lang["#GAMEMODE_NAME"] = "Fallout Resurgence"
 lang["#WIPWARN_TITLE"] = "Resurgence is an Unfinished Project"
 lang["#WIPWARN_SUB"] = "You will encounter bugs and unfinished features."
 lang["#UI_ANYKEY"] = "Press Any Key to Start"
+lang["#UI_INTRO_NEXT"] = "[SPACE] Next"
+lang["#UI_INTRO_SKIP"] = "[T] Skip"
 
 -- Teleport Doors
 lang["#UI_OPEN"] = "Open"
@@ -44,7 +46,7 @@ lang["#UI_RESUME"] = "Resume"
 lang["#UI_SETTINGS"] = "Resurgence Settings"
 lang["#UI_STEAMGROUP"] = "Steam Group"
 lang["#UI_GMODMENU"] = "Garry's Mod Menu"
-lang["#UI_SIGNOUT"] = "Resurgence Main Menu"
+lang["#UI_SIGNOUT"] = "Change Character"
 lang["#UI_QUIT"] = "Disconnect"
 lang["#UI_SIGNOUTWARN"] = "You will leave your character behind!\n\nIt's dangerous here, try Leaving from a town or from the Travel Map."
 lang["#UI_SIGNOUTDEATHWARN"] = "YOU WILL DIE!\nIf you leave now, your character will perish!\n\nYou can still make it if you let yourself recover."
@@ -89,7 +91,7 @@ lang["#SHORT_CXP"] = "CXP" -- Combat Experience
 lang["#SHORT_UXP"] = "UXP" -- Utility Experience
 lang["#SHORT_LMB"] = "LMB" -- Limb Health
 lang["#SHORT_SPECIAL"] = "SPECIAL" -- Special
-lang["#SHORT_TIME"] = "Time" -- Time
+lang["#SHORT_TIME"] = "Time: $time" -- Time
 lang["#SHORT_WGT"] = "WGT" -- shorthand for "weight"
 lang["#SHORT_SWGT"] = "SAVE WGT" -- shorthand for "weight"
 lang["#SHORT_DT"] = "DT" -- Damage Threshold
@@ -98,6 +100,7 @@ lang["#SHORT_CND"] = "CND" -- Condition
 lang["#SHORT_RADS"] = "RADS" -- Radiation level
 lang["#SHORT_SAT"] = "SAT" -- Satiation, hunger combined with thirst into one stat.
 lang["#SHORT_PVP"] = "PVP" -- Player Versus Player
+lang["#SHORT_ALC"] = "ALC" -- Alcohol Content / Drunkneness
 
 -- UI Labels
 lang["#UI_SEARCH"] = "Search"
@@ -140,6 +143,7 @@ lang["#UI_PERKPOINTGAINED"] = "You have gained a S.P.E.C.I.A.L point to spend!\n
 lang["#UI_RACEBLOCK_SUPERMUTANT_GUNSLINGER"] = "You have attempted to tag GunSlinger, but Super Mutants cannot use pistols!"
 lang["#UI_DERIVEDSTATS"] = "Derived Stats"
 lang["#UI_SECONDS"] = "$time seconds"
+lang["#UI_PERKRESET_UPDATE"] = "An update has changed the costs of perks! We have reset your Perks and refunded your Perk Points.\n\nSome perks, such as educated or combatant have not been refunded."
 
 lang["#PVP_ZONE_ENTERED"] = "Entering PVP Area!"
 lang["#PVP_ZONE_EXITED"] = "Exiting PVP Area."
@@ -204,6 +208,7 @@ lang["#SORT_VALUE"] = "Value"
 lang["#SORT_CND"] = "Condition"
 lang["#SORT_LOOT"] = "Loot Priority"
 lang["#UI_STORAGE_MAXWEIGHT"] = "Storage at Maximum Capacity"
+lang["#UI_RANDOMIZE_CONDITION"] = "Warning!!!\n\nYou have multiple instances of an item used for crafting this and a random one will be selected.\n\nWhichever one is selected will have its condition copied. Store the items you don't want to use."
 
 lang["#UI_REQUIRES"] = "Requires"
 lang["#UI_REQUIREMENTS"] = "Requirements"
@@ -238,8 +243,10 @@ lang["#UI_XPGAIN"] = "Experience Gain"
 
 -- Effects. All effects will start with NOW_SICK or NO_LONGER_SICK
 -- Radiation Sickness
-lang["#NOW_SICK"] = "You now have"
-lang["#NO_LONGER_SICK"] = "You no longer have"
+lang["#NOTIFY_STATUS"] = "You are $name." -- currently used for drunk effects "You are Drunk", "You are Wasted"
+lang["#NOTIFY_STATUS_REMOVED"] = "You are no longer $name." -- currently used for drunk effects "You are no longer Drunk", "You are no longer Wasted"
+lang["#NOTIFY_DISEASE"] = "You have $name." -- used for dieases and radiation poisioning, "You have advanced radiation poisoning"
+lang["#NOTIFY_DISEASE_CURED"] = "You no longer have $name."
 
 -- Human Rad Effects
 lang["#RAD1_NAME"] = "Minor Radiation Poisoning"
@@ -319,7 +326,7 @@ lang["#UI_CHEMBLOCKED"] = "Chemblocker is still active!"
 lang["#UI_ADDICTED"] = "You have become addicted to $item"
 lang["#UI_NOTADDICTED"] = "You are no longer addicted to $item"
 lang["#UI_WITHDRAWAL"] = "$item Withdrawal"
-lang["#UI_DELAYED"] = "Delayed"
+lang["#UI_DELAYED"] = "Delayed: $time"
 lang["#UI_WAITTOUSE"] = "You must wait $time seconds to use this!"
 lang["#UI_WANTEDBY"] = "Wanted by the $faction"
 lang["#UI_BLOCKEDBY"] = "$aidblocked by $name!" -- "$aid" is a string and "blocked" can be changed in translation.
@@ -452,6 +459,10 @@ lang["#UI_DOOR"] = "Door"
 lang["#STAT_NEARDEATH"] = "Near Death"
 lang["#STAT_POWERARMOR"] = "Power Armor Frame"
 lang["#STAT_LIGHT"] = "Pip-Boy Light"
+lang["#STAT_DRUNK1"] = "Buzzed"
+lang["#STAT_DRUNK2"] = "Drunk"
+lang["#STAT_DRUNK3"] = "Intoxicated"
+lang["#STAT_DRUNK4"] = "Wasted"
 
 --Display timer
 lang["#UI_DOWNNOTICE"] = "Recovering..."
@@ -747,6 +758,7 @@ lang["#UI_INFLUENCE"] = "Influence"
 
 lang["#COMMUNITY_CREATE"] = "Create Community"
 lang["#COMMUNITY_SEARCH"] = "Community Search"
+lang["#COMMUNITY_SEARCH_COOLDOWN"] = "Please wait before searching again."
 lang["#COMMUNITY_UNSELECTED"] = "No Community Selected"
 
 lang["#COMMUNITY_LEAVE"] = "Leave Community"
@@ -771,18 +783,22 @@ lang["#COMMUNITY_RANK_FOUNDER"] = "Founder"
 
 lang["#COMMUNITY_SUBJECT_INVALID"] = "Subject is not in your community!"
 lang["#COMMUNITY_INCOMMUNITY"] = "You are already in a community!"
-lang["#COMMUNITY_KICKED"] = "You haved been removed from $communityName."
+lang["#COMMUNITY_KICKED"] = "You haved been removed from $communityName." 
 
 lang["#COMMUNITY_INFO"] = "Community Information"
 
 lang["#COMMUNITY_INFO_INFLUENCE"] = "Community Influence"
 lang["#COMMUNITY_INFO_INFLUENCE_TEXT"] = "Community influence is your community's \"Credit\" in the wasteland and is used to purchase upgrades for your community such as storage capacity and member size increases.\nInflunce can be gained by donating items, completing missions in the name of your community, or killing members of an opposing faction and taking their faction's influence."
 
-lang["#COMMUNITY_INFO_INFLUENCE"] = "Community Ranks"
-lang["#COMMUNITY_INFO_INFLUENCE_TEXT"] = "Each community has 5 ranks by default. You can freely edit the existing ranks or add more. Each rank has a set of permissions, and with those permissions can act on members below their rank."
+lang["#COMMUNITY_INFO_RANKS"] = "Community Ranks"
+lang["#COMMUNITY_INFO_RANKS_TEXT"] = "Each community has 5 ranks by default. You can freely edit the existing ranks or add more. Each rank has a set of permissions, and with those permissions can act on members below their rank."
 
 lang["#COMMUNITY_INFO_RELATIONS"] = "Community Relations"
 lang["#COMMUNITY_INFO_RELATIONS_TEXT"] = "You can establish relationships with other communities such as ally to form an aliance, or enemy to declare war. Allied communities will not take eachother's influence in the event of friendly fire, but warring communities will take even more influence from eachother than neutral ones.\n\nA community can declare war on any other community without confirmation, but alliances must be agreed on by both communities."
+
+lang["#INFLUENCE_NOTE_MISSION"] = "Mission Reward"
+lang["#INFLUENCE_NOTE_PVP"] = "Player Kill"
+lang["#INFLUENCE_NOTE_DONATION"] = "Item Donation"
 
 -- faction interaction
 lang["#FACTION_CANNOT_ACCESS_HOSTILE"] = "You cannot access this area because you are hostile with $faction."
