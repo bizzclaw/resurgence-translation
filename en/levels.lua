@@ -144,6 +144,23 @@ lang["#PERK_RAPIDRELOAD_DESC"] = "All of your weapon reloads are 15% faster than
 lang["#PERK_CANNIBAL_NAME"] = "Cannibal"
 lang["#PERK_CANNIBAL_DESC"] = "" -- WIP
 
+lang["#PERK_METALLURGIST_NAME"] = "Metallurgist"
+lang["#PERK_METALLURGIST_DESC"] = "Metallurgist. \n-You've learned how to work with heavy metals effectively." -- NEED DESC
+
+lang["#PERK_CLOTHIER_NAME"] = "Clothier"
+lang["#PERK_CLOTHIER_DESC"] = "Clothier. \n-You've learned how to work with fabrics and leather effectively." -- NEED DESC
+
+lang["#PERK_BALLISTIC_NAME"] = "Ballistics"
+lang["#PERK_BALLISTIC_DESC"] = "Ballistics. \n-You've learned how to work with kevlar and polymers effectively." -- NEED DESC
+
+lang["#PERK_DISMANTLE_NAME"] = "Dismantle"
+lang["#PERK_DISMANTLE_DESC"] = "Dismantle. \n-You've learned how to downgrade a piece of armor at the cost of the resources needed to upgrade it." -- NEED DESC
+
+lang["#PERK_HYPERTOXICITY_NAME"] = "Hypertoxicity"
+lang["#PERK_HYPERTOXICITY_DESC"] = "Hypertoxicity. \n-You've learned how to work with poisons effectively." -- NEED DESC
+lang["#PERK_HYPERTOXICITY_LEVEL_1"] = "Hypertoxicity. \n-You've learned how to craft advanced poisons." -- NEED DESC
+lang["#PERK_HYPERTOXICITY_LEVEL_2"] = "Hypertoxicity. \n-You've learned how to craft concentrated poisons." -- NEED DESC
+
 lang["#PERK_WEAPONHANDLING_NAME"] = "Weapon Handling"
 lang["#PERK_WEAPONHANDLING_DESC"] = "Makes all of your weapons easier to use"
 lang["#PERK_WEAPONHANDLING_LEVEL_1"] = "Reduces Strength Requirement for all weapons by 2."
@@ -180,10 +197,10 @@ lang["#PERK_HANDLOADER_DESC"] = "You know a way to make stronger bullets, and do
 lang["#PERK_JUNKROUNDS_NAME"] = "Junk Rounds"
 lang["#PERK_JUNKROUNDS_DESC"] = "Who needs factory loaded brass anyway?\n\n-You can craft junk bullets with scrap metal instead of brass."
 
-lang["#PERK_ARMORSMITHING_NAME"] = "Armor Smithing"
-lang["#PERK_ARMORSMITHING_DESC"] = "You've learned how to create sturdy armors just by welding metal together!"
-lang["#PERK_ARMORSMITHING_LEVEL_1"] = "-You can craft Metal Armor and Super Mutant Armor Pieces."
-lang["#PERK_ARMORSMITHING_LEVEL_2"] = "-You can craft Metal Armor, Super Mutant Armor, and Combat Armor Pieces."
+lang["#PERK_ARMORSMITHING_NAME"] = "!DEPRECATED! Armor Smithing" -- Need to remove soon.
+lang["#PERK_ARMORSMITHING_DESC"] = "!DEPRECATED!You've learned how to create sturdy armors just by welding metal together!"
+lang["#PERK_ARMORSMITHING_LEVEL_1"] = "-!DEPRECATED!You can craft Metal Armor and Super Mutant Armor Pieces."
+lang["#PERK_ARMORSMITHING_LEVEL_2"] = "-!DEPRECATED!You can craft Metal Armor, Super Mutant Armor, and Combat Armor Pieces."
 
 lang["#PERK_CHEMIST_NAME"] = "Chemist"
 lang["#PERK_CHEMIST_DESC"] = "You have a clear understanding of combining elements and compounds into mixtures and using it to your advantage."
@@ -255,7 +272,7 @@ lang["#PERK_WASTELANDGUIDE_NAME"] = "Wasteland Guide"
 lang["#PERK_WASTELANDGUIDE_DESC"] = "You've survived long enough in the wastes to pass your knowledge on to others.\n\nParty Members near you now gain 25% more experience if their level is 1/2 your own, and 50% more experience if their level is 1/4th your own."
 
 lang["#PERK_DRUNKMECHANIC_NAME"] = "Drunk Mechanic"
-lang["#PERK_DRUNKMECHANIC_DESC"] = "Most people work worse while drunk, but not you!\n\nFor each tier of Drunkeness you have, you gain +5 to your engineering skill, and do not suffer Intelligence debuffs from alcohol."
+lang["#PERK_DRUNKMECHANIC_DESC"] = "Most people work worse while drunk, but not you!\n\nFor each tier of Drunkeness you have, you gain +5 to your engineering skill, and do not suffer Intelligence or Experience Gain debuffs from alcohol."
 
 -- UI
 lang["#PERKREQ_COST"] = "Not Enough Perk Points"

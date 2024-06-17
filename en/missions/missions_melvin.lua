@@ -32,7 +32,7 @@ lang["#MISSION_MELVIN_SHITTY"] = "A Shitty Question"
 lang["#MISSION_MELVIN_SHITTY_DESC"] = "So, one question we wanna know is how the hell does this stuff grow? What conditions does it need? That kinda stuff. According to some guys I talked to, there's this outhouse. It's on some island in the swamp, I really don't know where. But apparently, a bunch of Lure Weed grows around there. Go to the outhouse, see if it's being used, and report back to me. Gotta know if human shit makes this stuff grow."
 lang["#MISSION_MELVIN_SHITTY_HINT"] = "There are many islands apart of Dead Estuary. Search around and explore them to find the location"
 lang["#MISSION_MELVIN_SHITTY_COMPLETE"] = "What is this? It's the poop from the outhouse? This log is massive, no way it's human shit. You're pulling my leg, this has to be like, a Yao Guai turd or something. No? You're actually serious? Okay, I'll trust you on this. I'll analyze it anyway and see what I can get. Here's the pay as usual."
-lang["#MISSION_MELVIN_SHITTY_ITEMNAME"] = "A Massive Log"
+lang["#MISSION_MELVIN_SHITTY_ITEMNAME"] = "Massive Log"
 
 lang["#MISSION_MELVIN_CALLWEED"] = "Why They Call it Lure Weed"
 lang["#MISSION_MELVIN_CALLWEED_DESC"] = "Alrighty, so I looked at that literal shit, looked at your lack of findings from all those guts, and decided to finally go ask Rodger if he had any insight because I'm stumped. Figured I'd be okay for one quick trip since you've been killing shit all over. On my way there I saw some Lure Weed, went to snip it up, and SOME BIG FUCKING LAND FISH CAME UP AND ALMOST ATE MY ASS! Shot that fucker in the legs and ran back here to safety. So I guess those things are why they call it Lure Weed. Had the stuff growing out of its head. I wanna know why. Go bag and tag some of those stupid things for me, I gotta see what their biological relationship with that damn plant is."
@@ -57,6 +57,7 @@ lang["#MISSION_MELVIN_CONTRABANNED_COMPLETE"] = "You took care of it? Thank god.
 lang["#MISSION_MELVIN_SWIMBIRDS"] = "Swimming with the Birds"
 lang["#MISSION_MELVIN_SWIMBIRDS_DESC"] = "Just bear with me on this one. It's gonna sound crazy. So, according to the Guild, there's a crashed old world flying machine crashed out in the swamp. It's called a Vertibird apparenty. Problem is, it's in the water, but the solution is I gave you that radiation suit! I know, I know, I'm a genius. Anyway, if you wanna go out to it, it's crashed off the waters of the back of the main Smuggler camp, where the boat is. Just head that way, and see if anything in the wreckage is fucking with the water and possibly messing with the Lure Weed and stuff. Don't drown though!"
 lang["#MISSION_MELVIN_SWIMBIRDS_HINT"] = "Back behind the main Smuggler camp is a boat. Follow its direction to the water, and find the Vertibird crash. Bring back what you find."
+lang["#MISSION_MELVIN_SWIMBIRDS_ITEMNAME"] = "Vertibird Part"
 lang["#MISSION_MELVIN_SWIMBIRDS_COMPLETE"] = "$playername! Yes, haha, you actually fucking did it! And I fucking called it! Leaking nuclear fuel, plasma shit, microfusion, abunch of advanced tech stuff. All just stewing in the swamp water. Good job. I think with all this, I'm sure I can figure something concrete out. I might need your help still gathering supplies ocassionaly, maybe run back and get more chem waste and that stuff, but I think our main bulk is done. Thanks for all the help, $playername, you're one alright guy. I'll let the Guild know all you've done for me in my reports."
 
 -- Repeatable Missions, unlocked after Swimming with the Birds completed
@@ -71,6 +72,7 @@ lang["#MISSION_MELVIN_GUTFEELING_HINT"] = "Kill various animals on Dead Estuary.
 lang["#MISSION_MELVIN_GUTFEELING_COMPLETE"] = "Seriously? Nothing still? You're kidding me right? Look, whatever, we'll come back to this again later. Here just take this for your time"
 
 lang["#MISSION_MELVIN_SWAMPCLEANUP"] = "Swamp Cleanup"
+lang["#MISSION_MELVIN_SWAMPCLEANUP_ITEMNAME"] = "Smuggler Chem Waste"
 lang["#MISSION_MELVIN_SWAMPCLEANUP_DESC"] = "So, do you wanna kick the hornet's nest again? I need more of that chem waste that the Smugglers leave laying around. Trust me I'll make it worth your while, just go get it please."
 lang["#MISSION_MELVIN_SWAMPCLEANUP_HINT"] = "On Dead Estuary there are two Smuggler camps. A large encampment near the Trader Shack, and an outpost an on outer island. Invesigate them for chem litter."
 lang["#MISSION_MELVIN_SWAMPCLEANUP_COMPLETE"] = "Amazing, thanks you're the best. Here, take this generous reward for your time and effort, I know those Smugglers are rough."

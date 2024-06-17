@@ -105,7 +105,8 @@ lang["#NPC_ICEPICKBANDIT_RANK2"] = "Ice Pick Head-Hunter" --"Savage", as in a de
 lang["#NPC_ICEPICKBANDIT_RANK2_OVERWATCH"] = "Ice Pick Bandit"
 lang["#NPC_ICEPICKBANDIT_RANK3"] = "Ice Pick Man-Trapper" --"Man-Trapper", a name for someone who specializes in hunting and trapping people 
 lang["#NPC_ICEPICKBANDIT_RANK4"] = "Ice Pick Flesh-Taker"
-lang["#NPC_ICEPICKBANDIT_RANK5"] = "Ice Pick Misathrope"
+lang["#NPC_ICEPICKBANDIT_RANK5"] = "Ice Pick Misatrope" -- Disabled currently
+lang["#NPC_ICEPICKBANDIT_BOSS"] = "Ice Pick Butcher" -- Cannibal sounding name
 --Rock-Biters
 lang["#NPC_ROCKBITERBANDIT"] = "Rock-Biter Bandit"
 lang["#NPC_ROCKBITERBANDITS"] = "Rock-Biter Bandits"
@@ -150,14 +151,14 @@ lang["#NPC_CIPHERAGENT_RANK5"] = "Cipher Executive"
 lang["#NPC_CIPHERAGENT_SNIPER"] = "Watcher"
 
 --Enclave
-lang["#NPC_ENCLAVERANK1"] = "Soldier" --Enclave Light Infantry
-lang["#NPC_ENCLAVERANK1A"] = "Soldier" --Enclave Light Infantry
-lang["#NPC_ENCLAVERANK1B"] = "Soldier" --Enclave Light Infantry
-lang["#NPC_ENCLAVERANK1C"] = "Soldier" --Enclave Light Infantry
-lang["#NPC_ENCLAVERANK1D"] = "Soldier" --Enclave Light Infantry
-lang["#NPC_ENCLAVERANK1E"] = "Soldier" --Enclave Light Infantry
-lang["#NPC_ENCLAVERANK2"] = "Heavily Armored Soldier" --Enclave Patrolman
-lang["#NPC_ENCLAVERANK3"] = "Heavily Armored Soldier" --Enclave Heavy Infantry
+lang["#NPC_ENCLAVERANK1"] = "Enclave Light Infantry" --Enclave Light Infantry
+lang["#NPC_ENCLAVERANK1A"] = "Enclave Light Infantry" --Enclave Light Infantry
+lang["#NPC_ENCLAVERANK1B"] = "Enclave Light Infantry" --Enclave Light Infantry
+lang["#NPC_ENCLAVERANK1C"] = "Enclave Light Infantry" --Enclave Light Infantry
+lang["#NPC_ENCLAVERANK1D"] = "Enclave Light Infantry" --Enclave Light Infantry
+lang["#NPC_ENCLAVERANK1E"] = "Enclave Light Infantry" --Enclave Light Infantry
+lang["#NPC_ENCLAVERANK2"] = "Enclave Patrolman" --Enclave Patrolman
+lang["#NPC_ENCLAVERANK3"] = "Enclave Heavy Infantry" --Enclave Heavy Infantry
 lang["#NPC_ENCLAVESCIENTIST1"] = "Scientist" --Enclave Scientist
 lang["#NPC_ENCLAVESCIENTIST2"] = "Combat Medic" --Enclave Combat Medic
 lang["#NPC_ENCLAVESCIENTIST3"] = "Scientist" --Enclave Geologist

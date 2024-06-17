@@ -53,6 +53,7 @@ lang["#UI_SIGNOUTDEATHWARN"] = "YOU WILL DIE!\nIf you leave now, your character 
 
 -- Loading Screen
 lang["#UI_LOADINGCHARACTER"] = "Loading Character..."
+lang["#UI_LOADINGMENU"] = "Loading Main Menu..."
 
 lang["#UI_LOADING_CREATING"] = "Creating Character..."
 lang["#UI_LOADING_FINDING"] = "Finding Character..."
@@ -60,6 +61,7 @@ lang["#UI_LOADING_INVENTORY"] = "Loading Inventory..."
 lang["#UI_LOADING_CONTRACTS"] = "Loading Contracts..."
 lang["#UI_LOADING_REPUTATION"] = "Loading Reputation..."
 lang["#UI_LOADING_COMMUNITY"] = "Loading Community..."
+lang["#UI_LOADING_CHARACTERS"] = "Loading Character List..."
 lang["#UI_LOADING_SPAWNING"] = "Spawning!"
 
 --Pip Tabs
@@ -124,6 +126,7 @@ lang["#UI_RTAKEALL"] = "@+reload Take All"
 lang["#UI_FMOUSE"] = "@impulse 100|Mouse"
 lang["#UI_PERKPOINTS"] = "Perk Points"
 lang["#UI_SPECIALPOINTS"] = "S.P.E.C.I.A.L Points"
+lang["#UI_REFUNDSPECIALS"] = "Warning! some special point(s) were too high and have been refunded. You must re-assign them."
 lang["#UI_BACK"] = "Back"
 lang["#UI_YES"] = "Yes"
 lang["#UI_NO"] = "No"
@@ -135,6 +138,8 @@ lang["#UI_WEPONWEAR"] = "Weapon Wear"
 lang["#UI_COUNTER"] = "@+attack| Counter"
 lang["#UI_NOBOTTLES"] = "No Empty Bottles"
 lang["#UI_UNSTUCKWAIT"] = "You must wait $time more seconds before you can unstuck again."
+lang["#UI_NOCROUCH"] = "You cannot do this while Crouching."
+lang["#UI_UNSTUCKING"] = "Unstucking..."
 lang["#UI_UNSTUCKFAILED"] = "Unstuck Failed! Sorry about that, please return to the main menu and wait 5 minutes for your character to unload."
 lang["#UI_TOGGLERAISEHELP"] = "You can lower your weapon by holding @+use and tapping @+reload .\n\nHolding @+reload will holster your weapon."
 lang["#UI_CREATOR"] = "Creator"
@@ -144,6 +149,7 @@ lang["#UI_RACEBLOCK_SUPERMUTANT_GUNSLINGER"] = "You have attempted to tag GunSli
 lang["#UI_DERIVEDSTATS"] = "Derived Stats"
 lang["#UI_SECONDS"] = "$time seconds"
 lang["#UI_PERKRESET_UPDATE"] = "An update has changed the costs of perks! We have reset your Perks and refunded your Perk Points.\n\nSome perks, such as educated or combatant have not been refunded."
+lang["#PERK_DEPRECATED"] = "Your Following Perks have been deprecated and refunded:$perknames"
 
 lang["#PVP_ZONE_ENTERED"] = "Entering PVP Area!"
 lang["#PVP_ZONE_EXITED"] = "Exiting PVP Area."
@@ -364,18 +370,41 @@ lang["#PARTY_PROMOTE"] = "Promote to Leader"
 lang["#PARTY_PROMOTECONFIRM"] = "Promote $person to party leader?"
 lang["#PARTY_FRIENDLYFIRE"] = "Watch your fire!"
 
+lang["#PARTY_ALREADYINPARTY"] = "You are already in a party. Party must be left before creating a new one."
+lang["#PARTY_OTHERALREADYINPARTY"] = "$person is already in a party!"
+lang["#PARTY_ONLYLEADERINVITE"] = "$person ss already in a party!"
+lang["#PARTY_INVITEPENDING"] = "Party invite to $person is already pending."
+
+lang["#PARTY_CHARISMA_SINGLE"] = "You aren't charismatic enough to lead more than 1 person."
+lang["#PARTY_CHARISMA_MULTI"] = "You aren't charismatic enough to lead more than $num people."
+lang["#PARTY_INVITED"] = "You have invited $person to join your Party!"
+
 --TRADING
-lang["#TRADE_REQUEST"] = "Trade With"
+lang["#TRADE_REQUEST"] = "Request to Trade"
 lang["#TRADE_TOOFAR"] = "This player is too far to be traded with."
 lang["#TRADE_REQUESTED"] = "You have requested to trade with $person."
 lang["#TRADE_ALREADYPENDING"] = "You already have a trade request pending."
 lang["#TRADE_HASREQUESTED"] = "$person has requested to trade with you."
-lang["#TRADE_ACCEPTREQUEST"] = "Accept Request"
-lang["#TRADE_DECLINEREQUEST"] = "Decline Request"
-lang["#TRADE_ACCEPTED"] = "You have accepted the trade request."
+lang["#TRADE_ACCEPTREQUEST"] = "Accept Trade Request"
+lang["#TRADE_DECLINEREQUEST"] = "Decline Trade Request"
 lang["#TRADE_DECLINED"] = "You have declined the trade request."
-lang["#TRADE_OTHERACCEPTED"] = "$person has accepted your trade request."
 lang["#TRADE_OTHERDECLINED"] = "$person has declined your trade request."
+lang["#TRADE_TRADEINVFULL"] = "Trade Inventory Full"
+lang["#TRADE_NOTRADE"] = "You cannot trade this item!"
+lang["#TRADE_CANCEL"] = "Cancel Trade"
+lang["#TRADE_CANCELCONFIRM"] = "Are you Sure you want to cancel the Trade?"
+lang["#TRADE_YOUROFFER"] = "Your Offer"
+lang["#TRADE_THEIROFFER"] = "$person's Offer"
+lang["#TRADE_READY"] = "Ready Trade"
+lang["#TRADE_UNREADY"] = "Unready Trade"
+lang["#TRADE_THEYCONFIRMED"] = "$person Accepted"
+lang["#TRADE_YOUCONFIRMED"] = "You have Accepted"
+lang["#TRADE_TOTALVALUE"] = "Total Value: $value"
+lang["#TRADE_REQUESTEDITEM"] = "Requested: $ammount"
+lang["#TRADE_OFFER"] = "[SPACE] Toggle Offer"
+lang["#TRADE_REQUESTITEM"] = "[SPACE] Toggle Request"
+lang["#TRADE_ISREADY"] = "Trade Accepted"
+lang["#TRADE_ALREADYINTRADE"] = "$person is already in a trade."
 
 --ToolTips
 lang["#TOOLTIP_RELOAD"] = "@+reload Reload."
@@ -538,6 +567,10 @@ lang["#UI_ENTERNAME"] = "Enter Name..."
 lang["#UI_NAMETOOLONG"] = "Name is too long, must be below 40 characters."
 lang["#UI_NAMETOOSHORT"] = "Name is too short, must be above 4 characters."
 lang["#UI_NONAMEENTERED"] = "Please Enter a Name for your Character."
+lang["#UI_NAMEFAILED"] = "This name is not allowed."
+lang["#UI_NAMEINVALID_PART"] = "Part of the name is not Allowed."
+lang["#UI_NAMEINVALID_WORD"] = "A Word in the name is not Allowed."
+lang["#UI_NAMEINVALID_GROUP"] = "A Group of Words in the name is not Allowed."
 
 -- Looks
 lang["#LOOKS_RANDOMIZE"] = "Randomize"
@@ -617,7 +650,7 @@ lang["#RACE_SUPERMUTANT_DESC"] = [[
 - Increased Strength and Endurance Capacity.
 - Decreased Intelligence, Charisma, Agility, and Luck Capacity.
 - Immunity to Radiation; Higher Radiation levels will buff Strength and Endurance, but debuff your Intelligence and Charisma.
-- Restriction from wearing normal human clothes and armor, and use of certain weapons.
+- Restriction from wearing normal human clothes and armor, and use of handguns/pistols.
 
 You were... hold on, you don't quite remember. At some point in your life you fell, or were thrown into a giant vat of weird green goo and turned into the creature you are today. It hurts your head when you try to remember what life was like before you woke up like this.
 ]]
@@ -636,7 +669,7 @@ It doesn't really matter what your reason is, you're on your own now. Whatever y
 lang["#RACE_VAULTDWELLEREXTENDED_DESC"] = [[
 You were born in a Vault-Tec vault; A shelter built before the war where your ancestors retreated to be saved from nuclear conflict.
 
-You might look like any other wastelander if you're out of your bright blue suit, but in truth you're a bit different on the microscopic level. You DNA is pure, free of radioactive mutation present in all life born of the wasteland.
+You might look like any other wastelander if you're out of your bright blue suit, but in truth you're a bit different on the microscopic level. Your DNA is pure, free of radioactive mutation present in all life born of the wasteland.
 
 Vault life has it's perks- you're smarter than the average wastelander due to your mandated Vault education. However, you might be a bit weak though due to a lack of... conflict growing up.
 
@@ -668,6 +701,7 @@ What, or who you were before doesn't quite matter anymore. Whatever you make of 
 lang["#UI_NOTINCURRENTREGION"] = "The Server you are in does not match this Character's last region.\nLoading into Travel Map."
 lang["#UI_WORLDMAPWELCOME"] = "Welcome to the Travel Map!\nClick anywhere on the map to move there.\nHold right click to pan."
 lang["#UI_WORLDMAPLOADIN"] = "You have entered a loadable region.\nClick on the downward pointing arrow at your location to enter."
+lang["#UI_WORLDMAP_RESET"] = "The World Map has been updated!\nYour World Map Position has been reset to avoid issues."
 
 --Name
 lang["#WORLDNAME"] = "Pacific North Wastes" -- The Pacific Northwest (Northern California to British Columbia) is nicknamed "The Pacific North Wastes"
@@ -761,11 +795,16 @@ lang["#COMMUNITY_SEARCH"] = "Community Search"
 lang["#COMMUNITY_SEARCH_COOLDOWN"] = "Please wait before searching again."
 lang["#COMMUNITY_UNSELECTED"] = "No Community Selected"
 
+lang["#COMMUNITY_INVITE"] = "Invite to Community"
+lang["#COMMUNITY_INVITE_NOTIFY"] = "$inviterName has invited to join $communityName."
+
+
 lang["#COMMUNITY_LEAVE"] = "Leave Community"
 
 lang["#COMMUNITY_PERM_KICK_MEMBER"] = "Kick Member"
 lang["#COMMUNITY_PERM_KICK_MEMBER_DESC"] = "Remove Member's with ranks below ours."
 lang["#COMMUNITY_PERM_ADD_MEMBER"] = "Add Member"
+lang["#COMMUNITY_PERM_EDIT_MEMBER"] = "Edit Member"
 lang["#COMMUNITY_PERM_ADD_MEMBER_DESC"] = "Add members to ranks below our own."
 lang["#COMMUNITY_PERM_EDIT_RANKS"] = "Edit Ranks"
 lang["#COMMUNITY_PERM_EDIT_RANKS_DESC"] = "Add/Remove permissions available to this group on groups below it."
@@ -896,11 +935,17 @@ lang["#UI_REP_HONORED_NAME"] = "Honored" -- favor 800 - 1000
 lang["#UI_REP_HONORED_DESC"] = "The people have benfitted greatly from your support, and will come to you for the most sensitive of issues."
 
 lang["#UI_REP_NEUTRAL"] = "Neutral" -- They will not attack you and will count crimes from you if you attack them.
-lang["#UI_REP_HOSTILE"] = "Hostile" -- Factions that are hostile with you will not count crimes against them, as they generally shoot at you first.
-lang["#UI_REP_ALLIED"] = "Allied" -- You are currently representing this faction. you cannot be damaged by other players who have this status
-lang["#UI_REP_EXILED"] = "Exiled" -- Currently unused. Will be used if you betray a faction by doing certain missions.
+lang["#UI_REP_HOSTILE"] = "Enemy" -- Factions that are hostile with you will not count crimes against them, as they generally shoot at you first.
+lang["#UI_REP_ALLIED"] = "Ally" -- You are currently representing this faction. you cannot be damaged by other players who have this status
+lang["#UI_REP_EXILED"] = "Exile" -- Currently unused. Will be used if you betray a faction by doing certain missions.
+lang["#UI_REP_MEMBER"] = "Member" -- Official member of the faction, granted by GMs
+lang["#UI_REP_LEADER"] = "Leader" -- Official Leader of the faction, granted by GMs
 
-lang["#UI_PVP_DISABLED"] = "PVP is not allowed in this area."
+-- chains the statuses into the name of the faction
+lang["#UI_FACTION_MEMBER"] = "$faction $status" -- "Enclave Member" or "Brotherhood of Steel Leader"
+
+lang["#UI_PVP_DISABLED"] = "PVP is not allowed in this Region."
+lang["#UI_PVP_ARMISTICE"] = "PVP is not allowed In or From an armistice Area."
 
 lang["#NOTIFY_REP_STATUS"] = "Your status with the $faction is now $status"
 lang["#NOTIFY_REP_WANTED"] = "You are now wanted by the $faction in regions they control and they will attack you on sight!"
@@ -916,6 +961,7 @@ lang["#UI_REPRESENT_FAILED_TIME"] = "You can only change your Representation onc
 lang["#UI_REPRESENT_FAILED_FAVOR"] = "Your must have at least 400 favor to represent a faction."
 lang["#UI_REPRESENT_FAILED_HOSTILE"] = "You cannot represent a faction that is hostile towards you!"
 lang["#UI_REPRESENT_FAILED_ZONE"] = "You can only change your Faction Representation in Safe Zones!"
+lang["#UI_REPRESENT_FAILED_MEMBER"] = "Official Faction Members cannot Unprepresent their Faction!"
 
 lang["#UI_REPRESENT_STARTED"] = "You are now Representing as a member of the $faction!"
 lang["#UI_REPRESENT_ENDED"] = "You are No longer representing the $faction."
@@ -981,7 +1027,11 @@ lang["#HARVEST_UI"] = "Plants Harvested"
 lang["#CRAFT_UI"] = "Create"
 lang["#DISCOVER_UI"] = "Explore"
 
+lang["#UI_MUTE"] = "Mute"
+lang["#UI_UNMUTE"] = "Unmute"
 
+lang["#UI_MUTED"] = "Muted $playername"
+lang["#UI_UNMUTED"] = "Unuted $playername"
 
 --If there's any items you know I'll add, feel free to add them yourself and write their description. Heck add anything you like. Just make sure it follows the format here. Also, it MUST have a # in front of the name and the name must be all caps.
 

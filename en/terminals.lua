@@ -16,7 +16,46 @@ lang["#TERMINAL_DRYSTATE_JUNKYARD"] ={
 			{"Unlucky", [[
 				Welp, the vault is completely sealed already. Tried to figure out what I'd do, but decided to pick up some supplies from home. I wanted to stay, but once I saw my neighbhors get broken into by looters, I came out here.
 					
-				It's remote and there's a ton of scrap metal and junk around. Maybe I can try and make a better shelter, but first, I need to protect myself. Going to go into the warehouse and try to fix that pipe rifle I was working on.
+				Its remote and there's a ton of scrap metal and junk around. Maybe I can try and make a better shelter, but first, I need to protect myself. Going to go into the warehouse and try to fix that pipe rifle I was working on.
+			]]}
+		}}
+	}
+}
+
+lang["#TERMINAL_DRYSTATE_VAULT"] ={
+	name = "Vault Maintenance Terminal",
+	logs = {
+		{"Maintenance Notes", {
+			{"Strange Noises", [[
+				I'm making a note here about the strange noises we've been hearing in the vault. It's been going on for a few days now, and I can only describe it as the sound of crawling, scratching and scraping.
+				
+				There's a door that leads out the airlock to the caves where the vault was never finished, but it's locked without the overseer's approval.
+
+				I think the noises could be coming from the caves, but I'm not sure. I'll have to ask the overseer about it.
+			]]},
+			{"Breach", [[
+				Well I'll be damned. The Overseer initially rejected my request to assemble a team to explore the caves, said it would be too dangerous and the vault was sturdy enough that there was nothing to worry about.
+
+				Boy was he wrong!
+
+				Yesterday, the wall came down in the emergency escape under the Overseer's office, and I shit you not GIANT ANTS CAME POURING OUT.
+
+				We've read about ants as common insects in our text books, but the books said they were much smaller, I guess the war has really twisted the world outside.
+
+				To make matters worse, they're trying to get in through several other places, which has caused cave-ins in multiple parts of the vault. We've got people trapped and parts of the vault we can't get too.
+			]]},
+			{"Worst Case Scenario", [[
+				The Unthinkable happened. A cave-in caused the overseer's office to be cut off from the rest of the Vault, and the overseer is stuck in his office! We know that there was a breach into the tunnel below his office, so we sent a team in to see if they can navigate the caves to go through the breach and bring him back.
+			]]},
+			{"Route to the Overseer's Office", [[
+				I'm happy to report that the Overseer is safe and sound, however, we lost over half of the security team to those damn bugs.
+				
+				They noted that once they got into a large open area, the first cave to the left took them too a fork. They took the path that lead up, and they ended up at the breach to the overseer's emergency tunnel.
+
+				We're going to have to clear out the rubble, but first we need to get this ant situation sorted. For now the Overseer is going to be staying in the clinic until we can get him back to his office.
+			]]},
+			{"DATA CORRUPTED", [[
+				Warning! Disk Error Detected! Unable to recover previous entries. Please contact your system administrator. 
 			]]}
 		}}
 	}
@@ -136,7 +175,8 @@ lang["#INEU_GREGLOG"] = {
 				Almost got locked away (not metaphorically, actually) on my way to Headquarters this time. Those bastards 'forgot' to tell me the Salem Police Department climbed out of their graves last week.
 				They tell me some group of wasters managed to turn on the reactors powering most of the city, trying to start a town for themselves. Sounds like it would've been nice, I need more places to sell. Unfortunately it didn't.
                 Turns out that in their efforts to get the lights back on, the idiots also woke up the entire city's automated police force, and then were all immediately arrested, tried in robot court, and sentenced accordingly.
-                
+			]]},
+            {"STAY AWAY FROM SALEM! Pt. 2", [[
 				I almost ended up the same a few days ago. When I was approaching Salem on my usual route a duo of bots approached me and asked for identification. I obviously didn't have any, so they tried arresting me.
                 Managed to shoot those two down, but had to make a run for it as about fifteen others immediately appeared out of nowhere and open fire. The entire area is lit up like a christmas party and crawling with the cops now.
                 
@@ -283,17 +323,239 @@ lang["#YB_BARRACKS"] = {
 ]]
 
 lang["#SALEM_FACTORYLOG"] = {
-	name = "Factory Logs",
+	name = "Power Plant Terminal",
 	logs = {
-		{"First Day Here.", [[
-			
+		{"New Journal.", [[
+            04.05.2236
+            Gonna write in this to keep some sanity while I'm cooped up in here for the next while.
+		    The merchant's guild assigned us here to get the power back on. We've gotten a pretty decent community growing here and Salem's starting to get put on the map as a fairly safe trade hub in the north. Big guys in charge believe we might have The Hub of the north on our hands.
+        Priority one is getting street lights and other amenities working again. Guild believes it'll draw more attention and attract caps to this place. Sound idea but there's going to be downsides. It's already pretty lawless up here. I just hope they've got the men for all the negative attention those lights are gonna bring.
 		]]},
-		{"Day Four.", [[
-			S
+		{"Frustrated.", [[
+            04.25.2236
+			Been here for three weeks now and it's nothing but busted fuses and disconnected power-lines. I'm ripping my hair out trying to get this turbine functional with what we have, but what we really need is fresh parts. I'm meeting with the foreman tomorrow about getting some up from New Reno.
 		]]},
-		{"Day Nine.", [[
-			S
+		{"Good News.", [[
+            05.22.2236
+			It took a month, but the reactors are online; now we've got another problem. The power grid, if you can believe it, is somehow mostly functional. The issue with that is we can only keep the lights on for a few minutes before it risks overloading.
+            It's gonna take some more work but we've come a long way. The end is finally in sight.
+		]]},
+        {"An Idea.", [[
+            07.02.2236
+			It's been awhile, but I'm back.
+            We got the power working, lights are on, people are amazed. We all got paid very well. But there's another problem.
+            Bandit attacks are becoming frequent. There's a band of fools coming over here every few days now trying to take what isn't theirs. The Merchant's Guild has been keeping the town guarded for now but who knows how long it'll be before some army shows up here and takes over. They aren't interested in joining the NCR either.
+            I've been reading through some old newspapers and terminals around the town. Before the war this place was apparently some tech haven. The town had a massive automated police force. They had RobCo robots on every street corner patrolling around. They even repaired themselves at automatic stations.
+
+            If we can get the grid connected to the police stations, we won't have to worry about bandits anymore.
+		]]},
+        {"It was a mistake", [[
+            07.12.2236
+			I've done something horrible.
 		]]}
+	}
+}
+
+lang["#SALEM_PD1"] = {
+	name = "Police Station Terminal",
+	logs = {
+        {"Inbox", {
+		{"SUBJECT: Upcoming Changes", [[
+        FROM: Cpt. Laski: 02.23.2068
+        Attention everyone. The chief wants everyone to know the department is getting a sponsorship from RobCo. I'm sure you all know about the new attention the city's been getting with the tech boom. Robert House is late to the party, but he's opening a new office building here.
+        He's apparently got big plans for us. RobCo wants to replicate what they did in Watoga here in Salem. We'll be getting a whole fleet of Protectrons to help us with the homeless problem that's been plaguing your beat routes.
+		]]},
+		{"SUBJECT: Additional changes", [[
+        FROM: Cpt. Laski: 07.03.2068
+        The new program's been going well. Crime rate is down and smiles are up! The Chief wants everyone to know it's going so well that RobCo has offered to triple the amount of Protectron's on the force, as well as install automated repair stations on most street corners.
+        
+        Some of you may be aware of reports that the new officers are... overzealous. There have been a number of incidents where vagrants were "vaporized" as the newspapers put it. Be assured this is all within legality in accordance with the Cleaning Our Streets Act of 2066. Be reminded you are not a representative of the Police Department, you are not authorized to talk to the press on Police matters.
+
+        Everything is fine. Be assured, our jobs are about to get a hell of a lot easier.
+		]]},
+		{"SUBJECT: SEVERANCE PAY", [[
+        FROM: AUTOMATED SYSTEM: 01.10.2069
+        ATTENTION [Sgt. Kevin Douglas],
+
+        WE AT THE SALEM POLICE DEPARTMENT ARE SORRY TO INFORM YOU THAT WE ARE MAKING PERSONNEL CUTS IN THE DEPARTMENT. THIS ISN'T AN EASY DECISION FOR US, AND WE HOPE YOU CAN UNDERSTAND.
+
+        YOU WILL RECEIVE THREE MONTHS OF SEVERANCE PAY, AND KEEP YOUR HEALTH BENEFITS FOR THE NEXT FOUR MONTHS. WE UNDERSTAND YOU WILL BE IN NEED OF NEW EMPLOYMENT, AND URGE YOU TO REAPPLY TO THE SALEM POLICE DEPARTMENT AS A TECHNICIAN IF YOU HAVE ANY RobCo Protectron ENGINEERING EXPERIENCE.
+        
+        PLEASE TURN IN YOUR BADGE AND GUN BEFORE YOU LEAVE THE OFFICE TODAY.
+
+        THANK YOU FOR YOUR SERVICE.
+		]]}
+        }
+	}
+}}
+
+
+lang["#SALEM_PD2"] = {
+	name = "Police Station Terminal",
+	logs = {
+        {"Inbox", {
+		{"SUBJECT: Upcoming Changes", [[
+        FROM: Cpt. Laski: 02.23.2068
+        Attention everyone. The chief wants everyone to know the department is getting a sponsorship from RobCo. I'm sure you all know about the new attention the city's been getting with the tech boom. Robert House is late to the party, but he's opening a new office building here.
+        He's apparently got big plans for us. RobCo wants to replicate what they did in Watoga here in Salem. We'll be getting a whole fleet of Protectrons to help us with the homeless problem that's been plaguing your beat routes.
+		]]},
+		{"SUBJECT: Additional changes", [[
+        FROM: Cpt. Laski: 07.03.2068
+        The new program's been going well. Crime rate is down and smiles are up! The Chief wants everyone to know it's going so well that RobCo has offered to triple the amount of Protectron's on the force, as well as install automated repair stations on most street corners.
+        
+        Some of you may be aware of reports that the new officers are... overzealous. There have been a number of incidents where vagrants were "vaporized" as the newspapers put it. Be assured this is all within legality in accordance with the Cleaning Our Streets Act of 2066. Be reminded you are not a representative of the Police Department, you are not authorized to talk to the press on Police matters.
+
+        Everything is fine. Be assured, our jobs are about to get a hell of a lot easier.
+		]]},
+		{"SUBJECT: SEVERANCE PAY", [[
+        FROM: AUTOMATED SYSTEM: 01.10.2069
+        ATTENTION [Lt. Jane Kerring],
+
+        WE AT THE SALEM POLICE DEPARTMENT ARE SORRY TO INFORM YOU THAT WE ARE MAKING PERSONNEL CUTS IN THE DEPARTMENT. THIS ISN'T AN EASY DECISION FOR US, AND WE HOPE YOU CAN UNDERSTAND.
+
+        YOU WILL RECEIVE THREE MONTHS OF SEVERANCE PAY, AND KEEP YOUR HEALTH BENEFITS FOR THE NEXT FOUR MONTHS. WE UNDERSTAND YOU WILL BE IN NEED OF NEW EMPLOYMENT, AND URGE YOU TO REAPPLY TO THE SALEM POLICE DEPARTMENT AS A TECHNICIAN IF YOU HAVE ANY RobCo Protectron ENGINEERING EXPERIENCE.
+        
+        PLEASE TURN IN YOUR BADGE AND GUN BEFORE YOU LEAVE THE OFFICE TODAY.
+
+        THANK YOU FOR YOUR SERVICE.
+		]]}
+        }
+	}
+}}
+
+lang["#SALEM_PD3"] = {
+	name = "Police Station Terminal",
+	logs = {
+        {"Inbox", {
+		{"SUBJECT: Upcoming Changes", [[
+        FROM: Cpt. Laski: 02.23.2068
+        Attention everyone. The chief wants everyone to know the department is getting a sponsorship from RobCo. I'm sure you all know about the new attention the city's been getting with the tech boom. Robert House is late to the party, but he's opening a new office building here.
+        He's apparently got big plans for us. RobCo wants to replicate what they did in Watoga here in Salem. We'll be getting a whole fleet of Protectrons to help us with the homeless problem that's been plaguing your beat routes.
+		]]},
+		{"SUBJECT: Additional changes", [[
+        FROM: Cpt. Laski: 07.03.2068
+        The new program's been going well. Crime rate is down and smiles are up! The Chief wants everyone to know it's going so well that RobCo has offered to triple the amount of Protectron's on the force, as well as install automated repair stations on most street corners.
+        
+        Some of you may be aware of reports that the new officers are... overzealous. There have been a number of incidents where vagrants were "vaporized" as the newspapers put it. Be assured this is all within legality in accordance with the Cleaning Our Streets Act of 2066. Be reminded you are not a representative of the Police Department, you are not authorized to talk to the press on Police matters.
+
+        Everything is fine. Be assured, our jobs are about to get a hell of a lot easier.
+		]]},
+		{"SUBJECT: SEVERANCE PAY", [[
+        FROM: AUTOMATED SYSTEM: 01.10.2069
+        ATTENTION [Lt. Larry Brown],
+
+        WE AT THE SALEM POLICE DEPARTMENT ARE SORRY TO INFORM YOU THAT WE ARE MAKING PERSONNEL CUTS IN THE DEPARTMENT. THIS ISN'T AN EASY DECISION FOR US, AND WE HOPE YOU CAN UNDERSTAND.
+
+        YOU WILL RECEIVE THREE MONTHS OF SEVERANCE PAY, AND KEEP YOUR HEALTH BENEFITS FOR THE NEXT FOUR MONTHS. WE UNDERSTAND YOU WILL BE IN NEED OF NEW EMPLOYMENT, AND URGE YOU TO REAPPLY TO THE SALEM POLICE DEPARTMENT AS A TECHNICIAN IF YOU HAVE ANY RobCo Protectron ENGINEERING EXPERIENCE.
+        
+        PLEASE TURN IN YOUR BADGE AND GUN BEFORE YOU LEAVE THE OFFICE TODAY.
+
+        THANK YOU FOR YOUR SERVICE.
+		]]}
+        }
+	}
+}}
+
+lang["#SALEM_PD4"] = {
+	name = "Police Station Terminal",
+	logs = {
+        {"Inbox", {
+        {"SUBJECT: What the hell??", [[
+            FROM: Lt. Brown: 01.10.2069
+            I've been with this department for 15 years and this is the thanks I get? I get replaced by a fucking tin man? We've gotten drinks together, man. You've been over to my house for dinner. Your kids know my kids. How could you do this to me. Please don't let me go.
+        ]]},
+        {"SUBJECT: Fuck you", [[
+            FROM: Lt. Kerring: 01.10.2069
+                Go Fuck yourself.
+        ]]},
+        {"SUBJECT: ", [[
+            FROM: Sgt Bowing: 01.10.2069
+            This is fucking ridiculous.
+        ]]},
+        {"SUBJECT: No pension??", [[
+            FROM: Sgt. Douglas: 01.10.2069
+            You know I can't get another job. I'm too old to start over again in another city. I was supposed to retire soon. I don't even get a pension? I'm going to have to go into my retirement savings early, and it isn't going to be enough to last me.
+
+            Please find it in your heart to let me stay.
+        ]]},
+        {"SUBJECT: I NEEDED THIS JOB", [[
+            FROM: Cpl. Harris: 01.10.2069
+            YOU CANT DO THIS TO ME. PLEASE. PLEASE. PLEASE. PLEASE. PLEASE.
+
+            I CANT GO. I HAVE A WIFE AND KIDS. I DONT HAVE ANY MONEY. I DONT HAVE ANY SAVINGS. I WON'T BE ABLE TO MAKE RENT. I'LL BECOME HOMELESS AND THEN THE ROBOTS ARE GONNA GET ME. I'VE SEEN THEM KILL A MAN FOR BEING HOMELESS. YOU CANT DO THIS TO ME. PLEASE. PLEASE. PLEASE. PLEASE.PLEASE. PLEASE. PLEASE. PLEASE.PLEASE. PLEASE. PLEASE. PLEASE.PLEASE. PLEASE. PLEASE. PLEASE.PLEASE. PLEASE. PLEASE. PLEASE.
+    
+        ]]},
+        {"SUBJECT: Good Riddance", [[
+            FROM: Lt. Parson: 01.10.2069
+            I wanted to move to Seattle anyway. Good fucking luck with your career, I'm sure you're next.
+        ]]},
+		{"SUBJECT: Seeya", [[
+        FROM: Cpt Davis: 01.11.2069
+            Just got my letter. Meet me at Barry's after you get out of work. Drinks are on you. I hope they don't come for you too.
+		]]},
+		{"SUBJECT: SEVERANCE PAY", [[
+        FROM: AUTOMATED SYSTEM: 01.12.2069
+        ATTENTION [Cpt. James Laski],
+
+        WE AT THE SALEM POLICE DEPARTMENT ARE SORRY TO INFORM YOU THAT WE ARE MAKING PERSONNEL CUTS IN THE DEPARTMENT. THIS ISN'T AN EASY DECISION FOR US, AND WE HOPE YOU CAN UNDERSTAND.
+
+        YOU WILL RECEIVE THREE MONTHS OF SEVERANCE PAY, AND KEEP YOUR HEALTH BENEFITS FOR THE NEXT FOUR MONTHS. WE UNDERSTAND YOU WILL BE IN NEED OF NEW EMPLOYMENT, AND URGE YOU TO REAPPLY TO THE SALEM POLICE DEPARTMENT AS A TECHNICIAN IF YOU HAVE ANY RobCo Protectron ENGINEERING EXPERIENCE.
+        
+        PLEASE TURN IN YOUR BADGE AND GUN BEFORE YOU LEAVE THE OFFICE TODAY.
+
+        THANK YOU FOR YOUR SERVICE.
+		]]}
+        }
+	}
+}}
+
+lang["#SALEM_SURVIVORCAMP"] = {
+	name = "Kramer's Terminal",
+	logs = {
+		{"Hiding out", [[
+            07.15.2236
+			Things are hectic right now so I'll keep it short.
+
+            We managed to get a defensible position in the residential district. I'm here tending to the wounded. There's so much going on right now and nobody really knows what's going on. I'll write more as I find out.
+            -Kramer
+		]]},
+		{"What Happened", [[
+        07.17.2236
+		I've finally got some time now, so I'll document my thoughts.
+
+        About a month and a half ago, the Merchant's guild managed to get the power working around here. Raiders started becoming an issue. The guild then started efforts to reactivate the police force. The entirety of Salem's police were automated before the war. Done right, it would've been enormous for the town.
+        A week ago, they turned them on.
+        Protectrons began emerging from pods all around the town and requesting people to show them identification. These people obviously do not have any Oregon State IDs as they haven't been issued in near 150 years.
+        They started taking people away. I guess they were programmed to arrest the homeless. Those who fought back were shot with lasers. The entire town fell into ruin within the span of a few hours.
+
+        I gotta go, another group of survivors just arrived.
+		]]},
+		{"What Happened Pt. 2", [[
+        07.18.2236
+		Right, got some more time.
+
+        I was in my clinic in the plaza when it happened. First there was a lot of excitement, then confusion, then screaming, then the entire town erupted in gunfire and flames. Stray lasers burning down buildings and shacks. People getting vaporized in the streets. At some point the robots stopped asking questions and started firing first.
+        The town already looked like it was bombed out, but we were rebuilding here. Now it's a warzone.
+        Jams and I fled into the residential district. We hid out in a house for a couple days before some guys from the Merchant's Guild found us, asking if anyone knew a doctor. They were able to set up some shoddy walls and started gathering survivors. That's where we are now.
+        It's been hell since. Working day in and out tending to the wounded. So many people have either died or been taken away. It's the most horrific thing I've ever borne witness to.
+		]]},
+        {"Update", [[
+        07.19.2236
+		Seems like they figured out where the police bots are taking people to.
+        It seems like those that got taken, or arrested I suppose, were taken to the various precincts in the city. The guild is trying to assemble a team to rescue them. I somehow doubt they'll be fed any solid meals or given water, they won't have long.
+        I'm praying for them.
+		]]},
+        {"More Trouble", [[
+        08.02.2236
+        It's been two weeks since my last entry.
+
+        The guild managed to rescue a good number of people who were arrested. The awful thing about these bots is that there seems to be an infinite number of them. Well, that very well may be the case. The only reason this area is safe now is because we managed to destroy the repair pods around here.
+        The robots will actually send out forces to recover destroyed bots and bring them back to the repair stations, undoing any work that was done to reduce their numbers.
+
+        In other news, the outside world has taken notice of our situation.
+        From what I've heard a sizeable force of super mutants have taken up residence in the park and dug in. They're here to stay.
+        Raiders are all over the plaza. Everywhere but here is fucked.
+        ]]}
 	}
 }
 
@@ -409,9 +671,12 @@ lang["#YB_LISTENINGPOST2"] = {
 	name = "Yolla Bolly Safehouse Check-In",
 	logs = {
 		{"Check-In", [[
-			LOADING LAST 10 ENTRIES...
+			LOADING LAST 11 ENTRIES...
 
-			04.28.2236 - 4 IN. dropped off a bunch of ids we found on zombies. maybe one of them works.
+            08.07.2236 - 2 IN. resting while traveling.
+            -m22,y67
+
+			07.18.2236 - 4 IN. dropped off a bunch of ids we found on zombies. maybe one of them works.
 			- J12,Y67,J79,K12,
 
 			01.20.2236 - 3 IN. getting some rest after scouting mission
@@ -441,7 +706,7 @@ lang["#YB_LISTENINGPOST2"] = {
 			10.13.2079 - 2 IN. Returning from supply run.
 			- EM,VT
 		]]},
-		{"04.26.2236", [[
+		{"07.16.2236", [[
 			Hey team.
 			
 			K90 wants us to get into a subsection of the missile base.
@@ -507,7 +772,7 @@ lang["#YB_LISTENINGPOST2"] = {
 lang["#YB_LISTENINGPOST4"] = {
 	name = "Safehouse Terminal",
 	logs = {
-		{"06.23.34 - M22 Personal Log -KEEP OUT!", [[
+		{"07.23.34 - M22 Personal Log -KEEP OUT!", [[
 			Don't read if you're not me, fucker.
 			
 			I was bored so I did some snooping through the mainframe terminal. J79 never wiped it- all the old journal entries are still there. Great reading material.
@@ -518,7 +783,7 @@ lang["#YB_LISTENINGPOST4"] = {
 
 			-m22
 		]]},
-		{"06.29.34 - M22 Personal Log -KEEP OUT!", [[
+		{"09.29.34 - M22 Personal Log -KEEP OUT!", [[
 			Don't read if you're not me, fucker.
 
 			Two weeks in, it really is surreal to be on mainland.
@@ -529,14 +794,14 @@ lang["#YB_LISTENINGPOST4"] = {
 			
 			-m22
 		]]},
-		{"04.24.36 - M22 Personal Log -KEEP OUT!", [[
+		{"08.07.36 - M22 Personal Log -KEEP OUT!", [[
 			Don't read if you're not me, fucker.
 			
 			It's been awhile. I completely forgot about this journal. Whoops. A lot has changed.
 
 			Finally got an answer to that question I asked in that last entry. Was on a mission to meet some tribals living in what used to be Reno a couple weeks ago.
 			
-			Command needs supplies and workers for an upcoming project, apparently. These guys give us some labor in exchange for guns and meds. I was guarding our diplomat as he negotiated terms. Apparently this is going to be a regular thing.
+			Command needs supplies and workers for this project they're working on, apparently. These guys give us some labor in exchange for guns and meds. I was guarding our diplomat as he negotiated terms. Apparently this is going to be a regular thing.
 
 			The people out here are so dirty. Vulgar. We aren't allowed to get close without suits on. May have rare diseases, mutations, etc. We've gotten shot at by random muties on enviros and scoutings. They got L41 last mission.
 			
@@ -551,10 +816,21 @@ lang["#YB_LISTENINGPOST4"] = {
 lang["#YB_LISTENINGPOST3"] = {
 	name = "Inbox Terminal",
 	logs = {
-		{"Subject Blank - 04.26.2236", [[
+        {"Subject Blank - 04.18.36", [[
 			FROM: [STATION SOUTH SISTER]
 			TO: [LIST. STATION YOLLA BOLLY]
-			Friday, April 26, 2236, 10:24 AM
+			Monday, April 18, 2236, 10:43 AM
+
+			Need a status report on the safehouse database purges. Have it sent to me by Friday.
+
+			And stop referring to me as 'the dog'.
+			
+			-K90
+		]]},
+		{"Subject Blank - 05.26.2236", [[
+			FROM: [STATION SOUTH SISTER]
+			TO: [LIST. STATION YOLLA BOLLY]
+			Friday, May 26, 2236, 10:24 AM
 
 			Sent you a mission briefing. Need you to investigate the missile base.
 			
@@ -564,7 +840,7 @@ lang["#YB_LISTENINGPOST3"] = {
 
 			-K90
 		]]},
-		{"ATTACHED FILE-Subject Blank - 04.26.2236", [[
+		{"ATTACHED FILE-Subject Blank - 05.26.2236", [[
 			M I S S I O N   B R I E F I N G
 			APPROVAL: K90
 
@@ -580,14 +856,12 @@ lang["#YB_LISTENINGPOST3"] = {
 
 			Blueprints indicate forcible entry of the area will trigger a data wipe. I need you to get everything intact before you wipe it. No explosives to get into the conference room, or any other locked areas within it. Find an identification card.
 		]]},
-		{"Subject Blank - 04.18.36", [[
+		{"Subject Blank - 07.20.36", [[
 			FROM: [STATION SOUTH SISTER]
 			TO: [LIST. STATION YOLLA BOLLY]
-			Monday, April 18, 2236, 10:43 AM
+			Wednesday, July 20th, 2236, 11:31 AM
 
-			Need a status report on the safehouse database purges. Have it sent to me by Friday.
-
-			And stop referring to me as 'the dog'.
+			Assigning you all to another project, effective immediately. Need your team to oversee an operation down south. RTB and we'll debrief you there. You can worry about the Missile Base later.
 			
 			-K90
 		]]}
@@ -871,6 +1145,8 @@ lang["#YB_HANGAR1"] = {
 			_______________________________
 			_______________________________
 			_______________________________
+
+            Data Corrupt.
 		]]},
 		{"09.02.2077", [[
 			.... ISOLATED INTRANET ....
@@ -881,19 +1157,57 @@ lang["#YB_HANGAR1"] = {
 			_______________________________
 			_______________________________
 			_______________________________
+
+            Data Corrupt.
 		]]},
-		{"10.12.2077", [[
+		{"10.18.2077", [[
 			.... ISOLATED INTRANET ....
 			
-			Data_Unavailable_________________
-			Data_Unavailable_________________
-			Data_Unavailable_________________
-			_______________________________
-			_______________________________
-			_______________________________
+			Personal log. 10.18.2077. 1600 Hours.
+
+            Evacuation Program here at the Yolla Bolly Base has been a success thusfar. I sleep soundly at night knowing in my charge the President and many members of Congress have safely and discreetly made it to the secure site.
+            I can hardly say it was all me though. The staff I've assembled here has done most of the hard work. I was lucky enough to have them under me.
+            Starting in November they want me to take over control of the Evacuation Program in Ashland up north. They've been having some issues running things over there.
+            I'll have to organize a party before my departure for all the men stationed here. They deserve it.
+
+            -Peter Mayhew.
 		]]}
 	}
 }
+
+lang["#SALEM_SENATOR"] = {
+	name = "Terminal",
+	logs = {
+        {"Journal", {
+
+			{"06/24/77", [[
+				Newspapers have been pissing me the fuck off recently. After everyone on Capitol Hill jumped ship a couple months ago I'm getting stalked by these cockroaches with cameras.
+
+                I've had to move us out of Portland to keep away from them for the time being. Salem is a nice town, this apartment isn't as nice as the house back up in Portland but it'll have to do.
+                We got the missive to get the hell out of here a month ago. From no other than the commander in chief himself. Unfortunately the wife doesn't want it. I personally think it's a bit of an overreaction myself.
+                I'm still in contact with the top brass here so we'll see how things fare on the political side before making any big decisions.
+
+                J. McNeil
+			]]},
+            {"DATA CORRUPT", [[
+				ERROR 0X00B634C3
+                "Data Corrupted."
+			]]},
+			{"DATA CORRUPT", [[
+				ERROR 0X00B634C3
+                "Data Corrupted."
+			]]},
+			{"10/18/77", [[
+				We're headed out to the evac site tomorrow morning. Wife isn't happy about it, but it's gotta happen. We're lucky to have even gotten an invitation, and she's mad we can't bring the dog.
+                I've been delaying our departure for as long as possible to try and warm her up to the idea but with how things are going I think we don't have too long left. We should've been shipped out months ago, instead we're cooped up in this shithole apartment hiding from the newspapers.
+                Here's to hoping this is all a big overreaction.
+
+                J. McNeil
+			]]},
+		}},
+	}
+}
+
 
 --[[
 ███████╗██╗   ██╗███████╗███╗   ██╗████████╗    ██████╗ ███████╗██╗      █████╗ ████████╗███████╗██████╗
@@ -1122,7 +1436,7 @@ lang["#Testing"] ={
 			{"Unlucky", [[
 				Welp, the vault is completely sealed already. Tried to figure out what I'd do, but decided to pick up some supplies from home. I wanted to stay, but once I saw my neighbhors get broken into by looters, I came out here.
 					
-				It's remote and there's a ton of scrap metal and junk around. Maybe I can try and make a better shelter, but first, I need to protect myself. Going to go into the warehouse and try to fix that pipe rifle I was working on.
+				Its remote and there's a ton of scrap metal and junk around. Maybe I can try and make a better shelter, but first, I need to protect myself. Going to go into the warehouse and try to fix that pipe rifle I was working on.
 			]]}
 		}}
 	}

@@ -67,7 +67,7 @@ lang["#MISSION_JACKSON_THEBUNKER_SUMMARIZING_ITEMNAME"] = "Circuit Board"
 -- T4
 
 lang["#MISSION_JACKSON_APROMISEISAPROMISE"] = "A Promise Is A Promise"
-lang["#MISSION_JACKSON_APROMISEISAPROMISE_DESC"] = "Well, I guess it's time for me to hold up my end of the deal. We are doing a whole lot better recently because of you, and now, I can pay you back for the money you gave us to start trading. I've talk to my group, they're all fine with this. Double the amount of what you gave to us in the first place. But, I actually need you to do something first before I give this to you. One of our guys in a scouting group got injured after being ambushed by a large group of Mirelurks. We've been lacking medical supplies, so I want you to grab a stimpak, and some antibiotics."
+lang["#MISSION_JACKSON_APROMISEISAPROMISE_DESC"] = "Well, I guess it's time for me to hold up my end of the deal. We are doing a whole lot better recently because of you, and now, I can pay you back for the money you gave us to start trading. I've talked to my group, they're all fine with this. Double the amount of what you gave to us in the first place. But, I actually need you to do something first before I give this to you. One of our guys in a scouting group got injured after being ambushed by a large group of Mirelurks. We've been lacking medical supplies, so I want you to grab a stimpak, and some antibiotics."
 lang["#MISSION_JACKSON_APROMISEISAPROMISE_HINT"] = "Obtain a Stimpak and Antibiotics. Stimpaks can be found from scavenging, crafted, or sold by traders. Antibiotics can be found from scavenging, and is commonly sold by doctors."
 lang["#MISSION_JACKSON_APROMISEISAPROMISE_COMPLETE"] = "Thanks. He should be getting better soon. Here's your prize."
 
