@@ -103,7 +103,8 @@ lang["#NPC_ICEPICKBANDITSNIPERS"] = "Рейдеров-охотников за г
 lang["#NPC_ICEPICKBANDIT_RANK2_OVERWATCH"] = "Рейдер Ледорубов"
 lang["#NPC_ICEPICKBANDIT_RANK3"] = "Ловец людей Ледорубов" --"Man-Trapper", a name for someone who specializes in hunting and trapping people 
 lang["#NPC_ICEPICKBANDIT_RANK4"] = "Пожиратель плоти Ледорубов"
-lang["#NPC_ICEPICKBANDIT_RANK5"] = "Мизантроп Ледорубов"
+lang["#NPC_ICEPICKBANDIT_RANK5"] = "Мизантроп Ледорубов" -- Disabled currently
+lang["#NPC_ICEPICKBANDIT_BOSS"] = "Мясник Ледорубов" -- Cannibal sounding name
 --Rock-Biters
 lang["#NPC_ROCKBITERBANDIT"] = "Рейдер Камнеедов"
 lang["#NPC_ROCKBITERBANDITS"] = "Рейдеров Камнеедов"
@@ -148,14 +149,14 @@ lang["#NPC_CIPHERAGENT_RANK5"] = "Директор Шифра"
 lang["#NPC_CIPHERAGENT_SNIPER"] = "Дозорный"
 
 --Enclave
-lang["#NPC_ENCLAVERANK1"] = "Солдат" --Enclave Light Infantry
-lang["#NPC_ENCLAVERANK1A"] = "Солдат" --Enclave Light Infantry
-lang["#NPC_ENCLAVERANK1B"] = "Солдат" --Enclave Light Infantry
-lang["#NPC_ENCLAVERANK1C"] = "Солдат" --Enclave Light Infantry
-lang["#NPC_ENCLAVERANK1D"] = "Солдат" --Enclave Light Infantry
-lang["#NPC_ENCLAVERANK1E"] = "Солдат" --Enclave Light Infantry
-lang["#NPC_ENCLAVERANK2"] = "Солдат в тяжёлой броне" --Enclave Patrolman
-lang["#NPC_ENCLAVERANK3"] = "Солдат в тяжёлой броне" --Enclave Heavy Infantry
+lang["#NPC_ENCLAVERANK1"] = "Лёгкий пехотинец Анклава" --Enclave Light Infantry
+lang["#NPC_ENCLAVERANK1A"] = "Лёгкий пехотинец Анклава" --Enclave Light Infantry
+lang["#NPC_ENCLAVERANK1B"] = "Лёгкий пехотинец Анклава" --Enclave Light Infantry
+lang["#NPC_ENCLAVERANK1C"] = "Лёгкий пехотинец Анклава" --Enclave Light Infantry
+lang["#NPC_ENCLAVERANK1D"] = "Лёгкий пехотинец Анклава" --Enclave Light Infantry
+lang["#NPC_ENCLAVERANK1E"] = "Лёгкий пехотинец Анклава" --Enclave Light Infantry
+lang["#NPC_ENCLAVERANK2"] = "Патрульный Анклава" --Enclave Patrolman
+lang["#NPC_ENCLAVERANK3"] = "Тяжёлый пехотинец Анклава" --Enclave Heavy Infantry
 lang["#NPC_ENCLAVESCIENTIST1"] = "Учёный" --Enclave Scientist
 lang["#NPC_ENCLAVESCIENTIST2"] = "Военный врач" --Enclave Combat Medic
 lang["#NPC_ENCLAVESCIENTIST3"] = "Учёный" --Enclave Geologist
@@ -165,20 +166,20 @@ lang["#NPC_ENCLAVESCIENTIST3"] = "Учёный" --Enclave Geologist
 lang["#NPC_SUPERMUTANT"] = "Супермутант"
 lang["#NPC_SUPERMUTANTS"] = "Супермутантов"
 --Super Mutant "Rejects" clan name
-lang["#NPC_REJECTEDSM_RANK1"] = "Бугай отвергнутых"
-lang["#NPC_REJECTEDSM_RANK2"] = "Бестия отвергнутых"
-lang["#NPC_REJECTEDSM_RANK3"] = "Мастер отвергнутых"
-lang["#NPC_REJECTEDSM_RANK4"] = "Босс отвергнутых"
+lang["#NPC_REJECTEDSM_RANK1"] = "Бугай Отвергнутых"
+lang["#NPC_REJECTEDSM_RANK2"] = "Бестия Отвергнутых"
+lang["#NPC_REJECTEDSM_RANK3"] = "Мастер Отвергнутых"
+lang["#NPC_REJECTEDSM_RANK4"] = "Босс Отвергнутых"
 
 --Unity Remnants - Mixes Children of the Cathedral ranks with standard super mutant ones
-lang["#NPC_UNITY"] = "Солдаты единства"
-lang["#NPC_UNITY_RANK1"] = "Посвящённый единства"
-lang["#NPC_UNITY_RANK2"] = "Послушник единства"
-lang["#NPC_UNITY_RANK3"] = "Служитель единства"
-lang["#NPC_UNITY_RANK4"] = "Флагеллант единства"
-lang["#NPC_UNITY_SM_RANK1"] = "Солдат единства"
-lang["#NPC_UNITY_SM_RANK2"] = "Бестия единства"
-lang["#NPC_UNITY_SM_RANK3"] = "Тень единства" -- Squad leaders, not necessarily NV style
+lang["#NPC_UNITY"] = "Солдаты Единства"
+lang["#NPC_UNITY_RANK1"] = "Посвящённый Единства"
+lang["#NPC_UNITY_RANK2"] = "Послушник Единства"
+lang["#NPC_UNITY_RANK3"] = "Служитель Единства"
+lang["#NPC_UNITY_RANK4"] = "Флагеллант Единства"
+lang["#NPC_UNITY_SM_RANK1"] = "Солдат Единства"
+lang["#NPC_UNITY_SM_RANK2"] = "Бестия Единства"
+lang["#NPC_UNITY_SM_RANK3"] = "Тень Единства" -- Squad leaders, not necessarily NV style
 
 -- ██████╗  ██████╗ ██████╗  ██████╗ ████████╗██╗ ██████╗
 -- ██╔══██╗██╔═══██╗██╔══██╗██╔═══██╗╚══██╔══╝██║██╔════╝
