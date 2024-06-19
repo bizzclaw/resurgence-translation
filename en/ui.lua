@@ -372,7 +372,7 @@ lang["#PARTY_FRIENDLYFIRE"] = "Watch your fire!"
 
 lang["#PARTY_ALREADYINPARTY"] = "You are already in a party. Party must be left before creating a new one."
 lang["#PARTY_OTHERALREADYINPARTY"] = "$person is already in a party!"
-lang["#PARTY_ONLYLEADERINVITE"] = "$person ss already in a party!"
+lang["#PARTY_ONLYLEADERINVITE"] = "$person is already in a party!"
 lang["#PARTY_INVITEPENDING"] = "Party invite to $person is already pending."
 
 lang["#PARTY_CHARISMA_SINGLE"] = "You aren't charismatic enough to lead more than 1 person."
@@ -405,6 +405,7 @@ lang["#TRADE_OFFER"] = "[SPACE] Toggle Offer"
 lang["#TRADE_REQUESTITEM"] = "[SPACE] Toggle Request"
 lang["#TRADE_ISREADY"] = "Trade Accepted"
 lang["#TRADE_ALREADYINTRADE"] = "$person is already in a trade."
+lang["#TRADE_COMPLETE"] = "Trade Completed"
 
 --ToolTips
 lang["#TOOLTIP_RELOAD"] = "@+reload Reload."
