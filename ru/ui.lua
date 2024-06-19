@@ -374,9 +374,9 @@ lang["#PARTY_OTHERALREADYINPARTY"] = "$person уже в группе!"
 lang["#PARTY_ONLYLEADERINVITE"] = "$person уже в группе!"
 lang["#PARTY_INVITEPENDING"] = "Приглашение в группу для $person ожидает ответа."
 
-lang["#PARTY_CHARISMA_SINGLE"] = "You aren't charismatic enough to lead more than 1 person."
-lang["#PARTY_CHARISMA_MULTI"] = "You aren't charismatic enough to lead more than $num people."
-lang["#PARTY_INVITED"] = "You have invited $person to join your Party!"
+lang["#PARTY_CHARISMA_SINGLE"] = "Вы недостаточно харизматичны, чтобы руководить более чем одним человеком."
+lang["#PARTY_CHARISMA_MULTI"] = "Вы недостаточно харизматичны, чтобы руководить людьми ($num)."
+lang["#PARTY_INVITED"] = "Вы пригласили $person присоединиться к группе!"
 
 --TRADING
 lang["#TRADE_REQUEST"] = "Запросить обмен"
@@ -404,6 +404,7 @@ lang["#TRADE_OFFER"] = "[ПРОБЕЛ] Предложить"
 lang["#TRADE_REQUESTITEM"] = "[ПРОБЕЛ] Запросить"
 lang["#TRADE_ISREADY"] = "Обмен принят"
 lang["#TRADE_ALREADYINTRADE"] = "$person уже совершает обмен."
+lang["#TRADE_COMPLETE"] = "Обмен завершён"
 
 --ToolTips
 lang["#TOOLTIP_RELOAD"] = "@+reload Перезарядка."
