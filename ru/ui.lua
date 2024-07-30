@@ -939,7 +939,7 @@ lang["#UI_REP_NEUTRAL"] = "Нейтральный" -- They will not attack you a
 lang["#UI_REP_HOSTILE"] = "Враг" -- Factions that are hostile with you will not count crimes against them, as they generally shoot at you first.
 lang["#UI_REP_ALLIED"] = "Союзник" -- You are currently representing this faction. you cannot be damaged by other players who have this status
 lang["#UI_REP_EXILED"] = "Изгнанник" -- Currently unused. Will be used if you betray a faction by doing certain missions.
-lang["#UI_REP_MEMBER"] = "Участник" -- Official member of the faction, granted by GMs
+lang["#UI_REP_MEMBER"] = "Член" -- Official member of the faction, granted by GMs
 lang["#UI_REP_LEADER"] = "Лидер" -- Official Leader of the faction, granted by GMs
 
 -- chains the statuses into the name of the faction
