@@ -9,11 +9,11 @@ local lang = RSRG.Languages["ru"]
 
 ---ENERGY
 lang["#SEC_NAME"] = "Малая батарейка"
-lang["#MFC_NAME"] = "Микрояд. бат."
-lang["#MFC_OC_NAME"] = "Микрояд. бат., сверхзаряд"
-lang["#MFC_MC_NAME"] = "Микрояд. бат., макс. заряд"
-lang["#MFC_BULK_NAME"] = "Микрояд. бат., накапливание"
-lang["#MFC_ND_NAME"] = "Протекающая микрояд. бат."
+lang["#MFC_NAME"] = "Ядерная батарея"
+lang["#MFC_OC_NAME"] = "Ядерная батарея, сверхзаряд"
+lang["#MFC_MC_NAME"] = "Ядерная батарея, макс. заряд"
+lang["#MFC_BULK_NAME"] = "Ядерная батарея, накапливание"
+lang["#MFC_ND_NAME"] = "Протекающая ядерная батарея"
 lang["#ECP_NAME"] = "Электрозаряд"
 lang["#ECP_OC_NAME"] = "Электрозаряд, сверхзаряд"
 lang["#ECP_MC_NAME"] = "Электрозаряд, макс. заряд"
