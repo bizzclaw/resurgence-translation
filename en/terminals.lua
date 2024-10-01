@@ -328,8 +328,8 @@ lang["#SALEM_FACTORYLOG"] = {
 		{"New Journal.", [[
             04.05.2236
             Gonna write in this to keep some sanity while I'm cooped up in here for the next while.
-		    The merchant's guild assigned us here to get the power back on. We've gotten a pretty decent community growing here and Salem's starting to get put on the map as a fairly safe trade hub in the north. Big guys in charge believe we might have The Hub of the north on our hands.
-        Priority one is getting street lights and other amenities working again. Guild believes it'll draw more attention and attract caps to this place. Sound idea but there's going to be downsides. It's already pretty lawless up here. I just hope they've got the men for all the negative attention those lights are gonna bring.
+		    Cascade Caravan assigned us here to get the power back on. We've gotten a pretty decent community growing here and Salem's starting to get put on the map as a fairly safe trade hub in the north. Big guys in charge believe we might have The Hub of the north on our hands.
+        Priority one is getting street lights and other amenities working again. Cascade believes it'll draw more attention and attract caps to this place. Sound idea but there's going to be downsides. It's already pretty lawless up here. I just hope they've got the men for all the negative attention those lights are gonna bring.
 		]]},
 		{"Frustrated.", [[
             04.25.2236
@@ -344,7 +344,7 @@ lang["#SALEM_FACTORYLOG"] = {
             07.02.2236
 			It's been awhile, but I'm back.
             We got the power working, lights are on, people are amazed. We all got paid very well. But there's another problem.
-            Bandit attacks are becoming frequent. There's a band of fools coming over here every few days now trying to take what isn't theirs. The Merchant's Guild has been keeping the town guarded for now but who knows how long it'll be before some army shows up here and takes over. They aren't interested in joining the NCR either.
+            Bandit attacks are becoming frequent. There's a band of fools coming over here every few days now trying to take what isn't theirs. Cascade Caravan has been keeping the town guarded for now but who knows how long it'll be before some army shows up here and takes over. They aren't interested in joining the NCR either.
             I've been reading through some old newspapers and terminals around the town. Before the war this place was apparently some tech haven. The town had a massive automated police force. They had RobCo robots on every street corner patrolling around. They even repaired themselves at automatic stations.
 
             If we can get the grid connected to the police stations, we won't have to worry about bandits anymore.
@@ -523,7 +523,7 @@ lang["#SALEM_SURVIVORCAMP"] = {
         07.17.2236
 		I've finally got some time now, so I'll document my thoughts.
 
-        About a month and a half ago, the Merchant's guild managed to get the power working around here. Raiders started becoming an issue. The guild then started efforts to reactivate the police force. The entirety of Salem's police were automated before the war. Done right, it would've been enormous for the town.
+        About a month and a half ago, Cascade Caravan managed to get the power working around here. Raiders started becoming an issue. Cascade then started efforts to reactivate the police force. The entirety of Salem's police were automated before the war. Done right, it would've been enormous for the town.
         A week ago, they turned them on.
         Protectrons began emerging from pods all around the town and requesting people to show them identification. These people obviously do not have any Oregon State IDs as they haven't been issued in near 150 years.
         They started taking people away. I guess they were programmed to arrest the homeless. Those who fought back were shot with lasers. The entire town fell into ruin within the span of a few hours.
@@ -536,20 +536,20 @@ lang["#SALEM_SURVIVORCAMP"] = {
 
         I was in my clinic in the plaza when it happened. First there was a lot of excitement, then confusion, then screaming, then the entire town erupted in gunfire and flames. Stray lasers burning down buildings and shacks. People getting vaporized in the streets. At some point the robots stopped asking questions and started firing first.
         The town already looked like it was bombed out, but we were rebuilding here. Now it's a warzone.
-        Jams and I fled into the residential district. We hid out in a house for a couple days before some guys from the Merchant's Guild found us, asking if anyone knew a doctor. They were able to set up some shoddy walls and started gathering survivors. That's where we are now.
+        Jams and I fled into the residential district. We hid out in a house for a couple days before some guys from Cascade Caravan found us, asking if anyone knew a doctor. They were able to set up some shoddy walls and started gathering survivors. That's where we are now.
         It's been hell since. Working day in and out tending to the wounded. So many people have either died or been taken away. It's the most horrific thing I've ever borne witness to.
 		]]},
         {"Update", [[
         07.19.2236
 		Seems like they figured out where the police bots are taking people to.
-        It seems like those that got taken, or arrested I suppose, were taken to the various precincts in the city. The guild is trying to assemble a team to rescue them. I somehow doubt they'll be fed any solid meals or given water, they won't have long.
+        It seems like those that got taken, or arrested I suppose, were taken to the various precincts in the city. Cascade mercs are trying to assemble a team to rescue them. I somehow doubt they'll be fed any solid meals or given water, they won't have long.
         I'm praying for them.
 		]]},
         {"More Trouble", [[
         08.02.2236
         It's been two weeks since my last entry.
 
-        The guild managed to rescue a good number of people who were arrested. The awful thing about these bots is that there seems to be an infinite number of them. Well, that very well may be the case. The only reason this area is safe now is because we managed to destroy the repair pods around here.
+        Cascade Mercs managed to rescue a good number of people who were arrested. The awful thing about these bots is that there seems to be an infinite number of them. Well, that very well may be the case. The only reason this area is safe now is because we managed to destroy the repair pods around here.
         The robots will actually send out forces to recover destroyed bots and bring them back to the repair stations, undoing any work that was done to reduce their numbers.
 
         In other news, the outside world has taken notice of our situation.

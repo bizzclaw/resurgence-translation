@@ -36,7 +36,7 @@ lang["#MISSION_BOSGUARD_ICEPICKAP_ITEMNAME"] = "Ammo Crate"
 
 lang["#MISSION_BOSGUARD_ADVANCEDMATS"] = "Advanced Materials"
 lang["#MISSION_BOSGUARD_ADVANCEDMATS_DESC"] = "One of our largest supply bottlenecks is that for advanced materials required for the maintenance and fabrication of energy weapons, power armor, and vertibird components. My supply teams are stretched thin as it is trying to keep food in our bellies and cells in our rifles. If you can acquire, say, 5 Advanced Materials packages, I will pay you."
-lang["#MISSION_BOSGUARD_ADVANCEDMATS_HINT"] = "Find and retrieve 5 Advanced Materials. The most reliable source of these is by taking them from other enemies that use Power Armor."
+lang["#MISSION_BOSGUARD_ADVANCEDMATS_HINT"] = "Find and retrieve 1 Advanced Material. The most reliable source of these is by taking them from other enemies that use Power Armor."
 lang["#MISSION_BOSGUARD_ADVANCEDMATS_COMPLETE"] = "Thank you. These will be very useful."
 
 lang["#MISSION_BOSGUARD_FOODSUPPLIES"] = "Food Supplies"
@@ -61,7 +61,9 @@ lang["#MISSION_BOSGUARD_GHOULWOES_COMPLETE"] = "Clean work again. Here's your re
 
 lang["#MISSION_BOSGUARD_SUPPLYRUN"] = "Package Retreival"
 lang["#MISSION_BOSGUARD_SUPPLYRUN_DESC"] = "I have another mission for you, $playername. It is a trifle, really, but trusted couriers are in short supply.\n\nWe have ordered certain specialist materials from the Crimson Caravan that are waiting at Camp Willow for pickup. I will not trust a fresh-faced initiate with this task, for they are too vital to be lost or sold. The burden of this task falls to you; are you willing?"
-lang["#MISSION_BOSGUARD_SUPPLYRUN_HINT"] = "Source and retrieve the specialist supplies from Camp Willow. They can be found in the store."
+lang["#MISSION_BOSGUARD_SUPPLYRUN_HINT"] = "Source and retrieve the Specialist Supplies from Camp Willow. They can be found in the store."
 lang["#MISSION_BOSGUARD_SUPPLYRUN_COMPLETE"] = "I was afraid that you would not come back. I am full glad to see that I was mistaken. Here is your courier's fee."
+lang["#MISSION_BOSGUARD_SUPPLYRUN_ITEMNAME"] = "Specialist Supplies"
+
 
 RELOADSCHEMA = true

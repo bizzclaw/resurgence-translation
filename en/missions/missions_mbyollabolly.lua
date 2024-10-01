@@ -8,9 +8,12 @@ local lang = RSRG.Languages["en"]
 -- ╚═╝     ╚═╝╚═════╝           ╚═╝    ╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝╚══════╝╚═╝
 
 -- Mission Giver
-lang["#MISSION_BOARD_YOLLA"] = "Yolla Bolly Task Board"
+lang["#MISSION_BOARD_YOLLA"] = "Yolla Bolly Survivalist Town Task Board"
 lang["#MISSION_BOARD_YOLLA_SUBTITLE"] = "Tasks and Jobs"
 lang["#MISSION_BOARD_YOLLA_GREET"] = "This board contains several papers with jobs from people who are looking to hire others in this area. You can accept any job that you meet the requirements for.\n\n\nA list of available jobs are below."
+
+lang["#MISSION_BOARD_YOLLABANDIT"] = "Yolla Bolly Rock Biter Task Board."
+lang["#MISSION_BOARD_YOLLABANDIT_GREET"] = "Yolla Bolly Rock Biter Task Board"
 
 lang["#MISSION_YOLLA_EASYTARGETS"] = "Easy Targets"
 lang["#MISSION_YOLLA_EASYTARGETS_DESC"] = "The person who has pinned this note wants someone who is willing to clear out enemies, more specifically feral ghouls. They are offering a lot for it."
@@ -45,11 +48,35 @@ lang["#MISSION_YOLLA_ABOMINATIONHATRED_COMPLETE"] = "You've completed the task."
 lang["#MISSION_YOLLA_ANTHILL"] = "Anthill"
 lang["#MISSION_YOLLA_ANTHILL_DESC"] = "The client who posted this notice is searching for experienced hunters to thin down the ant population of Yolla Bolly and is offering a cash reward."
 lang["#MISSION_YOLLA_ANTHILL_HINT"] = "Eliminate any type of Giant Ant in Yolla Bolly. They can be found in the dried lake bed on the lower end of the factory town and inside the mines."
-lang["#MISSION_YOLLA_ANTHILL_COMPLTE"] = "You've completed the task."
+lang["#MISSION_YOLLA_ANTHILL_COMPLeTE"] = "You've completed the task."
 
 lang["#MISSION_YOLLA_MINECLEARING"] = "Clear the Mines"
 lang["#MISSION_YOLLA_MINECLEARING_DESC"] = "This is an NCR contract, they may not have a large presence here but they still recognize the bandit issue all the same. They want the Rock Biter numbers thinned out, hit them where it hurts."
 lang["#MISSION_YOLLA_MINECLEARING_HINT"] = "Kill Rock Biter Bandits. They can be found in the mines in the upper pod network. This is a dangerous area, you may need a group or be very well equipped."
-lang["#MISSION_YOLLA_MINECLEARING_COMPLTE"] = "Contract completed, take your pick for your cut."
+lang["#MISSION_YOLLA_MINECLEARING_COMPLeTE"] = "Contract completed, take your pick for your cut."
+
+-- BANDIT AREA
+
+lang["#MISSION_YOLLA_SURVIVALISTDEATH"] = "Kill the Survivalists"
+lang["#MISSION_YOLLA_SURVIVALISTDEATH_DESC"] = "This is a Salt-Rock Contract. Salt-Rock wants retribution for what they did to him, and wants people aligned with them cleared out, daily. Kill 15 of them, and return."
+lang["#MISSION_YOLLA_SURVIVALISTDEATH_HINT"] = "Kill Valley Survivalists. They can be found around Yolla Bolly, near the lower area of the ammo factory town, the cliffs around the survivalist town, and through the car tunnel towards the barricaded tunnel."
+lang["#MISSION_YOLLA_SURVIVALISTDEATH_COMPLETE"] = "Contract completed, take your pick for your cut."
+
+-- After Gadget's thecell_part6, repeat quests every 12 hours
+
+lang["#MISSION_YOLLA_MILITIATARGETING"] = "Target Their Militia"
+lang["#MISSION_YOLLA_MILITIATARGETING_DESC"] = "Gadget wants the survivalist's militia numbers cut down, to filter the fighters from their ranks and have the settlers flee. Kill 3 militia members of the Valley Survivalists and return."
+lang["#MISSION_YOLLA_MILITIATARGETING_HINT"] = "Kill Valley Survivalists Militia Members. They can be found around Yolla Bolly, near the lower area of the ammo factory town, the cliffs around the survivalist town, and through the car tunnel towards the barricaded tunnel."
+lang["#MISSION_YOLLA_MILITIATARGETING_COMPLETE"] = "Contract completed, Return in a few hours for another bounty."
+
+lang["#MISSION_YOLLA_GREENEYES"] = "The Green Eyes"
+lang["#MISSION_YOLLA_GREENEYES_DESC"] = "Contract from Toolmaster Hendrik. The Desert Rangers have been snooping a bit too close after we started construction on our power grid, take down a ranger and return. They're tough, so be careful."
+lang["#MISSION_YOLLA_GREENEYES_HINT"] = "Kill a Desert Ranger. They are powerful, so approach with caution."
+lang["#MISSION_YOLLA_GREENEYES_COMPLETE"] = "Contract Completed. Return in a few hours for another bounty."
+
+lang["#MISSION_YOLLA_POWERTHECELL"] = "Making sure the Lights stay on"
+lang["#MISSION_YOLLA_POWERTHECELL_DESC"] = "Contract from the Toolmasters. Need some nuclear material from the silo area and some microfusion cells to keep it going, do your part."
+lang["#MISSION_YOLLA_POWERTHECELL_HINT"] = "Obtain nuclear material and microfusion cells. You can get nuclear material from the Silo, and microfusion cells from various vendors, protectrons, or energy weapon lockers."
+lang["#MISSION_YOLLA_POWERTHECELL_COMPLETE"] = "Contract completed. Return in a few hours for another bounty."
 
 RELOADSCHEMA = true

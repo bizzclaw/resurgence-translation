@@ -18,9 +18,9 @@ lang["#MISSION_ASHLANDS_SIMPLELEATHER_DESC"] = "The hirer for this is looking fo
 lang["#MISSION_ASHLANDS_SIMPLELEATHER_HINT"] = "Obtain Leather. You can get leather from scavenging, breaking down leather objects, or using gecko / deathclaw skin to make it."
 lang["#MISSION_ASHLANDS_SIMPLELEATHER_COMPLETE"] = "You've completed the task."
 
-lang["#MISSION_ASHLANDS_DONATE"] = "Donate to the Merchant's Guild"
-lang["#MISSION_ASHLANDS_DONATE_DESC"] = "The Merchant's Guild is always looking for new customers, and for a small donation, you will be recognized as a trusted customer of the merchant's guild!\n\nNote: As long as you have at least 100 favor with the Merchant's guild, attacking you in view of them is a crime."
-lang["#MISSION_ASHLANDS_DONATE_HINT"] = "Donate 500 bottlecaps to the Merchant's Guild. Bottlecaps can be obtained from merchants not associated with the NCR, or as junk in some areas."
+lang["#MISSION_ASHLANDS_DONATE"] = "Sponsor Cascade Caravan"
+lang["#MISSION_ASHLANDS_DONATE_DESC"] = "Cascade Caravan is always looking for new customers, and for a small donation, you will be recognized as a trusted customer of Cascade Caravan!\n\nNote: As long as you have at least 100 favor with Cascade Caravan, attacking you in view of them is a crime."
+lang["#MISSION_ASHLANDS_DONATE_HINT"] = "Donate 500 bottlecaps to Cascade Caravan. Bottlecaps can be obtained from merchants not associated with the NCR, or as junk in some areas."
 lang["#MISSION_ASHLANDS_DONATE_COMPLETE"] = "Thank you for your generous donation! We look forward to working with you further."
 
 lang["#MISSION_ASHLANDS_WRECKAGE"] = "Wreckage"

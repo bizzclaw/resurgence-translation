@@ -9,7 +9,7 @@ local lang = RSRG.Languages["en"]
 
 -- Mission Giver
 lang["#MISSION_GIVER_MELVIN"] = "Melvin"
-lang["#MISSION_GIVER_MELVIN_SUBTITLE"] = "Merchant's Guild"
+lang["#MISSION_GIVER_MELVIN_SUBTITLE"] = "Cascade Caravan R&D"
 lang["#MISSION_GIVER_MELVIN_GREET_NEW"] = "Oh shit, someone actually came out to this hell hole. Look, if you want money, I have work. It involves research here in this shitty swamp, it pays well, and I'll even give you meds for the rads. Just please, help me. Oh, shit, my name is Melvin by the way."
 lang["#MISSION_GIVER_MELVIN_GREET_0"] = "Hey there, looking for work? Please do work."
 lang["#MISSION_GIVER_MELVIN_GREET_100"] = "Hey, one of the regular faces. I got some more jobs if you got time. Please."
@@ -19,7 +19,7 @@ lang["#MISSION_GIVER_MELVIN_GREET_N100"] = "Man, you're lucky I need people to g
 
 -- Missions
 lang["#MISSION_MELVIN_WEEDSCIENCE"] = "Weed Science"
-lang["#MISSION_MELVIN_WEEDSCIENCE_DESC"] = "So, here's the job. My work is at a standstill because I can't stand to bear the monsters and dangers of the damn swamp. I'm here to research Lure Weed on the Guild's payroll. I need samples, and I need you to prove you can even live your ass out there. Just, go find some Lure Weed, a good clump of it. Please and thank you."
+lang["#MISSION_MELVIN_WEEDSCIENCE_DESC"] = "So, here's the job. My work is at a standstill because I can't stand to bear the monsters and dangers of the damn swamp. I'm here to research Lure Weed on Cascade's payroll. I need samples, and I need you to prove you can even live your ass out there. Just, go find some Lure Weed, a good clump of it. Please and thank you."
 lang["#MISSION_MELVIN_WEEDSCIENCE_HINT"] = "Find Lure Weed around Dead Estuary on the edge of the islands in water."
 lang["#MISSION_MELVIN_WEEDSCIENCE_COMPLETE"] = "Oh shit you actually lived, AND you got the Lure Weed? Well color me impressed. Take this for pay, and let's keep working together. I got a lot to figure out, and a lot of caps to figure it out with if you get me."
 
@@ -55,10 +55,10 @@ lang["#MISSION_MELVIN_CONTRABANNED_HINT"] = "The Smuggler camps around Dead Estu
 lang["#MISSION_MELVIN_CONTRABANNED_COMPLETE"] = "You took care of it? Thank god. I hope this keeps them off my ass since you showed them whose boss around here. Remind me never to get on your bad side though, it takes some kind of monster to fight off that many raiders by themself."
 
 lang["#MISSION_MELVIN_SWIMBIRDS"] = "Swimming with the Birds"
-lang["#MISSION_MELVIN_SWIMBIRDS_DESC"] = "Just bear with me on this one. It's gonna sound crazy. So, according to the Guild, there's a crashed old world flying machine crashed out in the swamp. It's called a Vertibird apparenty. Problem is, it's in the water, but the solution is I gave you that radiation suit! I know, I know, I'm a genius. Anyway, if you wanna go out to it, it's crashed off the waters of the back of the main Smuggler camp, where the boat is. Just head that way, and see if anything in the wreckage is fucking with the water and possibly messing with the Lure Weed and stuff. Don't drown though!"
+lang["#MISSION_MELVIN_SWIMBIRDS_DESC"] = "Just bear with me on this one. It's gonna sound crazy. So, according to Cascade, there's a crashed old world flying machine crashed out in the swamp. It's called a Vertibird apparenty. Problem is, it's in the water, but the solution is I gave you that radiation suit! I know, I know, I'm a genius. Anyway, if you wanna go out to it, it's crashed off the waters of the back of the main Smuggler camp, where the boat is. Just head that way, and see if anything in the wreckage is fucking with the water and possibly messing with the Lure Weed and stuff. Don't drown though!"
 lang["#MISSION_MELVIN_SWIMBIRDS_HINT"] = "Back behind the main Smuggler camp is a boat. Follow its direction to the water, and find the Vertibird crash. Bring back what you find."
 lang["#MISSION_MELVIN_SWIMBIRDS_ITEMNAME"] = "Vertibird Part"
-lang["#MISSION_MELVIN_SWIMBIRDS_COMPLETE"] = "$playername! Yes, haha, you actually fucking did it! And I fucking called it! Leaking nuclear fuel, plasma shit, microfusion, abunch of advanced tech stuff. All just stewing in the swamp water. Good job. I think with all this, I'm sure I can figure something concrete out. I might need your help still gathering supplies ocassionaly, maybe run back and get more chem waste and that stuff, but I think our main bulk is done. Thanks for all the help, $playername, you're one alright guy. I'll let the Guild know all you've done for me in my reports."
+lang["#MISSION_MELVIN_SWIMBIRDS_COMPLETE"] = "$playername! Yes, haha, you actually fucking did it! And I fucking called it! Leaking nuclear fuel, plasma shit, microfusion, abunch of advanced tech stuff. All just stewing in the swamp water. Good job. I think with all this, I'm sure I can figure something concrete out. I might need your help still gathering supplies ocassionaly, maybe run back and get more chem waste and that stuff, but I think our main bulk is done. Thanks for all the help, $playername, you're one alright guy. I'll let Cascade Caravan know all you've done for me in my reports."
 
 -- Repeatable Missions, unlocked after Swimming with the Birds completed
 lang["#MISSION_MELVIN_WEEDSWAMP"] = "Weeding the Swamp"

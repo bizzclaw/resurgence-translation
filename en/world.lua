@@ -97,12 +97,18 @@ lang["#FACTION_FOLLOWERSOFTHEAPOCALYPSE_DESC"] = "The Followers are a humanitari
 
 lang["#FACTION_BOS_NAME"] = "Brotherhood of Steel"
 lang["#FACTION_BOS_DESC"] = "The Brotherhood of Steel is a techno-religous organization that collects and maintains advanced technology with roots in the Pre-War American Military. They are highly reclusive and"
+lang["#FACTION_BOS_LEADER"] = "Eldar"
 
 lang["#FACTION_ENCLAVE_NAME"] = "Enclave"
 lang["#FACTION_ENCLAVE_DESC"] = "An unknown paramilitary organization that has made sparse appearances very recently. Nobody knows anything about them, or what their purpose is. Most don't even know they exist."
-lang["#FACTION_ENCLAVE_ALLIED"] = "Ghost"
+lang["#FACTION_ENCLAVE_ALLIED"] = "Ally"
+lang["#FACTION_ENCLAVE_MEMBER"] = "Member"
+lang["#FACTION_ENCLAVE_LEADER"] = "Field Commander"
 
-lang["#FACTION_TRADEGUILD_NAME"] = "Merchant's Guild"
+lang["#FACTION_PHOENIXCOMPANY_NAME"] = "Phoenix Company"
+lang["#FACTION_PHOENIXCOMPANY_DESC"] = "Phoenix Company is a mercenary faction founded by ex-Regulators who rejected their former group's brutality. Known for their disciplined structure and military expertise, they offer protection and combat services across the wasteland."
+
+lang["#FACTION_TRADEGUILD_NAME"] = "Cascade Caravan"
 
 lang["#FACTION_ICEPICK"] = "Ice Picks"
 lang["#FACTION_SMREJECTS"] = "Rejects"
@@ -257,6 +263,6 @@ To Do List
 lang["#BOS_BUNKER"] = "Brotherhood Bunker"
 
 lang["#RANGER_BUNKER"] = "Ranger Bunker"
-lang["#RANGER_BUNKER"] = "Ranger Bunker"
+
 
 RELOADSCHEMA = true

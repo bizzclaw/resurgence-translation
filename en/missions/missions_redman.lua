@@ -54,7 +54,7 @@ lang["#MISSION_REDMAN_SIMPLEPRODUCTION_COMPLETE"] = "Nice job, $playername. Here
 
 lang["#MISSION_REDMAN_BROKENMACHINE"] = "Broken Machine"
 lang["#MISSION_REDMAN_BROKENMACHINE_DESC"] = "After you cleared out the factory, we sent a group of men down there and tried to get one of the machines working. Apparently, it was missing some core materials, likely taken by old scavengers. Not asking much of you, just wondering if you are willing to get some of those materials back for us."
-lang["#MISSION_REDMAN_BROKENMACHINE_HINT"] = "Obtain Copper Wiring, Propane, Leather Belts, and Scrap Metal. Copper Wiring and Propane can be found from scavenging or bought from traders. Leather Belts can be found from scavenging, crafting, or buying from traders. Scrap Metal can be found from salvaging, scavenging, breaking down items, or bought from traders."
+lang["#MISSION_REDMAN_BROKENMACHINE_HINT"] = "Obtain Copper Wiring, Leather Belts, and Scrap Metal. Copper Wiring can be found from scavenging or bought from traders. Leather Belts can be found from scavenging, crafting, or buying from traders. Scrap Metal can be found from salvaging, scavenging, breaking down items, or bought from traders."
 lang["#MISSION_REDMAN_BROKENMACHINE_COMPLETE"] = "Thanks for getting these. Here's your payment."
 
 lang["#MISSION_REDMAN_BANDITTAKEOVER"] = "Highway Raiders"

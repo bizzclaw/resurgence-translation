@@ -85,6 +85,8 @@ lang["#PIP_STATISTICS"] = "STATISTICS"
 
 lang["#PIP_KNOWNSTATIONS"] = "Known Stations"
 
+lang["#PIP_HOTKEY_NOBINDING"] = "Warning! The binding required to make this hotkey work is not bound! You must open your console (~) and enter:\n $command\n\nThis has been copied to your clipboard."
+
 -- Shorthands
 lang["#SHORT_HP"] = "HP" -- Health Points
 lang["#SHORT_AP"] = "AP" -- Action Points
@@ -115,6 +117,7 @@ lang["#UI_HOTKEY"] = "Hotkey"
 lang["#UI_WEAR"] = "Wear"
 lang["#UI_USE"] = "Use"
 lang["#UI_REPAIR"] = "Repair"
+lang["#UI_RENAME"] = "Rename"
 lang["#UI_SAVE"] = "Save"
 lang["#UI_SAVEWEIGHT"] = "Save Weight"
 lang["#UI_EMPTYSTORAGE"] = "<Empty>"
@@ -150,6 +153,10 @@ lang["#UI_DERIVEDSTATS"] = "Derived Stats"
 lang["#UI_SECONDS"] = "$time seconds"
 lang["#UI_PERKRESET_UPDATE"] = "An update has changed the costs of perks! We have reset your Perks and refunded your Perk Points.\n\nSome perks, such as educated or combatant have not been refunded."
 lang["#PERK_DEPRECATED"] = "Your Following Perks have been deprecated and refunded:$perknames"
+lang["#UI_DROPRATIOAMOUNT"] = "Drops on Death: $amount ($percent%)"
+lang["#UI_DROPRATIO"] = "Drops on Death: $percent%"
+lang["#UI_DROPONDEATH"] = "Drops on Death"
+lang["#UI_KEEPONDEATH"] = "Kept on Death"
 
 lang["#PVP_ZONE_ENTERED"] = "Entering PVP Area!"
 lang["#PVP_ZONE_EXITED"] = "Exiting PVP Area."
@@ -166,9 +173,11 @@ lang["#UI_MINELIMIT"] = "You hit the mine limit of $limit. Retrieving First Mine
 lang["#UI_MINELIMIT_RETRIEVEFAILED"] = "You were too far away to retrieve your mine!"
 
 lang["#PROTECTION_TIMEBLOCK"] = "Saving Blocked\n\nYou must wait before saving this item!\n\n"
-lang["#PROTECTION_NOTENOUGHWGT"] = "Cannot save, not enough Save Weight Budget.\n\nYour Save Weight Budget is based on your Save Weight skill."
+lang["#PROTECTION_NOTENOUGHWGT"] = "Cannot save, not enough Save Weight Budget.\n\nYour Save Weight Budget grows as you level up."
 lang["#PROTECTION_DANGERZONE"] = "You cannot save items here.\n\nYou can only save items in a safe zone."
 lang["#PROTECTION_UNSAVE_WARNING"] = "WARNING!\n\nIf you unsave this item, you will not be able to re-save it until you enter a safe zone!\n\nAre you sure?"
+lang["#PROTECTION_FACTION"] = "This item can only be saved by someone representing the $faction."
+lang["#PROTECTION_FACTION_UNSAVED"] = "$item has been un-saved because it requires faction representation."
 
 -- Categories
 lang["#CATEGORY_ALL"] = "All"
@@ -215,6 +224,7 @@ lang["#SORT_CND"] = "Condition"
 lang["#SORT_LOOT"] = "Loot Priority"
 lang["#UI_STORAGE_MAXWEIGHT"] = "Storage at Maximum Capacity"
 lang["#UI_RANDOMIZE_CONDITION"] = "Warning!!!\n\nYou have multiple instances of an item used for crafting this and a random one will be selected.\n\nWhichever one is selected will have its condition copied. Store the items you don't want to use."
+lang["#UI_STORAGE_NOACCESS"] = "You do not have access to this storage."
 
 lang["#UI_REQUIRES"] = "Requires"
 lang["#UI_REQUIREMENTS"] = "Requirements"
@@ -323,6 +333,9 @@ lang["#NOTIFY_OVERECUMBERED_3"] = "You are carrying too much and can no longer m
 lang["#NOTIFY_SKILLTOOLOW"] = "You do not meet the skill requirements."
 lang["#NOTIFY_SATIATIONEND"] = "You are no longer satiated."
 lang["#NOTIFY_WANTED"] = "[ WANTED ]"
+lang["#NOTIFY_ROLLED"] = "[ROLL] $person rolled a $number."
+lang["#NOTIFY_YOUROLLED"] = "[ROLL] You rolled a $number."
+lang["#NOITFY_HEADROLL"] = "Rolled: $number"
 lang["#UI_NOTCURRENTLYPOSSIBLE"] = "Not Currently Possible"
 lang["#UI_HPFULL"] = "HP Full."
 lang["#UI_STIMPAKACTIVE"] = "Your last stimpak is still active!"
@@ -340,8 +353,12 @@ lang["#UI_BLOCKEDBY"] = "$aidblocked by $name!" -- "$aid" is a string and "block
 -- Inventory
 lang["#INV_ADDED"] = "$item Added"
 lang["#INV_REMOVED"] = "$item Removed"
+lang["#INV_REMOVEDMULTI"] = "$count $item|s Removed"
 lang["#EQUIPDENY_NOSLOTS"] = "This is not something you can equip."
 lang["#EQUIPDENY_ANIMSET"] = "This is not fitted for you."
+lang["#EQUIPDENY_NOPOWERARMOR"] = "You must be wearing Power Armor to equip this."
+lang["#EQUIPDENY_INSUFFICIENTLEVEL"] = "Your Armor is not able to support this Armor Piece."
+
 
 lang["#EIGHTBALL_REMOVED"] = "OUTLOOK: NOT SO GREAT."
 
@@ -372,7 +389,7 @@ lang["#PARTY_FRIENDLYFIRE"] = "Watch your fire!"
 
 lang["#PARTY_ALREADYINPARTY"] = "You are already in a party. Party must be left before creating a new one."
 lang["#PARTY_OTHERALREADYINPARTY"] = "$person is already in a party!"
-lang["#PARTY_ONLYLEADERINVITE"] = "$person is already in a party!"
+lang["#PARTY_ONLYLEADERINVITE"] = "Only party leaders can invite others to the party."
 lang["#PARTY_INVITEPENDING"] = "Party invite to $person is already pending."
 
 lang["#PARTY_CHARISMA_SINGLE"] = "You aren't charismatic enough to lead more than 1 person."
@@ -536,13 +553,14 @@ lang["#UI_NOMOD"] = "No Mod"
 --Damage Types
 lang["#DMG_BULLET"] = "Ballistic"
 lang["#DMG_SLASH"] = "Laceration"
-lang["#DMG_CLUB"] = "Impact"
+lang["#DMG_CLUB"] = "Blunt Force"
 lang["#DMG_ENERGYBEAM"] = "Laser"
 lang["#DMG_SHOCK"] = "Electrical"
 lang["#DMG_BURN"] = "Burn"
-lang["#DMG_BLAST"] = "Concussion"
+lang["#DMG_BLAST"] = "Explosive"
 lang["#DMG_RADIATION"] = "Radiation"
-lang["#DMG_ACID"] = "Toxic"
+lang["#DMG_ACID"] = "Acid"
+lang["#DMG_POISON"] = "Poison" -- used in mod bench to show the resistance of a specific damage type, IE, "Explosive Resistance"
 
 --Melee
 lang["#MELEE_FAST"] = "Fast"
@@ -564,6 +582,7 @@ lang["#GENDER_FEMALE"] = "Female"
 lang["#CHARMAKE_DISCARDCHAR"] = "This will reset your character data. Continue?"
 lang["#UI_NAMECHARACTER"] = "Finalize Character"
 lang["#UI_ENTERNAME"] = "Enter Name..."
+lang["#CHARMAKE_CHARACTERLIMIT"] = "You have reached the character limit."
 
 lang["#UI_NAMETOOLONG"] = "Name is too long, must be below 40 characters."
 lang["#UI_NAMETOOSHORT"] = "Name is too short, must be above 4 characters."
@@ -792,13 +811,22 @@ lang["#UI_INFLUENCE"] = "Influence"
 -- Community
 
 lang["#COMMUNITY_CREATE"] = "Create Community"
+lang["#COMMUNITY_NAMETAKEN"] = "Name already in use"
 lang["#COMMUNITY_SEARCH"] = "Community Search"
 lang["#COMMUNITY_SEARCH_COOLDOWN"] = "Please wait before searching again."
 lang["#COMMUNITY_UNSELECTED"] = "No Community Selected"
 
-lang["#COMMUNITY_INVITE"] = "Invite to Community"
-lang["#COMMUNITY_INVITE_NOTIFY"] = "$inviterName has invited to join $communityName."
+lang["#COMMUNITY_DESCRIPTION_DEFAULT"] = "No description has been set for this community."
+lang["#COMMUNITY_MOTD_DEFAULT"] = "No Message of the Day has been set."
 
+lang["#COMMUNITY_INVITE"] = "Invite to Community"
+lang["#COMMUNITY_ALREADYINCOMMUNITY"] = "$name is already in a community."
+lang["#COMMUNITY_INVITE_SENT"] = "Community Invite sent to $name."
+lang["#COMMUNITY_INVITE_NOTIFY"] = "$inviterName has invited to join $communityName."
+lang["#COMMUNITY_INVITE_ACCEPT"] = "Accept and Join Community"
+lang["#COMMUNITY_INVITE_DECLINE"] = "Decline to Join Community"
+lang["#COMMUNITY_INVITE_DECLINED"] = "You have declined to join $communityName."
+lang["#COMMUNITY_INVITE_COOLDOWN"] = "You have already invited this person to the community recently!"
 
 lang["#COMMUNITY_LEAVE"] = "Leave Community"
 
@@ -807,6 +835,8 @@ lang["#COMMUNITY_PERM_KICK_MEMBER_DESC"] = "Remove Member's with ranks below our
 lang["#COMMUNITY_PERM_ADD_MEMBER"] = "Add Member"
 lang["#COMMUNITY_PERM_EDIT_MEMBER"] = "Edit Member"
 lang["#COMMUNITY_PERM_ADD_MEMBER_DESC"] = "Add members to ranks below our own."
+lang["#COMMUNITY_PERM_ASSIGN_RANKS"] = "Assign Ranks"
+lang["#COMMUNITY_PERM_ASSGN_RANKS_DESC"] = "Add/Remove users ranked below our own - to ranks below our own."
 lang["#COMMUNITY_PERM_EDIT_RANKS"] = "Edit Ranks"
 lang["#COMMUNITY_PERM_EDIT_RANKS_DESC"] = "Add/Remove permissions available to this group on groups below it."
 lang["#COMMUNITY_PERM_EDIT_RELATIONS"] = "Manage Relations"
@@ -819,26 +849,61 @@ lang["#COMMUNITY_RANK_RECRUIT"] = "Recruit"
 lang["#COMMUNITY_RANK_MEMBER"] = "Member"
 lang["#COMMUNITY_RANK_OFFICER"] = "Officer"
 lang["#COMMUNITY_RANK_LEADER"] = "Leader"
-lang["#COMMUNITY_RANK_FOUNDER"] = "Founder"
+lang["#COMMUNITY_RANK_OWNER"] = "Owner"
+
+lang["#COMMUNITY_RANK_CONFIRM_OWNER"] = "Are you sure you'd like to make $name $ownerRank?\n\n$ownerRank is the highest rank and can only be held by one person.\n\nYou will step down to $leaderRank, the second highest."
+lang["#COMMUNITY_RANK_CONFIRM_SELFDEMOTE"] = "Are you sure you'd like to demote yourself to $rankName?\n\nYou will lose all permissions associated with your current rank."
+lang["#COMMUNITY_RANK_CONFIRM_CLOSE"] = "Close this menu and discard changes?"
+lang["#COMMUNITY_RANK_EDIT_SUCCESS"] = "Rank updated."
+lang["#COMMUNITY_RANK_RENAME"] = "Rename Rank"
+lang["#COMMUNITY_RANK_INVALID_NAME"] = "Rank could not be updated - name is not valid."
+lang["#COMMUNITY_RANK_INVALID_NAMELENGTH"] = "A rank's name must be between $min and $max characters."
+lang["#COMMUNITY_RANK_DEFAULT"] = "Default Rank"
+
+lang["#COMMUNITY_RELATION_ALLY"] = "Alliance"
+lang["#COMMUNITY_RELATION_ALLY_DESC"] = "You are allied with this community and will not take influence from them in the event of friendly fire."
+lang["#COMMUNITY_RELATION_WAR"] = "War"
+lang["#COMMUNITY_RELATION_WAR_DESC"] = "You are at war with this community, Kills between your community will take more influence than normal."
+
+lang["#COMMUNITY_STORAGE_ALREADY_SPAWNED"] = "Storage already spawned in the world."
+
+lang["#COMMUNITY_CREATE_SUCCESS"] = "Community Created!"
 
 lang["#COMMUNITY_SUBJECT_INVALID"] = "Subject is not in your community!"
 lang["#COMMUNITY_INCOMMUNITY"] = "You are already in a community!"
+lang["#COMMUNITY_KICK"] = "Remove Member"
+lang["#COMMUNITY_KICK_CONFIRM"] = "Are you sure you'd like to remove $name from the community?"
 lang["#COMMUNITY_KICKED"] = "You haved been removed from $communityName." 
+lang["#COMMUNITY_KICK_SUCCESS"] = "You have kicked $name from the community." 
 
 lang["#COMMUNITY_INFO"] = "Community Information"
 
-lang["#COMMUNITY_INFO_INFLUENCE"] = "Community Influence"
-lang["#COMMUNITY_INFO_INFLUENCE_TEXT"] = "Community influence is your community's \"Credit\" in the wasteland and is used to purchase upgrades for your community such as storage capacity and member size increases.\nInflunce can be gained by donating items, completing missions in the name of your community, or killing members of an opposing faction and taking their faction's influence."
+lang["#COMMUNITY_MEMBERS"] = "Members"
+lang["#COMMUNITY_MEMBERS_INFO"] = "Members : $memberCount / $maxMembers"
 
-lang["#COMMUNITY_INFO_RANKS"] = "Community Ranks"
-lang["#COMMUNITY_INFO_RANKS_TEXT"] = "Each community has 5 ranks by default. You can freely edit the existing ranks or add more. Each rank has a set of permissions, and with those permissions can act on members below their rank."
+lang["#COMMUNITY_INFLUENCE"] = "Community Influence"
+lang["#COMMUNITY_INFLUENCE_TEXT"] = "Community influence is your community's \"Credit\" in the wasteland and is used to purchase upgrades for your community such as storage capacity and member size increases.\nInflunce can be gained by donating items, completing missions in the name of your community, or killing members of an opposing faction and taking their faction's influence."
 
-lang["#COMMUNITY_INFO_RELATIONS"] = "Community Relations"
-lang["#COMMUNITY_INFO_RELATIONS_TEXT"] = "You can establish relationships with other communities such as ally to form an aliance, or enemy to declare war. Allied communities will not take eachother's influence in the event of friendly fire, but warring communities will take even more influence from eachother than neutral ones.\n\nA community can declare war on any other community without confirmation, but alliances must be agreed on by both communities."
+lang["#COMMUNITY_RANK"] = "Rank"
+lang["#COMMUNITY_RANKS"] = "Ranks"
+lang["#COMMUNITY_RANKS_TEXT"] = "Each community has 5 ranks by default. You can freely edit the existing ranks or add more. Each rank has a set of permissions, and with those permissions can act on members below their rank."
+lang["#COMMUNITY_RANK_INFO"] = "Ranks : $rankCount / $maxRanks"
+
+lang["#COMMUNITY_RELATIONS"] = "Relations"
+lang["#COMMUNITY_RELATIONS_TEXT"] = "You can establish relationships with other communities such as ally to form an aliance, or enemy to declare war. Allied communities will not take eachother's influence in the event of friendly fire, but warring communities will take even more influence from eachother than neutral ones.\n\nA community can declare war on any other community without confirmation, but alliances must be agreed on by both communities."
+lang["#COMMUNITY_NO_RELATIONS"] = "No Relations"
+lang["#COMMUNITY_RELATION_INFO"] = "Relations : $relationCount / $maxRelations"
 
 lang["#INFLUENCE_NOTE_MISSION"] = "Mission Reward"
 lang["#INFLUENCE_NOTE_PVP"] = "Player Kill"
 lang["#INFLUENCE_NOTE_DONATION"] = "Item Donation"
+
+lang["#COMMUNITY_NOTIFY_RANK"] = "Your rank is now $rankName."
+lang["#COMMUNITY_NOTIFY_RANK_SUCCESS"] = "You assigned $name to $rank."
+lang["#COMMUNITY_NOTIFY_JOIN"] = "You have joined $communityName."
+lang["#COMMUNITY_NOTIFY_JOINED"] = "$name has joined the community!"
+
+lang["#COMMUNITY_ERROR_NORANK"] = "Unable to find the rank - it may have been removed by another user."
 
 -- faction interaction
 lang["#FACTION_CANNOT_ACCESS_HOSTILE"] = "You cannot access this area because you are hostile with $faction."
@@ -956,7 +1021,7 @@ lang["#NOTIFY_REP_RELATION"] = "Your Reputation with the $faction is now $relati
 
 lang["#UI_FACTION_REPRESENT"] = "Represent"
 lang["#UI_FACTION_UNREPRESENT"] = "Unrepresent"
-lang["#UI_FACTION_REPRESENT_DESC"] = "Faction Representation:\nYou can represent a faction to indicate you are part of that faction under your nametag.\n\nRepresenting a faction has the following effects:\n\n - You will gain 25 Extra Save Weight.\n\n - Crimes committed against you will be tracked in all regions by this faction, not just ones they control\n\n - Damage with other members of the faction, NPC and Player is disabled even in PVP areas\n\n - Players Representing Factions hostile with your this faction WILL BE ABLE TO DAMAGE YOU IN PVE REGIONS! (but not safe zones)\n\n - You can only change your representation status in safe zones once every 12 hours."
+lang["#UI_FACTION_REPRESENT_DESC"] = "Faction Representation:\nYou can represent a faction to indicate you are part of that faction under your nametag.\n\nRepresenting a faction has the following effects:\n\n - You will gain 25 Extra Save Weight.\n\n - Crimes committed against you will be tracked in all regions by this faction, not just ones they control\n\n - Damage with other members of the faction, NPC and Player is disabled even in PVP areas\n\n - Players Representing Factions hostile with this faction WILL BE ABLE TO DAMAGE YOU IN PVE REGIONS! (but not safe zones)\n\n - You can only change your representation status in safe zones once every 12 hours."
 
 lang["#UI_REPRESENT_FAILED_TIME"] = "You can only change your Representation once every 12 hours!"
 lang["#UI_REPRESENT_FAILED_FAVOR"] = "Your must have at least 400 favor to represent a faction."
@@ -1033,6 +1098,10 @@ lang["#UI_UNMUTE"] = "Unmute"
 
 lang["#UI_MUTED"] = "Muted $playername"
 lang["#UI_UNMUTED"] = "Unuted $playername"
+
+
+-- Item Description Parts
+lang["#FACTION_SAVE"] = "Can only be Saved by representing the $faction."
 
 --If there's any items you know I'll add, feel free to add them yourself and write their description. Heck add anything you like. Just make sure it follows the format here. Also, it MUST have a # in front of the name and the name must be all caps.
 

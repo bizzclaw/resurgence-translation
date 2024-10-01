@@ -154,7 +154,7 @@ lang["#PERK_BALLISTIC_NAME"] = "Ballistics"
 lang["#PERK_BALLISTIC_DESC"] = "Ballistics. \n-You've learned how to work with kevlar and polymers effectively." -- NEED DESC
 
 lang["#PERK_DISMANTLE_NAME"] = "Dismantle"
-lang["#PERK_DISMANTLE_DESC"] = "Dismantle. \n-You've learned how to downgrade a piece of armor at the cost of the resources needed to upgrade it." -- NEED DESC
+lang["#PERK_DISMANTLE_DESC"] = "Dismantle. \n-You've learned how to downgrade a piece of armor at the cost of the resources required to upgrade it, in turn you get more experience from doing so." -- NEED DESC
 
 lang["#PERK_HYPERTOXICITY_NAME"] = "Hypertoxicity"
 lang["#PERK_HYPERTOXICITY_DESC"] = "Hypertoxicity. \n-You've learned how to work with poisons effectively." -- NEED DESC
@@ -193,6 +193,9 @@ lang["#PERK_ECOLOADER_DESC"] = "Sometimes less IS more.\n\n-You can craft econom
 
 lang["#PERK_HANDLOADER_NAME"] = "Hand Loader"
 lang["#PERK_HANDLOADER_DESC"] = "You know a way to make stronger bullets, and don't allow good casings go to waste!\n\n-You can craft hand-loaded bullets with the use of more resources.\n-You are more likely to recover bullet casings used from guns."
+
+lang["#PERK_VIGILANTRECYCLER_NAME"] = "Vigilant Recycler"
+lang["#PERK_VIGILANTRECYCLER_DESC"] = "Waste not, want not.\n\n-You have a better understanding of Fusion and Energy Cells, and have more efficient recycling recipes at workbenches."
 
 lang["#PERK_JUNKROUNDS_NAME"] = "Junk Rounds"
 lang["#PERK_JUNKROUNDS_DESC"] = "Who needs factory loaded brass anyway?\n\n-You can craft junk bullets with scrap metal instead of brass."
@@ -246,10 +249,21 @@ lang["#PERK_TERRIFYINGPRESENCE_INSULTS"] = {
     "YOU LIKE THE SIGHT OF YOUR OWN BLOOD?!",
     "You fight like a radroach!",
     "Did your Pip-Boy teach you how to shoot?",
-    "Your aim is worse than a ghoul's fashion sense!",
+    "Dante can't describe the hell I'm about to show you!",
     "I've seen Protectrons with better combat skills!",
-    "Your mother was a hamster and your father smealt of elderberries!"
+    "The last thing you'll see is my grinnin' face!",
+    "You called down the thunder, now reap the whirlwind!",
+    "The grim reaper has arrived!",
+    "I'll paint the town dead!",
+    "Stop, drop, and die!",
+    "The only thing I'll feel from shooting you is the recoil!",
+    "Somebody call for an exterminator?",
+    "Your mother was a hamster and your father smelt of elderberries!",
+    "DIE, INSECT!",
+    "keanu reeves doesn't find you breath taking!",
+    "bob ross doesn't think your a 'happy little accident'"
 }
+
 lang["#PERK_TP_SUCCESS"] = "Target is demoralized by your presence!"
 lang["#PERK_TP_PERKFAIL"] = "You do not have the Terrifying Presence perk!"
 lang["#PERK_TP_FAIL"] = "Invalid Target."
@@ -279,7 +293,8 @@ lang["#PERKREQ_COST"] = "Not Enough Perk Points"
 lang["#PERKREQ_MAXED"] = "Perk Maxed Out"
 lang["#PERKREQ_NOPERK"] = "Cannot Be Taken"
 lang["#PERKREQ_SPC"] = "S.P.E.C.I.A.L too low"
-lang["#PERKREQ_SKL"] = "Skill Issue?"
+lang["#PERKREQ_SKL"] = "Skill Too Low"
+lang["#PERKREQ_LVL"] = "Level too low"
 
 lang["#PERKPOINT"] = "Perk Point"
 lang["#PERKPOINTS"] = "Perk Points"
@@ -304,7 +319,7 @@ lang["#DERIVED_SPREADREDUCTION"] = "Spread Reduction"
 lang["#DERIVED_RELOADSPEED"] = "Reload Speed Bonus"
 lang["#DERIVED_LOOTCHANCE"] = "Loot Chance Bonus"
 lang["#DERIVED_SALVAGEBONUS"] = "Harvest Speed Bonus"
-lang["#DERIVED_DETECTIONRANGE"] = "Detection Range Reduce"
+lang["#DERIVED_DETECTIONRANGE"] = "Stealth Bonus"
 lang["#DERIVED_FAVORBONUS"] = "Favor Reward Bonus"
 lang["#DERIVED_MAPSPEED"] = "World Map Speed Bonus"
 lang["#DERIVED_BARTER"] = "Barter Bonus"

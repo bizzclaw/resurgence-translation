@@ -10,7 +10,7 @@ local lang = RSRG.Languages["en"]
 
 -- Mission Giver
 lang["#MISSION_GIVER_MAVERICK"] = "Mercenary Captain Maverick"
-lang["#MISSION_GIVER_MAVERICK_SUBTITLE"] = "Merchant's Guild Mercenary Captain"
+lang["#MISSION_GIVER_MAVERICK_SUBTITLE"] = "Cascade Caravan Mercenary Captain"
 lang["#MISSION_GIVER_MAVERICK_GREET_NEW"] = "Hey there wastelander, looking for a job? I got a lot to do here and not enough manpower."
 lang["#MISSION_GIVER_MAVERICK_GREET_0"] = "Hey there, looking for work? This hell hole has no shortage of jobs."
 lang["#MISSION_GIVER_MAVERICK_GREET_100"] = "Hows Salem treating ya $playername!? I know it's treating my men like shit. Here are the jobs avalible."
@@ -18,6 +18,7 @@ lang["#MISSION_GIVER_MAVERICK_GREET_200"] = "Well lookie here, $playername! You 
 lang["#MISSION_GIVER_MAVERICK_GREET_400"] = "$playername! Glad to see you're not in a ditch yet! You really should join my team, we'll pay ya nicely! No? Well here are the avalible jobs."
 lang["#MISSION_GIVER_MAVERICK_GREET_N100"] = "What the fuck are you doing here? Want a job? Pick one and get out."
 
+---Missions
 
 lang["#MISSION_MAVERICK_ANTENNAREPAIR_NAME"] = "Antenna Repair"
 lang["#MISSION_MAVERICK_ANTENNAREPAIR_DESC"] = "There's an old radio antenna that's breaking down. I keep losing contact with teams out on missions, so it probably needs replacement parts. Mind getting out too it and having a look?"
@@ -36,3 +37,10 @@ lang["#MISSION_MAVERICK_ANTENNAREPAIR_OPTION2_COMPLETE"] = "You replace the worn
 lang["#MISSION_MAVERICK_ANTENNAREPAIR_OPTION3_NAME"] = "Replace Everything!"
 lang["#MISSION_MAVERICK_ANTENNAREPAIR_OPTION3_TEXT"] = "The Tangle of wires and circuitry makes no sense to you. The only thing you can think to do is replace every part with something that looks simmilar."
 lang["#MISSION_MAVERICK_ANTENNAREPAIR_OPTION3_COMPLETE"] = "After swapping random parts, and trying and failing multiple times, you kick the Antenna in frustration. By some Miracle It starts working."
+
+lang["#MISSION_MAVERICK_SETTINGUP"] = "Getting set up, power."
+lang["#MISSION_MAVERICK_SETTINGUP_DESC"] = "You seem capable, moreso than the others around here. Here's the short and sweet, this entire city has gone to shit. Shadowed are everywhere, the mutants are trying to kidnap people for whatever fucking reason, and the police got turned back on. You came into a rough situation. \n\n\nSo, if you're a hired gun, I have some work. I know there's a power station out and to the left of here somewhere, but I can't spare any manpower. Need you to get there and scout it out, tell me what the condition of the place is, alright gunny?"
+lang["#MISSION_MAVERICK_SETTINGUP_HINT"] = "Find the Salem Power Station. Maverick said it was out to the left of the camp somewhere."
+lang["#MISSION_MAVERICK_SETTINGUP_COMPLETE"] = "Wrecked? Looted for all it's worth? Fucking shadowed."
+
+    
