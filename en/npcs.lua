@@ -243,6 +243,8 @@ lang["#NPC_NCRQUARTERMASTER"] = "Quartermaster Hector"
 lang["#NPC_NCRPATROLRANGER1"] = "NCR Patrol Ranger"
 lang["#NPC_NCRPATROLRANGER2"] = "NCR Patrol Ranger"
 lang["#NPC_NCRPATROLRANGER3"] = "NCR Patrol Ranger"
+lang["#NPC_NCRVETERANRANGERS"] = "NCR Veteran Rangers"
+lang["#NPC_ARMORYQUARTERMASTER"] = "Riot Control Quartermaster"
 
 -- Desert Rangers
 lang["#NPC_DESERTRANGER"] = "Desert Ranger"
@@ -326,6 +328,7 @@ lang["#NPC_CIPHERAGENT_STEALTHSUIT_RANK1A"] = "Cipher Ghost"--          Stealth 
 lang["#NPC_CIPHERAGENT_STEALTHSUIT_RANK1B"] = "Cipher Spectre"----------Stealth Suit
 
 -- Brotherhood of Steel
+lang["#NPC_BROTHERHOOD"] = "Brotherhood Soldiers" ----------------------Brotherhood, General
 lang["#NPC_BOS_SOLDIER_RANK1"] = "Brotherhood Junior Initiate"----------Initiate
 lang["#NPC_BOS_SOLDIER_RANK1A"] = "Brotherhood Initiate"--              Initiate
 lang["#NPC_BOS_SOLDIER_RANK1B"] = "Brotherhood Senior Initiate" --      Initiate
@@ -342,6 +345,7 @@ lang["#NPC_BOS_SCRIBE_RANK1B"] = "Brotherhood Journeyman-Scribe" --     Scribe
 lang["#NPC_BOS_SCRIBE_RANK1C"] = "Brotherhood Senior Scribe" -----------Scribe
 
 --Enclave
+lang["#NPC_ENCLAVE"] = "Enclave" --                                     Enclave, General
 lang["#NPC_ENCLAVERANK1"] = "Enclave Patrolman" ------------------------Enclave Patrolman
 lang["#NPC_ENCLAVERANK1A"] = "Enclave Patrolman" --                     Enclave Patrolman
 lang["#NPC_ENCLAVERANK1B"] = "Enclave Patrolman" --                     Enclave Patrolman
@@ -368,25 +372,33 @@ lang["#NPC_REJECTEDSM_RANK2"] = "Rejected Brute"
 lang["#NPC_REJECTEDSM_RANK3"] = "Rejected Master"
 lang["#NPC_REJECTEDSM_RANK4"] = "Rejected Overlord"
 
---The Reborn - Mixes Children of the Cathedral ranks with standard super mutant ones
+--The Reborn - Unity's Chosen Ghoul Soldiers
 lang["#NPC_REBORN"] = "Reborn Soldiers"
 lang["#NPC_REBORN_RANK1"] = "Reborn Initiate"
 lang["#NPC_REBORN_RANK2"] = "Reborn Acolyte"
-lang["#NPC_REBORN_RANK3"] = "Reborn Servitor"
+lang["#NPC_REBORN_RANK3"] = "Reborn Occultist"
 lang["#NPC_REBORN_RANK4"] = "Reborn Flagellant"
-lang["#NPC_REBORN_SM_RANK1"] = "Reborn Skirmisher"
-lang["#NPC_REBORN_SM_RANK2"] = "Reborn Brute"
-lang["#NPC_REBORN_SM_RANK3"] = "Reborn Nightkin" -- Squad leaders, not necessarily NV style
+lang["#NPC_REBORN_RANK5"] = "Reborn Overseers"
 
---Unity's Chosen - Super Mutant only faction
+--Unity's Chosen - Super Mutant Soldiers 
 lang["#NPC_CHOSEN"] = "Unity's Chosen Soldiers"
 lang["#NPC_CHOSEN_SM_RANK1"] = "Unity's Chosen Fighter"
-lang["#NPC_CHOSEN_SM_RANK2"] = "Unity's Chosen Enforcer"
+lang["#NPC_CHOSEN_SM_RANK2"] = "Unity's Chosen Skirmisher"
 lang["#NPC_CHOSEN_SM_RANK3"] = "Unity's Chosen Primus"
-lang["#NPC_CHOSEN_SM_RANK4"] = "Unity's Chosen Beserker"
+lang["#NPC_CHOSEN_SM_RANK4"] = "Unity's Chosen Enforcer"
 lang["#NPC_CHOSEN_SM_RANK5"] = "Unity's Chosen Nightkin"
 lang["#NPC_CHOSEN_SM_RANK6"] = "Unity's Chosen Nightkin Hunter"
 lang["#NPC_CHOSEN_SM_RANK7"] = "Unity's Chosen Nightkin Overlord" -- Squad leaders, not necessarily NV style
+
+--Phoenix Company
+lang["#NPC_PHOENIXCOMPANY"] = "Phoenix Company"
+lang["#NPC_PHOENIX_PRIVATE"] = "Private"
+lang["#NPC_PHOENIX_PRIVATEFIRSTCLASS"] = "Private First Class"
+lang["#NPC_PHOENIX_CORPORAL"] = "Corporal"
+lang["#NPC_PHOENIX_SGT"] = "Sergeant"
+lang["#NPC_PHOENIX_SSGT"] = "Staff Sergeant"
+lang["#NPC_PHOENIX_REDBERET"] = "Red Beret"
+
 
 -- ██████╗  ██████╗ ██████╗  ██████╗ ████████╗██╗ ██████╗
 -- ██╔══██╗██╔═══██╗██╔══██╗██╔═══██╗╚══██╔══╝██║██╔════╝
@@ -405,6 +417,7 @@ lang["#NPC_PROTECTRON_RANK3"] = "Protectron Sentinel"
 lang["#NPC_PROTECTRON_BOS"] = "Brotherhood Protectron"
 lang["#NPC_PROTECTRON_ENCLAVE"] = "Enclave Protectron"
 lang["#NPC_PROTECTRON_SALEM"] = "Salem Police Protectron"
+lang["#NPC_PROTECTRON_SALEM_PC"] = "Hacked Salem Police Protectron"
 lang["#NPC_PROTECTRON_SALEMSGT"] = "Salem Police Sargent Protectron"
 lang["#NPC_PROTECTRON_SCRAP_RANK1"] = "Servomech Protectron"
 lang["#NPC_PROTECTRON_SCRAP_RANK2"] = "Cybermech Protectron"
@@ -479,6 +492,25 @@ lang["#NPC_ROBOBRAIN_SCRAP_RANK3"] = "Cybermech Robobrain"
 
 lang["#NPC_DEATHCLAW"] = "Deathclaw"
 lang["#NPC_DEATHCLAWS"] = "Deathclaws"
+
+lang["#NPC_GATORCLAW"] = "Gatorclaw"
+lang["#NPC_GATORCLAWS"] = "Gatorclaws"
+lang["#NPC_SWAMPJAW"] = "Swampjaw"
+lang["#NPC_SWAMPJAWS"] = "Swampjaws"
+lang["#NPC_GATORCLAW_RANK1"] = "Gatorclaw"
+lang["#NPC_GATORCLAW_RANK2"] = "Gatorclaw Hunter"
+lang["#NPC_GATORCLAW_RANK3"] = "Gatorclaw Ripper"
+lang["#NPC_GATORCLAW_RANK4"] = "Gatorclaw Stalker"
+lang["#NPC_GATORCLAW_RANK5"] = "Albino Gatorclaw"
+lang["#NPC_GATORCLAW_RANK6"] = "Glowing Gatorclaw"
+lang["#NPC_GATORCLAW_BOSS"] = "Bloodclaw"
+lang["#NPC_SWAMPJAW_RANK1"] = "Swampjaw"
+lang["#NPC_SWAMPJAW_RANK2"] = "Swampjaw Ambusher"
+lang["#NPC_SWAMPJAW_RANK3"] = "Swampjaw Deathroller"
+lang["#NPC_SWAMPJAW_RANK4"] = "Alibno Swampjaw"
+lang["#NPC_SWAMPJAW_RANK5"] = "Glowing Swampjaw"
+lang["#NPC_SWAMPJAW_BOSS"] = "Crim-Fang"
+
 
 lang["#NPC_ALIENSOLDIER"] = "Alien Soldier"
 lang["#NPC_ALIENSOLDIERS"] = "Alien Soldiers"

@@ -15,11 +15,16 @@ lang["#PATHFINDER_NAME"] = "Pathfinder's Garb"
 lang["#BLASTMASTERARMOR_NAME"] = "Blastmaster Armor"
 lang["#COMBATARMOR_NAME"] = "Combat Armor"
 lang["#ENCLAVERECON_NAME"] = "Enclave Recon"
+lang["#RUBBERMONSTER_NAME"] = "Mirelurk Disguise Suit"
+lang["#RUBBERMONSTERMASK_NAME"] = "Mirelurk Disguise Mask"
 lang["#SCOUT_NAME"] = "Scout"
+lang["#ALIEN_NAME"] = "Alien"
 lang["#COMBATUNDERARMOR_NAME"] = "Military Wetsuit"
 lang["#MERCENARYUNDERSUIT_NAME"] = "Mercenary Underarmor"
 lang["#MERCENARYARMOR_NAME"] = "Mercenary Combat Armor"
 lang["#MARINEARMOR_NAME"] = "Marine Armor"
+lang["#WARLORD_NAME"] = "80s Painspike Armor"
+lang["#DEEPCAVEHUNTER_NAME"] = "Rock-Biter's Explorer Armor"
 lang["#ENCLAVEMARINEARMOR_NAME"] = "Enclave Marine Armor"
 lang["#ENCLAVECOMMANDOSUIT_NAME"] = "Enclave Special Ops. Suit"
 lang["#DESERTRANGER_NAME"] = "Desert Ranger Combat Armor"
@@ -32,6 +37,8 @@ lang["#DRPATROLRANGERARMOR_NAME"] = "Desert Ranger Patrol Armor"
 lang["#NCRCHESTPLATE_NAME"] = "NCR Plate Carrier"
 lang["#POLICEVEST_NAME"] = "Police Body Armor"
 lang["#RIOTARMOR_NAME"] = "Riot Armor"
+lang["#INITIATERECON_NAME"] = "Initiate Recon Armor"
+lang["#INITIATERECONHELMET_NAME"] = "Initiate Recon Hood"
 lang["#NCRRIOTARMOR_NAME"] = "NCR Riot Armor"
 lang["#DRRIOTARMOR_NAME"] = "Desert Ranger Riot Armor"
 lang["#ADVRIOTARMOR_NAME"] = "Advanced Riot Armor"
@@ -65,16 +72,20 @@ lang["#POWERARMOR_NAME"] = "Power Armor"
 lang["#POWERARMORFRAME_NAME"] = "Power Armor Frame"
 lang["#POWERARMORFRAMESCRAP_NAME"] = "Scrap Power Armor Frame"
 lang["#ENCLAVEARMOR_NAME"] = "Advanced Power Armor"
+lang["#ENCLAVEARMORMK2_NAME"] = "Advanced Power Armor Mark 2"
 lang["#REMNANTARMOR_NAME"] = "Forgotten"
-lang["#T45DPOWER_NAME"] = "T45D"
+lang["#T45DPOWER_NAME"] = "T-45D"
+lang["#T65POWER_NAME"] = "T-65S"
 lang["#BLACKCRAWLERPOWERARMOR_NAME"] = "Black Crawler"
 lang["#MARAUDERPOWERARMOR_NAME"] = "Marauder"
 lang["#DEEPSPACEARMOR_NAME"] = "Deep Space"
 lang["#MWPA_NAME"] = "Brotherhood"
-lang["#T51BPOWER_NAME"] = "T51B"
+lang["#T51BPOWER_NAME"] = "T-51B"
 lang["#ROADKILLPOWER_NAME"] = "Roadkill Power Armor"
 lang["#RAIDERPOWER_NAME"] = "Scrap Power Armor"
 lang["#EXCAVATORPOWERARMOR_NAME"] = "Excavator"
+lang["#SIERRA_NAME"] = "Sierra Power Armor"
+
 
 --SuperMutant Armor Name
 lang["#SUPERMUTANTARMOR_NAME"] = "Super Mutant"
@@ -94,6 +105,16 @@ lang["#SM_WRISTWRAPS_NAME"] = "SM Wire Cloth Wrist Wraps"
 lang["#SM_BRACERS_NAME"] = "SM Light Scrap Gauntlets"
 lang["#SM_ARMGUARDS_NAME"] = "SM Heavy Scrap Armguards"
 lang["#SM_HEAVYGAUNTLETS_NAME"] = "SM Sturdy Clamp and Wire Gauntlets"
+lang["#SM_COMBAT_TORSO_LIGHT_NAME"] = "SM Light Combat Torso"
+lang["#SM_COMBAT_TORSO_STURDY_NAME"] = "SM Sturdy Combat Torso"
+lang["#SM_COMBAT_TORSO_HEAVY_NAME"] = "SM Heavy Combat Torso"
+lang["#SM_COMBAT_ARMS_LIGHT_NAME"] = "SM Light Combat Arms"
+lang["#SM_COMBAT_ARMS_STURDY_NAME"] = "SM Sturdy Combat Arms"
+lang["#SM_COMBAT_ARMS_HEAVY_NAME"] = "SM Heavy Combat Arms"
+lang["#SM_COMBAT_LEGS_LIGHT_NAME"] = "SM Light Combat Legs"
+lang["#SM_COMBAT_LEGS_STURDY_NAME"] = "SM Sturdy Combat Legs"
+lang["#SM_COMBAT_LEGS_HEAVY_NAME"] = "SM Heavy Combat Legs"
+lang["#SM_COMBAT_HELMET_NAME"] = "SM Combat Helmet"
 
  
 --Helmet Name
@@ -112,6 +133,8 @@ lang["#GASMASKASSAULT_NAME"] = "Assault Gas Mask"
 lang["#GASMASKNCR_NAME"] = "NCR Gas Mask"
 lang["#RAIDMASK_NAME"] = "Improvised Assault Mask"
 lang["#NCRTROOPHELMET_NAME"] = "NCR Trooper Helmet"
+lang["#DEEPCAVEHUNTERHELMET_NAME"] = "Rock-Biter's Explorer Helmet"
+lang["#WARLORDHELMET_NAME"] = "80s Warlord Helmet"
 lang["#CHINESESTEALTHHELMET_NAME"] = "Chinese Stealth Suit Helmet"
 lang["#CHINESESTEALTHARMOREDHELMET_NAME"] = "Armored Chinese Stealth Suit Helmet"
 lang["#CHINESESTEALTHREINFORCEDHELMET_NAME"] = "Reinforced Chinese Stealth Suit Helmet"
@@ -120,6 +143,7 @@ lang["#RIOTARMORHELMET_NAME"] = "Riot Armor Helmet"
 lang["#NCRRIOTARMORHELMET_NAME"] = "NCR Riot Armor Helmet"
 lang["#DRRIOTARMORHELMET_NAME"] = "Desert Ranger Riot Armor Helmet"
 lang["#ADVRIOTARMORHELMET_NAME"] = "Advanced Riot Armor Helmet"
+lang["#80SADVRIOTARMORHELMET_NAME"] = "Rogue Ranger Helmet"
 lang["#NCRADVRIOTARMORHELMET_NAME"] = "Advanced NCR Riot Armor Helmet"
 lang["#DRADVRIOTARMORHELMET_NAME"] = "Advanced Desert Ranger Riot Armor Helmet"
 lang["#ELITERIOTARMORHELMET_NAME"] = "Elite Riot Armor Helmet"
@@ -137,6 +161,9 @@ lang["#SM_AVIATORCAP_NAME"] = "SM Large Aviator Cap"
 lang["#SM_CAGEHELMET_NAME"] = "SM Light Cage Helmet"
 lang["#SM_HELMET_NAME"] = "SM Sturdy Scrap Helmet"
 lang["#SM_BLADEDHELMET_NAME"] = "SM Heavy Warrior Helmet"
+lang["#SM_POWER_HELMET_NAME"] = "SM Salvaged T-51B Helmet"
+lang["#SM_SCRAPPOWER_HELMET_NAME"] = "SM Salvaged Scrap Power Armor Helmet"
+lang["#SM_ADVANCEDPOWER_HELMET_NAME"] = "SM Advanced Power Armor Helmet"
  
 --Clothing Name
 lang["#ARMYFATIGUES_NAME"] = "Army Fatigues"
@@ -147,6 +174,8 @@ lang["#COVERALLS_NAME"] = "Utility Coveralls"
 lang["#DESDEMONAFATIGUES_NAME"] = "Waster Trailblazer Outfit"
 lang["#FORMALSUIT_NAME"] = "Pre-War Formal Wear"
 lang["#LABCOAT_NAME"] = "Lab Coat"
+lang["#FOLLOWERSLABCOAT_NAME"] = "Followers Lab Coat"
+lang["#VAULTJACKET_NAME"] = "Vault Suit & Leather Jacket"
 lang["#NCRFATIGUES_NAME"] = "NCR Fatigues"
 lang["#RADSTAGHIDECLOTHES_NAME"] = "Radstag Hide Outfit"
 lang["#REPAIRARMOR_NAME"] = "Engineer Jumpsuit"
@@ -158,8 +187,13 @@ lang["#BROTHERHOODFATIGUES_NAME"] = "Brotherhood Fatigues"
 lang["#SCRIBEENGINEER_NAME"] = "Heavy Engineer Overalls"
 lang["#SCRIBESCIENCE_NAME"] = "Scribe Robes"
 lang["#INITIATESFATIGUES_NAME"] = "Initiates Fatigues"
+lang["#BROTHERHOODROBES_NAME"] = "Brotherhood Robes"
+lang["#ELDERSROBES_NAME"] = "Elder's Robes"
+lang["#UNITYROBES_NAME"] = "Unity's Chosen Robes"
+lang["#ROBES_NAME"] = "Robes"
+lang["#BRIDGEKEEPERROBES_NAME"] = "Bridgekeeper's Robes"
 lang["#SCRIBEOPERATOR_NAME"] = "BoS Operator Robes"
-lang["#SCRIBEMEDICAL_NAME"] = "Medical Officer Fatigues" --WIP
+lang["#SCRIBEMEDICAL_NAME"] = "Medical Scribe Fatigues"
 lang["#SCRIBEFATIGUES_NAME"] = "Scribe Fatigues"
 lang["#FLANNEL_NAME"] = "Flannel Shirt and Jeans"
 lang["#FLANNEL_NAME_STARTER"] = "Old Flannel Shirt and Jeans"
@@ -203,6 +237,7 @@ lang["#LONGJOHNS_NAME"] = "Long Johns"
 lang["#BANDITBASE_NAME"] = "Bandit Wrappings"
 lang["#CHINESESTEALTHSUIT_NAME"] = "Chinese Stealth Suit"
 lang["#ASSASSINSUIT_NAME"] = "Assassin Suit"
+lang["#DEATHCLAWHUNTER_NAME"] = "Deathclaw Hunter Outfit"
 
 --NPC/Faction Clothing
 lang["#REMOVEPAINT_NAME"] = "Remove Paint"
@@ -211,6 +246,9 @@ lang["#CIPHERSUIT2_NAME"] = "Contractor's Blazer"
 lang["#CIPHERSUIT3_NAME"] = "Associate's Blazer"
 lang["#CIPHERSUIT4_NAME"] = "Manager's Blazer"
 lang["#CIPHERSUIT5_NAME"] = "Executive's Blazer"
+lang["#ENCLAVEOFFICER_NAME"] = "Enclave Officer Uniform"
+lang["#ENCLAVEINTELOFFICER_NAME"] = "Enclave Intel Officer Uniform"
+lang["#ENCLAVEURBANFATIGUES_NAME"] = "Urban Enclave Fatigues"
 lang["#ENCLAVEURBANFATIGUES_NAME"] = "Urban Enclave Fatigues"
 lang["#ENCLAVEFORESTFATIGUES_NAME"] = "Forest Enclave Fatigues"
 lang["#PALADINUNDERARMOR_NAME"] = "Paladin's Undersuit"
@@ -270,6 +308,8 @@ lang["#BERETGREEN_NAME"] = "Green Beret"
 lang["#NCRBERET_NAME"] = "NCR Beret"
 lang["#BERETRED_NAME"] = "Red Beret"
 lang["#BOWLER_NAME"] = "Bowler Hat"
+lang["#ENCLAVEOFFICERHAT_NAME"] = "Enclave Officer Cap"
+lang["#ENCLAVEINTELOFFICERHAT_NAME"] = "Enclave Intel Officer Cap"
 lang["#PALADINSCOWL_NAME"] = "Paladin's Cowl"
 lang["#BOSCAPTAINHAT_NAME"] = "Brotherhood Captain Hat"
 lang["#BOSFIELDCOVER_NAME"] = "Brotherhood Field Cover"
@@ -291,13 +331,18 @@ lang["#PARTYHAT_NAME"] = "Party Hat"
 lang["#PROSPECTORBLACKHAT_NAME"] = "Black Prospector's Hat"
 lang["#PROSPECTORYELLOWHAT_NAME"] = "Yellow Prospector's Hat"
 lang["#RAGHOOD_NAME"] = "Rag Hood"
+lang["#UNITYHOOD_NAME"] = "Unity's Chosen Hood"
+lang["#ELDERSHOOD_NAME"] = "Elder's Hood"
+lang["#BROTHERHOODROBESHOOD_NAME"] = "Brotherhood Robes Hood"
+lang["#HOOD_NAME"] = "Hood"
+lang["#BRIDGEKEEPERHOOD_NAME"] = "Bridgekeeper's Hood"
 lang["#RAINBLACK_NAME"] = "Black Rain Slicker"
 lang["#RAINYELLOW_NAME"] = "Yellow Rain Slicker"
 lang["#SEACAPTAINHAT_NAME"] = "Sea Captain Hat"
 lang["#SNOWHAT_NAME"] = "Trapper's Snow Hat"
 lang["#TINKERHAT_NAME"] = "Tinkerer's headgear"
 lang["#TOPHAT_NAME"] = "Gentleman's Tophat"
-lang["#BANDANAGOGGLES_NAME"] = "Bandana w/ Goggles"
+lang["#BANDANAGOGGLES_NAME"] = "Banana w/ Goggles"
 lang["#CAMOBANDANA_NAME"] = "Camo #BANDANA"
 lang["#FLAGBANDANA_NAME"] = "Starred and Striped #BANDANA"
 lang["#GREENBANDANA_NAME"] = "Green #BANDANA"
@@ -323,6 +368,7 @@ lang["#METALGOGGLES_NAME"] = "Metal Goggles"
 lang["#NULLSGOGGLES_NAME"] = "Null's Lucky Goggles"
 lang["#GLASSES_NAME"] = "Glasses"
 lang["#POLICEGLASSES_NAME"] = "Authority Glasses"
+lang["#DEATHCLAWHUNTERMASK_NAME"] = "Deathclaw Hunter Mask"
 
 -- WIGS
 lang["#WIG0_NAME"] = "Clean Wig"
@@ -349,49 +395,56 @@ lang["#WIGCONE_NAME"] = "Cone Wig"
 -- ╚══╝╚══╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚══════╝    ╚═════╝ ╚══════╝╚══════╝ ╚═════╝
 
 lang["#ARMOREDCOAT_DESC"] = "A weathered brown coat, covered in salvaged metal plates to form makeshift body armor.\n\nSeveral metal plates are attached with belts, leashed to the coat itself, others are woven into the seams."
-lang["#PATHFINDER_DESC"] = "Pathfinder's Garb" -- NEED DESC
+lang["#PATHFINDER_DESC"] = "A set of clothing composed of leathers and hides. This outfit is perfect for long cold treks without limiting mobility or putting on too much heft."
 lang["#BADLANDSARMOR_DESC"] = "A rugged vest, torn pants, and a bandolier strapped along the shoulder with the addition of something that looks like a sandal. Perfect for being a degenerate in general."
 lang["#BLASTMASTERARMOR_DESC"] = "A pair of long-johns holding up some fire resistant material on the hip."
 lang["#NCRBERET_DESC"] = "The beret is a soft round cap of wool felt, with a flat crown that tilts to one side."
-lang["#SCOUT_DESC"] = "Scout." -- NEED DESC
+lang["#SCOUT_DESC"] = "A set of armor made with durable ballistic polymer, similar to regular combat armor.\nUnlike combat armor, however, this set was specifically created for stealth and agile movement. Less protective, more mobile."
+lang["#RUBBERMONSTER_DESC"] = "This suit smells like dead fish and rotting Mirelurk. \n\n Whoever thought this would fool a Mirelurk is clearly tripping hard on Psycho."
+lang["#RUBBERMONSTERMASK_DESC"] = "The mask very vaguely resembles a Mirelurk King. It might fool a Hatchling but definitely not a Queen."
 lang["#BROTHERHOODFATIGUES_DESC"] = "The standard uniform for the Brotherhood of Steel Scribes, the scribe outfit consists of a tactical vest covered in pouches worn over a red sweater and faded brown pants."
 lang["#COMBATARMOR_DESC"] = "US Army standard-issue combat armor before the war. Provides great resistance to most firearms."
-lang["#ENCLAVERECON_DESC"] = "Enclave Recon." -- NEED DESC
-lang["#ENCLAVECOMBATARMOR_DESC"] = "Combat armor issued to recruits and other irregular forces by the Enclave, created post-war. Provides great resistance to most firearms.\n\nDo you have any idea how much Power Armor costs?"
+lang["#ENCLAVERECON_DESC"] = "Combat armor issued to recon troops of the Enclave, created post-war. Provides great resistance to most firearms.\n\nDo you have any idea how much Advanced Power Armor costs?"
+lang["#ENCLAVECOMBATARMOR_DESC"] = "Combat armor issued to recruits and other irregular forces by the Enclave, created post-war. Provides great resistance to most firearms.\n\nDo you have any idea how much Advanced Power Armor costs?"
 lang["#COMBATUNDERARMOR_DESC"] = "A military wetsuit designed for nighttime reconnaissance operations.\n\nCan be worn under supplimental armor, and hosts some enviromental protections of its own."
 lang["#MERCENARYUNDERSUIT_DESC"] = "It's called 'Underarmor', but it's just a gray turtleneck with some cargopants and kneepads.\n\nAn excellent outfit for an excellent Phoenix Company Merc."
-lang["#ENCLAVE_DESC"] = "This armor was made by the Enclave." -- NEED (proper) DESC
+lang["#ENCLAVE_DESC"] = "This armor was made by the Enclave."
 lang["#MERCENARYARMOR_DESC"] = "Phoenix Company Branded Combat Armor. Meant to block a little more than your average piece of Heavy Combat Armor, it comes with an intimidating face mask to match."
 lang["#ENCLAVEMARINEARMOR_DESC"] = "Created Post-War by the Enclave Special Forces to serve as the pinnacle of protection for the troops going on only the most dangerous missions."
 lang["#MARINEARMOR_DESC"] = "US military-grade combat armor that was designed to protect key sections of the human body from ballistic trauma. Provides excellent resistance to ballistic weapons."
 lang["#DESERTRANGER_DESC"] = "A USMC-issued armor boasting a desert camouflage pattern, from the same manufacturer as police riot armor.\n\nMade to be worn with a matching military helmet with built-in gas mask, Desert Rangers commonly pair it with an olive green duster and a pair of worn-out khaki pants."
 lang["#DIVINGSUIT_DESC"] = "The Armored Diving Suit, also known as a standard diving dress, consists of a fully-enclosed canvas diving suit with a spherical helmet, bronze armor plating, and an oxygen tank strapped to the back.\n\nResistant to a wide range of enviromental hazards and enabled one to breathe underwater, but its prohibitive weight and bulk wll slow any wearer considerably."
+lang["#ENCLAVEARMORMK2_DESC"] = "Advanced Power Armor Mark 2." -- NEED DESC
+lang["#INITIATERECON_DESC"] = "Initiate Recon Armor." -- NEED DESC
+lang["#INITIATERECONHELMET_DESC"] = "Initiate Recon Hood." -- NEED DESC
 lang["#ADVANCEDPOWER_DESC"] = "Some say they've seen heavily armed groups patrolling the coast with armor like this. Looks high tech and seems to be the strongest armor you've ever seen."
 lang["#LEATHERARMOR_DESC"] = "Tanned leather jacket and pants with some metal plating on the shoulders. Very fashionable."
 lang["#SHADOWEDLEATHERARMOR_DESC"] = "Leather armor that has been strengthed and made of darker material allowing one to blend in the night. Quite the upgrade to normal leather armor."
 lang["#DRPATROLRANGERARMOR_DESC"] = "A khaki and brown drab colored set of Combat armor used by the Desert Rangers.\n\nCovering all but the head, this should keep a rookie Desert Ranger alive until they get a set of Riot Armor." 
 lang["#NCRPATROLRANGERARMOR_DESC"] = "A khaki and brown drab colored set of Combat armor used by the NCR.\n\nCombat armor is ideal for defense against common ballistic, energy, and melee based weapons.\n\nThis full uniform was hand-manufactured in the NCR based on Pre-War military designs, providing cover to all but your head."
 lang["#NCRCHESTPLATE_DESC"] = "A khaki colored plate carrier with a pair of Pre-War armor plates.\n\nMetalic plate armor is suitible for defense against common handgun, shotgun, and rifle attacks, but is still vulnerable to AP ammunition and other non-ballistic threats.\n\nThis vest covers the wearer's chest and back, but not much else."
-lang["#BOSRECON_DESC"] = "Brotherhood Recon." -- NEED DESC
-lang["#RIOTARMOR_DESC"] = "Riot Armor." -- NEED DESC
-lang["#NCRRIOTARMOR_DESC"] = "NCR Riot Armor." -- NEED DESC
-lang["#DRRIOTARMOR_DESC"] = "Desert Ranger Riot Armor." -- NEED DESC
-lang["#ADVRIOTARMOR_DESC"] = "Advanced Riot Armor." -- NEED DESC
-lang["#NCRADVRIOTARMOR_DESC"] = "Advanced NCR Riot Armor." -- NEED DESC
-lang["#DRADVRIOTARMOR_DESC"] = "Advanced Desert Ranger Riot Armor." -- NEED DESC
-lang["#ELITERIOTARMOR_DESC"] = "Elite Riot Armor." -- NEED DESC
-lang["#NCRELITERIOTARMOR_DESC"] = "Elite NCR Riot Armor." -- NEED DESC
-lang["#DRELITERIOTARMOR_DESC"] = "Elite Desert Ranger Riot Armor." -- NEED DESC
+lang["#BOSRECON_DESC"] = "Combat armor issued to recon troops of the U.S. military and subsequently the Brotherhood, created pre and post-war. Provides great resistance to most firearms.\n\nYou're well on the way to your first set of T-51, future Paladin!"
+lang["#DEEPCAVEHUNTER_DESC"] = "A Rock-Biter Explorer's Outfit, usually given to those overseeing mining operations.\n\nWith red overalls and plenty of PPE, you'll be perfectly safe spelunking the deepest caverns."
+lang["#RIOTARMOR_DESC"] = "The Los Angeles Police Department fought tooth and nail to settle anti-war protests, and this armor was their secret weapon. It took quite a bit of convincing for the Marine Corps to spare this stuff.\n\nThere are likely no riots to settle in the wasteland, and certainly no LAPD. Be proud of this armor. You've earned it."
+lang["#NCRRIOTARMOR_DESC"] = "The Los Angeles Police Department fought tooth and nail to settle anti-war protests, and this armor was their secret weapon. It took quite a bit of convincing for the Marine Corps to spare this stuff.\n\nThe NCR has riddled this set with NCR iconography and insignias; it is uniquely their own."
+lang["#DRRIOTARMOR_DESC"] = "A USMC-issued armor boasting a desert camouflage pattern, from the same manufacturer as police riot armor.\n\nMade to be worn with a matching military helmet with built-in gas mask, Desert Rangers commonly pair it with an olive green duster and a pair of worn-out khaki pants."
+lang["#ADVRIOTARMOR_DESC"] = "Well, maybe there are riots in the wasteland. Hordes of ghouls, roving gangs of angry supermutants, bandits as a whole, the list could go on ad infinitum.\n\nIt's a good thing you upgraded this armor. Those bastards won't stand a chance now."
+lang["#NCRADVRIOTARMOR_DESC"] = "Well, maybe there are riots in the wasteland. Hordes of ghouls, roving gangs of angry supermutants, cannibals as a whole, the list could go on ad infinitum.\n\nThe NCR has riddled this set with NCR iconography and insignias; it is uniquely their own."
+lang["#DRADVRIOTARMOR_DESC"] = "A USMC-issued armor boasting a desert camouflage pattern, from the same manufacturer as police riot armor.\n\nIt's been reinforced with Advanced Materials and more polymer, adding pauldrons and gauntlets to the usual olive green duster and khaki pants.\n\nIt's time to help those who simply cannot help themselves."
+lang["#ELITERIOTARMOR_DESC"] = "Fully upgraded Riot Armor, reinforced with Vault Steel and Fibers. If the U.S. had this pre-war, the protests likely wouldn't have even started, and Anchorage would have been a slaughterhouse.\n\nAprès moi, le dèluge."
+lang["#NCRELITERIOTARMOR_DESC"] = "Fully upgraded Riot Armor, reinforced with Vault Steel and Fibers. If the U.S. had this pre-war, the protests likely wouldn't have even started, and Anchorage would have been a slaughterhouse.\n\nToday, you are the waves of the pacific, defiant and enduring. Crash down upon the foes of the New California Republic."
+lang["#DRELITERIOTARMOR_DESC"] = "A USMC-issued armor boasting a desert camouflage pattern, from the same manufacturer as police riot armor.\n\nIt's been reinforced with Vault Steel plates and fibers; it can take quite a beating now.\n\nIt's time to save the goddamn wasteland."
 lang["#POLICEVEST_DESC"] = "A kevlar vest worn as body armor by Pre-War law enforcement.\n\n''Soft armor'' offers sufficent defense against balistic, energy, and shrapnel based attacks, but is greatly out-performed by both specialty armors and the more desirable Combat Armors.\n\nThe sticker on the inside says ''Expires August 2092''."
 lang["#METALARMOR_DESC"] = "A piece of a full metal armor that was once used with the intention of protection from physical contact in sports. Now, used as protection from wasteland threats."
 lang["#PAINSPIKEARMOR_DESC"] = "Some torn pants with scavenged metal plates all over. This barely even counts as armor, let alone clothing."
 lang["#PREYSUIT_DESC"] = "A special suit for breaching dimentional boundaries, used by the masters of this universe."
 lang["#PREYHELMET_DESC"] = "The helmet that pairs with the dimensional breach suit. Removing it should slow you down enough to interact with the fleshlings."
 lang["#LUCKYSUIT_DESC"] = "77777777777777777777777777777"
-lang["#CHINESESTEALTH_DESC"] = "Chinese Stealth Suit."-- NEED DESC
-lang["#CHINESESTEALTHARMORED_DESC"] = "Armored Chinese Stealth Suit."-- NEED DESC
-lang["#CHINESESTEALTHREINFORCED_DESC"] = "Reinforced Chinese Stealth Suit."-- NEED DESC
-lang["#CHINESESTEALTHUNIQUE_DESC"] = "Phantom Dancer Suit."-- NEED DESC
+lang["#WARLORD_DESC"] = "A set of metal plates with a spray-painted white skull on the front. The armor is meant to look more intimidating than protective, you'd say. You should not be banking on this taking a bullet. Hopefully, the intimidation factor will work.\n\nIf it doesn't?\nWell, it's a lovely day to die."
+lang["#CHINESESTEALTH_DESC"] = "Composed of a dark black, form-fitting bodysuit with an opaque orange faceplate, the Hei Gui stealth armor is designed for one thing: making the operator nigh-invisible for high-risk espionage operations."
+lang["#CHINESESTEALTHARMORED_DESC"] = "This variant of the Hei Gui stealth armor has added plates, trading agility and stealth for the ability to take one or two capitalist bullets.\n\nBut certainly it could be made better. . ."
+lang["#CHINESESTEALTHREINFORCED_DESC"] = "This variant of the Hei Gui stealth armor has added vault steel plating and fibers to its composition, greatly affecting agility, but also allowing it to take quite a few capitalist bullets.\n\nThe apex of Cipher Technology."
+lang["#CHINESESTEALTHUNIQUE_DESC"] = "The person wearing this armor is probably super cool. mindbogglingly so.\n\nIf you're not Veni and wearing this armor...\nwhere did it all go wrong..."
 lang["#ENCLAVECOMMANDOSUIT_DESC"] = "A modified verion of the Advanced Hazmat Suit, the Enclave Special Ops. Suit is made to both repel radiation, and Mutie attacks."
 lang["#RADSUIT_DESC"] = "A full-body suit that can be worn to withstand heavily radioactive environments, but not much else."
 lang["#SADISTARMOR_DESC"] = "A leather corset and spiked tights with some metal plating here and there. Kinky."
@@ -401,7 +454,9 @@ lang["#T45DPOWER_DESC"] = "One of the first versions of power armor to be ever u
 lang["#ROADKILLPOWER_DESC"] = "The hallmark of an 80s Warchief, this fearsome armor is adorned with quite a few skulls.\n\nLittle known fact, the eyes are actually salvaged brakelights!"
 lang["#T51BPOWER_DESC"] = "The T-51B is the pride and joy of the Pre-War United States military. With high damage resistance, This turns anyone who wears it into a walking tank. The T-51 Requires a Power Armor Frame to be worn."
 lang["#RAIDERPOWER_DESC"] = "A bunch of random scrap metals welded to fit a power armor frame."
+lang["#T65POWER_DESC"] = "T-45 was a classic. T-51 was an improvement. T-60 was a last second upgrade, put into circulation by the time the bombs dropped.\n\nThe T-65 was a prototype at the time, and a promising one at that. This was the U.S. Military's apex of Power Armor development; but it simply wasn't circulated.\n\nThis might be one-of-a-kind!"
 lang["#MWPA_DESC"] = "A modified suit of T51b Power Armor which is said to be used by Brotherhood forces in the far east. It must've travelled a long way to get here."
+lang["#SIERRA_DESC"] = "A land of hardened survivors, mutants, and ruthless warlords. For the NCR to succeed, they needed more than just soldiers.\n\nThey needed icons that would inspire fear in their enemies and pride in their ranks. The Sierra Power Armor was born out of such necessity. A modified version of the standard T-45d Power Armor, it was not only meant for battle but to showcase the power and prestige of the NCR in the unforgiving Wasteland."
 lang["#ENCLAVEHAZMAT_DESC"] = "This radiation suit appears to be of unusually high quality.\n\nIt's a bright white with a golden visor. It also bears an insignia with the letter 'E'."
 lang["#SECRETAGENTSUIT_DESC"] = "Complete with interwoven ballistic fibers, flame-retardant silk, and built in persuasion emitters, this suit is perfect for any man with a license to kill.\n\nIt was tailored to your size."
 lang["#EXCAVATORPOWERARMOR_DESC"] = "The EXC-17 model of power armor was adapted from combat into an industrial role to be used with high powered mining equipment. Wearing a full set will grant a massive boost to carry weight."
@@ -412,17 +467,20 @@ lang["#ASSASSINSUIT_DESC"] = "An Experimental Lightweight suit with protective p
 -- Power Armor
 lang["#POWERARMORFRAME_DESC"] = "A mechanical suit of hydraulics and servo-motors, the frame itself offers little in the way of protection, but allows for the equipment of powerful power armor equipment.\nExtremely rare to find in good condition."
 lang["#POWERARMORFRAMESCRAP_DESC"] = "A less advanced version of its pre-war counterpart, this Power Armor frame is more commonly used by the gangsters and raiders of the post-apocalyptic wasteland."
+lang["#POWERARMOR_FITFOR"] = "\n\nModified and adapted to work on a Power Armor Frame." -- added tot he end of the description for powerarmor versions of mods
 
 --NPC/Faction Clothing
-lang["#CIPHERSUIT1_DESC"] = "Intern's Blazer." -- NEED DESC
-lang["#CIPHERSUIT2_DESC"] = "Contractor's Blazer." -- NEED DESC
-lang["#CIPHERSUIT3_DESC"] = "Associate's Blazer." -- NEED DESC
-lang["#CIPHERSUIT4_DESC"] = "Manager's Blazer." -- NEED DESC
-lang["#CIPHERSUIT5_DESC"] = "Executive's Blazer." -- NEED DESC
-lang["#ENCLAVEURBANFATIGUES_DESC"] = "Urban Enclave Fatigues." -- NEED DESC
-lang["#ENCLAVEFORESTFATIGUES_DESC"] = "Forest Enclave Fatigues."-- NEED DESC
-lang["#PALADINUNDERARMOR_DESC"] = "Paladin's Undersuit." -- NEED DESC
-lang["#SNOWPALADINUNDERARMOR_DESC"] = "Winterized Paladin's Undersuit." -- NEED DESC
+lang["#CIPHERSUIT1_DESC"] = "Given to those fresh on the operation, this Blue Suit has been woven with Cipher's proprietary blend of Ballistic Fiber and Spider Silk.\n\nYou are abound for great things."
+lang["#CIPHERSUIT2_DESC"] = "Only possessed by loyal Cipher members, this Tan Suit has been woven with Cipher's proprietary blend of Ballistic Fiber and Spider Silk.\n\nUpper management awaits!"
+lang["#CIPHERSUIT3_DESC"] = "Signifying the beginning of Upper Management, this Black Suit has been woven with Cipher's proprietary blend of Ballistic Fiber and Spider Silk.\n\nThere are still heights yet to reach!"
+lang["#CIPHERSUIT4_DESC"] = "The layman's zenith, this Gray Suit has been woven with Cipher's proprietary blend of Ballistic Fiber and Spider Silk.\n\nYou've done an excellent job thus far. Continue to do it, and maybe you'll be an Executive!"
+lang["#CIPHERSUIT5_DESC"] = "There will only ever be two Executives, and it shows in their fashion sense. This Checkered Suit has been woven with Cipher's proprietary blend of Ballistic Fiber and Spider Silk.\n\nYou now hold the keys to the kingdom." 
+lang["#ENCLAVEOFFICER_DESC"] = "A gray suit indicating a high rank amongst the Enclave. Time to yell about some lost Power Armor."
+lang["#ENCLAVEINTELOFFICER_DESC"] = "A black suit indicating a higher rank amongst the Enclave. You know exactly who to yell at about some lost Power Armor."
+lang["#ENCLAVEURBANFATIGUES_DESC"] = "A set of gray fatigues issued to Enclave troops deployed in urban environments. They're very durable, able to take .22 lr rounds with no issue. Imagine this thing with some armor on!"
+lang["#ENCLAVEFORESTFATIGUES_DESC"] = "A set of brown fatigues issued to Enclave troops deployed in urban environments. They're very durable, able to take .22 lr rounds with no issue. Imagine this thing with some armor on!"
+lang["#PALADINUNDERARMOR_DESC"] = "A gray suit given to those who have been granted the rank of Paladin. It's durable and cozy, intended for paladins to unwind after long shifts in Power Armor."
+lang["#SNOWPALADINUNDERARMOR_DESC"] = "A white suit given to those who have been granted the rank of Paladin. It's durable and cozy, intended for paladins to unwind after long shifts in Power Armor."
 
 --SuperMutant Armor Desc
 lang["#SM_CHESTHARNESS_DESC"] = "Hide straps and buckles fastening together what would seem to be derelict vehicle parts. #SUPERMUTANT_CLOTHES"
@@ -441,7 +499,16 @@ lang["#SM_CHESTBEASTMASTER_DESC"] = "This 'chestpiece' consists of a single stee
 lang["#SM_ARMSBEASTMASTER_DESC"] = "The wrists of these wraps have canine bitemarks on them, presumably from Centaur training. #SUPERMUTANT_CLOTHES" 
 lang["#SM_ARMGUARDS_DESC"] = "Recast and metal worked armguards for a very tall, very wide-framed man.\nIf it weren't for the arm holes, these would work as bullet shields. #SUPERMUTANT_CLOTHES"
 lang["#SM_HEAVYGAUNTLETS_DESC"] = "Industrial screw-clamps and large guage wire strapping down salvaged vehicle scrap.\nFar too large for a normal body size or fit. #SUPERMUTANT_CLOTHES"
-
+lang["#SM_COMBAT_TORSO_LIGHT_DESC"] = "SM Light Combat Torso." -- NEED DESC
+lang["#SM_COMBAT_TORSO_STURDY_DESC"] = "SM Sturdy Combat Torso." -- NEED DESC
+lang["#SM_COMBAT_TORSO_HEAVY_DESC"] = "SM Heavy Combat Torso." -- NEED DESC
+lang["#SM_COMBAT_ARMS_LIGHT_DESC"] = "SM Light Combat Arms." -- NEED DESC
+lang["#SM_COMBAT_ARMS_STURDY_DESC"] = "SM Sturdy Combat Arms." -- NEED DESC
+lang["#SM_COMBAT_ARMS_HEAVY_DESC"] = "SM Heavy Combat Arms." -- NEED DESC
+lang["#SM_COMBAT_LEGS_LIGHT_DESC"] = "SM Light Combat Legs." -- NEED DESC
+lang["#SM_COMBAT_LEGS_STURDY_DESC"] = "SM Sturdy Combat Legs." -- NEED DESC
+lang["#SM_COMBAT_LEGS_HEAVY_DESC"] = "SM Heavy Combat Legs." -- NEED DESC
+lang["#SM_COMBAT_HELMET_DESC"] = "SM Combat Helmet." -- NEED DESC
 
 --Helmet Description
 lang["#ARMYHELMET_DESC"] = "A Pre-War Army helmet, based on decades old conventional designs.\n\nProvides some minor ballistic and shrapnel protection, but lacking against energy based threats."
@@ -456,16 +523,19 @@ lang["#CHINESESTEALTHHELMET_DESC"] = "An advanced piece of technology created by
 lang["#CHINESESTEALTHARMOREDHELMET_DESC"] = "An advanced piece of technology created by the People's Liberation Army during their arms race with America. The mask is made of carefully woven basllistic fibers and advanced materials. The electronics inside allow it to interface with the suit making the user nigh-invisible."
 lang["#CHINESESTEALTHREINFORCEDHELMET_DESC"] = "An advanced piece of technology created by the People's Liberation Army during their arms race with America. The mask is made of carefully woven basllistic fibers and advanced materials. The electronics inside allow it to interface with the suit making the user nigh-invisible."
 lang["#CHINESESTEALTHUNIQUEHELMET_DESC"] = "An advanced piece of technology created by the People's Liberation Army during their arms race with America. The mask is made of carefully woven basllistic fibers and advanced materials. The electronics inside allow it to interface with the suit making the user nigh-invisible. This version is a pre-war prototype."
-lang["#BOSRECONHELMET_DESC"] = "Brotherhood Recon Helmet." -- NEED DESC
-lang["#RIOTARMORHELMET_DESC"] = "Riot Armor Helmet." -- NEED DESC
-lang["#NCRRIOTARMORHELMET_DESC"] = "NCR Riot Armor Helmet." -- NEED DESC
-lang["#DRRIOTARMORHELMET_DESC"] = "Desert Ranger Riot Armor Helmet." -- NEED DESC
-lang["#ADVRIOTARMORHELMET_DESC"] = "Advanced Riot Armor Helmet." -- NEED DESC
-lang["#NCRADVRIOTARMORHELMET_DESC"] = "Advanced NCR Riot Armor Helmet." -- NEED DESC
-lang["#DRADVRIOTARMORHELMET_DESC"] = "Advanced Desert Ranger Riot Armor Helmet." -- NEED DESC
-lang["#ELITERIOTARMORHELMET_DESC"] = "Elite Riot Armor Helmet." -- NEED DESC
-lang["#NCRELITERIOTARMORHELMET_DESC"] = "Elite NCR Riot Armor Helmet." -- NEED DESC
-lang["#DRELITERIOTARMORHELMET_DESC"] = "Elite Desert Ranger Riot Armor Helmet." -- NEED DESC
+lang["#BOSRECONHELMET_DESC"] = "Combat armor issued to recon troops of the U.S. military and subsequently the Brotherhood, created pre and post-war. Provides great resistance to most firearms.\n\nYou're well on the way to your first set of T-51, future Paladin!"
+lang["#DEEPCAVEHUNTERHELMET_DESC"] = "A Rock-Biter Explorer's Helmet, usually given to those overseeing mining operations.\n\nWith red overalls and plenty of PPE, you'll be perfectly safe spelunking the deepest caverns."
+lang["#WARLORDHELMET_DESC"] ="A set of metal plates with a spray-painted white skull on the front. The armor is meant to look more intimidating than protective, you'd say. You should not be banking on this taking a bullet. Hopefully, the intimidation factor will work.\n\nIf it doesn't?\nWell, it's a lovely day to die."
+lang["#RIOTARMORHELMET_DESC"] = "The Los Angeles Police Department fought tooth and nail to settle anti-war protests, and this helmet was their secret weapon. It took quite a bit of convincing for the Marine Corps to spare this stuff.\n\nThere are likely no riots to settle in the wasteland, and certainly no LAPD. Be proud of this helmet. You've earned it."
+lang["#NCRRIOTARMORHELMET_DESC"] = "The Los Angeles Police Department fought tooth and nail to settle anti-war protests, and this helmet was their secret weapon. It took quite a bit of convincing for the Marine Corps to spare this stuff.\n\nThe NCR has riddled this set with NCR iconography and insignias; it is uniquely their own."
+lang["#DRRIOTARMORHELMET_DESC"] = "The signature helmet worn by members of the Desert Rangers.\nIt appears to bear markings and writing that make the helmet out to be Pre-War in nature.\nThe numerous high-tech and machine manufactored finishes on the helmet may only be rivaled by the NCR."
+lang["#ADVRIOTARMORHELMET_DESC"] = "Well, maybe there are riots in the wasteland. Hordes of ghouls, roving gangs of angry supermutants, bandits as a whole, the list could go on ad infinitum.\n\nIt's a good thing you upgraded this helmet. Those bastards won't stand a chance now."
+lang["#80SADVRIOTARMORHELMET_DESC"] = "The Los Angeles Police Department fought tooth and nail to settle anti-war protests, and this helmet was their secret weapon. It took quite a bit of convincing for the Marine Corps to spare this stuff.\n\nThis helmet has a big Anarchy 'A' on top of it. Maybe it's time to start some riots?"
+lang["#NCRADVRIOTARMORHELMET_DESC"] = "Well, maybe there are riots in the wasteland. Hordes of ghouls, roving gangs of angry supermutants, cannibals as a whole, the list could go on ad infinitum.\n\nThe NCR has riddled this set with NCR iconography and insignias; it is uniquely their own."
+lang["#DRADVRIOTARMORHELMET_DESC"] = "The signature helmet worn by members of the Desert Rangers.\n\nIt's been reinforced with Advanced Materials and more polymer.\n\nIt's time to help those who simply cannot help themselves."
+lang["#ELITERIOTARMORHELMET_DESC"] = "Fully upgraded Riot Armor Helmet, reinforced with Vault Steel and Fibers. If the U.S. had this pre-war, the protests likely wouldn't have even started, and Anchorage would have been a slaughterhouse.\n\nAprès moi, le dèluge."
+lang["#NCRELITERIOTARMORHELMET_DESC"] = "Fully upgraded Riot Armor Helmet, reinforced with Vault Steel and Fibers. If the U.S. had this pre-war, the protests likely wouldn't have even started, and Anchorage would have been a slaughterhouse.\n\nToday, you are the waves of the pacific, defiant and enduring. Crash down upon the foes of the New California Republic."
+lang["#DRELITERIOTARMORHELMET_DESC"] = "The signature helmet worn by members of the Desert Rangers.\n\nIt's been reinforced with Vault Steel plates and fibers; it can take quite a beating now.\n\nIt's time to save the goddamn wasteland."
 lang["#FLIGHTREDHELMET_DESC"] = "A Pre-War helmet worn by military and private aviators.\n\nThis one is red."
 lang["#FLIGHTBROWNHELMET_DESC"] = "A Pre-War helmet worn by military and private aviators.\n\nThis one is brown."
 lang["#FLIGHTYELLOWHELMET_DESC"] = "A Pre-War helmet worn by military and private aviators.\n\nThis one is yellow."
@@ -488,7 +558,9 @@ lang["#SM_CAGEHELMET_DESC"] = "A Post-Modern gothic aesthetic. Something out of 
 lang["#SM_HELMET_DESC"] = "A singular casted or salvaged metal plate used as a 'cap'\nThis design is padded, but lacks a chin-strap seen in other similar designs. #SUPERMUTANT_CLOTHES"
 lang["#SM_BLADEDHELMET_DESC"] = "With a single metal blade jutting from the top, a type of warrior aesthetic is prominent in this helmet.\nFacial guards and a decent amount of intricacy allows for decent coverage. #SUPERMUTANT_CLOTHES"
 lang["#SM_HEADBEASTMASTER_DESC"] = "A Yao-guai pelt with a hollowed out head, presumably to fit *your* head.\nPerfect for letting other Yao-guai know that they're next. #SUPERMUTANT_CLOTHES"
-
+lang["#SM_POWER_HELMET_DESC"] = "This helmet has seen better days, the craftsmenship is sloppy and clearly lacks technique.\n\nDespite the shoddy metal working its effective enough to be quite protective. #SUPERMUTANT_CLOTHES"
+lang["#SM_SCRAPPOWER_HELMET_DESC"] = "SM Salvaged Scrap Power Armor Helmet." -- NEED DESC
+lang["#SM_ADVANCEDPOWER_HELMET_DESC"] = "SM Advanced Power Armor Helmet." -- NEED DESC
 
 --Clothing Desc
 lang["#ARMYFATIGUES_DESC"] = "An olive drab green colored BDU used by the pre=war U.S. Army.\n\nBattle Dress Uniforms, or fatigues, are camouflaged clothing worn by soldiers during combat.\n\nProvides boost to Commando skill, but negligible protection."
@@ -509,7 +581,14 @@ lang["#FLANNEL_DESC"] = "An flannel shirt, with a pair of jeans."
 lang["#FLANNEL_DESC_STARTER"] = "An old flannel shirt, with a pair of jeans. Lot's of people new to these parts of the wasteland are seen running around in these. And guess what, it still looks pretty good for its age!\n\n#STARTER_DEFAULT_DISCLAIMER"
 lang["#DRIFTER_DESC"] = "A well-worn outfit put together from assorted pieces of clothing found while scavenging the wastes.\n\nIt kind of reeks, and you think something may have died inside of one of the pockets."
 lang["#SCRIBEOPERATOR_DESC"] = "A protective robe designed to allow for mobile analysis while in the field.\n\nIt features several pouches along the belt to allow for transportation of research material."
-lang["#INITIATESFATIGUES_DESC"] = "Initiates Fatigues."
+lang["#INITIATESFATIGUES_DESC"] = "A set of robes given to initiates within the Brotherhood of Steel. It's very warm to counteract the cold metal bunkers."
+lang["#BROTHERHOODROBES_DESC"] = "A set of robes given to Scribes within the Brotherhood of Steel. It's very warm to counteract the cold metal bunkers."
+lang["#ELDERSROBES_DESC"] = "A set of robes made for the Elder of the Brotherhood of Steel. Maxson smiles upon you."
+lang["#UNITYROBES_DESC"] = "A set of red robes. They allow you to feel closer to the Master's warmth.\n\nWell, maybe they're just warm robes. Believe what you want to." 
+lang["#ROBES_DESC"] = "A set of brown robes, made of burlap and scrap cloth. Conceals your identity somewhat." 
+lang["#BRIDGEKEEPERROBES_DESC"] = "veni again again: sand what the fuck are the bridgekeeper robes\n\nveni again again: why does this exist\n\nEyefull: you keep the bridge"
+lang["#FOLLOWERSLABCOAT_DESC"] = "Worn by the Followers of the Apocalypse, this lab coat is stained with assorted bloods; yet you're sure only some of them are your own."
+lang["#VAULTJACKET_DESC"] = "Tunnel snakes rule! You look sick as hell in this get-up. Go steal some sweetrolls!"
 lang["#SCRIBEMEDICAL_DESC"] = "An outfit designed for medical practitioners, it features several pouches to allow for quick access to life-saving gear.\n\nYou wonder if the red stain on the pouches is blood or ketchup. It's a 50/50 toss."
 lang["#SCRIBEFATIGUES_DESC"] = "A uniform designed for individuals that are both off and on-duty. Pouches on the front allow for storage of magazines, ammunition, and snacks.\n\nHopefully someone isn't missing this, seeing as it's issued to them."
 lang["#SCRIBEENGINEER_DESC"] = "A heavy-duty garment designed for the wear-and-tear encountered when working on machinery.\n\nWhy use a toolbox when you can just add more pouches?"
@@ -549,45 +628,45 @@ lang["#WASTELANDCOMMON2_DESC"] = "A thick green jacket, great for those long, mo
 lang["#WASTELANDCOMMON3_DESC"] = "A crimson scout jacket filled with pockets."
 lang["#LONGJOHNS_DESC"] = "A pair of dirtied underclothes.\n\nTattered and held together with duct tape, it's the only thing seperating some people from nudity."
 lang["#BANDITBASE_DESC"] = "A mess of tattered cloth and belts, somewhat resembling clothing.\n\nThen again, the kind of people sporting this outfit aren't exactly big on ''social contracts''."
-
+lang["#DEATHCLAWHUNTER_DESC"] = "Scratch and bitemarks weather this armor, at the very least showing experience in fighting Deathclaws.\n\nIt's padded to protect against Deathclaws, but being honest, I wouldn't trust a set of padded clothing to stop an angry Matriarch."
 
 -- Backpack Descriptions
 lang["#FANNYPACK_DESC"] = "Really cool backpack used by Wizards."
 lang["#BACKPACK_FIELD_UPPER_DESC"] = "A survivor and a veteran of endless war, the M36 has served in the lines of the second world war and all the way up to the apocalypse. Its rugged, reliable and won’t let you down. Long ago packs like this flew off assembly lines in bulk, onto thousands of soldiers hitting the beaches. Nowadays this very backpack is worth its weight in gold!     "
 lang["#BACKPACK_FIELD_LOWER_DESC"] = "An expansion on an already great thing! This military grade utility belt can be worn independently from some other backpacks, allowing you to pick up every piece of trash you would haphazardly put into this poor thing! Violating everything great about it and using it as nothing more than glorified trash can… Its also made of canvas!!!"
-lang["#RUCKSACK_SMALL_DESC"] = "Can't hold a lot. But for what you trade in storage, you trade in speed. Run to your heart's content!" -- PENDING DESC
-lang["#RUCKSACK_LARGE_DESC"] = "Can hold quite a bit. It's already heavy, and you haven't even put anything in it yet!" -- PENDING DESC
-lang["#BACKPACK_EIGHTIES_DESC"] = "You're unsure if the tire was repurposed off of a motorcycle, or if it was always intended to stick on the bag.\n\nThe tire makes it look noticably badass regardless." -- PENDING DESC
-lang["#BACKPACK_CAVE_DESC"] = "A backpack you can trust deep underground. All mining related equipment like limestone, raw ore, etc, weighs 15% less." -- PENDING DESC
-lang["#BACKPACK_BOS_RADIO_DESC"] = "A radio backpack utilized by Brotherhood Scribes, Initiates, and anyone who stole one. \n\nReduces energy ammo weight by 10%." -- PENDING DESC
-lang["#BACKPACK_ENCLAVE_RADIO_DESC"] = "A radio backpack utilized by the Enclave. It fills you with pride, patriotism, and a drive to purge any mutie you see.\n\nReduces energy ammo weight by 15%." -- PENDING DESC
-lang["#BACKPACK_COURIER_DESC"] = "Made for long journeys with ample packages, this bag will never let a prospective courier down. The present on the back isn't addressed to you; it'd be rude to open it!" -- PENDING DESC
-lang["#BACKPACK_PILLAGER_DESC"] = "Grognak might've worn one of these! The skull is seemingly blocking a large hole in the bag; you cannot remove it." -- PENDING DESC
-lang["#BACKPACK_PACKRAT_DESC"] = "This backpack is a hoarder's dream. It makes you want to grab 160lb dumbbells more often! \n\nWell, on second thought, it cant hold THAT much. It makes you want to grab 20lb dumbbells more often." --PENDING DESC
-lang["#BACKPACK_MECHANIC_DESC"] = "The backpack equivalent of a toolbox. Reduces the weight of common crafting resources like scrapmetal and cloth by 10%" -- PENDING (better) DESC
-lang["#BACKPACK_RANGER_RADIO_DESC"] = "A Desert Ranger's radio backpack. If it was still functional, you would probably hear requests for more Turpentine. \n\nReduces ballistic ammo weight by 10%." --PENDING DESC
-lang["#BACKPACK_TRIBAL_DESC"] = "A big bag with a little map of the west drawn in the inside. Not incredibly useful, but it'll make long hauls a little easier to navigate." -- PENDING DESC
-lang["#BACKPACK_NCR_TROOPER_DESC"] = "An NCR soldier's pride and joy. Rumor says it was made with ballistic fiber, but you can't tell the difference.\n\nReduces ballistic ammo weight by 15%." -- PENDING DESC
-lang["#BACKPACK_MEDICAL_DESC"] = "Words like 'Triage' and 'Amputation' seem to echo in your mind whilst wearing this. Makes you feel like a real medical professional! \n\nThis Backpack reduces the weight of medical items and Darts." -- PENDING DESC
-lang["#BACKPACK_TRIBAL_BASKET_DESC"] = "A basket for holding all manner of mutated fruit and vegetable.\n\nReduces the weight of all picked plants by 15%." -- PENDING DESC
-lang["#BACKPACK_LAVISH_DESC"] = "This bag indicates to every bandit that you're absolutely ROLLING in it. Well, at least you'll leave a pretty corpse." -- PENDING DESC
-lang["#BACKPACK_WANDERER_DESC"] = "Part of Nuka Cola's 'Little Explorer' line, this children's backpack is perfect for storing a healthy helping of Nuka Cola. It won't make the bottles any lighter, though." -- PENDING DESC
-lang["#BACKPACK_COOLER_DESC"] = "It makes you want to share an ice cold Nuka Cola with both friend and foe alike. Wartime is much less fun than Nuka Time!\n\nReduces the weight of Nuka-Cola and Nuka-Cola products by 25%." -- PENDING DESC 
-lang["#BACKPACK_SHELL_DESC"] = "Despite its size, it couldn't defend against a swarm of hungry Mirelurks.\n\nAgainst bullets, though? Yet to be tested." -- PENDING DESC
-lang["#BACKPACK_SCAVENGER_DESC"] = "Don't tell anyone, but the fire extinguisher attached to this is just for show. Don't try to fight any fires-it'll be really awkward." -- PENDING DESC
+lang["#RUCKSACK_SMALL_DESC"] = "Can't hold a lot. But for what you trade in storage, you trade in speed. Run to your heart's content!"
+lang["#RUCKSACK_LARGE_DESC"] = "Can hold quite a bit. It's already heavy, and you haven't even put anything in it yet!"
+lang["#BACKPACK_EIGHTIES_DESC"] = "You're unsure if the tire was repurposed off of a motorcycle, or if it was always intended to stick on the bag.\n\nThe tire makes it look noticably badass regardless."
+lang["#BACKPACK_CAVE_DESC"] = "A backpack you can trust deep underground. All mining related equipment like limestone, raw ore, etc, weighs 20% less."
+lang["#BACKPACK_BOS_RADIO_DESC"] = "A radio backpack utilized by Brotherhood Scribes, Initiates, and anyone who stole one. \n\nReduces energy ammo weight by 40%."
+lang["#BACKPACK_ENCLAVE_RADIO_DESC"] = "A radio backpack utilized by the Enclave. It fills you with pride, patriotism, and a drive to purge any mutie you see.\n\nReduces energy ammo weight by 50%."
+lang["#BACKPACK_COURIER_DESC"] = "Made for long journeys with ample packages, this bag will never let a prospective courier down. The present on the back isn't addressed to you; it'd be rude to open it!"
+lang["#BACKPACK_PILLAGER_DESC"] = "Grognak might've worn one of these! The skull is seemingly blocking a large hole in the bag; you cannot remove it."
+lang["#BACKPACK_PACKRAT_DESC"] = "This backpack is a hoarder's dream. It makes you want to grab 160lb dumbbells more often! \n\nWell, on second thought, it cant hold THAT much. It makes you want to grab 20lb dumbbells more often."
+lang["#BACKPACK_MECHANIC_DESC"] = "The backpack equivalent of a toolbox. Reduces the weight of common crafting resources like scrapmetal and cloth by 15%"
+lang["#BACKPACK_RANGER_RADIO_DESC"] = "A Desert Ranger's radio backpack. If it was still functional, you would probably hear requests for more Turpentine. \n\nReduces ballistic ammo weight by 40%."
+lang["#BACKPACK_TRIBAL_DESC"] = "A big bag with a little map of the west drawn in the inside. Not incredibly useful, but it'll make long hauls a little easier to navigate."
+lang["#BACKPACK_NCR_TROOPER_DESC"] = "An NCR soldier's pride and joy. Rumor says it was made with ballistic fiber, but you can't tell the difference.\n\nReduces ballistic ammo weight by 30%."
+lang["#BACKPACK_MEDICAL_DESC"] = "Words like 'Triage' and 'Amputation' seem to echo in your mind whilst wearing this. Makes you feel like a real medical professional! \n\nThis Backpack reduces the weight of medical items and Darts."
+lang["#BACKPACK_TRIBAL_BASKET_DESC"] = "A basket for holding all manner of mutated fruit and vegetable.\n\nReduces the weight of all picked plants by 15%."
+lang["#BACKPACK_LAVISH_DESC"] = "This bag indicates to every bandit that you're absolutely ROLLING in it. Well, at least you'll leave a pretty corpse."
+lang["#BACKPACK_WANDERER_DESC"] = "Part of Nuka Cola's 'Little Explorer' line, this children's backpack is perfect for storing a healthy helping of Nuka Cola. It won't make the bottles any lighter, though."
+lang["#BACKPACK_COOLER_DESC"] = "It makes you want to share an ice cold Nuka Cola with both friend and foe alike. Wartime is much less fun than NukaTime!\n\nReduces the weight of Nuka-Cola and Nuka-Cola products by 25%." 
+lang["#BACKPACK_SHELL_DESC"] = "Despite its size, it couldn't defend against a swarm of hungry Mirelurks.\n\nAgainst bullets, though? Yet to be tested."
+lang["#BACKPACK_SCAVENGER_DESC"] = "Don't tell anyone, but the fire extinguisher attached to this is just for show. Don't try to fight any fires-it'll be really awkward."
 lang["#BACKPACK_EVILJEN_DESC"] = "The source of Evil Jensen's power. You should NOT have this."
 -- SuperMutant Backpack --
-lang["#BACKPACK_TRADER_SM_DESC"] = "SM Trader's Rucksack" -- NEED DESC
-lang["#BACKPACK_SHELL_SM_DESC"] = "The turtle this once belonged to must've been legendary. It's now your responsibility to carry that legend on. #SUPERMUTANT_CLOTHES" -- PENDING DESC
-lang["#BACKPACK_AMMO_SM_DESC"] = "A Super Mutant's best friend. When you simply want to fire a minigun *that* much longer, this bag has got you covered.\n\nReduces ballistic ammo weight by 10%. #SUPERMUTANT_CLOTHES" -- PENDING DESC
-lang["#BACKPACK_BOMB_SM_DESC"] = "A remnant of one Super Mutant's dream to go to space. The rocket is completely hollow, though. How would this go to space?\n\nReduces explosive ammo weight by 10%. #SUPERMUTANT_CLOTHES" -- PENDING DESC
-lang["#BACKPACK_FIRE_SM_DESC"] = "I'll save you the fire puns.\n\nReduces the weight of flamer fuel by 50%. #SUPERMUTANT_CLOTHES" -- PENDING DESC
-lang["#BACKPACK_FUZZY_SM_DESC"] = "No matter how far you fall, Mr. Fuzzy believes in you! You'll always have one friend in the wasteland. #SUPERMUTANT_CLOTHES" -- PENDING DESC
-lang["#BACKPACK_TOMB_SM_DESC"] = "Graverobbing is not commonly seen as a Super Mutant's ideal activity. Pillaging and raiding, sure, but graverobbing? It bores you just thinking about it. #SUPERMUTANT_CLOTHES" -- PENDING DESC
-lang["#BACKPACK_WHEELBARROW_SM_DESC"] = "It's not very comfortable, but it'll certainly protect you from back attacks. The spikes on the handles add a nice intimidation factor too! #SUPERMUTANT_CLOTHES" -- PENDING DESC
-lang["#BACKPACK_BOMBER_SM_DESC"] = "A big bomb with small sacks tied to it. The bomb may be inert, but your enemies don't know that.\n\nReduces the weight of explosive ammo by 5%. #SUPERMUTANT_CLOTHES" -- PENDING DESC
-lang["#BACKPACK_HOARDER_SM_DESC"] = "Sure, you can be a wrathful Super Mutant. But with this backpack, why not be greedy too? #SUPERMUTANT_CLOTHES" -- PENDING DESC
-lang["#BACKPACK_TOOLBOX_SM_DESC"] = "This backpack was made to fall into the hands of one smart Super Mutant. It's time to get crafting!\n\nReduces the weight of common crafting resources like scrapmetal and cloth by 10%. #SUPERMUTANT_CLOTHES" -- PENDING DESC
+lang["#BACKPACK_TRADER_SM_DESC"] = "SM Trader's Rucksack." -- NEED DESC
+lang["#BACKPACK_SHELL_SM_DESC"] = "The turtle this once belonged to must've been legendary. It's now your responsibility to carry that legend on. #SUPERMUTANT_CLOTHES" 
+lang["#BACKPACK_AMMO_SM_DESC"] = "A Super Mutant's best friend. When you simply want to fire a minigun *that* much longer, this bag has got you covered.\n\nReduces ballistic ammo weight by 10%. #SUPERMUTANT_CLOTHES" 
+lang["#BACKPACK_BOMB_SM_DESC"] = "A remnant of one Super Mutant's dream to go to space. The rocket is completely hollow, though. How would this go to space?\n\nReduces explosive ammo weight by 10%. #SUPERMUTANT_CLOTHES" 
+lang["#BACKPACK_FIRE_SM_DESC"] = "I'll save you the fire puns.\n\nReduces the weight of flamer fuel by 50%. #SUPERMUTANT_CLOTHES" 
+lang["#BACKPACK_FUZZY_SM_DESC"] = "No matter how far you fall, Mr. Fuzzy believes in you! You'll always have one friend in the wasteland. #SUPERMUTANT_CLOTHES" 
+lang["#BACKPACK_TOMB_SM_DESC"] = "Graverobbing is not commonly seen as a Super Mutant's ideal activity. Pillaging and raiding, sure, but graverobbing? It bores you just thinking about it. #SUPERMUTANT_CLOTHES" 
+lang["#BACKPACK_WHEELBARROW_SM_DESC"] = "It's not very comfortable, but it'll certainly protect you from back attacks. The spikes on the handles add a nice intimidation factor too! #SUPERMUTANT_CLOTHES" 
+lang["#BACKPACK_BOMBER_SM_DESC"] = "A big bomb with small sacks tied to it. The bomb may be inert, but your enemies don't know that.\n\nReduces the weight of explosive ammo by 5%. #SUPERMUTANT_CLOTHES" 
+lang["#BACKPACK_HOARDER_SM_DESC"] = "Sure, you can be a wrathful Super Mutant. But with this backpack, why not be greedy too? #SUPERMUTANT_CLOTHES" 
+lang["#BACKPACK_TOOLBOX_SM_DESC"] = "This backpack was made to fall into the hands of one smart Super Mutant. It's time to get crafting!\n\nReduces the weight of common crafting resources like scrapmetal and cloth by 10%. #SUPERMUTANT_CLOTHES"
 
 -- Appended to end of all of the super mutant clothings!
 lang["#SUPERMUTANT_CLOTHES"] = "\n\nThis outfit is in the size of a Super Mutant."
@@ -601,7 +680,9 @@ lang["#BEANIEGREEN_DESC"] = "A green colored wool knit hat, also known as a Bean
 lang["#BEANIEHIPPY_DESC"] = "A brightly colored wool knit hat, also known as a Beanie.\n\nPopular with longshoremen and others that work in chilly environments.\n\nAnd you wonder what kind of a jackass would wear this."
 lang["#BERETGREEN_DESC"] = "A beret previously worn by Pre-War military special forces."
 lang["#BERETRED_DESC"] = "A beret previously worn by Pre-War paratroopers."
-lang["#PALADINSCOWL_DESC"] = "Paladin's Cowl." -- NEED DESC
+lang["#PALADINSCOWL_DESC"] = "A cowl for Paladins within the Brotherhood of Steel. Your ears are quite warm!"
+lang["#ENCLAVEOFFICERHAT_DESC"] = "A hat for officers within the Enclave. It fills you with a sense of authority."
+lang["#ENCLAVEINTELOFFICERHAT_DESC"] = "A hat for intel officers within the Enclave. It fills you with a greater sense of authority."
 lang["#BOSCAPTAINHAT_DESC"] = "With a hat like this, you'll look like just as big of a technology hoarding prick as people claim you really are!"
 lang["#BOSFIELDCOVER_DESC"] = "An aviators hood combined with a small military cap and goggles.\n\n\nNot sure why you couldnt just settle with one or the other."
 lang["#BOWLER_DESC"] = "A black dome-shaped hat with a matching sweatband.\n\nAlso know as a Derby, it is made of a hard, dark felt, and was very popular for its durability, back when they didn't have to worry about giant ants."
@@ -620,10 +701,15 @@ lang["#HEADWRAP_DESC"] = "Wraps around your head and keeps the sweat out of your
 lang["#MAYORSHAT_DESC"] = "A dark beige colored hat  often worn with semi-formal clothing.\n\nNot to be confused with a fedora."
 lang["#NCRPATROLRANGERHAT_DESC"] = "A khaki-colored hat used by the NCR.\n\nIt is made of a stiff light material and sports a polished brass Ranger cap badge, worn together as part of a uniform alongside handmade combat armor.\n\nProvides negligible protection."
 lang["#PARTYHAT_DESC"] = "A hat used during Pre-War celebrations."
-lang["#BANDANAGOGGLES_DESC"] = "Banana w/ Goggles" -- NEED DESC, must include banana
+lang["#BANDANAGOGGLES_DESC"] = "The Bandana w/ Goggles is clearly just a red bandana with some... \n\nwait did you read the name right?"
 lang["#PROSPECTORBLACKHAT_DESC"] = "An old fashioned western hat with a very wide and flat brim, and a rounded top, sporting a black color.\n\nWith a hat like this, you'll be Boss of the Plains."
 lang["#PROSPECTORYELLOWHAT_DESC"] = "An old fashioned western hat with a very wide and flat brim, and a rounded top, sporting a natural color.\n\nWith a hat like this, you'll be Boss of the Plains."
 lang["#RAGHOOD_DESC"] = "A makeshift hood jury-rigged out of clothing.\n\nNot much to look at, but then again, you're no prize yourself."
+lang["#UNITYHOOD_DESC"] = "A red hood, concealing your identity somewhat. The master smiles down upon you."
+lang["#ELDERSHOOD_DESC"] = "A gray hood, denoting the Elder of the Brotherhood of Steel. Maxson would be proud."
+lang["#BROTHERHOODROBESHOOD_DESC"] = "The hood for the brotherhood. This hood is good, and given to BOS members who reach adulthood. I ran out of rhymes."
+lang["#HOOD_DESC"] = "A brown hood that slightly hides your identity."
+lang["#BRIDGEKEEPERHOOD_DESC"] = "veni again again: sand what the fuck is the bridgekeeper hood\n\nveni again again: why does this exist\n\nEyefull: you keep the bridge"
 lang["#RAINBLACK_DESC"] = "A black rain hat, also known as a slicker.\n\nPopular with deep sea fishermen and those who like to sing in the rain."
 lang["#RAINYELLOW_DESC"] = "A yellow rain hat, also known as a slicker.\n\nPopular with deep sea fishermen and those who like to sing in the rain."
 lang["#SEACAPTAINHAT_DESC"] = "Despite humanity's best efforts, the ocean still exists!\n\nLord your dominion over what is left with this hat."
@@ -648,6 +734,8 @@ lang["#POLICEGLASSES_DESC"] = "Glasses, but cooler."
 lang["#WIG1_DESC"] = "For when you've got no time for a haircut, or have a bad history with patterns."
 lang["#WIGPOMPADOUR_DESC"] = "For when your hair has left the building."
 lang["#WIGCONE_DESC"] = "For when you need to stand out like a sore thumb. Literally."
+lang["#DEATHCLAWHUNTERMASK_DESC"] = "A trapper hat combined with a camoflauged face covering and goggles. How does this help with hunting deathclaws again?"
+
 
 
 
@@ -704,6 +792,7 @@ lang["#BATON_NAME"] = "Baton"
 lang["#POWERFIST_NAME"] = "Power Fist"
 lang["#SICKLE_NAME"] = "Sickle"
 lang["#BONEKNIFE_NAME"] = "Bone Knife"
+lang["#BONECLUB_NAME"] = "Bone Club"
 lang["#BONESWORD_NAME"] = "Bone Sword"
 lang["#CANOPENER_NAME"] = "Can Opener"
 
@@ -716,6 +805,7 @@ lang["#INDUSTRIALGAUNTLET_DESC"] = "A glove with a sawblade attached to the back
 lang["#PLASMACUTTER_DESC"] = "A cutting tool meant for quickly melting through steel in both industrial and rescue contexts.\n\nIn your hands? Certainly not rescuing anybody."
 lang["#PICKAXE_DESC"] = "You unfortunately won't be able to easily mine cars with this.\n\nYou can easily mine for someone's grey matter though!"
 lang["#SWORD_DESC"] = "Thousands of folds form this blade, crafted with pre-war steel, and forged in post-war blood.\n\nAll of that is irrelevant; this blade will be a sharp stick in a time of need."
+lang["#BONECLUB_DESC"] = "A large bone made into a club ... \n\nyou're going to use it aren't you?"
 lang["#SICKLE_DESC"] = "Fields of wheat are unfortunately few and far between in the wasteland. However, it's certainly sharp enough to separate a neck from a body.\n\nMurder is certainly more profitable than farming."
 lang["#BONEKNIFE_DESC"] = "This primitive weapon is composed of a small piece of bone attached to a sharpened shard of obsidian. It'll cut through Deathclaw hide alright. "
 lang["#BONESWORD_DESC"] = "This primitve weapon is composed of an antler attached to a sharpened slab of obsidian. This one won't just cut through Deathclaw hide, it'll behead it." 
@@ -773,8 +863,11 @@ lang["#TRILASER_NAME"] = "Tri-Beam Laser Gun"
 lang["#PLASMACASTER_NAME"] = "Plasma Caster"
 lang["#PLASMACASTERTURBO_NAME"] = "Turbo Plasma Caster"
 lang["#GAUSSRIFLE_NAME"] = "Gauss Rifle"
+lang["#GAUSSPISTOL_NAME"] = "Gauss Pistol"
+lang["#M72_NAME"] = "M72 Gauss Driver"
 lang["#RCW_NAME"] = "Laser RCW"
---[[
+lang["#SOLARCANNON_NAME"] = "Solar Cannon"
+
 lang["#INCENERATOR_NAME"] = "Incinerator"
 lang["#FLAMER_NAME"] = "Flamer"
 lang["#P95_NAME"] = "P95 Turbo Plasma Rifle"
@@ -783,8 +876,8 @@ lang["#WATZ1k_NAME"] = "Wattz Laser Pistol"
 lang["#HOLORIFLE_NAME"] = "Hologram Rifle"
 lang["#PULSERIFLE_NAME"] = "YK42 Pulse Rifle"
 lang["#PPK12_NAME"] = "PPK12 Gauss Pistol"
-lang["#PLASMADEFENDER_NAME"] = "Glock 86"
-]]
+lang["#PLASMADEFENDER_NAME"] = "Plasma Defender"
+
 
 -- Plasma
 
@@ -837,20 +930,23 @@ lang["#AERRIFLE_STARTER_DESC"] = "A defective laser carbine pieced together from
 lang["#AERRIFLE_DESC"] = "The AER9 Laser Rifle is a high-power laser rifle that makes use of a crystal array, and was on track to be fielded by domestic military units prior to the Great War."
 lang["#PLASMACASTER_DESC"] = "The Winchester P94 Caster was used as an industrial destruction tool utilizing plasma bolts before the the war.\n\nNow it's just a destruction tool that uses plasma bolts.\n\n#WIP_DESC"
 lang["#PLASMAGUN_DESC"] = "Plasma rifles are high-tech weapons which find numerous applications in military and industrial fields.\n\nThe plasma bolt is a toroid of superheated hydrogen gas that delivers high levels of both thermal and kinetic energy damage to the target, melting through most types of armors and causing massive 3rd-degree and 4th-degree burns."
+lang["#M72_DESC"] = "The M72 Gauss Driver is of German design. It uses an electromagnetic field to propel rounds at tremendous speed... and pierce almost any obstacle. Its range, accuracy and stopping power is almost unparalleled."
 lang["#GAUSSRIFLE_DESC"] = "The Gauss Rifle uses magnetic induction to propel a projectile at an incredible and devastating speed.\n\nEach shot can be charged for maximum damage by keeping the trigger held for a moment before releasing."
+lang["#GAUSSPISTOL_DESC"] = "The PPK12 Gauss Pistol has unrivaled range, accuracy and damage in its class."
 lang["#RCW_DESC"] = "A precursor to the Gatling Laser, the unique feature of this weapon is the addition of a rotating capacitor bank.\n\nThis capacitor rotation allows the Laser RCW to operate like a ''laser assault rifle'', avoiding the rate-of-fire limitations of a single capacitor design."
 lang["#TRILASER_DESC"] = "A heavily modified weapon formed by combining multiple lasers.\n\nFires 3 full-powered beams per trigger pull, while consuming just as much ammo.\n\nMassivly improved damage output compaired to the standard Laser Rifle, but it's hastily improvised design requires much more frequent maintenance.\n\n#WIP_DESC"
 lang["#FLAMER_DESC"] = "The Flambe model 450 Flamer Varmiter version. Shoots hot napalm out for 'bug extermination'."
---[[
+lang["#SOLARCANNON_DESC"] = "Developed by Posedion Energy before the Great War, the Solar Cannon is a energy weapon that can fire a ball of solar energy using microfusion cells.\n\n It was intended for crowd control but was found to be too unstable."
+
 lang["#AER9_DESC"] = "The AER9 is a high-tech weapon that emits a concentrated beam of coherent light, with sufficient wattage to do considerable damage.\n\nFar sturdier and more reliable, it's much more commonly found than the models that followed."
 lang["#AEP7_DESC"] = "The AEP7 laser was put into service to replace the N99 as the standard issue sidearm for military forces.\n\nWhile civilian models utilize a laser diode, military models employ a photonic focusing chamber and crystal array, creating a tighter, more destructive beam."
-lang["#PLASMADEFENDER_DESC"] = "Glock 86 Plasma Pistol, designed by the Gaston Glock artificial intelligence.\n\nShoots a small bolt of superheated plasma.\n\nPowered by a small energy cell."
+lang["#PLASMADEFENDER_DESC"] = "Glock 86 Plasma Pistol, designed by the Gaston Glock artificial intelligence.\n\nShoots a small bolt of superheated plasma.\n\nPowered by Microfusion Cells."
 lang["#PULSERIFLE_DESC"] = "The YK42B is an electrical pulse weapon that was developed by the Yuma Flats Energy Consortium.\n\nIt is considered a far superior weapon to the YK32 pulse pistol, having a greater charge capacity and range."
 lang["#WATZ2k_DESC"] = "The Wattz 2000 is a consumer-grade high-tech laser rifle that uses high-energy light as a means of damage, striking it's target instantly at any range."
 lang["#WATZ1k_DESC"] = "The Wattz 1000 is a consumer-grade laser created by the Wattz Corporation. It uses a laser focusing diode instead of a crystal array, decreasing it's damage."
 lang["#PPK12_DESC"] = "A hand-held weapon of German design utilizing electromagnetic coils to propel metal slugs at extremely high velocities. They fire an incredibly small 2mm round at speeds just under the speed of light, tearing through just about any armor."
 lang["#P95_DESC"] = "An early prototype, the Winchester P95 Plasma rifle was never officially mass produced due to it's expensive materials cost and bulky design.\n\nDespite this, the weapon is deadly thanks to it's experimental plasma accelerator, allowing the weapon to project plasma at extreme speeds."
-]]
+
 -- ██████╗ ██╗   ██╗███╗   ██╗███████╗
 --██╔════╝ ██║   ██║████╗  ██║██╔════╝
 --██║  ███╗██║   ██║██╔██╗ ██║███████╗
@@ -882,6 +978,7 @@ lang["#PIPERIFLE_STARTER_SMG_NAME"] = "Scrap SMG"
 lang["#PIPERIFLEBOLT_NAME"] = "Pipe Bolt-Gun"
 lang["#VARMINT_NAME"] = "Varmint Rifle"
 lang["#VARMINT_STARTER_NAME"] = "Bubba'ed Varmint Rifle"
+lang["#BAR_NAME"] = "Browning Automatic Rifle"
 lang["#MACHINEGUN_NAME"] = "Light Machine Gun"
 lang["#G11_NAME"] = "Salvo Rifle"
 
@@ -920,7 +1017,9 @@ lang["#USP_NAME"] = "9mm Combat Pistol"
 lang["#USP45_NAME"] = ".45 Combat Pistol"
 lang["#MAUSER_NAME"] = "Mauser Pistol"
 lang["#10MMPISTOL_NAME"] = "10mm Pistol"
+lang["#10MMREVOLVER_NAME"] = "10mm Revolver"
 lang["#12.7MMPISTOL_NAME"] = "12.7mm Pistol"
+lang["#14.5MMPISTOL_NAME"] = "14.5mm Pistol"
 lang["#357MAGNUM_NAME"] = ".357 Revolver"
 lang["#357MAGNUM_STARTER_NAME"] = "Rusted Magnum"
 lang["#44MAGNUM_NAME"] = ".44 Magnum Revolver"
@@ -928,12 +1027,14 @@ lang["#DEAGLE357_NAME"] = ".357 Desert Eagle"
 lang["#DEAGLE_NAME"] = ".44 Desert Eagle"
 lang["#WASTELANDHAWK_NAME"] = "Wasteland Hawk"
 lang["#HUNTINGREVOLVER_NAME"] = "Hunting Revolver"
+lang["#SEQUOIA_NAME"] = "Rangers Sequoia"
 lang["#NEEDLER_NAME"] = "HK Needler"
 lang["#M9FS_NAME"] = "9mm Pistol"
 lang["#M9FS_STARTER_NAME"] = "Weathered 9mm Pistol"
 lang["#1911PISTOL_NAME"] = ".45 Auto Pistol"
 lang["#1911CAV_NAME"] = "Cavalry Handgun"
 lang["#DETECTIVEPISTOL_NAME"] = "Detective Pistol"
+lang["#MARKSMANPISTOL_NAME"] = "Marksman Pistol"
 
 
 lang["#1911DELTA_NAME"] = "Delta Elite"
@@ -951,6 +1052,7 @@ lang["#GREASEGUN_NAME"] = "The Tanker"
 
 --heavy
 lang["#MINIGUN_NAME"] = "5mm Minigun"
+lang["#AVENGER_NAME"] = "Avenger Minigun"
 lang["#VINDICATOR_NAME"] = "Vindicator Minigun"
 --other
 lang["#SYRINGER_NAME"] = "Dart Gun"
@@ -960,8 +1062,10 @@ lang["#RAILRIFLE_NAME"] = "Railway Rifle"
 --explosive
 lang["#APW_NAME"] = "25mm APW"
 lang["#M79_NAME"] = "Break-Action Grenade Rifle"
+lang["#SKYBREAKER_NAME"] = "Skybreaker"
 lang["#FATMAN_NAME"] = "Fat-Man"
 lang["#MISSILELAUNCHER_NAME"] = "Missile Launcher"
+lang["#REDGLARE_NAME"] = "Red Glare"
 -------------------------------------------------------
 --Guns Desc
 -------------------------------------------------------
@@ -991,6 +1095,7 @@ lang["#PIPERIFLEBOLT_DESC"] = "A simple, but effective weapon. Fashioned from le
 lang["#VARMINT_DESC"] = "A Pre-War rifle typically used in hunting small game.\n\nLower powered than it's .308 cousin, but much more common, as is it's ammo.\n\nChambered in 5.56.\n\n#WIP_DESC"
 lang["#VARMINT_STARTER_DESC"] = "A terribly mistreated varmint rifle chambered in 5.56.\n\nThis gun saw it's share of abuse long before the bombs dropped, and the following years have't been any kinder."
 lang["#MACHINEGUN_DESC"] = "A fully automatic support machinegun.\n\nChambered in 5.56 and sporting a 90 round magazine by default, this is one of the more intimidating Pre-War small arms surviving still today.\n\nUnfortunately, you'll need the combined strength and resources of an army to carry and feed it."
+lang["#BAR_DESC"] = "This air-cooled automatic rifle, chambered for .308 caliber rounds, is one of the rarest types of weaponry in the pre-War United States.\n\n The automatic rifle was extensively used by U.S. forces in World War I, World War II, and the Korean War."
 lang["#G11_DESC"] = "The HK G11 K2 is one of the most advanced assault rifles created.\n\nIt is capable of firing salvos of caseless 4.7mm which exit the gun before any recoil can even be felt.\n\nDue to complex construction and rare materials, as well as specialized ammo that is difficult to procure, this rifle is exceedingly rare."
 
 lang["#SVD_DESC"] = "A lengthy rifle. Similar to the Soviet Rifle, but is capable of firing .308 rounds, which makes it a great sniper to use."
@@ -1015,7 +1120,7 @@ lang["#TOZ34_DESC"] = "An Over/Under shotgun. Popular in hunting and Pre-War sho
 lang["#870_DESC"] = "A pump action shotgun. Popular in hunting and Pre-War home protection.\n\nCapable of firing 12 Gauge shotgun shells, of which various types exist."
 lang["#STREETSWEEPER_DESC"] = "A semi-automatic shotgun with a drum magazine.\n\nCapable of firing 12 Gauge shotgun shells, of which various types exist.\n\nSeen infrequently in the hands of Pre-War military units and police departments, this model has found renewed popularity post war by just about anyone able to get their hands on it.\n\n#WIP_DESC"
 lang["#SPAS12_DESC"] = "A semi-automatic shotgun with a tube magazine.\n\nCapable of firing 12 Gauge shotgun shells, of which various types exist.\n\nA high-end imported model popular with police departments and firearms enthusiasts alike, its high rate of fire is great for dealing with multiple targets."
-lang["#SALVATION_DESC"] = "This well-made reliable shotgun is primarily characterized by its high fire-rate, a marked improvement over other Police Shotgun models.\n\n It unfortunately has a mangled over/under rail. It'll be hard to aim down these sights." 
+lang["#SALVATION_DESC"] = "This well-made reliable shotgun is primarily characterized by its high fire-rate, a marked improvement over other Police Shotgun models.\n\nIt unfortunately has a mangled over/underrail. It'll be hard to aim down these sights." 
 
 lang["#FUDD_DESC"] = "A coming-of-age gift from a father, intended for his now late son, taken before his time.\n\n\n\nIt's Crow Season."
 lang["#COACHGUN_DESC"] = "A double barrel shotgun specially modified by the 80s Tribe.\n\nCoach guns feature a full length stock but a cut down barrel. This particular shotgun fires both barrels at once; a nasty surprise for unarmored targets.\n\nIncapable of firing slugs.\n\n''Shoot this at a trooper's unarmored legs and watch them turn to jelly.'' -Gridlock"
@@ -1025,7 +1130,10 @@ lang["#COACHGUN_DESC"] = "A double barrel shotgun specially modified by the 80s 
 lang["#USP_DESC"] = "An H&k USP, made in a foreign country.\n\nOnce marketed towards international law lnforcement and military use, this pistol never saw adoption in the U.S.\n\nPlagued by competition with dometic manufacturers, high import costs, and a particularly embarrassing mistake on a widespread promotional poster, these pistols are an obscure rarity in the Wasteland."
 lang["#MAUSER_DESC"] =  "A Shanxi Type 17 pistol.\n\nMass produced by the Taiyuan Arsenal for the army of Yan Xishan, this pistol is now a relic of the Sino-American War."
 lang["#10MMPISTOL_DESC"] = "Favored for it's quality and simple manufacturing, this weapon was widely used by law enforcement in the old world.\n\nDue to it's reliability in desert-like conditions, the Colt 6520 is still widely used today."
-lang["#12.7MMPISTOL_DESC"] = "A Sig-Sauer 12.7mm semi-auto Pistol.\n\nLarge, semi-automatic handgun with a fixed barrel, an example of excellent craftsmanship.\n\nImported to the U.S. from Europe, this design was chambered originally in 14mm."
+lang["#10MMREVOLVER_DESC"] = "This revolver is chambered in 10mm, and is a reliable choice for law enforcement.\n\nIt's reliable, sure, but it still fell behind the 10mm Pistol quite quickly."
+lang["#14.5MMPISTOL_DESC"] = "A Sig-Sauer 14.5mm Semi-Auto Pistol. Large, singleshot handgun. Near-perfect craftsmanship."
+lang["#12.7MMPISTOL_DESC"] = "A Sig-Sauer 12.7mm Semi-Auto Pistol.\n\nLarge, semi-automatic handgun with a fixed barrel, an example of excellent craftsmanship.\n\nImported to the U.S. from Europe, this design was chambered originally in 14mm."
+lang["#MARKSMANPISTOL_DESC"] = "A Commanche Break-Action Pistol chambered for .45-70 govt. It can hold only one round, lets hope it kills whoever its aimed at."
 lang["#357MAGNUM_DESC"] = "A single action revolver chambered for .357 Magnum and .38 special rounds.\n\nIts compairably slow firing rate and low capacity are made up for with its powerful cartridge and reliable action.\n\nThe cylinder swings open to quickly eject spend rounds and reload."
 lang["#357MAGNUM_STARTER_DESC"] = "An old magnum. Can still load and shoot .357, but not as well as it probably could have back then."
 lang["#44MAGNUM_DESC"] = "One of the bigger bore handguns in the world, this gun can punch through nearly all soft armor.\n\nThe ammunition is hard to find and can be very costly."
@@ -1033,6 +1141,7 @@ lang["#DEAGLE357_DESC"] = "A well-rounded powerful Semi-Automatic handgun chambe
 lang["#DEAGLE_DESC"] = "A powerful Semiautomatic handgun chambered in .44 Magnum."
 lang["#WASTELANDHAWK_DESC"] = "Named ''Wasteland Hawk'' as a playful spin on ''Desert Eagle'', this gun has earned notoriety as the best pistol a Bounty Hunter can buy.\n\nNow that it's in your hands, it's time to fall upon your prey like some sort of..."
 lang["#HUNTINGREVOLVER_DESC"] = "A monsterously large handgun chambered for the 45-70 Govt round.\n\nUsed exclusivly in hunting Dangerous game, this gun is punishing to fire, but it just might save your life.\n\n#WIP_DESC"
+lang["#SEQUOIA_DESC"] = "A Hunting Revolver seen being used by Vetran Rangers, this weapon has been coined the 'Rangers Sequoia' for its distinct image of strength and resilience that both rangers and the weapon evoke.\n\n#WIP_DESC"
 lang["#NEEDLER_DESC"] = "A handgun capable of shooting needles filled with various substances.\n\nThe ammunition can be made by hand and filled with all manner of substances."
 lang["#M9FS_DESC"] = "One of the more common 9mm pistols, the Beretta is popular due to its reliability, 17 round magazine and good looks."
 lang["#M9FS_STARTER_DESC"] = "An aging 9mm pistol given to you before you set out on your own. There are many like it, but this one is yours."
@@ -1055,6 +1164,7 @@ lang["#TOMMYGUN_DESC"] = "The .45 Auto SMG is a relatively robust gun that offer
 lang["#GREASEGUN_DESC"] = "''I never liked you, Joker.\nI never thought you were funn--''\n\n\nBANG"
 --heavy
 lang["#MINIGUN_DESC"] = "A Rockwell CZ53 Personal Minigun. When the Great War struck, it was already an aging design and was slowly being replaced by the more advanced CZ57 Avenger minigun."
+lang["#AVENGER_DESC"] = "Rockwell designed the Avenger as the replacement for their aging CZ53 Personal Minigun. The Avenger's design improvements include improved, gel-fin, cooling and chromium plated barrel-bores. This gives it a greater range and lethality"
 lang["#VINDICATOR_DESC"] = "The German Rheinmetall AG company created the ultimate minigun.\n\nThe Vindicator throws 4.7mm caseless down its six carbon-polymer barrels. \n\nAs the pinnacle of Teutonic engineering skill, it is the ultimate hand-held weapon.\n\n#WIP_DESC"
 --other
 lang["#SYRINGER_DESC"] = "An improvised, but effective weapon. Fashioned from leftover scrap and Pre-War piping, it was designed in the image of Pre-War ''tranquilizer guns''.\n\nCan be used offensively or as a support weapon, depending on the type of darts chosen by user."
@@ -1064,8 +1174,10 @@ lang["#RAILRIFLE_DESC"] = "A highly-powered pneumatic conversion of an industria
 --explosive
 lang["#APW_DESC"] = "The 25mm anti-personnel weapon is a semi-automatic grenade launcher.\n\nDesigned to give a soldier the death-dealing capability of vehicle mounted grenade machineguns in a more portable package."
 lang["#M79_DESC"] = "A single shot, hand-held grenade launcher.\n\nLaunches 40mm Grenades.\n\nDeveloped in the early 1960s, this weapon has seen continued use by U.S. forces for over a century, due to its simple design.\n\n#WIP_DESC"
+lang["#SKYBREAKER_DESC"] = "A two shot, hand-held grenade launcher.\n\nLaunches 40mm Grenades.\n\n#WIP_DESC"
 lang["#FATMAN_DESC"] = "M-42 Tactical Nuclear Catapult is a shoulder mounted crossbow fitted to launch Mini-Nukes, small atomic warheads.\nDevastating against all targets, if you can find any ammo for it."
 lang["#MISSILELAUNCHER_DESC"] = "A Shoulder Mounted explosive weapon.\nFires a large projectile that explodes on impact."
+lang["#REDGLARE_DESC"] = "A Fully Automatic shoulder mounted explosive weapon.\nFires a Red Rocket that explodes on impact.\n\n\"And the Rocket's Red Glare... The bombs bursting in air...\"."
 
 -- █████╗ ███╗   ███╗███╗   ███╗ ██████╗
 --██╔══██╗████╗ ████║████╗ ████║██╔═══██╗
@@ -1109,6 +1221,7 @@ lang["#44_HC_NAME"] = ".44 Mag +P HCLFN"
 lang["#45ACP_NAME"] = ".45 Auto"
 lang["#45ACP_HP_NAME"] = ".45 Auto HP"
 lang["#45ACP_+P_NAME"] = ".45 Auto +P"
+lang["#14.5MM_NAME"] = "14.5mm"
 lang["#12.7MM_NAME"] = "12.7mm LFN"
 lang["#12.7MM_AP_NAME"] = "12.7mm JHP"
 lang["#12.7MM_HP_NAME"] = "12.7mm HP"
@@ -1166,6 +1279,7 @@ lang["#DART_GREENGECKO_NAME"] = "Dart, Green Gecko"
 lang["#DART_CONCENTRATEDGREENGECKO_NAME"] = "Dart, Concentrated Green Gecko"
 lang["#DART_FATIGUE_NAME"] = "Dart, Fatigue"
 lang["#DART_BLIGHT_NAME"] = "Dart, Blight"
+lang["#DART_FEVCURLING11_NAME"] = "Dart, FEV Curling-11"
 lang["#DART_CONCENTRATEDBLIGHT_NAME"] = "Dart, Concentrated Blight"
 lang["#DART_RAD_NAME"] = "Dart, Radioactive"
 lang["#DART_SBLOCK_NAME"] = "Dart, Stimblock"
@@ -1218,7 +1332,8 @@ lang["#44_HC_DESC"] = "A heavy handgun cartridge, popular for hunting meduim to 
 lang["#45ACP_DESC"] = "A large caliber handgun cartridge, found in the use of pistols and sub-machine guns.\n\nWant to deal more damage without dropping the caps for Hollow Points? The answer is simple: Make a bigger hole."
 lang["#45ACP_HP_DESC"] = "A large caliber handgun cartridge, found in the use of pistols and sub-machine guns.\n\nHollow Point Variant\n\nA defensive round used by Law Enforcment and civilians alike, these bullets expand in soft targets for greater lethality, but fail against armor."
 lang["#45ACP_+P_DESC"] = "A large caliber handgun cartridge, found in the use of pistols and sub-machine guns.\n\nOverpressure Variant\n\nAmmo that has been intentionally loaded to higher internal pressure. This ensures higher projectile velocity and stopping power, and affords a slight armor piercing ability but at the cost of requiring more maintenance than usual."
-lang["#12.7MM_DESC"] = "A Hauer Premium civic defense round is large pistol cartridge comparable to the .50 AE.\n\nWith a bullet diameter of one half-inch, this round by far the largest handgun cartridge found in the Frontier Wasteland.\n\nHard to find and very sought after."
+lang["#14.5MM_DESC"] = "A Soviet manufactured round comparable to the .50 AE.\n\nWith a bullet diameter of over one half-inch, this round by far the largest handgun cartridge found in the Frontier Wasteland.\n\nHard to find and very sought after."
+lang["#12.7MM_DESC"] = "A Hauer Premium civic defense round is large pistol cartridge comparable to the .50 AE.\n\nWith a bullet diameter of one half-inch, this round by far the one of the largest handgun cartridge found in the Frontier Wasteland.\n\nHard to find and very sought after."
 lang["#12.7MM_AP_DESC"] = "A Hauer Premium civic defense round is large pistol cartridge that tears through anything it touches.\n\nJacketed Hollow Point Variant\n\nThis round manages to mostly keep the firepower of an HP round while allowing further penetration of most armors and hides.\n\nThis punishing round is hard to find and dramaticaly shortens a firearms life."
 lang["#12.7MM_HP_DESC"] = "A Hauer Premium civic defense round is large pistol cartridge that tears through anything it touches.\n\nHollow Point Variant\n\nUnlike most loads in this caliber, this round features a Hollow-Point, trading penetration for a massive wound channel.\n\nHard to find and very sought after."
 --RIFLE
@@ -1255,7 +1370,7 @@ lang["#12G3_SLUG_DESC"] = "A Magnum rifled slug, for use in smoothbore shotguns.
 lang["#12G3_DESC"] = "A Magnum Shell used in smoothbore shotguns.\n\nThe higher powder charge and copper-plated buckshot of this shell means greater velocities, higher damage, and better penatration against light armor.\n\nDrawbacks are higher recoil, premature weapon wear, and it kicks like a damn Bighorner."
 lang["#12G_FLECHETTE_DESC"] = "A special armor piercing shell for shotguns.\n\nFlechettes are small metal darts ideal for piercing light armor. Though not as lethal as buckshot, flechettes serve as an effective answer to body armor.\n\nThey must be fired smoothbore, and are thus incompatible with rifled chokes."
 --ORDANANCE
---lang["#ROCKET_DESC"] = "A rocket shell with a large explosive warhead."
+lang["#ROCKET_DESC"] = "A rocket shell with a large explosive warhead."
 lang["#MISSILEHE_DESC"] = "A High-Explosive missile, meant to be fired from a missile launcher."
 lang["#MININUKE_DESC"] = "A miniature atomic warhead, can be fired as-is from a FatMan, or be used in crafts of the destructive variety."
 lang["#25MM_DESC"] = "A 25mm grenade designed for a Pre-War military launcher, explodes on contact.\n\nIn contrast to the more targeted use of missiles, these were often fired in rapid succession for area-of-effect."
@@ -1271,6 +1386,7 @@ lang["#DART_RADSCOPRION_DESC"] = "A ballistic dart tipped with a hypodermic need
 lang["#DART_CONCENTRATEDRADSCOPRION_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns.\n\nPoison Variant\n\nFilled with concentrated venom from the fearsome Radscorpion, be sure to warn your target ''this will hurt A LOT''."
 lang["#DART_GREENGECKO_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns.\n\nPoison Variant\n\nFilled with poison from the Green Gecko, it acts quickly, but doesn't last long."
 lang["#DART_CONCENTRATEDGREENGECKO_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns.\n\nPoison Variant\n\nFilled with concentrated poison from the Green Gecko, it acts quickly, and kills especially fast."
+lang["#DART_FEVCURLING11_DESC"] = "Dart, FEV Curling-11." -- NEED DESC
 lang["#DART_FATIGUE_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns.\n\nPoison Variant\n\nContains a dose to wear out people from running."
 lang["#DART_BLIGHT_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns.\n\nPoison Variant\n\nContains a disgusting sludge of viscous green fluid. This surely cant be good for you."
 lang["#DART_BLIGHT_DESC"] = "A ballistic dart tipped with a hypodermic needle and a hollow reservoir resembling a syringe, for use in specialty air guns.\n\nPoison Variant\n\nContains a disgusting sludge of viscous green fluid. In its concentrated form it looks more like a solid."
@@ -1358,10 +1474,15 @@ lang["#MODSLOT_TARGET"] = "Targeting Box"
 lang["#MODSLOT_TANK"] = "Fuel Tank"
 lang["#MODSLOT_CANISTER"] = "Propellant Canister"
 lang["#MODSLOT_TIP"] = "Nozzle"
+lang["#MODSLOT_CAPACITOR"] = "Capacitor" -- Used mostly in Gauss weapons
 
 -- Armor
 lang["#MODSLOT_CHEST"] = "Chest Mount"
 lang["#MODSLOT_POCKETS"] = "Pockets"
+lang["#MODSLOT_LINING"] = "Lining"
+
+-- Power Armor
+lang["#MODSLOT_GENERATOR"] = "Generator" -- Generators are things like "Stealth Field Generator"
 
 -- Melee
 lang["#MODSLOT_BLADE"] = "Blade"
@@ -1545,10 +1666,14 @@ lang["#MOD_COVER_AKM_MILLED_NAME"] = "Soviet Rifle Milled Dust Cover"
 lang["#MOD_RECEIVER_DKS_NAME"] = "Sniper Rifle Refurbished Buffer"
 lang["#MOD_COVER_GAUSSRIFLE_NAME"] = "Gauss Rifle Component Shield"
 lang["#MOD_RAILWAYAUTOVENT_NAME"] = "Railway Rifle Auto-Vent Conversion Kit"
+lang["#MOD_MARKSMAN_CONVERSION_NAME"] = "Marksman Pistol 12.7mm Conversion Kit"
 
 lang["#MOD_RECEIVER_MFC_RCW_NAME"] = "Laser RCW MFC Conversion Kit"
 lang["#MOD_RECEIVER_TRIBEAM_HDC_NAME"] = "Tri-Beam Heavy Duty Capacitor"
 lang["#MOD_RECEIVER_HSE_PCASTER_NAME"] = "Plasma Caster HS Electrode"
+lang["#MOD_CAPACITOR_M72_OPTIMIZED_NAME"] = "M72 Gauss Driver Optimized Capacitors"
+lang["#MOD_CAPACITOR_M72_AMMO_NAME"] = "M72 Gauss Driver Energized Capacitors"
+lang["#MOD_CAPACITOR_M72_BOOSTER_NAME"] = "M72 Gauss Driver Boosted Capacitors"
 
 
 lang["#MOD_RECEIVER_NEWWOOD_PIPESEMI_NAME"] = "Pipegun New Wooden Frame"
@@ -1600,7 +1725,7 @@ lang["#MOD_SIGHT_GLOW_PIPESEMI_NAME"] = "Pipegun Glow Sight"
 lang["#MOD_BARREL_R91_SHORT_NAME"] = "Assault Rifle Short Barrel"
 lang["#MOD_BARREL_AUTO_PCASTER_NAME"] = "Plasma Caster Auto Barrel"
 lang["#MOD_BARREL_SCATTER_PCASTER_NAME"] = "Plasma Caster Scatter Barrel"
-lang["#MOD_BARREL_SNIPER_PCASTER_NAME"] = "#WIP Plasma Caster Sniper Barrel" -- WIP MISSING TEXTURES
+lang["#MOD_BARREL_SNIPER_PCASTER_NAME"] = "Plasma Caster Sniper Barrel"
 lang["#MOD_BARREL_SERVICERIFLE_RIFLEPOLY_NAME"] = "Service Rifle Poly Barrel Assembly"
 lang["#MOD_BARREL_SERVICERIFLE_CARBINEWOOD_NAME"] = "Service Rifle Carbine Barrel, Wood"
 lang["#MOD_BARREL_SERVICERIFLE_CARBINEPOLY_NAME"] = "Service Rifle Carbine Barrel, Polymer"
@@ -1651,7 +1776,13 @@ lang["#MOD_BARREL_MGUN_WATER_NAME"] = "LMG Water-Cooled Barrel"
 lang["#MOD_BARREL_MGUN_WATER_LONG_NAME"] = "LMG Water-Cooled Heavy Barrel"
 lang["#MOD_BARREL_M79_NAME"] = "Break-Action Grenade Rifle Extended Barrel"
 lang["#MOD_RAILWAYLONGBARREL_NAME"] = "Railway Rifle Long Barrel"
-
+lang["#MOD_BAR_FINNED_SHORT_BARREL_NAME"] = "Automatic Rifle Finned Short Barrel"
+lang["#MOD_BAR_LONG_BARREL_NAME"] = "Automatic Rifle Long Barrel"
+lang["#MOD_BAR_FINNED_LONG_BARREL_NAME"] = "Automatic Rifle Finned Long Barrel"
+lang["#MOD_MAG_AVENGER_NAME"] = "Avenger Minigun Drum Magazine"
+lang["#MOD_BARREL_LONG_AVENGER_NAME"] = "Avenger Minigun Long Barrel"
+lang["#MOD_BARREL_TRIPLE_AVENGER_NAME"] = "Avenger Minigun Sextuple Barrel"
+lang["#MOD_BARREL_TRIPLE_LONG_AVENGER_NAME"] = "Avenger Minigun Sextuple Long Barrel"
 
 lang["#MICROGUN_NAME"] = "5mm Microgun"
 lang["#DEVESTATOR_NAME"] = "Devastator Minigun"
@@ -1670,6 +1801,7 @@ lang["#MOD_MUZZLE_LGUN_FOCUS"] = "Beam Focuser"
 lang["#MOD_MUZZLE_LGUN_GYRO"] = "Gyro Compensating Lens"
 lang["#MOD_MUZZLE_GLASER_FOCUS_NAME"] = "Gatling Laser Beam Focuser"
 lang["#MOD_MUZZLE_TRIBEAM_FOCUSOPTICS_NAME"] = "Tri-Beam Focus Optics"
+lang["#MOD_MUZZLE_GAUSSRIFLE_NAME"] = "Gauss Rifle Suppressor"
 
 lang["#MOD_MUZDEV_BRAKE_PIPEGUN_NAME"] = "Pipegun Muzzle Brake"
 lang["#MOD_MUZDEV_BRAKE_PGM_NAME"] = "Anti-Mat. Muzzle Brake"
@@ -1680,6 +1812,7 @@ lang["#MOD_MUZDEV_BRAKE_10SMG_NAME"] = "10mm SMG Muzzle Brake"
 lang["#MOD_MAG_ACARBINE34_NAME"] = "Assault Carbine Extended Magazine"
 lang["#MOD_MAG_R9130_NAME"] = "Assault Rifle 30rd Magazine"
 lang["#MOD_MAG_R9140_NAME"] = "Assault Rifle 40rd Magazine"
+lang["#MOD_MAG_M72_NAME"] = "M72 Gauss Driver Drum Mag"
 lang["#MOD_MAG_T9336_NAME"] = "Chinese Assault Rifle Extended Magazine"
 lang["#MOD_MAG_BERETTA30_NAME"] = "9mm Pistol Extended Magazine"
 lang["#MOD_MAG_CPISTOL28_NAME"] = "Combat Pistol Extended Magazine"
@@ -1694,7 +1827,7 @@ lang["#MOD_MAG_DEAGLE_NAME"] = "Desert Eagle Extended Magazine"
 lang["#MOD_MAG_WASTELANDHAWK_NAME"] = "Wasteland Hawk Extended Magazine"
 lang["#MOD_MAG_45PISTOL15_NAME"] = ".45 Auto Pistol Extended Magazine"
 lang["#MOD_MAG_12.7PISTOL10_NAME"] = "12.7mm Pistol Extended Magazine"
-lang["#MOD_MAG_12.7PISTOL13_NAME"] = "12.7mm Pistol Large Extended Magazine"
+lang["#MOD_MAG_12.7PISTOL13_NAME"] = "12.7-14.5mm Pistol Large Extended Magazine"
 lang["#MOD_MAG_PIPEGUN24_NAME"] = "Pipegun Extended Magazine"
 lang["#MOD_MAG_PIPEGUN48_NAME"] = "Pipegun Drum Magazine"
 lang["#MOD_MAG_DKS5_NAME"] = "Sniper Rifle 5rd Magazine"
@@ -1710,6 +1843,9 @@ lang["#MOD_MAG_PGM10_NAME"] = "Anti-Mat. 10rd Magazine"
 lang["#MOD_MAG_VRIFLE10_NAME"] = "Varmint Rifle 10rd Magazine"
 lang["#MOD_MAG_MGUN200_NAME"] = "LMG Drum Magazine"
 lang["#MOD_MAG_12.7CARBINE10_NAME"] = "12.7mm Carbine Extended Magazine"
+lang["#MOD_KIT_WATTZ_NAME"] = "Wattz 2000 Overclock Kit"
+lang["#MOD_BAR_MAG_25_NAME"] = "Automatic Rifle 25rnd Magazine"
+lang["#MOD_BAR_MAG_30_NAME"] = "Automatic Rifle 30rnd Magazine"
 
 lang["#MOD_MAG_TRIBEAM_HICAPTERMINAL_NAME"] = "Tri-Beam Hi-Cap Terminal"
 
@@ -1739,6 +1875,9 @@ lang["#MOD_GRIP_357REV_IVORY_NAME"] = ".357 Revolver Ivory Grip"
 lang["#MOD_GRIP_CMAGNUM_NAME"] = "Combat Magnum Comfort Grip"
 lang["#MOD_GRIP_CMAGNUM_SHARPSHOOTER_NAME"] = "Combat Magnum Sharpshooter Grip"
 lang["#MOD_GRIP_44REVOLVER_NAME"] = ".44 Revolver Comfort Grip"
+lang["#MOD_STOCK_M72_BASIC_NAME"] = "M72 Gauss Driver Makeshift Stock"
+lang["#MOD_STOCK_M72_LIGHT_NAME"] = "M72 Gauss Driver Lightweight Stock"
+lang["#MOD_STOCK_GAUSSRIFLE_NAME"] = "Gauss Rifle Stock"
 lang["#MOD_STOCK_DKS_WOOD_NAME"] = "Sniper Rifle Wood Stock"
 lang["#MOD_STOCK_DKS_KIT_NAME"] = "Sniper Rifle Stock and Maintenance kit"
 lang["#MOD_STOCK_DKS_LIGHT_NAME"] = "Sniper Rifle Lightweight Stock"
@@ -1757,6 +1896,8 @@ lang["#MOD_STOCK_VRIFLE_FULL_NAME"] = "Varmint Rifle Stock"
 lang["#MOD_STOCK_VRIFLE_SYNTHFULL_NAME"] = "Varmint Rifle Synthetic Stock"
 lang["#MOD_STOCK_MGUN_RUBBER_NAME"] = "LMG Rubber Grip"
 lang["#MOD_STOCK_MGUN_STEADY_NAME"] = "LMG Precision Grip"
+lang["#MOD_STOCK_BAR_RECOIL_NAME"] = "Automatic Rifle Recoil Stock"
+lang["#MOD_STOCK_BAR_MARKSMAN_NAME"] = "Automatic Rifle Marksman Stock"
 
 lang["#MOD_STOCK_LGUN_TACTIC_NAME"] = "Laser Pistol Comfort Grip"
 lang["#MOD_STOCK_LGUN_NAME"] = "Laser Rifle Stock"
@@ -1783,6 +1924,7 @@ lang["#MOD_SEAR_357REV_FHAMMER_NAME"] = ".357 Revolver Feathered Hammer Spring"
 lang["#MOD_SEAR_5MM_NAME"] = "5mm Minigun Hi-Speed Motor"
 
 lang["#MOD_SEAR_BURST_RCW_NAME"] = "Laser RCW Burst Repeater"
+lang["#MOD_SEAR_M72_NAME"] = "M72 Gauss Driver Auto Sear"
 
 
 -------------------PROPRIETARY Desc---------------------
@@ -1802,10 +1944,14 @@ lang["#MOD_COVER_AKM_MILLED_DESC"] = "A heavier milled dust cover for the Soviet
 lang["#MOD_RECEIVER_DKS_DESC"] = "A replacement buffer for the DKS-501 Sniper Rifle.\n\nIncreases weapon firing speed.\n\nOriginally a selling point for the DKS series, the specialized recoil buffer offered increased firing speed and lower recoil between shots, but only when in perfect working condition. . ."
 lang["#MOD_COVER_GAUSS_DESC"] = "A protective cover for the Gauss Rifle.\n\nSlightly increases weapon reliability and the ammount of shots that can be fired between maintenance.\n\nApart from a little rust, this part is as good as the day it came off the assembly line."
 lang["#MOD_RAILWAYAUTOVENT_DESC"] = "An automatic venter for the Railway Rifle, increasing fire-rate notably. However, the gun holds less pressure as a result.\n\nAbsolutely nonviable with Railstakes."
+lang["#MOD_MARKSMAN_CONVERSION_DESC"] = "A 12.7mm conversion kit for the Marksman Pistol.\n\nTrades damage and velocity for better recoil and accuracy."
 
 lang["#MOD_RECEIVER_MFC_RCW_DESC"] = "A modified terminal and power converter for the Laser RCW.\n\nConverts ammotype to Microfusion Cells, and increases beam damage, but reduces firing speed and amount of times weapon can be fired before requiring maintenance."
 lang["#MOD_RECEIVER_TRIBEAM_HDC_DESC"] = "An additional rack of capacitors for the Tri-Beam laser gun.\n\nGreatly improves overall durability of the firearm, increasing total shots that can be fired before repair is required.\n\nI mean, It's not like you haven't already voided the warranty on this thing. . ."
 lang["#MOD_RECEIVER_HSE_PCASTER_DESC"] = "An after-market High Speed Electrode for the Plasma Caster.\n\nIncreases the firing speed by 25%.\n\nMarketed as an optional upgrade from the Pre-war days, when this was an industrial tool."
+lang["#MOD_CAPACITOR_M72_OPTIMIZED_DESC"] = "M72 Gauss Driver Optimized Capacitors."-- NEED DESC
+lang["#MOD_CAPACITOR_M72_AMMO_DESC"] = "M72 Gauss Driver Energized Capacitors." -- NEED DESC
+lang["#MOD_CAPACITOR_M72_BOOSTER_DESC"] = "M72 Gauss Driver Boosted Capacitors."-- NEED DESC
 
 lang["#MOD_RECEIVER_NEWWOOD_PIPESEMI_DESC"] = "A quality wooden frame for pipe weapons.\n\nImproves overall durability of the firearm, increasing total shots that can be fired before repair is required."
 lang["#MOD_RECEIVER_SHADOW_PIPESEMI_DESC"] = "A painted quality wooden frame for pipe weapons.\n\nImproves overall durability of the firearm, increasing total shots that can be fired before repair is required.\n\nDark paint slightly increases stealth while weapon is drawn."
@@ -1904,6 +2050,15 @@ lang["#MOD_BARREL_MGUN_AIR_DESC"] = "A barrel with a basic cooling system for th
 lang["#MOD_BARREL_MGUN_WATER_DESC"] = "A barrel with an upgraded cooling system for the Light Machinge Gun.\n\nFurther decreases accuracy lost per shot fired, the maximum accuracy lost while firing, and the time it takes to cool down after firing.\n\nFurther increases weight."
 lang["#MOD_BARREL_MGUN_WATER_LONG_DESC"] = "A long barrel with an upgraded cooling system for the Light Machinge Gun.\n\nGreatly decreases accuracy lost per shot fired, the maximum accuracy lost while firing, the time it takes to cool down after firing. and firing spread downrange.\n\nGreatly increases weight and hip-fire spread."
 lang["#MOD_BARREL_M79_DESC"] = "An extended barrel for the Break-Action Grenade Rifle.\n\nIncreases effective range by doubling velocity of grenades fired."
+lang["#MOD_BAR_FINNED_SHORT_BARREL_DESC"] = "An finned barrel for the Automatic Rifle.\n\nReduces spread downrange."
+lang["#MOD_BAR_LONG_BARREL_DESC"] = "An extended barrel for the Automatic Rifle.\n\nIncreases the weapons effective range."
+lang["#MOD_BAR_FINNED_LONG_BARREL_DESC"] = "An extended finned barrel for the Automatic Rifle.\n\nIncreases the weapons effective range while simultaneously reducing spread."
+lang["#MOD_MAG_AVENGER_DESC"] = "A drum magazine for the Avenger Minigun.\n\nContains a whopping 330 bullets!"
+lang["#MOD_BARREL_LONG_AVENGER_DESC"] = "An extended barrel for the Avenger Minigun, increasing spin-up time and decreasing rate of fire in exchange for increased damage and accuracy.\n\nI hope this hurts you as much as it does me."
+lang["#MOD_BARREL_TRIPLE_AVENGER_DESC"] = "A sextuple barrel for the Avenger Minigun, increasing spin-up time and decreasing rate of fire in exchange for an extra bullet fired at a time.\n\nThis is starting to get scary..."
+lang["#MOD_BARREL_TRIPLE_LONG_AVENGER_DESC"] = "An extended sextuple barrel for the Avenger Minigun, greatly increasing spin-up time and decreasing rate of fire for increased damage, bullets, and accuracy.\n\nYour opponents shall fall like wheat to the scythe."
+
+
 
 lang["#MOD_BARREL_LGUN_LONG_DESC"] = "A rifle length housing for the Laser Gun, 9th generation.\n\nIncreases damage and accuracy down range at the cost of a slightly lower capacity and slightly more wear to weapon while firing.\n\nIf not for this ''barrel's'' robust titanium crystal housing, it would have fallen completely out of focus mere decades after the bombs fell, like its more fragile successors."
 lang["#MOD_BARREL_LGUN_AUTO_DESC"] = "A rotating housing assembly for the Laser Gun.\n\nMassively increases the weapons fire rate, at the cost of lower damage output per shot and inferior accuracy.\n\nThese ''multi-barreled'' assemblies were cost prohibative to produce, and few saw use outside of a handful of specialty units."
@@ -1926,12 +2081,14 @@ lang["#MOD_MUZZLE_LGUN_FOCUS_DESC"] = "An add-on modification for AE family lase
 lang["#MOD_MUZZLE_LGUN_GYRO_DESC"] = "An add-on modification for AE family laser weapons.\n\nGreatly reduces all weapon recoil.\n\nRather than seeking to alter the properties of the energy itself, the muzzle mounted Gyro instead compensates for felt recoil, creating an extremely controllable platform."
 lang["#MOD_MUZZLE_GLASER_FOCUS_DESC"] = "An add-on modification for the Gatling Laser.\n\nReduces maximum reticle bloom under sustained fire. Beams ignore a small portion of targets armor.\n\nBy further focusing energy before it leaves the weapon, one can not only increase the precision of the beam, but also reduce atmosphereic dissipation, resulting in a 'bleed-through' effect on affected material."
 lang["#MOD_MUZZLE_TRIBEAM_FOCUSOPTICS_DESC"] = "An add-on modification for the Tri-Beam Laser.\n\nIncreases energy output of all beams, slightly increasing damage.\n\nIt should really be no suprise, the kind of person who would create and use this weapon would look to increase its power even further."
+lang["#MOD_MUZZLE_GAUSSRIFLE_DESC"] = "An add-on modification for the Gauss Rifle. \n\nDecreases the noise of the weapon when firing."
 
 --MAG
 lang["#MOD_MAG_ACARBINE34_DESC"] = "An extended magazine for the Assault Carbine.\n\n34 round capacity.\n\nSpray and pray, to make the ''other guy'' holey."
 lang["#MOD_MAG_R9130_DESC"] = "An extended magazine for the Assault Rifle.\n\n30 round capacity.\n\n''PROPERTY OF U.S. NATIONAL GUARD'' is stamped along one side. I don't think they'll miss it."
 lang["#MOD_MAG_R9140_DESC"] = "An extended magazine for the Assault Rifle.\n\n40 round capacity.\n\nThese larger than standard magazines saw infreqent use Pre-War, and few surviving examples exist today."
 lang["#MOD_MAG_T9336_DESC"] = "An extended magazine for the Chinese Assault Rifle.\n\n36 round capacity.\n\nFor when an infiltration mission turns into an assault."
+lang["#MOD_MAG_M72_DESC"] = "M72 Gauss Driver Drum Mag." -- NEED DESC
 lang["#MOD_MAG_CPISTOL28_DESC"] = "An extended magazine for the Combat Pistol.\n\n28 round capacity.\n\nExtended magazines such as these nearly double the total capacity, hanging visibly below the grip."
 lang["#MOD_MAG_HRIFLE10_DESC"] = "An extended magazine for the Hunting Rifle.\n\n10 round capacity.\n\nUseful for dealing with multiple pests, like a pack of coyotes, or giant radioactive wasps."
 lang["#MOD_MAG_HRIFLE20_DESC"] = "An extended magazine for the Hunting Rifle.\n\n20 round capacity.\n\nIf you really needed this many shots, maybe this isn't the best place to be in the first place."
@@ -1961,6 +2118,10 @@ lang["#MOD_MAG_10SMG_DESC"] = "An extended magazine for the 10mm SMG.\n\n40 roun
 lang["#MOD_MAG_CSHOTGUN12_DESC"] = "An extended magazine for the Combat Shotgun.\n\n12 round capacity."
 lang["#MOD_MAG_CSHOTGUN20_DESC"] = "A drum magazine for the Combat Shotgun.\n\n20 round capacity.\n\nHeavy and unwieldy."
 lang["#MOD_MAG_12.7CARBINE10_DESC"] = "An extended magazine for the 12.7mm Thumper Carbine.\n\n10 round capacity.\n\nJust a re-designed follower, an increased strength spring, a metal sleeve to fill the gap, and Blamo! Service Rifle Extended Magazines can now reliably feed 12.7mm!"
+lang["#MOD_KIT_WATTZ_DESC"] = "The official Wattz 2000 overclocking kit, for those who want to go even further beyond.\n\nIncreases weapon damage and reduces accuracy loss at the cost of ammo efficiency."
+lang["#MOD_BAR_MAG_25_DESC"] = "An extended magazine for the Automatic Rifle.\n\n25 round capacity.\n\nHopefully those five extra rounds is what it takes to kill that bandit."
+lang["#MOD_BAR_MAG_30_DESC"] = "An extended magazine for the Automatic Rifle.\n\n30 round capacity.\n\nTen more rounds for that meanie in scrap power armor."
+
 
 lang["#MOD_MAG_TRIBEAM_HICAPTERMINAL_DESC"] = "An improved battery terminal for the Tri-Beam.\n\nEffectivly doubles the amount of shots you can fire before needing to reload.\n\nListen, don't ask me how it works, I didn't make the damn thing."
 
@@ -1989,6 +2150,9 @@ lang["#MOD_GRIP_12.7PISTOL_COMFORT_DESC"] = "A rubber grip for the 12.7 Pistol, 
 lang["#MOD_GRIP_12.7PISTOL_SHARPSHOOTER_DESC"] = "A rubber grip for the 12.7 Pistol, optimized for the sniper who just lost his primary.\n\nMassively reduces spread."
 lang["#MOD_GRIP_DEAGLE_ENGRAVED_DESC"] = "A slightly improved grip for the Desert Eagle, slightly reducing spread.\n\nIt's not gold, though."
 lang["#MOD_GRIP_DEAGLE_ENGRAVEDGOLD_DESC"] = "A slightly improved grip for the Desert Eagle, slightly reducing spread.\n\nIt's gold, though, so it looks badass."
+lang["#MOD_STOCK_GAUSSRIFLE_DESC"] = "Gauss Rifle Stock." -- NEED DESC
+lang["#MOD_STOCK_M72_BASIC_DESC"] = "M72 Gauss Driver Makeshift Stock." -- NEED DESC
+lang["#MOD_STOCK_M72_LIGHT_DESC"] = "M72 Gauss Driver Lightweight Stock." -- NEED DESC
 lang["#MOD_STOCK_DKS_WOOD_DESC"] = "A sturdy wooden stock for the DKS-501 Sniper Rifle.\n\nHeavy but solid, this was a common factory offering for civilian version of the rifle."
 lang["#MOD_STOCK_DKS_KIT_DESC"] = "A synthetic stock for the DKS-501 Sniper Rifle.\n\nA built-in maintenace kit stored in the butt of the stock increases weapon life substantially."
 lang["#MOD_STOCK_DKS_LIGHT_DESC"] = "A light weight synthetic stock for the DKS-501 Sniper Rifle.\n\nSubstantially reduces weapon weight and Save Weight."
@@ -2007,6 +2171,10 @@ lang["#MOD_STOCK_VRIFLE_FULL_DESC"] = "A weathered but solid wooden stock for th
 lang["#MOD_STOCK_VRIFLE_SYNTHFULL_DESC"] = "A light weight Synthetic stock for the Varmint Rifle.\n\nLighter weight than wood, and you won't cry when it gets scratched."
 lang["#MOD_STOCK_MGUN_RUBBER_DESC"] = "An improved rubber grip for the Light Machine Gun.\n\nSlightly decreases recoil, and accuracy lost while firing."
 lang["#MOD_STOCK_MGUN_STEADY_DESC"] = "An improved precision grip for the Light Machine Gun.\n\nDecreases recoil, and accuracy lost while firing."
+lang["#MOD_STOCK_BAR_RECOIL_DESC"] = "An expermental wood recoil stock designed for the automatic rifle.\n\nDecreases recoil, and accuracy lost while firing."
+lang["#MOD_STOCK_BAR_MARKSMAN_DESC"] = "A marksman stock for the automatic rifle.\n\nDecreases recoil, and accuracy lost while firing."
+
+
 
 lang["#MOD_STOCK_RCW_DESC"] = "A factory standard stock for the Laser RCW.\n\nReduces felt recoil while firing."
 
@@ -2033,6 +2201,12 @@ lang["#MOD_SEAR_357REV_FHAMMER_DESC"] = "A modified hammer spring designed with 
 lang["#MOD_SEAR_5MM_DESC"] = "A replacememnt motor for the 5mm Minigun.\n\nIncreases fire rate by 25%.\n\nMake this Pre-war monster roar!"
 
 lang["#MOD_SEAR_BURST_RCW_DESC"] = "A modified rate-of-fire regulator for the Laser RCW.\n\nConverts weapon to 3-shot burst fire, and increases firing speed."
+lang["#MOD_SEAR_M72_DESC"] = "A modified rate-of-fire regulator for the M72 Gauss Driver.\n\nConverts the weapon to have an increased firing speed."
+
+--KITS
+lang["#MOD_KIT_ASSAULTCARBINE"] = "Assault Carbine Mod Kit"
+lang["#MOD_KIT_LASER"] = "Laser Rifle Mod Kit"
+lang["#MOD_KIT_RCW"] = "Laser RCW Mod Kit"
 
 
 --  █████╗ ██████╗ ███╗   ███╗ ██████╗ ██████╗     ███╗   ███╗ ██████╗ ██████╗ ███████╗
@@ -2052,6 +2226,16 @@ lang["#MOD_ARMOR_DEEP_POCKETED_NAME"] = "Deep Pocketed Armor Mod"
 lang["#MOD_ARMOR_LEAD_LINED_NAME"] = "Lead Lined Armor Mod"
 lang["#MOD_ARMOR_LIGHT_NAME"] = "Lightweight Armor Mod"
 lang["#MOD_ARMOR_ULTRALIGHT_NAME"] = "Ultralight Armor Mod"
+lang["#MOD_ARMOR_SHEER_NAME"] = "Sheer Armor Mod"
+lang["#MOD_ARMOR_STEALTHLINING_NAME"] = "Stealth Field Lining"
+
+-- Power Armor
+lang["#MOD_PA_STEALTHGENERATOR_NAME"] = "Power Armor Stealth Field Generator"
+
+lang["#MOD_ARMOR_POWERARMORFRAME_GEN_OVERCLOCK_NAME"] = "Power Armor Overclocked TX-28 Generator"
+lang["#MOD_ARMOR_POWERARMORFRAME_GEN_PLASMA_NAME"] = "Power Armor XL-10 Plasma Generator"
+lang["#MOD_ARMOR_POWERARMORFRAME_GEN_NUCLEAR_NAME"] = "Power Armor TX-78 Nuclear Generator"
+lang["#MOD_ARMOR_POWERARMORFRAME_GEN_HELLFIRE_NAME"] = "Power Armor XE-04 Hellfire Generator"
 
 -- MATERIAL NAME
 -- Ballistic
@@ -2061,20 +2245,37 @@ lang["#MOD_ARMOR_BALLISTIC_SHADOWED_NAME"] = "Ballistics Armor Shadowed Mod"
 lang["#MOD_ARMOR_BALLISTIC_FIBERGLASS_NAME"] = "Ballistics Armor Fiberglass Mod"
 lang["#MOD_ARMOR_BALLISTIC_VAULTSTEEL_SHEET_NAME"] = "Ballistics Armor Vault Steel Sheet Mod"
 
+-- Ballistic Weave
+lang["#MOD_ARMOR_CLOTH_BALLISTICWEAVE_MK1_NAME"] = "Ballistic Weave MK.1 Mod"
+lang["#MOD_ARMOR_CLOTH_BALLISTICWEAVE_MK2_NAME"] = "Ballistic Weave MK.2 Mod"
+lang["#MOD_ARMOR_CLOTH_BALLISTICWEAVE_MK3_NAME"] = "Ballistic Weave MK.3 Mod"
+lang["#MOD_ARMOR_CLOTH_BALLISTICWEAVE_MK4_NAME"] = "Ballistic Weave MK.4 Mod"
+
 -- Leather
 lang["#MOD_ARMOR_LEATHER_BOILED_NAME"] = "Leather Armor Boiled Mod"
 lang["#MOD_ARMOR_LEATHER_GRIDED_NAME"] = "Leather Armor Grided Mod"
 lang["#MOD_ARMOR_LEATHER_TREATED_NAME"] = "Leather Armor Treated Mod"
 lang["#MOD_ARMOR_LEATHER_SHADOWED_NAME"] = "Leather Armor Shadowed Mod"
 lang["#MOD_ARMOR_LEATHER_STUDDED_NAME"] = "Leather Armor Studded Mod"
+lang["#MOD_ARMOR_LEATHER_GECKO_BACKED_NAME"] = "Leather Armor Gecko-Backed Mod"
 lang["#MOD_ARMOR_LEATHER_VAULTSTEEL_FIBER_NAME"] = "Leather Armor Vault Steel Fiber Mod"
+
+-- Metal
+lang["#MOD_ARMOR_METAL_PAINTED_NAME"] = "Metal Armor Painted Mod"
+lang["#MOD_ARMOR_METAL_ENAMELED_NAME"] = "Metal Armor Enameled Mod"
+lang["#MOD_ARMOR_METAL_SHADOWED_NAME"] = "Metal Armor Shadowed Mod"
+lang["#MOD_ARMOR_METAL_ALLOYED_NAME"] = "Metal Armor Alloyed Mod"
+lang["#MOD_ARMOR_METAL_POLISHED_NAME"] = "Metal Armor Polished Mod"
+lang["#MOD_ARMOR_METAL_VAULTSTEEL_PLATE_NAME"] = "Metal Armor Vault Steel Plate Mod"
 
 -- PAINT NAME
 lang["#MOD_ENCLAVEPAINT_NAME"] = "Enclave Paintjob"
+lang["#MOD_UNITYPAINT_NAME"] = "Unity Paintjob"
 lang["#MOD_CIPHERPAINT_NAME"] = "Cipher Paintjob"
 lang["#MOD_EIGHTIESPAINT_NAME"] = "80s Paintjob"
 lang["#MOD_BOSPAINT_NAME"] = "Brotherhood of Steel Paintjob"
 lang["#MOD_MERCENARYPAINT_NAME"] = "Phoenix Company Paintjob"
+lang["#MOD_DESERTPAINT_NAME"] = "Desert Paintjob"
 lang["#MOD_WINTERPAINT_NAME"] = "Winterized Paintjob"
 lang["#MOD_WOODLANDPAINT_NAME"] = "Woodland Paintjob"
 lang["#MOD_ATOMICPAINT_NAME"] = "Atomic Paintjob"
@@ -2100,6 +2301,16 @@ lang["#MOD_ARMOR_DEEP_POCKETED_DESC"] = "Deep Pocketed Armor Mod." -- NEED DESC
 lang["#MOD_ARMOR_LEAD_LINED_DESC"] = "Lead Lined Armor Mod." -- NEED DESC
 lang["#MOD_ARMOR_LIGHT_DESC"] = "Lightweight Armor Mod." -- NEED DESC
 lang["#MOD_ARMOR_ULTRALIGHT_DESC"] = "Ultralight Armor Mod." -- NEED DESC
+lang["#MOD_ARMOR_SHEER_DESC"] = "Sheer Armor Mod." -- NEED DESC
+lang["#MOD_ARMOR_STEALTHLINING_DESC"] = "This lining embeds the armor with a portable stealth field lining\n\nThe Stealth Field activates when you are crouched, making it very difficult for you to be seen."
+
+-- Power Armor
+lang["#MOD_PA_STEALTHGENERATOR_DESC"] = "This Generator enables your Power Armor Frame to activate a Stealth Field.\n\nThe Field activates when you are crouched, making it very difficult for you to be seen."
+
+lang["#MOD_ARMOR_POWERARMORFRAME_GEN_OVERCLOCK_DESC"] = "Power Armor Overclocked TX-28 Generator." -- NEED DESC
+lang["#MOD_ARMOR_POWERARMORFRAME_GEN_PLASMA_DESC"] = "Power Armor XL-10 Plasma Generator. Reduces the weight of Energy ammo by 30%." -- NEED DESC
+lang["#MOD_ARMOR_POWERARMORFRAME_GEN_NUCLEAR_DESC"] = "Power Armor TX-78 Nuclear Generator." -- NEED DESC
+lang["#MOD_ARMOR_POWERARMORFRAME_GEN_HELLFIRE_DESC"] = "Power Armor XE-04 Hellfire Generator. Reduces the weight of Energy ammo by 40%." -- NEED DESC
 
 -- MATERIAL DESC
 -- Ballistic
@@ -2109,16 +2320,32 @@ lang["#MOD_ARMOR_BALLISTIC_SHADOWED_DESC"] = "Ballistics Armor Shadowed Mod." --
 lang["#MOD_ARMOR_BALLISTIC_FIBERGLASS_DESC"] = "Ballistics Armor Fiberglass Mod." -- NEED DESC
 lang["#MOD_ARMOR_BALLISTIC_VAULTSTEEL_SHEET_DESC"] = "Ballistics Armor Vault Steel Sheet Mod." -- NEED DESC
 
+-- Ballistic Weave
+lang["#MOD_ARMOR_CLOTH_BALLISTICWEAVE_MK1_DESC"] = "Ballistic Weave MK.1 Mod." -- NEED DESC
+lang["#MOD_ARMOR_CLOTH_BALLISTICWEAVE_MK2_DESC"] = "Ballistic Weave MK.2 Mod." -- NEED DESC
+lang["#MOD_ARMOR_CLOTH_BALLISTICWEAVE_MK3_DESC"] = "Ballistic Weave MK.3 Mod." -- NEED DESC
+lang["#MOD_ARMOR_CLOTH_BALLISTICWEAVE_MK4_DESC"] = "Ballistic Weave MK.4 Mod." -- NEED DESC
+
 -- Leather
 lang["#MOD_ARMOR_LEATHER_BOILED_DESC"] = "Leather Armor Boiled Mod." -- NEED DESC
 lang["#MOD_ARMOR_LEATHER_GRIDED_DESC"] = "Leather Armor Grided Mod." -- NEED DESC
 lang["#MOD_ARMOR_LEATHER_TREATED_DESC"] = "Leather Armor Treated Mod." -- NEED DESC
 lang["#MOD_ARMOR_LEATHER_SHADOWED_DESC"] = "Leather Armor Shadowed Mod." -- NEED DESC
 lang["#MOD_ARMOR_LEATHER_STUDDED_DESC"] = "Leather Armor Studded Mod." -- NEED DESC
+lang["#MOD_ARMOR_LEATHER_GECKO_BACKED_DESC"] = "Leather Armor Gecko-Backed Mod." -- NEED DESC
 lang["#MOD_ARMOR_LEATHER_VAULTSTEEL_FIBER_DESC"] = "Leather Armor Vault Steel Fiber Mod." -- NEED DESC
+
+-- Metal
+lang["#MOD_ARMOR_METAL_PAINTED_DESC"] = "Metal Armor Painted Mod." -- NEED DESC
+lang["#MOD_ARMOR_METAL_ENAMELED_DESC"] = "Metal Armor Enameled Mod." -- NEED DESC
+lang["#MOD_ARMOR_METAL_SHADOWED_DESC"] = "Metal Armor Shadowed Mod." -- NEED DESC
+lang["#MOD_ARMOR_METAL_ALLOYED_DESC"] = "Metal Armor Alloyed Mod." -- NEED DESC
+lang["#MOD_ARMOR_METAL_POLISHED_DESC"] = "Metal Armor Polished Mod." -- NEED DESC
+lang["#MOD_ARMOR_METAL_VAULTSTEEL_PLATE_DESC"] = "Metal Armor Vault Steel Plate Mod." -- NEED DESC
 
 -- PAINT DESC
 lang["#MOD_ENCLAVEPAINT_DESC"] = "Enclave Paintjob." -- NEED DESC
+lang["#MOD_UNITYPAINT_DESC"] = "Unity Paintjob." -- NEED DESC
 lang["#MOD_CIPHERPAINT_DESC"] = "Cipher Paintjob." -- NEED DESC
 lang["#MOD_EIGHTIESPAINT_DESC"] = "80s Paintjob." -- NEED DESC
 lang["#MOD_BOSPAINT_DESC"] = "Brotherhood of Steel Paintjob." -- NEED DESC

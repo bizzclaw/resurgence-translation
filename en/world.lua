@@ -72,7 +72,7 @@ lang["#FACTION_NCR_NAME"] = "New California Republic"
 lang["#FACTION_NCR_DESC"] = "The New California Republic, or NCR, started as a small town in Northern California. Now they are a large, democratic federation that spralls across the southern west coast."
 
 lang["#FACTION_HUNTER_NAME"] = "Wasteland Hunters"
-lang["#FACTION_HUNTER_DESC"] = "A sparse, loosely knit community of self sustaining Hunters, foragers, and survivalists. Forsaking the heavy hand of NCR and civilzation as a whole, these wasters consist of both natives and NCR transplants gone AWOL."
+lang["#FACTION_HUNTER_DESC"] = "The Wasteland Hunters are a sparse, loosely knit community of self sustaining Hunters, foragers, and survivalists. Forsaking the heavy hand of NCR and civilzation as a whole, these wasters consist of both natives and NCR transplants gone AWOL."
 
 lang["#FACTION_VALLEYSURVIVALISTS_NAME"] = "Valley Survivalists"
 lang["#FACTION_VALLEYSURVIVALISTS_DESC"] = "A small group of experienced individuals who all live in the mountains, lead by a man known as Jackson, who used to be a major helping hand with the NCR in Salt Wells."
@@ -96,7 +96,7 @@ lang["#FACTION_FOLLOWERSOFTHEAPOCALYPSE_NAME"] = "Followers of the Apocalypse"
 lang["#FACTION_FOLLOWERSOFTHEAPOCALYPSE_DESC"] = "The Followers are a humanitarian organization originating in New California and focus on providing education and medical services to those in need, as well as furthering research in non-military areas."
 
 lang["#FACTION_BOS_NAME"] = "Brotherhood of Steel"
-lang["#FACTION_BOS_DESC"] = "The Brotherhood of Steel is a techno-religous organization that collects and maintains advanced technology with roots in the Pre-War American Military. They are highly reclusive and"
+lang["#FACTION_BOS_DESC"] = "The Brotherhood of Steel is a techno-religous organization that collects and maintains advanced technology with roots in the Pre-War American Military."
 lang["#FACTION_BOS_LEADER"] = "Eldar"
 
 lang["#FACTION_ENCLAVE_NAME"] = "Enclave"
@@ -161,7 +161,7 @@ lang["#STOVE_NAME"] = "Stove"
 lang["#RELOADINGBENCH_NAME"] = "Reloading Bench"
 lang["#WEAPONBENCH_NAME"] = "Weapon Bench"
 
-lang["#BOS_POWERARMORFAB_NAME"] = "Brotherhood Power Armor Fabricator"
+lang["#POWERARMORFAB_NAME"] = "Power Armor Fabricator"
 
 
 -- Terminal
@@ -217,6 +217,7 @@ lang["#COPPERMINER_NAME"] = "Copper Miner"
 lang["#LIFTBOTTOM_NAME"] = "Lower Elevator Shaft"
 lang["#LIFTTOP_NAME"] = "Upper Elevator Shaft"
 lang["#ENTRANCERAMP_NAME"] = "Entrance Ramp"
+lang["#PROPANEMINER_NAME"] = "Propane Miner"
 
 -- Ammo Factory
 lang["#AMMOFACTORY_NAME"] = "Circle G Munitions Processing Plant"

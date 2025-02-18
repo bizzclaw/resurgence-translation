@@ -142,6 +142,7 @@ RSRG.Hints[HINTS_COMMON] = {
 RSRG.Hints[HINTS_RARE] = { -- Would have a low chance of appearing. Maybe 5% or something.
 	"Looking for a new face? I would be too, if I had yours.",
     "Have you taken your medication today?",
+	"The Master Lives!",
     "Cleanliness is godliness, and you represent neither.",
     "Legend has it that whoever can ride on the back of a Deathclaw for over 30 seconds will be blessed with untold fortune.",
     "Tunnel Snakes Rule!",
@@ -161,7 +162,7 @@ RSRG.Hints[HINTS_RARE] = { -- Would have a low chance of appearing. Maybe 5% or 
     "#HONKFORRESURGENCE.",
     "I like dogs.",
     "[Incoherent Screaming]",
-    "Where the fuck are all the chem nodes?",
+    "VISIONS OF X-CELL DELIVER ME!",
     "Nightmare stole my diamonds!",
     "Created by Bizz!",
     "I want my BP back!",

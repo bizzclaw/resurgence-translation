@@ -9,6 +9,14 @@ lang["#UI_ANYKEY"] = "Press Any Key to Start"
 lang["#UI_INTRO_NEXT"] = "[SPACE] Next"
 lang["#UI_INTRO_SKIP"] = "[T] Skip"
 
+lang["#TIME_HOURS"] = "$hours:$minutes:$seconds"
+lang["#TIME_MINUTES"] = "$minutes:$seconds"
+lang["#TIME_SECONDS"] = "$seconds"
+
+lang["#TIME_COUNTDOWN_HOURS"] = "$hours hours, $minutes minutes, $seconds seconds"
+lang["#TIME_COUNTDOWN_MINUTES"] = "$minutes minutes, $seconds seconds"
+lang["#TIME_COUNTDOWN_SECONDS"] = "$seconds seconds"
+
 -- Teleport Doors
 lang["#UI_OPEN"] = "Open"
 lang["#UI_TRAVEL"] = "Travel"
@@ -20,6 +28,7 @@ lang["#UI_TELEPORTLEAVE"] = "Are you sure you want to leave?\n\n$requirement req
 lang["#UI_TELEPORTERBLOCK_FACTION_FAVOR"] = "You do not have a high enough Favor with $faction to Enter.\n\nYou need: $favorRequired\nYou have: $favorCurrent\n\nGain Favor by completing Missions for the $faction."
 lang["#UI_TELEPORTERBLOCK_FACTION_HOSTILE"] = "You are currently Hostile with the $faction\n\nYou cannot enter this area."
 lang["#UI_TELEPORTERBLOCK_FACTION_REPRESENT"] = "You must be representing the $faction to enter!\n\nYou can represent a faction by getting enough favor and clicking on the faction in the reputation menu."
+lang["#UI_TELEPORTERBLOCK_FACTION_MEMBER"] = "You must be an official member of the $faction to enter!\n\nYou can become an official member by being Recruited in-game or through the $officialChannel." -- $officialChannel will be "website" or "discord" depending on the server's configuration.
 lang["#UI_TELEPORTERBLOCK_FACTION_HOSTILEWORK"] = "You cannot enter because your favor with an enemy faction, the $hostileFaction, is higher than $minFavor. It is currently $favorCurrent."
 lang["#UI_TELEPORTERBLOCK_FACTION_HOSTILEWORK_NORECOVER"] = "Due to your actions, you are no longer welcomed by this faction."
 
@@ -90,6 +99,7 @@ lang["#PIP_HOTKEY_NOBINDING"] = "Warning! The binding required to make this hotk
 -- Shorthands
 lang["#SHORT_HP"] = "HP" -- Health Points
 lang["#SHORT_AP"] = "AP" -- Action Points
+lang["#SHORT_SECONDS"] = "s" -- Seconds
 lang["#SHORT_DMG"] = "DMG" -- Damage
 lang["#SHORT_CXP"] = "CXP" -- Combat Experience
 lang["#SHORT_UXP"] = "UXP" -- Utility Experience
@@ -105,6 +115,7 @@ lang["#SHORT_RADS"] = "RADS" -- Radiation level
 lang["#SHORT_SAT"] = "SAT" -- Satiation, hunger combined with thirst into one stat.
 lang["#SHORT_PVP"] = "PVP" -- Player Versus Player
 lang["#SHORT_ALC"] = "ALC" -- Alcohol Content / Drunkneness
+lang["#SHORT_OXYGEN"] = "O2" -- Oxygen
 
 -- UI Labels
 lang["#UI_SEARCH"] = "Search"
@@ -118,6 +129,7 @@ lang["#UI_WEAR"] = "Wear"
 lang["#UI_USE"] = "Use"
 lang["#UI_REPAIR"] = "Repair"
 lang["#UI_RENAME"] = "Rename"
+lang["#UI_EDIT"] = "Edit"
 lang["#UI_SAVE"] = "Save"
 lang["#UI_SAVEWEIGHT"] = "Save Weight"
 lang["#UI_EMPTYSTORAGE"] = "<Empty>"
@@ -169,6 +181,7 @@ lang["#UI_MINE"] = "Mine"
 lang["#UI_EXTRACT"] = "Extract"
 lang["#UI_DISARM"] = "Disarm"
 
+lang["#UI_MINEBLOCKED"] = "You cannot deploy mines here."
 lang["#UI_MINELIMIT"] = "You hit the mine limit of $limit. Retrieving First Mine."
 lang["#UI_MINELIMIT_RETRIEVEFAILED"] = "You were too far away to retrieve your mine!"
 
@@ -189,8 +202,10 @@ lang["#CATEGORY_CHEM"] = "Chems"
 lang["#CATEGORY_FOOD"] = "Food"
 lang["#CATEGORY_DRINK"] = "Drink"
 lang["#CATEGORY_SOUP"] = "Soup"
+lang["#CATEGORY_FAKECURR"] = "Fake Currencies"
 lang["#CATEGORY_CURR"] = "Currencies"
 lang["#CATEGORY_MISC"] = "Misc."
+lang["#CATEGORY_BOOKMAG"] = "Books/Magazines"
 lang["#CATEGORY_CONV"] = "Conversion"
 lang["#CATEGORY_MOD"] = "Weapon Mods"
 lang["#CATEGORY_STD"] = "Standard"
@@ -248,6 +263,7 @@ lang["#UI_APPLY"] = "Apply"
 lang["#UI_RCancel"] = "Cancel @+Reload "
 lang["#UI_SPACEConfirm"] = "Confirm @+Jump "
 lang["#UI_CONFIRM"] = "Confirm"
+lang["#UI_DELETE"] = "Delete"
 lang["#UI_AREYOUSURE"] = "Are you sure?"
 lang["#UI_CANCEL"] = "Cancel"
 lang["#UI_OKAY"] = "Okay"
@@ -276,6 +292,8 @@ lang["#GOODRAD1_NAME"] = "Minor Radiation Dosage"
 lang["#GOODRAD2_NAME"] = "Medium Radiation Dosage"
 lang["#GOODRAD3_NAME"] = "High Radiation Dosage"
 lang["#GOODRAD4_NAME"] = "Maximum Radiation Dosage"
+
+lang["#EFFECT_STEALTHFIELD"] = "Stealth Field"
 
 
 --[[
@@ -407,7 +425,7 @@ lang["#TRADE_DECLINEREQUEST"] = "Decline Trade Request"
 lang["#TRADE_DECLINED"] = "You have declined the trade request."
 lang["#TRADE_OTHERDECLINED"] = "$person has declined your trade request."
 lang["#TRADE_TRADEINVFULL"] = "Trade Inventory Full"
-lang["#TRADE_NOTRADE"] = "You cannot trade this item!"
+lang["#TRADE_NOTRADE"] = "You cannot share this item with others."
 lang["#TRADE_CANCEL"] = "Cancel Trade"
 lang["#TRADE_CANCELCONFIRM"] = "Are you Sure you want to cancel the Trade?"
 lang["#TRADE_YOUROFFER"] = "Your Offer"
@@ -582,7 +600,7 @@ lang["#GENDER_FEMALE"] = "Female"
 lang["#CHARMAKE_DISCARDCHAR"] = "This will reset your character data. Continue?"
 lang["#UI_NAMECHARACTER"] = "Finalize Character"
 lang["#UI_ENTERNAME"] = "Enter Name..."
-lang["#CHARMAKE_CHARACTERLIMIT"] = "You have reached the character limit."
+lang["#CHARMAKE_CHARACTERLIMIT"] = "You have reached the character limit of $limit."
 
 lang["#UI_NAMETOOLONG"] = "Name is too long, must be below 40 characters."
 lang["#UI_NAMETOOSHORT"] = "Name is too short, must be above 4 characters."
@@ -802,7 +820,7 @@ lang["#MISSIONREWARD_OPTION2DESC"] = "Take the rewards of the second option."
 lang["#MISSIONREWARD_OPTION3"] = "Third Option"
 lang["#MISSIONREWARD_OPTION3DESC"] = "Take the rewards of the third option."
 
-lang["#MISSIONREWARD_INFLUENCE_COMMUNITYREQUIRED"] = "You can only accept this reward if you are in a community.\n\nPlayer Communities are not yet Implemented."
+lang["#MISSIONREWARD_INFLUENCE_COMMUNITYREQUIRED"] = "You can only accept this reward if you are in a community.\n\n Community Influence is not yet implemented"
 
 lang["#UI_REPUTATION"] = "Reputation"
 lang["#UI_FAVOR"] = "Favor"
@@ -810,11 +828,20 @@ lang["#UI_INFLUENCE"] = "Influence"
 
 -- Community
 
+lang["#COMMUNITY"] = "Community"
 lang["#COMMUNITY_CREATE"] = "Create Community"
 lang["#COMMUNITY_NAMETAKEN"] = "Name already in use"
 lang["#COMMUNITY_SEARCH"] = "Community Search"
+lang["#COMMUNITY_LEAVE"] = "Leave Community"
+lang["#COMMUNITY_LEAVE_CONFIRM"] = "Are you sure you want to leave $communityName?"
+lang["#COMMUNITY_LEAVE_DENY_OWNER"] = "You are the owner of $communityName. You must transfer ownership before leaving."
 lang["#COMMUNITY_SEARCH_COOLDOWN"] = "Please wait before searching again."
 lang["#COMMUNITY_UNSELECTED"] = "No Community Selected"
+lang["#COMMUNITY_NO_PERMISSION"] = "You do not have permission to perform this action."
+lang["#COMMUNITY_DISBAND"] = "Disband Community"
+lang["#COMMUNITY_DISBAND_CONFIRM"] = "Are you sure you want to disband $communityName?\n\nAll members will be removed, all items in the community storage will be lost and the name will be available to anyone."
+lang["#COMMUNITY_DISBAND_CONFIRM_NAME"] = "enter \"$communityName\" to confirm."
+lang["#COMMUNITY_DISBAND_CONFIRM_NAME_FAIL"] = "Name does not match!"
 
 lang["#COMMUNITY_DESCRIPTION_DEFAULT"] = "No description has been set for this community."
 lang["#COMMUNITY_MOTD_DEFAULT"] = "No Message of the Day has been set."
@@ -831,20 +858,21 @@ lang["#COMMUNITY_INVITE_COOLDOWN"] = "You have already invited this person to th
 lang["#COMMUNITY_LEAVE"] = "Leave Community"
 
 lang["#COMMUNITY_PERM_KICK_MEMBER"] = "Kick Member"
-lang["#COMMUNITY_PERM_KICK_MEMBER_DESC"] = "Remove Member's with ranks below ours."
-lang["#COMMUNITY_PERM_ADD_MEMBER"] = "Add Member"
-lang["#COMMUNITY_PERM_EDIT_MEMBER"] = "Edit Member"
-lang["#COMMUNITY_PERM_ADD_MEMBER_DESC"] = "Add members to ranks below our own."
+lang["#COMMUNITY_PERM_KICK_MEMBER_DESC"] = "Remove Members with ranks below ours."
+lang["#COMMUNITY_PERM_ADD_MEMBER"] = "Recruit Member"
+lang["#COMMUNITY_PERM_ADD_MEMBER_DESC"] = "Recruit new members the default rank."
 lang["#COMMUNITY_PERM_ASSIGN_RANKS"] = "Assign Ranks"
-lang["#COMMUNITY_PERM_ASSGN_RANKS_DESC"] = "Add/Remove users ranked below our own - to ranks below our own."
+lang["#COMMUNITY_PERM_ASSIGN_RANKS_DESC"] = "Add/Remove users ranked below our own - to ranks below our own."
 lang["#COMMUNITY_PERM_EDIT_RANKS"] = "Edit Ranks"
-lang["#COMMUNITY_PERM_EDIT_RANKS_DESC"] = "Add/Remove permissions available to this group on groups below it."
+lang["#COMMUNITY_PERM_EDIT_RANKS_DESC"] = "Add/Remove permissions available to this rank on ranks below it."
 lang["#COMMUNITY_PERM_EDIT_RELATIONS"] = "Manage Relations"
 lang["#COMMUNITY_PERM_EDIT_RELATIONS_DESC"] = "Accept or Deny Ally Requests or Declare War with other communities."
 lang["#COMMUNITY_PERM_ACCESSSTORAGE"] = "Access Storage"
-lang["#COMMUNITY_PERM_ACCESSSTORAG_DESC"] = "Take or Remove items in the community storages"
+lang["#COMMUNITY_PERM_ACCESSSTORAGE_DESC"] = "Take or Remove items in the community storages"
 lang["#COMMUNITY_PERM_SPAWNSTORAGE"] = "Spawn Storage"
-lang["#COMMUNITY_PERM_SPAWNSTORAG_DESCE"] = "Spawn Storage Lockers in the world"
+lang["#COMMUNITY_PERM_SPAWNSTORAGE_DESC"] = "Spawn Storage Lockers in the world"
+lang["#COMMUNITY_PERM_EDITSTORAGE"] = "Edit Storage"
+lang["#COMMUNITY_PERM_EDITSTORAGE_DESC"] = "Purchase New Storage lockers for regions and Rename existing ones."
 lang["#COMMUNITY_RANK_RECRUIT"] = "Recruit"
 lang["#COMMUNITY_RANK_MEMBER"] = "Member"
 lang["#COMMUNITY_RANK_OFFICER"] = "Officer"
@@ -854,9 +882,12 @@ lang["#COMMUNITY_RANK_OWNER"] = "Owner"
 lang["#COMMUNITY_RANK_CONFIRM_OWNER"] = "Are you sure you'd like to make $name $ownerRank?\n\n$ownerRank is the highest rank and can only be held by one person.\n\nYou will step down to $leaderRank, the second highest."
 lang["#COMMUNITY_RANK_CONFIRM_SELFDEMOTE"] = "Are you sure you'd like to demote yourself to $rankName?\n\nYou will lose all permissions associated with your current rank."
 lang["#COMMUNITY_RANK_CONFIRM_CLOSE"] = "Close this menu and discard changes?"
+lang["#COMMUNITY_RANK_CONFIRM_DELETE"] = "Delete this Rank?\n\nAll Current members will be moved to the default rank."
 lang["#COMMUNITY_RANK_EDIT_SUCCESS"] = "Rank updated."
+lang["#COMMUNITY_RANK_ADD_SUCCESS"] = "Rank Added."
 lang["#COMMUNITY_RANK_RENAME"] = "Rename Rank"
-lang["#COMMUNITY_RANK_INVALID_NAME"] = "Rank could not be updated - name is not valid."
+lang["#COMMUNITY_RANK_ADD"] = "Add Rank"
+lang["#COMMUNITY_RANK_INVALID_NAME"] = "Rank name is invalid."
 lang["#COMMUNITY_RANK_INVALID_NAMELENGTH"] = "A rank's name must be between $min and $max characters."
 lang["#COMMUNITY_RANK_DEFAULT"] = "Default Rank"
 
@@ -866,6 +897,27 @@ lang["#COMMUNITY_RELATION_WAR"] = "War"
 lang["#COMMUNITY_RELATION_WAR_DESC"] = "You are at war with this community, Kills between your community will take more influence than normal."
 
 lang["#COMMUNITY_STORAGE_ALREADY_SPAWNED"] = "Storage already spawned in the world."
+lang["#COMMUNITY_STORAGE_SPAWN"] = "Deploy"
+lang["#COMMUNITY_STORAGE_SPAWN_BLOCKED"] = "You cannot place your storage in this area. Try again in a safer location."
+lang["#COMMUNITY_STORAGE_SPAWN_WARN_PVP"] = "Warning! you are about to place your Storage in a PVP area - it can be damaged and broken in to by other players."
+lang["#COMMUNITY_STORAGE_SPAWN_CONFIRM_PVP"] = "Deploy Storage in PVP Area Here?"
+lang["#COMMUNITY_STORAGE_SPAWN_CONFIRM"] = "Spawn Storage Here?"
+lang["#COMMUNITY_STORAGE_PACKUP"] = "Pack Up" -- Pack Up Storage, Despawn Storage, Un-Deploy Storage, ect - removes it from the world.
+lang["#COMMUNITY_STORAGE_STOPPACKUP"] = "Stop Pack Up" -- Stop / Cancel Storage Packup
+lang["#COMMUNITY_STORAGE_PACKUP_DESC"] = "Pack up Storage?\nRemoves Storage from the world.\n\nTakes $time seconds and will be interrupted if it takes damage in a PVP area."
+lang["#COMMUNITY_STORAGE_PACKUP_STARTED"] = "Packing up Storage..."
+lang["#COMMUNITY_STORAGE_PACKUP_COMPLETE"] = "Storage Packed Up."
+lang["#COMMUNITY_STORAGE_PACKUP_CANCEL"] = "Packing up Storage Canceled."
+lang["#COMMUNITY_STORAGE_COOLDOWN"] = "You cannot place this storage for another $timeString outside of a safe zone."
+lang["#COMMUNITY_STORAGE_COOLDOWN_WARN"] = "You have recently placed this storage!\nYou can pack it up now, but you will not be able to place it again for $timeString."
+lang["#COMMUNITY_NO_STORAGES"] = "No Storages Owned"
+lang["#COMMUNITY_BUY_STORAGE"] = "Buy Storage"
+lang["#COMMUNITY_BUY_STORAGE_NAME"] = "Name your new Storage"
+lang["#COMMUNITY_BUY_STORAGE_NOTENOUGH"] = "You do not have enough $currency|s to buy this storage.\n\n$currency|s: \n$held/$required"
+lang["#COMMUNITY_BUY_STORAGE_CONFIRM"] = "Buy Community Storage\n\nCost: $cost $currency|s\n\nThe storage will have a capacity of $capacity WGT and be locked to this region.\n\nYou can have $max Containers per region."
+lang["#COMMUNITY_BUY_STORAGE_MAX"] = "You have reached the container limit for this region."
+lang["#COMMUNITY_STORAGE_INVALID_NAME"] = "Community Storage Name invalid."
+lang["#COMMUNITY_STORAGE_PURCHASED"] = "Community Storage Purchased!"
 
 lang["#COMMUNITY_CREATE_SUCCESS"] = "Community Created!"
 
@@ -1043,6 +1095,9 @@ lang["#SETTING_PVP_REPORT_CRIMES"] = "Report Crimes against me to protecting or 
 
 lang["#UI_PROTECTION_TOWNUPDATE"] = "Your protection setting will apply only the next time you enter a safe zone!"
 
+lang["#UI_SAFEZONE_ENTER"] = "Entering Safe Zone"
+lang["#UI_SAFEZONE_EXIT"] = "Exiting Safe Zone"
+
 lang["#SETTING_PVP_PROTECTION_ENABLED"] = "Faction Protection settings are Enabled"
 lang["#SETTING_PVP_PROTECTION_DISABLED"] = "Faction Protection settings are Disabld!"
 
@@ -1053,7 +1108,7 @@ lang["#SETTING_PVP_FACTION_PROTECTION"] = "You cannot damage Faction Members!"
 lang["#SETTING_PVP_FACTION_PROTECTED_BY"] = "Protected by the $factions."
 
 
-
+lang["#ITEM_FAKE"] = "Counterfeit"
 
 
 lang["#MISSION_GIVER"] = "Assigner" 

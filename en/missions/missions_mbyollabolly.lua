@@ -53,7 +53,7 @@ lang["#MISSION_YOLLA_ANTHILL_COMPLeTE"] = "You've completed the task."
 lang["#MISSION_YOLLA_MINECLEARING"] = "Clear the Mines"
 lang["#MISSION_YOLLA_MINECLEARING_DESC"] = "This is an NCR contract, they may not have a large presence here but they still recognize the bandit issue all the same. They want the Rock Biter numbers thinned out, hit them where it hurts."
 lang["#MISSION_YOLLA_MINECLEARING_HINT"] = "Kill Rock Biter Bandits. They can be found in the mines in the upper pod network. This is a dangerous area, you may need a group or be very well equipped."
-lang["#MISSION_YOLLA_MINECLEARING_COMPLeTE"] = "Contract completed, take your pick for your cut."
+lang["#MISSION_YOLLA_MINECLEARING_COMPLETE"] = "Contract completed, take your pick for your cut."
 
 -- BANDIT AREA
 
@@ -78,5 +78,18 @@ lang["#MISSION_YOLLA_POWERTHECELL"] = "Making sure the Lights stay on"
 lang["#MISSION_YOLLA_POWERTHECELL_DESC"] = "Contract from the Toolmasters. Need some nuclear material from the silo area and some microfusion cells to keep it going, do your part."
 lang["#MISSION_YOLLA_POWERTHECELL_HINT"] = "Obtain nuclear material and microfusion cells. You can get nuclear material from the Silo, and microfusion cells from various vendors, protectrons, or energy weapon lockers."
 lang["#MISSION_YOLLA_POWERTHECELL_COMPLETE"] = "Contract completed. Return in a few hours for another bounty."
+
+-- Weeklies, repeat every 168 hours
+
+lang["#MISSION_YOLLA_CLEANINGTHEVALLEY"] = "Cleaning up the Valley"
+lang["#MISSION_YOLLA_CLEANINGTHEVALLEY_DESC"] = "The Deathclaws have been making a mess of the valley for far too long. We are setting a large bounty on anyone willing to put a stop to them."
+lang["#MISSION_YOLLA_CLEANINGTHEVALLEY_HINT"] = "Kill 25 Deathclaws in Yolla Bolly."
+lang["#MISSION_YOLLA_CLEANINGTHEVALLEY_COMPLETE"] = "Contract Completed. Return in a week for another bounty."
+
+lang["#MISSION_YOLLA_CAVEBITING"] = "Digging new Caves"
+lang["#MISSION_YOLLA_CAVEBITING_DESC"] = "We need to restock our explosives and mining equipment to expand our tunnels. The toolmaster will pay well for these items."
+lang["#MISSION_YOLLA_CAVEBITING_HINT"] = "Hand in 1 Missile launcher, 5 missiles and 10 dynamite"
+lang["#MISSION_YOLLA_CAVEBITING_COMPLETE"] = "Contract Completed. Return in a week for another bounty."
+
 
 RELOADSCHEMA = true

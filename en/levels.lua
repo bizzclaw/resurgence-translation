@@ -121,6 +121,12 @@ lang["#PERK_RUNNGUN_DESC"] = "Moving and shooting? Not that hard!\n\n-When using
 lang["#PERK_WILDWEST_NAME"] = "Wild West"
 lang["#PERK_WILDWEST_DESC"] = "Born and raised in the West.\n\n-When using Revolvers, Lever Action Rifles or Pump Shotguns, you can fire 25% faster."
 
+lang["#PERK_CONTRACT_KILLER_NAME"] = "Contract Killer"
+lang["#PERK_CONTRACT_KILLER_DESC"] = "Any good character you kill will have 50% chance to have an ear on their corpse.\n\nThis ear can then be sold to a black market trader for money."
+
+lang["#PERK_LAWBRINGER_NAME"] = "Lawbringer"
+lang["#PERK_LAWBRINGER_DESC"] = "Any evil character you kill will have 50% chance to have a finger on their corpse.\n\nThis finger can then be sold to a black market trader for money."
+
 lang["#PERK_LIGHTWIELDER_NAME"] = "Light Wielder"
 lang["#PERK_LIGHTWIELDER_DESC"] = "Run while handling heftier melee weapons with ease!\n\n-While using a melee weapon, you can always sprint while swinging, swinging will not affect movement speed as much, and it will consume significantly less AP."
 
@@ -150,11 +156,77 @@ lang["#PERK_METALLURGIST_DESC"] = "Metallurgist. \n-You've learned how to work w
 lang["#PERK_CLOTHIER_NAME"] = "Clothier"
 lang["#PERK_CLOTHIER_DESC"] = "Clothier. \n-You've learned how to work with fabrics and leather effectively." -- NEED DESC
 
+lang["#PERK_PURIFIER_NAME"] = "Purifier"
+lang["#PERK_PURIFIER_DESC"] = "As a purifier of the wasteland, you do +50% damage with Melee and Unarmed weapons against NPC Abominations."
+
+lang["#PERK_GLADIATOR_NAME"] = "Gladiator"
+lang["#PERK_GLADIATOR_DESC"] = "As a wasteland warrior, while wearing light or no armor your melee attacks use 25% less AP."
+
+lang["#PERK_HIT_THE_DECK_NAME"] = "Hit The Deck"
+lang["#PERK_HIT_THE_DECK_DESC"] = "Your extensive familiarity with Explosives allows you to ignore a portion of their damage. Your Damage Threshold is increased by 15 against any and all Explosives -- even your own."
+
+lang["#PERK_HEAVY_METAL_NAME"] = "Heavy Metal"
+lang["#PERK_HEAVY_METAL_DESC"] = "While in Power Armor, Weapons no longer affect your movement speed."
+
+lang["#PERK_FASTBALL_NAME"] = "Fastball"
+lang["#PERK_FASTBALL_DESC"] = "Forget the curveball Ricky, give him the heater. \nAll thrown equipment move 25% faster and Baseball Grenades now explode on impact."
+
+lang["#PERK_BRUTE_AIM_NAME"] = "Brute Aim"
+lang["#PERK_BRUTE_AIM_DESC"] = "Thanks to your time in the Master's Army, Automatic Weapons have 15% reduced recoil."
+
+lang["#PERK_LIVING_ANATOMY_NAME"] = "Living Anatomy"
+lang["#PERK_LIVING_ANATOMY_DESC"] = "Living Anatomy allows you to see the health and Damage Threshold of any target."
+
+lang["#PERK_NERVES_OF_STEEL_NAME"] = "Nerves of Steel"
+lang["#PERK_NERVES_OF_STEEL_DESC"] = "With the Nerves of Steel perk, you gain 50 more AP."
+
+lang["#PERK_THE_PROFESSIONAL_NAME"] = "The Professional"
+lang["#PERK_THE_PROFESSIONAL_DESC"] = "Suppresors no longer suffer a damage penalty."
+
+lang["#PERK_THEMSGOODEATIN_NAME"] = "Them's Good Eatin'"
+lang["#PERK_THEMSGOODEATIN_DESC"] = "Any living creature you kill has a 25% chance to have the potent healing items Thin Red Paste or Blood Sausage when looted."
+
+lang["#PERK_RAD_TOLERANCE_NAME"] = "Rad Tolerance"
+lang["#PERK_RAD_TOLERANCE_DESC"] = "Thanks to your time in the Vault, you gain a natural 10 Radiation Resistance."
+
+lang["#PERK_BEND_THE_RULES_NAME"] = "Bend The Rules"
+lang["#PERK_BEND_THE_RULES_DESC"] = "Once taken this will allow you to take 1 perk that is available to your race; This includes perks that are considered off-limits after taking a branching path."
+
+lang["#PERK_SPRAY_AND_PRAY_NAME"] = "Spray and Pray"
+lang["#PERK_SPRAY_AND_PRAY_DESC"] = "With the Spray and Pray perk, People in your Party deal 50% less dmg to you."
+
+lang["#PERK_ROBOTICS_EXPERT_NAME"] = "Robotics Expert"
+lang["#PERK_ROBOTICS_EXPERT_DESC"] = "With the Robotics Expert perk, you do an additional 25% damage to any robot."
+
+lang["#PERK_ENTOMOLOGIST_NAME"] = "Entomologist"
+lang["#PERK_ENTOMOLOGIST_DESC"] = "With the Entomologist perk, you do an additional +50% damage every time you attack a mutated insects."
+
 lang["#PERK_BALLISTIC_NAME"] = "Ballistics"
 lang["#PERK_BALLISTIC_DESC"] = "Ballistics. \n-You've learned how to work with kevlar and polymers effectively." -- NEED DESC
 
 lang["#PERK_DISMANTLE_NAME"] = "Dismantle"
 lang["#PERK_DISMANTLE_DESC"] = "Dismantle. \n-You've learned how to downgrade a piece of armor at the cost of the resources required to upgrade it, in turn you get more experience from doing so." -- NEED DESC
+
+lang["#PERK_RADABSORBER_NAME"] = "Rad Absorber"
+lang["#PERK_RADABSORBER_DESC"] = "With the Rad Absorber perk, You take more Radiation damage and your Maximum Radiation levels are increased."
+lang["#PERK_RADABSORBER_LEVEL_1"] = "Your Radiation Resistances are decreased by 20."
+lang["#PERK_RADABSORBER_LEVEL_2"] = "Your Maximum Radiation levels are increased by 200."
+
+lang["#PERK_SILENT_RUNNING_NAME"] = "Silent Running"
+lang["#PERK_SILENT_RUNNING_DESC"] = "With the Silent Running perk, footstep sounds are muffled."
+lang["#PERK_SILENT_RUNNING_LEVEL_1"] = "Walking footstep sounds are reduced by 50%"
+lang["#PERK_SILENT_RUNNING_LEVEL_2"] = "Running footstep sounds are reduced by 25%"
+
+lang["#PERK_DEFENDER_NAME"] = "Defender"
+lang["#PERK_DEFENDER_DESC"] = "With the Defender Perk, the AP cost of blocking is reduced."
+lang["#PERK_DEFENDER_LEVEL_1"] = "Blocking AP costs are reduced by 50%"
+lang["#PERK_DEFENDER_LEVEL_2"] = "Blocking no longer uses any AP."
+
+lang["#PERK_ANIMAL_FRIEND_NAME"] = "Animal Friend"
+lang["#PERK_ANIMAL_FRIEND_DESC"] = "With the Animal Friend Perk, animals will generally leave you alone."
+lang["#PERK_ANIMAL_FRIEND_LEVEL_1"] = "Some animals will longer be hostile unless you approach too closely."
+lang["#PERK_ANIMAL_FRIEND_LEVEL_2"] = "Most animals will longer be hostile unless you approach too closely."
+lang["#PERK_ANIMAL_FRIEND_LEVEL_3"] = "Animals will longer be hostile to the player unless attacked."
 
 lang["#PERK_HYPERTOXICITY_NAME"] = "Hypertoxicity"
 lang["#PERK_HYPERTOXICITY_DESC"] = "Hypertoxicity. \n-You've learned how to work with poisons effectively." -- NEED DESC
@@ -185,6 +257,18 @@ lang["#PERK_GECKOSKINNING_DESC"] = "Know how to 'properly' skin any animal with 
 lang["#PERK_GECKOSKINNING_LEVEL_1"] = "-Regular Geckos and Golden Geckos can drop hides."
 lang["#PERK_GECKOSKINNING_LEVEL_2"] = "-Regular Geckos, Golden Geckos, Fire Geckos, Green Geckos, and Deathclaws can drop hides."
 
+lang["#PERK_EMPATHY_NAME"] = "Empathy"
+lang["#PERK_EMPATHY_DESC"] = "With the Empathy perk, You can see Positive and Negative reactions from Dialogue choices."
+
+lang["#PERK_EXPLORER_NAME"] = "Explorer"
+lang["#PERK_EXPLORER_DESC"] = "With the Explorer perk, You discover all major and minor locations on the World Map."
+
+lang["#PERK_SCOUT_NAME"] = "Scout"
+lang["#PERK_SCOUT_DESC"] = "With the Scout perk, Your world map travel speed is increased by 20% and higher chance of finding special encounters."
+
+lang["#PERK_COMPREHENSION_NAME"] = "Comprehension"
+lang["#PERK_COMPREHENSION_DESC"] = "With the Comprehension perk, you gain double the bonus from reading magazines and one additional point from skill books."
+
 lang["#PERK_MADBOMBER_NAME"] = "Mad Bomber"
 lang["#PERK_MADBOMBER_DESC"] = "Specialized training for wastelanders with a talent for Repair and a love of Explosives!\n\n-You can craft handmade grenades and other explosives at a workbench."
 
@@ -200,11 +284,6 @@ lang["#PERK_VIGILANTRECYCLER_DESC"] = "Waste not, want not.\n\n-You have a bette
 lang["#PERK_JUNKROUNDS_NAME"] = "Junk Rounds"
 lang["#PERK_JUNKROUNDS_DESC"] = "Who needs factory loaded brass anyway?\n\n-You can craft junk bullets with scrap metal instead of brass."
 
-lang["#PERK_ARMORSMITHING_NAME"] = "!DEPRECATED! Armor Smithing" -- Need to remove soon.
-lang["#PERK_ARMORSMITHING_DESC"] = "!DEPRECATED!You've learned how to create sturdy armors just by welding metal together!"
-lang["#PERK_ARMORSMITHING_LEVEL_1"] = "-!DEPRECATED!You can craft Metal Armor and Super Mutant Armor Pieces."
-lang["#PERK_ARMORSMITHING_LEVEL_2"] = "-!DEPRECATED!You can craft Metal Armor, Super Mutant Armor, and Combat Armor Pieces."
-
 lang["#PERK_CHEMIST_NAME"] = "Chemist"
 lang["#PERK_CHEMIST_DESC"] = "You have a clear understanding of combining elements and compounds into mixtures and using it to your advantage."
 lang["#PERK_CHEMIST_LEVEL_1"] = "-You can craft regular chemical items."
@@ -214,6 +293,11 @@ lang["#PERK_STRONGBACK_NAME"] = "Strong Back"
 lang["#PERK_STRONGBACK_DESC"] = "With some training, you can manage to carry more stuff."
 lang["#PERK_STRONGBACK_LEVEL_1"] = "-You gain an extra 20 to carry weight."
 lang["#PERK_STRONGBACK_LEVEL_2"] = "-You gain an extra 40 to carry weight."
+
+lang["#PERK_VORACIOUSREADER_NAME"] = "Voracious Reader"
+lang["#PERK_VORACIOUSREADER_DESC"] = "You don't just read books, you tear into them!"
+lang["#PERK_VORACIOUSREADER_LEVEL_1"] = "Damaged magazines you pick up can be truned into blank magazines. \nBlank magazines can be turned into skill magazines."
+lang["#PERK_VORACIOUSREADER_LEVEL_2"] = "Damaged books you pick up can be truned into blank books. \nBlank books can be turned into skill books."
 
 lang["#PERK_MARATHONRUNNER_NAME"] = "Marathon Runner"
 lang["#PERK_MARATHONRUNNER_DESC"] = "Running is part of your daily routine!"
@@ -324,7 +408,8 @@ lang["#DERIVED_FAVORBONUS"] = "Favor Reward Bonus"
 lang["#DERIVED_MAPSPEED"] = "World Map Speed Bonus"
 lang["#DERIVED_BARTER"] = "Barter Bonus"
 lang["#DERIVED_REPAIR"] = "Repair Bonus"
-lang["#DERIVED_CRAFTCONDITION"] = "Craft Condition Bonus"
+lang["#DERIVED_DECAYREDUCTION"] = "Crafting Quality"
+lang["#DERIVED_OXYGEN"] = "Oxygen"
 
 lang["#UI_STATBASE"] = "(Base: $base$suffix)" -- shown after stat, example: "HP Bonus: 25HP (Base: 100HP)". 100 is $base, HP is $suffix
 

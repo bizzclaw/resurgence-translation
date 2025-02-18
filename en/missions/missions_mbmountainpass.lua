@@ -39,4 +39,9 @@ lang["#MISSION_MPASS_SHIPMENTRECOVER_HINT"] = "Look for a blue steamer trunk in 
 lang["#MISSION_MPASS_SHIPMENTRECOVER_COMPLETE"] = "Excellent. Choose your denomination."
 lang["#MISSION_MPASS_SHIPMENTRECOVER_ITEMNAME"] = "Locked Steamer Trunk"
 
+lang["#MISSION_MPASS_SAFETRAVELS"] = "Safe Travels"
+lang["#MISSION_MPASS_SAFETRAVELS_DESC"] = "The pass is beginning to become infested with abominations, Yao guai and the worst of all bandits. We need a cull and we need volunteers to do it."
+lang["#MISSION_MPASS_SAFETRAVELS_HINT"] = "Kill 20 Yao guai, 40 Ghouls and 20 Ice picks. These can be found all over the pass."
+lang["#MISSION_MPASS_SAFETRAVELS_COMPLETE"] = "Amazing work, I actually can't believe you suffered through that."
+
 RELOADSCHEMA = true

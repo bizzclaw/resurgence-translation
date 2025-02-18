@@ -38,4 +38,9 @@ lang["#MISSION_ASHLANDS_BUNKERSALVATION_DESC"] = "The man who pinned this wants 
 lang["#MISSION_ASHLANDS_BUNKERSALVATION_HINT"] = "Eliminate any type of Super Mutant inside the Bunker in Ashlands. The bunker can be found under the gas station near the corner of the region."
 lang["#MISSION_ASHLANDS_BUNKERSALVATION_COMPLETE"] = "You've completed the task."
 
+lang["#MISSION_ASHLANDS_PUTTHEMINTHEGROUND"] = "Put them in the Ground"
+lang["#MISSION_ASHLANDS_PUTTHEMINTHEGROUND_DESC"] = "We've be seeing vertibirds flying in and out of the area and lots of movement from Enclave, this needs to be addressed. They are by far the most dangerous thing in the wasteland."
+lang["#MISSION_ASHLANDS_PUTTHEMINTHEGROUND_HINT"] = "Kill 20 Enclave"
+lang["#MISSION_ASHLANDS_PUTTHEMINTHEGROUND_COMPLETE"] = "You've completed the task."
+
 RELOADSCHEMA = true

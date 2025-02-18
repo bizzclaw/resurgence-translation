@@ -140,4 +140,15 @@ lang["#MISSION_SALTWELLS_INFORMATIONPICKUP_HINT"] = "Go up the road and past the
 lang["#MISSION_SALTWELLS_INFORMATIONPICKUP_COMPLETE"] = "Amazing work, we'll have another request in tomorrow. Take some interesting things."
 lang["#MISSION_SALTWELLS_INFORMATIONPICKUP_ITEMNAME"] = "80s Scouting Report"
 
+-- Weeklies
+lang["#MISSION_SALTWELLS_MASTERSOFTHEROAD"] = "Masters of the Road"
+lang["#MISSION_SALTWELLS_MASTERSOFTHEROAD_DESC"] = "Oi!, we need to fix our bikes. These pesky NCR keep destroying them. Go gather these materials for us!"
+lang["#MISSION_SALTWELLS_MASTERSOFTHEROAD_HINT"] = "Retrieve wheels and gasoline engines. These can be found inside broken cars."
+lang["#MISSION_SALTWELLS_MASTERSOFTHEROAD_COMPLETE"] = "Good shit, this will keep our roads safe from those NCR freaks."
+
+lang["#MISSION_SALTWELLS_RESTORINGORDER"] = "Restoring Order"
+lang["#MISSION_SALTWELLS_RESTORINGORDER_DESC"] = "Those 80's bandits have been a menace for far too long. We need you to hit them where it hurts, taking care of their best equipped should do the job."
+lang["#MISSION_SALTWELLS_RESTORINGORDER_HINT"] = "Kill 5 Big Rigs and 10 Gyro Captains."
+lang["#MISSION_SALTWELLS_RESTORINGORDER_COMPLETE"] = "Amazing work, take these. You've earned them."
+
 RELOADSCHEMA = true
