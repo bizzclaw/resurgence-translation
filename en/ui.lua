@@ -233,7 +233,6 @@ lang["#UI_STORINGMISC"] = "Storing Crafting Items..."
 lang["#UI_STORAGELOADING"] = "Storage Loading..."
 lang["#SORT_AGE"] = "Age"
 lang["#SORT_NAME"] = "Name"
-lang["#SORT_WGT"] = "Weight"
 lang["#SORT_VALUE"] = "Value"
 lang["#SORT_CND"] = "Condition"
 lang["#SORT_LOOT"] = "Loot Priority"
@@ -580,7 +579,28 @@ lang["#DMG_RADIATION"] = "Radiation"
 lang["#DMG_ACID"] = "Acid"
 lang["#DMG_POISON"] = "Poison" -- used in mod bench to show the resistance of a specific damage type, IE, "Explosive Resistance"
 
+-- Weapon Stats
+-- Note: Keep the "Units" as short as possible, else they may clip off the screen.
+lang["#WEAPON_DAMAGE"] = "Damage"
+lang["#WEAPON_VELOCITY"] = "Velocity"
+lang["#WEAPON_VELOCITY_UNIT"] = "FPS" -- Feet Per Second... Yes you have to translate this somehow. we use murica measuring here.
+lang["#WEAPON_AMMO"] = "Ammo"
+lang["#WEAPON_FIRERATE"] = "Firerate"
+lang["#WEAPON_FIRERATE_UNIT"] = "RPM" -- Rounds Per Minute
+lang["#WEAPON_SIGHTED_SPREAD"] = "Sighted Spread"
+lang["#WEAPON_MAXIMUM_SPREAD"] = "Maximum Spread"
+lang["#WEAPON_RANGE"] = "Range" -- Effective Weapon Range
+
+lang["#WEAPON_HIP_RECOIL"] = "Hip Recoil"
+lang["#WEAPON_SIGHTED_RECOIL"] = "Sighted Recoil"
+lang["#WEAPON_DURABILITY"] = "Durability"
+lang["#WEAPON_RELIABILITY"] = "Reliability"
+lang["#WEAPON_WEIGHT"] = "Weight"
+lang["#WEAPON_CARRYWEIGHT"] = "Carry Weight" -- Extra Carry weight added by this, EG< if it's a pocketed mod.
+
 --Melee
+lang["#WEAPON_MELEE_SPEED"] = "Speed" -- Melee Weapon speed
+lang["#WEAPON_MELEE_REACH"] = "Reach" -- How far the melee weapon reaches
 lang["#MELEE_FAST"] = "Fast"
 lang["#MELEE_MEDIUM"] = "Medium"
 lang["#MELEE_SLOW"] = "Slow"
