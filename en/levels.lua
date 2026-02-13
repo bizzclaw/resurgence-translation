@@ -59,7 +59,7 @@ lang["#SKL_UNARMED"] = "Unarmed"
 lang["#SKL_UNARMEDDESC"] = "Your combined knowledge of martial arts and hand to hand combat, your unarmed skill affects how well you can fight with your fists.\n"
 
 lang["#SKL_EXP"] = "Explosives"
-lang["#SKL_EXPDESC"] = "Knowledge and application of volatile materials. A mastery of Explosives will allow easier use of Explosive Weapons and the creation of unique grenades.\n"
+lang["#SKL_EXPDESC"] = "Knowledge and application of volatile materials. A mastery of Explosives will allow easier use of Explosive Weapons and the creation of unique grenades.\n- Affects handling of Explosive Weapons"
 
 lang["#SKL_SNEAK"] = "Sneak"
 lang["#SKL_SNEAKDESC"] = "The Ability to remain hidden. Affects footstep sound volume and NPC Visibility.\n"
@@ -80,7 +80,7 @@ lang["#SKL_SCI"] = "Science"
 lang["#SKL_SCIDESC"] = "Knowledge of concepts relating to technology such as physics, chemistry, electricity and computers. Governs your hacking ability, and your potential for advanced crafts.\n"
 
 lang["#SKL_MED"] = "Medicine"
-lang["#SKL_MEDDESC"] = "The understanding and application of medical knowledge, an important skill to have in a world where injury is commonplace.\n"
+lang["#SKL_MEDDESC"] = "The understanding and application of medical knowledge, an important skill to have in a world where injury is commonplace.\n- Affects Revive Speed\n- Affects Medicine Craftring\n- Affects handling of the Dart Gun"
 
 lang["#SKL_FOOD"] = "Outdoorsman"
 lang["#SKL_FOODDESC"] = "Knowledge of living in the outdoors. Effects profiency of cooking, farming, world-map travel speed, and your chance to avoid otherwise dangerous encounters.\n"
@@ -156,11 +156,20 @@ lang["#PERK_METALLURGIST_DESC"] = "Metallurgist. \n-You've learned how to work w
 lang["#PERK_CLOTHIER_NAME"] = "Clothier"
 lang["#PERK_CLOTHIER_DESC"] = "Clothier. \n-You've learned how to work with fabrics and leather effectively." -- NEED DESC
 
+lang["#PERK_LONER_NAME"] = "Loner"
+lang["#PERK_LONER_DESC"] = "You work much better when alone. When not in a Faction, Community or Party certain skills are improved."
+lang["#PERK_LONER_LEVEL_1"] = "-Your movement speed is increased by 10%"
+lang["#PERK_LONER_LEVEL_2"] = "-You gain 30 more carry weight."
+lang["#PERK_LONER_LEVEL_3"] = "-Your Save Weight is increased by 25."
+
 lang["#PERK_PURIFIER_NAME"] = "Purifier"
 lang["#PERK_PURIFIER_DESC"] = "As a purifier of the wasteland, you do +50% damage with Melee and Unarmed weapons against NPC Abominations."
 
 lang["#PERK_GLADIATOR_NAME"] = "Gladiator"
 lang["#PERK_GLADIATOR_DESC"] = "As a wasteland warrior, while wearing light or no armor your melee attacks use 25% less AP."
+
+lang["#PERK_CAPS_COLLECTOR_NAME"] = "Caps Collector"
+lang["#PERK_CAPS_COLLECTOR_DESC"] = "You've tapped the Wasteland's hidden wealth. Cap Stashes now have a lot more bottle caps in them. You've also developed a keen eye when it comes to searching for Star Bottlecaps."
 
 lang["#PERK_HIT_THE_DECK_NAME"] = "Hit The Deck"
 lang["#PERK_HIT_THE_DECK_DESC"] = "Your extensive familiarity with Explosives allows you to ignore a portion of their damage. Your Damage Threshold is increased by 15 against any and all Explosives -- even your own."
@@ -198,14 +207,17 @@ lang["#PERK_SPRAY_AND_PRAY_DESC"] = "With the Spray and Pray perk, People in you
 lang["#PERK_ROBOTICS_EXPERT_NAME"] = "Robotics Expert"
 lang["#PERK_ROBOTICS_EXPERT_DESC"] = "With the Robotics Expert perk, you do an additional 25% damage to any robot."
 
+lang["#PERK_XENOTECH_EXPERT_NAME"] = "Xenotech Expert"
+lang["#PERK_XENOTECH_EXPERT_DESC"] = "Your familiarity with High-End Energy Weapons has given you an understanding of even the most Alien of objects."
+
 lang["#PERK_ENTOMOLOGIST_NAME"] = "Entomologist"
-lang["#PERK_ENTOMOLOGIST_DESC"] = "With the Entomologist perk, you do an additional +50% damage every time you attack a mutated insects."
+lang["#PERK_ENTOMOLOGIST_DESC"] = "With the Entomologist perk, you do an additional +50% damage every time you attack a mutated bug."
 
 lang["#PERK_BALLISTIC_NAME"] = "Ballistics"
-lang["#PERK_BALLISTIC_DESC"] = "Ballistics. \n-You've learned how to work with kevlar and polymers effectively." -- NEED DESC
+lang["#PERK_BALLISTIC_DESC"] = "Ballistics. \n-You've learned how to work with kevlar and polymers effectively."
 
 lang["#PERK_DISMANTLE_NAME"] = "Dismantle"
-lang["#PERK_DISMANTLE_DESC"] = "Dismantle. \n-You've learned how to downgrade a piece of armor at the cost of the resources required to upgrade it, in turn you get more experience from doing so." -- NEED DESC
+lang["#PERK_DISMANTLE_DESC"] = "Dismantle. \n-You've learned how to downgrade a piece of armor at the cost of the resources required to upgrade it, in turn you get more experience from doing so."
 
 lang["#PERK_RADABSORBER_NAME"] = "Rad Absorber"
 lang["#PERK_RADABSORBER_DESC"] = "With the Rad Absorber perk, You take more Radiation damage and your Maximum Radiation levels are increased."
@@ -235,8 +247,8 @@ lang["#PERK_HYPERTOXICITY_LEVEL_2"] = "Hypertoxicity. \n-You've learned how to c
 
 lang["#PERK_WEAPONHANDLING_NAME"] = "Weapon Handling"
 lang["#PERK_WEAPONHANDLING_DESC"] = "Makes all of your weapons easier to use"
-lang["#PERK_WEAPONHANDLING_LEVEL_1"] = "Reduces Strength Requirement for all weapons by 2."
-lang["#PERK_WEAPONHANDLING_LEVEL_2"] = "Reduces Strength Requirement for all weapons by 1 for a total of 3. Increases Weapon durability by 20%"
+lang["#PERK_WEAPONHANDLING_LEVEL_1"] = "Reduces Strength Requirement for all weapons by 2. Increases Weapon durability by 33%"
+lang["#PERK_WEAPONHANDLING_LEVEL_2"] = "Reduces Strength Requirement for all weapons by 1 for a total of 3. Increases Weapon durability by 66%"
 
 lang["#PERK_ARMORUPKEEP_NAME"] = "Armor Upkeep"
 lang["#PERK_ARMORUPKEEP_DESC"] = "You know how to wear armor to whether any storm."
@@ -247,6 +259,18 @@ lang["#PERK_LEADER_NAME"] = "Natural Leader"
 lang["#PERK_LEADER_DESC"] = "You're a natural leader! You know how to lead a group of people, and how to make them work together."
 lang["#PERK_LEADER_LEVEL_1"] = "You can have 1 extra party member."
 lang["#PERK_LEADER_LEVEL_2"] = "You can have 2 extra party members."
+
+lang["#PERK_VATSKIN_NAME"] = "Vat Skin"
+lang["#PERK_VATSKIN_DESC"] = "You've spent extra time in the vat causing you to grow hardened skin. Radiation levels increase max HP further."
+
+lang["#PERK_RADPOWERED_NAME"] = "Radioactive Powered"
+lang["#PERK_RADPOWERED_DESC"] = "The Wastelands starting to grow on you. Literally. Radiation levels increase your Strength further."
+
+lang["#PERK_RADREAVER_NAME"] = "Rad-Reaver"  -- WIP
+lang["#PERK_RADREAVER_DESC"] = "Breath it in! Your melee attacks now give a small amount of radiation to the attacker and the target."
+
+lang["#PERK_CHEMDIET_NAME"] = "Chem Diet"  -- WIP
+lang["#PERK_CHEMDIET_DESC"] = "Taste the Rainbow. Chems last x1.5 times longer."
 
 -- Utility
 lang["#PERK_EDUCATED_NAME"] = "Educated"
@@ -294,10 +318,34 @@ lang["#PERK_STRONGBACK_DESC"] = "With some training, you can manage to carry mor
 lang["#PERK_STRONGBACK_LEVEL_1"] = "-You gain an extra 20 to carry weight."
 lang["#PERK_STRONGBACK_LEVEL_2"] = "-You gain an extra 40 to carry weight."
 
+lang["#PERK_GUN_SMITHING_NAME"] = "Gun Smithing"
+lang["#PERK_GUN_SMITHING_DESC"] = "You've got an eye for firearms on how to make'm and tear'm down."
+lang["#PERK_GUN_SMITHING_LEVEL_1"] = "Firearms break 5% slower and you are now able to craft pipe Guns and mods, as well as break them down."
+lang["#PERK_GUN_SMITHING_LEVEL_2"] = "Firearms break 10% slower and you are now able to craft simple Guns and mods, as well as break them down."
+lang["#PERK_GUN_SMITHING_LEVEL_3"] = "Firearms break 15% slower and you are now able to craft decent Guns and mods, as well as break them down."
+lang["#PERK_GUN_SMITHING_LEVEL_4"] = "Firearms break 20% slower and you are now able to craft quality Guns and mods, as well as break them down."
+lang["#PERK_GUN_SMITHING_LEVEL_5"] = "Firearms break 25% slower and you are now able to craft advanced Guns and mods, as well as break them down."
+
+lang["#PERK_SCIENCE_NAME"] = "Science!"
+lang["#PERK_SCIENCE_DESC"] = "You take full advantage of advanced technology to create and destroy energy-based weaponry."
+lang["#PERK_SCIENCE_LEVEL_1"] = "Energy weapons break 5% slower and you are now able to craft basic Energy weapons and mods, as well as break them down."
+lang["#PERK_SCIENCE_LEVEL_2"] = "Energy weapons break 10% slower and you are now able to craft simple Energy weapons and mods, as well as break them down."
+lang["#PERK_SCIENCE_LEVEL_3"] = "Energy weapons break 15% slower and you are now able to craft decent Energy weapons and mods, as well as break them down."
+lang["#PERK_SCIENCE_LEVEL_4"] = "Energy weapons break 20% slower and you are now able to craft quality Energy weapons and mods, as well as break them down."
+lang["#PERK_SCIENCE_LEVEL_5"] = "Energy weapons break 25% slower and you are now able to craft advanced Energy weapons and mods, as well as break them down."
+
+lang["#PERK_BLACKSMITH_NAME"] = "Blacksmith"
+lang["#PERK_BLACKSMITH_DESC"] = "Fire up the forge! If you enjoy swinging a melee weapon into the skulls of your adversaries, it pays to craft melee weapons and break'm down."
+lang["#PERK_BLACKSMITH_LEVEL_1"] = "Melee weapons break 5% slower and you are now able to craft scrap Melee weapons and mods, as well as break them down."
+lang["#PERK_BLACKSMITH_LEVEL_2"] = "Melee weapons break 10% slower and you are now able to craft simple Melee weapons and mods, as well as break them down."
+lang["#PERK_BLACKSMITH_LEVEL_3"] = "Melee weapons break 15% slower and you are now able to craft decent Melee weapons and mods, as well as break them down."
+lang["#PERK_BLACKSMITH_LEVEL_4"] = "Melee weapons break 20% slower and you are now able to craft quality Melee weapons and mods, as well as break them down."
+lang["#PERK_BLACKSMITH_LEVEL_5"] = "Melee weapons break 25% slower and you are now able to craft advanced Melee weapons and mods, as well as break them down."
+
 lang["#PERK_VORACIOUSREADER_NAME"] = "Voracious Reader"
 lang["#PERK_VORACIOUSREADER_DESC"] = "You don't just read books, you tear into them!"
-lang["#PERK_VORACIOUSREADER_LEVEL_1"] = "Damaged magazines you pick up can be truned into blank magazines. \nBlank magazines can be turned into skill magazines."
-lang["#PERK_VORACIOUSREADER_LEVEL_2"] = "Damaged books you pick up can be truned into blank books. \nBlank books can be turned into skill books."
+lang["#PERK_VORACIOUSREADER_LEVEL_1"] = "Damaged magazines you pick up can be turned into blank magazines. \nBlank magazines can be turned into skill magazines."
+lang["#PERK_VORACIOUSREADER_LEVEL_2"] = "Damaged books you pick up can be turned into blank books. \nBlank books can be turned into skill books."
 
 lang["#PERK_MARATHONRUNNER_NAME"] = "Marathon Runner"
 lang["#PERK_MARATHONRUNNER_DESC"] = "Running is part of your daily routine!"

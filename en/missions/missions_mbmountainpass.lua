@@ -44,4 +44,24 @@ lang["#MISSION_MPASS_SAFETRAVELS_DESC"] = "The pass is beginning to become infes
 lang["#MISSION_MPASS_SAFETRAVELS_HINT"] = "Kill 20 Yao guai, 40 Ghouls and 20 Ice picks. These can be found all over the pass."
 lang["#MISSION_MPASS_SAFETRAVELS_COMPLETE"] = "Amazing work, I actually can't believe you suffered through that."
 
+lang["#MISSION_HUNT_YAOGUAI_BOSS_EASY"] = "Belly of the Beast"
+lang["#MISSION_HUNT_YAOGUAI_BOSS_EASY_DESC"] = "Heads up hunters. A Frenzied Yao Guai has been spotted attacking the locals all throughout the pass. It's already killed several experienced hunters. Come equiped and ready for a fight if you plan to take it down. You can probably find it hanging around the Yao Guai Grotto if you can get past the rest of its cousins."
+lang["#MISSION_HUNT_YAOGUAI_BOSS_EASY_HINT"] = "Kill a Frenzied Yao Guai. It can sometimes be found hiding in the Yao Guai Grotto."
+lang["#MISSION_HUNT_YAOGUAI_BOSS_EASY_COMPLETE"] = "Good shooting hunter. Thats one less devil haunting the Pass."
+
+lang["#MISSION_HUNT_YAOGUAI_BOSS_HARD"] = "In the Pines"
+lang["#MISSION_HUNT_YAOGUAI_BOSS_HARD_DESC"] = "Some of the locals have found an old rifle from before the war and are willing to trade it up if a hunter can prove themselves in a true hunt. One of the local legends, the Albino Yao Guai, has been terrorising the local mountains. Often called the Frenzied Yao Guai by travelers, you should be weary of the creature. It should be found within its lair most of the time."
+lang["#MISSION_HUNT_YAOGUAI_BOSS_HARD_HINT"] = "Kill a Frenzied Yao Guai with a Hunting Rifle. It can sometimes be found hiding in the Yao Guai Grotto."
+lang["#MISSION_HUNT_YAOGUAI_BOSS_HARD_COMPLETE"] = "You're a natural at this. Take this rifle, this buffer tube'll make it run like new. It's yours now."
+
+lang["#MISSION_HUNT_MIRELURK_KING_DEEP_EASY"] = "The Shadow Under Innsmouth"
+lang["#MISSION_HUNT_MIRELURK_KING_DEEP_EASY_DESC"] = "The Mirelurks have been rallying around a Mirelurk King and its starting to become a problem. They sortie out of their nesting caves causing all sorts of problems for travelers. See if you can do something about this."
+lang["#MISSION_HUNT_MIRELURK_KING_DEEP_EASY_HINT"] = "Kill a Deep One. If present, it can be found underground in an aquatic cave."
+lang["#MISSION_HUNT_MIRELURK_KING_DEEP_EASY_COMPLETE"] = "Well done, Hunter. Here, for your troubles."
+
+lang["#MISSION_HUNT_WENDIGO_BOSS_MTPASS"] = "The Nightmare in the Snow"
+lang["#MISSION_HUNT_WENDIGO_BOSS_MTPASS_DESC"] = "We've had reports of a beast shrieking during snowstorms, causing people to go missing when its heard. Its becoming some kind of campfire story. However all stories are baked in truth. We need you to find out about this shrieking and deal with the problem."
+lang["#MISSION_HUNT_WENDIGO_BOSS_MTPASS_HINT"] = "Kill the Wendigo that haunts Mountain pass"
+lang["#MISSION_HUNT_WENDIGO_BOSS_MTPASS_COMPLETE"] = "Thank you! Maybe we can finally sleep at night."
+
 RELOADSCHEMA = true

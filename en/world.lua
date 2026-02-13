@@ -67,6 +67,15 @@ lang["#REGION_SALEM_S"] = "Collapsed Building"
 lang["#REGION_SALEM_NW"] = "Survivor Camp"
 lang["#REGION_SALEM_DESC"] = "Just before the war, Salem experienced a rapid growth in population and urban development. Now, it is a shell of its former self. Police robots patrol decayed streets, bandits prowl in the shadows, Super Mutants hold large portions of the city. The Merchants Guild have set up a large trading post, supplying those crazy enough to venture into the city to loot its vast wealth of technology and supplies."
 
+lang["#REGION_VAULTCITY"] = "Vault City"
+lang["#REGION_VAULTCITY_COURTYARD"] = "Vault City Courtyard"
+
+lang["#REGION_CYTOSINE"] = "Cytosine Research Complex"
+lang["#REGION_CYTOSINE_CARTUNNEL"] = "Collapsed Car Tunnel"
+
+lang["#REGION_LIMA_DETACHMENT"] = "Frozen Cave"
+lang["#REGION_LIMA_DETACHMENT_CAVE"] = "Frozen Cave Entrance"
+
 -- Factions
 lang["#FACTION_NCR_NAME"] = "New California Republic"
 lang["#FACTION_NCR_DESC"] = "The New California Republic, or NCR, started as a small town in Northern California. Now they are a large, democratic federation that spralls across the southern west coast."
@@ -99,6 +108,9 @@ lang["#FACTION_BOS_NAME"] = "Brotherhood of Steel"
 lang["#FACTION_BOS_DESC"] = "The Brotherhood of Steel is a techno-religous organization that collects and maintains advanced technology with roots in the Pre-War American Military."
 lang["#FACTION_BOS_LEADER"] = "Eldar"
 
+lang["#FACTION_MIDWESTBOS_NAME"] = "Midwestern Remnants"
+lang["#FACTION_MIDWESTBOS_DESC"] = "Separated by distance and ideology from the main Brotherhood forces, this minority was free to forge a new Brotherhood of Steel. One that reflected the ideals they had strived for all along. They were ultimately defeated by the Reaver Movement and have become a shadow of their former selves."
+
 lang["#FACTION_ENCLAVE_NAME"] = "Enclave"
 lang["#FACTION_ENCLAVE_DESC"] = "An unknown paramilitary organization that has made sparse appearances very recently. Nobody knows anything about them, or what their purpose is. Most don't even know they exist."
 lang["#FACTION_ENCLAVE_ALLIED"] = "Ally"
@@ -110,6 +122,9 @@ lang["#FACTION_PHOENIXCOMPANY_DESC"] = "Phoenix Company is a mercenary faction f
 
 lang["#FACTION_TRADEGUILD_NAME"] = "Cascade Caravan"
 
+lang["#FACTION_ALIEN_NAME"] = "Alien"
+lang["#FACTION_ALIEN_DESC"] = "Mmm Ant"
+
 lang["#FACTION_ICEPICK"] = "Ice Picks"
 lang["#FACTION_SMREJECTS"] = "Rejects"
 lang["#FACTION_UNITY"] = "Unity Chosen"
@@ -120,6 +135,11 @@ lang["#FACTION_BANDITRUSTLER"] = "Rustlers"
 lang["#FACTION_BANDIT80S"] = "80s Tribe"
 lang["#FACTION_DESERTRANGER_NAME"] = "Desert Rangers"
 lang["#FACTION_SHADOWED"] = "Shadowed"
+lang["#FACTION_REAVERS"] = "Reavers"
+lang["#FACTION_REAVERS_DESC"] = "The Reaver Movement is a religious cult dedicated to the worship of technology operating in the Midwest. Recently they've started a new crusade into Cutler City. Their fanaticism is only outmatched by the tech they wield in battle."
+
+lang["#FACTION_VANGRAFF_NAME"] = "Van Graffs"
+lang["#FACTION_VANGRAFF_DESC"] = "The Van Graff family is one of the largest crime families in the east. Dealing in a wide array of energy weapons taken and distributed by questionable means. They are known for being ruthless but incredibly loyal to their family."
 
 -- Laws
 lang["#LAW_MURDER_NAME"] = "Murder"
@@ -140,7 +160,7 @@ lang["#LAW_ASSAULT_ACCESSORY_NOTIFY"] = "$altPlayer, your party member, has comm
 
 lang["#LAW_THEFT_NAME"] = "Theft"
 lang["#LAW_THEFT_DESC"] = "Defined as taking property that does not belong to you."
-lang["#LAW_THEFT_NOTIFY"] = "You have been caught stealing from the $faction! Stealing too much can make them hostile towards you."
+lang["#LAW_THEFT_NOTIFY"] = "You have stolen from the $faction! Stealing too much can make them hostile towards you."
 
 lang["#LAW_BOSRESELL_NAME"] = "Technology Redistribution"
 lang["#LAW_BOSRESELL_DESC"] = "Redistribution of $faction Technology is a serious offense and not taken lightly. For this transgression you have been marked for death."
@@ -161,7 +181,7 @@ lang["#STOVE_NAME"] = "Stove"
 lang["#RELOADINGBENCH_NAME"] = "Reloading Bench"
 lang["#WEAPONBENCH_NAME"] = "Weapon Bench"
 
-lang["#POWERARMORFAB_NAME"] = "Power Armor Fabricator"
+lang["#POWERARMORFAB_NAME"] = "Brotherhood Fabricator"
 
 
 -- Terminal
@@ -231,6 +251,7 @@ lang["#AMMOFACTORY_DESC"] = [[
 	To ensure production meets RobCo standards please be sure to keep the generator stocked with nuclear material, power distributors properly maintained, and keep a steady supply of brass shipments incoming to the factory. Thank you and have a RobCo safe day!
 ]]
 lang["#AMMOFACTORY_PRESS_NAME"] = "CHME-1000JL Hydraulic Forging Press"
+lang["#PC_AMMOFACTORY_PRESS_NAME"] = "ROBCO Domestic Metal Press"
 
 -- New Format for terminals, put the title of the button in [brackets]
 lang["#ASHLANDMINE_NAME"] = "Ashland Excavation Site"
@@ -265,5 +286,122 @@ lang["#BOS_BUNKER"] = "Brotherhood Bunker"
 
 lang["#RANGER_BUNKER"] = "Ranger Bunker"
 
+
+-- EVENTS
+lang["#EVENT_ENCLAVEDROP_BROADCAST"] = "The sound of distant Vertibird rotors echoes throughout the area..."
+
+-- 	Door Names
+lang["#UI_ELEVATOR"] = "Elevator"
+lang["#UI_CAVE"] = "Cave"
+lang["#UI_INDUSTRIAL"] = "Industrial Door"
+lang["#UI_MOUND"] = "Mound"
+lang["#UI_DOOR"] = "Door"
+lang["#UI_TENT"] = "Tent"
+lang["#UI_MANHOLE"] = "Manhole"
+lang["#UI_PIPE"] = "Pipe"
+lang["#UI_CAVE"] = "Cave"
+lang["#UI_BOAT"] = "Boat"
+lang["#UI_ELEVATOR_LEVEL_1"] = "Level 1 Elevator"
+lang["#UI_ELEVATOR_LEVEL_2"] = "Level 2 Elevator"
+lang["#UI_ELEVATOR_LEVEL_3"] = "Level 3 Elevator"
+
+lang["#UI_TELEPORTERBLOCK_FACTION_FAVOR"] = "You do not have a high enough Favor with $faction to Enter.\n\nYou need: $favorRequired\nYou have: $favorCurrent\n\nGain Favor by completing Missions for the $faction."
+lang["#UI_TELEPORTERBLOCK_FACTION_HOSTILE"] = "You are currently Hostile with the $faction\n\nYou cannot enter this area."
+lang["#UI_TELEPORTERBLOCK_FACTION_REPRESENT"] = "You must be representing the $faction to enter!\n\nYou can represent a faction by getting enough favor and clicking on the faction in the reputation menu."
+lang["#UI_TELEPORTERBLOCK_FACTION_MEMBER"] = "You must be an official member of the $faction to enter!\n\nYou can become an official member by being Recruited in-game or through the $officialChannel." -- $officialChannel will be "website" or "discord" depending on the server's configuration.
+lang["#UI_TELEPORTERBLOCK_FACTION_HOSTILEWORK"] = "You cannot enter because your favor with an enemy faction, the $hostileFaction, is higher than $minFavor. It is currently $favorCurrent."
+lang["#UI_TELEPORTERBLOCK_FACTION_HOSTILEWORK_NORECOVER"] = "Due to your actions, you are no longer welcomed by this faction."
+
+
+--[[
+ █████╗ ██╗██╗     ███╗   ███╗███████╗███╗   ██╗████████╗███████╗
+██╔══██╗██║██║     ████╗ ████║██╔════╝████╗  ██║╚══██╔══╝██╔════╝
+███████║██║██║     ██╔████╔██║█████╗  ██╔██╗ ██║   ██║   ███████╗
+██╔══██║██║██║     ██║╚██╔╝██║██╔══╝  ██║╚██╗██║   ██║   ╚════██║
+██║  ██║██║███████╗██║ ╚═╝ ██║███████╗██║ ╚████║   ██║   ███████║
+╚═╝  ╚═╝╚═╝╚══════╝╚═╝     ╚═╝╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝
+]]
+
+--Poison
+lang['#POISON_GREENGECKO'] = "Poison Spit"
+lang['#VENOM_RADSCORPION'] = "Radscorpion Sting"
+--Disease minor
+lang['#DISEASE_JUMBLES'] = "The Jumbles"
+lang['#DISEASE_LIMPWRIST'] = "Limp Wrist"
+lang['#DISEASE_FUMIGATIONS'] = "Fumigations"
+lang['#DISEASE_VAPORS'] = "The Vapors"
+lang['#DISEASE_WATERBRAIN'] = "Brain Congestion"
+lang['#DISEASE_MYOPIA'] = "Myopia"
+lang['#DISEASE_BINFECTION'] = "Bacterial Infection"
+lang['#DISEASE_HEADACHE'] = "Bad Headache"
+lang['#DISEASE_CROTCHROT'] = "Crotch Rot"
+lang['#DISEASE_TWITCHLIPS'] = "Twitch Lips"
+lang['#DISEASE_BRONCHITIS'] = "Bronchitis"
+lang['#DISEASE_COUGH'] = "Light Cough"
+--Disease Major
+lang['#DISEASE_BIGWEAKNESS'] = "The Weakness"
+lang['#DISEASE_BRAINCONGESTION'] = "Brain Rot"
+lang['#DISEASE_SLURS'] = "Slurs"
+lang['#DISEASE_GLASSYEYES'] = "Glassy Eyes"
+lang['#DISEASE_TARLUNG'] = "Tar Lung"
+lang['#DISEASE_CRUNCH'] = "Crunch Cramp"
+lang['#DISEASE_CALAMITOUS'] = "Calamitous Rash"
+lang['#DISEASE_BADLUCK'] = "Bad Luck"
+
+lang['#DISEASE_BONEITIS'] = "Boneitis"
+--Effect
+lang['#BITE_GOLDGECKO'] = "Radioactive Bite"
+lang['#MELEE_REAVER'] = "Reaver's Embrace"
+lang['#MELEE_PARASITE'] = "Parasitic Infestation"
+lang['#MELEE_PACK_HUNTING'] = "Pack Hunting"
+lang['#MELEE_SWAMP_ROT'] = "Swamp Rot"
+lang['#MELEE_CONTAMINATED_WOUND'] = "Contaminated Wound"
+lang['#MELEE_SPORE_INFECTION'] = "Spore Infection"
+lang['#MELEE_GLOWING'] = "One's Glow"
+
+--Special
+lang['#DISEASE_HALLOWEENCURSE'] = "The Curse"
+
+--Notifications
+lang["#NOTIFY_WEAPON_BROKEN"] = "Weapon broken!"
+lang["#NOTIFY_WEAPON_JAM"] = "Weapon Misfired!"
+lang["#NOTIFY_WEAPON_CND"] = "Condition"
+lang["#NOTIFY_ARMOR_BROKEN"] = "Your armor has broken and can no longer be used!"
+lang["#NOTIFY_OVERECUMBERED_1"] = "You are carrying too much and are moving slower."
+lang["#NOTIFY_OVERECUMBERED_2"] = "You are carrying too much and can no longer run."
+lang["#NOTIFY_OVERECUMBERED_3"] = "You are carrying too much and can no longer move."
+lang["#NOTIFY_SKILLTOOLOW"] = "You do not meet the skill requirements."
+lang["#NOTIFY_SATIATIONEND"] = "You are no longer satiated."
+lang["#NOTIFY_WANTED"] = "[ WANTED ]"
+lang["#NOTIFY_ROLLED"] = "[ROLL] $person rolled a $number."
+lang["#NOTIFY_YOUROLLED"] = "[ROLL] You rolled a $number."
+lang["#NOITFY_HEADROLL"] = "Rolled: $number"
+lang["#UI_NOTCURRENTLYPOSSIBLE"] = "Not Currently Possible"
+lang["#UI_HPFULL"] = "HP Full."
+lang["#UI_STIMPAKACTIVE"] = "Your last stimpak is still active!"
+lang["#UI_CHEMACTIVE"] = "Your last chem is still active!"
+lang["#UI_STIMBLOCKED"] = "Stimblocker is still active!"
+lang["#UI_CHEMBLOCKED"] = "Chemblocker is still active!"
+lang["#UI_REBOUNDRECOVERY"] = "You're still recovering from your last Rebound!"
+lang["#UI_ADDICTED"] = "You have become addicted to $item"
+lang["#UI_NOTADDICTED"] = "You are no longer addicted to $item"
+lang["#UI_WITHDRAWAL"] = "$item Withdrawal"
+lang["#UI_DELAYED"] = "Delayed: $time"
+lang["#UI_WAITTOUSE"] = "You must wait $time seconds to use this!"
+lang["#UI_WANTEDBY"] = "Wanted by the $faction"
+lang["#UI_BLOCKEDBY"] = "$aidblocked by $name!" -- "$aid" is a string and "blocked" can be changed in translation.
+lang["#UI_CANTSTEALFROMFACTION"] = "You cannot steal from a faction you're aligned with."
+
+-- Inventory
+lang["#INV_ADDED"] = "$item Added"
+lang["#INV_REMOVED"] = "$item Removed"
+lang["#INV_REMOVEDMULTI"] = "$count $item|s Removed"
+lang["#EQUIPDENY_NOSLOTS"] = "This is not something you can equip."
+lang["#EQUIPDENY_ANIMSET"] = "This is not fitted for you."
+lang["#EQUIPDENY_NOPOWERARMOR"] = "You must be wearing Power Armor to equip this."
+lang["#EQUIPDENY_INSUFFICIENTLEVEL"] = "Your Armor is not able to support this Armor Piece."
+
+
+lang["#EIGHTBALL_REMOVED"] = "OUTLOOK: NOT SO GREAT."
 
 RELOADSCHEMA = true

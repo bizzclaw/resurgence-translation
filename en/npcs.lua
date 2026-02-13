@@ -212,6 +212,8 @@ lang["#NPC_FERALGHOULS"] = "Feral Ghouls"
 lang["#NPC_FERALGHOUL_REAVER"] = "Feral Ghoul Reaver"
 lang["#NPC_FERALGHOUL_REAVERS"] = "Feral Reavers"
 
+lang["#NPC_FLAYEDONE"] = "Flayed One"
+
 lang["#NPC_FERALRIFLEMAN"] = "Feral Rifleman"
 lang["#NPC_FERALMARKSMAN"] = "Feral Marksman"
 lang["#NPC_FERALSNIPER"] = "Feral Sniper"
@@ -227,140 +229,158 @@ lang["#NPC_BANDITS"] = "Bandits"
 --80s tribe
 lang["#NPC_80SBANDIT"] = "80s Tribe Bandit"
 lang["#NPC_80SBANDITS"] = "80s Tribe Bandits"
-lang["#NPC_80SBANDIT_RANK1"] = "80s Tribe Punk"
-lang["#NPC_80SBANDIT_RANK2"] = "80s Tribe Bandit"
-lang["#NPC_80SBANDIT_RANK2_OVERWATCH"] = "80s Tribe Long Hauler" -- A "Long Hauler" is an individual or vehicle that is involved in lengthy, long distance cargo trips
-lang["#NPC_80SBANDIT_RANK3"] = "80s Tribe Highwayman" -- a "Highwayman" is a name for a thief who opperates near commonly traveled roads
-lang["#NPC_80SBANDIT_RANK4"] = "80s Tribe Road Agent" -- another name for a "highwayman"
-lang["#NPC_80SBANDIT_RANK5"] = "80s Tribe Big Rig" -- a "Big Rig" is a nickname for a Semitruck, the kind used to haul large cargo trailers
-lang["#NPC_80SBANDIT_BOSS"] = "80s Tribe Gyro Captain" -- Mad Max reference
-lang["#NPC_80SBANDIT_RANK6"] = "80s Tribe Pain-Train"
+lang["#NPC_80SBANDIT_RANK1"] = "Punk"
+lang["#NPC_80SBANDIT_RANK2"] = "Bandit"
+lang["#NPC_80SBANDIT_RANK2_OVERWATCH"] = "Long Hauler" -- A "Long Hauler" is an individual or vehicle that is involved in lengthy, long distance cargo trips
+lang["#NPC_80SBANDIT_RANK3"] = "Highwayman" -- a "Highwayman" is a name for a thief who opperates near commonly traveled roads
+lang["#NPC_80SBANDIT_RANK4"] = "Road Agent" -- another name for a "highwayman"
+lang["#NPC_80SBANDIT_RANK5"] = "Big Rig" -- a "Big Rig" is a nickname for a Semitruck, the kind used to haul large cargo trailers
+lang["#NPC_80SBANDIT_BOSS"] = "Gyro Captain" -- Mad Max reference
+lang["#NPC_80SBANDIT_RANK6"] = "Pain-Train"
 
 -- New California Republic
 lang["#NPC_NCRTROOPER"] = "NCR Trooper"
 lang["#NPC_NCRTROOPERS"] = "NCR Troopers"
+lang["#NPC_NCRSOLDIER"] = "Trooper"
 lang["#NPC_NCRQUARTERMASTER"] = "Quartermaster Hector"
-lang["#NPC_NCRPATROLRANGER1"] = "NCR Patrol Ranger"
-lang["#NPC_NCRPATROLRANGER2"] = "NCR Patrol Ranger"
-lang["#NPC_NCRPATROLRANGER3"] = "NCR Patrol Ranger"
-lang["#NPC_NCRVETERANRANGERS"] = "NCR Veteran Rangers"
-lang["#NPC_ARMORYQUARTERMASTER"] = "Riot Control Quartermaster"
+lang["#NPC_NCRARMORYQUARTERMASTER"] = "Captain Barnes"
+lang["#NPC_NCRPATROLRANGER"] = "Patrol Ranger"
+lang["#NPC_NCRHEAVYTROOPER"] = "Heavy Trooper"
+lang["#NPC_NCRHEAVYGUNNER"] = "Heavy Gunner"
+lang["#NPC_NCRRIOTTROOPER"] = "Riot Control Trooper"
+lang["#NPC_NCRRIOTOFFICER"] = "Riot Control Officer"
+lang["#NPC_NCRVETERANRANGER"] = "Veteran Riot Officer"
+lang["#NPC_NCRLIEUTENANT"] = "Lieutenant"
+lang["#NPC_NCRCAPTAIN"] = "Captain"
+lang["#NPC_NCRGUARD"] = "Guard"
+lang["#NPC_NCRHEAVYGUARD"] = "Heavy Guard"
+lang["#NPC_NCRRIOTGUARD"] = "Riot Guard"
 
 -- Desert Rangers
 lang["#NPC_DESERTRANGER"] = "Desert Ranger"
 lang["#NPC_DESERTRANGERS"] = "Desert Rangers"
-lang["#NPC_DESERTRANGER_RANK1"] = "Desert Ranger Scout"
-lang["#NPC_DESERTRANGER_RANK2"] = "Desert Ranger Patrolman"
-lang["#NPC_DESERTRANGER_RANK3"] = "Desert Ranger Warden"
-lang["#NPC_DESERTRANGER_RANK4"] = "Veteran Desert Ranger"
-lang["#NPC_DESERTRANGER_RANK5"] = "Veteran Desert Ranger Warden"
+lang["#NPC_DESERTRANGER_RANK1"] = "Bushmen"
+lang["#NPC_DESERTRANGER_RANK2"] = "Scout"
+lang["#NPC_DESERTRANGER_RANK3"] = "Warden"
+lang["#NPC_DESERTRANGER_RANK4"] = "Veteran Ranger"
+lang["#NPC_DESERTRANGER_RANK5"] = "Veteran Warden"
 
 -- Valley Survivalist
 lang["#NPC_SURVIVALIST"] = "Valley Survivalist"
 lang["#NPC_SURVIVALISTS"] = "Valley Survivalists"
-lang["#NPC_SURVIVALIST_RANK1"] = "Valley Settler"
-lang["#NPC_SURVIVALIST_RANK2"] = "Valley Militia"
-lang["#NPC_SURVIVALIST_RANK3"] = "Valley Sharpshooter"
+lang["#NPC_SURVIVALIST_RANK1"] = "Settler"
+lang["#NPC_SURVIVALIST_RANK2"] = "Militiaman"
+lang["#NPC_SURVIVALIST_RANK3"] = "Sharpshooter"
 lang["#NPC_SURVIVALIST_RANK4"] = "Valley Deadeye"
-lang["#NPC_SURVIVALIST_RANK5"] = "Valley Frontier-Fighter"
-lang["#NPC_SURVIVALIST_BOSS"] = "Valley Militia Captain"
+lang["#NPC_SURVIVALIST_RANK5"] = "Frontier-Fighter"
+lang["#NPC_SURVIVALIST_BOSS"] = "Militia Captain"
 
 -- Ice Picks
 lang["#NPC_ICEPICKBANDIT"] = "Ice Pick Bandit" -- "Ice Pick", as in the tool
 lang["#NPC_ICEPICKBANDITS"] = "Ice Pick Bandits"
 lang["#NPC_ICEPICKBANDITSNIPERS"] = "Ice Pick Head-Hunters"
-lang["#NPC_ICEPICKBANDIT_RANK1"] = "Ice Pick Cannibal"
-lang["#NPC_ICEPICKBANDIT_RANK2"] = "Ice Pick Head-Hunter" --"Savage", as in a derogatory name for a primative
-lang["#NPC_ICEPICKBANDIT_RANK2_OVERWATCH"] = "Ice Pick Bandit"
-lang["#NPC_ICEPICKBANDIT_RANK3"] = "Ice Pick Man-Trapper" --"Man-Trapper", a name for someone who specializes in hunting and trapping people 
-lang["#NPC_ICEPICKBANDIT_RANK4"] = "Ice Pick Flesh-Taker"
-lang["#NPC_ICEPICKBANDIT_RANK5"] = "Ice Pick Misatrope" -- Disabled currently
-lang["#NPC_ICEPICKBANDIT_BOSS"] = "Ice Pick Butcher" -- Cannibal sounding name
+lang["#NPC_ICEPICKBANDIT_RANK1"] = "Cannibal"
+lang["#NPC_ICEPICKBANDIT_RANK2"] = "Head-Hunter" --"Savage", as in a derogatory name for a primative
+lang["#NPC_ICEPICKBANDIT_RANK2_OVERWATCH"] = "Bandit"
+lang["#NPC_ICEPICKBANDIT_RANK3"] = "Man-Trapper" --"Man-Trapper", a name for someone who specializes in hunting and trapping people 
+lang["#NPC_ICEPICKBANDIT_RANK4"] = "Flesh-Taker"
+lang["#NPC_ICEPICKBANDIT_RANK5"] = "Misatrope" -- Disabled currently
+lang["#NPC_ICEPICKBANDIT_BOSS"] = "Butcher" -- Cannibal sounding name
 
---Rock-Biters
+-- Rock-Biters
 lang["#NPC_ROCKBITERBANDIT"] = "Rock-Biter Bandit"
 lang["#NPC_ROCKBITERBANDITS"] = "Rock-Biter Bandits"
-lang["#NPC_ROCKBITERBANDIT_RANK1"] = "Rock-Biter Prospector"
-lang["#NPC_ROCKBITERBANDIT_RANK2"] = "Rock-Biter Miner"
-lang["#NPC_ROCKBITERBANDIT_RANK2_OVERWATCH"] = "Rock-Biter Surveyor"
-lang["#NPC_ROCKBITERBANDIT_RANK3"] = "Rock-Biter Bulldozer"
-lang["#NPC_ROCKBITERBANDIT_RANK4"] = "Rock-Biter Foreman"
-lang["#NPC_ROCKBITERBANDIT_RANK5"] = "Rock-Biter Lode Breaker"
-lang["#NPC_ROCKBITERBANDIT_RANK6"] = "Rock-Biter Marauder"
+lang["#NPC_ROCKBITERBANDIT_RANK1"] = "Prospector"
+lang["#NPC_ROCKBITERBANDIT_RANK2"] = "Miner"
+lang["#NPC_ROCKBITERBANDIT_RANK2_OVERWATCH"] = "Surveyor"
+lang["#NPC_ROCKBITERBANDIT_RANK3"] = "Bulldozer"
+lang["#NPC_ROCKBITERBANDIT_RANK4"] = "Foreman"
+lang["#NPC_ROCKBITERBANDIT_RANK5"] = "Lode Breaker"
+lang["#NPC_ROCKBITERBANDIT_RANK6"] = "Marauder"
 
---Smugglers
+-- Smugglers
 lang["#NPC_SMUGGLERBANDIT"] = "Smuggler"
 lang["#NPC_SMUGGLERRBANDITS"] = "Smugglers"
-lang["#NPC_SMUGGLERBANDIT_RANK1"] = "Smuggler Runner"
-lang["#NPC_SMUGGLERBANDIT_RANK2"] = "Smuggler Dealer"
-lang["#NPC_SMUGGLERBANDIT_RANK2_OVERWATCH"] = "Smuggler Look-Out"
-lang["#NPC_SMUGGLERBANDIT_RANK3"] = "Smuggler Trafficker"
-lang["#NPC_SMUGGLERBANDIT_RANK4"] = "Smuggler Moon-Curser" --"Moon-Curser", a name for someone who smuggles contraband during the dark of night
-lang["#NPC_SMUGGLERBANDIT_RANK5"] = "Smuggler Death Merchant" --"Death Merchant", a derogatory name for an Arms/Weapons dealer
+lang["#NPC_SMUGGLERBANDIT_RANK1"] = "Runner"
+lang["#NPC_SMUGGLERBANDIT_RANK2"] = "Dealer"
+lang["#NPC_SMUGGLERBANDIT_RANK2_OVERWATCH"] = "Look-Out"
+lang["#NPC_SMUGGLERBANDIT_RANK3"] = "Trafficker"
+lang["#NPC_SMUGGLERBANDIT_RANK4"] = "Moon-Curser" --"Moon-Curser", a name for someone who smuggles contraband during the dark of night
+lang["#NPC_SMUGGLERBANDIT_RANK5"] = "Death Merchant" --"Death Merchant", a derogatory name for an Arms/Weapons dealer
 
---Shadowed
+-- Shadowed
 lang["#NPC_SHADOWEDBANDIT"] = "Shadowed Bandit"
 lang["#NPC_SHADOWEDBANDITS"] = "Shadowed Bandits"
-lang["#NPC_SHADOWEDBANDIT_RANK1"] = "Shadowed Scrounger"
-lang["#NPC_SHADOWEDBANDIT_RANK2"] = "Shadowed Burglar"
-lang["#NPC_SHADOWEDBANDIT_RANK2_OVERWATCH"] = "Shadowed Spotter"
-lang["#NPC_SHADOWEDBANDIT_RANK3"] = "Shadowed Looter"
-lang["#NPC_SHADOWEDBANDIT_RANK4"] = "Shadowed Housebreaker"
-lang["#NPC_SHADOWEDBANDIT_RANK5"] = "Shadowed Outlaw"
+lang["#NPC_SHADOWEDBANDIT_RANK1"] = "Scrounger"
+lang["#NPC_SHADOWEDBANDIT_RANK2"] = "Burglar"
+lang["#NPC_SHADOWEDBANDIT_RANK2_OVERWATCH"] = "Spotter"
+lang["#NPC_SHADOWEDBANDIT_RANK3"] = "Looter"
+lang["#NPC_SHADOWEDBANDIT_RANK4"] = "Housebreaker"
+lang["#NPC_SHADOWEDBANDIT_RANK5"] = "Outlaw"
+lang["#NPC_SHADOWEDBANDIT_BOSS"] = "The Oathbreaker"
 
---Mercenaries
+-- Reavers
+
+lang["#NPC_REAVERSBANDIT"] = "Reaver Bandit"
+lang["#NPC_REAVERSBANDITS"] = "Reaver Bandits"
+lang["#NPC_REAVERSBANDIT_RANK1"] = "Pioneer"
+
+-- Mercenaries
 lang["#NPC_MERC"] = "Mercenary"
 lang["#NPC_MERCS"] = "Mercenaries"
 lang["#NPC_MERCLEADER"] = "Mercenary Leader"
 lang["#NPC_MERCSNIPER"] = "Mercenary Sniper"
 
---Cipher Agents
-lang["#NPC_CIPHERAGENT"] = "Cipher Agent"-------------------------------Cipher, General
-lang["#NPC_CIPHERAGENTS"] = "Cipher Agents"--                           Cipher, Generals
-lang["#NPC_CIPHERAGENT_RANK1"] = "Cipher Intern"--                      Intern
-lang["#NPC_CIPHERAGENT_RANK2"] = "Cipher Contractor"--                  Contractor
-lang["#NPC_CIPHERAGENT_RANK3"] = "Cipher Associate"--                   Associate
-lang["#NPC_CIPHERAGENT_RANK4"] = "Cipher Manager"--                     Manager
-lang["#NPC_CIPHERAGENT_RANK5"] = "Cipher Executive"--                   Executive
-lang["#NPC_CIPHERAGENT_SNIPER"] = "Cipher Watcher"--                    Watcher, Sniper
-lang["#NPC_CIPHERAGENT_STEALTHSUIT_RANK1"] = "Cipher Assassin"--        Stealth Suit
-lang["#NPC_CIPHERAGENT_STEALTHSUIT_RANK1A"] = "Cipher Ghost"--          Stealth Suit
-lang["#NPC_CIPHERAGENT_STEALTHSUIT_RANK1B"] = "Cipher Spectre"----------Stealth Suit
+-- Cipher Agents
+lang["#NPC_CIPHERAGENT"] = "Cipher Agent"-----------------------------------Cipher, General
+lang["#NPC_CIPHERAGENTS"] = "Cipher Agents"--                               Cipher, Generals
+lang["#NPC_CIPHERAGENT_RANK1"] = "Intern"--                                 Intern
+lang["#NPC_CIPHERAGENT_RANK2"] = "Contractor"--                             Contractor
+lang["#NPC_CIPHERAGENT_RANK3"] = "Associate"--                              Associate
+lang["#NPC_CIPHERAGENT_RANK4"] = "Manager"--                                Manager
+lang["#NPC_CIPHERAGENT_RANK5"] = "Administrant"--                           Administrant
+lang["#NPC_CIPHERAGENT_RANK6"] = "Liquidator"-------------------------------Liquidator
 
 -- Brotherhood of Steel
 lang["#NPC_BROTHERHOOD"] = "Brotherhood Soldiers" ----------------------Brotherhood, General
-lang["#NPC_BOS_SOLDIER_RANK1"] = "Brotherhood Junior Initiate"----------Initiate
-lang["#NPC_BOS_SOLDIER_RANK1A"] = "Brotherhood Initiate"--              Initiate
-lang["#NPC_BOS_SOLDIER_RANK1B"] = "Brotherhood Senior Initiate" --      Initiate
-lang["#NPC_BOS_SOLDIER_RANK1C"] = "Brotherhood Junior Knight"--         Knight
-lang["#NPC_BOS_SOLDIER_RANK1D"] = "Brotherhood Apprentice-Knight"--     Knight
-lang["#NPC_BOS_SOLDIER_RANK2"] = "Brotherhood Journeyman-Knight"--      Knight
-lang["#NPC_BOS_SOLDIER_RANK2A"] = "Brotherhood Senior Knight" --        Knight
-lang["#NPC_BOS_SOLDIER_RANK3"] = "Brotherhood Junior Paladin"--         Paladin
-lang["#NPC_BOS_SOLDIER_RANK3A"] = "Brotherhood Paladin"--               Paladin
-lang["#NPC_BOS_SOLDIER_RANK4"] = "Brotherhood Senior Paladin"--         Paladin
-lang["#NPC_BOS_SCRIBE_RANK1"] = "Brotherhood Junior Scribe" --          Scribe
-lang["#NPC_BOS_SCRIBE_RANK1A"] = "Brotherhood Apprentice-Scribe" --     Scribe
-lang["#NPC_BOS_SCRIBE_RANK1B"] = "Brotherhood Journeyman-Scribe" --     Scribe
-lang["#NPC_BOS_SCRIBE_RANK1C"] = "Brotherhood Senior Scribe" -----------Scribe
+lang["#NPC_BOS_SOLDIER_INITIATE1"] = "Junior Initiate"--                Initiate
+lang["#NPC_BOS_SOLDIER_INITIATE2"] = "Initiate"--                       Initiate
+lang["#NPC_BOS_SOLDIER_INITIATE3"] = "Senior Initiate" --               Initiate
+lang["#NPC_BOS_SOLDIER_KNIGHT1"] = "Junior Knight"--                    Knight
+lang["#NPC_BOS_SOLDIER_KNIGHT2"] = "Apprentice-Knight"--                Knight
+lang["#NPC_BOS_SOLDIER_KNIGHT3"] = "Journeyman-Knight"--                Knight
+lang["#NPC_BOS_SOLDIER_KNIGHT4"] = "Senior Knight" --                   Knight
+lang["#NPC_BOS_SOLDIER_PALADIN1"] = "Junior Paladin"--                  Paladin
+lang["#NPC_BOS_SOLDIER_PALADIN2"] = "Paladin"--                         Paladin
+lang["#NPC_BOS_SOLDIER_PALADIN3"] = "Senior Paladin"--                  Paladin
+lang["#NPC_BOS_SOLDIER_PALADIN4"] = "Decorated Paladin"--               Paladin
+lang["#NPC_BOS_SOLDIER_SCRIBE1"] = "Junior Scribe" --                   Scribe
+lang["#NPC_BOS_SOLDIER_SCRIBE2"] = "Apprentice-Scribe" --               Scribe
+lang["#NPC_BOS_SOLDIER_SCRIBE3"] = "Journeyman-Scribe" --               Scribe
+lang["#NPC_BOS_SOLDIER_SCRIBE4"] = "Senior Scribe" ---------------------Scribe
 
 --Enclave
-lang["#NPC_ENCLAVE"] = "Enclave" --                                     Enclave, General
-lang["#NPC_ENCLAVERANK1"] = "Enclave Patrolman" ------------------------Enclave Patrolman
-lang["#NPC_ENCLAVERANK1A"] = "Enclave Patrolman" --                     Enclave Patrolman
-lang["#NPC_ENCLAVERANK1B"] = "Enclave Patrolman" --                     Enclave Patrolman
-lang["#NPC_ENCLAVERANK1C"] = "Enclave Patrolman" --                     Enclave Patrolman
-lang["#NPC_ENCLAVERANK1D"] = "Enclave Patrolman" --                     Enclave Patrolman
-lang["#NPC_ENCLAVERANK1E"] = "Enclave Patrolman" --                     Enclave Patrolman
-lang["#NPC_ENCLAVERANK2"] = "Enclave Heavy Patrolman" --                Enclave Heavy Patrolman
-lang["#NPC_ENCLAVERANK3"] = "Enclave Heavy Patrolman" --                Enclave Heavy Patrolman
-lang["#NPC_ENCLAVESCIENTIST1"] = "Enclave Scientist" --                 Enclave Scientist
-lang["#NPC_ENCLAVESCIENTIST2"] = "Enclave Combat Medic" --              Enclave Combat Medic
-lang["#NPC_ENCLAVESCIENTIST3"] = "Enclave Spec Ops Combat Medic" --     Enclave Spec Ops Combat Medic
-lang["#NPC_ENCLAVESPECOPSRANK1"] = "Enclave Spec Ops Gunner" --         Enclave Spec Ops
-lang["#NPC_ENCLAVESPECOPSRANK1A"] = "Enclave Spec Ops Heavy Gunner" --  Enclave Spec Ops
-lang["#NPC_ENCLAVESPECOPSRANK1B"] = "Enclave Spec Ops Sniper" --        Enclave Spec Ops
-lang["#NPC_ENCLAVESPECOPSRANK1C"] = "Enclave Spec Ops Grenadier" -------Enclave Spec Ops
+lang["#NPC_ENCLAVE"] = "Enclave"
+lang["#NPC_ENCLAVE_SCOUT"] = "Soldier"
+lang["#NPC_ENCLAVE_RECON"] = "Soldier"
+lang["#NPC_ENCLAVE_PA"] = "Patrolman"
+lang["#NPC_ENCLAVE_PA_HEAVY"] = "Patrolman"
+lang["#NPC_ENCLAVE_PA_OFFICER"] = "Patrolman"
+lang["#NPC_ENCLAVE_OFFICER"] = "Officer"
+lang["#NPC_ENCLAVE_OFFICER_INTEL"] = "Intel Officer"
+lang["#NPC_ENCLAVE_SECRET_SERVICE"] = "Secret Service Guard"
+lang["#NPC_ENCLAVE_SCIENTIST"] = "Scientist"
+lang["#NPC_ENCLAVE_COMBAT_MEDIC"] = "Combat Medic"
+lang["#NPC_ENCLAVE_SPECOPS_SCIENTIST"] = "Spec Ops Combat Medic"
+lang["#NPC_ENCLAVE_SPECOPS_GUNNER"] = "Spec Ops Gunner"
+lang["#NPC_ENCLAVE_SPECOPS_PA"] = "Spec Ops Heavy Gunner"
+lang["#NPC_ENCLAVE_SPECOPS_SNIPER"] = "Spec Ops Sniper"
+lang["#NPC_ENCLAVE_SPECOPS_GRENADIER"] = "Spec Ops Grenadier"
+lang["#NPC_ENCLAVE_ENDBOSS"] = "Frank Horrigan"
+lang["#NPC_ENCLAVE_CITIZEN"] = "Citizen"
+lang["#NPC_ENCLAVE_TECHNICIAN"] = "Technician"
+lang["#NPC_ENCLAVE_PA_GUARD_STATIC"] = "Guard"
+lang["#NPC_ENCLAVE_QUARTERMASTER"] = "Quartermaster Campbell"
 
 -- Super Mutants
 lang["#NPC_SUPERMUTANT"] = "Super Mutant"
@@ -374,21 +394,21 @@ lang["#NPC_REJECTEDSM_RANK4"] = "Rejected Overlord"
 
 --The Reborn - Unity's Chosen Ghoul Soldiers
 lang["#NPC_REBORN"] = "Reborn Soldiers"
-lang["#NPC_REBORN_RANK1"] = "Reborn Initiate"
-lang["#NPC_REBORN_RANK2"] = "Reborn Acolyte"
-lang["#NPC_REBORN_RANK3"] = "Reborn Occultist"
-lang["#NPC_REBORN_RANK4"] = "Reborn Flagellant"
-lang["#NPC_REBORN_RANK5"] = "Reborn Overseers"
+lang["#NPC_REBORN_RANK1"] = "Initiate"
+lang["#NPC_REBORN_RANK2"] = "Acolyte"
+lang["#NPC_REBORN_RANK3"] = "Occultist"
+lang["#NPC_REBORN_RANK4"] = "Flagellant"
+lang["#NPC_REBORN_RANK5"] = "Overseer"
 
 --Unity's Chosen - Super Mutant Soldiers 
 lang["#NPC_CHOSEN"] = "Unity's Chosen Soldiers"
-lang["#NPC_CHOSEN_SM_RANK1"] = "Unity's Chosen Fighter"
-lang["#NPC_CHOSEN_SM_RANK2"] = "Unity's Chosen Skirmisher"
-lang["#NPC_CHOSEN_SM_RANK3"] = "Unity's Chosen Primus"
-lang["#NPC_CHOSEN_SM_RANK4"] = "Unity's Chosen Enforcer"
-lang["#NPC_CHOSEN_SM_RANK5"] = "Unity's Chosen Nightkin"
-lang["#NPC_CHOSEN_SM_RANK6"] = "Unity's Chosen Nightkin Hunter"
-lang["#NPC_CHOSEN_SM_RANK7"] = "Unity's Chosen Nightkin Overlord" -- Squad leaders, not necessarily NV style
+lang["#NPC_CHOSEN_SM_RANK1"] = "Fighter"
+lang["#NPC_CHOSEN_SM_RANK2"] = "Skirmisher"
+lang["#NPC_CHOSEN_SM_RANK3"] = "Primus"
+lang["#NPC_CHOSEN_SM_RANK4"] = "Enforcer"
+lang["#NPC_CHOSEN_SM_RANK5"] = "Nightkin"
+lang["#NPC_CHOSEN_SM_RANK6"] = "Nightkin Hunter"
+lang["#NPC_CHOSEN_SM_RANK7"] = "Nightkin Overlord" -- Squad leaders, not necessarily NV style
 
 --Phoenix Company
 lang["#NPC_PHOENIXCOMPANY"] = "Phoenix Company"
@@ -398,7 +418,28 @@ lang["#NPC_PHOENIX_CORPORAL"] = "Corporal"
 lang["#NPC_PHOENIX_SGT"] = "Sergeant"
 lang["#NPC_PHOENIX_SSGT"] = "Staff Sergeant"
 lang["#NPC_PHOENIX_REDBERET"] = "Red Beret"
+lang["#NPC_PHOENIX_101ST"] = "101st Rifleman"
+lang["#NPC_PHOENIX_101STCQC"] = "101st Shock Trooper"
+lang["#NPC_PHOENIX_101STHVY"] = "101st Weapons Specialist"
+lang["#NPC_PHOENIX_101STOF"] = "101st Captain"
 
+-- Van Graff
+
+lang["#NPC_VANGRAFF"] = "Van Graff"
+lang["#NPC_VANGRAFF_GUARD_RANK1"] = "Caravan Guard"
+lang["#NPC_VANGRAFF_GUARD_RANK2"] = "Soldato"
+lang["#NPC_VANGRAFF_GUARD_RANK3"] = "Enforcer"
+lang["#NPC_VANGRAFF_GUARD_RANK4"] = "Man-of-Honor"
+lang["#NPC_VANGRAFF_ENGINEER_RANK1"] = "Craftsman"
+lang["#NPC_VANGRAFF_ENGINEER_RANK2"] = "Tradesman"
+lang["#NPC_VANGRAFF_ENGINEER_RANK3"] = "Manufacturer"
+lang["#NPC_VANGRAFF_ENGINEER_RANK4"] = " Engineer"
+
+-- Followers of the Apocalypse
+
+lang["#NPC_FOLLOWERS"] = "Followers of the Apocalypse"
+lang["#NPC_FOLLOWERS_MERC_01"] = "Hired Gun"
+lang["#NPC_FOLLOWERS_MERC_02"] = "Mercenary"
 
 -- ██████╗  ██████╗ ██████╗  ██████╗ ████████╗██╗ ██████╗
 -- ██╔══██╗██╔═══██╗██╔══██╗██╔═══██╗╚══██╔══╝██║██╔════╝
@@ -492,6 +533,12 @@ lang["#NPC_ROBOBRAIN_SCRAP_RANK3"] = "Cybermech Robobrain"
 
 lang["#NPC_DEATHCLAW"] = "Deathclaw"
 lang["#NPC_DEATHCLAWS"] = "Deathclaws"
+lang["#NPC_DEATHCLAW_RANK1"] = "Deathclaw Juvenile"
+lang["#NPC_DEATHCLAW_RANK2"] = "Glowing Deathclaw"
+lang["#NPC_DEATHCLAW_RANK3"] = "Deathclaw Chameleon"
+lang["#NPC_DEATHCLAW_RANK4"] = "Deathclaw Alpha Male"
+lang["#NPC_DEATHCLAW_RANK5"] = "Deathclaw Matriarch"
+lang["#NPC_DEATHCLAW_RANK6"] = "Chameleon Deathclaw Alpha Male"
 
 lang["#NPC_GATORCLAW"] = "Gatorclaw"
 lang["#NPC_GATORCLAWS"] = "Gatorclaws"
@@ -503,7 +550,7 @@ lang["#NPC_GATORCLAW_RANK3"] = "Gatorclaw Ripper"
 lang["#NPC_GATORCLAW_RANK4"] = "Gatorclaw Stalker"
 lang["#NPC_GATORCLAW_RANK5"] = "Albino Gatorclaw"
 lang["#NPC_GATORCLAW_RANK6"] = "Glowing Gatorclaw"
-lang["#NPC_GATORCLAW_BOSS"] = "Bloodclaw"
+lang["#NPC_GATORCLAW_BOSS"] = "Deathjaw"
 lang["#NPC_SWAMPJAW_RANK1"] = "Swampjaw"
 lang["#NPC_SWAMPJAW_RANK2"] = "Swampjaw Ambusher"
 lang["#NPC_SWAMPJAW_RANK3"] = "Swampjaw Deathroller"
@@ -526,3 +573,29 @@ lang["#NPC_ALIENS"] = "Aliens"
 
 lang["#NPC_ENEMIES"] = "Enemies"
 
+
+
+-- ███████╗██╗   ██╗███████╗███╗   ██╗████████╗███████╗
+-- ██╔════╝██║   ██║██╔════╝████╗  ██║╚══██╔══╝██╔════╝
+-- █████╗  ██║   ██║█████╗  ██╔██╗ ██║   ██║   ███████╗
+-- ██╔══╝  ╚██╗ ██╔╝██╔══╝  ██║╚██╗██║   ██║   ╚════██║
+-- ███████╗ ╚████╔╝ ███████╗██║ ╚████║   ██║   ███████║
+-- ╚══════╝  ╚═══╝  ╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝
+
+
+lang["#EVENT_RADROACH_BOSS_BROADCAST"] = "The sewers grow restless..."
+lang["#EVENT_GIANTANT_BOSS_BROADCAST"] = "Chittering can be heard emanating from the caves..."
+lang["#EVENT_YAOGUAI_BOSS_BROADCAST"] = "A thunderous roar rings throughout the mountains..."
+lang["#EVENT_DEATHCLAW_BOSS_BROADCAST"] = "A loud roar pierces the ash storms..."
+lang["#EVENT_MOLERAT_BOSS_BROADCAST"] = "Rocks shift in a nearby cave..."
+lang["#EVENT_WENDIGO_DEVOURER_BOSS_BROADCAST"] = "A chill runs down your spine..."
+--lang["#EVENT_WENDIGO_FLAYED_BOSS_BROADCAST"] = "You feel like this will be a terrible night..." REPLACED BELOW
+lang["#EVENT_NCR_CAPTAIN_BOSS_BROADCAST"] = "A Captain marches into town with a squad at his back, eyes scanning the wasteland."
+lang["#EVENT_NCR_RIOT_OFFICER_BOSS_BROADCAST"] = "A disciplined officer of the NCR Riot Control deploys to the field."
+lang["#EVENT_80S_PAIN_TRAIN_BOSS_BROADCAST"] = "Static crackles on your radio. A distorted voice laughs — 'All aboard, wastelanders!'"
+lang["#EVENT_ROCK_BITER_MARAUDER_BOSS_BROADCAST"] = "Thumping steps trail up and away from the mines..."
+lang["#EVENT_BROTHERHOOD_PATROL_BROADCAST"] = "A radio crackle is heard nearby..."
+lang["#EVENT_CIPHER_PATROL_BROADCAST"] = "An unseen force lurks nearby..."
+lang["#EVENT_DESERT_RANGER_VET_WARDEN_BROADCAST"] = "Steel badges gleam beneath the blazing sun. A Veteran Warden's on patrol and he has come to pass judgment on the lawless."
+lang["#EVENT_WENDIGO_FLAYEDONE_BOSS_BROADCAST"] = "A piercing wail sounds out from the mines..."
+lang["#EVENT_MIRELURK_KING_BOSS_BROADCAST"] = "As a guttural howl breaks the tranquility of the caves, the once still water feels almost electric."

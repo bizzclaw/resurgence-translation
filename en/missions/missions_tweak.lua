@@ -31,8 +31,8 @@ lang["#MISSION_TWEAK_BLAST_HINT"] = "Retrieve four sticks of dynamite for Tweak.
 lang["#MISSION_TWEAK_BLAST_COMPLETE"] = "Lemme get a sniff of that. Mm... still good. Good find, rookie. Now you're gonna start earning some actual money."
 
 lang["#MISSION_TWEAK_TANKING"] = "Tanking the Ride"
-lang["#MISSION_TWEAK_TANKING_DESC"] = "Like I said earlier, that particular trip was long term prep. We've got plenty of time to kill until the boss sends the orders for us to do our thing, so we're instead gonna turn to some matters of maintenance. We gotta fix up our tanks here, and for that we need tools. Get into Salt Wells and see if you can nick the toolbox the Crimson Caravan uses for their truck. Shouldn't be too hard to find."
-lang["#MISSION_TWEAK_TANKING_HINT"] = "Retrieve the Crimson Caravan Toolbox. It can be found past the Salt Wells Bazaar."
+lang["#MISSION_TWEAK_TANKING_DESC"] = "Like I said earlier, that particular trip was long term prep. We've got plenty of time to kill until the boss sends the orders for us to do our thing, so we're instead gonna turn to some matters of maintenance. We gotta fix up our tanks here, and for that we need tools. Get into the nearbv NCR Ranger Outpost and see if you can nick the toolbox that the riot control guys use for their radio tower. Shouldn't be too hard to find."
+lang["#MISSION_TWEAK_TANKING_HINT"] = "Retrieve the Crimson Caravan Toolbox. It can be found inside the NCR Ranger Outpost."
 lang["#MISSION_TWEAK_TANKING_COMPLETE"] = "You got it? Sweet, this stuff will do the job just fine. Here's your pay."
 lang["#MISSION_TWEAK_TANKING_ITEMNAME"] = "Crimson Caravan Toolbox"
 

@@ -12,7 +12,7 @@ lang["#MISSION_GIVER_STARTER"] = "Andrew"
 lang["#MISSION_GIVER_STARTER_SUBTITLE"] = "Teacher of the Wastes"
 lang["#MISSION_GIVER_STARTER_GREET_NEW"] = "Hey! You seem to be lost and confused. If you're not sure what to do around here, I could help get you set up if you're willing to do a few things. Most chances are that it won't take that long. Otherwise, if you are just looking for work, I suggest going to the uphill town that's not far from here, just follow the road and take a left into the ravine. You shouldn't miss it.\n\n\n\n[ This is a series of tasks for players to start out with. This is not required to be completed, but it is recommended to those who are newer to the game and can offer a starting bonus. ]"
 lang["#MISSION_GIVER_STARTER_GREET"] = "Hello, Wastelander. I can teach you the ropes of surviving out here if you'd like. Otherwise, I'd recommend going to the NCR town if you're looking for a job or some trading to do.\n\n\n\n\n(This tutorial is a series of missions that explain the basics of gameplay. It is not required to be completed by any means, but can offer the player extra starting items. Completing these missions is recommended if you are inexperienced with the gamemode.)"
-lang["#MISSION_GIVER_STARTER_GREET_FINISHED"] = "Hello again, $playername. If you're looking for something to do, I'd recommend talking to Major Redman in the walled town. You can get there by following the road into the valley."
+lang["#MISSION_GIVER_STARTER_GREET_FINISHED"] = "Hello again, $playername. If you're looking for something to do, I'd recommend talking to Major Redman and Mei Lian in the walled town, go into the NCR Offices for Redman and check around the carvan hub for Mei Lian. You can get there by following the road into the valley."
 
 -- Missions
 lang["#MISSION_STARTER_NEWAROUNDHERE"] = "Tutorial: New Around Here"
@@ -57,8 +57,8 @@ lang["#MISSION_STARTER_GHOULDUEL_HINT"] = "Find and kill Feral Ghouls. They can 
 lang["#MISSION_STARTER_GHOULDUEL_COMPLETE"] = "Great job, you definitely know how to fight."
 
 lang["#MISSION_STARTER_MAJORREDMAN"] = "Tutorial: Wrapping Up"
-lang["#MISSION_STARTER_MAJORREDMAN_DESC"] = "Well, seems to me like you know enough of the basics. You're probably eager to do more, so my suggestion is to talk to Major Redman. He'll get you set up on some simple jobs. Let him know that I sent you."
-lang["#MISSION_STARTER_MAJORREDMAN_HINT"] = "Travel to the NCR Town and go to the Headquarters to talk to Major Redman. You can reach the town by following the main road, and then going through the small valley."
+lang["#MISSION_STARTER_MAJORREDMAN_DESC"] = "Well, seems to me like you know enough of the basics. You're probably eager to do more, so my suggestion is to talk to Major Redman and Mei Lian. They will get you set up on some simple jobs. Let them know that I sent you."
+lang["#MISSION_STARTER_MAJORREDMAN_HINT"] = "Travel to the NCR Town and go to the Headquarters to talk to Major Redman and Mei. You can reach the town by following the main road, and then going through the small valley."
 lang["#MISSION_STARTER_MAJORREDMAN_COMPLETE"] = "(You've completed the tutorial. Select a reward to help you start your adventures in the Wasteland.)"
 lang["#MISSION_STARTER_MAJORREDMAN_CUSTOMUI"] = "Talk to Major Redman"
 

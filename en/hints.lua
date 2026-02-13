@@ -122,6 +122,7 @@ RSRG.Hints[HINTS_COMMON] = {
 	// "Tolerance of Ghoul populations varies in the Pacific NorthWaste. While many are willing to maintian at least a cool indifference, there are always individuals or communites that feel, and act, less civilized.", // disabled until relevant
 	// "With memory of the Master's war fresh in their mind, there are few to no places in human communities for Super Mutants. Outside, perhaps, a firing line.", // disabled until relevant
 	"The further North you travel the deadlier the Wasteland tends to get.",
+	"'The world we knew was born anew, so we must be as well' - Father Gilgamesh",
 	"Want to personalize your experience? You can change UI Color for The HUD, Enemies, Allies and Pip-Pad by pressing Escape and opening the Options Menu.",
 	"In certain parts of the Wasteland, you can damage anyone - however, if you are looking to commit crimes, you must disable faction protection settings from the options menu.",
 	"If you commit a serious enough crime against a faction, that faction may regard you as hostile until you pay off your bounty with them. You can do this by clicking on the crime in your Pip-Pad / Data / Crimes. It can be paid in installments.",
@@ -167,6 +168,10 @@ RSRG.Hints[HINTS_RARE] = { -- Would have a low chance of appearing. Maybe 5% or 
     "Created by Bizz!",
     "I want my BP back!",
     "I hate Sand, its rough and course.",
+    "The Brigadier General is always watching.",
+    "Im hungry for a Croissant.",
+    "He's hiding in the Warrens...",
+	"Play Underrail.",
     "I'd cry too if I had your haircut",
     "If you are reading this, send help.",
     "Have you ever heard the tale of Dr. Exavolt?",

@@ -35,6 +35,7 @@ lang["#LOCATION_INEU_MININGTOWN"] = "The Mining Town"
 lang["#LOCATION_COOLSNOW_BRIDGE"] = "The Bridge Lookout"
 lang["#LOCATION_COOLSNOW_OUTSKIRT"] = "The Outskirts Lookout"
 lang["#LOCATION_COOLSNOW_VALLEY"] = "The Valley Lookout"
+lang["#LOCATION_COOLSNOW_WILLOW"] = "Camp Willow"
 
 lang["#DOOR_SHACK"] = "Shack"
 
@@ -46,6 +47,23 @@ lang["#DOOR_SHACK"] = "Shack"
 -- ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝ ╚══════╝
 
 lang["#LOCATION_APOC_BUNKER"] = "The Bunker"
+lang["#LOCATION_APOC_CITYOUTPOST"] = "City Outpost"
+lang["#LOCATION_APOC_CASCADEMERCHANT"] = "Cascade Bazaar"
+lang["#LOCATION_APOC_GUNPOWDERMINE"] = "Abandoned Tunnel"
+lang["#LOCATION_APOC_REDWAREHOUSE"] = "Fortified Warehouse or PA Garage"
+
+
+-- ██████╗ ███████╗ █████╗ ██████╗     ███████╗███████╗████████╗██╗   ██╗ █████╗ ██████╗ ██╗   ██╗
+-- ██╔══██╗██╔════╝██╔══██╗██╔══██╗    ██╔════╝██╔════╝╚══██╔══╝██║   ██║██╔══██╗██╔══██╗╚██╗ ██╔╝
+-- ██║  ██║█████╗  ███████║██║  ██║    █████╗  ███████╗   ██║   ██║   ██║███████║██████╔╝ ╚████╔╝
+-- ██║  ██║██╔══╝  ██╔══██║██║  ██║    ██╔══╝  ╚════██║   ██║   ██║   ██║██╔══██║██╔══██╗  ╚██╔╝
+-- ██████╔╝███████╗██║  ██║██████╔╝    ███████╗███████║   ██║   ╚██████╔╝██║  ██║██║  ██║   ██║
+-- ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═════╝     ╚══════╝╚══════╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝   ╚═╝
+
+lang["#LOCATION_KNEEDEEP_FLOTILLA"] = "Makeshift Flotilla"
+lang["#LOCATION_KNEEDEEP_PROPANE"] = "Propane Fracker"
+lang["#LOCATION_KNEEDEEP_SMUGGLER_LCAMP"] = "Large Smuggler Camp"
+
 
 -- ███████╗ █████╗ ██╗     ███████╗███╗   ███╗
 -- ██╔════╝██╔══██╗██║     ██╔════╝████╗ ████║
@@ -54,4 +72,7 @@ lang["#LOCATION_APOC_BUNKER"] = "The Bunker"
 -- ███████║██║  ██║███████╗███████╗██║ ╚═╝ ██║
 -- ╚══════╝╚═╝  ╚═╝╚══════╝╚══════╝╚═╝     ╚═╝
 
+lang["#LOCATION_SALEM_SURVIVORSCAMP"] = "Survivor Camp"
+lang["#LOCATION_SALEM_BONETRENCHES"] = "Bone Trenches"
+lang["#LOCATION_SALEM_SHADOWFORT"] = "Shadowed Fortress"
 lang["#LOCATION_SALEM_POWER"] = "Salem Power Station"

@@ -8,13 +8,16 @@ local lang = RSRG.Languages["en"]
 -- ╚═════╝  ╚═════╝ ╚══════╝     ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝     ╚═╝     ╚═╝╚═╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
 
 -- Mission Giver
-lang["#MISSION_GIVER_BOSGUARD"] = "Paladin Geary"
-lang["#MISSION_GIVER_BOSGUARD_NEW"] = "Halt, wastelander. By Order of Elder Maxson II, this station is under the authority of the Brotherhood of Steel. Only those with our authorization may enter. \n\nIf you missed the hint, you are not on that list."
+lang["#MISSION_GIVER_BOSGUARD"] = "Paladin Percival"
+lang["#MISSION_GIVER_BOSGUARD_SUBTITLE"] = "Brotherhood Paladin"
+lang["#MISSION_GIVER_BOSGUARD_NEW"] = "Halt, wastelander. By order of Elder Galahad, this station is under the authority of the Brotherhood of Steel. Only those with our authorization may enter. \n\nIf you missed the hint, you are not on that list."
 lang["#MISSION_GIVER_BOSGUARD_N0"] = "Have you come crawling back to us to beg forgiveness, cur? I'd rather shoot you where you stand, but frankly our needs outweigh my beliefs. Here's how you can earn forgiveness."
-lang["#MISSION_GIVER_BOSGUARD_0"] = "Didn't I already tell you to make yourself useful or begone?"
+lang["#MISSION_GIVER_BOSGUARD_0"] = "Didn't I already tell you to make yourself useful?"
 lang["#MISSION_GIVER_BOSGUARD_25"] = "Alright, you are not totally worthless, but you still have more to do before I permit you access."
 lang["#MISSION_GIVER_BOSGUARD_50"] = "You have sufficiently proven yourself. You may enter the outpost. My brothers and sisters of steel have supplies and additional missions available."
 lang["#MISSION_GIVER_BOSGUARD_100"] = "Well met, $playername. We still have plenty to do if you are looking to prove yourself."
+lang["#MISSION_GIVER_BOSGUARD_GREET_FINISHED"] = "For the Brotherhood."
+
 
 -- Missions
 lang["#MISSION_BOSGUARD_PROVE"] = "Prove your Worth"
@@ -25,7 +28,7 @@ lang["#MISSION_BOSGUARD_PROVE_ITEMNAME"] = "Technical Data"
 
 lang["#MISSION_BOSGUARD_ICEPICKS"] = "Ice Pick Massacre"
 lang["#MISSION_BOSGUARD_ICEPICKS_DESC"] = "If you still want to prove your worth, wastelander, then I have another assignment for you. When we first arrived here, we did not expect major resistance from the local Ice Pick raider gang. I must admit that we have dramatically underestimated them, and despite being here for only a few weeks we have already sent a dozen good men and women to Lost Hills in body bags. This cannot stand. A bounty has been authorized for these fiends; kill 10 of them and you will be duly compensated."
-lang["#MISSION_BOSGUARD_ICEPICKS_HINT"] = "Eliminate 10 Ice Pick Bandits in Mountain Pass. They're scattered all over, but they like to camp out along the bridge over the lake."
+lang["#MISSION_BOSGUARD_ICEPICKS_HINT"] = "Eliminate 10 Ice Pick Bandits in Mountain Pass. They're scattered throughout the mountain range. "
 lang["#MISSION_BOSGUARD_ICEPICKS_COMPLETE"] = "Good work, wastelander. Here is your just due."
 
 lang["#MISSION_BOSGUARD_ICEPICKAP"] = "Supply Inquiry"
@@ -35,12 +38,12 @@ lang["#MISSION_BOSGUARD_ICEPICKAP_COMPLETE"] = "Let me see that. ...I don't like
 lang["#MISSION_BOSGUARD_ICEPICKAP_ITEMNAME"] = "Ammo Crate"
 
 lang["#MISSION_BOSGUARD_ADVANCEDMATS"] = "Advanced Materials"
-lang["#MISSION_BOSGUARD_ADVANCEDMATS_DESC"] = "One of our largest supply bottlenecks is that for advanced materials required for the maintenance and fabrication of energy weapons, power armor, and vertibird components. My supply teams are stretched thin as it is trying to keep food in our bellies and cells in our rifles. If you can acquire, say, 5 Advanced Materials packages, I will pay you."
-lang["#MISSION_BOSGUARD_ADVANCEDMATS_HINT"] = "Find and retrieve 1 Advanced Material. The most reliable source of these is by taking them from other enemies that use Power Armor."
+lang["#MISSION_BOSGUARD_ADVANCEDMATS_DESC"] = "One of our largest supply bottlenecks is that for advanced materials required for the maintenance and fabrication of energy weapons, power armor, and maintenance of the bunker. My supply teams are stretched thin as it is trying to keep food in our bellies and cells in our rifles. If you can acquire, say, 5 Advanced Materials packages, I will pay you."
+lang["#MISSION_BOSGUARD_ADVANCEDMATS_HINT"] = "Find and retrieve 2 Advanced Materials. The most reliable source of these is by taking them from other enemies that use pre-war Power Armor."
 lang["#MISSION_BOSGUARD_ADVANCEDMATS_COMPLETE"] = "Thank you. These will be very useful."
 
 lang["#MISSION_BOSGUARD_FOODSUPPLIES"] = "Food Supplies"
-lang["#MISSION_BOSGUARD_FOODSUPPLIES_DESC"] = "Despite the constant flow of resupply flights from Lost Hills, we are still falling short in a number of areas. Ammunition and fuel we can effectively ration; food we cannot. I ask that you hunt some of the local wildlife for their meat or find some other means to supply us. You will be compensated."
+lang["#MISSION_BOSGUARD_FOODSUPPLIES_DESC"] = "Despite the constant flow of resupplies from our scavenger teams, we are still falling short in a number of areas. Ammunition and fuel we can effectively ration; food we cannot. I ask that you hunt some of the local wildlife for their meat or find some other means to supply us. You will be compensated."
 lang["#MISSION_BOSGUARD_FOODSUPPLIES_HINT"] = "Source and retrieve the required meat. It can be bought from merchants or hunted from the local wildlife of the mountain pass."
 lang["#MISSION_BOSGUARD_FOODSUPPLIES_COMPLETE"] = "You are a lifesaver, $playername."
 

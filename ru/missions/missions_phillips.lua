@@ -8,8 +8,8 @@ local lang = RSRG.Languages["ru"]
 -- ╚═╝     ╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚═╝╚═╝     ╚══════╝
 
 -- Mission Giver
-lang["#MISSION_GIVER_PHILLIPS"] = "Рейнджер-капитан Филлипс"
-lang["#MISSION_GIVER_PHILLIPS_SUBTITLE"] = "Пустынные рейнджеры"
+lang["#MISSION_GIVER_PHILLIPS"] = "Рейнджер Капитан Филлипс"
+lang["#MISSION_GIVER_PHILLIPS_SUBTITLE"] = "Рейнджеры пустоши"
 lang["#MISSION_GIVER_PHILLIPS_NEW"] = "Не ожидал, что здесь кто-то появится. Не хочешь нам помочь?"
 lang["#MISSION_GIVER_PHILLIPS_GREET_NO"] = "Ты переубивал слишком много наших. Я должен заставить тебя заплатить за то, что ты сделал."
 lang["#MISSION_GIVER_PHILLIPS_GREET_0"] = "Иди вперёд и приготовься испачкать руки. Нам предстоит много уборки."
@@ -59,8 +59,8 @@ lang["#MISSION_PHILLIPS_PUTTING_HINT"] = "Найдите металлолом и
 lang["#MISSION_PHILLIPS_PUTTING_COMPLETE"] = "Это не подойдёт для полного ремонта, но это, чёрт возьми, хорошее начало. Спасибо."
     
 lang["#MISSION_PHILLIPS_LURKING"] = "Смертельно притаившийся"
-lang["#MISSION_PHILLIPS_LURKING_DESC"] = "Не помешала бы помощь в очистке от этих проклятых болотников, которые рыщут в долине под городом Уцелевших. Они доставляют нам много хлопот, когда нам нужно бежать туда за припасами."
-lang["#MISSION_PHILLIPS_LURKING_HINT"] = "Убейте 10 болотников в Йолла Болли возле города Уцелевших"
+lang["#MISSION_PHILLIPS_LURKING_DESC"] = "Не помешала бы помощь в очистке от этих проклятых болотников, которые рыщут в долине под городом Выживальщиков. Они доставляют нам много хлопот, когда нам нужно бежать туда за припасами."
+lang["#MISSION_PHILLIPS_LURKING_HINT"] = "Убейте 10 болотников в Йолла Болли возле города Выживальщиков"
 lang["#MISSION_PHILLIPS_LURKING_COMPLETE"] = "Я уверен, что их будет больше, но это точно сделает следующие несколько вылазок туда немного безопаснее. Спасибо, приятель."
 
 lang["#MISSION_PHILLIPS_CRUSHER"] = "Каменная дробилка"

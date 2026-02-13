@@ -43,4 +43,24 @@ lang["#MISSION_ASHLANDS_PUTTHEMINTHEGROUND_DESC"] = "We've be seeing vertibirds 
 lang["#MISSION_ASHLANDS_PUTTHEMINTHEGROUND_HINT"] = "Kill 20 Enclave"
 lang["#MISSION_ASHLANDS_PUTTHEMINTHEGROUND_COMPLETE"] = "You've completed the task."
 
+lang["#MISSION_HUNT_DEATHCLAW_BOSS_EASY"] = "Hard To Kill"
+lang["#MISSION_HUNT_DEATHCLAW_BOSS_EASY_DESC"] = "This is the real deal, Hunters. The Legendary Deathclaw, Unguem Mortis has been spotted in the nearby area. If you see him do not engage unless you can get a whole team together. He has already wiped out many battle-hardened hunters. This warning is to not be taken lightly."
+lang["#MISSION_HUNT_DEATHCLAW_BOSS_EASY_HINT"] = "Hunt and kill Unguem Mortis in the Ashlands Region."
+lang["#MISSION_HUNT_DEATHCLAW_BOSS_EASY_COMPLETE"] = "Jumpin' Jesus on a pogo-stick! You did it, you brought down the meanest bastard ever known. Incredible work Hunter. Take these as a token of our appreciation."
+
+
+lang["#MISSION_HUNT_DEATHCLAW_BOSS_HARD"] = "Blood Moon"
+lang["#MISSION_HUNT_DEATHCLAW_BOSS_HARD_DESC"] = "You've already proven your self as a more than capable hunter. However someone has offered to teach whoever kills Unguem Mortis how to carefully take off it hand to be used as a weapon. They have only one stipulation, You need to kill the damn thing with a Deathclaw Guantlet. This bastard was already hard enough to take down, but if you got the guts to try it they say the reward will be more than worth it."
+lang["#MISSION_HUNT_DEATHCLAW_BOSS_HARD_HINT"] = "Hunt and kill Unguem Mortis with a Deathclaw Gauntlet in Ashlands."
+lang["#MISSION_HUNT_DEATHCLAW_BOSS_HARD_COMPLETE"] = "Simply spectacular, Hunter. As promised here is the Hand of Mortis. Wield it with pride."
+
+lang["#MISSION_HUNT_FLAYEDONE_BOSS_EASY"] = "Cannibalistic Humanoid Underground Dwellers" -- C.H.U.D. (1984)
+lang["#MISSION_HUNT_FLAYEDONE_BOSS_EASY_DESC"] = "We've heard of some creepy fucking mutants that have nabbed a few of the miners in the area. Taking these creatures out will be doing everyone a favor."
+lang["#MISSION_HUNT_FLAYEDONE_BOSS_EASY_HINT"] = "Hunt and kill The Flayed One in the Ashlands Region"
+lang["#MISSION_HUNT_FLAYEDONE_BOSS_EASY_COMPLETE"] = "You did a mighty fine job, Hunter! I'm sure everyone will sleep a bit better knowing those freaks aren't crawling around underground any longer."
+
+lang["#MISSION_HUNT_BOSS_TOUR"] = "Exotic Game Hunter"
+lang["#MISSION_HUNT_BOSS_TOUR_DESC"] = "You did good work with Unguem Mortis. This contract has been posted for awhile and it reads more like a checklist, but you're probably ready for it."
+lang["#MISSION_HUNT_BOSS_TOUR_HINT"] = "Hunt and kill the Giant Ant Praetorian in Salt Wells, Radroach Mother in Salt Wells, Deep One in Mountain Pass, The Flayed One in Ash Lands, and the Frenzied Yao Guai in Mountain Pass."
+lang["#MISSION_HUNT_BOSS_TOUR_COMPLETE"] = "Excellent work, Hunter. Here's the posted reward, hopefully you can figure out what to do with it."
 RELOADSCHEMA = true

@@ -5,9 +5,10 @@ local lang = RSRG.Languages["en"]
 lang["#GAMEMODE_NAME"] = "Fallout Resurgence"
 lang["#WIPWARN_TITLE"] = "Resurgence is an Unfinished Project"
 lang["#WIPWARN_SUB"] = "You will encounter bugs and unfinished features."
-lang["#UI_ANYKEY"] = "Press Any Key to Start"
+lang["#UI_ANYKEY"] = "Press Any Button to Start"
 lang["#UI_INTRO_NEXT"] = "[SPACE] Next"
 lang["#UI_INTRO_SKIP"] = "[T] Skip"
+lang["#UI_WARN_32BIT"] = "Non x86-64 Branch Detected! You will likely experience crashes and memory issues.\n\nPlease close Garrysmod, go to its properties on steam, select \"Betas\", and under \"Beta Participation\" choose:\n \"x86-64 - Chromium + 64bit binaries\"."
 
 lang["#TIME_HOURS"] = "$hours:$minutes:$seconds"
 lang["#TIME_MINUTES"] = "$minutes:$seconds"
@@ -18,19 +19,14 @@ lang["#TIME_COUNTDOWN_MINUTES"] = "$minutes minutes, $seconds seconds"
 lang["#TIME_COUNTDOWN_SECONDS"] = "$seconds seconds"
 
 -- Teleport Doors
+-- 	Interactions
 lang["#UI_OPEN"] = "Open"
 lang["#UI_TRAVEL"] = "Travel"
 lang["#UI_ENTER"] = "Enter"
 lang["#UI_EXIT"] = "Exit"
 lang["#UI_CLOSE"] = "Close"
+lang["#UI_RIDE"] = "Ride"
 lang["#UI_TELEPORTLEAVE"] = "Are you sure you want to leave?\n\n$requirement required to return."
-
-lang["#UI_TELEPORTERBLOCK_FACTION_FAVOR"] = "You do not have a high enough Favor with $faction to Enter.\n\nYou need: $favorRequired\nYou have: $favorCurrent\n\nGain Favor by completing Missions for the $faction."
-lang["#UI_TELEPORTERBLOCK_FACTION_HOSTILE"] = "You are currently Hostile with the $faction\n\nYou cannot enter this area."
-lang["#UI_TELEPORTERBLOCK_FACTION_REPRESENT"] = "You must be representing the $faction to enter!\n\nYou can represent a faction by getting enough favor and clicking on the faction in the reputation menu."
-lang["#UI_TELEPORTERBLOCK_FACTION_MEMBER"] = "You must be an official member of the $faction to enter!\n\nYou can become an official member by being Recruited in-game or through the $officialChannel." -- $officialChannel will be "website" or "discord" depending on the server's configuration.
-lang["#UI_TELEPORTERBLOCK_FACTION_HOSTILEWORK"] = "You cannot enter because your favor with an enemy faction, the $hostileFaction, is higher than $minFavor. It is currently $favorCurrent."
-lang["#UI_TELEPORTERBLOCK_FACTION_HOSTILEWORK_NORECOVER"] = "Due to your actions, you are no longer welcomed by this faction."
 
 lang["#UI_ITEMCONSUMED"] = "$item will Be taken"
 lang["#UI_ITEMNOTCONSUMED"] = "$item must be in your Inventory (Not taken)"
@@ -47,7 +43,6 @@ lang["#UI_NEWCHAR"] = "Create Character"
 lang["#UI_DELCHAR"] = "Delete Character"
 lang["#UI_DELCHAR_CONFIRM"] = "Enter Character's name to confirm deletion"
 lang["#UI_DELCHAR_NOMATCH"] = "Name does not match.\n\nPlease try again."
-
 
 --Main Menu
 lang["#UI_STARTPLAYING"] = "Start Playing"
@@ -107,6 +102,7 @@ lang["#SHORT_LMB"] = "LMB" -- Limb Health
 lang["#SHORT_SPECIAL"] = "SPECIAL" -- Special
 lang["#SHORT_TIME"] = "Time: $time" -- Time
 lang["#SHORT_WGT"] = "WGT" -- shorthand for "weight"
+lang["#SHORT_CARRYWGT"] = "Carry WGT" -- shorthand for "carry weight"
 lang["#SHORT_SWGT"] = "SAVE WGT" -- shorthand for "weight"
 lang["#SHORT_DT"] = "DT" -- Damage Threshold
 lang["#SHORT_STR"] = "STR" -- Strength
@@ -116,6 +112,8 @@ lang["#SHORT_SAT"] = "SAT" -- Satiation, hunger combined with thirst into one st
 lang["#SHORT_PVP"] = "PVP" -- Player Versus Player
 lang["#SHORT_ALC"] = "ALC" -- Alcohol Content / Drunkneness
 lang["#SHORT_OXYGEN"] = "O2" -- Oxygen
+lang["#SHORT_VALUEWEIGHT"] = "V/W" -- Value/Weight -- how much value you get per weight unit of an item
+lang["#SHORT_DPS"] = "DPS" -- Damage Per Second -- how much damage you deal per second
 
 -- UI Labels
 lang["#UI_SEARCH"] = "Search"
@@ -169,6 +167,10 @@ lang["#UI_DROPRATIOAMOUNT"] = "Drops on Death: $amount ($percent%)"
 lang["#UI_DROPRATIO"] = "Drops on Death: $percent%"
 lang["#UI_DROPONDEATH"] = "Drops on Death"
 lang["#UI_KEEPONDEATH"] = "Kept on Death"
+lang["#UI_DMGSHOTS"] = "$dmgx$shots" -- Damage times number of shots for multi-shot weapons like burst rifles, ect.
+lang["#UI_DMGCHARGE"] = "$dmgBase - $dmgCharged" -- Damage - Charge Charged for energy weapons like guass rifle, ect.
+lang["#UI_DMGCHARGE_SECONDS"] = "DMG: $dmgBase - $dmgCharged ($time|s)" -- Damage - Charge Charged for energy weapons like guass rifle, ect.
+lang["#UI_ARMORSWAP_NOCROUCH"] = "You cannot swap armor while crouching."
 
 lang["#PVP_ZONE_ENTERED"] = "Entering PVP Area!"
 lang["#PVP_ZONE_EXITED"] = "Exiting PVP Area."
@@ -187,6 +189,7 @@ lang["#UI_MINELIMIT_RETRIEVEFAILED"] = "You were too far away to retrieve your m
 
 lang["#PROTECTION_TIMEBLOCK"] = "Saving Blocked\n\nYou must wait before saving this item!\n\n"
 lang["#PROTECTION_NOTENOUGHWGT"] = "Cannot save, not enough Save Weight Budget.\n\nYour Save Weight Budget grows as you level up."
+lang["#PROTECTION_UNSAVEWEIGHTED"] = "$item has been un-saved due to exceeding your Save Weight Budget."
 lang["#PROTECTION_DANGERZONE"] = "You cannot save items here.\n\nYou can only save items in a safe zone."
 lang["#PROTECTION_UNSAVE_WARNING"] = "WARNING!\n\nIf you unsave this item, you will not be able to re-save it until you enter a safe zone!\n\nAre you sure?"
 lang["#PROTECTION_FACTION"] = "This item can only be saved by someone representing the $faction."
@@ -225,6 +228,7 @@ lang["#EFFECTSLOT_ALCOHOL"] = "Alcohol"
 lang["#EFFECTSLOT_FOOD"] = "Food - Passive"
 lang["#EFFECTSLOT_FOODSUPPORT"] = "Food - Support"
 
+
 lang["#CRAFTING_GIVES"] = "Gives"
 
 lang["#UI_SORT"] = "[C] Sort"
@@ -232,6 +236,7 @@ lang["#UI_STOREMISC"] = "[T] Store Crafting Items"
 lang["#UI_STORINGMISC"] = "Storing Crafting Items..."
 lang["#UI_STORAGELOADING"] = "Storage Loading..."
 lang["#SORT_AGE"] = "Age"
+lang["#SORT_WGTSTACK"] = "Stack WGT"
 lang["#SORT_NAME"] = "Name"
 lang["#SORT_VALUE"] = "Value"
 lang["#SORT_CND"] = "Condition"
@@ -240,8 +245,15 @@ lang["#UI_STORAGE_MAXWEIGHT"] = "Storage at Maximum Capacity"
 lang["#UI_RANDOMIZE_CONDITION"] = "Warning!!!\n\nYou have multiple instances of an item used for crafting this and a random one will be selected.\n\nWhichever one is selected will have its condition copied. Store the items you don't want to use."
 lang["#UI_STORAGE_NOACCESS"] = "You do not have access to this storage."
 
+lang["#UI_MISSIONSORT_TYPE"] = "Mission Type"
+lang["#UI_MISSIONSORT_ACTIVE"] = "Currently Tracked"
+lang["#UI_MISSIONSORT_CONTRACTOR"] = "Mission Contractor"
+lang["#UI_MISSIONSORT_CANCOMPLETE"] = "Can Complete"
+
 lang["#UI_REQUIRES"] = "Requires"
 lang["#UI_REQUIREMENTS"] = "Requirements"
+lang["#UI_REQUIRES_FACTION_REPRESENTATION"] = "Representing - $faction"
+lang["#UI_REQUIRES_FACTION_MEMBER"] = "Member - $faction"
 
 
 -- Currently used for doors that have an item requirement: OPEN with 1 RED KEYCARD
@@ -267,6 +279,7 @@ lang["#UI_AREYOUSURE"] = "Are you sure?"
 lang["#UI_CANCEL"] = "Cancel"
 lang["#UI_OKAY"] = "Okay"
 lang["#UI_HOWMANY"] = "How Many?" -- used in the bulk drop menu.
+lang["#UI_BULKSLIDER_HINT"] = "[A/D] Less/More  [SHIFT] Faster   [CTRL] Slower" -- Try to keep as short as possible, this is a hint for the numeric slider.
 lang["#UI_ACTIVEEFFECTS"] = "Active Effects" -- Effects char
 lang["#UI_LEVEL"] = "Level" -- Experience "Level", Skill "Level"
 lang["#UI_XPGAIN"] = "Experience Gain"
@@ -293,91 +306,6 @@ lang["#GOODRAD3_NAME"] = "High Radiation Dosage"
 lang["#GOODRAD4_NAME"] = "Maximum Radiation Dosage"
 
 lang["#EFFECT_STEALTHFIELD"] = "Stealth Field"
-
-
---[[
- █████╗ ██╗██╗     ███╗   ███╗███████╗███╗   ██╗████████╗███████╗
-██╔══██╗██║██║     ████╗ ████║██╔════╝████╗  ██║╚══██╔══╝██╔════╝
-███████║██║██║     ██╔████╔██║█████╗  ██╔██╗ ██║   ██║   ███████╗
-██╔══██║██║██║     ██║╚██╔╝██║██╔══╝  ██║╚██╗██║   ██║   ╚════██║
-██║  ██║██║███████╗██║ ╚═╝ ██║███████╗██║ ╚████║   ██║   ███████║
-╚═╝  ╚═╝╚═╝╚══════╝╚═╝     ╚═╝╚══════╝╚═╝  ╚═══╝   ╚═╝   ╚══════╝
-]]
-
---Poison
-lang['#POISON_GREENGECKO'] = "Poison Spit"
-lang['#VENOM_RADSCORPION'] = "Radscorpion Sting"
---Disease minor
-lang['#DISEASE_JUMBLES'] = "The Jumbles"
-lang['#DISEASE_LIMPWRIST'] = "Limp Wrist"
-lang['#DISEASE_FUMIGATIONS'] = "Fumigations"
-lang['#DISEASE_VAPORS'] = "The Vapors"
-lang['#DISEASE_WATERBRAIN'] = "Brain Congestion"
-lang['#DISEASE_MYOPIA'] = "Myopia"
-lang['#DISEASE_BINFECTION'] = "Bacterial Infection"
-lang['#DISEASE_HEADACHE'] = "Bad Headache"
-lang['#DISEASE_CROTCHROT'] = "Crotch Rot"
-lang['#DISEASE_TWITCHLIPS'] = "Twitch Lips"
-lang['#DISEASE_BRONCHITIS'] = "Bronchitis"
-lang['#DISEASE_COUGH'] = "Light Cough"
---Disease Major
-lang['#DISEASE_BIGWEAKNESS'] = "The Weakness"
-lang['#DISEASE_BRAINCONGESTION'] = "Brain Rot"
-lang['#DISEASE_SLURS'] = "Slurs"
-lang['#DISEASE_GLASSYEYES'] = "Glassy Eyes"
-lang['#DISEASE_TARLUNG'] = "Tar Lung"
-lang['#DISEASE_CRUNCH'] = "Crunch Cramp"
-lang['#DISEASE_CALAMITOUS'] = "Calamitous Rash"
-lang['#DISEASE_BADLUCK'] = "Bad Luck"
-
-lang['#DISEASE_BONEITIS'] = "Boneitis"
---Effect
-lang['#BITE_GOLDGECKO'] = "Radioactive Bite"
-lang['#MELEE_REAVER'] = "Reaver's Embrace"
-lang['#MELEE_GLOWING'] = "One's Glow"
-
---Special
-lang['#DISEASE_HALLOWEENCURSE'] = "The Curse"
-
---Notifications
-lang["#NOTIFY_WEAPON_BROKEN"] = "Weapon broken!"
-lang["#NOTIFY_WEAPON_JAM"] = "Weapon Misfired!"
-lang["#NOTIFY_WEAPON_CND"] = "Condition"
-lang["#NOTIFY_ARMOR_BROKEN"] = "Your armor has broken and can no longer be used!"
-lang["#NOTIFY_OVERECUMBERED_1"] = "You are carrying too much and are moving slower."
-lang["#NOTIFY_OVERECUMBERED_2"] = "You are carrying too much and can no longer run."
-lang["#NOTIFY_OVERECUMBERED_3"] = "You are carrying too much and can no longer move."
-lang["#NOTIFY_SKILLTOOLOW"] = "You do not meet the skill requirements."
-lang["#NOTIFY_SATIATIONEND"] = "You are no longer satiated."
-lang["#NOTIFY_WANTED"] = "[ WANTED ]"
-lang["#NOTIFY_ROLLED"] = "[ROLL] $person rolled a $number."
-lang["#NOTIFY_YOUROLLED"] = "[ROLL] You rolled a $number."
-lang["#NOITFY_HEADROLL"] = "Rolled: $number"
-lang["#UI_NOTCURRENTLYPOSSIBLE"] = "Not Currently Possible"
-lang["#UI_HPFULL"] = "HP Full."
-lang["#UI_STIMPAKACTIVE"] = "Your last stimpak is still active!"
-lang["#UI_CHEMACTIVE"] = "Your last chem is still active!"
-lang["#UI_STIMBLOCKED"] = "Stimblocker is still active!"
-lang["#UI_CHEMBLOCKED"] = "Chemblocker is still active!"
-lang["#UI_ADDICTED"] = "You have become addicted to $item"
-lang["#UI_NOTADDICTED"] = "You are no longer addicted to $item"
-lang["#UI_WITHDRAWAL"] = "$item Withdrawal"
-lang["#UI_DELAYED"] = "Delayed: $time"
-lang["#UI_WAITTOUSE"] = "You must wait $time seconds to use this!"
-lang["#UI_WANTEDBY"] = "Wanted by the $faction"
-lang["#UI_BLOCKEDBY"] = "$aidblocked by $name!" -- "$aid" is a string and "blocked" can be changed in translation.
-
--- Inventory
-lang["#INV_ADDED"] = "$item Added"
-lang["#INV_REMOVED"] = "$item Removed"
-lang["#INV_REMOVEDMULTI"] = "$count $item|s Removed"
-lang["#EQUIPDENY_NOSLOTS"] = "This is not something you can equip."
-lang["#EQUIPDENY_ANIMSET"] = "This is not fitted for you."
-lang["#EQUIPDENY_NOPOWERARMOR"] = "You must be wearing Power Armor to equip this."
-lang["#EQUIPDENY_INSUFFICIENTLEVEL"] = "Your Armor is not able to support this Armor Piece."
-
-
-lang["#EIGHTBALL_REMOVED"] = "OUTLOOK: NOT SO GREAT."
 
 --PARTY
 -- new feature, $person will be automatically replaced with subject's name
@@ -442,7 +370,9 @@ lang["#TRADE_ALREADYINTRADE"] = "$person is already in a trade."
 lang["#TRADE_COMPLETE"] = "Trade Completed"
 
 --ToolTips
-lang["#TOOLTIP_RELOAD"] = "@+reload Reload."
+lang["#TOOLTIP_RELOAD"] = "@+reload Reload"
+lang["#TOOLTIP_LOWAMMO"] = "Low Ammo"
+lang["#TOOLTIP_NOAMMO"] = "No Ammo"
 lang["#TOOLTIP_AIM"] = "@+attack2 Aim"
 lang["#TOOLTIP_OPENDOOR"] = "@+use Use door."
 lang["#TOOLTIP_DRINK"] = "@+use Drink."
@@ -463,6 +393,8 @@ lang["#TUTORIAL_LOWERWEP"] = "@+use + @+reload Lower Weapon"
 lang["#TUTORIAL_ARMORCOVERAGE"] = "You've equipped a piece of Apparel!\n\nSome pieces of Apparel provide armor\nagainst certain damage types\n\nIMPORTANT: Armor will ONLY protect\nthe part of the body it covers!"
 lang["#TUTORIAL_NEARDEATH"] = "You're Near Death!\n\nAnother hit like that and you'll go down for good if you don't treat your wounds. When your health bar stops flashing, you'll be safe again."
 lang["#TUTORIAL_STRREQ"] = "The Strength Requirement on this weapon is higher than your Strength Stat!\n\nYou can still use it, but it will be harder to use.\n\nIf your Strength is more than 2 points too low, you will damage your arms from using it!\n\nNote: Many Firearms require a stock to lower their Strength Requirement!"
+lang["#TUTORIAL_ONETIMEITEM"] = "One-Time Items Only spawn once per-person."
+lang["#TUTORIAL_INSPECT"] = "[$InspectKey] Inspect Item to see what crafting recipes it can be used in."
 
 lang["#TUTORIAL_WANTEDDEAD"] = "You are Wanted!\n\nYou have entered a region controlled by a faction hostile to you for crimes you have comitted. Members of this faction will attack you on sight!\n\nYou can clear your wanted status by going to your Pip Boy Data Tab, Selecting the Crime Tab and clicking on specific crimes to pay off their fine.\n\nCrimes can be paid off in installments."
 
@@ -491,6 +423,12 @@ lang["#TUTORIAL_POWER_GENERATOR"] = "Load Nuclear Material to start Generator."
 lang["#TUTORIAL_POWER_BRASSPRESS"] = "Load Copper to make Brass."
 lang["#TUTORIAL_POWER_MINER"] = "Power the Generator to start Mining."
 
+lang["#TUTORIAL_AUTODOC_RADS"] = "Rad-Stations can cleanse all Radiation from your body."
+lang["#TUTORIAL_AUTODOC_HEALTH"] = "Auto-Docs can restore all health and fully heal limbs."
+lang["#TUTORIAL_AUTODOC_HEALTH_2"] = "Advanced Auto-Docs can restore all health, fully heal limbs and cure all diseases."
+
+lang["#TUTORIAL_RESPECSTATION"] = "Respec Stations can reset your S.P.E.C.I.A.L, Skill and Perk Points."
+
 -- Campfire Healing
 lang["#CAMPFIRE_TOOLOW"] = "Your health is too low to heal from a camp fire."
 lang["#CAMPFIRE_HEAL"] = "The fire warms and relaxes you, healing your wounds."
@@ -508,9 +446,13 @@ lang["#RADIO_NCRPR"] = "NCR Public Radio"
 lang["#RADIO_RAIDER"] = "Oregon Public Radio - Accepting Ad Space Now!"
 lang["#RADIO_SFM"] = "Synthstream FM"
 lang["#RADIO_CLASSICAL"] = "Salem Historical Arts Society Automated Radio"
+lang["#RADIO_VANGUARD"] = "Radio Vanguard"
 
 lang["#RADIO_HALLOWEEN"] = "The Signal... from Beyond!"
 
+lang["#RADIO_CIVILALERT"] = "Civil Alert System Broadcast"
+lang["#RADIO_FREQ1776"] = "Frequency 17.76"
+lang["#RADIO_FREQ2134"] = "Frequency 21.34"
 
 --Door Names
 lang["#DOOR_GATE_OPEN"] = "Open Gate"
@@ -556,51 +498,139 @@ lang["#LOCKLEVEL_KEY"] = "Key Required"
 lang["#SECURITY_TOO_LOW"] = "You need at least $minSkill points in $lockSkill to pick this."
 
 -- Crafting
+lang["#UI_USEDINRECIPES"] = "Used in Recipes"
 lang["#CRAFTING_RELOADING"] = "Reloading Bench"
 lang["#CRAFTING_WORKBENCH"] = "Workbench"
 lang["#CRAFTING_MODBENCH"] = "Mod Bench"
 lang["#CRAFTING_TOOL"] = "Tool"
 lang["#UI_CRAFT"] = "Craft"
+
+-- Auto Docs
+lang["#AUTODOC_RADS_REMOVED"] = "All Radiation Removed"
+lang["#AUTODOC_HEALED"] = "All Health Restored"
+lang["#AUTODOC_DISEASES_CURED"] = "All Diseases Cured"
+lang["#AUTODOC_LIMBS_HEALED"] = "All Limbs Healed"
+
+lang["#AUTODOC_NAME"] = "Auto-Doc"
+lang["#AUTODOC_DESC"] = "Refills health and fixes your limbs."
+
+lang["#AUTODOC_ADVANCED_NAME"] = "Advanced Auto-Doc"
+lang["#AUTODOC_ADVANCED_DESC"] = "Refills health and fixes your limbs. Also cures all diseases and afflictions."
+
+lang["#AUTODOC_RADS_NAME"] = "Rad-Station"
+lang["#AUTODOC_RADS_DESC"] = "Removes all radiation from your body."
+
+-- Player Respec Station
+lang["#RESPECSTATION_NAME"] = "Respec Station"
+lang["#RESPECSTATION_PROMPT"] = "At this desk you can study the $bookName to reset all Perk, Special and Skill points spent on this character.\n\nRequires 1 $bookName\n\nAny Perks or Attributes that effect skill point acquisition such as Educated, Combatant, Perception and Intelligence cannot be reset.\n\nAre you sure you want to respec your character?"
+lang["#RESPECSTATION_SUCCESS"] = "You sit down and begin to study the textbook. You feel your mind opening up to new possibilities as you rethink your life's choices.\n\nYou have regained spent S.P.E.C.I.A.L, Skill and Perk points."
+lang["#RESPECSTATION_NOBOOK"] = "You do not have the required $bookName to respec your character."
+lang["#RESPEC_NORESPEC_PERK"] = "This Perk cannot be respecced."
+lang["#RESPEC_NORESPEC_SPECIAL"] = "This Special attribute cannot be respecced."
+
+-- Item Interaction
 lang["#UI_PURCHASE"] = "Purchase"
 lang["#UI_TAKE"] = "Take"
+lang["#UI_STEAL"] = "Steal"
+lang["#UI_TAKEONETIME"] = "Take (Once)"
+lang["#UI_STEALONETIME"] = "Steal (Once)"
 lang["#UI_GRAB"] = "Grab"
 lang["#UI_STORAGE"] = "Storage"
+
+-- Item Modding
 lang["#UI_NOMOD"] = "No Mod"
+lang["#MODBENCH_EXCEED_SAVE_WEIGHT"] = "Attaching this mod will make it exceed your save weight.\n\nItem will be unsaved if you attach this."
 
 --Damage Types
 lang["#DMG_BULLET"] = "Ballistic"
+lang["#DMG_BULLET_DESC"] = "Damage caused by bullets and other small projectiles."
 lang["#DMG_SLASH"] = "Laceration"
+lang["#DMG_SLASH_DESC"] = "Damage caused by sharp objects such as knives or claws."
 lang["#DMG_CLUB"] = "Blunt Force"
-lang["#DMG_ENERGYBEAM"] = "Laser"
+lang["#DMG_CLUB_DESC"] = "Damage caused by blunt objects such as fists or clubs."
+lang["#DMG_ENERGYBEAM"] = "Energy"
+lang["#DMG_ENERGYBEAM_DESC"] = "Damage caused by energy weapons such as lasers or plasma."
 lang["#DMG_SHOCK"] = "Electrical"
+lang["#DMG_SHOCK_DESC"] = "Damage caused by electrical shocks."
 lang["#DMG_BURN"] = "Burn"
+lang["#DMG_BURN_DESC"] = "Damage caused by fire or extreme heat."
 lang["#DMG_BLAST"] = "Explosive"
+lang["#DMG_BLAST_DESC"] = "Damage caused by explosions."
 lang["#DMG_RADIATION"] = "Radiation"
+lang["#DMG_RADIATION_DESC"] = "Incoming Radiation from environmental sources."
 lang["#DMG_ACID"] = "Acid"
+lang["#DMG_ACID_DESC"] = "Damage caused by corrosive substances."
 lang["#DMG_POISON"] = "Poison" -- used in mod bench to show the resistance of a specific damage type, IE, "Explosive Resistance"
+lang["#DMG_POISON_DESC"] = "Damage caused by toxic substances."
+
+lang["#DT_DESC"] = "DT, or Damage Threshold reduces incoming damage by a flat amount, but never below 20% of the original damage."
+
+lang["#UI_ATTACHMOD"] = "Attach Mod"
+lang["#UI_DETACHMOD"] = "Detach Mod"
+lang["#UI_HOVERDETAILS"] = "Hover a stat for details"
+
+lang["#STAT_LESSISMORE"] = "Lower is better." // Appended to the end of some stat description if a lower value denotes a positive effect.
+lang["#UNIT_SECONDS"] = "s"
 
 -- Weapon Stats
 -- Note: Keep the "Units" as short as possible, else they may clip off the screen.
 lang["#WEAPON_DAMAGE"] = "Damage"
+lang["#WEAPON_DAMAGEPERSECOND"] = "Damage Per Second"
+lang["#WEAPON_DAMAGEPERSECOND_DESC"] = "Total damage dealt per second if attacking continuously."
+lang["#WEAPON_CHARGETIME"] = "Charge Time"
+lang["#WEAPON_CHARGETIME_DESC"] = "This weapon can be charged for increased damage.\n\nTime required to reach maximum charge in seconds."
+lang["#WEAPON_SPINUPTIME"] = "Spin-Up Time"
+lang["#WEAPON_SPINUPTIME_DESC"] = "Time required for the weapon to spin up before firing. Mostly applies to miniguns and gatling lasers."
+lang["#WEAPON_DAMAGE_DESC"] = "Health target loses on successful hit."
+lang["#WEAPON_FIREMODE"] = "Fire Mode"
+lang["#WEAPON_FIREMODE_DESC"] = "How the weapon fires.\n\nSemi-Automatic: One shot per trigger pull.\nFully Automatic: Continuously fires while trigger is held.\nBurst: Fires a set number of rounds per trigger pull."
+lang["#FIREMODE_SEMI"] = "Semi-Automatic"
+lang["#FIREMODE_AUTO"] = "Fully Automatic"
+lang["#FIREMODE_BURST"] = "Burst ($shots)"
 lang["#WEAPON_VELOCITY"] = "Velocity"
+lang["#WEAPON_VELOCITY_DESC"] = "Speed of the projectile in Feet Per Second."
 lang["#WEAPON_VELOCITY_UNIT"] = "FPS" -- Feet Per Second... Yes you have to translate this somehow. we use murica measuring here.
 lang["#WEAPON_AMMO"] = "Ammo"
+lang["#WEAPON_AMMO_DESC"] = "Type and Amount of ammunition the weapon can hold. Some weapons can chamber an extra round, this is displayed as (x+1)."
 lang["#WEAPON_FIRERATE"] = "Firerate"
 lang["#WEAPON_FIRERATE_UNIT"] = "RPM" -- Rounds Per Minute
+lang["#WEAPON_FIRERATE_DESC"] = "Number of rounds fired per minute."
+lang["#WEAPON_CLUMP_SPREAD"] = "Clump Spread"
+lang["#WEAPON_CLUMP_SPREAD_DESC"] = "Spread of projectiles fired in a clump, such as a shotgun blast.\n\nMeasured by the spread angle in degrees.\n\nThe Clump of rounds will stay together within the spread angle."
 lang["#WEAPON_SIGHTED_SPREAD"] = "Sighted Spread"
-lang["#WEAPON_MAXIMUM_SPREAD"] = "Maximum Spread"
+lang["#WEAPON_SIGHTED_SPREAD_DESC"] = "Accuracy when aiming down sights.\n\nMeasured by the spread angle in degrees."
+lang["#WEAPON_ACCURACYLOSS"] = "Spread Per-Shot"
+lang["#WEAPON_ACCURACYLOSS_DESC"] = "Amount of additional spread added per shot fired.\n\nMeasured by the spread angle in degrees."
+lang["#WEAPON_MAXIMUM_SPREAD"] = "Maximum Additional Spread"
+lang["#WEAPON_MAXIMUM_SPREAD_DESC"] = "Maximum additional spread that can be added from continuous firing.\n\nMeasured by the spread angle in degrees."
+lang["#WEAPON_SPREAD_REDUCEWAIT"] = "Spread Reset Time"
+lang["#WEAPON_SPREAD_REDUCEWAIT_DESC"] = "Time after last shot before spread begins to reduce."
 lang["#WEAPON_RANGE"] = "Range" -- Effective Weapon Range
+lang["#WEAPON_RANGE_UNIT"] = "FT" -- Feet
+lang["#WEAPON_RANGE_DESC"] = "Effective range of the weapon before damage drop-off. Measured in feet."
+
+lang["#STAT_WGT_DESC"] = "Weight of the item in Pounds."
+lang["#STAT_SAVEWEIGHT_DESC"] = "How much Save Weight this item uses if marked as protected.\n\nDrops on death if not protected."
 
 lang["#WEAPON_HIP_RECOIL"] = "Hip Recoil"
+lang["#WEAPON_HIP_RECOIL_DESC"] = "View kick when firing from the hip.\n\nMeasured by the angle offset up in degrees."
 lang["#WEAPON_SIGHTED_RECOIL"] = "Sighted Recoil"
+lang["#WEAPON_SIGHTED_RECOIL_DESC"] = "Recoil kick when aiming down sights.\n\nMeasured by the angle offset up in degrees."
 lang["#WEAPON_DURABILITY"] = "Durability"
+lang["#WEAPON_DURABILITY_DESC"] = "How many times the weapon can fire before breaking at maximum condition."
+lang["#ARMOR_DURABILITY_DESC"] = "How many points of damage the armor can absorb before breaking at maximum condition."
 lang["#WEAPON_RELIABILITY"] = "Reliability"
 lang["#WEAPON_WEIGHT"] = "Weight"
+lang["#WEAPON_WEIGHT_DESC"] = "Weight of the weapon in Pounds."
 lang["#WEAPON_CARRYWEIGHT"] = "Carry Weight" -- Extra Carry weight added by this, EG< if it's a pocketed mod.
+lang["#WEAPON_CARRYWEIGHT_DESC"] = "Additional carry weight provided by this item."
 
 --Melee
 lang["#WEAPON_MELEE_SPEED"] = "Speed" -- Melee Weapon speed
+lang["#WEAPON_MELEE_SPEED_DESC"] = "Speed of the melee weapon.\n\nDetermines how fast you can swing the weapon."
 lang["#WEAPON_MELEE_REACH"] = "Reach" -- How far the melee weapon reaches
+lang["#WEAPON_MELEE_REACH_DESC"] = "Reach of the melee weapon measured in inches. Determines how far you can hit with the weapon."
+
 lang["#MELEE_FAST"] = "Fast"
 lang["#MELEE_MEDIUM"] = "Medium"
 lang["#MELEE_SLOW"] = "Slow"
@@ -613,10 +643,10 @@ lang["#CHARMAKE_HAIRSTYLE"] = "Hair Style"
 lang["#CHARMAKE_HAIRCOLOR"] = "Hair Color"
 lang["#CHARMAKE_HAIRSAT"] = "Hair Saturation"
 lang["#CHARMAKE_HAIRBRIGHT"] = "Hair Brightness"
-lang["#CHARMAKE_GENDER"] = "Gender"
+lang["#CHARMAKE_GENDER"] = "Sex"
 lang["#CHARMAKE_RACE"] = "Race"
-lang["#GENDER_MALE"] = "Male"
-lang["#GENDER_FEMALE"] = "Female"
+lang["#SEX_MALE"] = "Male"
+lang["#SEX_FEMALE"] = "Female"
 lang["#CHARMAKE_DISCARDCHAR"] = "This will reset your character data. Continue?"
 lang["#UI_NAMECHARACTER"] = "Finalize Character"
 lang["#UI_ENTERNAME"] = "Enter Name..."
@@ -773,31 +803,112 @@ lang["#STAT_SALVAGEHARVESTS"] = "Vehicle Harvests"
 lang["#STAT_SALVAGEDEPLETED"] = "Vehicles Depleted"
 
 -- Settings
+lang["#SETTINGCATEGORY_GAMEPLAY"] = "Gameplay"
+lang["#SETTINGCATEGORY_UI"] = "User Interface"
+lang["#SETTINGCATEGORY_AUDIO"] = "Audio"
+lang["#SETTINGCATEGORY_GRAPHICS"] = "Graphics"
+lang["#SETTINGCATEGORY_CONTROLS"] = "Controls"
+lang["#SETTINGCATEGORY_PVP"] = "Player-Versus-Player"
+lang["#SETTINGCATEGORY_GM"] = "Gamemaster"
 
-lang["#SETTING_PIPCOL"] = "Pip-Boy Color"
 lang["#SETTING_HUDCOL"] = "HUD Color"
+lang["#SETTING_HUDCOL_DESC"] = "Color of the General HUD Elements."
+lang["#SETTING_PIPCOL"] = "Pip-Boy Color"
+lang["#SETTING_PIPCOL_DESC"] = "Color of the Pip-Boy interface."
 lang["#SETTING_BADCOL"] = "Bad Color"
+lang["#SETTING_BADCOL_DESC"] = "Color for Hostile Characters and Negative Status Effects."
 lang["#SETTING_GUDCOL"] = "Good Color"
-
+lang["#SETTING_GUDCOL_DESC"] = "Color for Friendly Characters and Positive Status Effects."
+lang["#SETTING_RESETCOLORS"] = "Reset Colors"
+lang["#SETTING_RESETCOLORS_DESC"] = "Reset all colors to their default values."
+lang["#SETTING_RESETCOLORS_CONFIRM"] = "Reset all colors to their default values?\n\nThis cannot be undone."
 lang["#SETTING_AMBIENT_MUSIC"] = "Ambient Music Volume"
+lang["#SETTING_AMBIENT_MUSIC_DESC"] = "Adjust the volume of out-of-combat music in the game. 0 to disable."
 lang["#SETTING_COMBAT_MUSIC"] = "Combat Music Volume"
+lang["#SETTING_COMBAT_MUSIC_DESC"] = "Adjust the volume of in-combat music in the game. 0 to disable."
 lang["#SETTING_RADIO_MUSIC"] = "Radio Music Volume"
+lang["#SETTING_RADIO_MUSIC_DESC"] = "Adjust the volume of radio music in the game. 0 to disable."
+lang["#SETTING_HEARTBEAT"] = "Heartbeat Sound Effect"
+lang["#SETTING_HEARTBEAT_DESC"] = "Toggle the heartbeat sound effect when at low health."
 lang["#SETTING_FOV"] = "Field Of View (Unsighted)" -- imply that the field of view settings does not affect aiming zoom.
-lang["#SETTING_FOVADS"] = "Field Of View (ADS)"
+lang["#SETTING_FOVADS"] = "Aiming Zoom Scale"
+lang["#SETTING_FOVADS_DESC"] = "Adjusts how much the FOV changes when aiming down sights. Higher Values means more zoom."
 lang["#SETTING_PIPSPEED"] = "Pip-Boy Cursor Sensitivity"
+lang["#SETTING_PIPSPEED_DESC"] = "Adjust the sensitivity of the Pip-Boy cursor."
 lang["#SETTING_VIEWBOB"] = "View Bob Scale"
+lang["#SETTING_VIEWBOB_DESC"] = "Adjust the intensity of the view bob effect when moving."
 lang["#SETTING_SCOPESCALE"] = "Scoped Sensitity Modifier"
+lang["#SETTING_SCOPESCALE_DESC"] = "Adjust the sensitivity of your mouse when aiming down scopes. Lower values mean lower sensitivity."
 lang["#SETTING_MAXCORPSES"] = "Max NPC Corpses"
+lang["#SETTING_MAXCORPSES_DESC"] = "Adjust the maximum number of NPC corpses allowed in the world at once. Lower values may improve performance."
 lang["#SETTING_GRASS"] = "Grass Distance"
+lang["#SETTING_GRASS_DESC"] = "Adjust how far away grass and other world details are rendered. Lower values may improve performance. 0 to disable grass.\n\nWarning: This directly modifies cl_detaildist and will apply outside of Resurgence."
 lang["#SETTING_MAXSHELLS"] = "Max Firearm Casings"
+lang["#SETTING_MAXSHELLS_DESC"] = "Adjust the maximum number of firearm casings allowed in the world at once. Lower values may improve performance."
 lang["#SETTING_HUD"] = "Enable HUD"
+lang["#SETTING_HUD_DESC"] = "Toggle the Heads-Up Display (HUD) on or off."
 lang["#SETTING_OTHERLIGHTS"] = "Other Player's Lights"
+lang["#SETTING_OTHERLIGHTS_DESC"] = "Toggle the visibility of lights from other players. Can greatly affect performance on lower-end systems.\n\nOff:\nOnly your light is visible.\n\nRadial Lights:\nShow Simple Radial Lights for other player\n\nProjected Lights:\nShow full Projected Lights for other players. Very Performance Intensive."
+lang["#SETTING_OTHERLIGHTS_OFF"] = "Off"
+lang["#SETTING_OTHERLIGHTS_SIMPLE"] = "Radial Lights"
+lang["#SETTING_OTHERLIGHTS_PROJECTED"] = "Projected Lights"
 lang["#SETTING_TOGGLEAIM"] = "Weapon Toggle Aim"
+lang["#SETTING_TOGGLEAIM_DESC"] = "@+attack2| will toggle aiming instead of holding it."
 lang["#SETTING_CROSSHAIR"] = "Enable Crosshair"
-lang["#SETTING_TPPTOFPP"] = "Enable FPP ADS with Scoped Weapons"
+lang["#SETTING_CROSSHAIR_DESC"] = "Toggle the crosshair on or off."
+lang["#SETTING_TPPTOFPP"] = "Use Scopes while in Third Person"
+lang["#SETTING_TPPTOFPP_DESC"] = "When enabled, aiming with scoped weapons in third person will switch to first person view for better accuracy."
+lang["#SETTING_CROSSHAIRSIGHTED"] = "Show Sighted Crosshair"
+lang["#SETTING_CROSSHAIRSIGHTED_DESC"] = "Display a smaller crosshair when aiming down sights for the purpose of gauging gained spread while firing."
 lang["#SETTING_TOGGLESPRINT"] = "Toggle Sprinting"
-lang["#SETTING_RADIO_EXTRA"] = "Extra Radio Stations (not lore friendly)"
-lang["#SETTING_SKIPFADEIN"] = "Skip Intro Fadein"
+lang["#SETTING_TOGGLESPRINT_DESC"] = "@+speed| to toggle sprinting instead of holding it."
+lang["#SETTING_RADIO_EXTRA"] = "Extra Radio Stations"
+lang["#SETTING_RADIO_EXTRA_DESC"] = "Enable additional radio stations that may not fit the game's lore."
+lang["#SETTING_SKIPFADEIN"] = "Skip Intro Fade-in"
+lang["#SETTING_SKIPFADEIN_DESC"] = "Skip the fade-in effect at the start of the game."
+lang["#SETTING_OVERLAYS"] = "Helmet Overlays"
+lang["#SETTING_OVERLAYS_DESC"] = "Shows subtle overlays when wearing helmets."
+lang["#SETTING_SHOWVIEWVW"] = "Show Value / Weight on item pickup"
+lang["#SETTING_SHOWVIEWVW_DESC"] = "Adds extra text to item pickup prompts showing the result of the item's value per unit of weight."
+lang["#SETTING_RELOADPROMPT"] = "Show Reload Prompt"
+lang["#SETTING_RELOADPROMPT_DESC"] = "When your weapon is low on ammo, show a prompt on-screen to remind you to reload."
+lang["#SETTING_HITMARKERS"] = "Hit Markers"
+lang["#SETTING_HITMARKERS_DESC"] = "Displays a cross over the crosshair when you successfully hit a target.\n\nUses the \"Good\" Color for Critical hits and the \"Bad\" Color for confirmed kills."
+lang["#SETTING_HUDNUMBERS"] = "Numeric HUD Values"
+lang["#SETTING_HUDNUMBERS_DESC"] = "Show Numeric Values for HP and AP next to their HUD Bars."
+lang["#SETTING_OLDLIGHT"] = "Legacy Radial Pip-Pad Light"
+lang["#SETTING_OLDLIGHT_DESC"] = "Use an older style radial light for the pip-pad light toggled by holding @+showscores|. Might improve performance on some systems."
+lang["#SETTING_TUTORIALS"] = "Show Tutorials"
+lang["#SETTING_TUTORIALS_DESC"] = "Show in-game tutorial notifications."
+lang["#SETTING_RESETTUTORIALS"] = "Reset Tutorials"
+lang["#SETTING_RESETTUTORIALS_DESC"] = "Reset all in-game tutorial popups to show again."
+lang["#SETTING_RESETTUTORIALS_CONFIRM"] = "Are you sure you want to reset all tutorials? This action cannot be undone."
+lang["#SETTING_LEGS"] = "Show Player Legs in First Person"
+lang["#SETTING_LEGS_DESC"] = "Toggle the visibility of your player model's legs in first person view.\n\nNegligible performance impact."
+lang["#SETTING_SCOPEQUALITY"] = "Scope Render Quality"
+lang["#SETTING_SCOPEQUALITY_DESC"] = "Adjusts the resolution of scope render targets. Higher values improve clarity but may impact performance while aiming scopes."
+
+lang["#SETTING_SPRINTBLUR"] = "Sprint Blur Effect"
+
+lang["#SETTING_SPRINTBLUR_DESC"] = "Adds a Toy-Town like blur effect to the edges of the screen while sprinting.\n\nNo performance Impact."
+
+lang["#SETTING_BLOOM"] = "Bloom Effect"
+lang["#SETTING_BLOOM_DESC"] = "Enables Slight Bloom post-processing effect. The effect is Very slight and mostly used to make icons in the pip-pad a little more vibrant.\n\nNo performance Impact."
+
+lang["#SETTING_COLORCORRECTION"] = "Color Correction"
+lang["#SETTING_COLORCORRECTION_DESC"] = "Enables Subtle Color Correction post-processing effect - mostly used to make certain dark maps lighter and brighter maps darker.\n\nNo performance Impact."
+
+lang["#SETTING_LOW"] = "Low"
+lang["#SETTING_MEDIUM"] = "Medium"
+lang["#SETTING_HIGH"] = "High"
+lang["#SETTING_ULTRA"] = "Ultra"
+
+lang["#SETTING_GM_FACTIONS"] = "View/Join all Factions"
+lang["#SETTING_GM_FACTIONS_DESC"] = "Makes all factions visible and joinable, regardless of requirements. For development purposes."
+lang["#SETTING_GM_SAVEWEIGHT"] = "Unlimited Save Weight"
+lang["#SETTING_GM_SAVEWEIGHT_DESC"] = "Remove any weight restrictions on saving items. For development purposes."
+lang["#SETTING_GM_PVP"] = "Gamemaster PVP"
+lang["#SETTING_GM_PVP_DESC"] = "Allows gamemasters to bypass any and all PVP restrictions.\n\nYou will be able to attack any player anywhere, and can also be attacked."
 
 -- Mission Board
 lang["#MISSIONBOARD_TITLE"] = "Contract Board"
@@ -855,6 +966,7 @@ lang["#COMMUNITY_SEARCH"] = "Community Search"
 lang["#COMMUNITY_LEAVE"] = "Leave Community"
 lang["#COMMUNITY_LEAVE_CONFIRM"] = "Are you sure you want to leave $communityName?"
 lang["#COMMUNITY_LEAVE_DENY_OWNER"] = "You are the owner of $communityName. You must transfer ownership before leaving."
+lang["#COMMUNITY_LEAVE_DENY_OFFICIAL"] = "You cannot leave official factions - you must be removed by the owner."
 lang["#COMMUNITY_SEARCH_COOLDOWN"] = "Please wait before searching again."
 lang["#COMMUNITY_UNSELECTED"] = "No Community Selected"
 lang["#COMMUNITY_NO_PERMISSION"] = "You do not have permission to perform this action."
@@ -945,7 +1057,7 @@ lang["#COMMUNITY_SUBJECT_INVALID"] = "Subject is not in your community!"
 lang["#COMMUNITY_INCOMMUNITY"] = "You are already in a community!"
 lang["#COMMUNITY_KICK"] = "Remove Member"
 lang["#COMMUNITY_KICK_CONFIRM"] = "Are you sure you'd like to remove $name from the community?"
-lang["#COMMUNITY_KICKED"] = "You haved been removed from $communityName." 
+lang["#COMMUNITY_KICKED"] = "You have been removed from $communityName." 
 lang["#COMMUNITY_KICK_SUCCESS"] = "You have kicked $name from the community." 
 
 lang["#COMMUNITY_INFO"] = "Community Information"
@@ -1110,10 +1222,14 @@ lang["#UI_REPUTATION_PROTECTED_DESC"] = "Attacking you is a crime."
 lang["#UI_REPUTATION_UNPROTECTED"] = "Not Protected"
 lang["#UI_REPUTATION_UNPROTECTED_DESC"] = "Attacking you is not a crime against them."
 
-lang["#SETTING_PVP_PROTECTION"] = "Disable Damage to and from players/npcs protected by factions that protect you."
-lang["#SETTING_PVP_REPORT_CRIMES"] = "Report Crimes against me to protecting or representing factions."
-
+lang["#SETTING_PVP_PROTECTION"] = "Faction Protection"
+lang["#SETTING_PVP_PROTECTION_DESC"] = "Prevents you from doing any damage that would incur a crime against a faction. Also prevents players with the same setting from damging you - you can tell if a player has this setting if you see they're protected by the faction.\n\nDisabling this setting will allow you to commit crimes.\n\nOnly updated in a PVE Area. You can check the actual value in your Pip-Pad's reputation menu."
 lang["#UI_PROTECTION_TOWNUPDATE"] = "Your protection setting will apply only the next time you enter a safe zone!"
+lang["#UI_PROTECTION_DISABLED"] = "Faction Protection Disabled!"
+lang["#UI_PROTECTION_ENABLED"] = "Faction Protection Enabled!"
+
+lang["#SETTING_PVP_REPORT_CRIMES"] = "Report Crimes Against Me"
+lang["#SETTING_PVP_REPORT_CRIMES_DESC"] = "Report Crimes against me to protecting or representing factions.\n\nOnly applies to areas where that faction has some level of control."
 
 lang["#UI_SAFEZONE_ENTER"] = "Entering Safe Zone"
 lang["#UI_SAFEZONE_EXIT"] = "Exiting Safe Zone"

@@ -84,7 +84,7 @@ lang["#MISSION_REDMAN_VAULTEXPEDITION_PREPARATION_COMPLETE"] = "Alright, you see
 
 lang["#MISSION_REDMAN_VAULTEXPEDITION_CLEARANCE"] = "Vault Expedition: Investigate"
 lang["#MISSION_REDMAN_VAULTEXPEDITION_CLEARANCE_DESC"] = "You think you're ready now? While you're in there, see if you can find some information on the place too. There might be something like that in the Overseer's office. Be careful on your way there. Radscorpions live in the pit, so I'd recommend walking around it."
-lang["#MISSION_REDMAN_VAULTEXPEDITION_CLEARANCE_HINT"] = "Clear out the vault and find any information that may remain inside. There may likely be something in the Overseer's office. You may need to go through the caves to get to it."
+lang["#MISSION_REDMAN_VAULTEXPEDITION_CLEARANCE_HINT"] = "Find information about the vault. Leave Town, head left, cross the Bridge and take a right at the church down the hill and cross the salt flats to find the doorway. Find any information that may remain inside. There may likely be something in the Overseer's office."
 lang["#MISSION_REDMAN_VAULTEXPEDITION_CLEARANCE_COMPLETE"] = "Hell of a job, $playername. We'll look into this holotape. Here's your reward."
 lang["#MISSION_REDMAN_VAULTEXPEDITION_CLEARANCE_CUSTOMUI"] = "Find any information on the vault."
 lang["#MISSION_REDMAN_VAULTEXPEDITION_CLEARANCE_ITEMNAME"] = "Holotape"

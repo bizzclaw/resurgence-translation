@@ -23,6 +23,12 @@ lang["#MISSION_SALTWELLS_NUKACOLLECTOR_DESC"] = "This task is open to those who 
 lang["#MISSION_SALTWELLS_NUKACOLLECTOR_HINT"] = "Obtain a Nuka Cola. It can commonly be found while scavenging, more likely in vending machines than other containers."
 lang["#MISSION_SALTWELLS_NUKACOLLECTOR_COMPLETE"] = "You've completed the task."
 
+lang["#MISSION_SALTWELLS_OLD_NUMBER_SEVEN"] = "Old Number Seven"
+lang["#MISSION_SALTWELLS_OLD_NUMBER_SEVEN_DESC"] = "This is Ike asking for anyone willing to do some leg work. Recently i've gotten some information about an extremely limited edition bottle of Vim! Captains Blend hidden away in cellar not to far from here. Near the Junkyard is a small abandoned scrap town. Inside one of the buildings is a locked cellar. Its an old wine cellar and its got a speical brew somewhere down there. Get me that brew and you'll get paid."
+lang["#MISSION_SALTWELLS_OLD_NUMBER_SEVEN_HINT"] = "Obtain a the Vim! Captains Blend. It's somewhere inside the scraptown near the Junkyard."
+lang["#MISSION_SALTWELLS_OLD_NUMBER_SEVEN_COMPLETE"] = "You've completed the task."
+lang["#MISSION_SALTWELLS_OLD_NUMBER_SEVEN_ITEMNAME"] = "Vim! Captains Blend"
+
 lang["#MISSION_SALTWELLS_BEERCOLLECTOR"] = "Beer Collector"
 lang["#MISSION_SALTWELLS_BEERCOLLECTOR_DESC"] = "Hey, Deemer here. Looking for a few drinks for later in the week to stash, just some beer, might want some higher end stuff later. Get me 3 bottles, and don't fuckin drink them, i'll know."
 lang["#MISSION_SALTWELLS_BEERCOLLECTOR_HINT"] = "Find 3 glasses of beer, commonly found in fridges and places you would find alcohol."
@@ -150,5 +156,27 @@ lang["#MISSION_SALTWELLS_RESTORINGORDER"] = "Restoring Order"
 lang["#MISSION_SALTWELLS_RESTORINGORDER_DESC"] = "Those 80's bandits have been a menace for far too long. We need you to hit them where it hurts, taking care of their best equipped should do the job."
 lang["#MISSION_SALTWELLS_RESTORINGORDER_HINT"] = "Kill 5 Big Rigs and 10 Gyro Captains."
 lang["#MISSION_SALTWELLS_RESTORINGORDER_COMPLETE"] = "Amazing work, take these. You've earned them."
+
+-- Boss Hunts
+
+lang["#MISSION_HUNT_RADROACH_BOSS_EASY"] = "Deadly Ground"
+lang["#MISSION_HUNT_RADROACH_BOSS_EASY_DESC"] = "This is a public notice to any aspiring hunters out there. Recent sightings of a Radroach Broodmother have been reported in the nearby sewers. The Broodmother has been known to hide for extended periods of time however hunters have noted that the sewers tend to grow restless whenever the Broodmother is around."
+lang["#MISSION_HUNT_RADROACH_BOSS_EASY_HINT"] = "Hunt and kill the Radroach Broodmother. It tends to hide out in the nearby Sewers and occasionally shows itself."
+lang["#MISSION_HUNT_RADROACH_BOSS_EASY_COMPLETE"] = "Good work Hunter, the Radroach population will stop growing out of control now. Take these for your efforts."
+
+lang["#MISSION_HUNT_RADROACH_BOSS_HARD"] = "Shell Cracker"
+lang["#MISSION_HUNT_RADROACH_BOSS_HARD_DESC"] = "Another public notice, Another Broodmother has been spotted hanging around the sewers. If any hunters are looking for a real challenge then listen closely. One of our older hunters has sadly passed away but he wishes for his first ever weapon to be passed onto the next generation. Only if you can prove yourself worthy of wielding such a weapon will it be given to you."
+lang["#MISSION_HUNT_RADROACH_BOSS_HARD_HINT"] = "Hunt and kill the Radroach Broodmother with only a Pipe Wrench."
+lang["#MISSION_HUNT_RADROACH_BOSS_HARD_COMPLETE"] = "Excellent job Hunter. You've proven your self worthy of this weapon. Wield it with pride."
+
+lang["#MISSION_HUNT_GIANTANT_BOSS_EASY"] = "Marked For Death"
+lang["#MISSION_HUNT_GIANTANT_BOSS_EASY_DESC"] = "Another public notice for you folks. A Giant Ant Praetorian has been spotted in the cave system. This thing is a mean-son-of-a-bitch. It can easily split you in two if your not careful. Not to mention its usually surrounded by other Ant guards deep in the caves as well."
+lang["#MISSION_HUNT_GIANTANT_BOSS_EASY_HINT"] = "Hunt and kill the Giant Ant Praetorian. They've been noticed deep in the Ant caves deep underneath the surface."
+lang["#MISSION_HUNT_GIANTANT_BOSS_EASY_COMPLETE"] = "Another one bites the dust. Well done, here is your reward."
+
+lang["#MISSION_HUNT_GIANTANT_BOSS_HARD"] = "Deadeye"
+lang["#MISSION_HUNT_GIANTANT_BOSS_HARD_DESC"] = "Another Preatorian has been spotted nearby in the caves. Another challenge has been offered by a skilled hunter. He said anyone crazy enough to try and kill this thing with a Single Shotgun is worthy of true deadeye's weapon."
+lang["#MISSION_HUNT_GIANTANT_BOSS_HARD_HINT"] = "Hunt and kill the Giant Ant Praetorian with a Single Shotgun."
+lang["#MISSION_HUNT_GIANTANT_BOSS_HARD_COMPLETE"] = "Nice shooting Hunter. Here is the weapon as promised."
 
 RELOADSCHEMA = true

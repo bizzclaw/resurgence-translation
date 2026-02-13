@@ -12,11 +12,11 @@ lang["#MISSION_GIVER_DEMITRIUS"] = "Inquisitor Demitrius"
 lang["#MISSION_GIVER_DEMITRIUS_SUBTITLE"] = "Unity Inquisitor"
 lang["#MISSION_GIVER_DEMITRIUS_GREET_NEW"] = "Greetings, are you another acolyte of Gilgamesh? We always have ways you can help spread his teachings."
 lang["#MISSION_GIVER_DEMITRIUS_GREET"] = "Gilgamesh's will must be done. Here is where you could help."
-lang["#MISSION_GIVER_DEMITRIUS_GREET_FINISHED"] = "May the word of unity spread far with your work."
+lang["#MISSION_GIVER_DEMITRIUS_GREET_FINISHED"] = "May the word of Unity spread far with your work."
 
 -- One time missions
-lang["#MISSION_DEMITRIUS_MASTERSTEACHINGS"] = "The teachings of Gilgamesh"
-lang["#MISSION_DEMITRIUS_MASTERSTEACHINGS_DESC"] = "We need someone to spread the teaching of Gligamesh to the nearby rejected. Get rid of them and show them why we are superior"
+lang["#MISSION_DEMITRIUS_MASTERSTEACHINGS"] = "The Teachings of Gilgamesh"
+lang["#MISSION_DEMITRIUS_MASTERSTEACHINGS_DESC"] = "We need someone to spread the teaching of Gilgamesh to the nearby rejected. Get rid of them and show them why we are superior"
 lang["#MISSION_DEMITRIUS_MASTERSTEACHINGS_HINT"] = "Kill Rejected Overlords in the Salem Area"
 lang["#MISSION_DEMITRIUS_MASTERSTEACHINGS_COMPLETE"] = "Thank you, Gilgamesh would be proud."
 
@@ -41,6 +41,21 @@ lang["#MISSION_DEMITRIUS_TRIALOFGILGAMESH_DESC"] = "We think you are ready for t
 lang["#MISSION_DEMITRIUS_TRIALOFGILGAMESH_HINT"] = "Collect the damaged Scrap Power Armor Helmet in the 80's camp in Salt Wells."
 lang["#MISSION_DEMITRIUS_TRIALOFGILGAMESH_COMPLETE"] = "You passed the trial, you've earned this special gift fit for a warrior of your caliber."
 lang["#MISSION_DEMITRIUS_TRIALOFGILGAMESH_ITEMNAME"] = "Damaged Scrap PA Helmet"
+
+lang["#MISSION_DEMITRIUS_HEATHENOUSHARNESSES"] = "Heathenous Harnesses"
+lang["#MISSION_DEMITRIUS_HEATHENOUSHARNESSES_DESC"] = "Before we go and improve our existing armors, I think it apt to kill two birds with one stone. Let the Wasteland know the wrath of Gilgamesh while learning what you can about their equipment."
+lang["#MISSION_DEMITRIUS_HEATHENOUSHARNESSES_HINT"] = "Kill the various enemies of each faction, some are only spawn via event procs."
+lang["#MISSION_DEMITRIUS_HEATHENOUSHARNESSES_COMPLETE"] = "Excellent work, which non-believer did you find the most troublesome?."
+
+lang["#MISSION_DEMITRIUS_APOSTLEALMS"] = "Apostle Alms"
+lang["#MISSION_DEMITRIUS_APOSTLEALMS_DESC"] = "You've gone too long without equipment befitting a servant of Gilgamesh such as yourself. Hand over some materials and I'll work with Forgemaster Gaur to get you outfitted."
+lang["#MISSION_DEMITRIUS_APOSTLEALMS_HINT"] = "Turn in the required materials to create your Super Mutant Light Combat Armor."
+lang["#MISSION_DEMITRIUS_APOSTLEALMS_COMPLETE"] = "Here you are. Wear it with pride and honor fitting a servant of Gilgamesh"
+
+lang["#MISSION_DEMITRIUS_TITANSTITHE"] = "Titan's Tithe"
+lang["#MISSION_DEMITRIUS_TITANSTITHE_DESC"] = "We have noticed your efforts and we believe you would better defend our Unity with an upgrade to your equipment. Present the items on this list and I'll have the Forgemaster get to work."
+lang["#MISSION_DEMITRIUS_TITANSTITHE_HINT"] = "Turn in the required materials to create your Super Mutant Sturdy Combat Armor."
+lang["#MISSION_DEMITRIUS_TITANSTITHE_COMPLETE"] = "You are becoming. Make our Unity proud."
 
 lang["#MISSION_DEMITRIUS_INQUISITORIALTEST"] = "The Inquisitorial Test"
 lang["#MISSION_DEMITRIUS_INQUISITORIALTEST_DESC"] = "I have one final test for you. You have already proven to be the most devoted follower, and I think its time you earn "

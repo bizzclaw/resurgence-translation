@@ -72,8 +72,8 @@ lang["#MISSION_ISAAC_CARREPAIR_HINT"] = "Obtain Makeshift Batteries and Wheels. 
 lang["#MISSION_ISAAC_CARREPAIR_COMPLETE"] = "Maybe I'll make my own vehicle one day, with you teaching me, of course."
 
 lang["#MISSION_ISAAC_FIBERS"] = "Fibers"
-lang["#MISSION_ISAAC_FIBERS_DESC"] = "Back to business. Got an order placed for 'ballistic polymer'. Sounds like they want some decent protection. Anyways, hold up your end."
-lang["#MISSION_ISAAC_FIBERS_HINT"] = "Obtain Ballistic Polymer. They can be crafted with at a workbench."
+lang["#MISSION_ISAAC_FIBERS_DESC"] = "Back to business. Got an order placed for 'ballistic fiber'. Sounds like they want some decent protection. Anyways, hold up your end."
+lang["#MISSION_ISAAC_FIBERS_HINT"] = "Obtain 4 Ballistic Fiber. They can be found in ammo containers or military cabinets."
 lang["#MISSION_ISAAC_FIBERS_COMPLETE"] = "Man, only if I had some sweet armor."
 
 lang["#MISSION_ISAAC_FACTORYMATERIALS"] = "Factory Materials"
