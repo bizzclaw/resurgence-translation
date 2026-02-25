@@ -143,7 +143,7 @@ lang["#BEER_NAME"] = "Пиво"
 lang["#WINE_NAME"] = "Вино"
 lang["#SCOTCH_NAME"] = "Скотч-виски"
 lang["#WHISKEY_NAME"] = "Виски"
-lang["#RADWHISKEY_NAME"] = "Радиоактивный Виски"
+lang["#RADWHISKEY_NAME"] = "Радиоактивный виски"
 lang["#VODKA_NAME"] = "Водка"
 lang["#PATRIOTICPILSNER_NAME"] = "Патриотический пилзнер"
 lang["#RUM_NAME"] = "Ром"
@@ -887,7 +887,7 @@ lang["#STEELCASINGNAME"] = "Стальная гильза -"
 lang["#BRASSCASINGNAME"] = "Латунная гильза -"
 lang["#HULLCASINGNAME"] = "Пластик. гильза -"
 lang["#JUNKROUND_NAME"] = "Мусор"
-lang["#AMMOBOX_NAME"] = "Коробка боепр.,"
+lang["#AMMOBOX_NAME"] = "Коробка боепр.:"
 
 --- Bobbleheads
 

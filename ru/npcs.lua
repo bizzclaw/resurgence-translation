@@ -253,7 +253,7 @@ lang["#NPC_NCRRIOTGUARD"] = "Охранник-полицейский"
 -- Desert Rangers
 lang["#NPC_DESERTRANGER"] = "Пустынный рейнджер"
 lang["#NPC_DESERTRANGERS"] = "Пустынных рейнджеров"
-lang["#NPC_DESERTRANGER_RANK1"] = "Кустарник"
+lang["#NPC_DESERTRANGER_RANK1"] = "Боец-засадник"
 lang["#NPC_DESERTRANGER_RANK2"] = "Разведчик"
 lang["#NPC_DESERTRANGER_RANK3"] = "Надзиратель"
 lang["#NPC_DESERTRANGER_RANK4"] = "Ветеран-рейнджер"

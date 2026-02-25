@@ -204,3 +204,5 @@ lang["#TERMINAL_DRYSTATE_FOLLOWERS"] ={
 		}},
 	}
 }
+
+RELOADSCHEMA = true

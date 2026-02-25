@@ -292,7 +292,6 @@ lang["#EVENT_ENCLAVEDROP_BROADCAST"] = "The sound of distant Vertibird rotors ec
 
 -- 	Door Names
 lang["#UI_ELEVATOR"] = "Elevator"
-lang["#UI_CAVE"] = "Cave"
 lang["#UI_INDUSTRIAL"] = "Industrial Door"
 lang["#UI_MOUND"] = "Mound"
 lang["#UI_DOOR"] = "Door"

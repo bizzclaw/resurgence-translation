@@ -208,3 +208,5 @@ Update: On 05.02.2236 I recieved a letter from Jackson that stated he would be i
 		}},
 	}
 }
+
+RELOADSCHEMA = true
