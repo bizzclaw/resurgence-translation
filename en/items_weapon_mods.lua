@@ -24,6 +24,7 @@ lang["#MODSLOT_LIGHT"] = "Light"
 lang["#MODSLOT_MATERIAL"] = "Material"
 lang["#MODSLOT_MISC"] = "Misc"
 lang["#MODSLOT_OVERCOAT"] = "Overcoat"
+lang["#MODSLOT_UPARMOR"] = "Up-armor Kit"
 
 -- Specific
 lang["#MODSLOT_COVER"] = "Cover"
@@ -227,6 +228,7 @@ lang["#MOD_COVER_AKM_STAMPED_NAME"] = "Soviet Rifle Stamped Dust Cover"
 lang["#MOD_COVER_AKM_MILLED_NAME"] = "Soviet Rifle Milled Dust Cover"
 lang["#MOD_COVER_GAUSSRIFLE_NAME"] = "Gauss Rifle Component Shield"
 lang["#MOD_RAILWAYAUTOVENT_NAME"] = "Railway Rifle Auto-Vent Conversion Kit"
+lang["#MOD_RAILWAYCOMPACTOR_NAME"] = "Railway Shotgun Compactor Kit"
 lang["#MOD_RECEIVER_CONVERSION_MARKSMAN_NAME"] = "Marksman Pistol 12.7mm Conversion Kit"
 
 lang["#MOD_RECEIVER_MFC_RCW_NAME"] = "Laser RCW MFC Conversion Kit"
@@ -405,6 +407,8 @@ lang["#MOD_BARREL_PDEFENDER_MAKESHIFTGAUSS"] = "Plasma Defender Superconductor T
 lang["#MOD_BARREL_YK42B_LONG"] = "YK42B Long Barrel"
 lang["#MOD_BARREL_YK42B_ADV"] = "YK42B Advanced Barrel"
 
+lang["#MOD_BARREL_LONG_SOLARCANNON_NAME"] = "Solar Cannon Long Barrel"
+
 lang["#MOD_BARREL_P90_LONG"] = "P90 Long Barrel"
 
 --MUZZLE DEVICE
@@ -542,11 +546,13 @@ lang["#MOD_STOCK_LGUN_TACTIC_NAME"] = "Laser Pistol Comfort Grip"
 lang["#MOD_STOCK_LGUN_NAME"] = "Laser Rifle Stock"
 lang["#MOD_STOCK_RECOIL_LGUN_NAME"] = "Laser Rifle Recoil Stock"
 lang["#MOD_STOCK_MARKSMEN_LGUN_NAME"] = "Laser Rifle Marksman Stock"
+lang["#MOD_STOCK_ULTIMA_LGUN_NAME"] = "Laser Rifle Ultima Stock"
 lang["#MOD_STOCK_RCW_NAME"] = "Laser RCW Stock"
 lang["#MOD_STOCK_PGUN_TACTIC_NAME"] = "Plasma Pistol Comfort Grip"
 lang["#MOD_STOCK_PGUN_NAME"] = "Plasma Rifle Stock"
 lang["#MOD_STOCK_RECOIL_PGUN_NAME"] = "Plasma Rifle Riot Stock"
 lang["#MOD_STOCK_YK42B_NAME"] = "YK42B Wire Stock"
+lang["#MOD_STOCK_MARKSMAN_SOLARCANNON_NAME"] = "Solar Cannon Marksman Stock"
 
 lang["#MOD_STOCK_PDEFENDER_TACTIC_NAME"] = "Plasma Defender Tactical Stock"
 
@@ -581,16 +587,17 @@ lang["#MOD_RECEIVER_HEAVY_44REVOLVER_DESC"] = "A reinforced frame for the .44 re
 lang["#MOD_RECEIVER_DESERTSEAL_CSHOTGUN_DESC"] = "A Pre-War upgrade mod for the Combat Shotgun.\n\nA series of fitted rubber gaskets fills the seams of the gun, keeping foreign material out of key moving parts.\n\nIncreases reliability and increases total amounts of shots you can fire between maintenance.\n\n"
 lang["#MOD_RECEIVER_DKS_DESC"] = "A replacement buffer for the DKS-501 Sniper Rifle.\n\nIncreases weapon firing speed.\n\nOriginally a selling point for the DKS series, the specialized recoil buffer offered increased firing speed and lower recoil between shots, but only when in perfect working condition. . ."
 lang["#MOD_RAILWAYAUTOVENT_DESC"] = "An automatic venter for the Railway Rifle, increasing fire-rate notably. However, the gun holds less pressure as a result.\n\nAbsolutely nonviable with Railstakes."
+lang["#MOD_RAILWAYCOMPACTOR_DESC"] = "A small pneumatic trash compactor added into the chamber of the launcher to turn the collection of projectiles into a ball of spikes. Ouch."
 lang["#MOD_RECEIVER_CONVERSION_MARKSMAN_DESC"] = "A 12.7mm conversion kit for the Marksman Pistol.\n\nTrades damage and velocity for better recoil and accuracy."
 
 lang["#MOD_RECEIVER_MFC_RCW_DESC"] = "A modified terminal and power converter for the Laser RCW.\n\nConverts ammotype to Microfusion Cells, and increases beam damage, but reduces firing speed and amount of times weapon can be fired before requiring maintenance."
 lang["#MOD_RECEIVER_TRIBEAM_HDC_DESC"] = "An additional rack of capacitors for the Tri-Beam laser gun.\n\nGreatly improves overall durability of the firearm, increasing total shots that can be fired before repair is required.\n\nI mean, It's not like you haven't already voided the warranty on this thing. . ."
 lang["#MOD_RECEIVER_HSE_PCASTER_DESC"] = "An after-market High Speed Electrode for the Plasma Caster.\n\nIncreases the firing speed by 25%.\n\nMarketed as an optional upgrade from the Pre-war days, when this was an industrial tool."
-lang["#MOD_CAPACITOR_M72_OPTIMIZED_DESC"] = "M72 Gauss Driver Optimized Capacitors."-- NEED DESC
-lang["#MOD_CAPACITOR_M72_AMMO_DESC"] = "M72 Gauss Driver Energized Capacitors." -- NEED DESC
-lang["#MOD_CAPACITOR_M72_BOOSTER_DESC"] = "M72 Gauss Driver Boosted Capacitors."-- NEED DESC
-lang["#MOD_CAPACITOR_GAUSSMINIGUN_DYNAMO_DESC"] = "Gauss Minigun Dynamo Assembly "-- NEED DESC
-lang["#MOD_CAPACITOR_GAUSSMINIGUN_TESLA_DESC"] = "Gauss Minigun Tesla Assembly"-- NEED DESC
+lang["#MOD_CAPACITOR_M72_OPTIMIZED_DESC"] = "High-Quality capacitors for the M72 Gauss Driver that improves the efficiency of its electromagnets.\n\nThis increases penetration and stopping power for the same energy cost per magazine."
+lang["#MOD_CAPACITOR_M72_AMMO_DESC"] = "An improved capacitor system that boosts energy storage in M72 magazines.\n\nIncreasing total stackable 2MM ammo per magazine."
+lang["#MOD_CAPACITOR_M72_BOOSTER_DESC"] = "A prototype capacitor system that boosts the electromagnets power distribution speed for a better magnetic spin induction rate.\n\nThis increases the weapons overhaul penetration through rotational velocity."
+lang["#MOD_CAPACITOR_GAUSSMINIGUN_DYNAMO_DESC"] = "A modification to the Gauss Minigun's electromagnets, increasing the power to them and partially energizing the projectile.\n\n-5 DT per shot."
+lang["#MOD_CAPACITOR_GAUSSMINIGUN_TESLA_DESC"] = "A significantly stronger capacitor for the Gauss Minigun, adding an explosive effect to rounds.\n\nProjectiles become explosive, magazine size is increased, and damage is increased."
 lang["#MOD_SOLARCANNON_CHARGECONVERSION_DESC"] = "A specialized assembly engineered for the Solar Cannon prototype, designed to concentrate a significant volume of solar energy within a catalytic chamber. This energy is extracted from the microfusion cell and stored until optimal charge is achieved. Upon reaching peak energy levels, the stored energy is released into the barrel, where it undergoes rapid acceleration to extreme velocities before being directed toward the target with precision."
 
 lang["#MOD_KIT_WATTZ_DESC"] = "The official Wattz 2000 overclocking kit, for those who want to go even further beyond.\n\nIncreases weapon damage and reduces accuracy loss at the cost of ammo efficiency."
@@ -732,6 +739,7 @@ lang["#MOD_BARREL_MARKSMAN_MEDIUM_DESC"] = "Marksman Pistol Medium Barrel." -- N
 lang["#MOD_BARREL_GAUSSMINIGUNTRI_DESC"] = "Gauss Minigun Tri-Barrel." -- NEED DESC
 lang["#MOD_BARREL_GAUSSMINIGUNPENTA_DESC"] = "Gauss Minigun Penta-Barrel." -- NEED DESC
 lang["#MOD_BARREL_VSK_SNIPER_DESC"] = "VSK Long Barrel." -- NEED DESC
+lang["#MOD_BARREL_LONG_SOLARCANNON_DESC"] = "Solar Cannon Long Barrel." -- NEED DESC
 
 lang["#MOD_BARREL_LGUN_LONG_DESC"] = "A rifle length housing for the Laser Gun, 9th generation.\n\nIncreases damage and accuracy down range at the cost of a slightly lower capacity and slightly more wear to weapon while firing.\n\nIf not for this ''barrel's'' robust titanium crystal housing, it would have fallen completely out of focus mere decades after the bombs fell, like its more fragile successors."
 lang["#MOD_BARREL_LGUN_AUTO_DESC"] = "A rotating housing assembly for the Laser Gun.\n\nMassively increases the weapons fire rate, at the cost of lower damage output per shot and inferior accuracy.\n\nThese ''multi-barreled'' assemblies were cost prohibative to produce, and few saw use outside of a handful of specialty units."
@@ -863,7 +871,7 @@ lang["#MOD_STOCK_BAR_MARKSMAN_DESC"] = "A marksman stock for the Browning Automa
 lang["#MOD_STOCK_VSK_DESC"] = "A folding stock for most 9x39 weapons"
 lang["#MOD_STOCK_VSK_SNIPER_DESC"] = "A wooden stock for most 9x39 weapons"
 lang["#MOD_DEV_TRUEPERF_DESC"] = "If some dumbfuck GM gives this out to a player, you're getting eaten. I'm tearing you limb from limb."
-
+lang["#MOD_STOCK_MARKSMAN_SOLARCANNON_DESC"] = "Solar Cannon Marksman Stock." -- NEED DESC
 
 
 lang["#MOD_STOCK_RCW_DESC"] = "A factory standard stock for the Laser RCW.\n\nReduces felt recoil while firing."
@@ -872,6 +880,7 @@ lang["#MOD_STOCK_LGUN_TACTIC_DESC"] = "Improved grip for the Laser pistol.\n\nSl
 lang["#MOD_STOCK_LGUN_DESC"] = "Standard issue stock for the Laser Rifle.\n\nReduces weapon spread while A.D.S., and recoil. Slightly increases weapon spread from hip-fire."
 lang["#MOD_STOCK_RECOIL_LGUN_DESC"] = "Recoil compensating stock for the Laser Rifle.\n\nReduces weapon spread while A.D.S. and accuracy lost while firing, greatly reduces recoil. Slightly increases weapon spread from hip-fire."
 lang["#MOD_STOCK_MARKSMEN_LGUN_DESC"] = "A precision target stock for the Laser Rifle.\n\nGreatly reduces weapon spread while A.D.S., and reduces recoil. Greatly increases weapon spread from hip-fire."
+lang["#MOD_STOCK_ULTIMA_LGUN_DESC"] = "The ultimate stock for the Laser Rifle.\n\nExtremely reduces weapon spread while A.D.S., and reduces recoil and accuracy lost while firing. Slightly increases weapon spread from hip-fire."
 lang["#MOD_STOCK_PGUN_TACTIC_DESC"] = "Improved grip for the Plasma Pistol.\n\nSlightly reduces weapon spread and recoil.\n\nA lightweight, direct upgrade from the basic pistol grip."
 lang["#MOD_STOCK_PGUN_DESC"] = "Standard issue stock for the Plasma Rifle.\n\nReduces weapon spread while A.D.S., and recoil. Slightly increases weapon spread from hip-fire."
 lang["#MOD_STOCK_RECOIL_PGUN_DESC"] = "Recoil compensating stock for the Plamsa Rifle.\n\nSlightly reduces weapon spread while A.D.S. and accuracy lost while firing, greatly reduces recoil. Slightly increases weapon spread from hip-fire."

@@ -94,7 +94,7 @@ lang["#T51BPOWER_NAME"] = "T-51B"
 lang["#ROADKILLPOWER_NAME"] = "Roadkill Power Armor"
 lang["#RAIDERPOWER_NAME"] = "Scrap Power Armor"
 lang["#EXCAVATORPOWERARMOR_NAME"] = "Excavator"
-lang["#AUGERPOWERARMOR_NAME"] = "Auger"
+lang["#AUGERPOWERARMOR_NAME"] = "Auger Power Armor"
 lang["#SIERRA_NAME"] = "Sierra Power Armor"
 
 
@@ -412,6 +412,7 @@ lang["#WIGCONE_NAME"] = "Cone Wig"
 lang["#MODSLOT_SPECIAL"] = "S.P.E.C.I.A.L. Modifiers"
 lang["#MODSLOT_SKILLS"] = "Skill Modifiers"
 lang["#MODSLOT_DT"] = "Damage Threshold Modifiers"
+lang["#MODSLOT_VAULT_NUMBER"] = "Vault Suit Number"
  
 
 --██╗    ██╗███████╗ █████╗ ██████╗  █████╗ ██████╗ ██╗     ███████╗    ██████╗ ███████╗███████╗ ██████╗
@@ -538,16 +539,16 @@ lang["#SM_CHESTBEASTMASTER_DESC"] = "This 'chestpiece' consists of a single stee
 lang["#SM_ARMSBEASTMASTER_DESC"] = "The wrists of these wraps have canine bitemarks on them, presumably from Centaur training. #SUPERMUTANT_CLOTHES" 
 lang["#SM_ARMGUARDS_DESC"] = "Recast and metal worked armguards for a very tall, very wide-framed man.\nIf it weren't for the arm holes, these would work as bullet shields. #SUPERMUTANT_CLOTHES"
 lang["#SM_HEAVYGAUNTLETS_DESC"] = "Industrial screw-clamps and large guage wire strapping down salvaged vehicle scrap.\nFar too large for a normal body size or fit. #SUPERMUTANT_CLOTHES"
-lang["#SM_COMBAT_TORSO_LIGHT_DESC"] = "SM Light Combat Torso." -- NEED DESC
-lang["#SM_COMBAT_TORSO_STURDY_DESC"] = "SM Sturdy Combat Torso." -- NEED DESC
-lang["#SM_COMBAT_TORSO_HEAVY_DESC"] = "SM Heavy Combat Torso." -- NEED DESC
-lang["#SM_COMBAT_ARMS_LIGHT_DESC"] = "SM Light Combat Arms." -- NEED DESC
-lang["#SM_COMBAT_ARMS_STURDY_DESC"] = "SM Sturdy Combat Arms." -- NEED DESC
-lang["#SM_COMBAT_ARMS_HEAVY_DESC"] = "SM Heavy Combat Arms." -- NEED DESC
-lang["#SM_COMBAT_LEGS_LIGHT_DESC"] = "SM Light Combat Legs." -- NEED DESC
-lang["#SM_COMBAT_LEGS_STURDY_DESC"] = "SM Sturdy Combat Legs." -- NEED DESC
-lang["#SM_COMBAT_LEGS_HEAVY_DESC"] = "SM Heavy Combat Legs." -- NEED DESC
-lang["#SM_COMBAT_HELMET_DESC"] = "SM Combat Helmet." -- NEED DESC
+lang["#SM_COMBAT_TORSO_LIGHT_DESC"] = "A heavily modified version of the standard-issue combat armor used by the US Army. \n\nThe armor has been refitted to the size of a super mutant, losing some of its protective capability in the process. #SUPERMUTANT_CLOTHES"
+lang["#SM_COMBAT_TORSO_STURDY_DESC"] = "A heavily modified version of the standard-issue combat armor used by the US Army. \n\nThe armor has been refitted to the size of a super mutant, losing some of its protective capability in the process. #SUPERMUTANT_CLOTHES"
+lang["#SM_COMBAT_TORSO_HEAVY_DESC"] = "A heavily modified version of the standard-issue combat armor used by the US Army. \n\nThe armor has been refitted to the size of a super mutant, losing some of its protective capability in the process. #SUPERMUTANT_CLOTHES"
+lang["#SM_COMBAT_ARMS_LIGHT_DESC"] = "A heavily modified version of the standard-issue combat armor used by the US Army. \n\nThe armor has been refitted to the size of a super mutant, losing some of its protective capability in the process. #SUPERMUTANT_CLOTHES"
+lang["#SM_COMBAT_ARMS_STURDY_DESC"] = "A heavily modified version of the standard-issue combat armor used by the US Army. \n\nThe armor has been refitted to the size of a super mutant, losing some of its protective capability in the process. #SUPERMUTANT_CLOTHES"
+lang["#SM_COMBAT_ARMS_HEAVY_DESC"] = "A heavily modified version of the standard-issue combat armor used by the US Army. \n\nThe armor has been refitted to the size of a super mutant, losing some of its protective capability in the process. #SUPERMUTANT_CLOTHES"
+lang["#SM_COMBAT_LEGS_LIGHT_DESC"] = "A heavily modified version of the standard-issue combat armor used by the US Army. \n\nThe armor has been refitted to the size of a super mutant, losing some of its protective capability in the process. #SUPERMUTANT_CLOTHES"
+lang["#SM_COMBAT_LEGS_STURDY_DESC"] = "A heavily modified version of the standard-issue combat armor used by the US Army. \n\nThe armor has been refitted to the size of a super mutant, losing some of its protective capability in the process. #SUPERMUTANT_CLOTHES"
+lang["#SM_COMBAT_LEGS_HEAVY_DESC"] = "A heavily modified version of the standard-issue combat armor used by the US Army. \n\nThe armor has been refitted to the size of a super mutant, losing some of its protective capability in the process. #SUPERMUTANT_CLOTHES"
+lang["#SM_COMBAT_HELMET_DESC"] = "A heavily modified version of the standard-issue combat helmet used by the US Army. \n\nThis helmet has been refitted to the size of a super mutant, losing some of its protective capability in the process. #SUPERMUTANT_CLOTHES"
 
 --Helmet Description
 lang["#REDBERETGASMASK_DESC"] = "A tactical helmet worn by Phoenix Company Red Berets. Comes with a respirator which provides limited biohazard protection."
@@ -601,8 +602,8 @@ lang["#SM_HELMET_DESC"] = "A singular casted or salvaged metal plate used as a '
 lang["#SM_BLADEDHELMET_DESC"] = "With a single metal blade jutting from the top, a type of warrior aesthetic is prominent in this helmet.\nFacial guards and a decent amount of intricacy allows for decent coverage. #SUPERMUTANT_CLOTHES"
 lang["#SM_HEADBEASTMASTER_DESC"] = "A Yao-guai pelt with a hollowed out head, presumably to fit *your* head.\nPerfect for letting other Yao-guai know that they're next. #SUPERMUTANT_CLOTHES"
 lang["#SM_POWER_HELMET_DESC"] = "This helmet has seen better days, the craftsmenship is sloppy and clearly lacks technique.\n\nDespite the shoddy metal working its effective enough to be quite protective. #SUPERMUTANT_CLOTHES"
-lang["#SM_SCRAPPOWER_HELMET_DESC"] = "SM Salvaged Scrap Power Armor Helmet." -- NEED DESC
-lang["#SM_ADVANCEDPOWER_HELMET_DESC"] = "SM Advanced Power Armor Helmet." -- NEED DESC
+lang["#SM_SCRAPPOWER_HELMET_DESC"] = "A large assortment of scrap metals, poorly assembled and designed to mimic the power armor worn by the 80s. \n\nProvides surprsing protection, given its poor quality. #SUPERMUTANT_CLOTHES"
+lang["#SM_ADVANCEDPOWER_HELMET_DESC"] = "The magnum opus of the blacksmiths. \n\nThis helmet was remade from scraps, losing most of its capabilities, however, still strikes fear into the wasteland. #SUPERMUTANT_CLOTHES"
 
 --Clothing Desc
 lang["#ARMYFATIGUES_DESC"] = "An olive drab green colored BDU used by the pre=war U.S. Army.\n\nBattle Dress Uniforms, or fatigues, are camouflaged clothing worn by soldiers during combat."
@@ -859,6 +860,9 @@ lang["#MOD_ARMOR_BALLISTIC_SHADOWED_NAME"] = "Ballistics Armor Shadowed Mod"
 lang["#MOD_ARMOR_BALLISTIC_FIBERGLASS_NAME"] = "Ballistics Armor Fiberglass Mod"
 lang["#MOD_ARMOR_BALLISTIC_VAULTSTEEL_SHEET_NAME"] = "Ballistics Armor Vault Steel Sheet Mod"
 
+-- Uparmor Kit
+lang["#MOD_ARMOR_VANGRAFF_UPARMOR_NAME"] = "Van Graff Up-armor Kit"
+
 -- Ballistic Weave
 lang["#MOD_ARMOR_CLOTH_BALLISTICWEAVE_MK1_NAME"] = "Ballistic Weave MK.1 Mod"
 lang["#MOD_ARMOR_CLOTH_BALLISTICWEAVE_MK2_NAME"] = "Ballistic Weave MK.2 Mod"
@@ -881,6 +885,9 @@ lang["#MOD_ARMOR_METAL_SHADOWED_NAME"] = "Metal Armor Shadowed Mod"
 lang["#MOD_ARMOR_METAL_ALLOYED_NAME"] = "Metal Armor Alloyed Mod"
 lang["#MOD_ARMOR_METAL_POLISHED_NAME"] = "Metal Armor Polished Mod"
 lang["#MOD_ARMOR_METAL_VAULTSTEEL_PLATE_NAME"] = "Metal Armor Vault Steel Plate Mod"
+
+-- VAULT SUIT NUMBERS NAME
+lang["#MOD_ARMOR_VAULT_NUMBER_8_NAME"] = "Vault Suit Number 8"
 
 -- PAINT NAME
 lang["#MOD_ENCLAVEPAINT_NAME"] = "Enclave Paintjob"
@@ -985,6 +992,9 @@ lang["#MOD_ARMOR_POWERARMOR_LEAD_PLATE_DESC"] = "Heavy as hell but sure beats th
 lang["#MOD_ARMOR_POWERARMOR_EXPLOSIVE_PLATE_DESC"] = "With enough padding and explosive resistant material you can probably tank any missiles shot at you. Or atleast a few."
 lang["#MOD_ARMOR_POWERARMOR_VAULTSTEEL_PLATE_DESC"] = "The pinnacle of protection in the post-apocalypse. With this much protection you'd think your about to take on an army. Just be careful not scratch the paint."
 
+-- Up Armor
+lang["#MOD_ARMOR_VANGRAFF_UPARMOR_DESC"] = "Van Graff Uparmor Kit" --  NEED DESC
+
 -- Power Armor Frames
 -- Materials
 lang["#MOD_ARMOR_POWERARMORFRAME_MATERIAL_REINFORCED_DESC"] = "Reinforced with steel plates and advanced materials. The extra plating should keep suit from breaking down more at the cost of weighing a bit more."
@@ -1026,6 +1036,9 @@ lang["#MOD_ARMOR_METAL_SHADOWED_DESC"] = "Metal Armor Shadowed Mod." -- NEED DES
 lang["#MOD_ARMOR_METAL_ALLOYED_DESC"] = "Metal Armor Alloyed Mod." -- NEED DESC
 lang["#MOD_ARMOR_METAL_POLISHED_DESC"] = "Metal Armor Polished Mod." -- NEED DESC
 lang["#MOD_ARMOR_METAL_VAULTSTEEL_PLATE_DESC"] = "Metal Armor Vault Steel Plate Mod." -- NEED DESC
+
+-- VAULT SUIT NUMBERS DESC
+lang["#MOD_ARMOR_VAULT_NUMBER_8_DESC"] = "Vault Suit Number 8." -- NEED DESC
 
 -- PAINT DESC
 lang["#MOD_ENCLAVEPAINT_DESC"] = "Enclave Paintjob." -- NEED DESC
