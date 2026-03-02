@@ -200,7 +200,8 @@ For further information, please contact your administrator
 MEMORANDUM FOR RECORD
 04.22.2236
 
-I, Vera Hale, have reached an agreement with Jackson of the Valley Survivalists.
+I, Vera Hale, have reached an agreement with Jackson of the Valley Survivalists
+.
 In our brief correspondence with eachother, he stated quite clearly that they are self-sufficient and that our help is not necessary. However I was able to convince him to atleast let us share some of our knowledge on creation of medicines out of locally sourced plants and animal parts. A caravan of ours has departed to meet with him in person with the help of the Desert Rangers.
 
 Update: On 05.02.2236 I recieved a letter from Jackson that stated he would be interested in furthering our trade relations. He is seeking out specific medications that they cannot get ahold of easily. With his permission he has allowed us a semi-permanant location near the town to help out whenever requested.

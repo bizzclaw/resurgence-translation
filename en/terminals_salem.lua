@@ -288,7 +288,7 @@ And when the last human breath fades into silence, the New Unity shall inherit a
 We are not the end. We are the new beginning.
 			]]},
 		}},
-		{"The Chronicles of the New Unity - Father Gilgamesh's exploration log", {
+		{"The Chronicles of the New Unity", {
 
 			{"Entry One: The Gathering-Log-1", [[
 The bunker I found was a tomb at first, hidden beneath sand and stone, its walls humming faintly with the whispers of machines long asleep. But in it I saw a sanctuary. A Cathedral reborn not in marble, but in steel and shadow.

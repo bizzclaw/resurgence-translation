@@ -41,19 +41,19 @@ lang["#SPC_LCKDESC"] = "One will find that Luck works out situations for them in
 --╚══════╝╚═╝  ╚═╝╚═╝╚══════╝╚══════╝╚══════╝
 
 lang["#SKL_PISTOLS"] = "Gunslinger" -- for skills, no need to keep the english word.
-lang["#SKL_PISTOLSDESC"] = "Accuracy, Condition Rate and Reload Speed of Pistols.\n"
+lang["#SKL_PISTOLSDESC"] = "Accuracy and Reload Speed of Pistols.\n"
 
 lang["#SKL_ASSAULT"] = "Commando"
-lang["#SKL_ASSAULTDESC"] = "Accuracy, Condition Rate and Reload Speed of Automatic and Burst-Fire Weapons.\n"
+lang["#SKL_ASSAULTDESC"] = "Accuracy and Reload Speed of Automatic and Burst-Fire Weapons.\n"
 
 lang["#SKL_RIFLES"] = "Rifleman"
-lang["#SKL_RIFLESDESC"] = "Accuracy, Condition Rate and Reload Speed of Single-Shot, Pump, Lever, and Bolt Action Weapons.\n"
+lang["#SKL_RIFLESDESC"] = "Accuracy and Reload Speed of Single-Shot, Pump, Lever, and Bolt Action Weapons.\n"
     
 lang["#SKL_ENERGY"] = "Energy Weapons"
-lang["#SKL_ENERGYDESC"] = "Accuracy, Condition Rate and Reload Speed of Energy Based Weaponry.\n"
+lang["#SKL_ENERGYDESC"] = "Accuracy and Reload Speed of Energy Based Weaponry.\n"
 
 lang["#SKL_MELEE"] = "Melee Weapons"
-lang["#SKL_MELEEDESC"] = "Affects the Damage and Condition Rate of Melee Weapons.\n"
+lang["#SKL_MELEEDESC"] = "Affects the Damage of Melee Weapons.\n"
 
 lang["#SKL_UNARMED"] = "Unarmed"
 lang["#SKL_UNARMEDDESC"] = "Your combined knowledge of martial arts and hand to hand combat, your unarmed skill affects how well you can fight with your fists.\n"
@@ -416,6 +416,9 @@ lang["#PERK_INTENSETRAINING_DESC"] = "With each rank of the Intense Training per
 
 lang["#PERK_WASTELANDGUIDE_NAME"] = "Wasteland Guide"
 lang["#PERK_WASTELANDGUIDE_DESC"] = "You've survived long enough in the wastes to pass your knowledge on to others.\n\nParty Members near you now gain 25% more experience if their level is 1/2 your own, and 50% more experience if their level is 1/4th your own."
+
+lang["#PERK_STRENGTHINNUMBERS_NAME"] = "Strength in Numbers"
+lang["#PERK_STRENGTHINNUMBERS_DESC"] = "Your leading presence inspires strength in your allies.\n\nWhile you lead a party, you and every member of your party within 50 yards of you gains a buff of 0.25 strength for every nearby member including yourself up up to a maximum of 2 extra strength."
 
 lang["#PERK_DRUNKMECHANIC_NAME"] = "Drunk Mechanic"
 lang["#PERK_DRUNKMECHANIC_DESC"] = "Most people work worse while drunk, but not you!\n\nFor each tier of Drunkeness you have, you gain +5 to your engineering skill, and do not suffer Intelligence or Experience Gain debuffs from alcohol."

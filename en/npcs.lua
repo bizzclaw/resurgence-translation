@@ -268,11 +268,11 @@ lang["#NPC_DESERTRANGER_RANK5"] = "Veteran Warden"
 -- Valley Survivalist
 lang["#NPC_SURVIVALIST"] = "Valley Survivalist"
 lang["#NPC_SURVIVALISTS"] = "Valley Survivalists"
-lang["#NPC_SURVIVALIST_RANK1"] = "Settler"
+lang["#NPC_SURVIVALIST_RANK1"] = "Tribal"
 lang["#NPC_SURVIVALIST_RANK2"] = "Militiaman"
 lang["#NPC_SURVIVALIST_RANK3"] = "Sharpshooter"
-lang["#NPC_SURVIVALIST_RANK4"] = "Valley Deadeye"
-lang["#NPC_SURVIVALIST_RANK5"] = "Frontier-Fighter"
+lang["#NPC_SURVIVALIST_RANK4"] = "Deadeye"
+lang["#NPC_SURVIVALIST_RANK5"] = "Fighter"
 lang["#NPC_SURVIVALIST_BOSS"] = "Militia Captain"
 
 -- Ice Picks
@@ -573,6 +573,7 @@ lang["#NPC_ALIENS"] = "Aliens"
 
 lang["#NPC_ENEMIES"] = "Enemies"
 
+lang["#NPC_CONGREGATION_RANK1"] = "Parishioner"
 
 
 -- ███████╗██╗   ██╗███████╗███╗   ██╗████████╗███████╗
@@ -596,6 +597,7 @@ lang["#EVENT_80S_PAIN_TRAIN_BOSS_BROADCAST"] = "Static crackles on your radio. A
 lang["#EVENT_ROCK_BITER_MARAUDER_BOSS_BROADCAST"] = "Thumping steps trail up and away from the mines..."
 lang["#EVENT_BROTHERHOOD_PATROL_BROADCAST"] = "A radio crackle is heard nearby..."
 lang["#EVENT_CIPHER_PATROL_BROADCAST"] = "An unseen force lurks nearby..."
+lang["#EVENT_ALIEN_PATROL_BROADCAST"] = "An incursion of invaders from beyond has begun..."
 lang["#EVENT_DESERT_RANGER_VET_WARDEN_BROADCAST"] = "Steel badges gleam beneath the blazing sun. A Veteran Warden's on patrol and he has come to pass judgment on the lawless."
 lang["#EVENT_WENDIGO_FLAYEDONE_BOSS_BROADCAST"] = "A piercing wail sounds out from the mines..."
 lang["#EVENT_MIRELURK_KING_BOSS_BROADCAST"] = "As a guttural howl breaks the tranquility of the caves, the once still water feels almost electric."

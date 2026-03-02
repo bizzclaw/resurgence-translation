@@ -59,14 +59,14 @@ lang["#MISSION_YOLLA_MINECLEARING_COMPLETE"] = "Contract completed, take your pi
 
 lang["#MISSION_YOLLA_SURVIVALISTDEATH"] = "Kill the Survivalists"
 lang["#MISSION_YOLLA_SURVIVALISTDEATH_DESC"] = "This is a Salt-Rock Contract. Salt-Rock wants retribution for what they did to him, and wants people aligned with them cleared out, daily. Kill 15 of them, and return."
-lang["#MISSION_YOLLA_SURVIVALISTDEATH_HINT"] = "Kill Valley Survivalists. They can be found around Yolla Bolly, near the lower area of the ammo factory town, the cliffs around the survivalist town, and through the car tunnel towards the barricaded tunnel."
+lang["#MISSION_YOLLA_SURVIVALISTDEATH_HINT"] = "Kill Valley Survivalist. They can be found around Yolla Bolly, near the lower area of the ammo factory town, the cliffs around the survivalist town, and through the car tunnel towards the barricaded tunnel."
 lang["#MISSION_YOLLA_SURVIVALISTDEATH_COMPLETE"] = "Contract completed, take your pick for your cut."
 
 -- After Gadget's thecell_part6, repeat quests every 12 hours
 
 lang["#MISSION_YOLLA_MILITIATARGETING"] = "Target Their Militia"
-lang["#MISSION_YOLLA_MILITIATARGETING_DESC"] = "Gadget wants the survivalist's militia numbers cut down, to filter the fighters from their ranks and have the settlers flee. Kill 3 militia members of the Valley Survivalists and return."
-lang["#MISSION_YOLLA_MILITIATARGETING_HINT"] = "Kill Valley Survivalists Militia Members. They can be found around Yolla Bolly, near the lower area of the ammo factory town, the cliffs around the survivalist town, and through the car tunnel towards the barricaded tunnel."
+lang["#MISSION_YOLLA_MILITIATARGETING_DESC"] = "Gadget wants the survivalist's militia numbers cut down, to filter the fighters from their ranks and have the settlers flee. Kill 3 members of the Valley Survivalist and return."
+lang["#MISSION_YOLLA_MILITIATARGETING_HINT"] = "Kill Valley Survivalist Militia Members. They can be found around Yolla Bolly, near the lower area of the ammo factory town, the cliffs around the Valley Survivalist town, and through the car tunnel towards the barricaded tunnel."
 lang["#MISSION_YOLLA_MILITIATARGETING_COMPLETE"] = "Contract completed, Return in a few hours for another bounty."
 
 lang["#MISSION_YOLLA_GREENEYES"] = "The Green Eyes"

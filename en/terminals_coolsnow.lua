@@ -325,7 +325,8 @@ At this time, the Elder Council does not know of any suits of power armor in com
 The NCR have been known to collaborate with local factions and settlements, adhering to President Tandi's policy of diplomacy. If provoked, however, the NCR are known to strike back with immense force and ferocity. However, the NCR reliance of cooperated with local groups has led them to associate with factions considered less than reputable by the Brotherhood of Steel, such as the Van Graffs and Cipher Company.
 
 As stated before, the NCR maintains a positive relationship with the Brotherhood of Steel.
-The NCR control the area in and around Salt Wells. They also maintain a presence within the Mountain Pass via Camp Willow. Previously, the NCR kept forces in the Yolla Valley, but have since left the region in the hands of the Valley Survivalists and the Desert Rangers.
+The NCR control the area in and around Salt Wells. They also maintain a presence within the Mountain Pass via Camp Willow. Previously, the NCR kept forces in the Yolla Valley, but have since left the region in the hands of the Valley Survivalists
+ and the Desert Rangers.
 Based on our assessments, it is believed the NCR poses a minimal threat to the Brotherhood of Steel due to their history of positive and productive interaction.
 			]]},
 			{"Phoenix Company", [[
@@ -369,7 +370,8 @@ The Brotherhood Prevails
 			]]},
 			{"Rock-Biters", [[
 The Rockbitersare a gang of raiders from the Yolla Valley. They have developed a reputation for tormenting and harassing lone travelers and lightly-protected caravans passing through the region. They claim to desire independence and self-determination, but have chosen to do so at the expense of all neighboring settlements.
-The Rockbiters live in the abandoned mines on the southern end of the Yolla Valley. Their presence greatly chagrins the Valley Survivalists and Desert Rangers, who wish to keep up the flow of free and prosperous trade in the area. However, the heavily entrenched Rockbiters have proven difficult to dislodge from their cavernous fortress.
+The Rockbiters live in the abandoned mines on the southern end of the Yolla Valley. Their presence greatly chagrins the Valley Survivalists
+ and Desert Rangers, who wish to keep up the flow of free and prosperous trade in the area. However, the heavily entrenched Rockbiters have proven difficult to dislodge from their cavernous fortress.
 The Rockbiters seem to have some form of association with the pre-war miners who once lived and worked in the region. Whether they are the descendants of such people, or merely adopted their heritage as a cultural identity, is not entirely known. What few attempts have been made to contact this tribe have only led to conflict.
 This identity they have assumed can be seen through the hierarchy they maintain. Their leader is referred to as the Superintendent and other members hold titles such as Forgemaster or Dust Rat.
 Regarding equipment, the Rockbiters possess a large stockpile of refurbished mining equipment. Among this arsenal are repurposed suits of Excavator Power Armor, some of which they have reinforced with extra plating. They also make use of sealed mining suits and vehicles. Some members have also been seen wearing the makeshift pattern of power armor often seen in possession of other raider clans in the Wasteland. The Rockbiters use any weapons they can find, but have access to a large amount of explosives and explosive weapons.
@@ -414,13 +416,18 @@ Alongside their aforementioned armor, the Shadowed wield a variety of weapons, b
 The Shadowed, much like the Smugglers of the Dead Estuary and the Rejects of the Ashlands, are hostile and aggressive to all other factions. They have no known allies, and act as a third part in the stalemate between the Phoenix Company and the Unity. As such, they are considered hostile to the Brotherhood.
 Caution is advised by the Elder Council when dealing with the Shadowed, as they are considered a modest threat to the Brotherhood. They are no ordinary raiders; and their Outlaws are especially dangerous. Bring plenty of ammo, stimpaks, and some Paladins for extra support.
 			]]},
-			{"Valley Survivalists", [[
-The Valley Survivalists live in the verdant highlands of the Yolla Valley. They are welcoming to all newcomers, and have shown a strong willingness to teach others how to survive and thrive in the wilderness of the Wasteland.
-The goals of the Valley Survivalists seem to be to build a peaceful and prosperous community along the frontier of the NCR's borders. They enjoy a communal lifestyle where each resident works to ensure the whole of the settlement thrives.
+			{"Valley Survivalists"
+			, [[
+The Valley Survivalists
+ live in the verdant highlands of the Yolla Valley. They are welcoming to all newcomers, and have shown a strong willingness to teach others how to survive and thrive in the wilderness of the Wasteland.
+The goals of the Valley Survivalists
+ seem to be to build a peaceful and prosperous community along the frontier of the NCR's borders. They enjoy a communal lifestyle where each resident works to ensure the whole of the settlement thrives.
 The Survivalists have no clear leadership or hierarchy, but the people all seem to follow the will of Jackson, an upstanding and experienced member of the community.
 When the NCR left the Yolla Valley, the Survivalists took up the mantle of ensuring safe and stable trade and traffic flowed through the region. In pursuit of this goal, they have fomented a positive relationship with the Desert Rangers, with each patrolling and policing a section of the Valley.
-In terms of equipment, the Valley Survivalists wield various sets of hunting gear and weapons. The trade within the region grants them access to a large supply of weapons and ammo from locations such as The Boneyard and Lost Hills. However, they appear to prefer simple ballistic weapons, such as the Bushmaster Hunting Rifle, as they are easy to maintain and their ammo is easy to find.
-The Valley Survivalists maintain peaceful ties with the NCR, Desert Rangers, and the Brotherhood of Steel. They have no interest in expanding their influence or territory. They exist as a well-meaning band of frontiersmen who pride themselves on their ability to cooperate and coexist with others. As such, they are considered neutral with the Brotherhood of Steel.
+In terms of equipment, the Valley Survivalists
+ wield various sets of hunting gear and weapons. The trade within the region grants them access to a large supply of weapons and ammo from locations such as The Boneyard and Lost Hills. However, they appear to prefer simple ballistic weapons, such as the Bushmaster Hunting Rifle, as they are easy to maintain and their ammo is easy to find.
+The Valley Survivalists
+ maintain peaceful ties with the NCR, Desert Rangers, and the Brotherhood of Steel. They have no interest in expanding their influence or territory. They exist as a well-meaning band of frontiersmen who pride themselves on their ability to cooperate and coexist with others. As such, they are considered neutral with the Brotherhood of Steel.
 The Elder Council deems the Survivalists to be a minimal threat. They are no match for our technological or intellectual might, nor are they as numerous or organized. They pose no danger to the BOS, but their lack of concrete leadership makes them highly unpredictable.
 			]]},
 			{"Ice-Picks", [[
@@ -908,7 +915,8 @@ Alignment: Followers of the Apocalypse
 
 - Vera migrated from the Boneyard where she worked as a deputy to the minister of trade of the Followers. She was dismissed from this position for unknown reasons.
 
-- Vera is credited as being pivotal negotiator in many trade agreements with neighboring communities, such as the Valley Survivalists (Yolla Bolla), Vault City and even the Brotherhood of Steel (Oregon Chapter). These trade agreements are hailed as a significant factor of Salt Well's prosperity.
+- Vera is credited as being pivotal negotiator in many trade agreements with neighboring communities, such as the Valley Survivalists
+ (Yolla Bolla), Vault City and even the Brotherhood of Steel (Oregon Chapter). These trade agreements are hailed as a significant factor of Salt Well's prosperity.
 			]]},
 			{"Major Redman", [[
 Full name: Frederick Redman

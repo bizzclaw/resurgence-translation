@@ -252,6 +252,7 @@ lang["#ENDBOSSPLASMAGUN_DESC"] = "A monstrous, handheld plasma projector fused d
 --Rifle
 lang["#ASSAULTCARBINE_NAME"] = "Assault Carbine"
 lang["#MARKSMANCARBINE_NAME"] = "Marksman Carbine"
+lang["#PATRIOT_NAME"] = "The Patriot"
 lang["#ANTIMAT_NAME"] = "Anti-Materiel Rifle"
 lang["#BLACKARROW_NAME"] = "Black Arrow"
 lang["#LEVERGUN_NAME"] = "Brush Gun"
@@ -373,6 +374,7 @@ lang["#GAUSS_MINIGUN_NAME"] = "Gauss Minigun"
 lang["#SYRINGER_NAME"] = "Dart Gun"
 --lang["#FARTNADE_NAME"] = "Fart-Nade" -- This shit was so stupid.
 lang["#RAILRIFLE_NAME"] = "Railway Rifle"
+lang["#RAILSHOTGUN_NAME"] = "Railway Shotgun"
 
 --explosive
 lang["#APW_NAME"] = "25mm APW"
@@ -395,7 +397,7 @@ lang["#COWBOYREPEATER_STARTER_DESC"] = "An ancient Cowboy Repeater chambered in 
 lang["#TRAILCARBINE_DESC"] = "A Pre-War reproduction of a now ancient design, chambered for modern ammuniton.\n\nIt's a good thing too, 19th century ammo is hard to come by."
 lang["#DKS_DESC"] = "A DKS-501 sniper rifle, excellent for long range combat.\n\nChambered for .308.\n\nPrimarily seen issued as a contract military weapon; it saw limited use in the commercial market as a high-end, but notoriously fragile, hunting rifle."
 lang["#FAMAS_DESC"] = "A Bullpup service rifle manufactured in France.\n\nChambered for 5.56, this uncommon rifle is easier fed than found. One wonders how it ever made its way stateside."
-lang["#LIBERTY_DESC"] = "A symbol of freedom and resistance.\n\nThis rifle was used by partisans and resistance fighters during the Resource Wars to fight against oppressive regimes."
+lang["#LIBERTY_DESC"] = "A symbol of freedom and resistance.\n\nA heavily customized variant of the battle rifle rechambered in 5.56, this rifle is popular among rebels and freedom fighters.\n\n'Sic semper tyrannis.'"
 lang["#FAL_DESC"] = "A battle rifle produced by the Belgian arms manufacturer Fabrique Nationale de Herstal.\n\nThis rifle has been more widely used by armed forces than any other rifle in history."
 lang["#FNC_DESC"] = "A variant of the battle rifle produced by the Belgian arms manufacturer Fabrique Nationale de Herstal.\n\nThis is a rechambered in 5.56, internally improved, fully-automatic, and slightly more modern variant of the Battle Rifle."
 lang["#HUNTING_DESC"] = "An aged but reliable weapon.\n\nThis rifle has seen better days, but is still effective for long ranged combat.\n\nChambered in .308."
@@ -414,9 +416,9 @@ lang["#VARMINT_DESC"] = "A Pre-War rifle typically used in hunting small game.\n
 lang["#VARMINT_STARTER_DESC"] = "A terribly mistreated varmint rifle chambered in 5.56.\n\nThis gun saw it's share of abuse long before the bombs dropped, and the following years have't been any kinder."
 lang["#MACHINEGUN_DESC"] = "A fully automatic support machinegun.\n\nChambered in 5.56 and sporting a 90 round magazine by default, this is one of the more intimidating Pre-War small arms surviving still today.\n\nUnfortunately, you'll need the combined strength and resources of an army to carry and feed it."
 lang["#HMACHINEGUN_DESC"] ="The T24 Light Machine Gun is a salvaged pre-War prototype based on the German MG 42, originally developed to replace the BAR and M1919A4.\n\nThough the project failed before the Great War, Phoenix Company later revived it using scavenged parts and Blueprints, creating rugged variants prized for their fierce rate of fire and reliability in the wasteland."
-lang["#BAR_DESC"] = "This air-cooled automatic rifle, chambered for .308 caliber rounds, is one of the rarest types of weaponry in the pre-War United States.\n\n The automatic rifle was extensively used by U.S. forces in World War I, World War II, and the Korean War."
+lang["#BAR_DESC"] = "This air-cooled automatic rifle, chambered for .30-06 caliber rounds, is one of the rarest types of weaponry in the pre-War United States.\n\n The automatic rifle was extensively used by U.S. forces in World War I, World War II, and the Korean War."
 lang["#G11_DESC"] = "The HK G11 K2 is one of the most advanced assault rifles created.\n\nIt is capable of firing salvos of caseless 4.7mm which exit the gun before any recoil can even be felt.\n\nDue to complex construction and rare materials, as well as specialized ammo that is difficult to procure, this rifle is exceedingly rare."
-lang["#RANCOR_DESC"] = "This weapon was born from a need of protection against a evolving and unforgiving wasteland.\n\nConstructed using some of the most expensive materials Desert Rangers could find the Rancor Repeater it is capble of firing 14mm a monsterously large handgun catridge designed to takedown monsterously large foes."
+lang["#RANCOR_DESC"] = "This weapon was born from a need of protection against a evolving and unforgiving wasteland.\n\nConstructed using some of the most expensive materials the Desert Rangers could find, the Rancor Repeater is capble of firing 14mm: a monstrously large handgun cartridge designed to take down monstrously large foes."
 lang["#BOZAR_DESC"] = "The ultimate refinement of the sniper's art. Although, somewhat finicky and prone to jamming if not kept scrupulously clean, the big weapon's accuracy more than makes up for its extra maintenance requirements."
 lang["#M1GARAND_DESC"] = "Before plasma rifles and laser weaponry, the M1 Garand was the cutting edge of American firepower. This semi-automatic legend earned its place in history through decades of military service and now it’s found a second life in your hands.\n\nFiring .30-06 from an 8-round en-bloc clip with that unmistakable ping, it’s a symbol of a bygone era one where craftsmanship met firepower head-on. Rugged, reliable, and still deadly."
 lang["#M1903_DESC"] = "Forged in the fires of two World Wars and resurrected for the wastes, the M1903 Springfield is a bolt-action marksman's dream deadly accurate and devastating at range\n\nThis antique beauty earned its stripes in the trenches of Europe and the islands of the Pacific, Chambered in .30-06 the Springfield doesn't spray it speaks, and when it does, heads pop like melons."
@@ -505,6 +507,7 @@ lang["#GAUSS_MINIGUN_DESC"] = "The Gauss minigun is a powerful, automatic ballis
 lang["#SYRINGER_DESC"] = "An improvised, but effective weapon. Fashioned from leftover scrap and Pre-War piping, it was designed in the image of Pre-War ''tranquilizer guns''.\n\nCan be used offensively or as a support weapon, depending on the type of darts chosen by user."
 lang["#FARTNADE_DESC"] = "M-42 Tactical Gastrointestinal Grenade is a handheld capsule fitted to contain Megasharts, small smelly warheads.\nDevastating against all noses."
 lang["#RAILRIFLE_DESC"] = "A highly-powered pneumatic conversion of an industrial nailgun, now able to launch nails at great distances.\n\nOnce devastating for train tracks, now devastating for the NCR and any of their 'allies' wearing Power Armor."
+lang["#RAILSHOTGUN_DESC"] = "A pneumatic cannon made to launch a fistful of nails. The cannon sacrifices the accuracy and penetration of the Railway Rifle for a single devastating blow."
 
 --explosive
 lang["#APW_DESC"] = "The 25mm anti-personnel weapon is a semi-automatic grenade launcher.\n\nDesigned to give a soldier the death-dealing capability of vehicle mounted grenade machineguns in a more portable package."
@@ -512,6 +515,7 @@ lang["#M79_DESC"] = "A single shot, hand-held grenade launcher.\n\nLaunches 40mm
 lang["#SKYBREAKER_DESC"] = "A two shot, hand-held grenade launcher.\n\nLaunches 40mm Grenades.\n\n#WIP_DESC"
 lang["#FATMAN_DESC"] = "M-42 Tactical Nuclear Catapult is a shoulder mounted crossbow fitted to launch Mini-Nukes, small atomic warheads.\nDevastating against all targets, if you can find any ammo for it."
 lang["#MISSILELAUNCHER_DESC"] = "A Shoulder Mounted explosive weapon.\nFires a large projectile that explodes on impact."
-lang["#REDGLARE_DESC"] = "A Fully Automatic shoulder mounted explosive weapon.\nFires a Red Rocket that explodes on impact.\n\n\"And the Rocket's Red Glare... The bombs bursting in air...\"."
+lang["#REDGLARE_DESC"] = "A Fully Automatic shoulder mounted explosive weapon.\nFires a Red Rocket that explodes on impact.\nThe Rockets sacrifice lethal radius for more speed and magazine size. \n\n\"And the Rocket's Red Glare... The bombs bursting in air...\"."
+lang["#CHINALAKE_DESC"] = "A pump action grenade launcher\n\nLaunches 40mm Grenades.\n\nDesigned for special forces, the China Lake was developed as a replacement for the M79. The Rock-Biters are known to have found a large cache of these in Yolla Bolly.\n\nThree grenades in the tube, three times the firepower."
 
 RELOADSCHEMA = true
