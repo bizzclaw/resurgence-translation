@@ -374,7 +374,7 @@ lang["#RAILRIFLE_NAME"] = "Гвоздемёт"
 --explosive
 lang["#APW_NAME"] = "Противопехотный 25-мм гранатомёт"
 lang["#M79_NAME"] = "Гранатомёт с переломным затвором"
-lang["#SKYBREAKER_NAME"] = "Небодробитель"
+lang["#SKYBREAKER_NAME"] = "\"Небесный сокрушитель\""
 lang["#FATMAN_NAME"] = "\"Толстяк\""
 lang["#MISSILELAUNCHER_NAME"] = "Гранатомёт"
 lang["#REDGLARE_NAME"] = "\"Сполох\""
