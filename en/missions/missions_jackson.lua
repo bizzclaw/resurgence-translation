@@ -46,6 +46,11 @@ lang["#MISSION_JACKSON_RETRIBUTION_DESC"] = "We've been noticing a huge increase
 lang["#MISSION_JACKSON_RETRIBUTION_HINT"] = "Eliminate any type of Feral Ghouls on Yolla Bolly. Ghouls can be found throughout the factory town and in several other locations."
 lang["#MISSION_JACKSON_RETRIBUTION_COMPLETE"] = "We'll be safe from them, for now."
 
+lang["#MISSION_JACKSON_THEHUNTRESS"] = "The Huntress"
+lang["#MISSION_JACKSON_THEHUNTRESS_DESC"] = "You've proven capable of dealing with some standard wasteland threats, so I think it's time for you to meet someone. Her name's Aaliyah; she's something of a security chief for the valley and the best shot I've ever seen. You should have a chat with her and see how you can help.\n\nJust be aware; she's still learning English, so please be patient."
+lang["#MISSION_JACKSON_THEHUNTRESS_HINT"] = "Find Aaliyah. She can be found outside the tent by the large bridge on the east side of town."
+lang["#MISSION_JACKSON_THEHUNTRESS_COMPLETE"] = "Oh! Hello! Do Jackson sent you?"
+
 -- T3
 
 lang["#MISSION_JACKSON_THEBUNKER_MATERIEL"] = "The Bunker: Materiel"

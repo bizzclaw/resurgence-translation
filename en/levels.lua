@@ -151,10 +151,10 @@ lang["#PERK_CANNIBAL_NAME"] = "Cannibal"
 lang["#PERK_CANNIBAL_DESC"] = "" -- WIP
 
 lang["#PERK_METALLURGIST_NAME"] = "Metallurgist"
-lang["#PERK_METALLURGIST_DESC"] = "Metallurgist. \n-You've learned how to work with heavy metals effectively." -- NEED DESC
+lang["#PERK_METALLURGIST_DESC"] = "Metallurgist. \n-You've learned how to work with heavy metals effectively. You can craft heavy metal armors and metal plates."
 
 lang["#PERK_CLOTHIER_NAME"] = "Clothier"
-lang["#PERK_CLOTHIER_DESC"] = "Clothier. \n-You've learned how to work with fabrics and leather effectively." -- NEED DESC
+lang["#PERK_CLOTHIER_DESC"] = "Clothier. \n-You've learned how to work with fabrics and leather effectively. You can craft advanced clothing mods and unique backpacks."
 
 lang["#PERK_LONER_NAME"] = "Loner"
 lang["#PERK_LONER_DESC"] = "You work much better when alone. When not in a Faction, Community or Party certain skills are improved."
@@ -241,9 +241,9 @@ lang["#PERK_ANIMAL_FRIEND_LEVEL_2"] = "Most animals will longer be hostile unles
 lang["#PERK_ANIMAL_FRIEND_LEVEL_3"] = "Animals will longer be hostile to the player unless attacked."
 
 lang["#PERK_HYPERTOXICITY_NAME"] = "Hypertoxicity"
-lang["#PERK_HYPERTOXICITY_DESC"] = "Hypertoxicity. \n-You've learned how to work with poisons effectively." -- NEED DESC
-lang["#PERK_HYPERTOXICITY_LEVEL_1"] = "Hypertoxicity. \n-You've learned how to craft advanced poisons." -- NEED DESC
-lang["#PERK_HYPERTOXICITY_LEVEL_2"] = "Hypertoxicity. \n-You've learned how to craft concentrated poisons." -- NEED DESC
+lang["#PERK_HYPERTOXICITY_DESC"] = "Hypertoxicity. \n-You've learned how to work with poisons effectively. You can craft basic poison darts."
+lang["#PERK_HYPERTOXICITY_LEVEL_1"] = "Hypertoxicity. \n-You've learned how to craft advanced poisons. You can craft stronger poison darts."
+lang["#PERK_HYPERTOXICITY_LEVEL_2"] = "Hypertoxicity. \n-You've learned how to craft concentrated poisons. You can craft advanced and concentrated poison darts."
 
 lang["#PERK_WEAPONHANDLING_NAME"] = "Weapon Handling"
 lang["#PERK_WEAPONHANDLING_DESC"] = "Makes all of your weapons easier to use"
@@ -421,7 +421,7 @@ lang["#PERK_STRENGTHINNUMBERS_NAME"] = "Strength in Numbers"
 lang["#PERK_STRENGTHINNUMBERS_DESC"] = "Your leading presence inspires strength in your allies.\n\nWhile you lead a party, you and every member of your party within 50 yards of you gains a buff of 0.25 strength for every nearby member including yourself up up to a maximum of 2 extra strength."
 
 lang["#PERK_DRUNKMECHANIC_NAME"] = "Drunk Mechanic"
-lang["#PERK_DRUNKMECHANIC_DESC"] = "Most people work worse while drunk, but not you!\n\nFor each tier of Drunkeness you have, you gain +5 to your engineering skill, and do not suffer Intelligence or Experience Gain debuffs from alcohol."
+lang["#PERK_DRUNKMECHANIC_DESC"] = "Most people work worse while drunk, but not you!\n\nFor each tier of Drunkeness you have, you gain +5 to your engineering skill, and do not suffer Intelligence debuffs from alcohol."
 
 -- UI
 lang["#PERKREQ_COST"] = "Not Enough Perk Points"

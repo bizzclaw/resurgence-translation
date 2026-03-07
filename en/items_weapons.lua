@@ -120,7 +120,7 @@ lang["#SWITCHBLADE_DESC"] = "The blade of this small knife is held by a spring. 
 lang["#WAKAZASHI_DESC"] = "A short finely crafted knife.\n\nThe tip seems to be designed to pierce armor!"
 lang["#BUMPER_DESC"] = "More of a raw hunk of steel than a weapon, the bumper sword is an extremely heavy and sharp weapon created from the bumper of a car, dealing massive damage."
 lang["#BATON_DESC"] = "A collapsible model law enforcement baton, used by various police departments before the Great War."
-lang["#ALIENBATON_DESC"] = "Alien Shock Baton." -- NEED DESC
+lang["#ALIENBATON_DESC"] = "A shock baton of extraterrestrial origin, better suited for alien hands than human ones.\n\nReminiscent of the human cattle prod, but notably lacking the safety features. Getting hit by this thing would be very, very unpleasant."
 lang["#POWERFIST_DESC"] = "Originally used as pre-War hardware for demolition crews rather than as a weapon.\n\nThe power fist uses a pneumatic battering ram to deliver powerful, medium-speed punches to attackers"
 lang["#CANOPENER_DESC"] = "A special something for those whose uncanned aggression would incite a war over something as trivial as Pre-War beans.\n\nJust track down some of those precious cans and get to bashing, baby!"
 lang["#BEAREROFTHESTANDARD_DESC"] = "Carried at the head of a Brotherhood charge, this reinforced flagpole now serves a more direct purpose. The Brotherhood of Steel insignia hangs from its banner with ash and desert dust, a reminder that symbols can hit just as hard as steel. Some say fighting under the banner steadies the hand and hardens the heart. Others just appreciate a weapon that lets them beat their foes with ideology."
@@ -226,10 +226,10 @@ lang["#FLAMER_DESC"] = "The Flambe model 450 Flamer Varmiter version. Shoots hot
 lang["#SOLARCANNON_DESC"] = "Developed by Posedion Energy before the Great War, the Solar Cannon is a energy weapon that can fire a ball of solar energy using microfusion cells.\n\n It was intended for crowd control but was found to be too unstable."
 
 -- Alien
-lang["#ALIENDISINTEGRATOR_DESC"] = "⏃ ⏃⍜⏃⎎⟒⍀⎎⎍⎍ ⏃⏁⍜⋏⏃⏁⟟☾ ⏃⌇⌇⏁⎍⎍⏁ ⍀⟟⎎⟒, ⌖⎍⏃⍀⏁⋏⟒⟒⎅ ⏁⍜ ⎍⟟⎎⎍⎅⟒⎅ ⏃ ⍑⍜⌇⏁⟟⎍⎍ ⏃⎍⟟⟒⋏.\n\n⊗⎍⍀⏃⍀ ⍙⍜⎍⎅ ⏃⟒ ⏃⍀⍜⎍⎅." -- Aurebesh Star Wars Language
-lang["#ALIENBLASTER_DESC"] = "⏃ ⌇⎍⟟☾⌇ ⎍⏁⏁⟒⎍ ⏃⟟⌇⏁⍜⎍, ☾⍀⟒⏃⏁⟒⎅ ⏁⍜ ⌇⟒⍜⏁ ⏃⎍⟟⟒⋏ ⎎⏃⎍⋏⏃.\n\n⌖⟒'⎍⍀⟒ ⋏⍜⏁ ⏃☽⏁⍜⎍⟒⎍ ⏁⍀⏃⋏⌇⎍⟟⏁⟒⋏☌ ⊑⟟⌇, ⏃⍀⟒ ⎍⍀⟟⍜⎍?" -- Aurebesh Star Wars Language
-lang["#CAPTAINSSIDEARM_DESC"] = "⏁⊑⟟⌇ ⏃⟟⌇⏁⍜⎍, ⋔⏃⋏⍜⎎⎍⎅⍜⍀⍀⎍⏁⟒⎅ ⏃⎍⎅ ⊑⍜ ⊑⟒ ⎍⟒☌⟒⋏⎅⏃⍀⟒⎍ ⏃⎍⟟⟒⋏ ⌇⋏⟟⊑ ⊗⎍⍀⏃, ⏁⍀⏃⎅⍀⟒⎍⎅ ⋔⟟⎍⎍⍜⋏⌇ ⍜⎎ ⎍⟟☌⊑⏁⟟⟒⏃⍀⌇ ⏁⍜ ⊑⟒ ⍀⏃⋏⟒⏁ |Earth|.\n\n⟒⏁ ⍙⏃⌇ ⟒⎎⌇⍜⟒☌⟟⎍⟟⏁⎍⟟⏁⟒⎅ ⎍⌇⟒⎅ ⊑⍜ ⊑⟒ ⏃⎍⟟⟒⋏ ☾⏃⏁⏁⟟⏃⋏⌇.\n\n⋏⍜⍙, ⟟⏁'⌇ ⏁⟟⋔⟒ ⏁⍜ ⋏⏃☾⟒ ⊑⟒ ⊑⎍⋏⏃⋏ ⍀⏃☾⟒ ⏃⟒⋏⎅ ⏁⍜ ⍙⍜⎍⍀ ⍙⟟⌇⌇." -- Aurebesh Star Wars Language
-lang["#ALIENATOMIZER_DESC"] = "Alien Atomizer." -- NEED DESC
+lang["#ALIENDISINTEGRATOR_DESC"] = "⏃ ⏃⍜⏃⎎⟒⍀⎎⎍⎍ ⏃⏁⍜⋏⏃⏁⟟☾ ⏃⌇⌇⏁⎍⎍⏁ ⍀⟟⎎⟒, ⌖⎍⏃⍀⏁⋏⟒⟒⎅ ⏁⍜ ⎍⟟⎎⎍⎅⟒⎅ ⏃ ⍑⍜⌇⏁⟟⎍⎍ ⏃⎍⟟⟒⋏.\n\n⊗⎍⍀⏃⍀ ⍙⍜⎍⎅ ⏃⟒ ⏃⍀⍜⎍⎅." -- Minecraft Enderman language
+lang["#ALIENBLASTER_DESC"] = "⏃ ⌇⎍⟟☾⌇ ⎍⏁⏁⟒⎍ ⏃⟟⌇⏁⍜⎍, ☾⍀⟒⏃⏁⟒⎅ ⏁⍜ ⌇⟒⍜⏁ ⏃⎍⟟⟒⋏ ⎎⏃⎍⋏⏃.\n\n⌖⟒'⎍⍀⟒ ⋏⍜⏁ ⏃☽⏁⍜⎍⟒⎍ ⏁⍀⏃⋏⌇⎍⟟⏁⟒⋏☌ ⊑⟟⌇, ⏃⍀⟒ ⎍⍀⟟⍜⎍?" -- Minecraft Enderman language
+lang["#CAPTAINSSIDEARM_DESC"] = "⏁⊑⟟⌇ ⏃⟟⌇⏁⍜⎍, ⋔⏃⋏⍜⎎⎍⎅⍜⍀⍀⎍⏁⟒⎅ ⏃⎍⎅ ⊑⍜ ⊑⟒ ⎍⟒☌⟒⋏⎅⏃⍀⟒⎍ ⏃⎍⟟⟒⋏ ⌇⋏⟟⊑ ⊗⎍⍀⏃, ⏁⍀⏃⎅⍀⟒⎍⎅ ⋔⟟⎍⎍⍜⋏⌇ ⍜⎎ ⎍⟟☌⊑⏁⟟⟒⏃⍀⌇ ⏁⍜ ⊑⟒ ⍀⏃⋏⟒⏁ |Earth|.\n\n⟒⏁ ⍙⏃⌇ ⟒⎎⌇⍜⟒☌⟟⎍⟟⏁⎍⟟⏁⟒⎅ ⎍⌇⟒⎅ ⊑⍜ ⊑⟒ ⏃⎍⟟⟒⋏ ☾⏃⏁⏁⟟⏃⋏⌇.\n\n⋏⍜⍙, ⟟⏁'⌇ ⏁⟟⋔⟒ ⏁⍜ ⋏⏃☾⟒ ⊑⟒ ⊑⎍⋏⏃⋏ ⍀⏃☾⟒ ⏃⟒⋏⎅ ⏁⍜ ⍙⍜⎍⍀ ⍙⟟⌇⌇." -- Minecraft Enderman language
+lang["#ALIENATOMIZER_DESC"] = "⏃ ⍀⏃⌿⟟⎅ ⎎⟟⍀⟒ ⌿⟟⌇⏁⍜⌰ ⎎⍜⍀ ⏃⌰⟟⟒⋏ ⊑⏃⋏⎅⌇.\n\n⏁⊑⍜⎍☌⊑ ⟟⏁ ⎅⍜⟒⌇⋏'⏁ ⊑⟟⏁ ⏃⌇ ⊑⏃⍀⎅ ⏃⌇ ⏃ ⏚⌰⏃⌇⏁⟒⍀, ⟟⏁ ⎎⟟⍀⟒⌇ ⌇⟟☌⋏⟟⎎⟟☊⏃⋏⏁⌰⊬ ⎎⏃⌇⏁⟒⍀." -- Minecraft Enderman language
 
 lang["#AER9_DESC"] = "The AER9 is a high-tech weapon that emits a concentrated beam of coherent light, with sufficient wattage to do considerable damage.\n\nFar sturdier and more reliable, it's much more commonly found than the models that followed."
 lang["#AEP7_DESC"] = "The AEP7 laser was put into service to replace the N99 as the standard issue sidearm for military forces.\n\nWhile civilian models utilize a laser diode, military models employ a photonic focusing chamber and crystal array, creating a tighter, more destructive beam."
@@ -372,7 +372,7 @@ lang["#VINDICATOR_NAME"] = "Vindicator Minigun"
 lang["#GAUSS_MINIGUN_NAME"] = "Gauss Minigun"
 --other
 lang["#SYRINGER_NAME"] = "Dart Gun"
---lang["#FARTNADE_NAME"] = "Fart-Nade" -- This shit was so stupid.
+--lang["#FARTNADE_NAME"] = "Fart-Nade" -- This shit was so stupid. --yet We have bug bait that drives me insane and that gets to stay D:{
 lang["#RAILRIFLE_NAME"] = "Railway Rifle"
 lang["#RAILSHOTGUN_NAME"] = "Railway Shotgun"
 
@@ -390,8 +390,9 @@ lang["#CHINALAKE_NAME"] = "China Lake"
 --rifle
 lang["#ASSAULTCARBINE_DESC"] = "The assault carbine is a magazine-fed, compact automatic weapon with a high rate of fire and a comparatively low max spread.\n\nChambered in 5mm, this weapon was designed as a lightweight, portable solution for armored infantry.\n\nThe compairably small size of the round however makes it ill suited for anything other than its intended purpose."
 lang["#MARKSMANCARBINE_DESC"] = "A high-end semiautomatic rifle of U.S. origin.\n\nCousin to the Service Rifle, The Marksman Carbine is an improved version using only the best components available.\n\nFaster firing, more durable, and lighter weight to boot!"
+lang["#PATRIOT_DESC"] = "A short, lightweight snub-barreled 5mm carbine, its stock and front sight long gone. Rust edges the steel, and the frame shows the honest wear of years in steady hands scarred, but not diminished. \n\nCarried by countless soldiers, it bears the quiet marks of watch posts and long roads, of service in defense of home and the right to stand free. \n\nIt has stood in defense of homes, of brothers and sisters in arms, of the simple right to stand free. Etched along its side, softened by age but never erased, are the words Sic Transit Gloria. A reminder that glory may fade but service, sacrifice, and the spirit of those who carry it endure."
 lang["#ANTIMAT_DESC"] = "The PGM Hecate II is an extremely powerful Anti-Materiel weapon made to be used against heavily armored military equipment\n\nOne could only imagine what it could do to a Deathclaw."
-lang["#BLACKARROW_DESC"] = "A prototype 12.7 bullpup rifle. The original role of this rifle was to act as a compact and light weight alternative to previous Anti-Material rifles. \n\nDuring the trial phases the weapon showed promise but ultimately failed to meet the D.O.D's required terms for adoption. The design was shelved until some post-war factions found it and started producing it in moderate numbers to serve as a highpower marksmen rifle."-- NEED DESC
+lang["#BLACKARROW_DESC"] = "A prototype 12.7 bullpup rifle. The original role of this rifle was to act as a compact and light weight alternative to previous Anti-Material rifles. \n\nNot native to the United States, this design was born of the Soviet Union. Suitable to closer rangers than more contemporary designs."
 lang["#COWBOYREPEATER_DESC"] = "A Pre-War reproduction of a now ancient design, the Cowboy Repeater.\n\nIt's a good thing too, 19th century ammo is hard to come by."
 lang["#COWBOYREPEATER_STARTER_DESC"] = "An ancient Cowboy Repeater chambered in .38 Special only. Still pretty powerful, could use some cleaning though."
 lang["#TRAILCARBINE_DESC"] = "A Pre-War reproduction of a now ancient design, chambered for modern ammuniton.\n\nIt's a good thing too, 19th century ammo is hard to come by."
@@ -480,10 +481,10 @@ lang["#1911CAV_DESC"] = "An improved version of the classic Colt M1911A1.\n\nWhi
 lang["#DETECTIVEPISTOL_DESC"] = "Long nights.\nHard cases.\nStale ramen from a Protectron.\nThese are the hallmarks of a good Detective.\n\nAnd this detective's friend is ready to help you shut down any rogue RobCo freak."
 lang["#GALVANICTHUNDER_DESC"] = "Funny Ha Ha Do not give out."
 
-lang["#THATGUN_DESC"] = "That Gun." -- NEED DESC
+lang["#THATGUN_DESC"] = "This gun?\n\nNo. That Gun. That Gun is the only one you'll ever need."
 lang["#1911DELTA_DESC"] = "Catalog Variant 5 - Spur hammer with wood grips.\n\n''A true collector's piece.''"
 lang["#93R_DESC"] = "Burst fire machine pistol.\n\n''Dead or alive, you're coming with me.''"
-lang["#ELDERSJUDGEMENT_DESC"] = "Do you see destiny immutable? \n\nDoes fate or dedication keep you bended knee and dutiful? \n\nFeign predestination? \n\nor is zealotry the truth of all?"
+lang["#ELDERSJUDGEMENT_DESC"] = "Do you see destiny immutable? \n\nDoes fate or dedication keep you bended knee and dutiful? \n\nFeign predestination? \n\nOr is zealotry the truth of all?"
 lang["#357POLICE_DESC"] = "A double action revolver chambered for .357 Magnum and .38 special rounds.\n\nAllows one to fire without having to cock the hammer before every shot.\n\nThe cylinder swings open to quickly eject spend rounds and reload."
 lang["#10MMVOLLEY_DESC"] = "A 10mm pistol modified by the 80s Tribe.\n\nModified to dump its entire magazine in one trigger pull. Kicks like a damn mule and can't fit extended mags, but fires very quickly.\n\n''Strike fast, strike hard. -Fire Crotch''"
 --smg
@@ -492,9 +493,9 @@ lang["#10MMSMG_DESC"] = "A higher-end submachine gun chambered in 10mm.\n\nWhile
 lang["#P90_DESC"] = "A personal defense weapon chambered in 4.7mm.\nThis weapon has an extremely generous 50 round mag. Along with a high rate of fire.\n\nThe rounds are not common and must be bought more often than found."
 lang["#TOMMYGUN_DESC"] = "The .45 Auto SMG is a relatively robust gun that offers heavy firepower. Unfortunately, the result is that this gun requires two hands to operate.\n\nAlso, the heavy recoil means that this SMG cannot be used by frail individuals and accuracy will suffer in long-distance engagements."
 lang["#44TOMMY_DESC"] = "\'\'Valentine's day has always been a tradition of love, dating all the way back to the goddamn Roman times.\n\nThen, Al Capone figured out a better use for the day.\n\nGoodbye, my love.\'\'"
-lang["#P90C_DESC"] = "A 10mm PDW otherwise know as the H&K P90c.\n\nPre-War, firearm enthusiasts would find it strange that the logo of Heckler & Koch is on a P90 however that is no longer relevant to them.\n\nDespite being produced in secrecy with stolen designs its not a bad copy."
+lang["#P90C_DESC"] = "A 10mm PDW, otherwise know as the H&K P90c.\n\nPre-War firearm enthusiasts would find it strange that the logo of Heckler & Koch is on a P90 however that is no longer relevant to them.\n\nDespite being produced in secrecy with stolen designs its not a bad copy."
 lang["#ASVAL_DESC"] = "A relic of Soviet engineering, the AS-Val is a fully automatic integrally suppressed assault rifle chambered in 9x39mm subsonic rounds.\n\nOriginally built for covert operations behind enemy lines, its armor-piercing rounds and whisper-silent profile make it a favorite among aspiring wasteland assassins."
-lang["#VSK_DESC"] = "VSK"
+lang["#VSK_DESC"] = "A marksman rifle chambered in the exotic 9x39 cartridge.\n\nDesigned as a companion to other weapons of its provenance, it integreally suppressed and better suited to short to mid-range combat."
 lang["#12.7MMSMG_DESC"] = "12.7mm SMG"
 
 lang["#GREASEGUN_DESC"] = "''I never liked you, Joker.\nI never thought you were funn--''\n\n\nBANG"
