@@ -441,7 +441,7 @@ lang["#MERCENARYARMOR_DESC"] = "Phoenix Company Branded Combat Armor. Meant to b
 lang["#MARINEARMOR_DESC"] = "US military-grade combat armor that was designed to protect key sections of the human body from ballistic trauma. Provides excellent resistance to energy weapons."
 lang["#DESERTRANGER_DESC"] = "A USMC-issued armor boasting a desert camouflage pattern, from the same manufacturer as police riot armor.\n\nMade to be worn with a matching military helmet with built-in gas mask, Desert Rangers commonly pair it with an olive green duster and a pair of worn-out khaki pants."
 lang["#DIVINGSUIT_DESC"] = "The Armored Diving Suit, also known as a standard diving dress, consists of a fully-enclosed canvas diving suit with a spherical helmet, bronze armor plating, and an oxygen tank strapped to the back.\n\nResistant to a wide range of enviromental hazards and enabled one to breathe underwater, but its prohibitive weight and bulk wll slow any wearer considerably."
-lang["#ENCLAVEARMORMK2_DESC"] = "Advanced Power Armor Mark 2." -- NEED DESC
+lang["#ENCLAVEARMORMK2_DESC"] = "A further improvement on Advanced Power Armor Mark I.\n\nThis armor is a prototype and is one of a kind; one of a vanishingly small production model. So new that it isn't technically authorized for field use yet. The latest, the greatest, and the best.\n\nHow can the enemies of America hope to stand against this?"
 lang["#INITIATERECON_DESC"] = "Intended to serve as the under-armor of the T-45d power armor, the recon armor is a vacuum-sealed asbestos jumpsuit covering the entire body. Attached to it is the interface and mounts for the T-45d power armor. Its purpose is twofold: it allows the user to actually operate the armor and protect soft tissue from moving parts inside the suit and heat. Unlike the under armor for the T-51b power armor models, this one is also designed to offer limited protection from anti-personnel weapons."
 lang["#BATTLEARMOR_DESC"] = "A surviving set of the US military's UBAS (Universal Battle Armor System), an arguably ineffective attempt to update their previous style of combat armor. Slim, sleek and stylish,  while leaving some of its predecessor's modularity behind." -- Description by Max the Wanderer
 lang["#VIMESFAMILYTESLA_DESC"] = "A well worn set of Advanced Power Armor retrofitted with Tesla attraction coils, providing excellent protection against energy weapons. This set has seen generations of soldiers in the Vimes family though many battles and wears the scars with pride."
@@ -491,7 +491,7 @@ lang["#SIERRA_DESC"] = "A land of hardened survivors, mutants, and ruthless warl
 lang["#ENCLAVEHAZMAT_DESC"] = "This radiation suit appears to be of unusually high quality.\n\nIt's a bright white with a golden visor. It also bears an insignia with the letter 'E'."
 lang["#SECRETAGENTSUIT_DESC"] = "Complete with interwoven ballistic fibers, flame-retardant silk, and built in persuasion emitters, this suit is perfect for any man with a license to kill.\n\nIt was tailored to your size."
 lang["#EXCAVATORPOWERARMOR_DESC"] = "The EXC-17 model of power armor was adapted from combat into an industrial role to be used with high powered mining equipment. Wearing a full set will grant a massive boost to carry weight."
-lang["#AUGERPOWERARMOR_DESC"] = "Power armor built from the base of excavator, brandishing thicker armor, enhanced load bearing servos and specialist mining scanners, what was originally a prototype from the old world. Is now a real threat to those of the wasteland, and a dream to the prospectors." -- NEED DESC
+lang["#AUGERPOWERARMOR_DESC"] = "Power armor built from the base of excavator, brandishing thicker armor, enhanced load bearing servos and specialist mining scanners, what was originally a prototype from the old world. Is now a real threat to those of the wasteland, and a dream to the prospectors."
 lang["#BLACKCRAWLERPOWERARMOR_DESC"] = "An ominous set of Black Crawler Power Armor, named after a mysterious beast found deep in the Rock Biter's mines, stinging it's victims and stealthily sneaking away.\n\nProvides no stealth bonuses; it's just named that way because it's cool."
 lang["#MARAUDERPOWERARMOR_DESC"] = "A set of Marauder Power Armor, tauted by elite Rock Biters. It's rumored to have held back several cave-ins singlehandedly, allowing miners to escape."
 lang["#CHINESESTEALTHSUIT_DESC"] = "This dark black, form-fitting bodysuit is designed for one thing: Making the operator nigh-invisible.\n\nHarnessing Chinese expertise in stealth technology, the suit contains a man-portable device that generates a modulating field that transmits the reflected light from one side of an object to another."
@@ -620,8 +620,8 @@ lang["#ROADLEATHERS_DESC"] = "Road leathers, consisting of a leather jacket, pan
 lang["#TSHIRTJEANS_DESC"] = "A dirty, tattered white crewneck t-shirt worn with equally damaged blue jeans and tennis shoes.\n\nClothes like these were popular Pre-war during recreational activities. Post-war, finding something this lightweight and covering is a luxury.\n\nLucky You!"
 lang["#TATTEREDRAGS_DESC"] = "A ripped and worn-out outfit you aren't sure was ever really whole to begin with.\n\nWoe to the unlucky outcasts who wear this poor excuse for clothing."
 lang["#VAULTSUIT_DESC"] = "Vault jumpsuits are the regulation clothing carried by the vault dwellers of Vault-Tec vaults.\n\nThey are made of leather, blue with a yellow zipper and the number of the vault is on the back of the suit and on the outside of the collar."
-lang["#SEQUINDRESS_DESC"] = "Sequin Dress." -- NEED DESC
-lang["#FLANNEL_DESC"] = "An flannel shirt, with a pair of jeans."
+lang["#SEQUINDRESS_DESC"] = "A dazzling dress of fine cloth and sequin. Clean, well-made, and looks just as gorgeous as the day it was made."
+lang["#FLANNEL_DESC"] = "A flannel shirt, with a pair of jeans."
 lang["#FLANNEL_DESC_STARTER"] = "An old flannel shirt, with a pair of jeans. Lot's of people new to these parts of the wasteland are seen running around in these. And guess what, it still looks pretty good for its age!\n\n#STARTER_DEFAULT_DISCLAIMER"
 lang["#DRIFTER_DESC"] = "A well-worn outfit put together from assorted pieces of clothing found while scavenging the wastes.\n\nIt kind of reeks, and you think something may have died inside of one of the pockets."
 lang["#SCRIBEOPERATOR_DESC"] = "A protective robe designed to allow for mobile analysis while in the field.\n\nIt features several pouches along the belt to allow for transportation of research material."
@@ -676,15 +676,15 @@ lang["#DEATHCLAWHUNTER_DESC"] = "Scratch and bitemarks weather this armor, at th
 
 -- Backpack Descriptions
 lang["#FANNYPACK_DESC"] = "Really cool backpack used by Wizards."
-lang["#BACKPACK_FIELD_UPPER_DESC"] = "A survivor and a veteran of endless war, the M36 has served in the lines of the second world war and all the way up to the apocalypse. Its rugged, reliable and won’t let you down. Long ago packs like this flew off assembly lines in bulk, onto thousands of soldiers hitting the beaches. Nowadays this very backpack is worth its weight in gold!     "
+lang["#BACKPACK_FIELD_UPPER_DESC"] = "A survivor and a veteran of endless war, the M36 has served in the lines of the second world war and all the way up to the apocalypse. Its rugged, reliable and won’t let you down. Long ago packs like this flew off assembly lines in bulk, onto thousands of soldiers hitting the beaches. Nowadays this very backpack is worth its weight in gold!"
 lang["#BACKPACK_FIELD_LOWER_DESC"] = "An expansion on an already great thing! This military grade utility belt can be worn independently from some other backpacks, allowing you to pick up every piece of trash you would haphazardly put into this poor thing! Violating everything great about it and using it as nothing more than glorified trash can… Its also made of canvas!!!"
 lang["#RUCKSACK_SMALL_DESC"] = "Can't hold a lot. But for what you trade in storage, you trade in speed. Run to your heart's content!"
 lang["#RUCKSACK_LARGE_DESC"] = "Can hold quite a bit. It's already heavy, and you haven't even put anything in it yet!"
-lang["#VAULTTEC_CASE_DESC"] = "Vault-Tec Survival Case." -- NEED DESC
+lang["#VAULTTEC_CASE_DESC"] = "A Vault-Tec approved survival case, suitable for carrying whatever the prospective survivor might need in the apocalypse.\n\nFrom Vault to wasteland, reclaiming civilization one day at a time!"
 lang["#BACKPACK_EIGHTIES_DESC"] = "You're unsure if the tire was repurposed off of a motorcycle, or if it was always intended to stick on the bag.\n\nThe tire makes it look noticably badass regardless."
 lang["#BACKPACK_CAVE_DESC"] = "A backpack you can trust deep underground. All mining related equipment like limestone, raw ore, etc, weighs 20% less."
 lang["#BACKPACK_BOS_RADIO_DESC"] = "A radio backpack utilized by Brotherhood Scribes, Initiates, and anyone who stole one. \n\nReduces energy ammo weight by 40%."
-lang["#BACKPACK_80SROADSIGN_DESC"] = "80s Domebanger's Shield." -- NEED DESC
+lang["#BACKPACK_80SROADSIGN_DESC"] = "A stylish backpack suitable teo the tastes of the 80s Tribe.\n\nIt even comes with its own sign, in case you somehow couldn't make the connection who this was made by."
 lang["#BACKPACK_ENCLAVE_RADIO_DESC"] = "A radio backpack utilized by the Enclave. It fills you with pride, patriotism, and a drive to purge any mutie you see.\n\nReduces energy ammo weight by 50%."
 lang["#BACKPACK_COURIER_DESC"] = "Made for long journeys with ample packages, this bag will never let a prospective courier down. The present on the back isn't addressed to you; it'd be rude to open it!"
 lang["#BACKPACK_PILLAGER_DESC"] = "Grognak might've worn one of these! The skull is seemingly blocking a large hole in the bag; you cannot remove it."
@@ -702,7 +702,7 @@ lang["#BACKPACK_SHELL_DESC"] = "Despite its size, it couldn't defend against a s
 lang["#BACKPACK_SCAVENGER_DESC"] = "Don't tell anyone, but the fire extinguisher attached to this is just for show. Don't try to fight any fires-it'll be really awkward."
 lang["#BACKPACK_EVILJEN_DESC"] = "The source of Evil Jensen's power. You should NOT have this."
 -- SuperMutant Backpack --
-lang["#BACKPACK_TRADER_SM_DESC"] = "SM Trader's Rucksack." -- NEED DESC
+lang["#BACKPACK_TRADER_SM_DESC"] = "A heavy rucksack favored by the more sophisticated mutant.\n\nHas room for all the goods you might need to shuffle around. #SUPERMUTANT_CLOTHES"
 lang["#BACKPACK_SHELL_SM_DESC"] = "The turtle this once belonged to must've been legendary. It's now your responsibility to carry that legend on. #SUPERMUTANT_CLOTHES" 
 lang["#BACKPACK_AMMO_SM_DESC"] = "A Super Mutant's best friend. When you simply want to fire a minigun *that* much longer, this bag has got you covered.\n\nReduces ballistic ammo weight by 10%. #SUPERMUTANT_CLOTHES" 
 lang["#BACKPACK_BOMB_SM_DESC"] = "A remnant of one Super Mutant's dream to go to space. The rocket is completely hollow, though. How would this go to space?\n\nReduces explosive ammo weight by 10%. #SUPERMUTANT_CLOTHES" 
@@ -713,7 +713,7 @@ lang["#BACKPACK_WHEELBARROW_SM_DESC"] = "It's not very comfortable, but it'll ce
 lang["#BACKPACK_BOMBER_SM_DESC"] = "A big bomb with small sacks tied to it. The bomb may be inert, but your enemies don't know that.\n\nReduces the weight of explosive ammo by 5%. #SUPERMUTANT_CLOTHES" 
 lang["#BACKPACK_HOARDER_SM_DESC"] = "Sure, you can be a wrathful Super Mutant. But with this backpack, why not be greedy too? #SUPERMUTANT_CLOTHES" 
 lang["#BACKPACK_TOOLBOX_SM_DESC"] = "This backpack was made to fall into the hands of one smart Super Mutant. It's time to get crafting!\n\nReduces the weight of common crafting resources like scrapmetal and cloth by 10%. #SUPERMUTANT_CLOTHES"
-lang["#BACKPACK_ENERGY_SM_DESC"] = "SM Plasma Reservoir Pack." -- NEED DESC
+lang["#BACKPACK_ENERGY_SM_DESC"] = "Another Super Mutant's best friend. When you simply want to fire a plasma caster *that* much longer, this reservoir has got you covered.\n\nReduces energy ammo weight by 40%. #SUPERMUTANT_CLOTHES"
 
 -- Appended to end of all of the super mutant clothings!
 lang["#SUPERMUTANT_CLOTHES"] = "\n\nThis outfit is in the size of a Super Mutant."
@@ -765,14 +765,14 @@ lang["#TINKERHAT_DESC"] = "A bomber hat with various pieces of junk strapped to 
 lang["#TOPHAT_DESC"] = "A glamorous hat for those of only the finest of temperament."
 lang["#BANDANA_DESC"] = "A dyed and patterened square of cloth folded into a triangle.\nGenerally meant for use in dusty environments to act as a dust mask."
 lang["#CLOTHMASK_DESC"] = "A basic piece of fabric sewn onto elastic bands. Worn over the nose, mouth, and lower face."
-lang["#BREATHINGMASK_DESC"] = "Breathing Mask" -- NEED DESC
+lang["#BREATHINGMASK_DESC"] = "A lightweight respirator, suitable for working in environments with unclean air.\nLess cumbersome than gas masks, yet just about as protective. Respirators of this type were often used to make riot helmets before the war."
 lang["#SACKMASK_DESC"] = "A crude mask popular with bandits.\n\nA thin nylon mesh to keeps sand out of the eyes, with a thicker burlap making up the body."
 lang["#SACKWITHFILTERMASK_DESC"] = "A crude mask popular with bandits.\n\nThe scavenged hose and filter should keep the sand out of your lungs.\n\n''Should''"
 lang["#SACKWITHFILTERMASK2_DESC"] = "A crude mask popular with bandits.\n\nA single goggle lens offers slightly better visability to a terrible piece of headgear."
 lang["#KNIGHTHOOD_DESC"] = "A padded cowl with many metal and electronic ports and plugs."
 lang["#WELDGOGGLES_DESC"] = "A much more portable and stylish alternative to the welding masks used by engineers or anyone exposing themselves to bright flashes of light.\nThe small tinted rounds of glass ensure the user retain their vision after staring into the sun."
-lang["#SLOTGOGGLES_DESC"] = "A pair of slitted or slotted goggles, more than likely an odd  alternative to sunglasses."
-lang["#BATTLEGOGGLES_DESC"] = "Battle Goggles." -- NEED DESC
+lang["#SLOTGOGGLES_DESC"] = "A pair of slitted or slotted goggles, more than likely an odd alternative to sunglasses."
+lang["#BATTLEGOGGLES_DESC"] = "A set of combat goggles. These are of an older generation, predating the polymer-based combat armor popular with the military late in the Resource Wars.\nThey even look good, too."
 lang["#SKIGOGGLES_DESC"] = "A pair of Ski Goggles meant for handling intense winds while maximising the wearer's field of view."
 lang["#GOGGLES_DESC"] = "A pair of tinted goggles for casual wear. They help keep the dust and wind out of the eyes, perfect for long trips in the Wastes."
 lang["#METALGOGGLES_DESC"] = "A pair of metal framed goggles for casual wear. With a sturdy build they help keep the dust and wind out of the eyes, perfect for long trips in the Wastes."
@@ -993,7 +993,7 @@ lang["#MOD_ARMOR_POWERARMOR_EXPLOSIVE_PLATE_DESC"] = "With enough padding and ex
 lang["#MOD_ARMOR_POWERARMOR_VAULTSTEEL_PLATE_DESC"] = "The pinnacle of protection in the post-apocalypse. With this much protection you'd think your about to take on an army. Just be careful not scratch the paint."
 
 -- Up Armor
-lang["#MOD_ARMOR_VANGRAFF_UPARMOR_DESC"] = "Van Graff Uparmor Kit" --  NEED DESC
+lang["#MOD_ARMOR_VANGRAFF_UPARMOR_DESC"] = "A modification for combat armor owned by the Van Graff family.\nWith large stocks of older model combat armor, the Van Graffs decided to retrofit what they had rather than finding the newest and best.\n\nEnhances battle armor's protective properties."
 
 -- Power Armor Frames
 -- Materials
@@ -1008,59 +1008,59 @@ lang["#MOD_ARMOR_POWERARMORFRAME_GEN_HELLFIRE_DESC"] = "Created by some of great
 
 -- MATERIAL DESC
 -- Ballistic
-lang["#MOD_ARMOR_BALLISTIC_POLYMER_DESC"] = "Ballistics Armor Polymer Mod." -- NEED DESC
-lang["#MOD_ARMOR_BALLISTIC_REINFORCED_DESC"] = "Ballistics Armor Reinforced Mod." -- NEED DESC
-lang["#MOD_ARMOR_BALLISTIC_SHADOWED_DESC"] = "Ballistics Armor Shadowed Mod." -- NEED DESC
-lang["#MOD_ARMOR_BALLISTIC_FIBERGLASS_DESC"] = "Ballistics Armor Fiberglass Mod." -- NEED DESC
-lang["#MOD_ARMOR_BALLISTIC_VAULTSTEEL_SHEET_DESC"] = "Ballistics Armor Vault Steel Sheet Mod." -- NEED DESC
+lang["#MOD_ARMOR_BALLISTIC_POLYMER_DESC"] = "Enhanced polymer plates designed to replace older, worn-out ones. These reinforcements are better suited to wasteland threats than those of pre-war polymers."
+lang["#MOD_ARMOR_BALLISTIC_REINFORCED_DESC"] = "A set of add-on reinforcements to be added to existing combat armor. More ballistic material means less pain, right?"
+lang["#MOD_ARMOR_BALLISTIC_SHADOWED_DESC"] = "Chemically treated plates meant to bond to the outward-facing pieces of combat armor. Reinforced with methods learned from the Shadowed and suitable for nighttime operations."
+lang["#MOD_ARMOR_BALLISTIC_FIBERGLASS_DESC"] = "Reinforced fiberglass plates designed to replace older, worn-out ones. Fiberglass is heavier than standard polymers, but it is also more protective."
+lang["#MOD_ARMOR_BALLISTIC_VAULTSTEEL_SHEET_DESC"] = "Ballistic plates enhanced with highly protective Vault Steel, entirely replacing the polymer ones. A post-apocalyptic creation for a post-apocalyptic world."
 
 -- Ballistic Weave
-lang["#MOD_ARMOR_CLOTH_BALLISTICWEAVE_MK1_DESC"] = "Ballistic Weave MK.1 Mod." -- NEED DESC
-lang["#MOD_ARMOR_CLOTH_BALLISTICWEAVE_MK2_DESC"] = "Ballistic Weave MK.2 Mod." -- NEED DESC
-lang["#MOD_ARMOR_CLOTH_BALLISTICWEAVE_MK3_DESC"] = "Ballistic Weave MK.3 Mod." -- NEED DESC
-lang["#MOD_ARMOR_CLOTH_BALLISTICWEAVE_MK4_DESC"] = "Ballistic Weave MK.4 Mod." -- NEED DESC
+lang["#MOD_ARMOR_CLOTH_BALLISTICWEAVE_MK1_DESC"] = "A light ballistic underlayer, created to protect vital organs and not much else. Certainly better than nothing."
+lang["#MOD_ARMOR_CLOTH_BALLISTICWEAVE_MK2_DESC"] = "An improved ballistic underlayer, this time including the sites of major blood vessels. After all, getting shot in an artery is a rough way to go."
+lang["#MOD_ARMOR_CLOTH_BALLISTICWEAVE_MK3_DESC"] = "A reinforced ballistic underlayer encompassing most of the body. Thicker weaves around the chest and neck protect from the most dangerous injuries."
+lang["#MOD_ARMOR_CLOTH_BALLISTICWEAVE_MK4_DESC"] = "A full ballistic underlayer encompassing the entirety of the body. Slightly uncomfortable but protective, this is the most that one could reasonably wear without it being a heavy bodysuit"
 
 -- Leather
-lang["#MOD_ARMOR_LEATHER_BOILED_DESC"] = "Leather Armor Boiled Mod." -- NEED DESC
-lang["#MOD_ARMOR_LEATHER_GRIDED_DESC"] = "Leather Armor Grided Mod." -- NEED DESC
-lang["#MOD_ARMOR_LEATHER_TREATED_DESC"] = "Leather Armor Treated Mod." -- NEED DESC
-lang["#MOD_ARMOR_LEATHER_SHADOWED_DESC"] = "Leather Armor Shadowed Mod." -- NEED DESC
-lang["#MOD_ARMOR_LEATHER_STUDDED_DESC"] = "Leather Armor Studded Mod." -- NEED DESC
-lang["#MOD_ARMOR_LEATHER_GECKO_BACKED_DESC"] = "Leather Armor Gecko-Backed Mod." -- NEED DESC
-lang["#MOD_ARMOR_LEATHER_VAULTSTEEL_FIBER_DESC"] = "Leather Armor Vault Steel Fiber Mod." -- NEED DESC
+lang["#MOD_ARMOR_LEATHER_BOILED_DESC"] = "Boiled leather moldings for armor. They are much more rigid than standard leather, but also more protective and can better hold their shape."
+lang["#MOD_ARMOR_LEATHER_GRIDED_DESC"] = "Metal grids woven into leather armor for extra protection. Armor was made from this stuff for centuries for good reason."
+lang["#MOD_ARMOR_LEATHER_TREATED_DESC"] = "Leather reinforcements treated with a chemical process. Further increases protections, but also weight. It doesn't smell great, either."
+lang["#MOD_ARMOR_LEATHER_SHADOWED_DESC"] = "Special leather padding developed by the Shadowed and dyed black. To survive Salem, they had to get creative."
+lang["#MOD_ARMOR_LEATHER_STUDDED_DESC"] = "A set of treated studs and a ballistic underlayer woven into leather armor. Suitable for deflecting blows of all kinds."
+lang["#MOD_ARMOR_LEATHER_GECKO_BACKED_DESC"] = "Tanned gecko hide layered with ballistic fiber to further increase protection. Traditionally produced and worn by tribals."
+lang["#MOD_ARMOR_LEATHER_VAULTSTEEL_FIBER_DESC"] = "Leather reinforcements laced with Vault Steel fibers to create the ultimate in energy protection."
 
 -- Metal
-lang["#MOD_ARMOR_METAL_PAINTED_DESC"] = "Metal Armor Painted Mod." -- NEED DESC
-lang["#MOD_ARMOR_METAL_ENAMELED_DESC"] = "Metal Armor Enameled Mod." -- NEED DESC
-lang["#MOD_ARMOR_METAL_SHADOWED_DESC"] = "Metal Armor Shadowed Mod." -- NEED DESC
-lang["#MOD_ARMOR_METAL_ALLOYED_DESC"] = "Metal Armor Alloyed Mod." -- NEED DESC
-lang["#MOD_ARMOR_METAL_POLISHED_DESC"] = "Metal Armor Polished Mod." -- NEED DESC
-lang["#MOD_ARMOR_METAL_VAULTSTEEL_PLATE_DESC"] = "Metal Armor Vault Steel Plate Mod." -- NEED DESC
+lang["#MOD_ARMOR_METAL_PAINTED_DESC"] = "Add-on reinforcements lightly coated with a reflective layer. Stops the sun from glinting off your armor."
+lang["#MOD_ARMOR_METAL_ENAMELED_DESC"] = "Add-on reinforcements further treated with a hardened enamel. Meant to help strikes and projectiles glance off the armor rather than directly absorb it."
+lang["#MOD_ARMOR_METAL_SHADOWED_DESC"] = "Metal reinforcements chemically treated by the Shadowed, dyeing the metal a midnight black and increasing its defnesive attributes."
+lang["#MOD_ARMOR_METAL_ALLOYED_DESC"] = "Replacement plates developed of alloyed metal backed with ballistic fiber. Heavier-duty and tougher than standard scrap steel."
+lang["#MOD_ARMOR_METAL_POLISHED_DESC"] = "Replacement plates polished to a mirror finish and coated with a reflective substance. Shine like a post-apocalyptic knight!"
+lang["#MOD_ARMOR_METAL_VAULTSTEEL_PLATE_DESC"] = "Replacement places forged from Vault Steel. This is as close as you'll get to power armor without a frame."
 
 -- VAULT SUIT NUMBERS DESC
-lang["#MOD_ARMOR_VAULT_NUMBER_8_DESC"] = "Vault Suit Number 8." -- NEED DESC
+lang["#MOD_ARMOR_VAULT_NUMBER_8_DESC"] = "A vault suit with the number 8 stitched into the back."
 
 -- PAINT DESC
-lang["#MOD_ENCLAVEPAINT_DESC"] = "Enclave Paintjob." -- NEED DESC
-lang["#MOD_UNITYPAINT_DESC"] = "Unity Paintjob." -- NEED DESC
-lang["#MOD_CIPHERPAINT_DESC"] = "Cipher Paintjob." -- NEED DESC
-lang["#MOD_EIGHTIESPAINT_DESC"] = "80s Paintjob." -- NEED DESC
-lang["#MOD_BOSPAINT_DESC"] = "Brotherhood of Steel Paintjob." -- NEED DESC
-lang["#MOD_MERCENARYPAINT_DESC"] = "Phoenix Company Paintjob." -- NEED DESC
-lang["#MOD_WINTERPAINT_DESC"] = "Winterized Paintjob." -- NEED DESC
-lang["#MOD_DESERTPAINT_DESC"] = "Desert Paintjob." -- NEED DESC
-lang["#MOD_WOODLANDPAINT_DESC"] = "Woodland Paintjob." -- NEED DESC
-lang["#MOD_BLACKPAINT_DESC"] = "Black Paintjob." -- NEED DESC
-lang["#MOD_ATOMICPAINT_DESC"] = "Atomic Paintjob." -- NEED DESC
-lang["#MOD_FORESTRANGERPAINT_DESC"] = "Forest Ranger Paintjob." -- NEED DESC
-lang["#MOD_FORESTPAINT_DESC"] = "Forest Paintjob." -- NEED DESC
-lang["#MOD_CRIMSONPAINT_DESC"] = "Crimson Paintjob." -- NEED DESC
+lang["#MOD_ENCLAVEPAINT_DESC"] = "A coating of deep black with white insignia stencils. Used to mark soldiers of the Enclave."
+lang["#MOD_UNITYPAINT_DESC"] = "A coating featuring radioactive motifs, yellows, and reds. Common among Unity converts."
+lang["#MOD_CIPHERPAINT_DESC"] = "A coating of dark grey paint. Used by Cipher to mark their employees."
+lang["#MOD_EIGHTIESPAINT_DESC"] = "A coating of black, red, orange, and yellow, often painted in the shape of flames. Used by the 80s Tribe to look cool as hell."
+lang["#MOD_BOSPAINT_DESC"] = "A coating of evergreen drab with white insignia stencils. Used to identify the metallic monks of the Brotherhood of Steel."
+lang["#MOD_MERCENARYPAINT_DESC"] = "A coating of grey with red stenciling. Used by Phoenix Company to identify their mercs."
+lang["#MOD_WINTERPAINT_DESC"] = "A coating of white with optional black and light grey stenciling. Used for arctic or boreal environments to not stand out as much."
+lang["#MOD_DESERTPAINT_DESC"] = "A coating of beige or tan. Used for desert or badland environments to not stand out as much."
+lang["#MOD_WOODLANDPAINT_DESC"] = "A coating of various shades of green and brown. Used for forest or grassland environemnts to not stand out as much."
+lang["#MOD_BLACKPAINT_DESC"] = "A coating of midnight black. Preferred among the Shadowed or those who operate in the darkness of night."
+lang["#MOD_ATOMICPAINT_DESC"] = "A coating of a sickly red, green, or yellow. Used by those who revel in the apocalypse."
+lang["#MOD_FORESTRANGERPAINT_DESC"] = "A coating of darker greens and browns. Used by those who call the Yolla Bolly Valley their home."
+lang["#MOD_FORESTPAINT_DESC"] = "A coating of lighter greens and browns. Used by those who prefer spring forests to summer ones."
+lang["#MOD_CRIMSONPAINT_DESC"] = "A coating of crimson red. Used by those who seek to wear the motif of blood."
 
 
 -- OVERCOAT DESC
-lang["#MOD_ARMOR_OVERCOAT_INFUSED_DESC"] = "Overcoat Infused Armor Mod" -- NEED DESC
-lang["#MOD_ARMOR_OVERCOAT_LEAD_LINED_DESC"] = "Overcoat Lead Lined Armor Mod" -- NEED DESC
-lang["#MOD_ARMOR_OVERCOAT_HARDENED_DESC"] = "Overcoat Hardened Armor Mod" -- NEED DESC
+lang["#MOD_ARMOR_OVERCOAT_INFUSED_DESC"] = "An advanced lining suitable for heavy overcoats. Existing lead shielding is enhanced with ballistic polymers and a BioCommMesh lining to offer solid all-around protections."
+lang["#MOD_ARMOR_OVERCOAT_LEAD_LINED_DESC"] = "A basic lining suitable for heavy overcoats. Lead is extruded, woven into sheets, and then shaped into sheets to be woven for additional protection against radiation."
+lang["#MOD_ARMOR_OVERCOAT_HARDENED_DESC"] = "A basic lining suitable for heavy overcoats. Ballistic polymer reinforcements are soldered into the coat at key places, increasing protection from a wide variety of physical threats."
 
 -- CLOTHING MOD DESC
 -- SKILLS

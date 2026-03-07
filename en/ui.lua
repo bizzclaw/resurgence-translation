@@ -524,7 +524,7 @@ lang["#UI_CRAFT"] = "Craft"
 lang["#UI_CRAFT_SELECT_ITEM"] = "Select $item to use:"
 lang["#UI_CRAFT_INVENTORY"] = "[Inventory]"
 lang["#UI_CRAFT_STORAGE"] = "[Storage]"
-lang["#UI_CRAFT_PROTECTED"] = "[Protected]"
+lang["#UI_CRAFT_PROTECTED"] = "[Save Weighted]"
 lang["#SHORT_DCY"] = "DCY" -- Decay (abbreviated)
 
 -- Auto Docs

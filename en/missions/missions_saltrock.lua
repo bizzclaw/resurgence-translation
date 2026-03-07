@@ -43,7 +43,7 @@ lang["#MISSION_SALTROCK_USEFULGECKOS_COMPLETE"] = "There, and there right? Very 
 
 lang["#MISSION_SALTROCK_BEAUTIFULSHINE"] = "That Beautiful Yellow Shine"
 lang["#MISSION_SALTROCK_BEAUTIFULSHINE_DESC"] = "Kid, c'mere. Got a little side job for you, alright? Don't mention what i'm about to say to anyone. There's some friends of mine that need some gold, but our reserves are low. Keeping these people happy is in our best interest, so I need your help. You get me 3 golden bars and I can give you a nice stack of caps, not dollars, caps. I'll even throw in a some of those energy things that we don't use, alright? This might take you a bit, so i'll keep them at bay while you look. Do this, and i'll put in a good word for you with them, alright?"
-lang["#MISSION_SALTROCK_BEAUTIFULSHINE_HINT"] = "Obtain 3 Golden Ingots. They can be found in Safes rarely. This may take some time to complete."
+lang["#MISSION_SALTROCK_BEAUTIFULSHINE_HINT"] = "Obtain a Golden Ingot. They can be found in Safes rarely. This may take some time to complete."
 lang["#MISSION_SALTROCK_BEAUTIFULSHINE_COMPLETE"] = "Amazing. Here's your cut. And uh, they already know your name. Be safe kid."
 
 lang["#MISSION_SALTROCK_OLDEQUIPMENT"] = "Old Equipment, Part 1"
@@ -68,5 +68,17 @@ lang["#MISSION_SALTROCK_OLDEQUIPMENTPART4_DESC"] = "Well, one more thing. They w
 lang["#MISSION_SALTROCK_OLDEQUIPMENTPART4_HINT"] = "Locate the Apricot electronics repair facility and obtain the terminal. It is a 3 story building somewhere in the Ashlands.."
 lang["#MISSION_SALTROCK_OLDEQUIPMENTPART4_COMPLETE"] = "Yes! Absolutely perfect! You've changed everything $playername, fucking beautiful!"
 lang["#MISSION_SALTROCK_OLDEQUIPMENTPART4_ITEMNAME"] = "Apricot Computer Terminal"
+
+-- Repeatables available after Old Equipment Part 4
+
+lang["#MISSION_FIGHT_THE_POWER"] = "Fight The Power"
+lang["#MISSION_FIGHT_THE_POWER_DESC"] = "$playername, got a job for you. The NCR has have been getting a bit uppity. So I think it'd be a good idea to keep them distracted by taking out some of their officers in the Salt Wells area to keep them busy."
+lang["#MISSION_FIGHT_THE_POWER_HINT"] = "Kill 1 NCR Captain, 2 NCR Riot Control Officers, and 5 NCR Lieutenants in the Salt Wells Region."
+lang["#MISSION_FIGHT_THE_POWER_COMPLETE"] = "Haha, good work kid! Those bureaucratic bitches'll be falling over themselves trying to replace those guys."
+
+lang["#MISSION_SALTROCK_HOLDING_THE_PICKET_LINE"] = "Holding the (Picket) Line"
+lang["#MISSION_SALTROCK_HOLDING_THE_PICKET_LINE_DESC"] = "You did good work with those Valley Survivalists, but those Rangers are helping them get back on their feet. It seems like some people never learn not to stick their noses in other people's business. Knock those Desert Rangers down a few pegs for me, would you?"
+lang["#MISSION_SALTROCK_HOLDING_THE_PICKET_LINE_HINT"] = "Kill 15 Desert Rangers"
+lang["#MISSION_SALTROCK_HOLDING_THE_PICKET_LINE_COMPLETE"] = "Wonderful, wonderful. Some people just don't get it."
 
 RELOADSCHEMA = true

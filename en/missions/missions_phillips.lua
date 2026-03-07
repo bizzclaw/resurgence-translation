@@ -28,13 +28,13 @@ lang["#MISSION_PHILLIPS_PATROL_COMPLETE"] = "Well would ya look at that. You mig
 
 lang["#MISSION_PHILLIPS_TECHNICAL"] = "Technical Difficulties"
 lang["#MISSION_PHILLIPS_TECHNICAL_DESC"] = "Hard to miss the giant radio tower outside isn't it? We've been trying to get it kickin' for the past few weeks, but it's missing plenty of parts. We've got news of some old circuit boards laying around in the old government bunker nearby. They're pristine. It's got a catch though, they're only untouched because they're in one of those radioactive silos. If you could get that for us it'd be a great help to get that thing working. I can give ya some Rad-Away afterwards too. Good luck and don't glow too much on the way back."
-lang["#MISSION_PHILLIPS_TECHNICAL_HINT"] = "Find the Circuit Board in the Yolla Bolly Bunker"
+lang["#MISSION_PHILLIPS_TECHNICAL_HINT"] = "Find the Circuit Board in the Yolla Bolly Bunker Silo"
 lang["#MISSION_PHILLIPS_TECHNICAL_COMPLETE"] = "Well you definitely have a bit of a glow to ya but that ain't nothin' a Rad-Away can't fix. Good on ya, that's one more step to us getting back to contacting our boys back home."
 lang["#MISSION_PHILLIPS_TECHNICAL_ITEMNAME"] = "Pristine Circuit Board"
 
 lang["#MISSION_PHILLIPS_STRANGEMAT"] = "Strange Materials"
 lang["#MISSION_PHILLIPS_STRANGEMAT_DESC"] = "You ever seen these strange heavy armored guys that have been landing around trying to tear shit up? Turns out even after we've torn their armor to shit just to kill them some of the plates that they wear are still worth a damn. We wanna see what we can do with them to improve our armor. I trust you with this one. It won't be easy but I can give you some of our gear to make up for it."
-lang["#MISSION_PHILLIPS_STRANGEMAT_HINT"] = "Locate 5 Advanced Materials for the Desert Rangers"
+lang["#MISSION_PHILLIPS_STRANGEMAT_HINT"] = "Locate an Advanced Material for the Desert Rangers"
 lang["#MISSION_PHILLIPS_STRANGEMAT_COMPLETE"] = "Well damn, $playername. We are gonna have to see what we can get going with this."
 
 lang["#MISSION_PHILLIPS_AHEAD"] = "The Road Ahead"
@@ -69,7 +69,7 @@ lang["#MISSION_PHILLIPS_FRONTIER_HINT"] = "Kill Unguem Mortis with the Ranger Se
 lang["#MISSION_PHILLIPS_FRONTIER_COMPLETE"] = "Well I'll be damned. You managed to take that beast out with your ol' six shooter here. Hell of an achievement. Here is your reward, Ranger."
 
 lang["#MISSION_PHILLIPS_PEACEMAKER"] = "Peacemaker"
-lang["#MISSION_PHILLIPS_PEACEMAKER_DESC"] = "Ranger, theres something I've got to tell you. I'm proud of you. You've done well for yourself since you joined the Desert Rnagers. I recall you joining up as a scrawny scavenger, and figured you'd join the dead down in the deeps in short order. However, consider my position changed... You've grown into your role and have more than proven yourself. It's my personal pleasure to announce that HQ has granted your armor an upgrade. Well done, $playername."
+lang["#MISSION_PHILLIPS_PEACEMAKER_DESC"] = "Ranger, theres something I've got to tell you. I'm proud of you. You've done well for yourself since you joined the Desert Rangers. I recall you joining up as a scrawny scavenger, and figured you'd join the dead down in the deeps in short order. However, consider my position changed... You've grown into your role and have more than proven yourself. It's my personal pleasure to announce that HQ has granted your armor an upgrade. Well done, $playername."
 lang["#MISSION_PHILLIPS_PEACEMAKER_HINT"] = "Collect the items necessary to complete the quest Peacemaker."
 lang["#MISSION_PHILLIPS_PEACEMAKER_COMPLETE"] = "Congratulations! You've bled blood, rock, and bullets like only a few before you. You've journeyed far and wide, you've struggled and persevered, and you've now earned your Veteran status. If your looking for more work these is always someone in need."
 
@@ -93,6 +93,17 @@ lang["#MISSION_PHILLIPS_FOODPREP"] = "Food Prep"
 lang["#MISSION_PHILLIPS_FOODPREP_DESC"] = "So I've been looking for a way to help keep morale high for the rest of the crew. They're the ones out rolling around in the mud and fighing the baddies. One of our favorite meals is Deathclaw Wellington. I know what you're thinking. But don't worry, I'll make it worth your time!"
 lang["#MISSION_PHILLIPS_FOODPREP_HINT"] = "Locate Deathclaw eggs and meat."
 lang["#MISSION_PHILLIPS_FOODPREP_COMPLETE"] = "Holy shit you actually did it. The guys will have you in their hearts once they get here for supper. Great job $playername"
+
+-- Repeatables, given after Path of the Ranger are completed.
+lang["#MISSION_PHILLIPS_DRUG_SEIZURE"] = "Drug Seizure"
+lang["#MISSION_PHILLIPS_DRUG_SEIZURE_DESC"] = "You did good work previously clearing up the roads up north, but those drug peddlers in Mountain Pass have been taking advantage of it push their filth down south. I need you to interrupt their schemes and let them know they ain't welcome down south."
+lang["#MISSION_PHILLIPS_DRUG_SEIZURE_HINT"] = "Kill 10 Cipher Agents in the Mountain Pass Region"
+lang["#MISSION_PHILLIPS_DRUG_SEIZURE_COMPLETE"] = "Hopefully that'll show them what happens when they try and expand their \"operations\" towards our home."
+
+lang["#MISSION_PHILLIPS_UNION_BUSTING"] = "Union Busting"
+lang["#MISSION_PHILLIPS_UNION_BUSTING_DESC"] = "Those Rock-Biting bastards have been hitting the Valley Survivalists hard, collecting slaves for trade and their mines. We won't standby and let this happen."
+lang["#MISSION_PHILLIPS_UNION_BUSTING_HINT"] = "Kill 1 Rock-Biter Marauder, 2 Rock-Biter Lodebreakers, and 10 Rock-Biter Foremen."
+lang["#MISSION_PHILLIPS_UNION_BUSTING_COMPLETE"] = "Good shit $playername. Everyone in the valley'll breath a bit easier knowing those bastards're sleeping 6 feet under."
 
 
 RELOADSCHEMA = true
