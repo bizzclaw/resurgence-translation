@@ -243,7 +243,7 @@ lang["#NPC_NCRTROOPER"] = "NCR Trooper"
 lang["#NPC_NCRTROOPERS"] = "NCR Troopers"
 lang["#NPC_NCRSOLDIER"] = "Trooper"
 lang["#NPC_NCRQUARTERMASTER"] = "Quartermaster Hector"
-lang["#NPC_NCRARMORYQUARTERMASTER"] = "Captain Barnes"
+lang["#NPC_NCRARMORYQUARTERMASTER"] = "Lieutenant Barnes"
 lang["#NPC_NCRPATROLRANGER"] = "Patrol Ranger"
 lang["#NPC_NCRHEAVYTROOPER"] = "Heavy Trooper"
 lang["#NPC_NCRHEAVYGUNNER"] = "Heavy Gunner"
@@ -604,3 +604,6 @@ lang["#EVENT_ALIEN_PATROL_BROADCAST"] = "An incursion of invaders from beyond ha
 lang["#EVENT_DESERT_RANGER_VET_WARDEN_BROADCAST"] = "Steel badges gleam beneath the blazing sun. A Veteran Warden's on patrol and he has come to pass judgment on the lawless."
 lang["#EVENT_WENDIGO_FLAYEDONE_BOSS_BROADCAST"] = "A piercing wail sounds out from the mines..."
 lang["#EVENT_MIRELURK_KING_BOSS_BROADCAST"] = "As a guttural howl breaks the tranquility of the caves, the once still water feels almost electric."
+lang["#EVENT_VERTIBIRD_BROADCAST"] = "The sounds of Vertibird blades smacking the air echoes through the region."
+
+RELOADSCHEMA = true
