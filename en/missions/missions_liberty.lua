@@ -26,17 +26,17 @@ lang["#MISSION_LIBERTY_PATRIOTSONS1_COMPLETE"] = "BIOMETRIC PROFILE MATCHED* STA
 --Gather the needed materials to repair the reactor and bring the power back online
 lang["#MISSION_LIBERTY_PATRIOTSONS2"] = "Liberty's Lantern"
 lang["#MISSION_LIBERTY_PATRIOTSONS2_DESC"] = ""
-lang["#MISSION_LIBERTY_PATRIOTSONS2_HINT"] = "Find the require materials to fix the reactor before its too lat."
+lang["#MISSION_LIBERTY_PATRIOTSONS2_HINT"] = "Find the require materials to fix the reactor before its too late."
 lang["#MISSION_LIBERTY_PATRIOTSONS2_COMPLETE"] = ""
 --Get access to the Yola Bolla Missle silo Command room and plant an admin access bug in the command console giving ZAX-77 access to the silos systems
 lang["#MISSION_LIBERTY_PATRIOTSONS3"] = "One Small Step for Man"
 lang["#MISSION_LIBERTY_PATRIOTSONS3_DESC"] = "Your last communication with this odd person left you with little to go off of. The only course of action you have from this point if is to find them and who or what they are. "
-lang["#MISSION_LIBERTY_PATRIOTSONS3_HINT"] = "Take the device provided by ZAX-77 and connect it to the command network in the nearby Silo complex"
+lang["#MISSION_LIBERTY_PATRIOTSONS3_HINT"] = "Take the device provided by ZAX-77 and connect it to the hangar command network in the nearby pre-war silo complex"
 lang["#MISSION_LIBERTY_PATRIOTSONS3_COMPLETE"] = ""
 --Re-activate the Vox Populi System and bring the Zax unit back to working order.
 lang["#MISSION_LIBERTY_PATRIOTSONS4"] = "Whispers of the Founders"
 lang["#MISSION_LIBERTY_PATRIOTSONS4_DESC"] = ""
-lang["#MISSION_LIBERTY_PATRIOTSONS4_HINT"] = ""
+lang["#MISSION_LIBERTY_PATRIOTSONS4_HINT"] = "swd"
 lang["#MISSION_LIBERTY_PATRIOTSONS4_COMPLETE"] = ""
 --Connect Z-76 to the first network node expanding the Vox Populi system
 lang["#MISSION_LIBERTY_PATRIOTSONS5"] = "Flame of Independence Rekindled"
