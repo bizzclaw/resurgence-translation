@@ -7,7 +7,7 @@ HINTS_RARE = 2
 RSRG.Hints[HINTS_COMMON] = {
     "Performing Actions like crafting, scavenging and foraging will award Utility XP which can be put towards Utility Skills and Perks.",
 	"Killing Enemies and completing combat missions will award Combat XP which can be put towards Combat Skills and Perks.",
-	"You can have up to Two Characters.",
+	"You can have up to three characters.",
 	"Increasing your Skill with a weapon will make you Reload Faster and shoot straighter with that type of weapon.",
 	"Your Strength affects your Health, Melee Damage and Carry Weight.",
 	"Your Perception affects your base accuracy, as well as how many Combat Skill Points you gain when leveling up.",
