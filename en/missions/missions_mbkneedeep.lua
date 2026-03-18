@@ -41,3 +41,15 @@ lang["#MISSION_KNEEDEEP_LOOKINGBACKDOOR_DESC"] = "This request is made by a loca
 lang["#MISSION_KNEEDEEP_LOOKINGBACKDOOR_HINT"] = "Look for a sealed wooden crate inside one of the smuggler camps inhabited or abandoned around the area. They are usually delivered by boat or put somewhere fortified, so check around the camp."
 lang["#MISSION_KNEEDEEP_LOOKINGBACKDOOR_COMPLETE"] = "Good work, now take your pick of Alders stock"
 lang["#MISSION_KNEEDEEP_LOOKINGBACKDOOR_ITEMNAME"] = "Sealed Weapons Crate"
+
+lang["#MISSION_HUNT_GATORCLAW_BOSS_EASY"] = "King of the Estuary"
+lang["#MISSION_HUNT_GATORCLAW_BOSS_EASY_DESC"] = "This one's also from me. Old Swampjaw has been terrorizing the estuary for a while now, and I want him gone. He's a big one, so be careful out there. If you can take him down, I'll make it worth your while."
+lang["#MISSION_HUNT_GATORCLAW_BOSS_EASY_HINT"] = "Hunt and kill Swampjaw in the Dead Estuary Region."
+lang["#MISSION_HUNT_GATORCLAW_BOSS_EASY_COMPLETE"] = "You actually got him? Holy moly, I didnt think anyone could do it. Incredible work $playername, take these as your reward."
+
+lang["#MISSION_HUNT_GATORCLAW_BOSS_HARD"] = "An Estuary Legend"
+lang["#MISSION_HUNT_GATORCLAW_BOSS_HARD_DESC"] = "Another from me. If you kill Swampjaw in the traditional estuary way, I have a great reward waiting for you. Use the Brush Gun I gave you before to kill him." 
+lang["#MISSION_HUNT_GATORCLAW_BOSS_BOSS_HARD_HINT"] = "Hunt and kill Swampjaw in the Dead Estuary Region using a Brush Gun."
+lang["#MISSION_HUNT_GATORCLAW_BOSS_HARD_COMPLETE"] = "Reminds me of when I was a younger. I used to hunt gatorclaw all the time. Can't get enough of the taste. You did a great job out there $playername, take your reward."
+
+RELOADSCHEMA = true
