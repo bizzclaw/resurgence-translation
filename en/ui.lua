@@ -713,9 +713,6 @@ lang["#LOOKS_NOSE_BRIDGEDEPTH"] = "Bridge Depth"
 lang["#LOOKS_LIP_UPPERHEIGHT"] = "Upper Lip Height"
 lang["#LOOKS_LIP_LOWERHEIGHT"] = "Lower Lip  Height"
 
-lang["#LOOKS_LIP_UPPERHEIGHT"] = "Upper Lip Height"
-lang["#LOOKS_LIP_LOWERHEIGHT"] = "Lower Lip  Height"
-
 lang["#LOOKS_JAW_FORWARDHEIGHT"] = "Forward Jaw Height"
 lang["#LOOKS_JAW_REARHEIGHT"] = "Rear Jaw Height"
 
@@ -748,8 +745,7 @@ You were born in a Vault-Tec vault; A shelter built before the war where your an
 
 lang["#RACE_GHOUL_DESC"] = [[
 - Increased Intelligence Capacity.
-- Decreased Endurance Capacity.
-- Decreased Charisma Capacity.
+- Decreased Baseline for Endurance and Charisma.
 - Immunity to Radiation; Higher Radiation levels will heal you, and buff your Endurance.
 - All damage you take is increased by 30%, but having 500 rads or more will bring this down to 10%.
 
@@ -859,6 +855,8 @@ lang["#SETTING_PIPSPEED"] = "Pip-Boy Cursor Sensitivity"
 lang["#SETTING_PIPSPEED_DESC"] = "Adjust the sensitivity of the Pip-Boy cursor."
 lang["#SETTING_VIEWBOB"] = "View Bob Scale"
 lang["#SETTING_VIEWBOB_DESC"] = "Adjust the intensity of the view bob effect when moving."
+lang["#SETTING_AUTOSAVEWEIGHT"] = "Auto Save Items"
+lang["#SETTING_AUTOSAVEWEIGHT_DESC"] = "Allow your inventory to Automatically mark items as \"Saved\" When you exit a safe zone so you don't drop them on death. it will prioritize items by value and fill your save weight budget. You can still manually save items from your Pip-Boy."
 lang["#SETTING_SCOPESCALE"] = "Scoped Sensitity Modifier"
 lang["#SETTING_SCOPESCALE_DESC"] = "Adjust the sensitivity of your mouse when aiming down scopes. Lower values mean lower sensitivity."
 lang["#SETTING_MAXCORPSES"] = "Max NPC Corpses"
@@ -913,14 +911,10 @@ lang["#SETTING_LEGS"] = "Show Player Legs in First Person"
 lang["#SETTING_LEGS_DESC"] = "Toggle the visibility of your player model's legs in first person view.\n\nNegligible performance impact."
 lang["#SETTING_SCOPEQUALITY"] = "Scope Render Quality"
 lang["#SETTING_SCOPEQUALITY_DESC"] = "Adjusts the resolution of scope render targets. Higher values improve clarity but may impact performance while aiming scopes."
-
 lang["#SETTING_SPRINTBLUR"] = "Sprint Blur Effect"
-
 lang["#SETTING_SPRINTBLUR_DESC"] = "Adds a Toy-Town like blur effect to the edges of the screen while sprinting.\n\nNo performance Impact."
-
 lang["#SETTING_BLOOM"] = "Bloom Effect"
 lang["#SETTING_BLOOM_DESC"] = "Enables Slight Bloom post-processing effect. The effect is Very slight and mostly used to make icons in the pip-pad a little more vibrant.\n\nNo performance Impact."
-
 lang["#SETTING_COLORCORRECTION"] = "Color Correction"
 lang["#SETTING_COLORCORRECTION_DESC"] = "Enables Subtle Color Correction post-processing effect - mostly used to make certain dark maps lighter and brighter maps darker.\n\nNo performance Impact."
 
@@ -1316,6 +1310,9 @@ lang["#UI_UNMUTE"] = "Unmute"
 lang["#UI_MUTED"] = "Muted $playername"
 lang["#UI_UNMUTED"] = "Unuted $playername"
 
+
+lang["#AUTOSAVEWEIGHT_PROTECTED"] = "$item has been automatically saved."
+lang["#AUTOSAVEWEIGHT_UNPROTECTED"] = "Warning! You will drop $count item(s) on death:\n$items.\n\nSave Items to keep them on Death."
 
 -- Item Description Parts
 lang["#FACTION_SAVE"] = "Can only be Saved by representing the $faction."
