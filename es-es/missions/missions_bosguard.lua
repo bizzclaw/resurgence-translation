@@ -1,4 +1,4 @@
-local lang = RSRG.Languages["en"]
+local lang = RSRG.Languages["es-es"]
 
 -- ██████╗  ██████╗ ███████╗     ██████╗ ██╗   ██╗ █████╗ ██████╗ ██████╗     ███╗   ███╗██╗███████╗███████╗██╗ ██████╗ ███╗   ██╗███████╗
 -- ██╔══██╗██╔═══██╗██╔════╝    ██╔════╝ ██║   ██║██╔══██╗██╔══██╗██╔══██╗    ████╗ ████║██║██╔════╝██╔════╝██║██╔═══██╗████╗  ██║██╔════╝
@@ -7,66 +7,64 @@ local lang = RSRG.Languages["en"]
 -- ██████╔╝╚██████╔╝███████║    ╚██████╔╝╚██████╔╝██║  ██║██║  ██║██████╔╝    ██║ ╚═╝ ██║██║███████║███████║██║╚██████╔╝██║ ╚████║███████║
 -- ╚═════╝  ╚═════╝ ╚══════╝     ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝     ╚═╝     ╚═╝╚═╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
 
--- Mission Giver
-lang["#MISSION_GIVER_BOSGUARD"] = "Paladin Percival"
-lang["#MISSION_GIVER_BOSGUARD_SUBTITLE"] = "Brotherhood Paladin"
-lang["#MISSION_GIVER_BOSGUARD_NEW"] = "Halt, wastelander. By order of Elder Galahad, this station is under the authority of the Brotherhood of Steel. Only those with our authorization may enter. \n\nIf you missed the hint, you are not on that list."
-lang["#MISSION_GIVER_BOSGUARD_N0"] = "Have you come crawling back to us to beg forgiveness, cur? I'd rather shoot you where you stand, but frankly our needs outweigh my beliefs. Here's how you can earn forgiveness."
-lang["#MISSION_GIVER_BOSGUARD_0"] = "Didn't I already tell you to make yourself useful?"
-lang["#MISSION_GIVER_BOSGUARD_25"] = "Alright, you are not totally worthless, but you still have more to do before I permit you access."
-lang["#MISSION_GIVER_BOSGUARD_50"] = "You have sufficiently proven yourself. You may enter the outpost. My brothers and sisters of steel have supplies and additional missions available."
-lang["#MISSION_GIVER_BOSGUARD_100"] = "Well met, $playername. We still have plenty to do if you are looking to prove yourself."
-lang["#MISSION_GIVER_BOSGUARD_GREET_FINISHED"] = "For the Brotherhood."
+-- Repartidor de misiones
+lang["#MISSION_GIVER_BOSGUARD"] = "Paladín Percival"
+lang["#MISSION_GIVER_BOSGUARD_SUBTITLE"] = "Paladín de la Hermandad"
+lang["#MISSION_GIVER_BOSGUARD_NEW"] = "¡Alto, habitante del yermo! Por orden del Anciano Galahad, esta estación está bajo la autoridad de la Hermandad del Acero. Solo aquellos con nuestra autorización pueden entrar.\n\nSi no captaste la indirecta, no estás en esa lista."
+lang["#MISSION_GIVER_BOSGUARD_N0"] = "¿Has vuelto arrastrándote a rogarnos perdón, canalla? Preferiría dispararte donde estás, pero francamente nuestras necesidades superan mis creencias. Así es como puedes ganarte el perdón."
+lang["#MISSION_GIVER_BOSGUARD_0"] = "¿Ya no te dije que te hicieras útil?"
+lang["#MISSION_GIVER_BOSGUARD_25"] = "Bien, no eres totalmente inútil, pero aún tienes que hacer más antes de que te permita el acceso."
+lang["#MISSION_GIVER_BOSGUARD_50"] = "Te has demostrado lo suficiente. Puedes entrar al puesto de avanzada. Mis hermanos y hermanas de acero tienen suministros y misiones adicionales disponibles."
+lang["#MISSION_GIVER_BOSGUARD_100"] = "Bienvenido, $playername. Todavía tenemos mucho que hacer si buscas demostrar tu valía."
+lang["#MISSION_GIVER_BOSGUARD_GREET_FINISHED"] = "Por la Hermandad."
 
+-- Misiones
+lang["#MISSION_BOSGUARD_PROVE"] = "Demuestra tu Valor"
+lang["#MISSION_BOSGUARD_PROVE_DESC"] = "Pensé que me había explicado con claridad; hazte útil o hazte escaso.\n\nEn realidad... espera. Estoy dispuesto a potencialmente dejarte entrar, yermo, pero primero tienes que hacernos útiles. Como puedes o no saber, la Hermandad del Acero recolecta y mantiene valiosa tecnología de antes de la guerra. Nos faltan los planos de una de esas piezas de tecnología y creemos que hemos encontrado su ubicación. Si la recuperas para nosotros, veré lo de darte acceso.\n\nSi no tienes intención de ayudarnos, no te molestes en regresar."
+lang["#MISSION_BOSGUARD_PROVE_HINT"] = "Encuentra los Datos Técnicos. Están almacenados en una holocinta que se encuentra en el segundo nivel de un búnker bajo una gasolinera en las Tierras de Ceniza. El búnker está repleto de Supermutantes, así que no será fácil.\n\nSe recomienda un grupo para abordar el búnker."
+lang["#MISSION_BOSGUARD_PROVE_COMPLETE"] = "No puede ser... realmente lo lograste... quiero decir, ja, sabía que podrías hacerlo... bueno... supongo que puedes ser útil."
+lang["#MISSION_BOSGUARD_PROVE_ITEMNAME"] = "Datos Técnicos"
 
--- Missions
-lang["#MISSION_BOSGUARD_PROVE"] = "Prove your Worth"
-lang["#MISSION_BOSGUARD_PROVE_DESC"] = "I thought I made myself abundantly clear; make yourself useful or make yourself scarce.\n\nActually... stop. I'm willing to potentially let you in, waster, but first you have to make yourself useful to us. As you may or may not be aware, the Brotherhood of Steel collects and maintains valuable pre-war technology. We are missing the blueprints for one such piece of technology and we believe we have found its location. If you retrieve it for us, I will see about getting you access.\n\nIf you have no intention of helping us, do not bother returning."
-lang["#MISSION_BOSGUARD_PROVE_HINT"] = "Find the Technical Data. It's stored on a holotape found at the second level of a bunker under a gas station in the Ashlands. The bunker is crawling with Super Mutants, so this won't be easy.\n\nA group is recommended to tackle the bunker."
-lang["#MISSION_BOSGUARD_PROVE_COMPLETE"] = "No way... you actually made it- I mean, ha, I knew you could do it... well... I suppose you can be useful."
-lang["#MISSION_BOSGUARD_PROVE_ITEMNAME"] = "Technical Data"
+lang["#MISSION_BOSGUARD_ICEPICKS"] = "Masacre de Ice Picks"
+lang["#MISSION_BOSGUARD_ICEPICKS_DESC"] = "Si aún quieres demostrar tu valía, habitante del yermo, tengo otra misión para ti. Cuando llegamos aquí, no esperábamos una resistencia importante de la banda local de asaltantes Picos de Hielo. Debo admitir que los hemos subestimado drásticamente, y a pesar de estar aquí solo unas semanas, ya hemos enviado una docena de buenos hombres y mujeres a Lost Hills en bolsas para cadáveres. Esto no puede seguir así. Se ha autorizado una recompensa por estos demonios; mata a 10 de ellos y serás debidamente compensado."
+lang["#MISSION_BOSGUARD_ICEPICKS_HINT"] = "Elimina 10 Bandidos de los Ice Pick en el Paso de Montaña. Están dispersos por toda la cordillera."
+lang["#MISSION_BOSGUARD_ICEPICKS_COMPLETE"] = "Buen trabajo, habitante del yermo. Aquí tienes tu recompensa."
 
-lang["#MISSION_BOSGUARD_ICEPICKS"] = "Ice Pick Massacre"
-lang["#MISSION_BOSGUARD_ICEPICKS_DESC"] = "If you still want to prove your worth, wastelander, then I have another assignment for you. When we first arrived here, we did not expect major resistance from the local Ice Pick raider gang. I must admit that we have dramatically underestimated them, and despite being here for only a few weeks we have already sent a dozen good men and women to Lost Hills in body bags. This cannot stand. A bounty has been authorized for these fiends; kill 10 of them and you will be duly compensated."
-lang["#MISSION_BOSGUARD_ICEPICKS_HINT"] = "Eliminate 10 Ice Pick Bandits in Mountain Pass. They're scattered throughout the mountain range. "
-lang["#MISSION_BOSGUARD_ICEPICKS_COMPLETE"] = "Good work, wastelander. Here is your just due."
+lang["#MISSION_BOSGUARD_ICEPICKAP"] = "Investigación de Suministros"
+lang["#MISSION_BOSGUARD_ICEPICKAP_DESC"] = "La facilidad con la que los lugareños pueden penetrar la armadura de combate e incluso la servoarmadura es muy perturbadora, $playername. No me gusta, y sé con certeza que salvajes como estos no son capaces de recargar manualmente munición tan compleja. Creo que pueden tener un proveedor externo, ya sea la Caravana Carmesí o algún otro tercero. Registra sus campamentos y fortalezas en busca de algún indicio de conexión y te pagaré."
+lang["#MISSION_BOSGUARD_ICEPICKAP_HINT"] = "Encuentra cualquier información sobre cómo los Picos de Hielo obtienen su munición. Revisa sus bases y campamentos para ver si puedes encontrar alguna evidencia sobre su proveedor de municiones."
+lang["#MISSION_BOSGUARD_ICEPICKAP_COMPLETE"] = "Déjame ver eso. ...Esto no me gusta, forastero. Déjame investigar esto un poco."
+lang["#MISSION_BOSGUARD_ICEPICKAP_ITEMNAME"] = "Caja de Munición"
 
-lang["#MISSION_BOSGUARD_ICEPICKAP"] = "Supply Inquiry"
-lang["#MISSION_BOSGUARD_ICEPICKAP_DESC"] = "The ease with which the locals are able to penetrate combat armor and even power armor is highly disturbing, $playername. I do not like it, and I know for a fact savages like this are not capable of handloading such complex ammunition. I believe that they may have an external supplier, be it the Crimson Caravan or some other third party. Comb their camps and strongholds for any sign of a connection and I will pay you."
-lang["#MISSION_BOSGUARD_ICEPICKAP_HINT"] = "Find any information on how the Ice Picks are getting their ammo. Check their bases and encampments to see if you can find any evidence on their munitions supplier."
-lang["#MISSION_BOSGUARD_ICEPICKAP_COMPLETE"] = "Let me see that. ...I don't like this, wastelander. Let me look into this a bit."
-lang["#MISSION_BOSGUARD_ICEPICKAP_ITEMNAME"] = "Ammo Crate"
+lang["#MISSION_BOSGUARD_ADVANCEDMATS"] = "Materiales Avanzados"
+lang["#MISSION_BOSGUARD_ADVANCEDMATS_DESC"] = "Uno de nuestros mayores cuellos de botella de suministro son los materiales avanzados necesarios para el mantenimiento y la fabricación de armas de energía, servoarmaduras y el mantenimiento del búnker. Mis equipos de suministro están al límite tratando de mantener comida en nuestros estómagos y células en nuestros rifles. Si puedes adquirir, digamos, 2 paquetes de Materiales Avanzados, te pagaré."
+lang["#MISSION_BOSGUARD_ADVANCEDMATS_HINT"] = "Encuentra y recupera 2 Materiales Avanzados. La fuente más confiable de estos es tomarlos de otros enemigos que usan servoarmadura de antes de la guerra."
+lang["#MISSION_BOSGUARD_ADVANCEDMATS_COMPLETE"] = "Gracias. Estos serán muy útiles."
 
-lang["#MISSION_BOSGUARD_ADVANCEDMATS"] = "Advanced Materials"
-lang["#MISSION_BOSGUARD_ADVANCEDMATS_DESC"] = "One of our largest supply bottlenecks is that for advanced materials required for the maintenance and fabrication of energy weapons, power armor, and maintenance of the bunker. My supply teams are stretched thin as it is trying to keep food in our bellies and cells in our rifles. If you can acquire, say, 5 Advanced Materials packages, I will pay you."
-lang["#MISSION_BOSGUARD_ADVANCEDMATS_HINT"] = "Find and retrieve 2 Advanced Materials. The most reliable source of these is by taking them from other enemies that use pre-war Power Armor."
-lang["#MISSION_BOSGUARD_ADVANCEDMATS_COMPLETE"] = "Thank you. These will be very useful."
+lang["#MISSION_BOSGUARD_FOODSUPPLIES"] = "Suministros de Comida"
+lang["#MISSION_BOSGUARD_FOODSUPPLIES_DESC"] = "A pesar del flujo constante de reabastecimiento de nuestros equipos de saqueo, todavía estamos escasos en varias áreas. La munición y el combustible podemos racionarlos eficazmente; la comida no. Te pido que caces algo de la fauna local para obtener su carne o encuentres otra forma de abastecernos. Serás compensado."
+lang["#MISSION_BOSGUARD_FOODSUPPLIES_HINT"] = "Consigue y recupera la carne requerida. Se puede comprar a comerciantes o cazar de la fauna local del paso de montaña."
+lang["#MISSION_BOSGUARD_FOODSUPPLIES_COMPLETE"] = "Eres un salvavidas, $playername."
 
-lang["#MISSION_BOSGUARD_FOODSUPPLIES"] = "Food Supplies"
-lang["#MISSION_BOSGUARD_FOODSUPPLIES_DESC"] = "Despite the constant flow of resupplies from our scavenger teams, we are still falling short in a number of areas. Ammunition and fuel we can effectively ration; food we cannot. I ask that you hunt some of the local wildlife for their meat or find some other means to supply us. You will be compensated."
-lang["#MISSION_BOSGUARD_FOODSUPPLIES_HINT"] = "Source and retrieve the required meat. It can be bought from merchants or hunted from the local wildlife of the mountain pass."
-lang["#MISSION_BOSGUARD_FOODSUPPLIES_COMPLETE"] = "You are a lifesaver, $playername."
+lang["#MISSION_BOSGUARD_SPECIALSAMPLE"] = "Muestra Especial"
+lang["#MISSION_BOSGUARD_SPECIALSAMPLE_DESC"] = "Los escribas nos han hablado de un tipo especial de planta con hojas afiladas tan rojas como la sangre. Hemos visto tales muestras más al norte, pero nuestro Escriba Jefe cree que los prístinos manantiales de montaña de aquí son capaces de cultivar muestras más grandes y puras. Recupera una muestra para mí."
+lang["#MISSION_BOSGUARD_SPECIALSAMPLE_HINT"] = "Consigue y recupera una muestra de Hoja de Sangre. Se puede encontrar creciendo alrededor del borde del lago en el Paso de Montaña."
+lang["#MISSION_BOSGUARD_SPECIALSAMPLE_COMPLETE"] = "Déjame ver eso. Sí... veo una diferencia con esta en comparación con las demás. Buen trabajo."
 
-lang["#MISSION_BOSGUARD_SPECIALSAMPLE"] = "Special Sample"
-lang["#MISSION_BOSGUARD_SPECIALSAMPLE_DESC"] = "The scribes have told us of a special kind of plant with sharp leaves as red as blood. We have seen such samples further north, but our Head Scribe believes that the pristine mountain springs up here are capable of growing larger, more pure samples. Retrieve such a sample for me."
-lang["#MISSION_BOSGUARD_SPECIALSAMPLE_HINT"] = "Source and retrieve a sample of Bloodleaf. It can be found growing around the edge of the lake in Mountain Pass."
-lang["#MISSION_BOSGUARD_SPECIALSAMPLE_COMPLETE"] = "Let me see that. Yes... I do see a difference with this one as opposed to the others. Good work."
+lang["#MISSION_BOSGUARD_ELECTRONICS"] = "Suministro Electrónico"
+lang["#MISSION_BOSGUARD_ELECTRONICS_DESC"] = "El mantenimiento del equipo de telecomunicaciones aquí requiere circuitos que son difíciles de adquirir en esta región. Si puedes traerme suficientes unidades para mantener la estación por un tiempo, te pagaré."
+lang["#MISSION_BOSGUARD_ELECTRONICS_HINT"] = "Consigue y recupera Electrónica de Desecho. Se puede encontrar en cajas de metal, comúnmente en ruinas corporativas o industriales."
+lang["#MISSION_BOSGUARD_ELECTRONICS_COMPLETE"] = "Una vez más, sigues demostrando tu valía. Esto nos mantendrá en línea durante... semanas, al menos."
 
-lang["#MISSION_BOSGUARD_ELECTRONICS"] = "Electronic Supply"
-lang["#MISSION_BOSGUARD_ELECTRONICS_DESC"] = "The maintenance of the telecommunications equipment here requires circuitry that is difficult to acquire in this region. If you can bring me enough units to maintain the station for a while, I will pay you."
-lang["#MISSION_BOSGUARD_ELECTRONICS_HINT"] = "Source and retrieve Scrap Electronics. They can be found in metal boxes, commonly found in corporate or industrial ruins."
-lang["#MISSION_BOSGUARD_ELECTRONICS_COMPLETE"] = "Yet again you continue to prove your worth. This will keep us online for... weeks, at least."
+lang["#MISSION_BOSGUARD_GHOULWOES"] = "Problemas de Necrófagos"
+lang["#MISSION_BOSGUARD_GHOULWOES_DESC"] = "Esta región tiene una concentración inusual de necrófagos, incluso en comparación con las Tierras de Ceniza y las Montañas Yolla Bolly al sur. A decir verdad, estamos teniendo dificultades para contenerlos a todos y estamos dispuestos a autorizar ciertas recompensas por la participación en su eliminación. ¿Estás listo?"
+lang["#MISSION_BOSGUARD_GHOULWOES_HINT"] = "Encuentra y mata Necrófagos Salvajes en el Paso de Montaña. Los necrófagos suelen deambular por las carreteras."
+lang["#MISSION_BOSGUARD_GHOULWOES_COMPLETE"] = "Trabajo limpio otra vez. Aquí está tu recompensa."
 
-lang["#MISSION_BOSGUARD_GHOULWOES"] = "Ghoul Woes"
-lang["#MISSION_BOSGUARD_GHOULWOES_DESC"] = "This region has an unusual concentration of ghouls, even compared to the Ashlands and the Yolla Bolly Mountains to the south. Truth be told, we are having difficulty containing them all and are willing to authorize certain rewards for participation in their elimination. Are you up to it?"
-lang["#MISSION_BOSGUARD_GHOULWOES_HINT"] = "Find and Kill Feral Ghouls in Mountain Pass. Ghouls typically roam the roads."
-lang["#MISSION_BOSGUARD_GHOULWOES_COMPLETE"] = "Clean work again. Here's your reward."
-
-lang["#MISSION_BOSGUARD_SUPPLYRUN"] = "Package Retreival"
-lang["#MISSION_BOSGUARD_SUPPLYRUN_DESC"] = "I have another mission for you, $playername. It is a trifle, really, but trusted couriers are in short supply.\n\nWe have ordered certain specialist materials from the Crimson Caravan that are waiting at Camp Willow for pickup. I will not trust a fresh-faced initiate with this task, for they are too vital to be lost or sold. The burden of this task falls to you; are you willing?"
-lang["#MISSION_BOSGUARD_SUPPLYRUN_HINT"] = "Source and retrieve the Specialist Supplies from Camp Willow. They can be found in the store."
-lang["#MISSION_BOSGUARD_SUPPLYRUN_COMPLETE"] = "I was afraid that you would not come back. I am full glad to see that I was mistaken. Here is your courier's fee."
-lang["#MISSION_BOSGUARD_SUPPLYRUN_ITEMNAME"] = "Specialist Supplies"
-
+lang["#MISSION_BOSGUARD_SUPPLYRUN"] = "Recuperación de Paquete"
+lang["#MISSION_BOSGUARD_SUPPLYRUN_DESC"] = "Tengo otra misión para ti, $playername. Es una nimiedad, la verdad, pero los mensajeros de confianza escasean.\n\nHemos pedido ciertos materiales especializados a la Caravana Carmesí que están esperando en Campamento Willow para ser recogidos. No confiaré esta tarea a un iniciado novato, ya que son demasiado vitales para perderse o venderse. La carga de esta tarea recae en ti; ¿estás dispuesto?"
+lang["#MISSION_BOSGUARD_SUPPLYRUN_HINT"] = "Consigue y recupera los Suministros Especializados del Campamento Willow. Se pueden encontrar en la tienda."
+lang["#MISSION_BOSGUARD_SUPPLYRUN_COMPLETE"] = "Temía que no regresaras. Me alegra ver que me equivoqué. Aquí está tu tarifa de mensajero."
+lang["#MISSION_BOSGUARD_SUPPLYRUN_ITEMNAME"] = "Suministros Especializados"
 
 RELOADSCHEMA = true

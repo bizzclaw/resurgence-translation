@@ -1,46 +1,45 @@
-local lang = RSRG.Languages["en"]
+local lang = RSRG.Languages["es-es"]
 
--- ███╗   ███╗ █████╗ ██╗   ██╗███████╗██████╗ ██╗ ██████╗██╗  ██╗
--- ████╗ ████║██╔══██╗██║   ██║██╔════╝██╔══██╗██║██╔════╝██║ ██╔╝
--- ██╔████╔██║███████║██║   ██║█████╗  ██████╔╝██║██║     █████╔╝
--- ██║╚██╔╝██║██╔══██║╚██╗ ██╔╝██╔══╝  ██╔══██╗██║██║     ██╔═██╗
--- ██║ ╚═╝ ██║██║  ██║ ╚████╔╝ ███████╗██║  ██║██║╚██████╗██║  ██╗
--- ╚═╝     ╚═╝╚═╝  ╚═╝  ╚═══╝  ╚══════╝╚═╝  ╚═╝╚═╝ ╚═════╝╚═╝  ╚═╝
+-- ██╗ ██████╗ ██╗  ██╗███████╗ ██████╗ ███╗   ██╗███████╗
+-- ██║██╔═══██╗██║  ██║██╔════╝██╔═══██╗████╗  ██║██╔════╝
+-- ██║██║   ██║███████║███████╗██║   ██║██╔██╗ ██║███████╗
+-- ██║██║   ██║██╔══██║╚════██║██║   ██║██║╚██╗██║╚════██║
+-- ██║╚██████╔╝██║  ██║███████║╚██████╔╝██║ ╚████║███████║
+-- ╚═╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
 
+-- Repartidor de misiones
+lang["#MISSION_GIVER_MAVERICK"] = "Capitán Mercenario Maverick"
+lang["#MISSION_GIVER_MAVERICK_SUBTITLE"] = "Capitán Mercenario de Caravanas Cascade"
+lang["#MISSION_GIVER_MAVERICK_GREET_NEW"] = "Hola, habitante del yermo, ¿buscas trabajo? Tengo mucho que hacer aquí y no tengo suficiente personal."
+lang["#MISSION_GIVER_MAVERICK_GREET_0"] = "Hola, ¿buscas trabajo? Este infierno no tiene escasez de trabajos."
+lang["#MISSION_GIVER_MAVERICK_GREET_100"] = "¿Cómo te trata Salem, $playername? Sé que trata a mis hombres como mierda. Aquí están los trabajos disponibles."
+lang["#MISSION_GIVER_MAVERICK_GREET_200"] = "¡Mira quién está aquí, $playername! Bien podrías ser un Mercenario. Aquí están los trabajos disponibles."
+lang["#MISSION_GIVER_MAVERICK_GREET_400"] = "$playername, ¡me alegra ver que aún no estás en una zanja! Deberías unirte a mi equipo, te pagaremos bien. ¿No? Bueno, aquí están los trabajos disponibles."
+lang["#MISSION_GIVER_MAVERICK_GREET_N100"] = "¿Qué demonios haces aquí? ¿Quieres un trabajo? Elige uno y vete."
 
--- Mission Giver
-lang["#MISSION_GIVER_MAVERICK"] = "Mercenary Captain Maverick"
-lang["#MISSION_GIVER_MAVERICK_SUBTITLE"] = "Cascade Caravan Mercenary Captain"
-lang["#MISSION_GIVER_MAVERICK_GREET_NEW"] = "Hey there wastelander, looking for a job? I got a lot to do here and not enough manpower."
-lang["#MISSION_GIVER_MAVERICK_GREET_0"] = "Hey there, looking for work? This hell hole has no shortage of jobs."
-lang["#MISSION_GIVER_MAVERICK_GREET_100"] = "Hows Salem treating ya $playername!? I know it's treating my men like shit. Here are the jobs avalible."
-lang["#MISSION_GIVER_MAVERICK_GREET_200"] = "Well lookie here, $playername! You might as well be a Mercenary. Here are the jobs avalible."
-lang["#MISSION_GIVER_MAVERICK_GREET_400"] = "$playername! Glad to see you're not in a ditch yet! You really should join my team, we'll pay ya nicely! No? Well here are the avalible jobs."
-lang["#MISSION_GIVER_MAVERICK_GREET_N100"] = "What the fuck are you doing here? Want a job? Pick one and get out."
+--- Misiones
 
----Missions
+lang["#MISSION_MAVERICK_ANTENNAREPAIR_NAME"] = "Reparación de Antena"
+lang["#MISSION_MAVERICK_ANTENNAREPAIR_DESC"] = "Hay una vieja antena de radio que se está averiando. Sigo perdiendo contacto con los equipos en misiones, así que probablemente necesite piezas de repuesto. ¿Te importaría ir a echarle un vistazo?"
+lang["#MISSION_MAVERICK_ANTENNAREPAIR_HINT"] = "Repara la Antena de Radio en las Ruinas de Salem. Sigue recto por la calle detrás de mí y gira a la izquierda después de pasar la iglesia. Puede que se necesite un buen conocimiento de ingeniería o un gran suministro de piezas de repuesto."
 
-lang["#MISSION_MAVERICK_ANTENNAREPAIR_NAME"] = "Antenna Repair"
-lang["#MISSION_MAVERICK_ANTENNAREPAIR_DESC"] = "There's an old radio antenna that's breaking down. I keep losing contact with teams out on missions, so it probably needs replacement parts. Mind getting out too it and having a look?"
-lang["#MISSION_MAVERICK_ANTENNAREPAIR_HINT"] = "Repair the Radio Antenna in the Salem Ruins. Head straight down the street behind me and make a left after passing the church. A good knowledge of engineering or large supply of replacement parts may be needed."
+lang["#MISSION_MAVERICK_ANTENNAREPAIR_INTERACT"] = "Al abrir el interruptor de circuito conectado a la Antena, puedes ver que algo no está bien, ya que sale humo de los componentes internos corroídos. Sopesas tus opciones sobre cómo arreglar este desastre."
 
-lang["#MISSION_MAVERICK_ANTENNAREPAIR_INTERACT"] = "As you open the circuit breaker attached to the Antenna, you can tell something is not right as smoke is wafting from the corroded internal components. You weigh your options on how to fix this mess."
+lang["#MISSION_MAVERICK_ANTENNAREPAIR_OPTION1_NAME"] = "Reparar las piezas existentes."
+lang["#MISSION_MAVERICK_ANTENNAREPAIR_OPTION1_TEXT"] = "Parece que el acoplamiento de energía se está desgastando y apenas funciona, sin embargo, después de mirar de cerca, te das cuenta de que es fácil de arreglar con una llave inglesa."
+lang["#MISSION_MAVERICK_ANTENNAREPAIR_OPTION1_COMPLETE"] = "Usando nada más que tu práctica llave inglesa, arreglas fácilmente la Antena."
 
-lang["#MISSION_MAVERICK_ANTENNAREPAIR_OPTION1_NAME"] = "Repair the existing Parts."
-lang["#MISSION_MAVERICK_ANTENNAREPAIR_OPTION1_TEXT"] = "It looks like the power coupling is wearing down and barely working, however, after looking closely, you realize it's an easy fix with a wrench."
-lang["#MISSION_MAVERICK_ANTENNAREPAIR_OPTION1_COMPLETE"] = "Using nothing but your handy wrench, You easily fix the Antenna."
+lang["#MISSION_MAVERICK_ANTENNAREPAIR_OPTION2_NAME"] = "Reemplazar las piezas desgastadas."
+lang["#MISSION_MAVERICK_ANTENNAREPAIR_OPTION2_TEXT"] = "Es difícil saber exactamente cuál es el problema, pero crees que si reemplazas algunas de las piezas más desgastadas, podrías hacer que vuelva a funcionar."
+lang["#MISSION_MAVERICK_ANTENNAREPAIR_OPTION2_COMPLETE"] = "Reemplazas las piezas desgastadas por otras nuevas y... ¡Éxito! La Antena canta de nuevo."
 
-lang["#MISSION_MAVERICK_ANTENNAREPAIR_OPTION1_NAME"] = "Replace the worn out parts."
-lang["#MISSION_MAVERICK_ANTENNAREPAIR_OPTION2_TEXT"] = "It's hard to tell exactly what the problem is, but you figure if you replace some of the more worn parts, you might be able to get it working again."
-lang["#MISSION_MAVERICK_ANTENNAREPAIR_OPTION2_COMPLETE"] = "You replace the worn down parts with newer ones and... Success! The Antenna sings to life."
+lang["#MISSION_MAVERICK_ANTENNAREPAIR_OPTION3_NAME"] = "¡Reemplazar todo!"
+lang["#MISSION_MAVERICK_ANTENNAREPAIR_OPTION3_TEXT"] = "La maraña de cables y circuitos no tiene sentido para ti. Lo único que se te ocurre es reemplazar cada pieza por algo que parezca similar."
+lang["#MISSION_MAVERICK_ANTENNAREPAIR_OPTION3_COMPLETE"] = "Después de intercambiar piezas al azar, y de intentar y fallar múltiples veces, pateas la Antena por la frustración. Por algún milagro, comienza a funcionar."
 
-lang["#MISSION_MAVERICK_ANTENNAREPAIR_OPTION3_NAME"] = "Replace Everything!"
-lang["#MISSION_MAVERICK_ANTENNAREPAIR_OPTION3_TEXT"] = "The Tangle of wires and circuitry makes no sense to you. The only thing you can think to do is replace every part with something that looks simmilar."
-lang["#MISSION_MAVERICK_ANTENNAREPAIR_OPTION3_COMPLETE"] = "After swapping random parts, and trying and failing multiple times, you kick the Antenna in frustration. By some Miracle It starts working."
+lang["#MISSION_MAVERICK_SETTINGUP"] = "Preparándose, energía."
+lang["#MISSION_MAVERICK_SETTINGUP_DESC"] = "Pareces capaz, más que los demás por aquí. Aquí está lo breve y conciso: toda esta ciudad se ha ido a la mierda. Los Sombríos están por todas partes, los mutantes intentan secuestrar a la gente por alguna maldita razón, y la policía se volvió a activar. Llegaste en una situación difícil.\n\n\nAsí que, si eres un mercenario, tengo algo de trabajo. Sé que hay una central eléctrica hacia la izquierda de aquí en algún lugar, pero no puedo prescindir de personal. Necesito que vayas allí y explores, dime en qué estado está el lugar, ¿vale, artillero?"
+lang["#MISSION_MAVERICK_SETTINGUP_HINT"] = "Encuentra la Central Eléctrica de Salem. Maverick dijo que estaba a la izquierda del campamento en algún lugar."
+lang["#MISSION_MAVERICK_SETTINGUP_COMPLETE"] = "¿Destrozada? ¿Saqueda por todo lo que valía? Malditos sombríos."
 
-lang["#MISSION_MAVERICK_SETTINGUP"] = "Getting set up, power."
-lang["#MISSION_MAVERICK_SETTINGUP_DESC"] = "You seem capable, moreso than the others around here. Here's the short and sweet, this entire city has gone to shit. Shadowed are everywhere, the mutants are trying to kidnap people for whatever fucking reason, and the police got turned back on. You came into a rough situation. \n\n\nSo, if you're a hired gun, I have some work. I know there's a power station out and to the left of here somewhere, but I can't spare any manpower. Need you to get there and scout it out, tell me what the condition of the place is, alright gunny?"
-lang["#MISSION_MAVERICK_SETTINGUP_HINT"] = "Find the Salem Power Station. Maverick said it was out to the left of the camp somewhere."
-lang["#MISSION_MAVERICK_SETTINGUP_COMPLETE"] = "Wrecked? Looted for all it's worth? Fucking shadowed."
-
-    
+RELOADSCHEMA = true

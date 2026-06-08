@@ -1,39 +1,37 @@
-local lang = RSRG.Languages["en"]
+local lang = RSRG.Languages["es-es"]
 
---    ██████╗  ██████╗ ███████╗    ██████╗  █████╗ ██╗      █████╗ ██████╗ ██╗███╗   ██╗
---    ██╔══██╗██╔═══██╗██╔════╝    ██╔══██╗██╔══██╗██║     ██╔══██╗██╔══██╗██║████╗  ██║
---    ██████╔╝██║   ██║███████╗    ██████╔╝███████║██║     ███████║██║  ██║██║██╔██╗ ██║
---    ██╔══██╗██║   ██║╚════██║    ██╔═══╝ ██╔══██║██║     ██╔══██║██║  ██║██║██║╚██╗██║
---    ██████╔╝╚██████╔╝███████║    ██║     ██║  ██║███████╗██║  ██║██████╔╝██║██║ ╚████║
---    ╚═════╝  ╚═════╝ ╚══════╝    ╚═╝     ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═════╝ ╚═╝╚═╝  ╚═══╝
+--    ███████╗ ██████╗ ██╗   ██╗    ██████╗  ██████╗ ██╗     ██████╗ ██████╗ ██╗     ██████╗ ██╗
+--    ██╔════╝██╔═══██╗██║   ██║    ██╔══██╗██╔══██╗██║     ██╔══██╗██╔══██╗██║     ██╔══██╗██║
+--    █████╗  ██║   ██║██║   ██║    ██████╔╝██████╔╝██║     ██║  ██║██████╔╝██║     ██║  ██║██║
+--    ██╔══╝  ██║   ██║╚██╗ ██╔╝    ██╔═══╝ ██╔══██╗██║     ██║  ██║██╔══██╗██║     ██║  ██║██║
+--    ██║     ╚██████╔╝ ╚████╔╝     ██║     ██║  ██║███████╗██████╔╝██║  ██║███████╗██████╔╝███████╗
+--    ╚═╝      ╚═════╝   ╚═══╝      ╚═╝     ╚═╝  ╚═╝╚══════╝╚═════╝ ╚═╝  ╚═╝╚══════╝╚═════╝ ╚══════╝
 
+-- Repartidor de misiones
+lang["#MISSION_GIVER_BOSPALADIN"] = "Paladín Superior Gareth"
+lang["#MISSION_GIVER_BOSPALADIN_SUBTITLE"] = "Paladín Superior de la Hermandad"
+lang["#MISSION_GIVER_BOSPALADIN_NEW"] = "Escucha, Forastero. El Paladín Percival cree que eres lo suficientemente útil como para permitirte entrar en el búnker. Recuerda que esto es un privilegio. Y te lo quitaré si siquiera piensas en hacer algún daño."
+lang["#MISSION_GIVER_BOSPALADIN_NO"] = "Normalmente te dispararía y arrojaría tu cuerpo a las cuevas para los Mirelurks. Sin embargo, soy un hombre indulgente, eso es, si mereces ser perdonado."
+lang["#MISSION_GIVER_BOSPALADIN_0"] = "Todavía hay mucho que hacer, Forastero. No pierdas el tiempo hablando conmigo. Eso no hará que esas tareas sean más fáciles."
+lang["#MISSION_GIVER_BOSPALADIN_25"] = "Buen trabajo hasta ahora, Forastero. Pero aún queda más por hacer."
+lang["#MISSION_GIVER_BOSPALADIN_50"] = "Me has demostrado que puedes manejarte. Escucha con atención, me gustaría formalmente acogerte bajo las alas de los Paladines. Aunque no te convertirán en un verdadero Paladín, ciertamente has mostrado el espíritu de uno."
+lang["#MISSION_GIVER_BOSPALADIN_100"] = "Bienvenido de nuevo, $playername. Puede que tenga algunas tareas si buscas algo que hacer."
+lang["#MISSION_GIVER_BOSPALADIN_GREET_FINISHED"] = "Por la Hermandad."
 
--- Mission Giver
-lang["#MISSION_GIVER_BOSPALADIN"] = "Senior Paladin Gareth"
-lang["#MISSION_GIVER_BOSPALADIN_SUBTITLE"] = "Brotherhood Senior Paladin"
-lang["#MISSION_GIVER_BOSPALADIN_NEW"] = "Listen up Outsider. Paladin Percival belives you to be enough use to allow you in the bunker. Remember that this is a privilege. And I will take it away if you even think about doing any harm."
-lang["#MISSION_GIVER_BOSPALADIN_NO"] = "Normally I'd just shoot you and throw your body in the caves for the Mirelurks. However I am a man of forgiveness, that is, if you should be forgiven."
-lang["#MISSION_GIVER_BOSPALADIN_0"] = "There's still plenty to do Outsider. Don't waste time talking with me. It won't make those tasks any easier."
-lang["#MISSION_GIVER_BOSPALADIN_25"] = "Good work so far, Outsider. But there is still more to be done."
-lang["#MISSION_GIVER_BOSPALADIN_50"] = "You've proven to me that you can handle your self. Listen closely, I would like to formally let you in under the Paladin's wings. While you won't be made a true Paladin, you most certainly showed the spirit of one."
-lang["#MISSION_GIVER_BOSPALADIN_100"] = "Welcome back, $playername. I may have a few tasks if you looking for something to do."
-lang["#MISSION_GIVER_BOSPALADIN_GREET_FINISHED"] = "For the Brotherhood."
+-- Misiones
+lang["#MISSION_BOSPALADIN_TROUBLED_WATERS"] = "Aguas Turbulentas"
+lang["#MISSION_BOSPALADIN_TROUBLED_WATERS_DESC"] = "Escucha con atención. La seguridad de este búnker es mi principal preocupación. Y tengo muchas cosas de qué preocuparme. Forasteros como tú, los bandidos locales y parte de la fauna cercana son solo algunos de los factores que debo considerar. Sin embargo, podrías ayudarme a eliminar uno de ellos de la lista. Nuestro búnker se conecta directamente con el sistema de cuevas cercano. Los Mirelurks han hecho un nido cerca de la puerta del búnker. Elimínalos y vuelve a mí."
+lang["#MISSION_BOSPALADIN_TROUBLED_WATERS_HINT"] = "Entra al sistema de cuevas debajo del búnker y mata 20 Mirelurks."
+lang["#MISSION_BOSPALADIN_TROUBLED_WATERS_COMPLETE"] = "Bien hecho, Forastero. Aquí está tu recompensa."
 
+lang["#MISSION_BOSPALADIN_BAY_BUCTHER"] = "Carnicero de la Bahía"
+lang["#MISSION_BOSPALADIN_BAY_BUCTHER_DESC"] = "Seguro que ya conoces a los grupos locales de caníbales endogámicos de por aquí. Se han convertido en un gran problema y, a pesar del mejor esfuerzo de nuestras patrullas, parecen seguir apareciendo de la nada. La única solución que tenemos para mantener sus números bajos por un tiempo es eliminar a los 'líderes' de esos salvajes. Se hacen llamar 'Carniceros' y, como su nombre indica, no son muy amigables. Por lo general, portan rifles de alto calibre, así que mantén la cabeza en alto."
+lang["#MISSION_BOSPALADIN_BAY_BUCTHER_HINT"] = "Elimina 2 Ice Picks Carniceros. Casi siempre se encuentran dentro de sus campamentos."
+lang["#MISSION_BOSPALADIN_BAY_BUCTHER_COMPLETE"] = "Otro monstruo abatido. Buen trabajo."
 
--- Missions
-lang["#MISSION_BOSPALADIN_TROUBLED_WATERS"] = "Troubled Waters"
-lang["#MISSION_BOSPALADIN_TROUBLED_WATERS_DESC"] = "Listen closely. This bunkers security is my number one concern. And I have a lot on my plate to worry about. Outsiders like you, the local flavor of bandits and some of nearby wildlife are all just a number of factors I have to consider. However you could help me knock off one those from the list. Our bunker connects directly in to the nearby cave system. Mirelurks have made a nest nearby to the bunker door. Eliminate them and come back to me."
-lang["#MISSION_BOSPALADIN_TROUBLED_WATERS_HINT"] = "Enter the cave system below the bunker and kill 20 Mirelurks."
-lang["#MISSION_BOSPALADIN_TROUBLED_WATERS_COMPLETE"] = "Well done, Outsider. Here is your reward."
-
-lang["#MISSION_BOSPALADIN_BAY_BUCTHER"] = "Bay Butcher"
-lang["#MISSION_BOSPALADIN_BAY_BUCTHER_DESC"] = "I'm sure you've already met the local inbred cannibal groups round here. They've become quite the problem and despite our patrols best effort, they seem to keep popping up out of no where. The only solution we've to keep their numbers down for a while is take out the 'leaders' of those savages. They call themselves 'Butchers' and as the name implies they aren't too friendly. Generally they quite high-caliber rifles so keep your head on swivel."
-lang["#MISSION_BOSPALADIN_BAY_BUCTHER_HINT"] = "Eliminate 2 Ice Pick Butchers. They are almost always foudn inside their camps."
-lang["#MISSION_BOSPALADIN_BAY_BUCTHER_COMPLETE"] = "Another freak put down. Good work."
-
-lang["#MISSION_BOSPALADIN_TAILORED_KILLERS"] = "Tailored Killers"
-lang["#MISSION_BOSPALADIN_TAILORED_KILLERS_DESC"] = "To give a little context on this next task. We are currently set up in the Medford Army Depot. There are two main sectors to this place. The Depot and R&D. The Brotherhood controls the depot potion while a group of chem dealers known as 'Cipher' own the R&D section. Due to their hostility and recent supplying of Brotherhood enemies we have marked them as kill on sight. Go otu there and take a few of them down will you?"
-lang["#MISSION_BOSPALADIN_TAILORED_KILLERS_HINT"] = "Eliminate 5 Cipher members. They can be found near the old Ranger Station or in the nearby cave system."
-lang["#MISSION_BOSPALADIN_TAILORED_KILLERS_COMPLETE"] = "That's five less of those suit-wearing chem pushers. Here is whats owed."
+lang["#MISSION_BOSPALADIN_TAILORED_KILLERS"] = "Asesinos a Medida"
+lang["#MISSION_BOSPALADIN_TAILORED_KILLERS_DESC"] = "Para dar un poco de contexto sobre esta próxima tarea. Actualmente estamos establecidos en el Depósito del Ejército de Medford. Hay dos sectores principales en este lugar. El Depósito y el Departamento de I+D. La Hermandad controla la parte del Depósito, mientras que un grupo de traficantes de drogas conocido como 'Cipher' posee la sección de I+D. Debido a su hostilidad y al reciente suministro a enemigos de la Hermandad, los hemos marcado como 'disparar a matar'. Sal ahí fuera y acaba con algunos de ellos, ¿quieres?"
+lang["#MISSION_BOSPALADIN_TAILORED_KILLERS_HINT"] = "Elimina 5 miembros de Cipher. Se pueden encontrar cerca de la antigua Estación de Guardabosques o en el sistema de cuevas cercano."
+lang["#MISSION_BOSPALADIN_TAILORED_KILLERS_COMPLETE"] = "Eso son cinco menos de esos traficantes de droga en traje. Aquí tienes lo que se te debe."
 
 RELOADSCHEMA = true

@@ -1,42 +1,42 @@
-local lang = RSRG.Languages["en"]
+local lang = RSRG.Languages["es-es"]
 
--- SALEM MISSION BOARD
+-- TABLÓN DE MISIONES DE SALEM
 
-lang["#MISSION_BOARD_SALEM"] = "Salem Task Board"
-lang["#MISSION_BOARD_SALEM_SUBTITLE"] = "Tasks and Jobs"
-lang["#MISSION_BOARD_SALEM_GREET"] = "This board contains several papers with jobs from people who are looking to hire others in this area. You can accept any job that you meet the requirements for.\n\n\nA list of available jobs are below."
+lang["#MISSION_BOARD_SALEM"] = "Tablón de Tareas de Salem"
+lang["#MISSION_BOARD_SALEM_SUBTITLE"] = "Tareas y Trabajos"
+lang["#MISSION_BOARD_SALEM_GREET"] = "Este tablón contiene varios papeles con trabajos de personas que buscan contratar a otros en esta área. Puedes aceptar cualquier trabajo que cumpla con los requisitos.\n\n\nA continuación, una lista de trabajos disponibles."
 
--- MISSIONS
+-- MISIONES
 
-lang["#MISSION_SALEM_SHADOWEDBOUNTY"] = "Shadowed Bounty"
-lang["#MISSION_SALEM_SHADOWEDBOUNTY_DESC"] = "The Caravan has put out a open bounty on the Shadowed Bandits. Kill 10 and bring back proof for a reward."
-lang["#MISSION_SALEM_SHADOWEDBOUNTY_HINT"] = "Kill Shadowed Bandits in Salem."
-lang["#MISSION_SALEM_SHADOWEDBOUNTY_COMPLETE"] = "You've completed the task. Jams offers you a reward for your efforts."
+lang["#MISSION_SALEM_SHADOWEDBOUNTY"] = "Recompensa por Sombríos"
+lang["#MISSION_SALEM_SHADOWEDBOUNTY_DESC"] = "La Caravana ha puesto una recompensa abierta por los Bandidos Sombríos. Mata a 10 y trae una prueba para obtener una recompensa."
+lang["#MISSION_SALEM_SHADOWEDBOUNTY_HINT"] = "Mata a Bandidos Sombríos en Salem."
+lang["#MISSION_SALEM_SHADOWEDBOUNTY_COMPLETE"] = "Has completado la tarea. Jams te ofrece una recompensa por tus esfuerzos."
 
-lang["#MISSION_SALEM_POLICEBOUNTY"] = "Police Protectron Bounty"
-lang["#MISSION_SALEM_POLICEBOUNTY_DESC"] = "The Caravan has put out a open bounty on the recently reactivated Police Protectrons. Take out 10 and bring back their targeting chips for a reward."
-lang["#MISSION_SALEM_POLICEBOUNTY_HINT"] = "Kill Police Protectrons in Salem."
-lang["#MISSION_SALEM_POLICEBOUNTY_COMPLETE"] = "You've completed the task. Jams offers you a reward for your efforts."
+lang["#MISSION_SALEM_POLICEBOUNTY"] = "Recompensa por Protectrones Policiales"
+lang["#MISSION_SALEM_POLICEBOUNTY_DESC"] = "La Caravana ha puesto una recompensa abierta por los Protectrones Policiales recién reactivados. Acaba con 10 y trae sus chips de puntería para obtener una recompensa."
+lang["#MISSION_SALEM_POLICEBOUNTY_HINT"] = "Mata a Protectrones Policiales en Salem."
+lang["#MISSION_SALEM_POLICEBOUNTY_COMPLETE"] = "Has completado la tarea. Jams te ofrece una recompensa por tus esfuerzos."
 
-lang["#MISSION_SALEM_SUPERMUTANTBOUNTY"] = "Super Mutant Bounty"
-lang["#MISSION_SALEM_SUPERMUTANTBOUNTY_DESC"] = "The Caravan has put out a open bounty on the Super Mutants in Salem, they have been kidnapping refugees trying to get to safe areas. Take out 15 of them."
-lang["#MISSION_SALEM_SUPERMUTANTBOUNTY_HINT"] = "Kill Super Mutants in Salem."
-lang["#MISSION_SALEM_SUPERMUTANTBOUNTY_COMPLETE"] = "You've completed the task. Jams offers you a reward for your efforts."
+lang["#MISSION_SALEM_SUPERMUTANTBOUNTY"] = "Recompensa por Supermutantes"
+lang["#MISSION_SALEM_SUPERMUTANTBOUNTY_DESC"] = "La Caravana ha puesto una recompensa abierta por los Supermutantes en Salem. Han estado secuestrando refugiados que intentan llegar a áreas seguras. Acaba con 15 de ellos."
+lang["#MISSION_SALEM_SUPERMUTANTBOUNTY_HINT"] = "Mata a Supermutantes en Salem."
+lang["#MISSION_SALEM_SUPERMUTANTBOUNTY_COMPLETE"] = "Has completado la tarea. Jams te ofrece una recompensa por tus esfuerzos."
 
-lang["#MISSION_SALEM_AMMOPICKUP"] = "Ammo Pickup"
-lang["#MISSION_SALEM_AMMOPICKUP_DESC"] = "The Caravan has put out a request regarding a stolen shipment, the details are as follows. A ammo shipment from Ashlands has been intercepted by the Shadowed meant for Maverick and his men. They are attempting to extort us for caps, but we are not going to give in. Recover the shipment from one of their camps in Salem, and you will be paid handsomely. -Maverick"
-lang["#MISSION_SALEM_AMMOPICKUP_HINT"] = "Recover the shiny ammo crate from a Shadowed camp on Salem. It can be in any one of them, so get to looking."
-lang["#MISSION_SALEM_AMMOPICKUP_COMPLETE"] = "You've completed the task. Jams offers you a reward for your efforts."
-lang["#MISSION_SALEM_AMMOPICKUP_ITEMNAME"] = "Stolen Ammo Crate"
+lang["#MISSION_SALEM_AMMOPICKUP"] = "Recogida de Munición"
+lang["#MISSION_SALEM_AMMOPICKUP_DESC"] = "La Caravana ha publicado una solicitud sobre un envío robado. Los detalles son los siguientes: un envío de munición de las Tierras de Ceniza fue interceptado por los Sombríos, destinado a Maverick y sus hombres. Están intentando extorsionarnos por tapas, pero no vamos a ceder. Recupera el envío de uno de sus campamentos en Salem y serás bien pagado. -Maverick"
+lang["#MISSION_SALEM_AMMOPICKUP_HINT"] = "Recupera la brillante caja de munición de un campamento Sombrío en Salem. Puede estar en cualquiera de ellos, así que ponte a buscar."
+lang["#MISSION_SALEM_AMMOPICKUP_COMPLETE"] = "Has completado la tarea. Jams te ofrece una recompensa por tus esfuerzos."
+lang["#MISSION_SALEM_AMMOPICKUP_ITEMNAME"] = "Caja de Munición Robada"
 
-lang["#MISSION_SALEM_SCRAPHARVEST"] = "Scrap Harvest"
-lang["#MISSION_SALEM_SCRAPHARVEST_DESC"] = "We're having a lot of trouble with keeping the walls intact - they're the only thing keeping the Shadowed out. We need scrap to keep them up, and we need it fast. Go out and find some scrap for us, and we'll offer you more specialized parts we don't need. -Maverick"
-lang["#MISSION_SALEM_SCRAPHARVEST_HINT"] = "Collect Scrap Metal. You can easily find it by breaking down cars or find it in loot containers."
-lang["#MISSION_SALEM_SCRAPHARVEST_COMPLETE"] = "You've completed the task. Jams offers you a reward for your efforts."
+lang["#MISSION_SALEM_SCRAPHARVEST"] = "Cosecha de Chatarra"
+lang["#MISSION_SALEM_SCRAPHARVEST_DESC"] = "Estamos teniendo muchos problemas para mantener las paredes intactas; son lo único que mantiene a los Sombríos fuera. Necesitamos chatarra para mantenerlas, y la necesitamos rápido. Sal y encuentra algo de chatarra para nosotros, y te ofreceremos piezas más especializadas que no necesitamos. -Maverick"
+lang["#MISSION_SALEM_SCRAPHARVEST_HINT"] = "Recoge Metal de Desecho. Puedes encontrarlo fácilmente descomponiendo coches o en contenedores de botín."
+lang["#MISSION_SALEM_SCRAPHARVEST_COMPLETE"] = "Has completado la tarea. Jams te ofrece una recompensa por tus esfuerzos."
 
-lang["#MISSION_SALEM_NOTQUITEMATERIAL"] = "Not Quite Material"
-lang["#MISSION_SALEM_NOTQUITEMATERIAL_DESC"] = "There are some shadowed in the area rocking some kind of makeshift anti-material rifle. We want to you take it from them and hand it over so we can find out how these are actually made."
-lang["#MISSION_SALEM_NOTQUITEMATERIAL_HINT"] = "Hand over 1 handmade anti-material rifle. These drop from Shadowed Outlaws."
-lang["#MISSION_SALEM_NOTQUITEMATERIAL_COMPLETE"] = "You've completed the task. Jams offers you a reward for your efforts."
+lang["#MISSION_SALEM_NOTQUITEMATERIAL"] = "No es Material Suficiente"
+lang["#MISSION_SALEM_NOTQUITEMATERIAL_DESC"] = "Hay algunos sombríos en la zona con un rifle antimateria improvisado. Queremos que se lo quites y nos lo entregues para descubrir cómo se hacen realmente."
+lang["#MISSION_SALEM_NOTQUITEMATERIAL_HINT"] = "Entrega 1 rifle antimateria artesanal. Estos se obtienen de los Forajidos Sombríos."
+lang["#MISSION_SALEM_NOTQUITEMATERIAL_COMPLETE"] = "Has completado la tarea. Jams te ofrece una recompensa por tus esfuerzos."
 
 RELOADSCHEMA = true

@@ -1,95 +1,94 @@
-local lang = RSRG.Languages["en"]
+local lang = RSRG.Languages["es-es"]
 
--- ███╗   ███╗██████╗        ██╗   ██╗ ██████╗ ██╗     ██╗      █████╗     ██████╗  ██████╗ ██╗     ██╗  ██╗   ██╗
--- ████╗ ████║██╔══██╗██╗    ╚██╗ ██╔╝██╔═══██╗██║     ██║     ██╔══██╗    ██╔══██╗██╔═══██╗██║     ██║  ╚██╗ ██╔╝
--- ██╔████╔██║██████╔╝╚═╝     ╚████╔╝ ██║   ██║██║     ██║     ███████║    ██████╔╝██║   ██║██║     ██║   ╚████╔╝
--- ██║╚██╔╝██║██╔══██╗██╗      ╚██╔╝  ██║   ██║██║     ██║     ██╔══██║    ██╔══██╗██║   ██║██║     ██║    ╚██╔╝
--- ██║ ╚═╝ ██║██████╔╝╚═╝       ██║   ╚██████╔╝███████╗███████╗██║  ██║    ██████╔╝╚██████╔╝███████╗███████╗██║
--- ╚═╝     ╚═╝╚═════╝           ╚═╝    ╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝╚══════╝╚═╝
+-- ██████╗  ██╗   ██╗ ██████╗ ██╗     ███████╗███████╗    ██████╗  ██╗   ██╗██╗
+-- ██╔══██╗╚██╗ ██╔╝██╔═══██╗██║     ██╔════╝██╔════╝    ██╔══██╗╚██╗ ██╔╝██║
+-- ██████╔╝ ╚████╔╝ ██║   ██║██║     █████╗  █████╗      ██████╔╝ ╚████╔╝ ██║
+-- ██╔══██╗  ╚██╔╝  ██║   ██║██║     ██╔══╝  ██╔══╝      ██╔══██╗  ╚██╔╝  ╚═╝
+-- ██████╔╝   ██║   ╚██████╔╝███████╗███████╗███████╗    ██████╔╝   ██║   ██╗
+-- ╚═════╝    ╚═╝    ╚═════╝ ╚══════╝╚══════╝╚══════╝    ╚═════╝    ╚═╝   ╚═╝
 
--- Mission Giver
-lang["#MISSION_BOARD_YOLLA"] = "Yolla Bolly Survivalist Town Task Board"
-lang["#MISSION_BOARD_YOLLA_SUBTITLE"] = "Tasks and Jobs"
-lang["#MISSION_BOARD_YOLLA_GREET"] = "This board contains several papers with jobs from people who are looking to hire others in this area. You can accept any job that you meet the requirements for.\n\n\nA list of available jobs are below."
+-- Repartidor de misiones (Tablón)
+lang["#MISSION_BOARD_YOLLA"] = "Tablón de Tareas del Pueblo de Supervivientes de Yolla Bolly"
+lang["#MISSION_BOARD_YOLLA_SUBTITLE"] = "Tareas y Trabajos"
+lang["#MISSION_BOARD_YOLLA_GREET"] = "Este tablón contiene varios papeles con trabajos de personas que buscan contratar a otros en esta área. Puedes aceptar cualquier trabajo que cumpla con los requisitos.\n\n\nA continuación, una lista de trabajos disponibles."
 
-lang["#MISSION_BOARD_YOLLABANDIT"] = "Yolla Bolly Rock Biter Task Board."
-lang["#MISSION_BOARD_YOLLABANDIT_GREET"] = "Yolla Bolly Rock Biter Task Board"
+lang["#MISSION_BOARD_YOLLABANDIT"] = "Tablón de Tareas de los Muerde Rocas de Yolla Bolly"
+lang["#MISSION_BOARD_YOLLABANDIT_GREET"] = "Tablón de Tareas de los Muerde Rocas de Yolla Bolly"
 
-lang["#MISSION_YOLLA_EASYTARGETS"] = "Easy Targets"
-lang["#MISSION_YOLLA_EASYTARGETS_DESC"] = "The person who has pinned this note wants someone who is willing to clear out enemies, more specifically feral ghouls. They are offering a lot for it."
-lang["#MISSION_YOLLA_EASYTARGETS_HINT"] = "Eliminate any type of Feral Ghouls in Yolla Bolly. Feral ghouls are commonly found near ruins, broken buildings, and abandoned locations. They are weak to melee weapons and firearms. Be careful around reaver and bloated ghouls, as they are more dangerous."
-lang["#MISSION_YOLLA_EASYTARGETS_COMPLETE"] = "You've completed the task."
+lang["#MISSION_YOLLA_EASYTARGETS"] = "Objetivos Fáciles"
+lang["#MISSION_YOLLA_EASYTARGETS_DESC"] = "La persona que ha pegado esta nota busca a alguien que esté dispuesto a eliminar enemigos, más específicamente necrófagos salvajes. Ofrece una buena cantidad por ello."
+lang["#MISSION_YOLLA_EASYTARGETS_HINT"] = "Elimina cualquier tipo de Necrófago Salvaje en Yolla Bolly. Los necrófagos salvajes se encuentran comúnmente cerca de ruinas, edificios rotos y ubicaciones abandonadas. Son débiles a las armas cuerpo a cuerpo y de fuego. Ten cuidado con los segadores y necrófagos hinchados, ya que son más peligrosos."
+lang["#MISSION_YOLLA_EASYTARGETS_COMPLETE"] = "Has completado la tarea."
 
-lang["#MISSION_YOLLA_GATHERER"] = "Gatherer"
-lang["#MISSION_YOLLA_GATHERER_DESC"] = "The hirer of this task wants someone who is actively scavenging to gather items around the region, and map out locations of where valuables may be left behind."
-lang["#MISSION_YOLLA_GATHERER_HINT"] = "Loot containers in Yolla Bolly. You can search inside towns, buildings, and other various locations for containers."
-lang["#MISSION_YOLLA_GATHERER_COMPLETE"] = "Good work, the hirer has some interesting rewards for you.."
+lang["#MISSION_YOLLA_GATHERER"] = "Recolector"
+lang["#MISSION_YOLLA_GATHERER_DESC"] = "El contratista de esta tarea busca a alguien que esté saqueando activamente para recolectar objetos en la región y mapear ubicaciones donde puedan quedar objetos de valor."
+lang["#MISSION_YOLLA_GATHERER_HINT"] = "Saquéa contenedores en Yolla Bolly. Puedes buscar dentro de pueblos, edificios y otras ubicaciones varias para encontrar contenedores."
+lang["#MISSION_YOLLA_GATHERER_COMPLETE"] = "Buen trabajo, el contratista tiene algunas recompensas interesantes para ti."
 
-lang["#MISSION_YOLLA_HIDEANDSEEK"] = "Hide n' Seek"
-lang["#MISSION_YOLLA_HIDEANDSEEK_DESC"] = "The person who has hung this post wants someone who is willing to eliminate some Mirelurks and Geckos and mark their normal haunts. They are offering money for it."
-lang["#MISSION_YOLLA_HIDEANDSEEK_HINT"] = "Eliminate any type of Mirelurks and Geckos in Yolla Bolly. Mirelurks can commonly be found throughout the Yolla Bolly Valley, near the dried up river banks. They are dangerous and have decent protection, so it is recommended to use a firearm. Aim for the face."
-lang["#MISSION_YOLLA_HIDEANDSEEK_COMPLETE"] = "Good work, leave the marked area notes you took here and take your reward from the barman."
+lang["#MISSION_YOLLA_HIDEANDSEEK"] = "Escondite"
+lang["#MISSION_YOLLA_HIDEANDSEEK_DESC"] = "La persona que ha colgado este cartel quiere a alguien que esté dispuesto a eliminar algunos Mirelurks y Geckos y marcar sus guaridas habituales. Ofrece dinero por ello."
+lang["#MISSION_YOLLA_HIDEANDSEEK_HINT"] = "Elimina cualquier tipo de Mirelurk y Gecko en Yolla Bolly. Los Mirelurks se pueden encontrar comúnmente en todo el Valle de Yolla Bolly, cerca de las orillas del río seco. Son peligrosos y tienen una protección decente, por lo que se recomienda usar un arma de fuego. Apunta a la cara."
+lang["#MISSION_YOLLA_HIDEANDSEEK_COMPLETE"] = "Buen trabajo, deja las notas de áreas marcadas que tomaste aquí y toma tu recompensa del tabernero."
 
-lang["#MISSION_YOLLA_ROBOTICPARTS"] = "Robotic Parts"
-lang["#MISSION_YOLLA_ROBOTICPARTS_DESC"] = "The man who has pinned this task wants someone who is willing to destroy Protectrons, and take note of what parts remain intact when disabled."
-lang["#MISSION_YOLLA_ROBOTICPARTS_HINT"] = "Eliminate any type of Protectrons in Yolla Bolly. They can be easily found in the Military Bunker. They are very dangerous as they are the Military Variant, and it is recommended to have armor or some form of protections, while using a decent firearm."
-lang["#MISSION_YOLLA_ROBOTICPARTS_COMPLETE"] = "Good work, tell Joule what you found. Take your pick."
+lang["#MISSION_YOLLA_ROBOTICPARTS"] = "Piezas Robóticas"
+lang["#MISSION_YOLLA_ROBOTICPARTS_DESC"] = "El hombre que ha pegado esta tarea quiere a alguien que esté dispuesto a destruir Protectrones y tomar nota de qué partes quedan intactas cuando se desactivan."
+lang["#MISSION_YOLLA_ROBOTICPARTS_HINT"] = "Elimina cualquier tipo de Protectron en Yolla Bolly. Se pueden encontrar fácilmente en el Búnker Militar. Son muy peligrosos ya que son la Variante Militar, y se recomienda tener armadura o alguna forma de protección, mientras se usa un arma de fuego decente."
+lang["#MISSION_YOLLA_ROBOTICPARTS_COMPLETE"] = "Buen trabajo, dile a Joule lo que encontraste. Elige tu recompensa."
 
-lang["#MISSION_YOLLA_SPECIALIZEDHUNTER"] = "Hunting Skills"
-lang["#MISSION_YOLLA_SPECIALIZEDHUNTER_DESC"] = "The hirer for this task wants to see someone who is willing to do eliminate a variety of enemies. He wants them to use a hunting rifle in the process too."
-lang["#MISSION_YOLLA_SPECIALIZEDHUNTER_HINT"] = "Eliminate any type of Feral Ghouls, Geckos, and Molerats. Feral Ghouls can commonly be found in the Waxton industrial town, Geckos can be found around the outskirts of the region, and Molerats can be easily found in the Junkyard in Salt Wells."
-lang["#MISSION_YOLLA_SPECIALIZEDHUNTER_COMPLETE"] = "You've completed the task."
+lang["#MISSION_YOLLA_SPECIALIZEDHUNTER"] = "Habilidades de Caza"
+lang["#MISSION_YOLLA_SPECIALIZEDHUNTER_DESC"] = "El contratista de esta tarea quiere ver a alguien que esté dispuesto a eliminar una variedad de enemigos. Quiere que use un rifle de caza en el proceso también."
+lang["#MISSION_YOLLA_SPECIALIZEDHUNTER_HINT"] = "Elimina cualquier tipo de Necrófago Salvaje, Gecko y Rata Topo. Los Necrófagos Salvajes se pueden encontrar comúnmente en la ciudad industrial de Waxton, los Geckos se pueden encontrar en las afueras de la región, y las Ratas Topo se pueden encontrar fácilmente en el Depósito de Chatarra en Salt Wells."
+lang["#MISSION_YOLLA_SPECIALIZEDHUNTER_COMPLETE"] = "Has completado la tarea."
 
-lang["#MISSION_YOLLA_ABOMINATIONHATRED"] = "Hatred"
-lang["#MISSION_YOLLA_ABOMINATIONHATRED_DESC"] = "The hirer of this task wants someone who is willing to kill Deathclaws. He will pay very greatly for it."
-lang["#MISSION_YOLLA_ABOMINATIONHATRED_HINT"] = "Eliminate any type of Deathclaws in Yolla Bolly. They can be commonly found on a hill besides Waxton, and sometimes on the other side of it. Deathclaws are very dangerous, so it is recommended to use high-powered rifles with Armor Piercing rounds."
-lang["#MISSION_YOLLA_ABOMINATIONHATRED_COMPLETE"] = "You've completed the task."
+lang["#MISSION_YOLLA_ABOMINATIONHATRED"] = "Odio"
+lang["#MISSION_YOLLA_ABOMINATIONHATRED_DESC"] = "El contratista de esta tarea quiere a alguien que esté dispuesto a matar Sanguinarios. Pagará muy bien por ello."
+lang["#MISSION_YOLLA_ABOMINATIONHATRED_HINT"] = "Elimina cualquier tipo de Sanguinario en Yolla Bolly. Se pueden encontrar comúnmente en una colina junto a Waxton, y a veces al otro lado de ella. Los Sanguinarios son muy peligrosos, por lo que se recomienda usar rifles de alta potencia con balas Perforantes."
+lang["#MISSION_YOLLA_ABOMINATIONHATRED_COMPLETE"] = "Has completado la tarea."
 
-lang["#MISSION_YOLLA_ANTHILL"] = "Anthill"
-lang["#MISSION_YOLLA_ANTHILL_DESC"] = "The client who posted this notice is searching for experienced hunters to thin down the ant population of Yolla Bolly and is offering a cash reward."
-lang["#MISSION_YOLLA_ANTHILL_HINT"] = "Eliminate any type of Giant Ant in Yolla Bolly. They can be found in the dried lake bed on the lower end of the factory town and inside the mines."
-lang["#MISSION_YOLLA_ANTHILL_COMPLeTE"] = "You've completed the task."
+lang["#MISSION_YOLLA_ANTHILL"] = "Hormiguero"
+lang["#MISSION_YOLLA_ANTHILL_DESC"] = "El cliente que publicó este aviso busca cazadores experimentados para reducir la población de hormigas de Yolla Bolly y ofrece una recompensa en efectivo."
+lang["#MISSION_YOLLA_ANTHILL_HINT"] = "Elimina cualquier tipo de Hormiga Gigante en Yolla Bolly. Se pueden encontrar en el lecho del lago seco en la parte baja de la ciudad industrial y dentro de las minas."
+lang["#MISSION_YOLLA_ANTHILL_COMPLeTE"] = "Has completado la tarea."
 
-lang["#MISSION_YOLLA_MINECLEARING"] = "Clear the Mines"
-lang["#MISSION_YOLLA_MINECLEARING_DESC"] = "This is an NCR contract, they may not have a large presence here but they still recognize the bandit issue all the same. They want the Rock Biter numbers thinned out, hit them where it hurts."
-lang["#MISSION_YOLLA_MINECLEARING_HINT"] = "Kill Rock Biter Bandits. They can be found in the mines in the upper pod network. This is a dangerous area, you may need a group or be very well equipped."
-lang["#MISSION_YOLLA_MINECLEARING_COMPLETE"] = "Contract completed, take your pick for your cut."
+lang["#MISSION_YOLLA_MINECLEARING"] = "Limpiar las Minas"
+lang["#MISSION_YOLLA_MINECLEARING_DESC"] = "Este es un contrato de la RNC. Puede que no tengan una gran presencia aquí, pero aún así reconocen el problema de los bandidos. Quieren que se reduzcan los números de los Muerde Rocas, golpéalos donde duele."
+lang["#MISSION_YOLLA_MINECLEARING_HINT"] = "Mata a Bandidos Muerde Rocas. Se pueden encontrar en las minas en la red de pods superior. Esta es un área peligrosa, es posible que necesites un grupo o estar muy bien equipado."
+lang["#MISSION_YOLLA_MINECLEARING_COMPLETE"] = "Contrato completado, elige tu parte de la recompensa."
 
--- BANDIT AREA
+-- ÁREA DE BANDIDOS
 
-lang["#MISSION_YOLLA_SURVIVALISTDEATH"] = "Kill the Survivalists"
-lang["#MISSION_YOLLA_SURVIVALISTDEATH_DESC"] = "This is a Salt-Rock Contract. Salt-Rock wants retribution for what they did to him, and wants people aligned with them cleared out, daily. Kill 15 of them, and return."
-lang["#MISSION_YOLLA_SURVIVALISTDEATH_HINT"] = "Kill Valley Survivalist. They can be found around Yolla Bolly, near the lower area of the ammo factory town, the cliffs around the survivalist town, and through the car tunnel towards the barricaded tunnel."
-lang["#MISSION_YOLLA_SURVIVALISTDEATH_COMPLETE"] = "Contract completed, take your pick for your cut."
+lang["#MISSION_YOLLA_SURVIVALISTDEATH"] = "Mata a los Supervivientes"
+lang["#MISSION_YOLLA_SURVIVALISTDEATH_DESC"] = "Este es un Contrato de Salt Rock. Salt Rock quiere retribución por lo que le hicieron, y quiere que los alineados con ellos sean eliminados, a diario. Mata a 15 de ellos y regresa."
+lang["#MISSION_YOLLA_SURVIVALISTDEATH_HINT"] = "Mata a Supervivientes del Valle. Se pueden encontrar alrededor de Yolla Bolly, cerca del área baja de la ciudad de la fábrica de munición, los acantilados alrededor del pueblo de los Supervivientes del Valle, y a través del túnel de coches hacia el túnel barricado."
+lang["#MISSION_YOLLA_SURVIVALISTDEATH_COMPLETE"] = "Contrato completado, elige tu parte de la recompensa."
 
--- After Gadget's thecell_part6, repeat quests every 12 hours
+-- Después de la misión "thecell_part6" de Gadget, misiones repetibles cada 12 horas
 
-lang["#MISSION_YOLLA_MILITIATARGETING"] = "Target Their Militia"
-lang["#MISSION_YOLLA_MILITIATARGETING_DESC"] = "Gadget wants the survivalist's militia numbers cut down, to filter the fighters from their ranks and have the settlers flee. Kill 3 members of the Valley Survivalist and return."
-lang["#MISSION_YOLLA_MILITIATARGETING_HINT"] = "Kill Valley Survivalist Militia Members. They can be found around Yolla Bolly, near the lower area of the ammo factory town, the cliffs around the Valley Survivalist town, and through the car tunnel towards the barricaded tunnel."
-lang["#MISSION_YOLLA_MILITIATARGETING_COMPLETE"] = "Contract completed, Return in a few hours for another bounty."
+lang["#MISSION_YOLLA_MILITIATARGETING"] = "Apuntar a su Milicia"
+lang["#MISSION_YOLLA_MILITIATARGETING_DESC"] = "Gadget quiere que se reduzcan los números de la milicia de los supervivientes, para filtrar a los luchadores de sus filas y hacer que los colonos huyan. Mata a 3 miembros de los Supervivientes del Valle y regresa."
+lang["#MISSION_YOLLA_MILITIATARGETING_HINT"] = "Mata a Miembros de la Milicia de Supervivientes del Valle. Se pueden encontrar alrededor de Yolla Bolly, cerca del área baja de la ciudad de la fábrica de munición, los acantilados alrededor del pueblo de los Supervivientes del Valle, y a través del túnel de coches hacia el túnel barricado."
+lang["#MISSION_YOLLA_MILITIATARGETING_COMPLETE"] = "Contrato completado. Regresa en unas horas para otra recompensa."
 
-lang["#MISSION_YOLLA_GREENEYES"] = "The Green Eyes"
-lang["#MISSION_YOLLA_GREENEYES_DESC"] = "Contract from Toolmaster Hendrik. The Desert Rangers have been snooping a bit too close after we started construction on our power grid, take down a ranger and return. They're tough, so be careful."
-lang["#MISSION_YOLLA_GREENEYES_HINT"] = "Kill a Desert Ranger. They are powerful, so approach with caution."
-lang["#MISSION_YOLLA_GREENEYES_COMPLETE"] = "Contract Completed. Return in a few hours for another bounty."
+lang["#MISSION_YOLLA_GREENEYES"] = "Los Ojos Verdes"
+lang["#MISSION_YOLLA_GREENEYES_DESC"] = "Contrato del Maestro de Herramientas Hendrik. Los Rangers del Desierto han estado husmeando demasiado cerca después de que comenzamos la construcción de nuestra red eléctrica. Derriba a un ranger y regresa. Son duros, así que ten cuidado."
+lang["#MISSION_YOLLA_GREENEYES_HINT"] = "Mata a un Ranger del Desierto. Son poderosos, así que acércate con precaución."
+lang["#MISSION_YOLLA_GREENEYES_COMPLETE"] = "Contrato completado. Regresa en unas horas para otra recompensa."
 
-lang["#MISSION_YOLLA_POWERTHECELL"] = "Making sure the Lights stay on"
-lang["#MISSION_YOLLA_POWERTHECELL_DESC"] = "Contract from the Toolmasters. Need some nuclear material from the silo area and some microfusion cells to keep it going, do your part."
-lang["#MISSION_YOLLA_POWERTHECELL_HINT"] = "Obtain nuclear material and microfusion cells. You can get nuclear material from the Silo, and microfusion cells from various vendors, protectrons, or energy weapon lockers."
-lang["#MISSION_YOLLA_POWERTHECELL_COMPLETE"] = "Contract completed. Return in a few hours for another bounty."
+lang["#MISSION_YOLLA_POWERTHECELL"] = "Asegurando que las Luces se Mantengan Encendidas"
+lang["#MISSION_YOLLA_POWERTHECELL_DESC"] = "Contrato de los Maestros de Herramientas. Necesitan algo de material nuclear del área del silo y algunas células de micro fusión para mantenerlo en funcionamiento. Haz tu parte."
+lang["#MISSION_YOLLA_POWERTHECELL_HINT"] = "Consigue Material Nuclear y Células de Microfusión. Puedes obtener Material Nuclear del Silo, y Células de Microfusión de varios vendedores, protectrones o armarios de armas de energía."
+lang["#MISSION_YOLLA_POWERTHECELL_COMPLETE"] = "Contrato completado. Regresa en unas horas para otra recompensa."
 
--- Weeklies, repeat every 168 hours
+-- Misiones semanales, repetibles cada 168 horas
 
-lang["#MISSION_YOLLA_CLEANINGTHEVALLEY"] = "Cleaning up the Valley"
-lang["#MISSION_YOLLA_CLEANINGTHEVALLEY_DESC"] = "The Deathclaws have been making a mess of the valley for far too long. We are setting a large bounty on anyone willing to put a stop to them."
-lang["#MISSION_YOLLA_CLEANINGTHEVALLEY_HINT"] = "Kill 25 Deathclaws in Yolla Bolly."
-lang["#MISSION_YOLLA_CLEANINGTHEVALLEY_COMPLETE"] = "Contract Completed. Return in a week for another bounty."
+lang["#MISSION_YOLLA_CLEANINGTHEVALLEY"] = "Limpiando el Valle"
+lang["#MISSION_YOLLA_CLEANINGTHEVALLEY_DESC"] = "Los Sanguinarios han estado haciendo un desastre en el valle durante demasiado tiempo. Estamos estableciendo una gran recompensa para cualquiera que esté dispuesto a detenerlos."
+lang["#MISSION_YOLLA_CLEANINGTHEVALLEY_HINT"] = "Mata a 25 Sanguinarios en Yolla Bolly."
+lang["#MISSION_YOLLA_CLEANINGTHEVALLEY_COMPLETE"] = "Contrato completado. Regresa en una semana para otra recompensa."
 
-lang["#MISSION_YOLLA_CAVEBITING"] = "Digging new Caves"
-lang["#MISSION_YOLLA_CAVEBITING_DESC"] = "We need to restock our explosives and mining equipment to expand our tunnels. The toolmaster will pay well for these items."
-lang["#MISSION_YOLLA_CAVEBITING_HINT"] = "Hand in 1 Missile launcher, 5 missiles and 10 dynamite"
-lang["#MISSION_YOLLA_CAVEBITING_COMPLETE"] = "Contract Completed. Return in a week for another bounty."
-
+lang["#MISSION_YOLLA_CAVEBITING"] = "Cavando Nuevas Cuevas"
+lang["#MISSION_YOLLA_CAVEBITING_DESC"] = "Necesitamos reabastecer nuestros explosivos y equipos de minería para expandir nuestros túneles. El maestro de herramientas pagará bien por estos artículos."
+lang["#MISSION_YOLLA_CAVEBITING_HINT"] = "Entrega 1 Lanzamisiles, 5 Misiles y 10 Dinamitas."
+lang["#MISSION_YOLLA_CAVEBITING_COMPLETE"] = "Contrato completado. Regresa en una semana para otra recompensa."
 
 RELOADSCHEMA = true

@@ -1,49 +1,49 @@
-local lang = RSRG.Languages["en"]
+local lang = RSRG.Languages["es-es"]
 
--- ████████╗ █████╗ ███╗   ██╗ ██████╗██████╗ ███████╗██████╗
--- ╚══██╔══╝██╔══██╗████╗  ██║██╔════╝██╔══██╗██╔════╝██╔══██╗
---    ██║   ███████║██╔██╗ ██║██║     ██████╔╝█████╗  ██║  ██║
---    ██║   ██╔══██║██║╚██╗██║██║     ██╔══██╗██╔══╝  ██║  ██║
---    ██║   ██║  ██║██║ ╚████║╚██████╗██║  ██║███████╗██████╔╝
---    ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═══╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═════╝
+-- ██████╗  ██████╗ ███████╗     ██████╗ ██╗   ██╗ █████╗ ██████╗ ██████╗     ███╗   ███╗██╗███████╗███████╗██╗ ██████╗ ███╗   ██╗███████╗
+-- ██╔══██╗██╔═══██╗██╔════╝    ██╔════╝ ██║   ██║██╔══██╗██╔══██╗██╔══██╗    ████╗ ████║██║██╔════╝██╔════╝██║██╔═══██╗████╗  ██║██╔════╝
+-- ██████╔╝██║   ██║███████╗    ██║  ███╗██║   ██║███████║██████╔╝██║  ██║    ██╔████╔██║██║███████╗███████╗██║██║   ██║██╔██╗ ██║███████╗
+-- ██╔══██╗██║   ██║╚════██║    ██║   ██║██║   ██║██╔══██║██╔══██╗██║  ██║    ██║╚██╔╝██║██║╚════██║╚════██║██║██║   ██║██║╚██╗██║╚════██║
+-- ██████╔╝╚██████╔╝███████║    ╚██████╔╝╚██████╔╝██║  ██║██║  ██║██████╔╝    ██║ ╚═╝ ██║██║███████║███████║██║╚██████╔╝██║ ╚████║███████║
+-- ╚═════╝  ╚═════╝ ╚══════╝     ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝     ╚═╝     ╚═╝╚═╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
 
-
-lang["#MISSION_GIVER_TANCRED"] = "Junior Paladin Tancred"
-lang["#MISSION_GIVER_TANCRED_SUBTITLE"] = "Brotherhood of Steel"
-lang["#MISSION_GIVER_TANCRED_GREET_NEW"] = "Are you lost Outsider? This is a Brotherhood of Steel outpost. We don't exactly take visitors here. But if your looking for work I might have something for you."
-lang["#MISSION_GIVER_TANCRED_GREET"] = "Back again are you? Let me check if we have any jobs available at the moment."
-lang["#MISSION_GIVER_TANCRED_GREET_FINISHED"] = "Sorry, I don't have anything for you to do at the moment, Wastelander."
+-- Repartidor de misiones
+lang["#MISSION_GIVER_TANCRED"] = "Paladín Junior Tancred"
+lang["#MISSION_GIVER_TANCRED_SUBTITLE"] = "Hermandad del Acero"
+lang["#MISSION_GIVER_TANCRED_GREET_NEW"] = "¿Estás perdido, Forastero? Este es un puesto de avanzada de la Hermandad del Acero. No solemos aceptar visitantes aquí. Pero si buscas trabajo, puede que tenga algo para ti."
+lang["#MISSION_GIVER_TANCRED_GREET"] = "¿Has vuelto otra vez? Déjame ver si tenemos algún trabajo disponible en este momento."
+lang["#MISSION_GIVER_TANCRED_GREET_FINISHED"] = "Lo siento, no tengo nada para que hagas en este momento, Yermo."
 
 --[[
-███╗   ███╗██╗███████╗███████╗██╗ ██████╗ ███╗   ██╗███████╗
-████╗ ████║██║██╔════╝██╔════╝██║██╔═══██╗████╗  ██║██╔════╝
-██╔████╔██║██║███████╗███████╗██║██║   ██║██╔██╗ ██║███████╗
-██║╚██╔╝██║██║╚════██║╚════██║██║██║   ██║██║╚██╗██║╚════██║
-██║ ╚═╝ ██║██║███████║███████║██║╚██████╔╝██║ ╚████║███████║
-╚═╝     ╚═╝╚═╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
+██╗   ██╗██╗   ██╗██████╗ ██████╗  ██████╗ ██╗   ██╗███████╗██████╗ ███████╗
+██║   ██║██║   ██║██╔══██╗██╔══██╗██╔═══██╗██║   ██║██╔════╝██╔══██╗██╔════╝
+██║   ██║██║   ██║██████╔╝██║  ██║██║   ██║██║   ██║█████╗  ██████╔╝███████╗
+╚██╗ ██╔╝██║   ██║██╔══██╗██║  ██║██║   ██║╚██╗ ██╔╝██╔══╝  ██╔══██╗╚════██║
+ ╚████╔╝ ╚██████╔╝██████╔╝██████╔╝╚██████╔╝ ╚████╔╝ ███████╗██║  ██║███████║
+  ╚═══╝   ╚═════╝ ╚═════╝ ╚═════╝  ╚═════╝   ╚═══╝  ╚══════╝╚═╝  ╚═╝╚══════╝
 ]]
 
-lang["#MISSION_TANCRED_ELECTRICSHEEP"] = "I Dream of Electric Sheep"
-lang["#MISSION_TANCRED_ELECTRICSHEEP_DESC"] = "It's our job as the Brotherhood of Steel to preserve and recover technology from before the Great War that could pose a threat to humanity. Some of the more basic componets, while not a direct threat, could be used by those with questionable intentions. Recover some Scrap Electronics and then get back to us. You will be rewarded for your efforts as well."
-lang["#MISSION_TANCRED_ELECTRICSHEEP_HINT"] = "Recover 20 Scrap Electronics and then return to Paladin Tancred."
-lang["#MISSION_TANCRED_ELECTRICSHEEP_COMPLETE"] = "Well done Outsider. You can actually follow basic instructions. If you think you have what it takes I've got another task for you. Something a bit more... Involved."
+lang["#MISSION_TANCRED_ELECTRICSHEEP"] = "Sueño de Ovejas Eléctricas"
+lang["#MISSION_TANCRED_ELECTRICSHEEP_DESC"] = "Es nuestro trabajo como Hermandad del Acero preservar y recuperar la tecnología de antes de la guerra que podría representar una amenaza para la humanidad. Algunos de los componentes más básicos, aunque no son una amenaza directa, podrían ser utilizados por aquellos con intenciones cuestionables. Recupera algo de Electrónica de Desecho y luego vuelve a nosotros. También serás recompensado por tus esfuerzos."
+lang["#MISSION_TANCRED_ELECTRICSHEEP_HINT"] = "Recupera 20 Electrónicos de Desecho y luego regresa con el Paladín Tancred."
+lang["#MISSION_TANCRED_ELECTRICSHEEP_COMPLETE"] = "Bien hecho, Forastero. Puedes seguir instrucciones básicas. Si crees que tienes lo necesario, tengo otra tarea para ti. Algo un poco más... complicado."
 
-lang["#MISSION_TANCRED_VAULT_OF_THE_FUTURE"] = "Vault of the Future"
-lang["#MISSION_TANCRED_VAULT_OF_THE_FUTURE_DESC"] = "Since you seem competent enough, I'll trust you with something a bit more difficult. Our Junior-Scribe here was combing through some old records when she came across something of interest to the Brotherhood. A Reverse Pulse Cleaner. A fairly rare piece of technology commonly used by Vault-Tec in their Vaults. Follow the road east and before you pass the nearby factory take a left. You will find the entrance to the vault there. Assuming the piece of technology is still there it should be somewhere in a maintenance section. Once you've retrieved it come back to me for your reward."
-lang["#MISSION_TANCRED_VAULT_OF_THE_FUTURE_HINT"] = "Recover the Reverse Pulse Cleaner from the nearby Vault 7."
-lang["#MISSION_TANCRED_VAULT_OF_THE_FUTURE_COMPLETE"] = "Excellent work. Seems it is a bit damaged but nothing Knight Eustace can't fix. Come back to me if you want to help out some more."
-lang["#MISSION_TANCRED_VAULT_OF_THE_FUTURE_ITEMNAME"] = "Reverse Pulse Cleaner"
+lang["#MISSION_TANCRED_VAULT_OF_THE_FUTURE"] = "El Refugio del Futuro"
+lang["#MISSION_TANCRED_VAULT_OF_THE_FUTURE_DESC"] = "Como pareces lo suficientemente competente, confiaré en ti algo un poco más difícil. Nuestra Escriba Junior estaba revisando unos registros antiguos cuando encontró algo de interés para la Hermandad. Un Limpiador de Pulso Inverso. Una pieza de tecnología bastante rara utilizada comúnmente por Vault-Tec en sus Refugios. Sigue la carretera hacia el este y, antes de pasar la fábrica cercana, gira a la izquierda. Allí encontrarás la entrada al refugio. Suponiendo que la pieza de tecnología todavía esté allí, debería estar en algún lugar de la sección de mantenimiento. Una vez que la hayas recuperado, vuelve a mí para recibir tu recompensa."
+lang["#MISSION_TANCRED_VAULT_OF_THE_FUTURE_HINT"] = "Recupera el Limpiador de Pulso Inverso del Refugio 7 cercano."
+lang["#MISSION_TANCRED_VAULT_OF_THE_FUTURE_COMPLETE"] = "Excelente trabajo. Parece que está un poco dañado, pero nada que el Caballero Eustace no pueda arreglar. Vuelve a verme si quieres ayudar más."
+lang["#MISSION_TANCRED_VAULT_OF_THE_FUTURE_ITEMNAME"] = "Limpiador de Pulso Inverso"
 
-lang["#MISSION_TANCRED_CLAWS_OUT"] = "Claws Out"
-lang["#MISSION_TANCRED_CLAWS_OUT_DESC"] = "This mission is a bit more personal to me and my brothers and sisters stationed here. Recently one of our brothers operating in the local region made a trip to a place known as the Yolla Bolla Mountain Range. Senior-Knight Mack was training to become a Paladin, Scribe Amy had descovered an important site deep in the mountain range. He was to scout out the area and report to us via radio communications. \n\n Last transmission we received from him he said he was being chased by... something. Its unclear what exactly was after him as the transmission was cut short. The only thing he did describe it as a devilish beast. It's been nearly a week since he's been gone. I have no doubt that he is dead. More than likely if he was alive but captured he would have atleast sent some type of sign. \n\nSo the mission is simple, Search the Yolla Bolla Mountain Range and recover the Holotag of Senior-Knight Mack. Afterwords bring it to me for your compensation. And while your at it, put down whatever beast killed him. Good luck." 
-lang["#MISSION_TANCRED_CLAWS_OUT_HINT"] = "Travel to Yolla Bolla Mountain Range and recover Senior-Knight Mack's Holotag."
-lang["#MISSION_TANCRED_CLAWS_OUT_COMPLETE"] = "Thank you for recovering his Holotag. This means a lot to everyone stationed here. Deathclaws, huh? Never encountered one myself but I've heard they are hellish like beasts in fight. It's not all that suprising that Mack couldn't kill a whole nest of them then. If your still interested in working for us I have a proposition. If you'll hear me out."
-lang["#MISSION_TANCRED_CLAWS_OUT_ITEMNAME"] = "Senior-Knight Mack's Holotag"
+lang["#MISSION_TANCRED_CLAWS_OUT"] = "Garras Afuera"
+lang["#MISSION_TANCRED_CLAWS_OUT_DESC"] = "Esta misión es un poco más personal para mí y para mis hermanos y hermanas destinados aquí. Recientemente, uno de nuestros hermanos que operaba en la región local hizo un viaje a un lugar conocido como la Cordillera de Yolla Bolly. El Caballero Superior Mack se entrenaba para convertirse en Paladín, y la Escriba Amy había descubierto un sitio importante en lo profundo de la cordillera. Debía explorar el área e informarnos por comunicaciones de radio.\n\nLa última transmisión que recibimos de él dijo que lo perseguía... algo. No está claro qué era exactamente lo que lo perseguía, ya que la transmisión se cortó. Lo único que describió fue que era una bestia diabólica. Ha pasado casi una semana desde que desapareció. No tengo dudas de que está muerto. Lo más probable es que si estuviera vivo pero capturado, habría enviado algún tipo de señal.\n\nAsí que la misión es simple: busca en la Cordillera de Yolla Bolly y recupera la Chapa de Identificación del Caballero Superior Mack. Luego tráemela para que te compense. Y de paso, acaba con la bestia que lo mató. Buena suerte."
+lang["#MISSION_TANCRED_CLAWS_OUT_HINT"] = "Viaja a la Cordillera de Yolla Bolly y recupera la Chapa de Identificación del Caballero Superior Mack."
+lang["#MISSION_TANCRED_CLAWS_OUT_COMPLETE"] = "Gracias por recuperar su Chapa de Identificación. Esto significa mucho para todos los destinados aquí. ¿Sanguinarios, eh? Nunca me he encontrado con uno, pero he oído que son bestias infernales en la lucha. No es tan sorprendente que Mack no pudiera matar a todo un nido de ellos. Si todavía estás interesado en trabajar para nosotros, tengo una propuesta. Si me permites."
+lang["#MISSION_TANCRED_CLAWS_OUT_ITEMNAME"] = "Chapa de Identificación del Caballero Superior Mack"
 
-lang["#MISSION_TANCRED_METALLIC_MONKS"] = "Metallic Monks"
-lang["#MISSION_TANCRED_METALLIC_MONKS_DESC"] = "Senior-Knight Mack's sacrifice will not be not in vain. We have put together a report on the local area from what information we were already told before his death. Since you seem willing to help out our cause despite everything thats happened, I'll have to ask another favor of you. Inside of this case is the report and Knight Mack's Holotags. Please see it safely to Paldin Percival at our base in Mountain Pass." 
-lang["#MISSION_TANCRED_METALLIC_MONKS_HINT"] = "Travel to Mountain Pass and talk to Paladin Percival."
-lang["#MISSION_TANCRED_METALLIC_MONKS_COMPLETE"] = "Paladin Tancred sent you? I will make sure Senior-Knight Mack's Holotag is put away properly. I'll send the report to the scribes for analysis later. In the mean time, if you need something let me know. Otherwise that will be all, Outsider."
-lang["#MISSION_TANCRED_METALLIC_MONKS_ITEMNAME"] = "Sealed Hi-Tech Case"
+lang["#MISSION_TANCRED_METALLIC_MONKS"] = "Monjes Metálicos"
+lang["#MISSION_TANCRED_METALLIC_MONKS_DESC"] = "El sacrificio del Caballero Superior Mack no será en vano. Hemos preparado un informe sobre el área local a partir de la información que ya nos habían dado antes de su muerte. Como pareces dispuesto a ayudar a nuestra causa a pesar de todo lo que ha pasado, tendré que pedirte otro favor. Dentro de este estuche están el informe y las Chapas de Identificación del Caballero Mack. Por favor, llévalos a salvo al Paladín Percival en nuestra base en el Paso de Montaña."
+lang["#MISSION_TANCRED_METALLIC_MONKS_HINT"] = "Viaja al Paso de Montaña y habla con el Paladín Percival."
+lang["#MISSION_TANCRED_METALLIC_MONKS_COMPLETE"] = "¿Te envió el Paladín Tancred? Me aseguraré de que la Chapa de Identificación del Caballero Superior Mack se guarde correctamente. Enviaré el informe a los escribas para que lo analicen más tarde. Mientras tanto, si necesitas algo, házmelo saber. Si no, eso es todo, Forastero."
+lang["#MISSION_TANCRED_METALLIC_MONKS_ITEMNAME"] = "Estuche Sellado de Alta Tecnología"
 
 RELOADSCHEMA = true

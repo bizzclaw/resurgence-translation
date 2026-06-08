@@ -1,4 +1,4 @@
-local lang = RSRG.Languages["en"]
+local lang = RSRG.Languages["es-es"]
 
 --    ██████╗  ██████╗ ███████╗    ███████╗ ██████╗██████╗ ██╗██████╗ ███████╗
 --    ██╔══██╗██╔═══██╗██╔════╝    ██╔════╝██╔════╝██╔══██╗██║██╔══██╗██╔════╝
@@ -7,43 +7,39 @@ local lang = RSRG.Languages["en"]
 --    ██████╔╝╚██████╔╝███████║    ███████║╚██████╗██║  ██║██║██████╔╝███████╗
 --    ╚═════╝  ╚═════╝ ╚══════╝    ╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝╚═════╝ ╚══════╝
 
+-- Repartidor de misiones
+lang["#MISSION_GIVER_BOSSCRIBE"] = "Escriba Superior Llewelyn"
+lang["#MISSION_GIVER_BOSSCRIBE_SUBTITLE"] = "Escriba Superior de la Hermandad"
+lang["#MISSION_GIVER_BOSSCRIBE_NEW"] = "Bienvenido, Forastero, a los archivos públicos. Los escribas se han dedicado a descubrir y documentar reliquias del viejo mundo. Si deseas ayudar con eso, no busques más."
+lang["#MISSION_GIVER_BOSSCRIBE_NO"] = "Normalmente llamaría a los Paladines para que te echaran. Sin embargo, aún podrías ser útil para nosotros. No confundas mi perdón con amabilidad."
+lang["#MISSION_GIVER_BOSSCRIBE_0"] = "Bienvenido de nuevo, Forastero. Echa un vistazo a algunos de los trabajos disponibles."
+lang["#MISSION_GIVER_BOSSCRIBE_25"] = "Has hecho un buen trabajo para nosotros. Sigue así y serás recompensado."
+lang["#MISSION_GIVER_BOSSCRIBE_50"] = "Has recuperado muchos artefactos para nosotros, Forastero. Te lo agradecemos."
+lang["#MISSION_GIVER_BOSSCRIBE_100"] = "Muchos secretos del viejo mundo se han recuperado gracias a tus esfuerzos. Y aún quedan muchos más. Sigue con el gran trabajo."
+lang["#MISSION_GIVER_BOSSCRIBE_GREET_FINISHED"] = "La Hermandad Prevalece."
 
+-- Misiones
+lang["#MISSION_BOSSCRIBE_LOST_AND_FOUND"] = "Perdido y Encontrado"
+lang["#MISSION_BOSSCRIBE_LOST_AND_FOUND_DESC"] = "Tengo algo para ti si buscas ayudar. Recientemente, alguien sacó un libro de la biblioteca. Sin embargo, aún no lo han devuelto. Ha pasado casi una semana. Pregunté por ahí y nadie parece saber nada. Estoy muy ocupado y no tengo tiempo para investigar esto. ¿Crees que podrías echar un vistazo?"
+lang["#MISSION_BOSSCRIBE_LOST_AND_FOUND_HINT"] = "Busca por todo el búnker un Libro Atrasado. No ha salido del búnker todavía."
+lang["#MISSION_BOSSCRIBE_LOST_AND_FOUND_COMPLETE"] = "Oh, este es. Perfecto. Lo guardaré. Gracias, Forastero."
+lang["#MISSION_BOSSCRIBE_LOST_AND_FOUND_ITEMNAME"] = "Libro Atrasado"
 
--- Mission Giver
-lang["#MISSION_GIVER_BOSSCRIBE"] = "Senior Scribe Llewelyn"
-lang["#MISSION_GIVER_BOSSCRIBE_SUBTITLE"] = "Brotherhood Senior Scribe"
-lang["#MISSION_GIVER_BOSSCRIBE_NEW"] = "Welcome Outsider, to the public archives. The scribes have dedicated themselves to uncovering and documenting relics of the old world. If you wish to help with that then look no further."
-lang["#MISSION_GIVER_BOSSCRIBE_NO"] = "Normally I'd just call the Paladins to throw you out. However you could still be useful to us. Don't mistake my forgiveness for kindness."
-lang["#MISSION_GIVER_BOSSCRIBE_0"] = "Welcome back, Outsider. Take a look at some of the open jobs that are available."
-lang["#MISSION_GIVER_BOSSCRIBE_25"] = "You've done good work for us. Keep it up and you will be rewarded."
-lang["#MISSION_GIVER_BOSSCRIBE_50"] = "You've recovered many artifacts for us Outsider. We Thank you for that."
-lang["#MISSION_GIVER_BOSSCRIBE_100"] = "Many secrets of the old world have been recovered thanks to your efforts. And yet many more remain. keep up the great work."
-lang["#MISSION_GIVER_BOSSCRIBE_GREET_FINISHED"] = "The Brotherhood Prevails."
+lang["#MISSION_BOSSCRIBE_LOST_DATA"] = "Datos Perdidos"
+lang["#MISSION_BOSSCRIBE_LOST_DATA_DESC"] = "Una de las tareas de los Escribas es recolectar y preservar tecnología y datos perdidos de antes de la gran guerra. En tus viajes, puedes encontrarte con piezas de conocimiento útil. Para un habitante del yermo, no son más que chatarra. Pero con el conocimiento y la información adecuados, se pueden usar para reconstruir o descubrir tecnologías perdidas desde hace mucho tiempo. Si te encuentras con alguna pieza, házmelo saber."
+lang["#MISSION_BOSSCRIBE_LOST_DATA_HINT"] = "En tus viajes puedes encontrar Datos Técnicos. Tráelos al Escriba de la Hermandad para recibir una recompensa."
+lang["#MISSION_BOSSCRIBE_LOST_DATA_COMPLETE"] = "Parece que encontraste exactamente lo que estaba buscando. Dame una hora más o menos para archivar esta pieza y tomaré las que te hayan sobrado."
 
+lang["#MISSION_BOSSCRIBE_FETID_MARSH"] = "Pantano Fétido"
+lang["#MISSION_BOSSCRIBE_FETID_MARSH_DESC"] = "Informes de campo recientes de los Paladines muestran un aumento en las hostilidades de la población local de Mirelurks. Debido a nuestra proximidad a su nido, sospecho que esa podría ser la razón. Sin embargo, uno de los escribas propuso algo interesante. Puede que se esté formando un nuevo tipo de huevo o un huevo de Reina, lo que resulta en que se vuelvan mucho más territoriales de lo normal. Si quieres, por favor entra en el nido y mira si puedes encontrar un huevo así. Ah, y ten cuidado de no matar o dañar ningún huevo."
+lang["#MISSION_BOSSCRIBE_FETID_MARSH_HINT"] = "Entra al sistema de cuevas debajo del búnker y encuentra el Área de Anidación de Mirelurks cercana. Luego encuentra un Huevo de Mirelurk Mutado dentro del nido."
+lang["#MISSION_BOSSCRIBE_FETID_MARSH_COMPLETE"] = "Maravilloso. Esto servirá muy bien. Aquí está tu recompensa."
+lang["#MISSION_BOSSCRIBE_FETID_MARSH_ITEMNAME"] = "Huevo de Mirelurk Mutado"
 
--- Missions
-
-lang["#MISSION_BOSSCRIBE_LOST_AND_FOUND"] = "Lost And Found"
-lang["#MISSION_BOSSCRIBE_LOST_AND_FOUND_DESC"] = "I got something for you to do if your looking to help out. Recently someone checked out a book from the library. However they havent returned the book yet. its been nearly a week. I've asked around and no one seems to know anything. I'm just so busy and don't have the time to look into this. Do you think you could take a look around?"
-lang["#MISSION_BOSSCRIBE_LOST_AND_FOUND_HINT"] = "Search throughout the bunker for an Overdue Book. It hasn't left the bunker yet."
-lang["#MISSION_BOSSCRIBE_LOST_AND_FOUND_COMPLETE"] = "Oh this is it. Perfect. I will get this put away. Thank you, Outsider."
-lang["#MISSION_BOSSCRIBE_LOST_AND_FOUND_ITEMNAME"] = "Overdue Book"
-
-lang["#MISSION_BOSSCRIBE_LOST_DATA"] = "Lost Data"
-lang["#MISSION_BOSSCRIBE_LOST_DATA_DESC"] = "One of the duites of the Scribes to collect and preserve lost technology and data from before the great war. Along your travels you may come across such pieces of useful knowledge. To a wastelander these are nothing but scrap. But with the right know how and information they can be used to reconstruct or discover long lost pieces of technology from the before. If you are to run across any pieces do let me know."
-lang["#MISSION_BOSSCRIBE_LOST_DATA_HINT"] = "Along your travels you may find Technical Data. Bring them to the Brotherhood Scribe for a reward."
-lang["#MISSION_BOSSCRIBE_LOST_DATA_COMPLETE"] = "It seems you found exactly what I was looking for. Give me an hour or so to archive this piece and I'll take any you may have left."
-
-lang["#MISSION_BOSSCRIBE_FETID_MARSH"] = "Fetid Marsh"
-lang["#MISSION_BOSSCRIBE_FETID_MARSH_DESC"] = "Recent field reports from the Paladins has shown an uptick in hostilites from the local Mirelurk population. Due to our close proximity to their nest I suspect that might be the reason why. However one of the scribes purposed something interesting. It may be a new Kind or Queen egg is being formed, resulting in them becoming far more territorial than normal. If you would, please enter the nest and see if you could find such an egg. Oh, and do be careful not to kill or damage any eggs."
-lang["#MISSION_BOSSCRIBE_FETID_MARSH_HINT"] = "Enter the cave system below the bunker and find the nearby Mirelurk Nesting Grounds. Then find a Mutated Mirelruk Egg within the nest."
-lang["#MISSION_BOSSCRIBE_FETID_MARSH_COMPLETE"] = "Wonderful. This will do nicely. Here is your reward."
-lang["#MISSION_BOSSCRIBE_FETID_MARSH_ITEMNAME"] = "Mutated Mirelurk Egg"
-
-lang["#MISSION_BOSSCRIBE_PAST_HAS_PASSED_AWAY"] = "The Past Has Passed Away"
-lang["#MISSION_BOSSCRIBE_PAST_HAS_PASSED_AWAY_DESC"] = "Some older reports from the terminals down here stated some kind of Military Convoy was moving through Salem. It was transporting a bunch of hazardous chemicals and some pre-war data. I have reason to believe that this convoy and this data is still located somewhere in Salem. It was inside a secure locked box."
-lang["#MISSION_BOSSCRIBE_PAST_HAS_PASSED_AWAY_HINT"] = "Enter the cave system below the bunker and find the nearby Mirelurk Nesting Grounds. Then find a Mutated Mirelruk Egg within the nest."
-lang["#MISSION_BOSSCRIBE_PAST_HAS_PASSED_AWAY_COMPLETE"] = "Find the crashed military convoy in Salem and recover the military radiation case."
-lang["#MISSION_BOSSCRIBE_PAST_HAS_PASSED_AWAY_ITEMNAME"] = "Secure Radiation Box"
+lang["#MISSION_BOSSCRIBE_PAST_HAS_PASSED_AWAY"] = "El Pasado ha Fallecido"
+lang["#MISSION_BOSSCRIBE_PAST_HAS_PASSED_AWAY_DESC"] = "Algunos informes antiguos de las terminales de aquí abajo indicaban que un convoy militar se movía a través de Salem. Transportaba un montón de productos químicos peligrosos y algunos datos de antes de la guerra. Tengo razones para creer que este convoy y estos datos todavía se encuentran en algún lugar de Salem. Estaban dentro de una caja de seguridad cerrada."
+lang["#MISSION_BOSSCRIBE_PAST_HAS_PASSED_AWAY_HINT"] = "Entra al sistema de cuevas debajo del búnker y encuentra el Área de Anidación de Mirelurks cercana. Luego encuentra un Huevo de Mirelurk Mutado dentro del nido."  -- NOTE: This hint seems incorrect; likely a copy-paste error. But keeping original.
+lang["#MISSION_BOSSCRIBE_PAST_HAS_PASSED_AWAY_COMPLETE"] = "Encuentra el convoy militar accidentado en Salem y recupera la caja de radiación militar."
+lang["#MISSION_BOSSCRIBE_PAST_HAS_PASSED_AWAY_ITEMNAME"] = "Caja Lineada de Plomo"
 
 RELOADSCHEMA = true

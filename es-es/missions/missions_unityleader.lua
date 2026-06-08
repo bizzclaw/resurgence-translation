@@ -1,5 +1,4 @@
-local lang = RSRG.Languages["en"]
-
+local lang = RSRG.Languages["es-es"]
 
 -- ██╗   ██╗███╗   ██╗██╗████████╗██╗   ██╗    ██╗     ███████╗ █████╗ ██████╗ ███████╗██████╗     ███╗   ███╗██╗███████╗███████╗██╗ ██████╗ ███╗   ██╗███████╗
 -- ██║   ██║████╗  ██║██║╚══██╔══╝╚██╗ ██╔╝    ██║     ██╔════╝██╔══██╗██╔══██╗██╔════╝██╔══██╗    ████╗ ████║██║██╔════╝██╔════╝██║██╔═══██╗████╗  ██║██╔════╝
@@ -8,23 +7,24 @@ local lang = RSRG.Languages["en"]
 -- ╚██████╔╝██║ ╚████║██║   ██║      ██║       ███████╗███████╗██║  ██║██████╔╝███████╗██║  ██║    ██║ ╚═╝ ██║██║███████║███████║██║╚██████╔╝██║ ╚████║███████║
 --  ╚═════╝ ╚═╝  ╚═══╝╚═╝   ╚═╝      ╚═╝       ╚══════╝╚══════╝╚═╝  ╚═╝╚═════╝ ╚══════╝╚═╝  ╚═╝    ╚═╝     ╚═╝╚═╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
 
-
--- Mission Giver
+-- Repartidor de misiones
 lang["#MISSION_GIVER_UNITYLEADER"] = "Gilgamesh"
-lang["#MISSION_GIVER_UNITYLEADER_NEW"] = "I welcome you to our humble Monastery, child. I am Gilgamesh, High Priest of the Unity and a humble advisor to this flock. Here we tend to all who have been touched by the Master and the Holy Flame; where the NCR or the grey ghosts call us 'mutant' or 'zombie' or other such barbs, the Unity recognises the truth. We are the chosen, those have been touched by fire and war and emerged stronger and more pure.\n\nI invite you to stay a while and listen, child, for I have much to teach you.\n"
-lang["#MISSION_GIVER_UNITYLEADER_N0"] = "You have sinned, child. I do not blame you, and I wholeheartedly forgive you... but forgiveness does not excuse you from needing to repent.\n\nAttend to these further labors and we shall consider your penance ongoing.\n"
-lang["#MISSION_GIVER_UNITYLEADER_0"] = "Welcome back to the Monastery, child. Your aid is humbly requested with these tasks.\n"
-lang["#MISSION_GIVER_UNITYLEADER_50"] = "You have earned a place here, $playername. You are permitted into the lower levels of the Monastery, as well as access to our supplies. If you still desire to serve, we have much that needs to be done.\n"
-lang["#MISSION_GIVER_UNITYLEADER_100"] = "Welcome back, warrior. You do honor to our Dark God and his Holy Flame with your work."
+lang["#MISSION_GIVER_UNITYLEADER_NEW"] = "Te doy la bienvenida a nuestro humilde Monasterio, hijo. Soy Gilgamesh, Sumo Sacerdote de la Unidad y humilde consejero de este rebaño. Aquí atendemos a todos los que han sido tocados por el Maestro y la Llama Sagrada; donde la RNC o los fantasmas grises nos llaman 'mutante' o 'zombi' u otros insultos similares, la Unidad reconoce la verdad. Somos los elegidos, aquellos que han sido tocados por el fuego y la guerra y han emergido más fuertes y más puros.\n\nTe invito a quedarte un rato y escuchar, hijo, porque tengo mucho que enseñarte."
+lang["#MISSION_GIVER_UNITYLEADER_N0"] = "Has pecado, hijo. No te culpo, y te perdono de corazón... pero el perdón no te exime de necesitar arrepentirte.\n\nAtiende a estas tareas adicionales y consideraremos tu penitencia en curso."
+lang["#MISSION_GIVER_UNITYLEADER_0"] = "Bienvenido de nuevo al Monasterio, hijo. Se solicita humildemente tu ayuda con estas tareas."
+lang["#MISSION_GIVER_UNITYLEADER_50"] = "Te has ganado un lugar aquí, $playername. Se te permite el acceso a los niveles inferiores del Monasterio, así como a nuestros suministros. Si aún deseas servir, tenemos mucho que debe hacerse."
+lang["#MISSION_GIVER_UNITYLEADER_100"] = "Bienvenido de nuevo, guerrero. Honras a nuestro Dios Oscuro y a su Llama Sagrada con tu trabajo."
 
--- Missions
-lang["#MISSION_UNITYLEADER_FLAME"] = "Tenant One: The Holy Flame"
-lang["#MISSION_UNITYLEADER_FLAME_DESC"] = "I am well pleased that you have decided to listen to this old ghoul and his teachings, child. You have been touched by the Holy Flame, and yet you may not remember our Master and the Cathedral. Our teachings will take time to settle, so I shall begin simply.\n\nThe Holy Flame scorched the Earth on the 23rd of October, 2077; a date you may know better as the Great War. It was the death of the old world and its corruption and the beginning of the new; a chance to learn from the mistakes of our forefathers.\n\nAh, but I have begun to ramble. I have a task for you, and then I shall teach you more. Somewhere in the ruins of Salem, there is a bombed out building occupied by the Rejects; those who abhor our faith. There is a holy symbol within that they profane; I would like for you to retrieve it and return it to me. When you have done this, I shall teach you our second tenant."
-lang["#MISSION_UNITYLEADER_FLAME_HINT"] = "Find the Holy Symbol. It can be found in the Rejected compound near the US Army convoy in the center of Salem."
-lang["#MISSION_UNITYLEADER_FLAME_COMPLETE"] = "You have done well, child. I shall teach you more."
-lang["#MISSION_UNITYLEADER_FLAME_ITEMNAME"] = "Holy Symbol"
+-- Misiones
+lang["#MISSION_UNITYLEADER_FLAME"] = "Precepto Uno: La Llama Sagrada"
+lang["#MISSION_UNITYLEADER_FLAME_DESC"] = "Me alegra mucho que hayas decidido escuchar a este viejo necrófago y sus enseñanzas, hijo. Has sido tocado por la Llama Sagrada, y sin embargo puede que no recuerdes a nuestro Maestro y la Catedral. Nuestras enseñanzas tardarán en asentarse, así que comenzaré de manera sencilla.\n\nLa Llama Sagrada abrasó la Tierra el 23 de octubre de 2077; una fecha que quizás conozcas mejor como la Gran Guerra. Fue la muerte del viejo mundo y su corrupción y el comienzo del nuevo; una oportunidad para aprender de los errores de nuestros antepasados.\n\nAh, pero he empezado a divagar. Tengo una tarea para ti, y luego te enseñaré más. En algún lugar de las ruinas de Salem, hay un edificio destruido por bombas ocupado por los Rechazados; aquellos que aborrecen nuestra fe. Hay un símbolo sagrado dentro que ellos profanan; me gustaría que lo recuperaras y me lo devolvieras. Cuando hayas hecho esto, te enseñaré nuestro segundo precepto."
+lang["#MISSION_UNITYLEADER_FLAME_HINT"] = "Encuentra el Símbolo Sagrado. Se puede encontrar en el complejo de los Rechazados cerca del convoy del Ejército de EE. UU. en el centro de Salem."
+lang["#MISSION_UNITYLEADER_FLAME_COMPLETE"] = "Lo has hecho bien, hijo. Te enseñaré más."
+lang["#MISSION_UNITYLEADER_FLAME_ITEMNAME"] = "Símbolo Sagrado"
 
-lang["#MISSION_UNITYLEADER_FLAWS"] = "Tenant Two: Humanity, Flawed"
-lang["#MISSION_UNITYLEADER_FLAWS_DESC"] = "The second tenant is a simple one; human nature is inherently flawed. Though some figures can overcome this natural block, very few can. Humans are foolish creatures, prone to greed, violence, and hatred. Many of the Cathedral's High Priests were all baseless and corrupt; Father Morpheus and Father Flayer were but two examples of the corrupt priesthood. While they were once our leaders, their corruption and blasphemy led to the destruction of the Cathedral and the death of our Master.\n\nI need not further explain to you what you must do. Though we are equal in the Darkness, humanity perverts it for their own ends. Seek the Shadowed all around us and snuff them out, child. Take no prisoners."
-lang["#MISSION_UNITYLEADER_FLAWS_HINT"] = "Kill twenty Shadowed bandits. They can be found all around Salem."
-lang["#MISSION_UNITYLEADER_FLAWS_COMPLETE"] = "You have been blooded; I see it in your eyes. Well done."
+lang["#MISSION_UNITYLEADER_FLAWS"] = "Precepto Dos: La Humanidad, Defectuosa"
+lang["#MISSION_UNITYLEADER_FLAWS_DESC"] = "El segundo precepto es simple; la naturaleza humana es inherentemente defectuosa. Aunque algunas figuras pueden superar este bloque natural, muy pocas pueden. Los humanos son criaturas necias, propensas a la codicia, la violencia y el odio. Muchos de los Sumos Sacerdotes de la Catedral eran insustanciales y corruptos; el Padre Morfeo y el Padre Desollador fueron solo dos ejemplos del sacerdocio corrupto. Si bien alguna vez fueron nuestros líderes, su corrupción y blasfemia llevaron a la destrucción de la Catedral y a la muerte de nuestro Maestro.\n\nNo necesito explicarte más lo que debes hacer. Aunque somos iguales en la Oscuridad, la humanidad la pervierte para sus propios fines. Busca a los Sombríos que nos rodean y aniquílalos, hijo. No tomes prisioneros."
+lang["#MISSION_UNITYLEADER_FLAWS_HINT"] = "Mata a veinte Bandidos Sombríos. Se pueden encontrar por todo Salem."
+lang["#MISSION_UNITYLEADER_FLAWS_COMPLETE"] = "Has sido ensangrentado; lo veo en tus ojos. Bien hecho."
+
+RELOADSCHEMA = true

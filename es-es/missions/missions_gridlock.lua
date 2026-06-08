@@ -1,168 +1,158 @@
-local lang = RSRG.Languages["en"]
+local lang = RSRG.Languages["es-es"]
 
---  ██████╗ ██████╗ ██╗██████╗ ██╗      ██████╗  ██████╗██╗  ██╗███████╗    ███╗   ███╗██╗███████╗███████╗██╗ ██████╗ ███╗   ██╗███████╗
--- ██╔════╝ ██╔══██╗██║██╔══██╗██║     ██╔═══██╗██╔════╝██║ ██╔╝██╔════╝    ████╗ ████║██║██╔════╝██╔════╝██║██╔═══██╗████╗  ██║██╔════╝
--- ██║  ███╗██████╔╝██║██║  ██║██║     ██║   ██║██║     █████╔╝ ███████╗    ██╔████╔██║██║███████╗███████╗██║██║   ██║██╔██╗ ██║███████╗
--- ██║   ██║██╔══██╗██║██║  ██║██║     ██║   ██║██║     ██╔═██╗ ╚════██║    ██║╚██╔╝██║██║╚════██║╚════██║██║██║   ██║██║╚██╗██║╚════██║
--- ╚██████╔╝██║  ██║██║██████╔╝███████╗╚██████╔╝╚██████╗██║  ██╗███████║    ██║ ╚═╝ ██║██║███████║███████║██║╚██████╔╝██║ ╚████║███████║
---  ╚═════╝ ╚═╝  ╚═╝╚═╝╚═════╝ ╚══════╝ ╚═════╝  ╚═════╝╚═╝  ╚═╝╚══════╝    ╚═╝     ╚═╝╚═╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
+--  ███████╗ ██████╗ ██╗██████╗ ██╗      ██████╗  ██████╗██╗  ██╗    ███████╗██╗   ██╗██╗
+--  ██╔════╝██╔═══██╗██║██╔══██╗██║     ██╔════╝ ██╔════╝██║  ██║    ██╔════╝╚██╗ ██╔╝██║
+--  █████╗  ██║   ██║██║██████╔╝██║     ██║  ███╗██║     ███████║    █████╗   ╚████╔╝ ██║
+--  ██╔══╝  ██║   ██║██║██╔══██╗██║     ██║   ██║██║     ██╔══██║    ██╔══╝    ╚██╔╝  ╚═╝
+--  ██║     ╚██████╔╝██║██║  ██║███████╗╚██████╔╝╚██████╗██║  ██║    ███████╗   ██║   ██╗
+--  ╚═╝      ╚═════╝ ╚═╝╚═╝  ╚═╝╚══════╝ ╚═════╝  ╚═════╝╚═╝  ╚═╝    ╚══════╝   ╚═╝   ╚═╝
 
--- Mission Giver
+-- Repartidor de misiones
 lang["#MISSION_GIVER_GRIDLOCK"] = "Gridlock"
-lang["#MISSION_GIVER_GRIDLOCK_SUBTITLE"] = "80s Tribe Chief"
-lang["#MISSION_GIVER_GRIDLOCK_GREET_NEW"] = "Yours is a face I do not know; I imagine you are the newest member that Tweak speaks so fondly of. Welcome, young one, to our trusted brotherhood.\n\nI am Gridlock, your chieftan. Think of me as a guide, an advisor, and a friend. The 80s are largely autonomous, but my word is respected and is law... at least in theory. Our tribe bleeds, $playername. We are fractured and weakened. The truth of matters is that I need the aid of new blood. To survive the trials to come, the 80s must evolve. It needs... a catalyst.\n\nAre you prepared to become that catalyst, $playername?"
-lang["#MISSION_GIVER_GRIDLOCK_GREET_N100"] = "You have strayed from your brothers and sisters, $playername. You may yet earn your redemption, however; put yourself to work."
-lang["#MISSION_GIVER_GRIDLOCK_GREET_0"] = "Welcome back, young one. Have you come to offer aid to your family?"
-lang["#MISSION_GIVER_GRIDLOCK_GREET_100"] = "I am glad to see that you have not yet been claimed by the wasteland, $playername. You have already given much to the tribe, but there is much and more I have yet to ask of you."
-lang["#MISSION_GIVER_GRIDLOCK_GREET_FINISHED"] = "Well met, $playername. You have walked the Salt Wells from end to end. There is nothing more I can teach you and the tribe is stronger than it ever has been thanks to you. Go, now; wander, roam, and remind the world why they should fear the sound of motors on the wind."
+lang["#MISSION_GIVER_GRIDLOCK_SUBTITLE"] = "Jefe de la Tribu de los 80"
+lang["#MISSION_GIVER_GRIDLOCK_GREET_NEW"] = "Tu rostro no me es conocido; imagino que eres el miembro más nuevo del que Tweak habla con tanto cariño. Bienvenido, joven, a nuestra hermandad de confianza.\n\nSoy Gridlock, tu jefe. Piensa en mí como un guía, un consejero y un amigo. Los 80 son en gran medida autónomos, pero mi palabra es respetada y es ley... al menos en teoría. Nuestra tribu sangra, $playername. Estamos fracturados y debilitados. La verdad es que necesito la ayuda de sangre nueva. Para sobrevivir a las pruebas que se avecinan, los 80 deben evolucionar. Necesitan... un catalizador.\n\n¿Estás preparado para convertirte en ese catalizador, $playername?"
+lang["#MISSION_GIVER_GRIDLOCK_GREET_N100"] = "Te has apartado de tus hermanos y hermanas, $playername. Aún puedes ganarte tu redención, sin embargo; ponte a trabajar."
+lang["#MISSION_GIVER_GRIDLOCK_GREET_0"] = "Bienvenido de nuevo, joven. ¿Has venido a ofrecer ayuda a tu familia?"
+lang["#MISSION_GIVER_GRIDLOCK_GREET_100"] = "Me alegra ver que el yermo no te ha reclamado todavía, $playername. Ya has dado mucho a la tribu, pero aún tengo mucho más que pedirte."
+lang["#MISSION_GIVER_GRIDLOCK_GREET_FINISHED"] = "Bienvenido, $playername. Has recorrido Salt Wells de punta a punta. No hay nada más que pueda enseñarte y la tribu es más fuerte que nunca gracias a ti. Ve ahora; deambula, recorre y recuerda al mundo por qué deben temer el sonido de los motores en el viento."
 
--- Missions
+-- Misiones
 
-lang["#MISSION_GRIDLOCK_LIFEBLOOD"] = "Lifeblood"
-lang["#MISSION_GRIDLOCK_LIFEBLOOD_DESC"] = "How experienced are you with wandering the wastes, young one? I understand Tweak's initiation trials were not particularly difficult, as many greenhorn men and women wander the salt flats. While under the protection of the NCR, you may have enjoyed the luxuries of Pre-War medicine. That, unfortunately, is not the way of things out here.\n\nWe live off what the wasteland provides, for better or worse. You are doubtless familiar with healing powder; its use, to be blunt, is a staple of our lives. Go; create for me five handfuls. I will not take them from you; this is merely a test of your competence.\n"
-lang["#MISSION_GRIDLOCK_LIFEBLOOD_HINT"] = "Cook 5 Healing Powder at a campfire for Gridlock. Broc Flowers and Xander Root can be found all around the Salt Wells region."
-lang["#MISSION_GRIDLOCK_LIFEBLOOD_COMPLETE"] = "Good, young one, good. Now the true work may begin."
+lang["#MISSION_GRIDLOCK_LIFEBLOOD"] = "Sangre Vital"
+lang["#MISSION_GRIDLOCK_LIFEBLOOD_DESC"] = "¿Qué experiencia tienes recorriendo el yermo, joven? Entiendo que las pruebas de iniciación de Tweak no fueron particularmente difíciles, ya que muchos hombres y mujeres novatos deambulan por los salares. Bajo la protección de la RNC, quizás hayas disfrutado de los lujos de la medicina de antes de la guerra. Eso, desafortunadamente, no es la forma de hacer las cosas aquí.\n\nVivimos de lo que el yermo proporciona, para bien o para mal. Sin duda conoces el polvo curativo; su uso, para ser franco, es un elemento básico de nuestras vidas. Ve; créame cinco puñados. No te los quitaré; esto es simplemente una prueba de tu competencia.\n"
+lang["#MISSION_GRIDLOCK_LIFEBLOOD_HINT"] = "Cocina 5 Polvos Curativos en una fogata para Gridlock. Se pueden encontrar Flores de Broc y Raíz de Xander por toda la región de Salt Wells."
+lang["#MISSION_GRIDLOCK_LIFEBLOOD_COMPLETE"] = "Bien, joven, bien. Ahora puede comenzar el verdadero trabajo."
 
-lang["#MISSION_GRIDLOCK_FIRSTTEST"] = "Your First Test"
-lang["#MISSION_GRIDLOCK_FIRSTTEST_DESC"] = "Your first test with us should be a trifling task. The quarry and junkyard are both infested with mole rats. I would like you to kill three of them. Be mindful of the NCR."
-lang["#MISSION_GRIDLOCK_FIRSTTEST_HINT"] = "Eliminate three Mole Rats for Gridlock. They can be found in the Quarry and Junkyard, but be mindful of the NCR!"
-lang["#MISSION_GRIDLOCK_FIRSTTEST_COMPLTE"] = "Good; I would have been disappointed if you had fallen to simple vermin."
+lang["#MISSION_GRIDLOCK_FIRSTTEST"] = "Tu Primera Prueba"
+lang["#MISSION_GRIDLOCK_FIRSTTEST_DESC"] = "Tu primera prueba con nosotros debería ser una tarea trivial. La cantera y el depósito de chatarra están infestados de ratas topo. Me gustaría que mataras tres de ellas. Cuídate de la RNC."
+lang["#MISSION_GRIDLOCK_FIRSTTEST_HINT"] = "Elimina tres Ratas Topo para Gridlock. Se pueden encontrar en la Cantera y el Depósito de Chatarra, ¡pero cuidado con la RNC!"
+lang["#MISSION_GRIDLOCK_FIRSTTEST_COMPLTE"] = "Bien; me habría decepcionado si hubieras caído ante simples alimañas."
 
+-- █████████╗███████╗
+-- ╚══██╔══╝╚════██║
+--    ██║      ██╔╝
+--    ██║     ██╔╝
+--    ██║     ██║
+--    ╚═╝     ╚═╝
 
--- ████████╗██████╗
--- ╚══██╔══╝╚════██╗
---    ██║    █████╔╝
---    ██║   ██╔═══╝
---    ██║   ███████╗
---    ╚═╝   ╚══════╝
+lang["#MISSION_GRIDLOCK_CHECKEAST"] = "Revisando el Campamento del Este"
+lang["#MISSION_GRIDLOCK_CHECKEAST_DESC"] = "Nuestro campamento del este está ubicado cerca de donde se encuentran la I-50 y la I-15. Las caravanas son populares en la zona, y asaltándolas adquirimos armas, comida, dinero y otros bienes.\n\n¿Podrías ir al campamento y recoger su tributo para la fortaleza principal? Puedes quedarte con una parte.\n"
+lang["#MISSION_GRIDLOCK_CHECKEAST_HINT"] = "Recupera el alijo de tributo del campamento del este. El campamento se encuentra directamente entre la cantera y la granja de Joe el Cuervo. ¡Cuidado con las minas!"
+lang["#MISSION_GRIDLOCK_CHECKEAST_COMPLTE"] = "No está mal el botín. Escoge tu parte del tributo."
+lang["#MISSION_GRIDLOCK_CHECKEAST_ITEMNAME"] = "Tributo del Campamento del Este"
 
-lang["#MISSION_GRIDLOCK_CHECKEAST"] = "Checking the East Camp"
-lang["#MISSION_GRIDLOCK_CHECKEAST_DESC"] = "Our eastern camp is located near where I-50 and I-15 meet. Caravans are popular through the area, and through raiding them we acquire weapons, food, money, and other goods.\n\nCould you go to the camp and collect their tribute to the main stronghold? You may keep a portion of it.\n"
-lang["#MISSION_GRIDLOCK_CHECKEAST_HINT"] = "Retrieve the tribute cache from the east camp. The camp is found directly between the quarry and Crow-Man Joe's farm. Watch out for the mines!"
-lang["#MISSION_GRIDLOCK_CHECKEAST_COMPLTE"] = "Not a bad haul. Take your pick of the tribute."
-lang["#MISSION_GRIDLOCK_CHECKEAST_ITEMNAME"] = "East Camp Tribute"
+lang["#MISSION_GRIDLOCK_CHECKWEST"] = "Revisando el Campamento del Oeste"
+lang["#MISSION_GRIDLOCK_CHECKWEST_DESC"] = "Nuestro campamento del oeste está adyacente a la ciudad de Salt Wells y a la gasolinera abandonada. Es un área arriesgada, porque aunque los viajeros frecuentan la zona, también lo hace la RNC. Sus botines suelen ser una mezcla de equipo de soldados de la RNC muertos y de aquellos viajeros que 'donan' a la tribu.\n\n¿Estarías dispuesto a recuperar el último tributo para la fortaleza principal y traerlo de vuelta? Una parte de la recompensa será tuya.\n"
+lang["#MISSION_GRIDLOCK_CHECKWEST_HINT"] = "Recupera el alijo de tributo del campamento del oeste. El campamento se encuentra directamente frente a la gasolinera Poseidon."
+lang["#MISSION_GRIDLOCK_CHECKWEST_COMPLETE"] = "Veo que han estado ocupados. Como prometí, tu parte del botín."
+lang["#MISSION_GRIDLOCK_CHECKWEST_ITEMNAME"] = "Tributo del Campamento del Oeste"
 
-lang["#MISSION_GRIDLOCK_CHECKWEST"] = "Checking the West Camp"
-lang["#MISSION_GRIDLOCK_CHECKWEST_DESC"] = "Our western camp is adjacent to the town of Salt Wells and the abandoned gas station. It is a risky area, for while travellers frequent the area so does the NCR. Their hauls are usually a mix of equipment from dead NCR troopers and from those travelers who 'donate' to the tribe.\n\nWould you be willing to retrieve the latest tribute to the main stronghold and bring it back? A portion of the bounty will be yours.\n"
-lang["#MISSION_GRIDLOCK_CHECKWEST_HINT"] = "Retrieve the tribute cache from the west camp. The camp is found directly across from the Poseidon gas station."
-lang["#MISSION_GRIDLOCK_CHECKWEST_COMPLETE"] = "I see they have been busy. As promised, your pick of the spoils."
-lang["#MISSION_GRIDLOCK_CHECKWEST_ITEMNAME"] = "West Camp Tribute"
+lang["#MISSION_GRIDLOCK_COMBATI"] = "Entrenamiento de Combate - I"
+lang["#MISSION_GRIDLOCK_COMBATI_DESC"] = "He estado en este juego durante más de sesenta años, joven. He ganado y perdido mucho; he disfrutado de la buena compañía de mis hermanos y hermanas solo para verlos morir en vano, ya sea por bala, enfermedad o hambre. Yo mismo he sufrido; es solo gracias al uso de la servoarmadura que todavía puedo caminar.\n\nHe dedicado el resto de mi vida a hacer todo lo posible para asegurarme de que la tribu esté preparada para la lucha venidera, y como nuestro miembro más nuevo, tú no eres la excepción. Sé que al menos eres capaz de luchar; ahora quiero que demuestres que eres un maestro.\n\nEmpezaremos con algo pequeño. Derrota a dos protectrones y a tantos necrófagos como puedas encontrar; esto no debería ser una tarea difícil.\n"
+lang["#MISSION_GRIDLOCK_COMBATI_HINT"] = "Mata dos Protectrones y diez necrófagos de cualquier tipo. Los Protectrones se pueden encontrar en la Fábrica, mientras que los Necrófagos Salvajes se pueden encontrar en y alrededor de ruinas y estructuras abandonadas."
+lang["#MISSION_GRIDLOCK_COMBATI_COMPLTE"] = "Te comportas como un guerrero nato. Toma esta recompensa y reflexiona sobre lo que has aprendido."
 
-lang["#MISSION_GRIDLOCK_COMBATI"] = "Combat Training - I"
-lang["#MISSION_GRIDLOCK_COMBATI_DESC"] = "I have been in this game for over sixty years, young one. I have gained and lost much; I have enjoyed the fine company of my brothers and sisters only to watch them die in vain, be it by bullet, disease, or starvation. I myself have suffered; it is only through the use of power armor that I can still walk.\n\nI have dedicated the remainder of my life to doing my best to ensure that the tribe is prepared for the coming struggle, and as our newest member you are no exception. I know that you are at least capable of battle; now I want you to prove you are a master.\n\nWe will start with something small. Defeat two protectrons and as many ghouls as you can find; this should not be a difficult task.\n"
-lang["#MISSION_GRIDLOCK_COMBATI_HINT"] = "Kill two Protectrons and ten ghouls of any kind. Protectrons can be found in the Factory, while Feral Ghouls can be found in and around ruins and abandoned structures."
-lang["#MISSION_GRIDLOCK_COMBATI_COMPLTE"] = "You carry yourself like a warrior born. Take this reward and reflect on what you've learned."
+lang["#MISSION_GRIDLOCK_EXPLORE"] = "Explorar y Comprender"
+lang["#MISSION_GRIDLOCK_EXPLORE_DESC"] = "Otra cosa que debes entender de nuestra tribu; somos vagabundos, y el Gran Lago Salado en todo su esplendor es nuestro hogar. Hay muchos lugares que visitar y explorar, y en lugar de asignarte una tarea más general, quiero que experimentes Salt Wells.\n\nVe, explora, aprende. Cuando lo hayas hecho, vuelve a mí.\n"
+lang["#MISSION_GRIDLOCK_EXPLORE_HINT"] = "Demuestra tu exploración de Salt Wells saqueando treinta contenedores. Los contenedores de botín se pueden encontrar dentro y alrededor de edificios y pueblos abandonados."
+lang["#MISSION_GRIDLOCK_EXPLORE_COMPLETE"] = "No necesitas contarme tu exploración. La sal y la suciedad en tu equipo hablan por sí mismas."
 
-lang["#MISSION_GRIDLOCK_EXPLORE"] = "Explore and Understand"
-lang["#MISSION_GRIDLOCK_EXPLORE_DESC"] = "Something else you must understand of our tribe; we are wanderers, and the Great Salt Lake in all of its glory is our home. There are many places to visit and explore, and rather than assign you a more general task I would have you experience the Salt Wells.\n\nGo, explore, learn. When you have done so, return to me.\n"
-lang["#MISSION_GRIDLOCK_EXPLORE_HINT"] = "Prove your exploration of Salt Wells by looting thirty containers. Loot containers can be found inside and around abandoned buildings and towns."
-lang["#MISSION_GRIDLOCK_EXPLORE_COMPLETE"] = "You need not tell me of your exploration. The salt and dirt in your gear speaks for itself."
+-- █████████╗███████╗
+-- ╚══██╔══╝╚════██║
+--    ██║      ██╔╝
+--    ██║     ██╔╝
+--    ██║     ██║
+--    ╚═╝     ╚═╝
 
+lang["#MISSION_GRIDLOCK_COMBATII"] = "Entrenamiento de Combate - II"
+lang["#MISSION_GRIDLOCK_COMBATII_DESC"] = "Enviarte a matar necrófagos es un desperdicio de tus talentos. En su lugar, te soltaré de nuevo contra la República de Nueva California. Quiero que tú, y solo tú, te enfrentes a un equipo de fusileros de la RNC y los destruyas. Tweak me ha informado que te enfrentaste a dos sin problema; cuatro no deberían ser un desafío mayor.\n"
+lang["#MISSION_GRIDLOCK_COMBATII_HINT"] = "Mata a cuatro Soldados de la RNC. Se pueden encontrar patrullando las carreteras de Salt Wells."
+lang["#MISSION_GRIDLOCK_COMBATII_COMPLETE"] = "El eco de los disparos y las lamentaciones de los moribundos me cuentan toda la historia que necesito. Bien hecho."
 
--- ████████╗██████╗
--- ╚══██╔══╝╚════██╗
---    ██║    █████╔╝
---    ██║    ╚═══██╗
---    ██║   ██████╔╝
---    ╚═╝   ╚═════╝
+lang["#MISSION_GRIDLOCK_TAKING"] = "Tomando lo que Necesitamos"
+lang["#MISSION_GRIDLOCK_TAKING_DESC"] = "Durante tu iniciación, es posible que hayas entendido lo que hacemos aquí, joven. Nuestra gente aceptó hace mucho tiempo que no hay quien nos lleve de la mano en el mundo. No pedimos ni rogamos; tomamos lo que necesitamos cuando lo necesitamos.\n\nUna lección práctica está en orden. La tribu necesita comida, y tú la conseguirás. Quiero que vayas a la granja del viejo loco que dispara a los cuervos y quiero que saquees los cultivos de su campo. Después, quiero que recojas toda la fruta de nopal y el maíz navaja que puedas alrededor del lago cercano para destilar agua. ¿Puedes hacer esto por mí?\n"
+lang["#MISSION_GRIDLOCK_TAKING_HINT"] = "Recoge cuatro Maíz, cinco Maíz Navaja y cinco Frutas de Nopal. El maíz se puede encontrar en la granja de Joe el Cuervo; todo lo demás se puede encontrar alrededor del lago."
+lang["#MISSION_GRIDLOCK_TAKING_COMPLETE"] = "Un buen botín. Hemos preparado algunas comidas; elige la tuya."
 
-lang["#MISSION_GRIDLOCK_COMBATII"] = "Combat Training - II"
-lang["#MISSION_GRIDLOCK_COMBATII_DESC"] = "Sending you to cull ghouls is a waste of your talents. Instead, I will unleash you back onto the New California Republic. I want you and you alone to engage a fireteam of NCR Troopers and destroy them. Tweak has informed me that you handled two without issue; four should be no greater a challenge.\n"
-lang["#MISSION_GRIDLOCK_COMBATII_HINT"] = "Kill four NCR Troopers. They can be found patrolling the roads of Salt Wells."
-lang["#MISSION_GRIDLOCK_COMBATII_COMPLETE"] = "The echo of gunfire and the lamentations of the dying tell me all the story I need. Well done."
+lang["#MISSION_GRIDLOCK_FILTHY"] = "Sucio pero Efectivo"
+lang["#MISSION_GRIDLOCK_FILTHY_DESC"] = "Contra la RNC, estamos superados en número y en armamento. Aunque podamos montar nuestros vehículos en el Gran Lago Salado, no podemos hacer lo mismo en esta región en particular. Ya conoces a nuestros mejores guerreros, a quienes la RNC apoda 'Grandes Camiones' por los grandes camiones de antaño. Sin embargo, son pocos en número, y sus armaduras son valiosas y escasas. Hay otra ventaja que tenemos, eso sí... las drogas.\n\nLa mayoría de nuestras drogas se exportan a los mercados negros de New Reno y Shady Sands, pero fabricamos una en casa; aceite de motor. No necesito describirla; tráeme los ingredientes para cocinarla, y podrás experimentarla tú mismo. Tráeme limpiador Abraxo y néctar de hormiga; yo pondré el resto."
+lang["#MISSION_GRIDLOCK_FILTHY_HINT"] = "Trae un Néctar de Hormiga y Limpiador Abraxo a Gridlock. El Limpiador Abraxo se puede encontrar en contenedores domésticos como cajas de metal. El Néctar de Hormiga se puede encontrar matando hormigas en los túneles debajo de Salt Wells."
+lang["#MISSION_GRIDLOCK_FILTHY_COMPLETE"] = "Sí, esto es suficiente. Puedes tener el primer lote, así como una... medida preventiva."
 
-lang["#MISSION_GRIDLOCK_TAKING"] = "Taking What We Need"
-lang["#MISSION_GRIDLOCK_TAKING_DESC"] = "During your initiation, you may have gathered what it is we do here, young one. Our people accepted long ago that there is no hand-holding in the world. We do not ask and we do not beg; we take what we need when we need it.\n\nA practical lesson is in order. The tribe is in need of food, and you will acquire it. I want you to go to the crazy old crow shooter's farm and I want you to plunder the crops from his field. After that, I want you to pick all the pear fruit and razorgrain you can around the nearby lake so we can distill water. Can you do this for me?\n"
-lang["#MISSION_GRIDLOCK_TAKING_HINT"] = "Pick four Corn, five Razorgrain, and five Prickly Pear Fruits. Corn can be found at Crow-Man Joe's farm; everything else can be found around the lake."
-lang["#MISSION_GRIDLOCK_TAKING_COMPLETE"] = "A good bounty. We have prepared a few meals; take your pick."
+lang["#MISSION_GRIDLOCK_ATOMIC"] = "Rescate Atómico"
+lang["#MISSION_GRIDLOCK_ATOMIC_DESC"] = "¿Has mirado la bomba nuclear sin detonar en los salares? Es un milagro que el dispositivo no explotara al caer. La bomba en sí fue desactivada poco después de la guerra por nuestros antepasados, pero uno de la tribu descubrió algo importante; el uranio no ha sido removido.\n\nEntiendo los riesgos inherentes, pero me gustaría que recuperaras ese uranio. Esta es la variedad pura de antes de la guerra; no es el material reciclado que se usa comúnmente hoy en día. Si te mueves rápido dentro y fuera, la radiación no debería ser demasiado intensa. ¿Estás dispuesto a hacer esto?\n"
+lang["#MISSION_GRIDLOCK_ATOMIC_HINT"] = "Recupera el Uranio-235 de la bomba sin detonar en Salt Wells. La bomba se puede encontrar en el lago salado cerca del pueblo abandonado."
+lang["#MISSION_GRIDLOCK_ATOMIC_COMPLETE"] = "Incluso lo encontraste en su carcasa protectora; excelente. Toma un poco de Rad-Away, descontamínate."
+lang["#MISSION_GRIDLOCK_ATOMIC_ITEMNAME"] = "Bote de Uranio-235"
 
-lang["#MISSION_GRIDLOCK_FILTHY"] = "Filthy But Effective"
-lang["#MISSION_GRIDLOCK_FILTHY_DESC"] = "Against the NCR, we are outnubmered and outgunned. Though we may ride our vehicles in the Great Salt Lake, we cannot do the same in this particular region. You have already met our greatest warriors, who the NCR have nicknamed Big Rigs after the large trucks of old. They are few in number, however, and their armour is precious and rare. There is one other advantage we have, though... chems.\n\n Most of our chems are exported to the black markets of New Reno and Shady Sands, but we make one in house; motor oil. I need not describe it; bring to me the ingredients to cook it, and you may experience it yourself. Bring to me abraxo cleaner and ant nectar; I will supply the rest."
-lang["#MISSION_GRIDLOCK_FILTHY_HINT"] = "Bring one Ant Nectar and Abraxo Cleaner to Gridlock. Abraxo Cleaner can be found in household containers such as metal boxes. Ant Nectar can be found by killing ants in the tunnels beneath Salt Wells."
-lang["#MISSION_GRIDLOCK_FILTHY_COMPLETE"] = "Yes, this is sufficient. You may have the first batch, as well as a... preventive measure."
+-- █████████╗███████╗
+-- ╚══██╔══╝╚════██║
+--    ██║      ██╔╝
+--    ██║     ██╔╝
+--    ██║     ██║
+--    ╚═╝     ╚═╝
 
-lang["#MISSION_GRIDLOCK_ATOMIC"] = "Atomic Salvage"
-lang["#MISSION_GRIDLOCK_ATOMIC_DESC"] = "Have you looked upon the undetonated nuclear bomb in the salt flats? It is a miracle the device did not explode when it landed. The bomb itself was disarmed not long after the war by our ancestors, but one of the tribe discovered somethimg important; the uranium has not been removed.\n\nI understand the risks inherent in it, but I would like for you to retrieve that uranium. This is the pure variety from before the war; it is not the recycled material largely used these days. If you move quickly in and out, the radiation should not be too intense. Are you willing to do this?\n"
-lang["#MISSION_GRIDLOCK_ATOMIC_HINT"] = "Retrieve the Uranium-235 from the undetonated bomb in Salt Wells. The bomb can be found in the salt lake near the abandoned town."
-lang["#MISSION_GRIDLOCK_ATOMIC_COMPLETE"] = "You even found it in the protective casing; excellent. Take some Rad-Away, get yourself clean."
-lang["#MISSION_GRIDLOCK_ATOMIC_ITEMNAME"] = "Uranium-235 Canister"
+lang["#MISSION_GRIDLOCK_COMBATIII"] = "Entrenamiento de Combate - III"
+lang["#MISSION_GRIDLOCK_COMBATIII_DESC"] = "¿Ansías más sangre, verdad? Asegúrate de que esa sangre no sea la tuya, joven. Los mutascorpiones son criaturas peligrosas; se sabe que atacan desde madrigueras y su veneno es potente. ¿Eres capaz de vencerlos? Muéstramelo.\n"
+lang["#MISSION_GRIDLOCK_COMBATIII_HINT"] = "Mata dos Mutascorpiones. Los mutascorpiones se pueden encontrar enterrados en los salares cerca del refugio."
+lang["#MISSION_GRIDLOCK_COMBATIII_COMPLETE"] = "Eres, como se esperaba, victorioso. Te has ganado esta recompensa, $playername."
 
+lang["#MISSION_GRIDLOCK_VAULTPREP"] = "Incursión al Refugio - Preparación"
+lang["#MISSION_GRIDLOCK_VAULTPREP_DESC"] = "Tu estrella ha ascendido rápidamente para brillar, $playername. Estoy dispuesto a confiarte una misión que creo que solo tú eres capaz de realizar. Hemos aprendido algo importante del tráfico de radio de la RNC; la presencia de un refugio debajo de los salares. Sin duda alberga una gran cantidad de objetos rescatables, así como un objeto en particular que requiero. Si estás dispuesto a asaltarlo, prepárate. Trae suministros médicos; yo te proporcionaré munición adicional.\n"
+lang["#MISSION_GRIDLOCK_VAULTPREP_HINT"] = "Consigue dos Stimpaks y un Rad-Away. Los Stimpaks y Rad-Away se pueden saquear, fabricar o comprar a los comerciantes."
+lang["#MISSION_GRIDLOCK_VAULTPREP_COMPLETE"] = "Eso debería ser suficiente. Elige tu munición para la expedición."
 
--- ████████╗██╗  ██╗
--- ╚══██╔══╝██║  ██║
---    ██║   ███████║
---    ██║   ╚════██║
---    ██║        ██║
---    ╚═╝        ╚═╝
+lang["#MISSION_GRIDLOCK_VAULTRAID"] = "Incursión al Refugio - Ejecución"
+lang["#MISSION_GRIDLOCK_VAULTRAID_DESC"] = "Estás tan listo como nunca lo estarás, joven. Aventúrate en el refugio y mira qué puedes encontrar. Por cierto, hay un objeto de valor dentro que la Tribu está buscando; algún tipo de documentación. Si lo encuentras, tráemelo y serás generosamente recompensado. Es probable que la mayoría de los documentos importantes se encuentren en la oficina del Supervisor.\n"
+lang["#MISSION_GRIDLOCK_VAULTRAID_HINT"] = "Explora el refugio. La oficina del Supervisor puede tener los documentos que Gridlock está buscando."
+lang["#MISSION_GRIDLOCK_VAULTRAID_COMPLETE"] = "Bien hecho, $playername. Bien hecho. Te has ganado tu recompensa diez veces más."
+lang["#MISSION_GRIDLOCK_VAULTRAID_CUSTOMUI"] = "Explora el Refugio"
+lang["#MISSION_GRIDLOCK_VAULTRAID_ITEMNAME"] = "Documentación de Antes de la Guerra"
 
-lang["#MISSION_GRIDLOCK_COMBATIII"] = "Combat Training - III"
-lang["#MISSION_GRIDLOCK_COMBATIII_DESC"] = "Eager for more blood, are we? Take the time to ensure that blood is not your own, young one. Radscorpions are dangerous creatures; they are known to strike from burrows and their venom is potent. Are you capable of defeating them? Show me.\n"
-lang["#MISSION_GRIDLOCK_COMBATIII_HINT"] = "Kill two Radscorpions. Radscorpions can be found burrowed in the salt flats near the vault."
-lang["#MISSION_GRIDLOCK_COMBATIII_COMPLETE"] = "You are, as expected, victorious. You have earned this reward, $playername."
+lang["#MISSION_GRIDLOCK_FINALTEST"] = "Tu Prueba Final"
+lang["#MISSION_GRIDLOCK_FINALTEST_DESC"] = "Has luchado duro durante mucho tiempo, y ahora te someteré a tu prueba final. Los supervivientes de la RNC del primer empujón al refugio informaron de necrófagos anormalmente fuertes. Encuentra uno, mátalo y vuelve a mí. Esa será mi prueba final para ti, $playername."
+lang["#MISSION_GRIDLOCK_FINALTEST_HINT"] = "Elimina un Necrófago Salvaje Segador. Se pueden encontrar en el refugio debajo de Salt Wells. Los Segadores son muy resistentes al daño cuerpo a cuerpo, por lo que se recomienda usar un arma a distancia."
+lang["#MISSION_GRIDLOCK_FINALTEST_COMPLETE"] = "Bien hecho, $playername... bien hecho. Permíteme proporcionarte una armadura. Elige."
 
-lang["#MISSION_GRIDLOCK_VAULTPREP"] = "Vault Raid - Preparation"
-lang["#MISSION_GRIDLOCK_VAULTPREP_DESC"] = "Your star has risen quickly to shine, $playername. I am willing to trust you with a mission that I believe only you are capable of. We have learned somethimg important from the NCR's radio traffic; the presence of a vault below the salt flats. It no doubt houses a wealth of salvage, as well as a particular item that I require. If you are willing to raid it, prepare yourself. Bring medical supplies; I will provide you some additional ammunition.\n"
-lang["#MISSION_GRIDLOCK_VAULTPREP_HINT"] = "Obtain two Stimpaks and one Rad-Away. Stimpaks and Rad-Away can be scavenged, crafted, or bought from traders."
-lang["#MISSION_GRIDLOCK_VAULTPREP_COMPLETE"] = "That should be adequate. Take your pick of ammunition for the expedition."
+lang["#MISSION_GRIDLOCK_SIGNAL"] = "Señal"
+lang["#MISSION_GRIDLOCK_SIGNAL_DESC"] = "Ah, $playername, me alegra verte después de pasar tu prueba. Espero que estés bien, porque tengo una tarea para ti. Algunos de nuestros Agentes de Carretera han informado que la RNC está moviendo algún tipo de equipo hacia la estación de radio abandonada cerca de su ciudad. Quiero que vayas allí a investigar, y si están intentando repoblarla, frena sus medios; si desean hacer que la radio funcione de nuevo, niégales la energía. Ahora ve, deseamos tu regreso seguro."
+lang["#MISSION_GRIDLOCK_SIGNAL_HINT"] = "Gridlock quiere que investigues la estación de radio cerca de la carretera principal. Tal vez buscar una torre de radio sea una buena idea."
+lang["#MISSION_GRIDLOCK_SIGNAL_COMPLETE"] = "¿Qué? $playername, nunca te habría enviado allí si hubiera sabido quién custodiaba ese lugar. Esto es un problema, ¿y tan cerca de uno de nuestros campamentos de tributo? Se están expandiendo, a un ritmo rápido. Hablaré con el Tribunal, toma esto como mi agradecimiento, es hora de un enfoque diferente."
+lang["#MISSION_GRIDLOCK_SIGNAL_ITEMNAME"] = "Generador"
 
-lang["#MISSION_GRIDLOCK_VAULTRAID"] = "Vault Raid - Execution"
-lang["#MISSION_GRIDLOCK_VAULTRAID_DESC"] = "You are as ready as you will ever be, young one. Venture into the vault and see what you can find. By the way, there is an object of value within that the Tribe is looking after; some form of documentation. If you find it, bring it to me and you will be handsomely rewarded. Most of the important paperwork is likely to be found in the Overseer's office.\n"
-lang["#MISSION_GRIDLOCK_VAULTRAID_HINT"] = "Explore the vault. The Overseer's office may have the documents that Gridlock is looking for."
-lang["#MISSION_GRIDLOCK_VAULTRAID_COMPLETE"] = "Well done, $playername. Well done. You have earned your reward tenfold."
-lang["#MISSION_GRIDLOCK_VAULTRAID_CUSTOMUI"] = "Explore the Vault"
-lang["#MISSION_GRIDLOCK_VAULTRAID_ITEMNAME"] = "Pre-War Documentation"
+lang["#MISSION_GRIDLOCK_PUSHINGBACK"] = "Contraatacando"
+lang["#MISSION_GRIDLOCK_PUSHINGBACK_DESC"] = "$playername, quiero que mates a algunos de los soldados más avanzados de la República de Nueva California. Puede que sean un poco difíciles de derribar, pero es crucial para que permanezcamos aquí. Si se les permite ganar aún más terreno, es posible que nos veamos obligados a retirarnos de aquí, y no sé si nuestra tribu puede sobrevivir a otro desarraigo. Ve, busca a sus llamados Rangers."
+lang["#MISSION_GRIDLOCK_PUSHINGBACK_HINT"] = "Mata a Rangers de patrulla de la RNC. Puedes encontrar algunos en patrullas alrededor de Salt Wells y en el puesto de avanzada de la estación de radio."
+lang["#MISSION_GRIDLOCK_PUSHINGBACK_COMPLETE"] = "Bien, aquí está tu recompensa. Regresa mañana para ver si tengo más cosas que necesites completar para mí."
 
-lang["#MISSION_GRIDLOCK_FINALTEST"] = "Your Final Test"
-lang["#MISSION_GRIDLOCK_FINALTEST_DESC"] = "You have fought long and hard, and now I shall put you to your final test. The NCR survivors from the first push into the vault reported abnormally strong ghouls. Find one, slay it, and return to me. That will my final test to you, $playername."
-lang["#MISSION_GRIDLOCK_FINALTEST_HINT"] = "Eliminate one Feral Ghoul Reaver. They can be found in the vault beneath Salt Wells. Reavers are highly resistant to melee damage, so use of a ranged weapon is recommended."
-lang["#MISSION_GRIDLOCK_FINALTEST_COMPLETE"] = "Well done, $playername... well done. Permit me to furnish you with some armor. Make your choice."
+-- █████████╗███████╗███████╗
+-- ╚══██╔══╝╚════██║██╔════╝
+--    ██║      ██╔╝███████╗
+--    ██║     ██╔╝ ╚════██║
+--    ██║     ██║  ███████║
+--    ╚═╝     ╚═╝  ╚══════╝
 
-lang["#MISSION_GRIDLOCK_SIGNAL"] = "Signal"
-lang["#MISSION_GRIDLOCK_SIGNAL_DESC"] = "Ah, $playername, it's good to see you after passing your test. I hope you are well, because I have a task for you. Some of our Road Agents have reported the NCR moving some sort of equipment to the previously abandoned radio station near their town. I want you to go there and investigate, and if they are attempting to repopulate it, slow their means, if they wish to make the radio work again, deny them power. Now go, we will wish for your safe return."
-lang["#MISSION_GRIDLOCK_SIGNAL_HINT"] =  "Gridlock wants you to investigate the radio station near near the main road, maybe looking for a radio tower is a good idea."
-lang["#MISSION_GRIDLOCK_SIGNAL_COMPLETE"] = "What? $playername, I never would have sent you there if I had known who was guarding that place. This is an issue, and so close to one of our tribute camps as well? They are expanding, at a rapid pace. I will be speaking to The Tribunal, take these as my thanks, it's time for a different approach."
-lang["#MISSION_GRIDLOCK_SIGNAL_ITEMNAME"] = "Generator"
+lang["#MISSION_GRIDLOCK_ELDERSPLIGHT"] = "La Aflicción de un Anciano"
+lang["#MISSION_GRIDLOCK_ELDERSPLIGHT_DESC"] = "Joven, te has demostrado como un verdadero guerrero, ascendiendo rápidamente para convertirte en un miembro respetado de nuestra tribu. Los espíritus nos sonríen, porque tu valentía nos ha guiado a través de nuestras pruebas más oscuras. Has luchado por nosotros, has derramado sangre por la tierra y nos has llevado a través de lo que parecía imposible. Ahora, te pido algo personal, una carga que pesa mucho en mi corazón. Nuestros exploradores han viajado lejos, por la I-80, hasta Sacramento, y hasta las montañas Yolla Bolly. Traen noticias preocupantes. Los Rangers del Desierto se han establecido en el oeste. Son un destacamento de nuestros viejos enemigos del Este. Aunque la pena de nuestros antepasados ha pasado, su sombra todavía persiste, y temo que su regreso traiga solo malos presagios. Te pido que viajes a estas tierras, los encuentres y los elimines como nuestros antepasados hicieron una vez. Hazlo por los caídos, por aquellos que caminaron antes que nosotros. Pero hay más. Tráeme un manifiesto de sus miembros. Confío en ti, joven. Ve, y regresa con el conocimiento que tanto necesito."
+lang["#MISSION_GRIDLOCK_ELDERSPLIGHT_HINT"] = "Ve a Yolla Bolly y busca un manifiesto que contenga una lista de los miembros de los Rangers del Desierto."
+lang["#MISSION_GRIDLOCK_ELDERSPLIGHT_COMPLETE"] = "Tu regreso habla de victoria; déjame ver el manifiesto para que pueda buscar la guía de los antepasados para nuestros próximos pasos."
+lang["#MISSION_GRIDLOCK_ELDERSPLIGHT_ITEMNAME"] = "Manifiesto de los Rangers"
 
-lang["#MISSION_GRIDLOCK_PUSHINGBACK"] = "Pushing Back"
-lang["#MISSION_GRIDLOCK_PUSHINGBACK_DESC"] = "$playername, I want you to kill some of the New California Republic's more advanced soldiers. They may be a bit difficult to take down, but it is crucial in us remaining here, if they are allowed to gain even more of a foothold, we may find ourselves retreating from here, and I don't know if our tribe can survive being uprooted again. Go, seek out their so called Rangers."
-lang["#MISSION_GRIDLOCK_PUSHINGBACK_HINT"] = "Kill NCR patrol rangers. You may find some in patrols around Salt Wells, and at the radio station outpost."
-lang["#MISSION_GRIDLOCK_PUSHINGBACK_COMPLETE"] = "Good, here is your reward. Return tomorrow to see if I have more things I need you to complete for me."
+lang["#MISSION_GRIDLOCK_VOWBROKEN"] = "Un Voto Roto"
+lang["#MISSION_GRIDLOCK_VOWBROKEN_DESC"] = "Joven, no, $playername, te he pedido mucho en el pasado, pero ahora... debo pedir más. Mi cuerpo, como bien sabes, ha pasado por el fuego y la llama. Las cicatrices que llevo no son solo de batalla, sino del tiempo mismo, marcándome con su implacable paso. Ya no soy el guerrero que fui, y las pruebas que se avecinan están más allá de mis fuerzas para enfrentarlas. Por lo tanto, te encomiendo esta tarea. Está ligada al manifiesto que tan amablemente adquiriste para mí. La información que contiene me ha llevado a un viejo amigo, alguien que me salvó la vida cuando tenía tu edad. Está ahí fuera, en algún lugar, y debo encontrarlo. Tu misión es clara. Viaja al campamento de los Rangers de la RNC, y allí, elimina la guarnición local. Registra el campamento en busca de alguna pista que pueda llevarme al paradero de mi amigo. Estoy demasiado cansado para hacerlo yo mismo, pero tú... todavía tienes el fuego que yo una vez tuve. Ve, y tráeme lo que necesito. Esto no es solo una tarea, joven. Es un voto que debo cumplir, y tú eres la clave para lograrlo."
+lang["#MISSION_GRIDLOCK_VOWBROKEN_HINT"] = "Ve al Campamento de los Rangers de la RNC y busca un objeto relacionado con el ranger desaparecido."
+lang["#MISSION_GRIDLOCK_VOWBROKEN_COMPLETE"] = "Gracias a ti, joven, la información que has traído reaviva una esperanza que creía perdida, y ahora el camino para cumplir mi voto y encontrar a mi viejo amigo está despejado."
+lang["#MISSION_GRIDLOCK_VOWBROKEN_ITEMNAME"] = "Caso Sellado"
 
+lang["#MISSION_GRIDLOCK_WEIGHTPROMISE"] = "El Peso de una Promesa"
+lang["#MISSION_GRIDLOCK_WEIGHTPROMISE_DESC"] = "El caso sellado que recuperaste contenía más de lo que anticipaba. Entre su contenido, destaca un objeto, una chuchería con un mensaje codificado. Está escrito en un cifrado que solo yo puedo leer, transmitido por nuestros exploradores. Este mensaje contiene la clave para encontrar a mi viejo amigo; hace referencia a una casa segura a la que mi amigo se retiró mientras era cazado por la RNC y los Rangers. Necesito que tomes esta llaves y busques la casa segura escondida en algún lugar de esta región. Su ubicación no es fácil de encontrar, pero contiene las respuestas que necesitamos. Una vez allí, busca cualquier cosa que pueda llevarnos a su paradero. Ten en cuenta: la casa segura es un lugar de refugio, pero no exento de peligros. Puede haber quienes prefieran que el pasado permanezca enterrado. Avanza con cuidado, pero con determinación."
+lang["#MISSION_GRIDLOCK_WEIGHTPROMISE_HINT"] = "Busca en la región de Salt Wells una casa segura utilizada por el Ranger Rebelde y, una vez dentro, busca cualquier cosa que apunte a su ubicación."
+lang["#MISSION_GRIDLOCK_WEIGHTPROMISE_COMPLETE"] = "Has regresado, supongo que has conseguido algo de la casa segura. Entrégamelo."
+lang["#MISSION_GRIDLOCK_WEIGHTPROMISE_ITEMNAME"] = "Casco de Ranger Rebelde"
 
--- ████████╗███████╗
--- ╚══██╔══╝██╔════╝
---    ██║   ███████╗
---    ██║   ╚════██║
---    ██║   ███████║
---    ╚═╝   ╚══════╝
-
-lang["#MISSION_GRIDLOCK_ELDERSPLIGHT"] = "An Elders Plight"
-lang["#MISSION_GRIDLOCK_ELDERSPLIGHT_DESC"] = "Young one You have proven yourself a true warrior, rising swiftly to become a respected member of our tribe. The spirits smile upon us, for your bravery has guided us through our darkest trials. You have fought for us, shed blood for the land, and carried us through what seemed impossible.  Now, I ask something personal, a burden that weighs heavily on my heart. Our scouts have traveled far—down the I-80, to Sacramento, and on to the Yolla Bolly mountains. They bring troubling news. The Desert Rangers have established themselves in the west.  They are a detachment of our old enemies from the East. Though the sorrow of our ancestors has passed, their shadow still lingers, and I fear their return brings only bad omens.  I ask you to journey to these lands, find them, and eliminate them as our forebears once did. Do this for the fallen, for those who walked before us.  But there is more. Bring me a manifest of their members. I trust you, young one. Go, and return with the knowledge I so urgently need.  "
-lang["#MISSION_GRIDLOCK_ELDERSPLIGHT_HINT"] = "Go to Yolly Bolly and search for a manifest containing a list of desert ranger members."
-lang["#MISSION_GRIDLOCK_ELDERSPLIGHT_COMPLETE"] = "Your return speaks of victory; let me see the manifest so I can seek the ancestor's guidance for our next steps."
-lang["#MISSION_GRIDLOCK_ELDERSPLIGHT_ITEMNAME"] = "Ranger Manifest"
-
-lang["#MISSION_GRIDLOCK_VOWBROKEN"] = "A Vow Broken"
-lang["#MISSION_GRIDLOCK_VOWBROKEN_DESC"] = "Young one, no $playername I’ve asked much of you in the past, but now… I must ask more. My body, as you well know, has been through fire and flame. The scars I bear are not just of battle, but of time itself, marking me with its unforgiving passage. I am no longer the warrior I once was, and the trials that lie ahead are beyond my strength to face.Thus, I entrust you with this task. It is tied to the manifest you so graciously acquired for me. The information it holds has led me to an old friend—someone who saved my life when I was your age. He is out there, somewhere, and I must find him.Your mission is clear. Travel to the NCR ranger encampment, and there, eliminate the local garrison. Search the camp for any clue that might lead me to my friend’s whereabouts.I am too weary to do this myself, but you… you still have the fire I once had. Go, and bring me what I need. This is not just a task, young one. It is a vow I must fulfill, and you are the key to seeing it through."
-lang["#MISSION_GRIDLOCK_VOWBROKEN_HINT"] = "Go to the NCR Ranger Encampment and look for an item that relates to the missing ranger."
-lang["#MISSION_GRIDLOCK_VOWBROKEN_COMPLETE"] = "Thanks to you, young one, the information you've brought rekindles a hope I thought was lost, and now the path to fulfilling my vow, and finding my old friend, is clear."
-lang["#MISSION_GRIDLOCK_VOWBROKEN_ITEMNAME"] = "Sealed Case"
-
-lang["#MISSION_GRIDLOCK_WEIGHTPROMISE"] = "The Weight of a Promise"
-lang["#MISSION_GRIDLOCK_WEIGHTPROMISE_DESC"] = "The sealed case you recovered held more than I anticipated. Among its contents, one item stands out—a trinket with an encoded message. It’s written in a cipher only I can read, one passed down by our pathfinders. This message holds the key to finding my old friend, it references a safehouse my friend retreated to as he was being hunted by the NCR and Rangers. I need you to take this key and seek out the safehouse hidden somewhere in this region. Its location is not easily found, but it holds the answers we need. Once you’re there, search for anything that might lead us to his whereabouts. Know this: The safehouse is a place of refuge, but not without danger. There may be those who would rather the past stay buried. Tread carefully, but with purpose."
-lang["#MISSION_GRIDLOCK_WEIGHTPROMISE_HINT"] = "Look around the Salt Wells region for a safehouse used by the Rogue Ranger and when inside search for anything that points to his location"
-lang["#MISSION_GRIDLOCK_WEIGHTPROMISE_COMPLETE"] = "You have return, I assume you have aquired something from the safehouse. Hand it to me."
-lang["#MISSION_GRIDLOCK_WEIGHTPROMISE_ITEMNAME"] = "Rouge Ranger Helmet"
-
-lang["#MISSION_GRIDLOCK_VOWREBORN"] = "A Vow Reborn"
-lang["#MISSION_GRIDLOCK_VOWREBORN_DESC"] = "Young one, I have examined the helmet you brought back from the safehouse. Though it did not hold the answers I sought regarding my old friend, it carried something equally important—a note, his last will and testament. To put it simply, the message within states that he frees me from the vow I once made. My search for him, my efforts to track him down, have been more than enough repayment for the life he saved all those years ago. Now, he wishes only to leave his past behind and walk the wastes alone. Yet, there is one final gift he offers me—a legacy, one that I must pass on. His wish is clear: I must find a worthy successor, someone who will carry his name forward. And in that, I can think of no better individual than you. To inherit his legacy, there is but one task remaining. You must complete the induction trial, as outlined in his will. This trial will test your strength, your will, and your resolve. Only by succeeding will you prove yourself worthy to carry the mantle he leaves behind. This is no simple task, but I have seen what you are capable of. Go now, and fulfill the trial. Should you succeed, his legacy will be yours to bear."
-lang["#MISSION_GRIDLOCK_VOWREBORN_HINT"] = "Kill 5 Veteran Desert Rangers, 10 NCR Veteran Rangers and 25 NCR troopers they are spilt between Yolla and Salt Wells"
-lang["#MISSION_GRIDLOCK_VOWREBORN_COMPLETE"] = "Young one, You have returned, and with you, the legacy I entrusted you to carry. The trial was no small feat."
-
--- lang["#MISSION_GRIDLOCK_ONWARDS"] = "Onwards to Yolla Bolly"
--- lang["#MISSION_GRIDLOCK_ONWARDS_DESC"] = "You have done well in supporting the tribe, young one. We have received a request for help from our allies in the Yolla Bolly mountains. I am sending a group of our warriors westward to aid them.\n\n If you are interested, seek out the Rock-Biters at their encampment. That reminds me, could you deliver them this crate of dynamite as well? They'll be needing it. Be well, $playername. Your tribe will always be here for you.\n"
--- lang["#MISSION_GRIDLOCK_ONWARDS_HINT"] = "Find Digmaster Finch in Yolla Bolly. He can be found inside the Rock-Biter encampment."
--- lang["#MISSION_GRIDLOCK_ONWARDS_COMPLETE"] = "So you're the best Gridlock can spare? Fine, hope you're ready to work, newbie."
--- lang["#MISSION_GRIDLOCK_ONWARDS_ITEMNAME"] = "Crate of Dynamite"
+lang["#MISSION_GRIDLOCK_VOWREBORN"] = "Un Voto Renacido"
+lang["#MISSION_GRIDLOCK_VOWREBORN_DESC"] = "Joven, he examinado el casco que trajiste de la casa segura. Aunque no contenía las respuestas que buscaba sobre mi viejo amigo, llevaba algo igualmente importante: una nota, su testamento y última voluntad. En pocas palabras, el mensaje dentro indica que me libera del voto que una vez hice. Mi búsqueda para encontrarlo, mis esfuerzos por localizarlo, han sido más que suficiente pago por la vida que salvó hace todos esos años. Ahora, solo desea dejar atrás su pasado y caminar solo por el yermo. Sin embargo, hay un regalo final que me ofrece: un legado, uno que debo transmitir. Su deseo es claro: debo encontrar un sucesor digno, alguien que lleve su nombre hacia adelante. Y en eso, no puedo pensar en un mejor individuo que tú. Para heredar su legado, solo queda una tarea. Debes completar la prueba de iniciación, como se describe en su testamento. Esta prueba pondrá a prueba tu fuerza, tu voluntad y tu determinación. Solo teniendo éxito demostrarás ser digno de llevar el manto que deja atrás. Esto no es una tarea sencilla, pero he visto de lo que eres capaz. Ve ahora y cumple la prueba. Si tienes éxito, su legado será tuyo para llevar."
+lang["#MISSION_GRIDLOCK_VOWREBORN_HINT"] = "Mata a 5 Rangers del Desierto Veteranos, 10 Rangers Veteranos de la RNC y 25 soldados de la RNC. Están repartidos entre Yolla Bolly y Salt Wells."
+lang["#MISSION_GRIDLOCK_VOWREBORN_COMPLETE"] = "Joven, has regresado, y con él, el legado que te encomendé llevar. La prueba no fue poca cosa."
 
 RELOADSCHEMA = true

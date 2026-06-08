@@ -1,22 +1,21 @@
-local lang = RSRG.Languages["en"]
+local lang = RSRG.Languages["es-es"]
 
--- SALEM MISSION BOARD
+-- TABLÓN DE MISIONES DE SALEM (COMPAÑÍA PHOENIX)
 
-lang["#MISSION_BOARD_PHOENIXCOMPANY"] = "Missions and Orders"
-lang["#MISSION_BOARD_PHOENIXCOMPANY_SUBTITLE"] = "By Order of General Shepherd:"
-lang["#MISSION_BOARD_PHOENIXCOMPANY_GREET"] = "This board contains missions and orders for expanding Phoenix Company's influence in the area."
+lang["#MISSION_BOARD_PHOENIXCOMPANY"] = "Misiones y Órdenes"
+lang["#MISSION_BOARD_PHOENIXCOMPANY_SUBTITLE"] = "Por Orden del General Shepherd:"
+lang["#MISSION_BOARD_PHOENIXCOMPANY_GREET"] = "Este tablón contiene misiones y órdenes para expandir la influencia de la Compañía Phoenix en el área."
 
--- MISSIONS
+-- MISIONES
 
-lang["#MISSION_DRIVING_OUT_THE_DARK"] = "Driving out the Dark"
-lang["#MISSION_DRIVING_OUT_THE_DARK_DESC"] = "The Shadowed Bandits have grown too comfortable in Salem. Eliminate 3 of their \"Outlaws\" and any 50 of their men from their ranks. "
-lang["#MISSION_DRIVING_OUT_THE_DARK_HINT"] = "Kill 50 Shadowed Bandits and 3 Shadowed Outlaws in Salem."
-lang["#MISSION_DRIVING_OUT_THE_DARK_COMPLETE"] = "You've completed the task. Here's some equipment in addition to your normal supplies."
+lang["#MISSION_DRIVING_OUT_THE_DARK"] = "Expulsando la Oscuridad"
+lang["#MISSION_DRIVING_OUT_THE_DARK_DESC"] = "Los Bandidos Sombríos se han vuelto demasiado cómodos en Salem. Elimina a 3 de sus \"Forajidos\" y a 50 de sus hombres de sus filas."
+lang["#MISSION_DRIVING_OUT_THE_DARK_HINT"] = "Mata a 50 Bandidos Sombríos y 3 Forajidos Sombríos en Salem."
+lang["#MISSION_DRIVING_OUT_THE_DARK_COMPLETE"] = "Has completado la tarea. Aquí tienes algo de equipo además de tus suministros normales."
 
-lang["#MISSION_SECULARIZING_SALEM"] = "Secularizing Salem"
-lang["#MISSION_SECULARIZING_SALEM_DESC"] = "Unity's Chosen's Foothold in the city must continue to be contested. This is a standing order offering compensation for the elimination of any of Unity's Chosen Soldiers."
-lang["#MISSION_SECULARIZING_SALEM_HINT"] = "Kill 120 Unity's Chosen Soldiers in Salem."
-lang["#MISSION_SECULARIZING_SALEM_COMPLETE"] = "Excellent work soldier, Here's the listed payment."
-
+lang["#MISSION_SECULARIZING_SALEM"] = "Secularizando Salem"
+lang["#MISSION_SECULARIZING_SALEM_DESC"] = "El punto de apoyo de los Elegidos de la Unidad en la ciudad debe seguir siendo disputado. Esta es una orden permanente que ofrece compensación por la eliminación de cualquier Soldado Elegido de la Unidad."
+lang["#MISSION_SECULARIZING_SALEM_HINT"] = "Mata a 120 Soldados Elegidos de la Unidad en Salem."
+lang["#MISSION_SECULARIZING_SALEM_COMPLETE"] = "Excelente trabajo, soldado. Aquí está el pago indicado."
 
 RELOADSCHEMA = true
