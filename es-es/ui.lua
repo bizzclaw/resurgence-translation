@@ -3,7 +3,7 @@ local lang = RSRG.Languages["es-es"]
 
 --Main menu
 lang["#GAMEMODE_NAME"] = "Fallout Resurgence"
-lang["#WIPWARN_TITLE"] = "Resurgence es un proyecto incompleto"
+lang["#WIPWARN_TITLE"] = "Resurgence es un proyecto en proceso."
 lang["#WIPWARN_SUB"] = "Encontraras errores y mecánicas incompletas."
 lang["#UI_ANYKEY"] = "Presiona cualquier Botón para empezar"
 lang["#UI_INTRO_NEXT"] = "[ESPACIO] Siguiente"
