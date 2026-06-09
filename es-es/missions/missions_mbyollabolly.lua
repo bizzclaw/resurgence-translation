@@ -8,14 +8,14 @@ local lang = RSRG.Languages["es-es"]
 -- ╚═════╝    ╚═╝    ╚═════╝ ╚══════╝╚══════╝╚══════╝    ╚═════╝    ╚═╝   ╚═╝
 
 -- Repartidor de misiones (Tablón)
-lang["#MISSION_BOARD_YOLLA"] = "Tablón de Tareas del Pueblo de Supervivientes de Yolla Bolly"
+lang["#MISSION_BOARD_YOLLA"] = "Tablón de Tareas del Pueblo de Yolla Bolly"
 lang["#MISSION_BOARD_YOLLA_SUBTITLE"] = "Tareas y Trabajos"
 lang["#MISSION_BOARD_YOLLA_GREET"] = "Este tablón contiene varios papeles con trabajos de personas que buscan contratar a otros en esta área. Puedes aceptar cualquier trabajo que cumpla con los requisitos.\n\n\nA continuación, una lista de trabajos disponibles."
 
-lang["#MISSION_BOARD_YOLLABANDIT"] = "Tablón de Tareas de los Muerde Rocas de Yolla Bolly"
-lang["#MISSION_BOARD_YOLLABANDIT_GREET"] = "Tablón de Tareas de los Muerde Rocas de Yolla Bolly"
+lang["#MISSION_BOARD_YOLLABANDIT"] = "Tablón de Tareas de Rockbiters de Yolla Bolly"
+lang["#MISSION_BOARD_YOLLABANDIT_GREET"] = "Tareas y Trabajos"
 
-lang["#MISSION_YOLLA_EASYTARGETS"] = "Objetivos Fáciles"
+lang["#MISSION_YOLLA_EASYTARGETS"] = "Blancos Fáciles"
 lang["#MISSION_YOLLA_EASYTARGETS_DESC"] = "La persona que ha pegado esta nota busca a alguien que esté dispuesto a eliminar enemigos, más específicamente necrófagos salvajes. Ofrece una buena cantidad por ello."
 lang["#MISSION_YOLLA_EASYTARGETS_HINT"] = "Elimina cualquier tipo de Necrófago Salvaje en Yolla Bolly. Los necrófagos salvajes se encuentran comúnmente cerca de ruinas, edificios rotos y ubicaciones abandonadas. Son débiles a las armas cuerpo a cuerpo y de fuego. Ten cuidado con los segadores y necrófagos hinchados, ya que son más peligrosos."
 lang["#MISSION_YOLLA_EASYTARGETS_COMPLETE"] = "Has completado la tarea."
@@ -64,7 +64,7 @@ lang["#MISSION_YOLLA_SURVIVALISTDEATH_COMPLETE"] = "Contrato completado, elige t
 
 -- Después de la misión "thecell_part6" de Gadget, misiones repetibles cada 12 horas
 
-lang["#MISSION_YOLLA_MILITIATARGETING"] = "Apuntar a su Milicia"
+lang["#MISSION_YOLLA_MILITIATARGETING"] = "Apunta a la Milicia"
 lang["#MISSION_YOLLA_MILITIATARGETING_DESC"] = "Gadget quiere que se reduzcan los números de la milicia de los supervivientes, para filtrar a los luchadores de sus filas y hacer que los colonos huyan. Mata a 3 miembros de los Supervivientes del Valle y regresa."
 lang["#MISSION_YOLLA_MILITIATARGETING_HINT"] = "Mata a Miembros de la Milicia de Supervivientes del Valle. Se pueden encontrar alrededor de Yolla Bolly, cerca del área baja de la ciudad de la fábrica de munición, los acantilados alrededor del pueblo de los Supervivientes del Valle, y a través del túnel de coches hacia el túnel barricado."
 lang["#MISSION_YOLLA_MILITIATARGETING_COMPLETE"] = "Contrato completado. Regresa en unas horas para otra recompensa."
