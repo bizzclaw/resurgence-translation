@@ -135,8 +135,8 @@ lang["#ENDBOSSKNIFE_DESC"] = "Una hoja de combate brutal y retráctil montada de
 
 lang["#GATLASER_NAME"] = "Ametralladora Láser"
 lang["#HKL40_NAME"] = "[WIP] P.E L-40 Apollo"
-lang["#LASERGUN_NAME"] = "Pistola Láser"
-lang["#PLASMAGUN_NAME"] = "Rifle de Plasma"
+lang["#LASERGUN_NAME"] = "Láser"
+lang["#PLASMAGUN_NAME"] = "Plasma"
 lang["#TRILASER_NAME"] = "Pistola Láser de Triple Haz"
 lang["#PLASMACASTER_NAME"] = "Centro de Plasma"
 lang["#PLASMACASTERTURBO_NAME"] = "Centro de Plasma Turbo"
