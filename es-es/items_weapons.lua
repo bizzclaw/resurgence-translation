@@ -508,7 +508,7 @@ lang["#GAUSS_MINIGUN_DESC"] = "La minigun Gauss es un arma balística automátic
 --otras
 lang["#SYRINGER_DESC"] = "Un arma improvisada, pero efectiva. Fabricada con chatarra sobrante y tuberías de antes de la guerra, fue diseñada a imagen de las 'pistolas tranquilizantes' de antes de la guerra.\n\nSe puede usar de forma ofensiva o como arma de apoyo, dependiendo del tipo de dardos elegidos por el usuario."
 lang["#FARTNADE_DESC"] = "La Granada Gastrointestinal Táctica M-42 es una cápsula de mano diseñada para contener Megapedos, pequeñas ojivas apestosas.\nDevastadora contra todas las narices."
-lang["#RAILRIFLE_DESC"] = "Una conversión neumática de alta potencia de una pistola de clavos industrial, ahora capaz de lanzar clavos a grandes distancias.\n\nAntes devastadora para las vías del tren, ahora devastadora para la RNC y cualquiera de sus 'aliados' que lleven Armadura Asistida."
+lang["#RAILRIFLE_DESC"] = "Una conversión neumática de alta potencia de una pistola de clavos industrial, ahora capaz de lanzar clavos a grandes distancias.\n\nAntes devastadora para las vías del tren, ahora devastadora para la RNC y cualquiera de sus 'aliados' que lleven servoarmaduras."
 lang["#RAILSHOTGUN_DESC"] = "Un cañón neumático diseñado para lanzar un puñado de clavos. El cañón sacrifica la precisión y penetración del Rifle de Ferrocarril por un solo golpe devastador."
 
 --explosiva
