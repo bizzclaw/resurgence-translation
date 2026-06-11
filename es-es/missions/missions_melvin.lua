@@ -1,4 +1,4 @@
-local lang = RSRG.Languages["en"]
+local lang = RSRG.Languages["es-es"]
 
 -- ███╗   ███╗███████╗██╗    ██╗   ██╗██╗███╗   ██╗
 -- ████╗ ████║██╔════╝██║    ██║   ██║██║████╗  ██║
@@ -7,75 +7,75 @@ local lang = RSRG.Languages["en"]
 -- ██║ ╚═╝ ██║███████╗███████╗╚████╔╝ ██║██║ ╚████║
 -- ╚═╝     ╚═╝╚══════╝╚══════╝ ╚═══╝  ╚═╝╚═╝  ╚═══╝
 
--- Mission Giver
+-- Repartidor de misiones
 lang["#MISSION_GIVER_MELVIN"] = "Melvin"
-lang["#MISSION_GIVER_MELVIN_SUBTITLE"] = "Cascade Caravan R&D"
-lang["#MISSION_GIVER_MELVIN_GREET_NEW"] = "Oh shit, someone actually came out to this hell hole. Look, if you want money, I have work. It involves research here in this shitty swamp, it pays well, and I'll even give you meds for the rads. Just please, help me. Oh, shit, my name is Melvin by the way."
-lang["#MISSION_GIVER_MELVIN_GREET_0"] = "Hey there, looking for work? Please do work."
-lang["#MISSION_GIVER_MELVIN_GREET_100"] = "Hey, one of the regular faces. I got some more jobs if you got time. Please."
-lang["#MISSION_GIVER_MELVIN_GREET_200"] = "It's the prime worker! You're killin' it out there. I got more jobs, let's get to it."
-lang["#MISSION_GIVER_MELVIN_GREET_400"] = "$playername! My main amigo, how are you doing? Let's get this show rollin'!"
-lang["#MISSION_GIVER_MELVIN_GREET_N100"] = "Man, you're lucky I need people to get this shit done. Just do the work and get out of my face, please."
+lang["#MISSION_GIVER_MELVIN_SUBTITLE"] = "I+D de Caravanas Cascade"
+lang["#MISSION_GIVER_MELVIN_GREET_NEW"] = "Oh, mierda, alguien vino a este infierno. Mira, si quieres dinero, tengo trabajo. Implica investigación aquí en este pantano de mierda, paga bien, e incluso te daré medicinas para la radiación. Solo por favor, ayúdame. Ah, mierda, me llamo Melvin, por cierto."
+lang["#MISSION_GIVER_MELVIN_GREET_0"] = "Hola, ¿buscas trabajo? Por favor, trabaja."
+lang["#MISSION_GIVER_MELVIN_GREET_100"] = "Oye, una de las caras habituales. Tengo más trabajos si tienes tiempo. Por favor."
+lang["#MISSION_GIVER_MELVIN_GREET_200"] = "¡Es el trabajador principal! Lo estás matando ahí fuera. Tengo más trabajos, pongámonos manos a la obra."
+lang["#MISSION_GIVER_MELVIN_GREET_400"] = "$playername, ¡mi amigo principal! ¿Cómo estás? ¡Que empiece el espectáculo!"
+lang["#MISSION_GIVER_MELVIN_GREET_N100"] = "Hombre, tienes suerte de que necesite gente para hacer esto. Solo haz el trabajo y lárgate de mi cara, por favor."
 
--- Missions
-lang["#MISSION_MELVIN_WEEDSCIENCE"] = "Weed Science"
-lang["#MISSION_MELVIN_WEEDSCIENCE_DESC"] = "So, here's the job. My work is at a standstill because I can't stand to bear the monsters and dangers of the damn swamp. I'm here to research Lure Weed on Cascade's payroll. I need samples, and I need you to prove you can even live your ass out there. Just, go find some Lure Weed, a good clump of it. Please and thank you."
-lang["#MISSION_MELVIN_WEEDSCIENCE_HINT"] = "Find Lure Weed around Dead Estuary on the edge of the islands in water."
-lang["#MISSION_MELVIN_WEEDSCIENCE_COMPLETE"] = "Oh shit you actually lived, AND you got the Lure Weed? Well color me impressed. Take this for pay, and let's keep working together. I got a lot to figure out, and a lot of caps to figure it out with if you get me."
+-- Misiones
+lang["#MISSION_MELVIN_WEEDSCIENCE"] = "Ciencia de la Mala Hierba"
+lang["#MISSION_MELVIN_WEEDSCIENCE_DESC"] = "Este es el trabajo. Mi trabajo está paralizado porque no puedo soportar los monstruos y peligros del maldito pantano. Estoy aquí para investigar el Alga Atrayente por cuenta de Cascade. Necesito muestras, y necesito que demuestres que puedes sobrevivir ahí fuera. Solo, encuentra algo de Alga Atrayente, un buen grupo. Por favor y gracias."
+lang["#MISSION_MELVIN_WEEDSCIENCE_HINT"] = "Encuentra Alga Atrayente alrededor del Estuario Muerto en el borde de las islas en el agua."
+lang["#MISSION_MELVIN_WEEDSCIENCE_COMPLETE"] = "Oh, mierda, ¿realmente sobreviviste y conseguiste el Alga Atrayente? Bueno, coloréame impresionado. Toma esto como paga, y sigamos trabajando juntos. Tengo mucho que resolver, y muchas tapas para resolverlo si me ayudas."
 
-lang["#MISSION_MELVIN_ADIET"] = "On a Diet"
-lang["#MISSION_MELVIN_ADIET_DESC"] = "I'm currently trying to figure out what place Lure Weed has in the local ecosystem. Maybe some of the local fauna eat the shit, I dunno. Do me a favor, go kill some animals and root around in their guts. See if you find any plants in their stomachs, especially Lure Weed. Oh, don't give me that look $playername, I know you've done worse. Probably."
-lang["#MISSION_MELVIN_ADIET_HINT"] = "Kill various animals on Dead Estuary. They are found scattered around on various islands in the swamp, and you may even find multiple on the same island."
-lang["#MISSION_MELVIN_ADIET_COMPLETE"] = "What? Nothing? Not a single spec of glowy, weedy bullshit in those guts? I refuse to beleieve that. Look whatever, we'll loop back to this later. Thanks for the help, here's your pay."
+lang["#MISSION_MELVIN_ADIET"] = "A Dieta"
+lang["#MISSION_MELVIN_ADIET_DESC"] = "Estoy tratando de averiguar qué lugar ocupa el Alga Atrayente en el ecosistema local. Tal vez algunos de los animales locales se la comen, no sé. Hazme un favor, ve a matar algunos animales y rebusca en sus intestinos. Ve si encuentras alguna planta en sus estómagos, especialmente Alga Atrayente. Oh, no me mires así, $playername, sé que has hecho cosas peores. Probablemente."
+lang["#MISSION_MELVIN_ADIET_HINT"] = "Mata varios animales en el Estuario Muerto. Se encuentran dispersos en varias islas del pantano, y puedes encontrar múltiples en la misma isla."
+lang["#MISSION_MELVIN_ADIET_COMPLETE"] = "¿Qué? ¿Nada? ¿Ni un solo especulo de mierda brillante y herbácea en esas entrañas? Me niego a creerlo. Mira, lo que sea, ya volveremos a esto más tarde. Gracias por la ayuda, aquí está tu paga."
 
-lang["#MISSION_MELVIN_SHITTY"] = "A Shitty Question"
-lang["#MISSION_MELVIN_SHITTY_DESC"] = "So, one question we wanna know is how the hell does this stuff grow? What conditions does it need? That kinda stuff. According to some guys I talked to, there's this outhouse. It's on some island in the swamp, I really don't know where. But apparently, a bunch of Lure Weed grows around there. Go to the outhouse, see if it's being used, and report back to me. Gotta know if human shit makes this stuff grow."
-lang["#MISSION_MELVIN_SHITTY_HINT"] = "There are many islands apart of Dead Estuary. Search around and explore them to find the location"
-lang["#MISSION_MELVIN_SHITTY_COMPLETE"] = "What is this? It's the poop from the outhouse? This log is massive, no way it's human shit. You're pulling my leg, this has to be like, a Yao Guai turd or something. No? You're actually serious? Okay, I'll trust you on this. I'll analyze it anyway and see what I can get. Here's the pay as usual."
-lang["#MISSION_MELVIN_SHITTY_ITEMNAME"] = "Massive Log"
+lang["#MISSION_MELVIN_SHITTY"] = "Una Pregunta de Mierda"
+lang["#MISSION_MELVIN_SHITTY_DESC"] = "Una pregunta que queremos saber es cómo demonios crece esta cosa. ¿Qué condiciones necesita? Ese tipo de cosas. Según algunos tipos con los que hablé, hay una letrina. Está en alguna isla del pantano, realmente no sé dónde. Pero al parecer, crece mucho Alga Atrayente alrededor. Ve a la letrina, mira si está siendo usada, e infórmame. Tengo que saber si la mierda humana hace crecer esta cosa."
+lang["#MISSION_MELVIN_SHITTY_HINT"] = "Hay muchas islas que forman parte del Estuario Muerto. Busca y explóralas para encontrar la ubicación."
+lang["#MISSION_MELVIN_SHITTY_COMPLETE"] = "¿Qué es esto? ¿Es la caca de la letrina? Este tronco es enorme, no hay manera de que sea caca humana. Me estás tomando el pelo, esto debe ser caca de Yao Guai o algo así. ¿No? ¿Hablas en serio? Bueno, confiaré en ti en esto. Lo analizaré de todos modos a ver qué puedo obtener. Aquí está la paga como siempre."
+lang["#MISSION_MELVIN_SHITTY_ITEMNAME"] = "Tronco Masivo"
 
-lang["#MISSION_MELVIN_CALLWEED"] = "Why They Call it Lure Weed"
-lang["#MISSION_MELVIN_CALLWEED_DESC"] = "Alrighty, so I looked at that literal shit, looked at your lack of findings from all those guts, and decided to finally go ask Rodger if he had any insight because I'm stumped. Figured I'd be okay for one quick trip since you've been killing shit all over. On my way there I saw some Lure Weed, went to snip it up, and SOME BIG FUCKING LAND FISH CAME UP AND ALMOST ATE MY ASS! Shot that fucker in the legs and ran back here to safety. So I guess those things are why they call it Lure Weed. Had the stuff growing out of its head. I wanna know why. Go bag and tag some of those stupid things for me, I gotta see what their biological relationship with that damn plant is."
-lang["#MISSION_MELVIN_CALLWEED_HINT"] = "Anglers usually hide in patches of Lure Weed around the coasts of the islands on Dead Estuary. Dig them out and kill them."
-lang["#MISSION_MELVIN_CALLWEED_COMPLETE"] = "You got them? Good, good. This hopefully gives me insight into how Lure Weed interacts with this ecosystem, it has to be something more than just growing here. Now I gotta figure out what came first, the Weed or the...Angler, that's what they call it? Yeah, Weed or the Angler. Anyway, here's the usual."
+lang["#MISSION_MELVIN_CALLWEED"] = "Por Qué Lo Llaman Alga Atrayente"
+lang["#MISSION_MELVIN_CALLWEED_DESC"] = "Muy bien, miré esa mierda literal, miré tu falta de hallazgos en todas esas entrañas, y decidí finalmente ir a preguntarle a Rodger si tenía alguna idea porque estoy estancado. Pensé que estaría bien para un viaje rápido ya que has estado matando mierda por todos lados. De camino a verlo vi un poco de Alga Atrayente, fui a cortarlo, ¡Y UN MALDITO PEZ GIGANTE SALIÓ Y CASI SE COME MI CULO! Le disparé a ese cabrón en las piernas y corrí de vuelta a la seguridad. Así que supongo que esas cosas son por qué lo llaman Alga Atrayente. Tenía la cosa creciendo de su cabeza. Quiero saber por qué. Ve y ponle un collar a algunas de esas estúpidas cosas para mí, necesito ver su relación biológica con esa maldita planta."
+lang["#MISSION_MELVIN_CALLWEED_HINT"] = "Los Pejesapos suelen esconderse en parches de Alga Atrayente alrededor de las costas de las islas en el Estuario Muerto. Sácalos y mátalos."
+lang["#MISSION_MELVIN_CALLWEED_COMPLETE"] = "¿Los atrapaste? Bien, bien. Esto espero que me dé una idea de cómo el Alga Atrayente interactúa con este ecosistema, tiene que ser algo más que simplemente crecer aquí. Ahora tengo que averiguar qué fue primero, el Alga o el... Pejesapo, así los llaman, ¿verdad? El Alga o el Pejesapo. De todos modos, aquí está lo de siempre."
 
-lang["#MISSION_MELVIN_LITTER"] = "Litter Bugs"
-lang["#MISSION_MELVIN_LITTER_CHEMS"] = "Littered Chems"
-lang["#MISSION_MELVIN_LITTER_DESC"] = "You've seen the raiders around here, right? The Smugglers as they call themselves or whatever? I bet they do a lot of chems. If you don't mind shooting them, could you sniff around their camps, see how much litter of empty chem containers you find laying around? Maybe long-term effects of chem waste have affected the environment and how Lure Weed developed. Thanks."
-lang["#MISSION_MELVIN_LITTER_HINT"] = "On Dead Estuary there are two Smuggler camps. A large encampment near the Trader Shack, and an outpost an on outer island. Invesigate them for chem litter."
-lang["#MISSION_MELVIN_LITTER_COMPLETE"] = "So you DID find evidence of chem dumping? Oh shit let me see it. Very interesting, I hope you didn't get shot up too bad. I'll have to test some of these chem types on the Lure Weed and Anglers, see what happens. Here, have your pay and some stims too."
+lang["#MISSION_MELVIN_LITTER"] = "Bichos de la Basura"
+lang["#MISSION_MELVIN_LITTER_CHEMS"] = "Drogas Tiradas"
+lang["#MISSION_MELVIN_LITTER_DESC"] = "Has visto a los asaltantes por aquí, ¿verdad? Los Contrabandistas, como se llaman ellos mismos o lo que sea. Apuesto a que consumen muchas drogas. Si no te importa dispararles, ¿podrías husmear en sus campamentos, ver cuánta basura de envases de drogas vacíos encuentras por allí? Quizás los efectos a largo plazo de los desechos de drogas han afectado el medio ambiente y el desarrollo del Alga Atrayente. Gracias."
+lang["#MISSION_MELVIN_LITTER_HINT"] = "En el Estuario Muerto hay dos campamentos de Contrabandistas. Un gran campamento cerca de la Cabaña del Comerciante, y un puesto de avanzada en una isla exterior. Investígales en busca de basura de drogas."
+lang["#MISSION_MELVIN_LITTER_COMPLETE"] = "¿Así que realmente encontraste evidencia de vertido de drogas? Oh, mierda, déjame verlo. Muy interesante. Espero que no te hayan disparado demasiado. Tendré que probar algunos de estos tipos de drogas en el Alga Atrayente y los Pejesapos, a ver qué pasa. Toma, tu paga y algunas estimulantes también."
 
-lang["#MISSION_MELVIN_PLASMA"] = "Plasma Peaks"
-lang["#MISSION_MELVIN_PLASMA_DESC"] = "I got some spicy information. Apparently, there's this big rock formation in the further reaches of the swamp. No one knows who, but some guy or group keeps putting plasma mines up there. PLASMA. MINES. Deadly, and also very interesting. Who knows what washing in plasma blasts has possibly done to the plants around here, especially the Lure Weed! Look, I gotta test this out. Go get me some of those mines up there, just click the button really fast you'll be fine. Just don't lose your legs."
-lang["#MISSION_MELVIN_PLASMA_HINT"] = "In the further reaches of the swamp, there's a large, rocky formation you can climb. Someone keeps putting Plasma Mines there, go get some."
-lang["#MISSION_MELVIN_PLASMA_COMPLETE"] = "Woah you actually got some! Look I don't care where from, but just remind me to keep my wallet away from you, sticky fingers. I'm kidding, thanks a ton. Here, take this, you'll need it more than you'll need my money for what I'm thinking of down the line."
+lang["#MISSION_MELVIN_PLASMA"] = "Picos de Plasma"
+lang["#MISSION_MELVIN_PLASMA_DESC"] = "Tengo información interesante. Aparentemente, hay una gran formación rocosa en las partes más alejadas del pantano. Nadie sabe quién, pero algún tipo o grupo sigue poniendo minas de plasma allí arriba. MINAS DE PLASMA. Mortales, y también muy interesantes. Quién sabe lo que el lavado de explosiones de plasma ha podido hacer a las plantas de aquí, ¡especialmente al Alga Atrayente! Mira, tengo que probar esto. Ve a buscarme algunas de esas minas allí arriba, solo pulsa el botón muy rápido, estarás bien. Solo no pierdas las piernas."
+lang["#MISSION_MELVIN_PLASMA_HINT"] = "En las partes más alejadas del pantano, hay una gran formación rocosa que puedes escalar. Alguien sigue poniendo Minas de Plasma allí, ve a buscar algunas."
+lang["#MISSION_MELVIN_PLASMA_COMPLETE"] = "Vaya, ¡realmente conseguiste algunas! Mira, no me importa de dónde, solo recuérdame que mantenga mi billetera lejos de ti, dedos pegajosos. Estoy bromeando, muchísimas gracias. Toma, esto te será más útil que mi dinero para lo que estoy pensando más adelante."
 
-lang["#MISSION_MELVIN_CONTRABANNED"] = "Contrabanned"
-lang["#MISSION_MELVIN_CONTRABANNED_DESC"] = "$playername! I'm glad you're here, shit. So things have gotten dodgy since the last job. The Smugglers are NOT happy with what we've been doing. With you going in their camops, possibly killing them, and just causing all this ruckus around what they think is their swamp, it isn't good. They started stealing all the damn Lure Weed around, AND they've started to show up around the flotilla. Just staring with contempt for now, but who knows when they might try and get me! Just. Go deal with it. Please. I'm not a good fighter."
-lang["#MISSION_MELVIN_CONTRABANNED_HINT"] = "The Smuggler camps around Dead Estuary contain large amounts of their numbers. Take them out, but be careful not to get overwhelmed."
-lang["#MISSION_MELVIN_CONTRABANNED_COMPLETE"] = "You took care of it? Thank god. I hope this keeps them off my ass since you showed them whose boss around here. Remind me never to get on your bad side though, it takes some kind of monster to fight off that many raiders by themself."
+lang["#MISSION_MELVIN_CONTRABANNED"] = "Contrabando Prohibido"
+lang["#MISSION_MELVIN_CONTRABANNED_DESC"] = "$playername, me alegra que estés aquí, mierda. Las cosas se han vuelto turbias desde el último trabajo. Los Contrabandistas NO están contentos con lo que hemos estado haciendo. Con usted entrando en sus campamentos, posiblemente matándolos, y causando todo este alboroto alrededor de lo que ellos creen que es su pantano, no es bueno. ¡Han empezado a robar todo el Alga Atrayente de la zona, Y han empezado a aparecer alrededor de la flotilla. Solo mirando con desprecio por ahora, pero quién sabe cuándo podrían intentar atraparme! Solo. Ve a encargarte de ello. Por favor. No soy un buen luchador."
+lang["#MISSION_MELVIN_CONTRABANNED_HINT"] = "Los campamentos de Contrabandistas en el Estuario Muerto contienen grandes cantidades de ellos. Elimínalos, pero ten cuidado de no ser abrumado."
+lang["#MISSION_MELVIN_CONTRABANNED_COMPLETE"] = "¿Te encargaste de ello? Gracias a Dios. Espero que esto los mantenga alejados de mí, ya que les mostraste quién manda por aquí. Recuérdame que nunca me ponga de tu lado malo, se necesita a alguien monstruoso para enfrentarse a tantos asaltantes por sí solo."
 
-lang["#MISSION_MELVIN_SWIMBIRDS"] = "Swimming with the Birds"
-lang["#MISSION_MELVIN_SWIMBIRDS_DESC"] = "Just bear with me on this one. It's gonna sound crazy. So, according to Cascade, there's a crashed old world flying machine crashed out in the swamp. It's called a Vertibird apparenty. Problem is, it's in the water, but the solution is I gave you that radiation suit! I know, I know, I'm a genius. Anyway, if you wanna go out to it, it's crashed off the waters of the back of the main Smuggler camp, where the boat is. Just head that way, and see if anything in the wreckage is fucking with the water and possibly messing with the Lure Weed and stuff. Don't drown though!"
-lang["#MISSION_MELVIN_SWIMBIRDS_HINT"] = "Back behind the main Smuggler camp is a boat. Follow its direction to the water, and find the Vertibird crash. Bring back what you find."
-lang["#MISSION_MELVIN_SWIMBIRDS_ITEMNAME"] = "Vertibird Part"
-lang["#MISSION_MELVIN_SWIMBIRDS_COMPLETE"] = "$playername! Yes, haha, you actually fucking did it! And I fucking called it! Leaking nuclear fuel, plasma shit, microfusion, abunch of advanced tech stuff. All just stewing in the swamp water. Good job. I think with all this, I'm sure I can figure something concrete out. I might need your help still gathering supplies ocassionaly, maybe run back and get more chem waste and that stuff, but I think our main bulk is done. Thanks for all the help, $playername, you're one alright guy. I'll let Cascade Caravan know all you've done for me in my reports."
+lang["#MISSION_MELVIN_SWIMBIRDS"] = "Nadando con los Pájaros"
+lang["#MISSION_MELVIN_SWIMBIRDS_DESC"] = "Solo ten paciencia conmigo en esta. Va a sonar una locura. Según Cascade, hay una vieja máquina voladora del viejo mundo estrellada en el pantano. Se llama Vertibird, aparentemente. El problema es que está en el agua, pero la solución es que te di ese traje antirradiación. Lo sé, lo sé, soy un genio. De todos modos, si quieres ir a ella, está estrellada en las aguas detrás del campamento principal de Contrabandistas, donde está el bote. Solo ve hacia allá, y mira si algo en los restos está jodiendo el agua y posiblemente afectando al Alga Atrayente y esas cosas. ¡No te ahogues!"
+lang["#MISSION_MELVIN_SWIMBIRDS_HINT"] = "Detrás del campamento principal de Contrabandistas hay un bote. Sigue su dirección hacia el agua y encuentra el accidente del Vertibird. Trae de vuelta lo que encuentres."
+lang["#MISSION_MELVIN_SWIMBIRDS_ITEMNAME"] = "Pieza de Vertibird"
+lang["#MISSION_MELVIN_SWIMBIRDS_COMPLETE"] = "$playername! ¡Sí, jaja, realmente lo lograste! ¡Y lo llamé! Combustible nuclear con fugas, mierda de plasma, micro fusión, un montón de tecnología avanzada. Todo hirviendo en el agua del pantano. Buen trabajo. Creo que con todo esto, puedo resolver algo concreto. Puede que todavía necesite tu ayuda para reunir suministros ocasionalmente, tal vez volver a buscar más desechos de drogas y esas cosas, pero creo que nuestra parte principal está hecha. Gracias por toda la ayuda, $playername, eres un tipo decente. Haré saber a las Caravanas Cascade todo lo que has hecho por mí en mis informes."
 
--- Repeatable Missions, unlocked after Swimming with the Birds completed
-lang["#MISSION_MELVIN_WEEDSWAMP"] = "Weeding the Swamp"
-lang["#MISSION_MELVIN_WEEDSWAMP_DESC"] = "Hey friend, care to go get me a top up on Lure Weed? I need more samples. Thanks."
-lang["#MISSION_MELVIN_WEEDSWAMP_HINT"] = "Find Lure Weed around Dead Estuary on the edge of the islands in water."
-lang["#MISSION_MELVIN_WEEDSWAMP_COMPLETE"] = "Thanks a ton pal, take this as comepnsation for your time."
+-- Misiones repetibles, desbloqueadas después de completar "Nadando con los Pájaros"
+lang["#MISSION_MELVIN_WEEDSWAMP"] = "Desmalezando el Pantano"
+lang["#MISSION_MELVIN_WEEDSWAMP_DESC"] = "Oye, amigo, ¿te importaría ir a buscarme más Alga Atrayente? Necesito más muestras. Gracias."
+lang["#MISSION_MELVIN_WEEDSWAMP_HINT"] = "Encuentra Alga Atrayente alrededor del Estuario Muerto en el borde de las islas en el agua."
+lang["#MISSION_MELVIN_WEEDSWAMP_COMPLETE"] = "Muchísimas gracias, amigo. Toma esto como compensación por tu tiempo."
 
-lang["#MISSION_MELVIN_GUTFEELING"] = "Gut Feeling"
-lang["#MISSION_MELVIN_GUTFEELING_DESC"] = "Remember when I made you dig through animal guts? Yeah. I need you to do it again. There's no way that the animals here don't eat Lure Weed, it must've just been a fluke. How do I know? I have a feeling in my gut, you always trust your gut."
-lang["#MISSION_MELVIN_GUTFEELING_HINT"] = "Kill various animals on Dead Estuary. They are found scattered around on various islands in the swamp, and you may even find multiple on the same island."
-lang["#MISSION_MELVIN_GUTFEELING_COMPLETE"] = "Seriously? Nothing still? You're kidding me right? Look, whatever, we'll come back to this again later. Here just take this for your time"
+lang["#MISSION_MELVIN_GUTFEELING"] = "Corazonada"
+lang["#MISSION_MELVIN_GUTFEELING_DESC"] = "¿Recuerdas cuando te hice rebuscar en tripas de animales? Sí. Necesito que lo hagas otra vez. No hay manera de que los animales de aquí no coman Alga Atrayente, tuvo que haber sido una casualidad. ¿Cómo lo sé? Tengo una corazonada, siempre hay que confiar en la corazonada."
+lang["#MISSION_MELVIN_GUTFEELING_HINT"] = "Mata varios animales en el Estuario Muerto. Se encuentran dispersos en varias islas del pantano, y puedes encontrar múltiples en la misma isla."
+lang["#MISSION_MELVIN_GUTFEELING_COMPLETE"] = "¿En serio? ¿Todavía nada? Me estás tomando el pelo, ¿verdad? Mira, lo que sea, volveremos a esto más tarde. Aquí solo toma esto por tu tiempo."
 
-lang["#MISSION_MELVIN_SWAMPCLEANUP"] = "Swamp Cleanup"
-lang["#MISSION_MELVIN_SWAMPCLEANUP_ITEMNAME"] = "Smuggler Chem Waste"
-lang["#MISSION_MELVIN_SWAMPCLEANUP_DESC"] = "So, do you wanna kick the hornet's nest again? I need more of that chem waste that the Smugglers leave laying around. Trust me I'll make it worth your while, just go get it please."
-lang["#MISSION_MELVIN_SWAMPCLEANUP_HINT"] = "On Dead Estuary there are two Smuggler camps. A large encampment near the Trader Shack, and an outpost an on outer island. Invesigate them for chem litter."
-lang["#MISSION_MELVIN_SWAMPCLEANUP_COMPLETE"] = "Amazing, thanks you're the best. Here, take this generous reward for your time and effort, I know those Smugglers are rough."
+lang["#MISSION_MELVIN_SWAMPCLEANUP"] = "Limpieza del Pantano"
+lang["#MISSION_MELVIN_SWAMPCLEANUP_ITEMNAME"] = "Desechos de Drogas de Contrabandistas"
+lang["#MISSION_MELVIN_SWAMPCLEANUP_DESC"] = "Así que, ¿quieres patear el avispero otra vez? Necesito más de esos desechos de drogas que los Contrabandistas dejan tirados. Confía en mí, haré que valga la pena. Solo ve a buscarlo, por favor."
+lang["#MISSION_MELVIN_SWAMPCLEANUP_HINT"] = "En el Estuario Muerto hay dos campamentos de Contrabandistas. Un gran campamento cerca de la Cabaña del Comerciante, y un puesto de avanzada en una isla exterior. Investígales en busca de basura de drogas."
+lang["#MISSION_MELVIN_SWAMPCLEANUP_COMPLETE"] = "Increíble, gracias, eres el mejor. Toma esta generosa recompensa por tu tiempo y esfuerzo, sé que esos Contrabandistas son duros."
 
 RELOADSCHEMA = true

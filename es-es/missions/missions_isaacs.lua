@@ -1,89 +1,89 @@
-local lang = RSRG.Languages["en"]
+local lang = RSRG.Languages["es-es"]
 
--- ██╗███████╗ █████╗  █████╗  ██████╗███████╗    ███╗   ███╗██╗███████╗███████╗██╗ ██████╗ ███╗   ██╗███████╗
--- ██║██╔════╝██╔══██╗██╔══██╗██╔════╝██╔════╝    ████╗ ████║██║██╔════╝██╔════╝██║██╔═══██╗████╗  ██║██╔════╝
--- ██║███████╗███████║███████║██║     ███████╗    ██╔████╔██║██║███████╗███████╗██║██║   ██║██╔██╗ ██║███████╗
--- ██║╚════██║██╔══██║██╔══██║██║     ╚════██║    ██║╚██╔╝██║██║╚════██║╚════██║██║██║   ██║██║╚██╗██║╚════██║
--- ██║███████║██║  ██║██║  ██║╚██████╗███████║    ██║ ╚═╝ ██║██║███████║███████║██║╚██████╔╝██║ ╚████║███████║
--- ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚══════╝    ╚═╝     ╚═╝╚═╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
+-- ██╗███████╗ █████╗ █████╗  ██████╗███████╗    ██████╗ ██████╗  ██████╗██╗   ██╗██████╗ ███████╗
+-- ██║██╔════╝██╔══██╗██╔══██╗██╔════╝██╔════╝    ██╔══██╗██╔══██╗██╔════╝╚██╗ ██╔╝██╔══██╗██╔════╝
+-- ██║█████╗  ███████║██████╔╝██║     ███████╗    ██████╔╝██████╔╝██║      ╚████╔╝ ██████╔╝█████╗
+-- ██║██╔══╝  ██╔══██║██╔══██╗██║     ╚════██║    ██╔═══╝ ██╔══██╗██║       ╚██╔╝  ██╔══██╗██╔══╝
+-- ██║██║     ██║  ██║██║  ██║╚██████╗███████║    ██║     ██║  ██║╚██████╗   ██║   ██║  ██║███████╗
+-- ╚═╝╚═╝     ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚══════╝    ╚═╝     ╚═╝  ╚═╝ ╚═════╝   ╚═╝   ╚═╝  ╚═╝╚══════╝
 
--- Mission Giver
+-- Repartidor de misiones
 lang["#MISSION_GIVER_ISAAC"] = "Isaac"
-lang["#MISSION_GIVER_ISAAC_SUBTITLE"] = "Crimson Caravan"
-lang["#MISSION_GIVER_ISAAC_GREET_NEW"] = "Hey, welcome to town, stranger. Hopefully you're here with good intentions. Actually, speaking of good intentions, we need help with some work, if you're willing to lend a hand. Not literally. But, we do need some materials for trading and transporting, if you're willing to help with that. I'll toss some currency your way if you want to help.\n\n\nHere's a list of stuff I need help with."
-lang["#MISSION_GIVER_ISAAC_GREET_N100"] = "Hey hey hey, watch your next step buddy, okay? I don't like you, but that doesn't make you absolutely useless to me. I may still need help with item requests, and you're likely the only person who can get it done in this town. So, if you want something to do, I'll assign you some active orders.\n\n\nHere's a list of available orders."
-lang["#MISSION_GIVER_ISAAC_GREET_0"] = "Hello there, $playername, was it? Anyways, I may have some more orders for you to take care of if you're looking for something to do around here.\n\n\nHere's a list of available orders."
-lang["#MISSION_GIVER_ISAAC_GREET_100"] = "Whaddup, $playername? Good to see a friendly face around here, even though most of it is a hell hole. Hard to find people you can trust, like you. I may still have some stuff that needs to be fufilled, if you're willing to look into it.\n\n\nHere's a list of incomplete orders."
-lang["#MISSION_GIVER_ISAAC_GREET_FINISHED"] = "Hey, $playername, anything happening recently? Yeah, you're probably looking for some work here. Sorry, don't got any for you at the moment."
+lang["#MISSION_GIVER_ISAAC_SUBTITLE"] = "Caravana Carmesí"
+lang["#MISSION_GIVER_ISAAC_GREET_NEW"] = "Oye, bienvenido al pueblo, desconocido. Espero que vengas con buenas intenciones. Hablando de buenas intenciones, necesitamos ayuda con algo de trabajo, si estás dispuesto a echar una mano. No literalmente. Pero necesitamos algunos materiales para el comercio y el transporte, si estás dispuesto a ayudar con eso. Te daré algo de dinero si quieres ayudar.\n\n\nAquí tienes una lista de cosas con las que necesito ayuda."
+lang["#MISSION_GIVER_ISAAC_GREET_N100"] = "Oye, oye, oye, cuidado con tu próximo paso, ¿vale? No me gustas, pero eso no te hace absolutamente inútil para mí. Puede que todavía necesite ayuda con solicitudes de artículos, y es probable que seas la única persona que pueda hacerlo en este pueblo. Así que, si quieres algo que hacer, te asignaré algunos pedidos activos.\n\n\nAquí tienes una lista de pedidos disponibles."
+lang["#MISSION_GIVER_ISAAC_GREET_0"] = "Hola, $playername, ¿verdad? Bueno, puede que tenga más pedidos para que los realices si buscas algo que hacer por aquí.\n\n\nAquí tienes una lista de pedidos disponibles."
+lang["#MISSION_GIVER_ISAAC_GREET_100"] = "¿Qué pasa, $playername? Me alegra ver una cara amiga por aquí, aunque la mayor parte es un infierno. Es difícil encontrar gente de confianza, como tú. Puede que todavía tenga algunas cosas que necesitan ser cumplidas, si estás dispuesto a investigarlo.\n\n\nAquí tienes una lista de pedidos incompletos."
+lang["#MISSION_GIVER_ISAAC_GREET_FINISHED"] = "Oye, $playername, ¿ha pasado algo últimamente? Sí, seguramente estás buscando trabajo aquí. Lo siento, no tengo nada para ti en este momento."
 
--- Missions
-lang["#MISSION_ISAAC_PERSONALREQUEST"] = "Lost Wood"
-lang["#MISSION_ISAAC_PERSONALREQUEST_DESC"] = "Since you're interested in some work, we are missing a bundle of wood that we are suppose to give to someone later today. Not entirely sure where it may have went, could have been stolen, but we need it to fufill their order. I need you to go and get about half a dozen wood scraps for us. It'll be enough to cover for what they wanted."
-lang["#MISSION_ISAAC_PERSONALREQUEST_HINT"] = "Obtain Scrap Wood. It can be scavenged, salvaged or collected from other bundles of wood / broken trees. You can also buy it from some traders."
-lang["#MISSION_ISAAC_PERSONALREQUEST_COMPLETE"] = "Sweet, thanks dude. Here, for your troubles."
+-- Misiones
+lang["#MISSION_ISAAC_PERSONALREQUEST"] = "Madera Perdida"
+lang["#MISSION_ISAAC_PERSONALREQUEST_DESC"] = "Ya que estás interesado en algo de trabajo, nos falta un lote de madera que se supone debemos entregar a alguien más tarde hoy. No estoy seguro de dónde pudo haber ido a parar, podría haber sido robada, pero la necesitamos para cumplir con su pedido. Necesito que vayas y consigas alrededor de media docena de restos de madera para nosotros. Será suficiente para cubrir lo que querían."
+lang["#MISSION_ISAAC_PERSONALREQUEST_HINT"] = "Consigue Madera de Desecho. Se puede saquear, recuperar o recolectar de otros paquetes de madera o árboles rotos. También puedes comprarla a algunos comerciantes."
+lang["#MISSION_ISAAC_PERSONALREQUEST_COMPLETE"] = "Genial, gracias amigo. Toma, por tus problemas."
 
-lang["#MISSION_ISAAC_LEATHERYORDER"] = "Leather Request"
-lang["#MISSION_ISAAC_LEATHERYORDER_DESC"] = "You still willing to help? Okay, so, someone just placed an order for leather, not too much. If you're willing to go and grab some for me so I can complete this order, I'll pay you for it."
-lang["#MISSION_ISAAC_LEATHERYORDER_HINT"] = "Obtain Leather. It can be found by scavenging, salvaging leather items, or bought from traders."
-lang["#MISSION_ISAAC_LEATHERYORDER_COMPLETE"] = "Alright, I'll get this to the guy. Here you go."
+lang["#MISSION_ISAAC_LEATHERYORDER"] = "Solicitud de Cuero"
+lang["#MISSION_ISAAC_LEATHERYORDER_DESC"] = "¿Todavía estás dispuesto a ayudar? Bueno, alguien acaba de hacer un pedido de cuero, no demasiado. Si estás dispuesto a ir a buscar algo para mí y así poder completar este pedido, te pagaré por ello."
+lang["#MISSION_ISAAC_LEATHERYORDER_HINT"] = "Consigue Cuero. Se puede encontrar saqueando, recuperando artículos de cuero o comprándolo a comerciantes."
+lang["#MISSION_ISAAC_LEATHERYORDER_COMPLETE"] = "Muy bien, se lo daré al tipo. Aquí tienes."
 
-lang["#MISSION_ISAAC_MEDICINALS"] = "Combat Medicine"
-lang["#MISSION_ISAAC_MEDICINALS_DESC"] = "back to help again? Just got an order for Stimpaks, a few of them. If you can't find any, I'd recommend talking to Headcase in the Doctors house. I'll have some payment ready for you."
-lang["#MISSION_ISAAC_MEDICINALS_HINT"] = "Obtain Stimpaks. They can be scavenged, crafted, or bought from traders."
-lang["#MISSION_ISAAC_MEDICINALS_COMPLETE"] = "I'll take care of my part, here you go."
+lang["#MISSION_ISAAC_MEDICINALS"] = "Medicina de Combate"
+lang["#MISSION_ISAAC_MEDICINALS_DESC"] = "¿De vuelta a ayudar? Acabo de recibir un pedido de Stimpaks, unos pocos. Si no puedes encontrar ninguno, te recomiendo que hables con Headcase en la casa del médico. Tendré algo de pago listo para ti."
+lang["#MISSION_ISAAC_MEDICINALS_HINT"] = "Consigue Stimpaks. Se pueden saquear, fabricar o comprar a comerciantes."
+lang["#MISSION_ISAAC_MEDICINALS_COMPLETE"] = "Yo me encargo de mi parte, aquí tienes."
 
-lang["#MISSION_ISAAC_METALBULK"] = "Metal Bulk"
-lang["#MISSION_ISAAC_METALBULK_DESC"] = "Obviously you're here to help. Just got an order for a lot of Scrap Metal, dude's probably building something. Anyways, just do your end."
-lang["#MISSION_ISAAC_METALBULK_HINT"] = "Obtain Scrap Metal. It can be easily found from salvaging vehicles and scavenging. It can also be obtained from breaking down metal related items."
-lang["#MISSION_ISAAC_METALBULK_COMPLETE"] = "Another order fufilled, here's your cut."
+lang["#MISSION_ISAAC_METALBULK"] = "Metal a Granel"
+lang["#MISSION_ISAAC_METALBULK_DESC"] = "Obviamente estás aquí para ayudar. Acabo de recibir un pedido de un montón de Metal de Desecho, el tipo debe estar construyendo algo. Bueno, haz tu parte."
+lang["#MISSION_ISAAC_METALBULK_HINT"] = "Consigue Metal de Desecho. Se puede encontrar fácilmente recuperando vehículos y saqueando. También se puede obtener descomponiendo artículos relacionados con el metal."
+lang["#MISSION_ISAAC_METALBULK_COMPLETE"] = "Otro pedido cumplido, aquí está tu parte."
 
--- T2
+-- N2
 
-lang["#MISSION_ISAAC_SHARPTOOLS"] = "Sharp Tools"
-lang["#MISSION_ISAAC_SHARPTOOLS_DESC"] = "Just got a different type of order. The person who requested this wants a combat knife. I know Darrows usually holds stuff like that, but we don't like each other. Maybe go and talk to him?"
-lang["#MISSION_ISAAC_SHARPTOOLS_HINT"] = "Obtain a Combat Knife. They are sold by traders."
-lang["#MISSION_ISAAC_SHARPTOOLS_COMPLETE"] = "Hopefully you didn't have trouble finding that."
+lang["#MISSION_ISAAC_SHARPTOOLS"] = "Herramientas Afiladas"
+lang["#MISSION_ISAAC_SHARPTOOLS_DESC"] = "Acabo de recibir un tipo diferente de pedido. La persona que lo solicitó quiere un cuchillo de combate. Sé que Darrows suele tener ese tipo de cosas, pero no nos caemos bien. ¿Quizás ir a hablar con él?"
+lang["#MISSION_ISAAC_SHARPTOOLS_HINT"] = "Consigue un Cuchillo de Combate. Los venden los comerciantes."
+lang["#MISSION_ISAAC_SHARPTOOLS_COMPLETE"] = "Espero que no hayas tenido problemas para encontrarlo."
 
-lang["#MISSION_ISAAC_GOODHIDES"] = "Molerat Skin"
-lang["#MISSION_ISAAC_GOODHIDES_DESC"] = "Hey man, so, I hope you're up for some larger orders. We have some people who are requesting some bigger items. Don't worry, I won't give you anything too hard to get your hands on yet. This is pretty easy, just need you to get some Molerat hides."
-lang["#MISSION_ISAAC_GOODHIDES_HINT"] = "Obtain Molerat Hides. You can get hides by killing and looting Molerats."
-lang["#MISSION_ISAAC_GOODHIDES_COMPLETE"] = "Good, good. Here's your reward."
+lang["#MISSION_ISAAC_GOODHIDES"] = "Piel de Rata Topo"
+lang["#MISSION_ISAAC_GOODHIDES_DESC"] = "Oye, espero que estés listo para pedidos más grandes. Algunas personas están solicitando artículos más grandes. No te preocupes, no te daré nada demasiado difícil de conseguir todavía. Esto es bastante fácil, solo necesito que consigas algunas pieles de rata topo."
+lang["#MISSION_ISAAC_GOODHIDES_HINT"] = "Consigue Pieles de Rata Topo. Puedes obtener pieles matando y saqueando Ratas Topo."
+lang["#MISSION_ISAAC_GOODHIDES_COMPLETE"] = "Bien, bien. Aquí está tu recompensa."
 
-lang["#MISSION_ISAAC_LOADOUT"] = "Loadout"
-lang["#MISSION_ISAAC_LOADOUT_DESC"] = "Hey, you think you're ready for this one? I just got tossed a large order, and I'm not sure if we could get all the parts. This may be a bit tough, but I believe in you. A man ordered a 9MM Pistol, Ammunition, and some Mercenary armor. Come back when you get it all."
-lang["#MISSION_ISAAC_LOADOUT_HINT"] = "Obtain a 9MM Pistol, 9MM Ammo, and a Merc Duster. 9MM Pistols and Ammunition can be rarely found from scavenging and bought from traders. Merc Dusters are commonly sold by traders."
-lang["#MISSION_ISAAC_LOADOUT_COMPLETE"] = "Wow, you actually managed to get all of that? Here's your reward."
+lang["#MISSION_ISAAC_LOADOUT"] = "Equipo"
+lang["#MISSION_ISAAC_LOADOUT_DESC"] = "Oye, ¿crees que estás listo para este? Me acaban de dar un pedido grande, y no estoy seguro de que podamos conseguir todas las piezas. Esto puede ser un poco difícil, pero creo en ti. Un hombre pidió una Pistola 9mm, munición y una armadura de mercenario. Vuelve cuando lo tengas todo."
+lang["#MISSION_ISAAC_LOADOUT_HINT"] = "Consigue una Pistola 9mm, Munición 9mm y una Gabardina de Mercenario. Las Pistolas 9mm y la munición se pueden encontrar raramente saqueando y comprando a comerciantes. Las Gabardinas de Mercenario las venden comúnmente los comerciantes."
+lang["#MISSION_ISAAC_LOADOUT_COMPLETE"] = "Vaya, ¿realmente conseguiste todo eso? Aquí está tu recompensa."
 
-lang["#MISSION_ISAAC_COUPLESMOKES"] = "Couple O' Smokes"
-lang["#MISSION_ISAAC_COUPLESMOKES_DESC"] = "Had a man come in a few minutes ago, wanted an order for a couple o' smokes. He actually just wanted some packs of cigarettes. Sounds pretty easy to me."
-lang["#MISSION_ISAAC_COUPLESMOKES_HINT"] = "Obtain Cigarette Packs. They can be found from scavenging."
-lang["#MISSION_ISAAC_COUPLESMOKES_COMPLETE"] = "Dude probably smokes quite a bit. Here."
+lang["#MISSION_ISAAC_COUPLESMOKES"] = "Un Par de Pitillos"
+lang["#MISSION_ISAAC_COUPLESMOKES_DESC"] = "Un hombre vino hace unos minutos, quería un pedido de un par de pitillos. En realidad solo quería algunos paquetes de cigarrillos. Me parece bastante fácil."
+lang["#MISSION_ISAAC_COUPLESMOKES_HINT"] = "Consigue Paquetes de Cigarrillos. Se pueden encontrar saqueando."
+lang["#MISSION_ISAAC_COUPLESMOKES_COMPLETE"] = "El tipo probablemente fuma bastante. Toma."
 
-lang["#MISSION_ISAAC_PREWARSNACKS"] = "Pre-War Snacks"
-lang["#MISSION_ISAAC_PREWARSNACKS_DESC"] = "Some guy wants us to get him serveral Pre-War snacks. I don't know why he would want them, but to be honest, some of the things on this list do taste good."
-lang["#MISSION_ISAAC_PREWARSNACKS_HINT"] = "Obtain Potato Crisps, Instamash, Cotton Candy, and Cakes. All can be found from scavenging and sometimes sold by traders."
-lang["#MISSION_ISAAC_PREWARSNACKS_COMPLETE"] = "Man, only if they could've been for us."
+lang["#MISSION_ISAAC_PREWARSNACKS"] = "Bocadillos de Antes de la Guerra"
+lang["#MISSION_ISAAC_PREWARSNACKS_DESC"] = "Un tipo quiere que le consigamos varias golosinas de antes de la guerra. No sé por qué las querría, pero para ser honesto, algunas de las cosas de esta lista saben bien."
+lang["#MISSION_ISAAC_PREWARSNACKS_HINT"] = "Consigue Patatas Fritas, Instapuré, Algodón de Azúcar y Pastelitos. Todos se pueden encontrar saqueando y, a veces, los venden los comerciantes."
+lang["#MISSION_ISAAC_PREWARSNACKS_COMPLETE"] = "Hombre, si tan solo hubieran sido para nosotros."
 
--- T3
+-- N3
 
-lang["#MISSION_ISAAC_CARREPAIR"] = "Car Repair"
-lang["#MISSION_ISAAC_CARREPAIR_DESC"] = "Hey, got some guy who wants what looks like... makeshift batteries and car wheels? Haven't seen people wanting those in a while. I've only ever seen a few functional vehicles around here, which sounds really useful. Anyways, back to work."
-lang["#MISSION_ISAAC_CARREPAIR_HINT"] = "Obtain Makeshift Batteries and Wheels. Makeshift Batteries can be crafted at workbenches. Wheels can also be crafted at workbenched or found from broken down vehicles."
-lang["#MISSION_ISAAC_CARREPAIR_COMPLETE"] = "Maybe I'll make my own vehicle one day, with you teaching me, of course."
+lang["#MISSION_ISAAC_CARREPAIR"] = "Reparación de Coche"
+lang["#MISSION_ISAAC_CARREPAIR_DESC"] = "Oye, un tipo quiere lo que parecen... baterías improvisadas y ruedas de coche. Hacía tiempo que no veía a alguien querer esas cosas. Solo he visto unos pocos vehículos funcionales por aquí, lo que suena muy útil. Bueno, de vuelta al trabajo."
+lang["#MISSION_ISAAC_CARREPAIR_HINT"] = "Consigue Baterías Improvisadas y Ruedas. Las Baterías Improvisadas se pueden fabricar en bancos de trabajo. Las Ruedas también se pueden fabricar en bancos de trabajo o encontrar en vehículos descompuestos."
+lang["#MISSION_ISAAC_CARREPAIR_COMPLETE"] = "Quizás algún día haga mi propio vehículo, contigo enseñándome, por supuesto."
 
-lang["#MISSION_ISAAC_FIBERS"] = "Fibers"
-lang["#MISSION_ISAAC_FIBERS_DESC"] = "Back to business. Got an order placed for 'ballistic fiber'. Sounds like they want some decent protection. Anyways, hold up your end."
-lang["#MISSION_ISAAC_FIBERS_HINT"] = "Obtain 4 Ballistic Fiber. They can be found in ammo containers or military cabinets."
-lang["#MISSION_ISAAC_FIBERS_COMPLETE"] = "Man, only if I had some sweet armor."
+lang["#MISSION_ISAAC_FIBERS"] = "Fibras"
+lang["#MISSION_ISAAC_FIBERS_DESC"] = "De vuelta a los negocios. Tengo un pedido de 'fibra balística'. Suena como si quisieran una protección decente. Bueno, cumple tu parte."
+lang["#MISSION_ISAAC_FIBERS_HINT"] = "Consigue 4 Fibra Balística. Se puede encontrar en contenedores de munición o armarios militares."
+lang["#MISSION_ISAAC_FIBERS_COMPLETE"] = "Hombre, si tan solo tuviera una buena armadura."
 
-lang["#MISSION_ISAAC_FACTORYMATERIALS"] = "Factory Materials"
-lang["#MISSION_ISAAC_FACTORYMATERIALS_DESC"] = "Hey, just got some weird order from a guy who wants full metallic ingots, and nuclear material. Correct me if I'm wrong, but these materials sound like they would be used in an old factory I've heard of in the Mountains. Anyways, the guy is paying a lot for them, and I mean a lot."
-lang["#MISSION_ISAAC_FACTORYMATERIALS_HINT"] = "Obtain Lead Ingots, Copper Ingots, and Nuclear Material. Lead and Copper Ingots can be found from scavenging and sometimes are sold by traders. Nuclear Material can be found from scavenging."
-lang["#MISSION_ISAAC_FACTORYMATERIALS_COMPLETE"] = "Yeah, just be careful with the nuclear stuff. Should be ready for him."
+lang["#MISSION_ISAAC_FACTORYMATERIALS"] = "Materiales de Fábrica"
+lang["#MISSION_ISAAC_FACTORYMATERIALS_DESC"] = "Oye, acabo de recibir un pedido extraño de un tipo que quiere lingotes metálicos completos y material nuclear. Corrígeme si me equivoco, pero estos materiales suenan como si se usaran en una vieja fábrica de la que he oído hablar en las Montañas. Bueno, el tipo está pagando un montón por ellos, y digo un montón."
+lang["#MISSION_ISAAC_FACTORYMATERIALS_HINT"] = "Consigue Lingotes de Plomo, Lingotes de Cobre y Material Nuclear. Los Lingotes de Plomo y Cobre se pueden encontrar saqueando y, a veces, los venden los comerciantes. El Material Nuclear se puede encontrar saqueando."
+lang["#MISSION_ISAAC_FACTORYMATERIALS_COMPLETE"] = "Sí, solo ten cuidado con lo nuclear. Debería estar listo para él."
 
-lang["#MISSION_ISAAC_SPECIALKINDOFHIDE"] = "Special Kind Of Hide"
-lang["#MISSION_ISAAC_SPECIALKINDOFHIDE_DESC"] = "I just had an old friend stop by not too long ago, and he asked me if I could help him with a project, and it's actually the last part of something that he needs for whatever he's making. Anyways, to quickly explain it, he want's some Deathclaw Hide. I can definitely understand if you do not want to go and get this, but I can tell you that the reward for it will definitely be worth it. That is, if you don't die. It's also possible you could find someone who is willing to give it to you too."
-lang["#MISSION_ISAAC_SPECIALKINDOFHIDE_HINT"] = "Obtain Deathclaw Hide. You can obtain it if you have the scale skinning perk and manage to kill a Deathclaw."
-lang["#MISSION_ISAAC_SPECIALKINDOFHIDE_COMPLETE"] = "Wow, did you actually kill a deathclaw for this? I mean you could've traded for it."
+lang["#MISSION_ISAAC_SPECIALKINDOFHIDE"] = "Un Tipo Especial de Piel"
+lang["#MISSION_ISAAC_SPECIALKINDOFHIDE_DESC"] = "Un viejo amigo pasó por aquí no hace mucho, y me preguntó si podía ayudarlo con un proyecto, y es en realidad la última parte de algo que necesita para lo que sea que está haciendo. Bueno, para explicarlo rápidamente, quiere piel de Sanguinario. Puedo entender perfectamente si no quieres ir a buscar esto, pero puedo decirte que la recompensa definitivamente valdrá la pena. Eso es, si no mueres. También es posible que puedas encontrar a alguien que esté dispuesto a dártela."
+lang["#MISSION_ISAAC_SPECIALKINDOFHIDE_HINT"] = "Consigue Piel de Sanguinario. Puedes obtenerla si tienes la habilidad de despellejar y logras matar a un Sanguinario."
+lang["#MISSION_ISAAC_SPECIALKINDOFHIDE_COMPLETE"] = "Vaya, ¿realmente mataste a un sanguinario por esto? Quiero decir, podrías haberlo intercambiado."
 
 RELOADSCHEMA = true

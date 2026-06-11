@@ -1,15 +1,15 @@
-local lang = RSRG.Languages["en"]
+local lang = RSRG.Languages["es-es"]
 
-lang["#MISSION_GIVER_ROCKBITERSCOUT"] = "Friendly Rock Biter Scout"
-lang["#MISSION_GIVER_ROCKBITERSCOUT_SUBTITLE"] = "Rock Biter Scout"
-lang["#MISSION_GIVER_ROCKBITERSCOUT_GREET_NEW"] = "Hey, hey you, kid. C'mere. I got an offer for you."
-lang["#MISSION_GIVER_ROCKBITERSCOUT_GREET"] = "Well? You talk to Salt Rock Yet?"
-lang["#MISSION_GIVER_ROCKBITERSCOUT_GREET_FINISHED"] = "See ya around the valley kid."
+lang["#MISSION_GIVER_ROCKBITERSCOUT"] = "Explorador Amistoso Muerde Rocas"
+lang["#MISSION_GIVER_ROCKBITERSCOUT_SUBTITLE"] = "Explorador Muerde Rocas"
+lang["#MISSION_GIVER_ROCKBITERSCOUT_GREET_NEW"] = "Oye, oye, tú, chico. Ven aquí. Tengo una oferta para ti."
+lang["#MISSION_GIVER_ROCKBITERSCOUT_GREET"] = "¿Y bien? ¿Ya hablaste con Salt Rock?"
+lang["#MISSION_GIVER_ROCKBITERSCOUT_GREET_FINISHED"] = "Nos vemos por el valle, chico."
 
-lang["#MISSION_ROCKBITERSCOUT_THEROCKBITERS"] = "Meeting the Rock Biters"
-lang["#MISSION_ROCKBITERSCOUT_THEROCKBITERS_DESC"] = "Hey, buddy, c'mere. Listen, I got a pal of mine, name of Salt Rock that i'm worried about. We may be rock biters, but we're not horrible people. Head down the river bed and find the stair scaffolding, head into the small tunnel, and take a right when you get to the weird merchant in there. Make sure he's ok, alright?"
-lang["#MISSION_ROCKBITERSCOUT_THEROCKBITERS_HINT"] = "Travel through the riverbed and there is stair scaffolding opposite the center town. Head into the small tunnel, not the large mine entrance, and go down there to the right and check on Salt Rock."
-lang["#MISSION_ROCKBITERSCOUT_THEROCKBITERS_COMPLETE"] = "Who're you? From the scout? Here, take a drink, let's talk."
-lang["#MISSION_ROCKBITERSCOUT_THEROCKBITERS_CUSTOMUI"] = "Check on the Rock Biter Salt Rock."
+lang["#MISSION_ROCKBITERSCOUT_THEROCKBITERS"] = "Conociendo a los Muerde Rocas"
+lang["#MISSION_ROCKBITERSCOUT_THEROCKBITERS_DESC"] = "Oye, amigo, ven aquí. Escucha, tengo un amigo llamado Salt Rock por quien estoy preocupado. Puede que seamos Muerde Rocas, pero no somos personas horribles. Ve por el lecho del río y busca el andamio de escaleras, entra en el pequeño túnel y gira a la derecha cuando llegues al extraño comerciante que hay allí. Asegúrate de que esté bien, ¿de acuerdo?"
+lang["#MISSION_ROCKBITERSCOUT_THEROCKBITERS_HINT"] = "Viaja por el lecho del río; hay un andamio de escaleras frente al pueblo del centro. Entra en el pequeño túnel, no en la gran entrada de la mina, y baja por allí a la derecha para ver cómo está Salt Rock."
+lang["#MISSION_ROCKBITERSCOUT_THEROCKBITERS_COMPLETE"] = "¿Quién eres? ¿Vienes de parte del explorador? Toma, bebe algo, hablemos."
+lang["#MISSION_ROCKBITERSCOUT_THEROCKBITERS_CUSTOMUI"] = "Verifica cómo está Salt Rock, el Muerde Rocas."
 
 RELOADSCHEMA = true

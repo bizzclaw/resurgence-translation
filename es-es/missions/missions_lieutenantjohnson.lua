@@ -1,4 +1,4 @@
-local lang = RSRG.Languages["en"]
+local lang = RSRG.Languages["es-es"]
 
 --      ██╗ ██████╗ ██╗  ██╗███╗   ██╗███████╗ ██████╗ ███╗   ██╗
 --      ██║██╔═══██╗██║  ██║████╗  ██║██╔════╝██╔═══██╗████╗  ██║
@@ -7,66 +7,65 @@ local lang = RSRG.Languages["en"]
 -- ╚█████╔╝╚██████╔╝██║  ██║██║ ╚████║███████║╚██████╔╝██║ ╚████║
 --  ╚════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝ ╚═════╝ ╚═╝  ╚═══╝
 
+-- Repartidor de misiones
+lang["#MISSION_GIVER_LIEUTENANTJOHNSON"] = "Teniente Johnson"
+lang["#MISSION_GIVER_LIEUTENANTJOHNSON_SUBTITLE"] = "Teniente del Enclave"
+lang["#MISSION_GIVER_LIEUTENANTJOHNSON_GREET_NEW"] = "¿Qué pasa? Estoy ocupado planeando operaciones con la base de origen. Si quieres ayudar, está bien, si no, hazte útil."
+lang["#MISSION_GIVER_LIEUTENANTJOHNSON_GREET"] = "Tengo más órdenes de la base de origen si estás dispuesto a ayudar a la causa."
+lang["#MISSION_GIVER_LIEUTENANTJOHNSON_GREET_FINISHED"] = "¡Sal ahí fuera y ponte a trabajar!"
 
--- Mission Giver
-lang["#MISSION_GIVER_LIEUTENANTJOHNSON"] = "Lieutenant Johnson"
-lang["#MISSION_GIVER_LIEUTENANTJOHNSON_SUBTITLE"] = "Enclave Lieutenant"
-lang["#MISSION_GIVER_LIEUTENANTJOHNSON_GREET_NEW"] = "What is it? I'm busy planning operations with the home base. If you want to help out that's fine, otherwise go make yourself useful."
-lang["#MISSION_GIVER_LIEUTENANTJOHNSON_GREET"] = "I have some more orders from home base if you're willing to help the cause"
-lang["#MISSION_GIVER_LIEUTENANTJOHNSON_GREET_FINISHED"] = "Get out there and get to work!"
+-- Misiones de una sola vez
+lang["#MISSION_LIEUTENANTJOHNSON_OPCLEANUP"] = "Operación Limpieza"
+lang["#MISSION_LIEUTENANTJOHNSON_OPCLEANUP_DESC"] = "Lo primero es lo primero, debemos deshacernos de esos mutantes en el área. Me gustaría que hicieras un barrido completo de la zona."
+lang["#MISSION_LIEUTENANTJOHNSON_OPCLEANUP_HINT"] = "Mata a los mutantes Rechazados en el área de las Tierras de Ceniza."
+lang["#MISSION_LIEUTENANTJOHNSON_OPCLEANUP_COMPLETE"] = "Buen trabajo. Esto debería facilitar las cosas en el futuro."
 
--- One time missions
-lang["#MISSION_LIEUTENANTJOHNSON_OPCLEANUP"] = "Operation Cleanup"
-lang["#MISSION_LIEUTENANTJOHNSON_OPCLEANUP_DESC"] = "First things first, we need to get rid of those mutants in the area. I'd like it if you could do a full sweep of the area."
-lang["#MISSION_LIEUTENANTJOHNSON_OPCLEANUP_HINT"] = "Kill Rejected mutants in the Ashlands Area"
-lang["#MISSION_LIEUTENANTJOHNSON_OPCLEANUP_COMPLETE"] = "Good job. This should make things easier going forward."
+lang["#MISSION_LIEUTENANTJOHNSON_BRINGTHEMHOME"] = "Tráelos a Casa"
+lang["#MISSION_LIEUTENANTJOHNSON_BRINGTHEMHOME_DESC"] = "Esperábamos un vertibird con un pequeño escuadrón de investigadores para ayudar a nuestros esfuerzos, pero se perdió sobre el pantano. Necesito que vayas allí y averigües qué pasó. O al menos traigas de vuelta la caja negra."
+lang["#MISSION_LIEUTENANTJOHNSON_BRINGTHEMHOME_HINT"] = "Encuentra el Vertibird accidentado en el Estuario Muerto y recoge la caja negra."
+lang["#MISSION_LIEUTENANTJOHNSON_BRINGTHEMHOME_COMPLETE"] = "¿No sobrevivieron? Qué lástima. Informaré a la base de origen y enviaré otro grupo."
+lang["#MISSION_LIEUTENANTJOHNSON_BRINGTHEMHOME_ITEMNAME"] = "Caja Negra del Vertibird"
 
-lang["#MISSION_LIEUTENANTJOHNSON_BRINGTHEMHOME"] = "Bring them Home"
-lang["#MISSION_LIEUTENANTJOHNSON_BRINGTHEMHOME_DESC"] = "We were expecting a vertibird with a small squad of researchers to help further our efforts, however it went dark over the swamp. I need you to head over there and find out what happened. Or at least bring back the black box."
-lang["#MISSION_LIEUTENANTJOHNSON_BRINGTHEMHOME_HINT"] = "Find the crashed Vertibird on Dead Estuary and collect the black box"
-lang["#MISSION_LIEUTENANTJOHNSON_BRINGTHEMHOME_COMPLETE"] = "They didn't make it? Thats a damn shame. I'll let home base know and to send another group."
-lang["#MISSION_LIEUTENANTJOHNSON_BRINGTHEMHOME_ITEMNAME"] = "Vertibird Black Box"
+lang["#MISSION_LIEUTENANTJOHNSON_AIRSUPERIORITY"] = "Superioridad Aérea"
+lang["#MISSION_LIEUTENANTJOHNSON_AIRSUPERIORITY_DESC"] = "Hemos determinado la causa del accidente a partir de la caja negra que entregaste. Parece que un grupo que se hace llamar la Compañía Phoenix ha estado disparando a nuestras unidades aéreas. Necesito que encuentres dónde están ubicados y caces a sus miembros de alto rango."
+lang["#MISSION_LIEUTENANTJOHNSON_AIRSUPERIORITY_HINT"] = "Elimina a la Compañía Phoenix en Salem."
+lang["#MISSION_LIEUTENANTJOHNSON_AIRSUPERIORITY_COMPLETE"] = "Buen trabajo. Con suerte, eso asegurará las rutas de vuelo para que podamos traer refuerzos."
 
-lang["#MISSION_LIEUTENANTJOHNSON_AIRSUPERIORITY"] = "Air Superiority"
-lang["#MISSION_LIEUTENANTJOHNSON_AIRSUPERIORITY_DESC"] = "We've determined the cause of the crash from the black box you delivered, it seems a group calling themselves the phoenix company have been taking shots at our air units. I need you to find where they are located and hunt down their high ranking members."
-lang["#MISSION_LIEUTENANTJOHNSON_AIRSUPERIORITY_HINT"] = "Eliminate Phoenix company in Salem"
-lang["#MISSION_LIEUTENANTJOHNSON_AIRSUPERIORITY_COMPLETE"] = "Good work, hopefully that will secure the flight paths so we can get reinforcements in."
+lang["#MISSION_LIEUTENANTJOHNSON_THOROUGHRESEARCH"] = "Investigación a Fondo"
+lang["#MISSION_LIEUTENANTJOHNSON_THOROUGHRESEARCH_DESC"] = "No hay tiempo para hablar, tenemos una misión urgente. Hemos recibido informes preocupantes sobre la desaparición de algunas holocintas del equipo de investigación. Por lo que podemos deducir, parece que se las han llevado a una instalación subterránea cercana. ¡Debemos entrar allí y recuperarlas!"
+lang["#MISSION_LIEUTENANTJOHNSON_THOROUGHRESEARCH_HINT"] = "Recupera la holocinta del búnker."
+lang["#MISSION_LIEUTENANTJOHNSON_THOROUGHRESEARCH_ITEMNAME"] = "Holocinta de Investigación del Enclave"
+lang["#MISSION_LIEUTENANTJOHNSON_THOROUGHRESEARCH_COMPLETE"] = "¡Trabajo increíble! Eres un verdadero orgullo para este país. Ahora dame un momento para averiguar por qué demonios desaparecieron estas."
 
-lang["#MISSION_LIEUTENANTJOHNSON_THOROUGHRESEARCH"] = "Thorough Research"
-lang["#MISSION_LIEUTENANTJOHNSON_THOROUGHRESEARCH_DESC"] = "No time to speak, we have an urgent mission. We have received worrying reports of some missing holotapes from the research team. From what we could discern they seem to be have taken to an underground facility nearby. We need to get in there and retrieve them!"
-lang["#MISSION_LIEUTENANTJOHNSON_THOROUGHRESEARCH_HINT"] = "Retrieve the holotape from the bunker"
-lang["#MISSION_LIEUTENANTJOHNSON_THOROUGHRESEARCH_ITEMNAME"] = "Enclave Research Holotape"
-lang["#MISSION_LIEUTENANTJOHNSON_THOROUGHRESEARCH_COMPLETE"] = "Amazing work! You're a true credit to this country. Now give me a moment whilst I go find out why the fuck these went missing."
+-- Misiones repetibles, disponibles después de "Investigación a Fondo"
+lang["#MISSION_LIEUTENANTJOHNSON_FUNDINGRECLAMATION"] = "Financiando la Reclamación"
+lang["#MISSION_LIEUTENANTJOHNSON_FUNDINGRECLAMATION_DESC"] = "Estamos buscando rellenar nuestras reservas. Cualquier contribución que estés dispuesto a hacer sería de gran ayuda."
+lang["#MISSION_LIEUTENANTJOHNSON_FUNDINGRECLAMATION_HINT"] = "Entrega 2 Lingotes de Oro."
+lang["#MISSION_LIEUTENANTJOHNSON_FUNDINGRECLAMATION_COMPLETE"] = "Esto será de gran ayuda para nuestros esfuerzos."
 
--- Repeatable missions, available after thorough research
-lang["#MISSION_LIEUTENANTJOHNSON_FUNDINGRECLAMATION"] = "Funding the Reclamation"
-lang["#MISSION_LIEUTENANTJOHNSON_FUNDINGRECLAMATION_DESC"] = "We're looking to top up our reserves, any contributions you're willing to make would go a long way."
-lang["#MISSION_LIEUTENANTJOHNSON_FUNDINGRECLAMATION_HINT"] = "Turn in 2 Gold Ingots."
-lang["#MISSION_LIEUTENANTJOHNSON_FUNDINGRECLAMATION_COMPLETE"] = "This will go a long way in our efforts."
+lang["#MISSION_LIEUTENANTJOHNSON_MAINTAININGHOLD"] = "Manteniendo la Posición"
+lang["#MISSION_LIEUTENANTJOHNSON_MAINTAININGHOLD_DESC"] = "Necesitamos algunos materiales básicos para mantener segura nuestra base. Deberías poder conseguirlos por aquí."
+lang["#MISSION_LIEUTENANTJOHNSON_MAINTAININGHOLD_HINT"] = "Encuentra y entrega los materiales de desecho. Deberías poder encontrarlos en cualquier lugar."
+lang["#MISSION_LIEUTENANTJOHNSON_MAINTAININGHOLD_COMPLETE"] = "Esto debería mantenernos seguros un poco más. Buen trabajo."
 
-lang["#MISSION_LIEUTENANTJOHNSON_MAINTAININGHOLD"] = "Maintaining the Hold"
-lang["#MISSION_LIEUTENANTJOHNSON_MAINTAININGHOLD_DESC"] = "We need some basic materials to keep our base secure. You should be able to get them from around here"
-lang["#MISSION_LIEUTENANTJOHNSON_MAINTAININGHOLD_HINT"] = "Find and turn in the scrap materials, you should be able to find these anywhere."
-lang["#MISSION_LIEUTENANTJOHNSON_MAINTAININGHOLD_COMPLETE"] = "This should keep us secure a while longer. Good work."
+lang["#MISSION_LIEUTENANTJOHNSON_PURGETHESELANDS"] = "Purga Estas Tierras"
+lang["#MISSION_LIEUTENANTJOHNSON_PURGETHESELANDS_DESC"] = "Esos asquerosos mutantes están haciendo nuestro trabajo más difícil. Deshazte de ellos."
+lang["#MISSION_LIEUTENANTJOHNSON_PURGETHESELANDS_HINT"] = "Mata a los mutantes Rechazados en las Tierras de Ceniza."
+lang["#MISSION_LIEUTENANTJOHNSON_PURGETHESELANDS_COMPLETE"] = "Eso es unos cuantos menos de los que preocuparse."
 
-lang["#MISSION_LIEUTENANTJOHNSON_PURGETHESELANDS"] = "Purge these Lands"
-lang["#MISSION_LIEUTENANTJOHNSON_PURGETHESELANDS_DESC"] = "Those disgusting mutants are making our jobs harder, get rid of them."
-lang["#MISSION_LIEUTENANTJOHNSON_PURGETHESELANDS_HINT"] = "Kill Rejected Mutants around Ashlands."
-lang["#MISSION_LIEUTENANTJOHNSON_PURGETHESELANDS_COMPLETE"] = "That's a few less to worry about."
+lang["#MISSION_LIEUTENANTJOHNSON_RADIATIONSAMPLES"] = "Muestras de Radiación"
+lang["#MISSION_LIEUTENANTJOHNSON_RADIATIONSAMPLES_DESC"] = "Necesitamos algunas muestras de los lugareños irradiados de la zona. Deberías poder encontrarlos en todas partes."
+lang["#MISSION_LIEUTENANTJOHNSON_RADIATIONSAMPLES_HINT"] = "Entrega 6 Masas Mutagénicas. Puedes cosecharlas de los cuerpos de los necrófagos."
+lang["#MISSION_LIEUTENANTJOHNSON_RADIATIONSAMPLES_COMPLETE"] = "Enviaré esto a los científicos."
 
-lang["#MISSION_LIEUTENANTJOHNSON_RADIATIONSAMPLES"] = "Radiation Samples"
-lang["#MISSION_LIEUTENANTJOHNSON_RADIATIONSAMPLES_DESC"] = "We need some samples from the irradiated locals in the area, you should be able to find them everywhere."
-lang["#MISSION_LIEUTENANTJOHNSON_RADIATIONSAMPLES_HINT"] = "Turn in 6 Mutagenic Mass. You can harvest these from the bodies of ghouls."
-lang["#MISSION_LIEUTENANTJOHNSON_RADIATIONSAMPLES_COMPLETE"] = "I'll get these sent to the scientists."
+lang["#MISSION_LIEUTENANTJOHNSON_TECHNOLOGICALUPKEEP"] = "Mantenimiento Tecnológico"
+lang["#MISSION_LIEUTENANTJOHNSON_TECHNOLOGICALUPKEEP_DESC"] = "Nuestro equipo de ciencia necesita un flujo constante de tecnología para mantener el ritmo de nuestras necesidades y demandas para avanzar en la causa. Cualquier cosa que puedas agregar sería de gran ayuda."
+lang["#MISSION_LIEUTENANTJOHNSON_TECHNOLOGICALUPKEEP_HINT"] = "Entrega 10 Módulos Sensores, 5 Baterías de Fisión y 20 Conductores."
+lang["#MISSION_LIEUTENANTJOHNSON_TECHNOLOGICALUPKEEP_COMPLETE"] = "Gracias, soldado. Enviaré esto a donde sea necesario. Estados Unidos te lo agradece."
 
-lang["#MISSION_LIEUTENANTJOHNSON_TECHNOLOGICALUPKEEP"] = "Technological Upkeep"
-lang["#MISSION_LIEUTENANTJOHNSON_TECHNOLOGICALUPKEEP_DESC"] = "Our science team needs a constant stream of technology in order to keep up with our upkeep and demands to further the cause. Anything you can add would do wonders for us."
-lang["#MISSION_LIEUTENANTJOHNSON_TECHNOLOGICALUPKEEP_HINT"] = "Turn in 10 Sensor Modules, 5 Fission Batteries and 20 Conductors"
-lang["#MISSION_LIEUTENANTJOHNSON_TECHNOLOGICALUPKEEP_COMPLETE"] = "Thank you soldier, I'll have these sent to where they are needed. America thanks you."
-
-lang["#MISSION_LIEUTENANTJOHNSON_CLEANINGTHENORTH"] = "Cleaning up the North"
-lang["#MISSION_LIEUTENANTJOHNSON_CLEANINGTHENORTH_DESC"] = "It's time we did a little, spot cleaning so to speak. There are multiple factions in the northern territories and we need to hit them hard. Kill whatever high ranking members you can find."
-lang["#MISSION_LIEUTENANTJOHNSON_CLEANINGTHENORTH_HINT"] = "Kill 3 Senior paladins, 3 Phoenix Staff Sergeants, 3 Smuggler Death merchants, 3 Shadowed Outlaws, 3 Ice pick butchers and 10 Mutant overlords."
-lang["#MISSION_LIEUTENANTJOHNSON_CLEANINGTHENORTH_COMPLETE"] = "Holy shit you actually did it? I was thinking this was a suicide mission. Here take these for your work."
+lang["#MISSION_LIEUTENANTJOHNSON_CLEANINGTHENORTH"] = "Limpiando el Norte"
+lang["#MISSION_LIEUTENANTJOHNSON_CLEANINGTHENORTH_DESC"] = "Es hora de que hagamos una pequeña limpieza selectiva, por así decirlo. Hay múltiples facciones en los territorios del norte y debemos golpearlas con fuerza. Mata a cualquier miembro de alto rango que puedas encontrar."
+lang["#MISSION_LIEUTENANTJOHNSON_CLEANINGTHENORTH_HINT"] = "Mata a 3 Paladines Superiores, 3 Sargentos de la Compañía Phoenix, 3 Mercaderes de la Muerte Contrabandistas, 3 Forajidos Sombríos, 3 Carniceros Pico de Hielo y 10 Señores de la Guerra Mutantes."
+lang["#MISSION_LIEUTENANTJOHNSON_CLEANINGTHENORTH_COMPLETE"] = "¡Santo cielo, realmente lo lograste! Pensé que era una misión suicida. Toma esto por tu trabajo."
 
 RELOADSCHEMA = true

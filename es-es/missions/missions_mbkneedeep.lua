@@ -1,55 +1,55 @@
-local lang = RSRG.Languages["en"]
+local lang = RSRG.Languages["es-es"]
 
 --[[
 ███╗   ███╗██████╗        ██╗  ██╗███╗   ██╗███████╗███████╗██████╗ ███████╗███████╗██████╗
 ████╗ ████║██╔══██╗██╗    ██║ ██╔╝████╗  ██║██╔════╝██╔════╝██╔══██╗██╔════╝██╔════╝██╔══██╗
 ██╔████╔██║██████╔╝╚═╝    █████╔╝ ██╔██╗ ██║█████╗  █████╗  ██║  ██║█████╗  █████╗  ██████╔╝
- █║╚██╔╝██║██╔══██╗██╗    ██╔═██╗ ██║╚██╗██║██╔══╝  ██╔══╝  ██║  ██║██╔══╝  ██╔══╝  ██╔═══╝
+██║╚██╔╝██║██╔══██╗██╗    ██╔═██╗ ██║╚██╗██║██╔══╝  ██╔══╝  ██║  ██║██╔══╝  ██╔══╝  ██╔═══╝
 ██║ ╚═╝ ██║██████╔╝╚═╝    ██║  ██╗██║ ╚████║███████╗███████╗██████╔╝███████╗███████╗██║
 ╚═╝     ╚═╝╚═════╝        ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚══════╝╚═════╝ ╚══════╝╚══════╝╚═╝
 ]]--
 
--- Mission Board
-lang["#MISSION_BOARD_KNEEDEEP"] = "Dead Estuary Task Board"
-lang["#MISSION_BOARD_KNEEDEEP_SUBTITLE"] = "Tasks and Jobs"
-lang["#MISSION_BOARD_KNEEDEEP_GREET"] = "Rodger looks over to you and says. That board contains several papers with jobs from people who are looking to hire others in this area. You can accept any job that you meet the requirements for. Pick one and I'll give you an explanation for it.\n\n\nA list of available jobs are below."
+-- Tablón de misiones
+lang["#MISSION_BOARD_KNEEDEEP"] = "Tablón de Tareas del Estuario Muerto"
+lang["#MISSION_BOARD_KNEEDEEP_SUBTITLE"] = "Tareas y Trabajos"
+lang["#MISSION_BOARD_KNEEDEEP_GREET"] = "Rodger te mira y dice: \"Ese tablón contiene varios papeles con trabajos de personas que buscan contratar a otros en esta área. Puedes aceptar cualquier trabajo que cumpla con los requisitos. Elige uno y te daré una explicación.\"\n\n\nA continuación, una lista de trabajos disponibles."
 
--- Missions
-lang["#MISSION_KNEEDEEP_BADMOON"] = "Bad Moon Rising"
-lang["#MISSION_KNEEDEEP_BADMOON_DESC"] = "That job comes from me. Its a pretty simple one all I need you to do is head out into the swamp and cull the local smuggler group. Once you kill fifty of them plus a couple Moon cursers come back to me with some proof and I'll reward you."
-lang["#MISSION_KNEEDEEP_BADMOON_HINT"] = "Eliminate fifty of any type of Smuggler and Ten Moon Cursers in Dead Estuary. They can be found in their local camps large and small."
-lang["#MISSION_KNEEDEEP_BADMOON_COMPLETE"] = "Good job, You helped save alot of good people around here. Here is a reward well earned."
+-- Misiones
+lang["#MISSION_KNEEDEEP_BADMOON"] = "Mala Luna Creciente"
+lang["#MISSION_KNEEDEEP_BADMOON_DESC"] = "Ese trabajo es mío. Es bastante simple, solo necesito que salgas al pantano y reduzcas el grupo local de contrabandistas. Una vez que mates a cincuenta de ellos y a un par de Traficantes Nocturnos, vuelve a mí con alguna prueba y te recompensaré."
+lang["#MISSION_KNEEDEEP_BADMOON_HINT"] = "Elimina cincuenta de cualquier tipo de Contrabandista y diez Traficantes Nocturnos en el Estuario Muerto. Se pueden encontrar en sus campamentos locales, grandes y pequeños."
+lang["#MISSION_KNEEDEEP_BADMOON_COMPLETE"] = "Buen trabajo. Ayudaste a salvar a mucha buena gente por aquí. Aquí tienes una recompensa bien merecida."
 
-lang["#MISSION_KNEEDEEP_NOSYMPATHY"] = "No Sympathy for the Devil"
-lang["#MISSION_KNEEDEEP_NOSYMPATHY_DESC"] = "This job comes from a victim of the local thugs. The employer seeks revenge against the local smugglers who hurt them and wants a deathblow dealt to their leadership. Go out there and kill the big shots in T-45. Come back with proof of their death, and I'll compensate your good deed."
-lang["#MISSION_KNEEDEEP_NOSYMPATHY_HINT"] = "Eliminate five Death Merchants. They can be found in the larger camps where the smugglers congregate ."
-lang["#MISSION_KNEEDEEP_NOSYMPATHY_COMPLETE"] = "Nice job, Im sure the contractor will be happy they got some closure after what they went through. Heres your reward, you earned it."
+lang["#MISSION_KNEEDEEP_NOSYMPATHY"] = "Sin Compasión por el Diablo"
+lang["#MISSION_KNEEDEEP_NOSYMPATHY_DESC"] = "Este trabajo viene de una víctima de los matones locales. El empleador busca venganza contra los contrabandistas locales que lo dañaron y quiere un golpe mortal a su liderazgo. Sal ahí y mata a los peces gordos con servoarmadura T-45. Vuelve con una prueba de su muerte y compensaré tu buena acción."
+lang["#MISSION_KNEEDEEP_NOSYMPATHY_HINT"] = "Elimina cinco Mercaderes de la Muerte. Se pueden encontrar en los campamentos más grandes donde se congregan los contrabandistas."
+lang["#MISSION_KNEEDEEP_NOSYMPATHY_COMPLETE"] = "Buen trabajo. Estoy seguro de que el contratista estará feliz de tener un cierre después de lo que pasó. Aquí está tu recompensa, te la ganaste."
 
-lang["#MISSION_KNEEDEEP_CRUSTACEANBEATDOWN"] = "Crustacean Beatdown"
-lang["#MISSION_KNEEDEEP_CRUSTACEANBEATDOWN_DESC"] = "That job was pinned by some crazy chem fiend who dredged their way outta the swamp. What they asked for was pretty simple. All you have to do is use an unarmed weapon - or your fists - and beat the crap out of some Mirelurks and Anglers. Once you get some crab blood on your hands, come back, and I'll give you the payout."
-lang["#MISSION_KNEEDEEP_CRUSTACEANBEATDOWN_HINT"] = "Eliminate twenty of any type of Mirelurk and five Anglers with any Unarmed melee weapon. Mirelurks can be found littered around the Estuary in the water. Anglers can be found hiding around the glowing Lurk Weed along the shore."
-lang["#MISSION_KNEEDEEP_CRUSTACEANBEATDOWN_COMPLETE"] = "You actually did it? Alright here's the payout."
-lang["#MISSION_KNEEDEEP_CRUSTACEANBEATDOWN_WEAPON"] = "Unarmed Weapons"
+lang["#MISSION_KNEEDEEP_CRUSTACEANBEATDOWN"] = "Paliza a los Crustáceos"
+lang["#MISSION_KNEEDEEP_CRUSTACEANBEATDOWN_DESC"] = "Ese trabajo lo publicó algún loco adicto a las drogas que salió del pantano. Lo que pidió fue bastante simple. Todo lo que tienes que hacer es usar un arma sin armas -o tus puños- y golpear a unos cuantos Mirelurks y Pejesapos. Una vez que tengas sangre de cangrejo en tus manos, vuelve y te daré el pago."
+lang["#MISSION_KNEEDEEP_CRUSTACEANBEATDOWN_HINT"] = "Elimina veinte de cualquier tipo de Mirelurk y cinco Pejesapos con cualquier arma cuerpo a cuerpo sin armas. Los Mirelurks se pueden encontrar esparcidos por el Estuario en el agua. Los Pejesapos se pueden encontrar escondidos alrededor del Alga Atrayente brillante a lo largo de la costa."
+lang["#MISSION_KNEEDEEP_CRUSTACEANBEATDOWN_COMPLETE"] = "¿Realmente lo hiciste? Bien, aquí está el pago."
+lang["#MISSION_KNEEDEEP_CRUSTACEANBEATDOWN_WEAPON"] = "Armas sin armas"
 
-lang["#MISSION_KNEEDEEP_MIREMED"] = "Mire's Medicine"
-lang["#MISSION_KNEEDEEP_MIREMED_DESC"] = "That request was put up by a local chemist. He wants someone to collect a series of local fauna and flora throughout the estuary. You have to collect five Lure Weed, Five Glowing Mushrooms, and three Blight. Return after you get the stuff and I'll pay you."
-lang["#MISSION_KNEEDEEP_MIREMED_HINT"] = "You can collect Lure Weed along the coast, the mushrooms can be found all over the swamp, and the blight can be found on trees or downed logs."
-lang["#MISSION_KNEEDEEP_MIREMED_COMPLETE"] = "Got the stuff? Alright good, select what you want as payment."
+lang["#MISSION_KNEEDEEP_MIREMED"] = "Medicina del Pantano"
+lang["#MISSION_KNEEDEEP_MIREMED_DESC"] = "Esa solicitud la puso un químico local. Quiere que alguien recolecte una serie de fauna y flora locales en el estuario. Tienes que recolectar cinco Algas Atrayentes, cinco Setas Brillantes y tres Tizones. Regresa después de conseguir las cosas y te pagaré."
+lang["#MISSION_KNEEDEEP_MIREMED_HINT"] = "Puedes recolectar Alga Atrayente a lo largo de la costa, las setas se pueden encontrar por todo el pantano, y el Tizón se puede encontrar en árboles o troncos caídos."
+lang["#MISSION_KNEEDEEP_MIREMED_COMPLETE"] = "¿Conseguiste las cosas? Bien, bueno, selecciona lo que quieras como pago."
 
-lang["#MISSION_KNEEDEEP_LOOKINGBACKDOOR"] = "Looking Out My Back Door"
-lang["#MISSION_KNEEDEEP_LOOKINGBACKDOOR_DESC"] = "This request is made by a local hermit named Alder. \n\n The paper reads, These damn smugglers have been making a racket non-stop since they arrived here. I want them out of my estuary, but thats a tall order, so instead, hit them where it hurts. Go to one of their camps and steal their weapons shipment. Bring it back here to Rodgers, and He will give you access to some of my good stock."
-lang["#MISSION_KNEEDEEP_LOOKINGBACKDOOR_HINT"] = "Look for a sealed wooden crate inside one of the smuggler camps inhabited or abandoned around the area. They are usually delivered by boat or put somewhere fortified, so check around the camp."
-lang["#MISSION_KNEEDEEP_LOOKINGBACKDOOR_COMPLETE"] = "Good work, now take your pick of Alders stock"
-lang["#MISSION_KNEEDEEP_LOOKINGBACKDOOR_ITEMNAME"] = "Sealed Weapons Crate"
+lang["#MISSION_KNEEDEEP_LOOKINGBACKDOOR"] = "Mirando por la Puerta Trasera"
+lang["#MISSION_KNEEDEEP_LOOKINGBACKDOOR_DESC"] = "Esta solicitud la hace un ermitaño local llamado Alder.\n\nEl papel dice: \"Estos malditos contrabandistas no han parado de hacer ruido desde que llegaron aquí. Quiero que saquen de mi estuario, pero eso es mucho pedir, así que mejor golpéalos donde duele. Ve a uno de sus campamentos y roba su envío de armas. Tráelo de vuelta aquí a Rodgers, y él te dará acceso a algunas de mis buenas existencias.\""
+lang["#MISSION_KNEEDEEP_LOOKINGBACKDOOR_HINT"] = "Busca una caja de madera sellada dentro de uno de los campamentos de contrabandistas habitados o abandonados en la zona. Normalmente se entregan en bote o se colocan en algún lugar fortificado, así que revisa alrededor del campamento."
+lang["#MISSION_KNEEDEEP_LOOKINGBACKDOOR_COMPLETE"] = "Buen trabajo, ahora elige tu parte de las existencias de Alder."
+lang["#MISSION_KNEEDEEP_LOOKINGBACKDOOR_ITEMNAME"] = "Caja de Armas Sellada"
 
-lang["#MISSION_HUNT_GATORCLAW_BOSS_EASY"] = "King of the Estuary"
-lang["#MISSION_HUNT_GATORCLAW_BOSS_EASY_DESC"] = "This one's also from me. Old Swampjaw has been terrorizing the estuary for a while now, and I want him gone. He's a big one, so be careful out there. If you can take him down, I'll make it worth your while."
-lang["#MISSION_HUNT_GATORCLAW_BOSS_EASY_HINT"] = "Hunt and kill Swampjaw in the Dead Estuary Region."
-lang["#MISSION_HUNT_GATORCLAW_BOSS_EASY_COMPLETE"] = "You actually got him? Holy moly, I didnt think anyone could do it. Incredible work $playername, take these as your reward."
+lang["#MISSION_HUNT_GATORCLAW_BOSS_EASY"] = "Rey del Estuario"
+lang["#MISSION_HUNT_GATORCLAW_BOSS_EASY_DESC"] = "Esta también es mía. El viejo Colmillo Carmesí ha estado aterrorizando el estuario por un tiempo, y quiero que desaparezca. Es grande, así que ten cuidado. Si puedes acabar con él, haré que valga la pena."
+lang["#MISSION_HUNT_GATORCLAW_BOSS_EASY_HINT"] = "Caza y mata a Colmillo Carmesí en la Región del Estuario Muerto."
+lang["#MISSION_HUNT_GATORCLAW_BOSS_EASY_COMPLETE"] = "¿Realmente lo atrapaste? Santo cielo, no pensé que nadie pudiera hacerlo. Trabajo increíble $playername, toma esto como tu recompensa."
 
-lang["#MISSION_HUNT_GATORCLAW_BOSS_HARD"] = "An Estuary Legend"
-lang["#MISSION_HUNT_GATORCLAW_BOSS_HARD_DESC"] = "Another from me. If you kill Swampjaw in the traditional estuary way, I have a great reward waiting for you. Use the Brush Gun I gave you before to kill him." 
-lang["#MISSION_HUNT_GATORCLAW_BOSS_BOSS_HARD_HINT"] = "Hunt and kill Swampjaw in the Dead Estuary Region using a Brush Gun."
-lang["#MISSION_HUNT_GATORCLAW_BOSS_HARD_COMPLETE"] = "Reminds me of when I was a younger. I used to hunt gatorclaw all the time. Can't get enough of the taste. You did a great job out there $playername, take your reward."
+lang["#MISSION_HUNT_GATORCLAW_BOSS_HARD"] = "Una Leyenda del Estuario"
+lang["#MISSION_HUNT_GATORCLAW_BOSS_HARD_DESC"] = "Otra mía. Si matas a Colmillo Carmesí de la manera tradicional del estuario, tengo una gran recompensa esperándote. Usa el Rifle de Monte que te di antes para matarlo."
+lang["#MISSION_HUNT_GATORCLAW_BOSS_BOSS_HARD_HINT"] = "Caza y mata a Colmillo Carmesí en la Región del Estuario Muerto usando un Rifle de Monte."
+lang["#MISSION_HUNT_GATORCLAW_BOSS_HARD_COMPLETE"] = "Me recuerda a cuando era más joven. Solía cazar crocogarras todo el tiempo. No me canso del sabor. Hiciste un gran trabajo ahí fuera $playername, toma tu recompensa."
 
 RELOADSCHEMA = true

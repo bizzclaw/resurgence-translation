@@ -1,66 +1,66 @@
-local lang = RSRG.Languages["en"]
+local lang = RSRG.Languages["es-es"]
 
--- ███╗   ███╗██████╗         █████╗ ███████╗██╗  ██╗██╗      █████╗ ███╗   ██╗██████╗ ███████╗
--- ████╗ ████║██╔══██╗██╗    ██╔══██╗██╔════╝██║  ██║██║     ██╔══██╗████╗  ██║██╔══██╗██╔════╝
--- ██╔████╔██║██████╔╝╚═╝    ███████║███████╗███████║██║     ███████║██╔██╗ ██║██║  ██║███████╗
--- ██║╚██╔╝██║██╔══██╗██╗    ██╔══██║╚════██║██╔══██║██║     ██╔══██║██║╚██╗██║██║  ██║╚════██║
--- ██║ ╚═╝ ██║██████╔╝╚═╝    ██║  ██║███████║██║  ██║███████╗██║  ██║██║ ╚████║██████╔╝███████║
--- ╚═╝     ╚═╝╚═════╝        ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═══╝╚═════╝ ╚══════╝
+-- ██████╗ ██████╗ ██╗   ██╗███╗   ██╗████████╗██╗   ██╗██████╗ ███████╗
+-- ██╔══██╗██╔══██╗██║   ██║████╗  ██║╚══██╔══╝╚██╗ ██╔╝██╔══██╗██╔════╝
+-- ██████╔╝██████╔╝██║   ██║██╔██╗ ██║   ██║    ╚████╔╝ ██║  ██║█████╗
+-- ██╔══██╗██╔══██╗██║   ██║██║╚██╗██║   ██║     ╚██╔╝  ██║  ██║██╔══╝
+-- ██║  ██║██║  ██║╚██████╔╝██║ ╚████║   ██║      ██║   ██████╔╝███████╗
+-- ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝   ╚═╝      ╚═╝   ╚═════╝ ╚══════╝
 
--- Mission Board
-lang["#MISSION_BOARD_ASHLANDS"] = "Ashlands Task Board"
-lang["#MISSION_BOARD_ASHLANDS_SUBTITLE"] = "Tasks and Jobs"
-lang["#MISSION_BOARD_ASHLANDS_GREET"] = "This board contains several papers with jobs from people who are looking to hire others in this area. You can accept any job that you meet the requirements for.\n\n\nA list of available jobs are below."
+-- Tablón de misiones
+lang["#MISSION_BOARD_ASHLANDS"] = "Tablón de Tareas de las Tierras de Ceniza"
+lang["#MISSION_BOARD_ASHLANDS_SUBTITLE"] = "Tareas y Trabajos"
+lang["#MISSION_BOARD_ASHLANDS_GREET"] = "Este tablón contiene varios papeles con trabajos de personas que buscan contratar a otros en esta área. Puedes aceptar cualquier trabajo que cumpla con los requisitos.\n\n\nA continuación, una lista de trabajos disponibles."
 
--- Missions
-lang["#MISSION_ASHLANDS_SIMPLELEATHER"] = "Simple Leather"
-lang["#MISSION_ASHLANDS_SIMPLELEATHER_DESC"] = "The hirer for this is looking for someone who will gather Leather for them. They are offering a decent reward for it."
-lang["#MISSION_ASHLANDS_SIMPLELEATHER_HINT"] = "Obtain Leather. You can get leather from scavenging, breaking down leather objects, or using gecko / deathclaw skin to make it."
-lang["#MISSION_ASHLANDS_SIMPLELEATHER_COMPLETE"] = "You've completed the task."
+-- Misiones
+lang["#MISSION_ASHLANDS_SIMPLELEATHER"] = "Cuero Sencillo"
+lang["#MISSION_ASHLANDS_SIMPLELEATHER_DESC"] = "El contratista de este trabajo busca a alguien que recoja Cuero para él. Ofrece una recompensa decente por ello."
+lang["#MISSION_ASHLANDS_SIMPLELEATHER_HINT"] = "Consigue Cuero. Puedes obtener cuero saqueando, descomponiendo objetos de cuero o usando piel de gecko/sanguinario para hacerlo."
+lang["#MISSION_ASHLANDS_SIMPLELEATHER_COMPLETE"] = "Has completado la tarea."
 
-lang["#MISSION_ASHLANDS_DONATE"] = "Sponsor Cascade Caravan"
-lang["#MISSION_ASHLANDS_DONATE_DESC"] = "Cascade Caravan is always looking for new customers, and for a small donation, you will be recognized as a trusted customer of Cascade Caravan!\n\nNote: As long as you have at least 100 favor with Cascade Caravan, attacking you in view of them is a crime."
-lang["#MISSION_ASHLANDS_DONATE_HINT"] = "Donate 500 bottlecaps to Cascade Caravan. Bottlecaps can be obtained from merchants not associated with the NCR, or as junk in some areas."
-lang["#MISSION_ASHLANDS_DONATE_COMPLETE"] = "Thank you for your generous donation! We look forward to working with you further."
+lang["#MISSION_ASHLANDS_DONATE"] = "Patrocinar Caravana Cascade"
+lang["#MISSION_ASHLANDS_DONATE_DESC"] = "Caravana Cascade siempre busca nuevos clientes, y por una pequeña donación, ¡serás reconocido como un cliente de confianza de Caravana Cascade!\n\nNota: Mientras tengas al menos 100 de favor con Caravana Cascade, atacarte en su vista es un crimen."
+lang["#MISSION_ASHLANDS_DONATE_HINT"] = "Dona 500 tapas a Caravana Cascade. Las tapas se pueden obtener de comerciantes no asociados con la RNC, o como basura en algunas áreas."
+lang["#MISSION_ASHLANDS_DONATE_COMPLETE"] = "¡Gracias por tu generosa donación! Esperamos seguir trabajando contigo."
 
-lang["#MISSION_ASHLANDS_WRECKAGE"] = "Wreckage"
-lang["#MISSION_ASHLANDS_WRECKAGE_DESC"] = "The person who pinned this wants someone who is looking to clear out Ghouls and Geckos in the region."
-lang["#MISSION_ASHLANDS_WRECKAGE_HINT"] = "Eliminate any type of Feral Ghouls, and Geckos in Ashlands. Feral Ghouls can be easily found inside of locations, mainly the city apartments. Geckos can be found near the radio station and around the outskirts of the city."
-lang["#MISSION_ASHLANDS_WRECKAGE_COMPLETE"] = "You've completed the task."
+lang["#MISSION_ASHLANDS_WRECKAGE"] = "Restos"
+lang["#MISSION_ASHLANDS_WRECKAGE_DESC"] = "La persona que puso esto busca a alguien que elimine Necrófagos y Geckos en la región."
+lang["#MISSION_ASHLANDS_WRECKAGE_HINT"] = "Elimina cualquier tipo de Necrófago Salvaje y Gecko en las Tierras de Ceniza. Los Necrófagos Salvajes se pueden encontrar fácilmente dentro de ubicaciones, principalmente en los apartamentos de la ciudad. Los Geckos se pueden encontrar cerca de la estación de radio y en las afueras de la ciudad."
+lang["#MISSION_ASHLANDS_WRECKAGE_COMPLETE"] = "Has completado la tarea."
 
-lang["#MISSION_ASHLANDS_SUPERMUTANTHUNTER"] = "Mutant Hunter"
-lang["#MISSION_ASHLANDS_SUPERMUTANTHUNTER_DESC"] = "Whoever pinned this wants someone who is willing to kill the Super Mutants that roam the Ashlands."
-lang["#MISSION_ASHLANDS_SUPERMUTANTHUNTER_HINT"] = "Eliminate any type of Super Mutant in Ashlands. Super Mutants can be easily found throughout the Ashlands in points of interest, and mainly at the Gas Station, where they have a base set up."
-lang["#MISSION_ASHLANDS_SUPERMUTANTHUNTER_COMPLETE"] = "You've completed the task."
+lang["#MISSION_ASHLANDS_SUPERMUTANTHUNTER"] = "Cazador de Mutantes"
+lang["#MISSION_ASHLANDS_SUPERMUTANTHUNTER_DESC"] = "Quien puso esto busca a alguien que esté dispuesto a matar a los Supermutantes que deambulan por las Tierras de Ceniza."
+lang["#MISSION_ASHLANDS_SUPERMUTANTHUNTER_HINT"] = "Elimina cualquier tipo de Supermutante en las Tierras de Ceniza. Los Supermutantes se pueden encontrar fácilmente por toda la región en puntos de interés, y principalmente en la Gasolinera, donde tienen una base establecida."
+lang["#MISSION_ASHLANDS_SUPERMUTANTHUNTER_COMPLETE"] = "Has completado la tarea."
 
-lang["#MISSION_ASHLANDS_BUNKERSALVATION"] = "Bunker Salvation"
-lang["#MISSION_ASHLANDS_BUNKERSALVATION_DESC"] = "The man who pinned this wants someone who is going to the bunker to clear any Super Mutants that inhabit it."
-lang["#MISSION_ASHLANDS_BUNKERSALVATION_HINT"] = "Eliminate any type of Super Mutant inside the Bunker in Ashlands. The bunker can be found under the gas station near the corner of the region."
-lang["#MISSION_ASHLANDS_BUNKERSALVATION_COMPLETE"] = "You've completed the task."
+lang["#MISSION_ASHLANDS_BUNKERSALVATION"] = "Salvación del Búnker"
+lang["#MISSION_ASHLANDS_BUNKERSALVATION_DESC"] = "El hombre que puso esto quiere a alguien que vaya al búnker a eliminar a los Supermutantes que lo habitan."
+lang["#MISSION_ASHLANDS_BUNKERSALVATION_HINT"] = "Elimina cualquier tipo de Supermutante dentro del Búnker en las Tierras de Ceniza. El búnker se puede encontrar debajo de la gasolinera cerca de la esquina de la región."
+lang["#MISSION_ASHLANDS_BUNKERSALVATION_COMPLETE"] = "Has completado la tarea."
 
-lang["#MISSION_ASHLANDS_PUTTHEMINTHEGROUND"] = "Put them in the Ground"
-lang["#MISSION_ASHLANDS_PUTTHEMINTHEGROUND_DESC"] = "We've be seeing vertibirds flying in and out of the area and lots of movement from Enclave, this needs to be addressed. They are by far the most dangerous thing in the wasteland."
-lang["#MISSION_ASHLANDS_PUTTHEMINTHEGROUND_HINT"] = "Kill 20 Enclave"
-lang["#MISSION_ASHLANDS_PUTTHEMINTHEGROUND_COMPLETE"] = "You've completed the task."
+lang["#MISSION_ASHLANDS_PUTTHEMINTHEGROUND"] = "Mete los en el Suelo"
+lang["#MISSION_ASHLANDS_PUTTHEMINTHEGROUND_DESC"] = "Hemos visto vertibirds entrando y saliendo del área y mucho movimiento del Enclave, esto debe ser abordado. Son, con diferencia, lo más peligroso en el yermo."
+lang["#MISSION_ASHLANDS_PUTTHEMINTHEGROUND_HINT"] = "Mata a 20 del Enclave."
+lang["#MISSION_ASHLANDS_PUTTHEMINTHEGROUND_COMPLETE"] = "Has completado la tarea."
 
-lang["#MISSION_HUNT_DEATHCLAW_BOSS_EASY"] = "Hard To Kill"
-lang["#MISSION_HUNT_DEATHCLAW_BOSS_EASY_DESC"] = "This is the real deal, Hunters. The Legendary Deathclaw, Unguem Mortis has been spotted in the nearby area. If you see him do not engage unless you can get a whole team together. He has already wiped out many battle-hardened hunters. This warning is to not be taken lightly."
-lang["#MISSION_HUNT_DEATHCLAW_BOSS_EASY_HINT"] = "Hunt and kill Unguem Mortis in the Ashlands Region."
-lang["#MISSION_HUNT_DEATHCLAW_BOSS_EASY_COMPLETE"] = "Jumpin' Jesus on a pogo-stick! You did it, you brought down the meanest bastard ever known. Incredible work Hunter. Take these as a token of our appreciation."
+lang["#MISSION_HUNT_DEATHCLAW_BOSS_EASY"] = "Difícil de Matar"
+lang["#MISSION_HUNT_DEATHCLAW_BOSS_EASY_DESC"] = "Esto es en serio, Cazadores. El Sanguinario Legendario, Unguem Mortis, ha sido avistado en el área cercana. Si lo ves, no te enfrentes a él a menos que puedas reunir a todo un equipo. Ya ha acabado con muchos cazadores endurecidos por la batalla. Esta advertencia no debe tomarse a la ligera."
+lang["#MISSION_HUNT_DEATHCLAW_BOSS_EASY_HINT"] = "Caza y mata a Unguem Mortis en la Región de las Tierras de Ceniza."
+lang["#MISSION_HUNT_DEATHCLAW_BOSS_EASY_COMPLETE"] = "¡Jesús saltando en un saltador! ¡Lo lograste, acabaste con el bastardo más malvado conocido! Trabajo increíble, Cazador. Toma esto como muestra de nuestro agradecimiento."
 
+lang["#MISSION_HUNT_DEATHCLAW_BOSS_HARD"] = "Luna de Sangre"
+lang["#MISSION_HUNT_DEATHCLAW_BOSS_HARD_DESC"] = "Ya te has demostrado como un cazador más que capaz. Sin embargo, alguien se ha ofrecido a enseñarle a quien mate a Unguem Mortis cómo quitarle cuidadosamente la mano para usarla como arma. Solo tienen una condición: debes matar a la maldita cosa con un Guantelete de Sanguinario. Este bastardo ya era lo suficientemente difícil de derribar, pero si tienes el valor de intentarlo, dicen que la recompensa valdrá más que la pena."
+lang["#MISSION_HUNT_DEATHCLAW_BOSS_HARD_HINT"] = "Caza y mata a Unguem Mortis con un Guantelete de Sanguinario en las Tierras de Ceniza."
+lang["#MISSION_HUNT_DEATHCLAW_BOSS_HARD_COMPLETE"] = "Simplemente espectacular, Cazador. Como prometiste, aquí está la Mano de Mortis. Úsala con orgullo."
 
-lang["#MISSION_HUNT_DEATHCLAW_BOSS_HARD"] = "Blood Moon"
-lang["#MISSION_HUNT_DEATHCLAW_BOSS_HARD_DESC"] = "You've already proven your self as a more than capable hunter. However someone has offered to teach whoever kills Unguem Mortis how to carefully take off it hand to be used as a weapon. They have only one stipulation, You need to kill the damn thing with a Deathclaw Guantlet. This bastard was already hard enough to take down, but if you got the guts to try it they say the reward will be more than worth it."
-lang["#MISSION_HUNT_DEATHCLAW_BOSS_HARD_HINT"] = "Hunt and kill Unguem Mortis with a Deathclaw Gauntlet in Ashlands."
-lang["#MISSION_HUNT_DEATHCLAW_BOSS_HARD_COMPLETE"] = "Simply spectacular, Hunter. As promised here is the Hand of Mortis. Wield it with pride."
+lang["#MISSION_HUNT_FLAYEDONE_BOSS_EASY"] = "Habitantes Humanos Caníbales Subterráneos" -- C.H.U.D. (1984)
+lang["#MISSION_HUNT_FLAYEDONE_BOSS_EASY_DESC"] = "Hemos oído hablar de unos malditos mutantes espeluznantes que han atrapado a algunos de los mineros de la zona. Acabar con estas criaturas será un favor para todos."
+lang["#MISSION_HUNT_FLAYEDONE_BOSS_EASY_HINT"] = "Caza y mata a El Desollado en la Región de las Tierras de Ceniza."
+lang["#MISSION_HUNT_FLAYEDONE_BOSS_EASY_COMPLETE"] = "Has hecho un trabajo excelente, Cazador. Estoy seguro de que todos dormirán un poco mejor sabiendo que esos monstruos ya no andan arrastrándose bajo tierra."
 
-lang["#MISSION_HUNT_FLAYEDONE_BOSS_EASY"] = "Cannibalistic Humanoid Underground Dwellers" -- C.H.U.D. (1984)
-lang["#MISSION_HUNT_FLAYEDONE_BOSS_EASY_DESC"] = "We've heard of some creepy fucking mutants that have nabbed a few of the miners in the area. Taking these creatures out will be doing everyone a favor."
-lang["#MISSION_HUNT_FLAYEDONE_BOSS_EASY_HINT"] = "Hunt and kill The Flayed One in the Ashlands Region"
-lang["#MISSION_HUNT_FLAYEDONE_BOSS_EASY_COMPLETE"] = "You did a mighty fine job, Hunter! I'm sure everyone will sleep a bit better knowing those freaks aren't crawling around underground any longer."
+lang["#MISSION_HUNT_BOSS_TOUR"] = "Cazador de Caza Mayor Exótica"
+lang["#MISSION_HUNT_BOSS_TOUR_DESC"] = "Hiciste un buen trabajo con Unguem Mortis. Este contrato ha estado publicado por un tiempo y parece más una lista de verificación, pero probablemente estés listo para ello."
+lang["#MISSION_HUNT_BOSS_TOUR_HINT"] = "Caza y mata a la Hormiga Gigante Pretoriana en Salt Wells, la Madre Mutaracha en Salt Wells, el Profundo en el Paso de Montaña, El Desollado en las Tierras de Ceniza y el Yao Guai Enloquecido en el Paso de Montaña."
+lang["#MISSION_HUNT_BOSS_TOUR_COMPLETE"] = "Excelente trabajo, Cazador. Aquí está la recompensa publicada. Esperemos que puedas descubrir qué hacer con ella."
 
-lang["#MISSION_HUNT_BOSS_TOUR"] = "Exotic Game Hunter"
-lang["#MISSION_HUNT_BOSS_TOUR_DESC"] = "You did good work with Unguem Mortis. This contract has been posted for awhile and it reads more like a checklist, but you're probably ready for it."
-lang["#MISSION_HUNT_BOSS_TOUR_HINT"] = "Hunt and kill the Giant Ant Praetorian in Salt Wells, Radroach Mother in Salt Wells, Deep One in Mountain Pass, The Flayed One in Ash Lands, and the Frenzied Yao Guai in Mountain Pass."
-lang["#MISSION_HUNT_BOSS_TOUR_COMPLETE"] = "Excellent work, Hunter. Here's the posted reward, hopefully you can figure out what to do with it."
 RELOADSCHEMA = true

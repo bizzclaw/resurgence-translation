@@ -1,4 +1,4 @@
-local lang = RSRG.Languages["en"]
+local lang = RSRG.Languages["es-es"]
 
 -- ██╗   ██╗███████╗██████╗  █████╗     ██╗  ██╗ █████╗ ██╗     ███████╗
 -- ██║   ██║██╔════╝██╔══██╗██╔══██╗    ██║  ██║██╔══██╗██║     ██╔════╝
@@ -7,39 +7,36 @@ local lang = RSRG.Languages["en"]
 --  ╚████╔╝ ███████╗██║  ██║██║  ██║    ██║  ██║██║  ██║███████╗███████╗
 --   ╚═══╝  ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝    ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚══════╝
 
-
--- Mission Giver
+-- Repartidor de misiones
 lang["#MISSION_GIVER_VERAHALE"] = "Vera Hale"
-lang["#MISSION_GIVER_VERAHALE_SUBTITLE"] = "Followers of the Apocalypse Leader"
-lang["#MISSION_GIVER_VERAHALE_NEW"] = "Welcome to the Salt Wells Medical Clinic. If you are having a medical problem please step over to the Autodoc or the Radation Cleanser Station on my right behind me. If you are looking for medical supplies please talk to Dr. Headcase. Lastly, if you are looking for work I may have something available."
-lang["#MISSION_GIVER_VERAHALE_N0"] = "Your back? Hmm. Very well. If you are looking to make your self useful I may have some jobs available."
-lang["#MISSION_GIVER_VERAHALE_0"] = "Like I said before, if you are in need of medical treatment then head to my right and back. If you are looking for supplies then look to your left for Dr. Headcase. I also might have some work for you"
-lang["#MISSION_GIVER_VERAHALE_25"] = "Welcome back, if you are looking to help out we might have something for you."
-lang["#MISSION_GIVER_VERAHALE_50"] = "Welcome back, $playername. We still have something for you if you'd be willing."
-lang["#MISSION_GIVER_VERAHALE_100"] = "Its the local hero. Welcome, If you are up for some more work we always have something going on."
-lang["#MISSION_GIVER_VERAHALE_GREET_FINISHED"] = "Back to it then."
+lang["#MISSION_GIVER_VERAHALE_SUBTITLE"] = "Líder de los Seguidores del Apocalipsis"
+lang["#MISSION_GIVER_VERAHALE_NEW"] = "Bienvenido a la Clínica Médica de Salt Wells. Si tienes un problema médico, por favor dirígete al Autodoc o a la Estación Limpiadora de Radiación a mi derecha, detrás de mí. Si buscas suministros médicos, habla con el Dr. Headcase. Por último, si buscas trabajo, puede que tenga algo disponible."
+lang["#MISSION_GIVER_VERAHALE_N0"] = "¿Has vuelto? Hmm. Muy bien. Si buscas hacerte útil, puede que tenga algunos trabajos disponibles."
+lang["#MISSION_GIVER_VERAHALE_0"] = "Como te dije antes, si necesitas tratamiento médico, dirígete a mi derecha y atrás. Si buscas suministros, mira a tu izquierda para ver al Dr. Headcase. También podría tener algo de trabajo para ti."
+lang["#MISSION_GIVER_VERAHALE_25"] = "Bienvenido de nuevo. Si buscas ayudar, puede que tengamos algo para ti."
+lang["#MISSION_GIVER_VERAHALE_50"] = "Bienvenido de nuevo, $playername. Todavía tenemos algo para ti si estás dispuesto."
+lang["#MISSION_GIVER_VERAHALE_100"] = "Es el héroe local. Bienvenido. Si estás listo para más trabajo, siempre tenemos algo entre manos."
+lang["#MISSION_GIVER_VERAHALE_GREET_FINISHED"] = "Pues a ello otra vez."
 
--- Missions
-lang["#MISSION_LOCALFLORIST_VERAHALE"] = "Local Florist"
-lang["#MISSION_LOCALFLORIST_VERAHALE_DESC"] = "Unfortunately, some of our ingredients for our medications have started to go bad. We are asking for your diligence in collecting these plants."
-lang["#MISSION_LOCALFLORIST_VERAHALE_HINT"] = "Find and harvest the local plants in Salt Wells."
-lang["#MISSION_LOCALFLORIST_VERAHALE_COMPLETE"] = "Perfect. Thank you very much. Here is some healing powder and some NCR Dollars."
+-- Misiones
+lang["#MISSION_LOCALFLORIST_VERAHALE"] = "Floristería Local"
+lang["#MISSION_LOCALFLORIST_VERAHALE_DESC"] = "Desafortunadamente, algunos de nuestros ingredientes para nuestros medicamentos han empezado a echarse a perder. Solicitamos tu diligencia para recolectar estas plantas."
+lang["#MISSION_LOCALFLORIST_VERAHALE_HINT"] = "Encuentra y recolecta las plantas locales en Salt Wells."
+lang["#MISSION_LOCALFLORIST_VERAHALE_COMPLETE"] = "Perfecto. Muchísimas gracias. Aquí tienes algo de polvo curativo y algunos Dólares de la RNC."
 
-lang["#MISSION_HYDROSATURATION_VERAHALE"] = "Hydrostaturation"
-lang["#MISSION_HYDROSATURATION_VERAHALE_DESC"] = "If your looking to get that dirty water purified, we have a local purifier here for you to use. However the parts required for it are not cheap and as such we need some money to be able to buy the parts."
-lang["#MISSION_HYDROSATURATION_VERAHALE_HINT"] = "Turn in 20 dirty water."
-lang["#MISSION_HYDROSATURATION_VERAHALE_COMPLETE"] = "All right, here is your water. Give us a bit to let the system reboot and then you can clean some more water."
+lang["#MISSION_HYDROSATURATION_VERAHALE"] = "Hidrosaturación"
+lang["#MISSION_HYDROSATURATION_VERAHALE_DESC"] = "Si buscas purificar esa agua sucia, tenemos un purificador local que puedes usar. Sin embargo, las piezas necesarias no son baratas y, por lo tanto, necesitamos algo de dinero para poder comprarlas."
+lang["#MISSION_HYDROSATURATION_VERAHALE_HINT"] = "Entrega 20 Agua Sucia."
+lang["#MISSION_HYDROSATURATION_VERAHALE_COMPLETE"] = "Muy bien, aquí está tu agua. Danos un momento para que el sistema se reinicie y luego podrás limpiar más agua."
 
-lang["#MISSION_ANIMAL_FARM_VERAHALE"] = "Animal Farm"
-lang["#MISSION_ANIMAL_FARM_VERAHALE_DESC"] = "Recently we've been looking into some of the rarer creatures in the area. Two of the most notable ones are the Radroach Broodmother. A foul creature usually hiding amidst the trash and tunnels in the sewers. Normally, we wouldn't care much for these putrid creatures but their gizzards are much larger then normal and are producing a powerful enzyme. Another creature we are currently looking into is the Giant Ant Praetorian. These things are mean as hell but carry some of the queens pheromones. Get us both of these and we'll see what we can cook up in the future."
-lang["#MISSION_ANIMAL_FARM_VERAHALE_HINT"] = "Obtain and turn in 1 Radroach Gizzard and 1 Ant Queen Pheromones."
-lang["#MISSION_ANIMAL_FARM_VERAHALE_COMPLETE"] = "Most impressive! These should do nicely. Here is your reward."
+lang["#MISSION_ANIMAL_FARM_VERAHALE"] = "Granja Animal"
+lang["#MISSION_ANIMAL_FARM_VERAHALE_DESC"] = "Recientemente hemos estado investigando algunas de las criaturas más raras del área. Dos de las más notables son la Madre Camada de Mutaracha, una criatura vil que suele esconderse entre la basura y los túneles de las alcantarillas. Normalmente, no nos importarían mucho estas criaturas pútridas, pero sus mollejas son mucho más grandes de lo normal y producen una enzima potente. Otra criatura que estamos investigando actualmente es la Hormiga Gigante Pretoriana. Estas cosas son endiabladamente malvadas, pero llevan algunas de las feromonas de la reina. Consíguenos ambas y veremos qué podemos preparar en el futuro."
+lang["#MISSION_ANIMAL_FARM_VERAHALE_HINT"] = "Obtén y entrega 1 Molleja de Mutaracha y 1 Feromonas de Reina Hormiga."
+lang["#MISSION_ANIMAL_FARM_VERAHALE_COMPLETE"] = "¡Más impresionante! Esto debería servir muy bien. Aquí está tu recompensa."
 
---lang["#MISSION_ANIMAL_FARM_VERAHALE"] = "Scorpion Hunter"
+--lang["#MISSION_ANIMAL_FARM_VERAHALE"] = "Cazador de Mutascorpiones"
 --lang["#MISSION_ANIMAL_FARM_VERAHALE_DESC"] = ""
---lang["#MISSION_ANIMAL_FARM_VERAHALE_HINT"] = "Obtain and turn in 1 Radroach Gizzard and 1 Ant Queen Pheromones."
---lang["#MISSION_ANIMAL_FARM_VERAHALE_COMPLETE"] = "Most impressive! These should do nicely. Here is your reward."
-
-
+--lang["#MISSION_ANIMAL_FARM_VERAHALE_HINT"] = "Obtén y entrega 1 Molleja de Mutaracha y 1 Feromonas de Reina Hormiga."
+--lang["#MISSION_ANIMAL_FARM_VERAHALE_COMPLETE"] = "¡Más impresionante! Esto debería servir muy bien. Aquí está tu recompensa."
 
 RELOADSCHEMA = true

@@ -1,88 +1,86 @@
-local lang = RSRG.Languages["en"]
+local lang = RSRG.Languages["es-es"]
 
+-- ████████╗██╗    ██╗███████╗ █████╗ ██╗  ██╗
+-- ╚══██╔══╝██║    ██║██╔════╝██╔══██╗██║ ██╔╝
+--    ██║   ██║ █╗ ██║█████╗  ███████║█████╔╝
+--    ██║   ██║███╗██║██╔══╝  ██╔══██║██╔═██╗
+--    ██║   ╚███╔███╔╝███████╗██║  ██║██║  ██╗
+--    ╚═╝    ╚══╝╚══╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝
 
---████████╗██╗    ██╗███████╗ █████╗ ██╗  ██╗
---╚══██╔══╝██║    ██║██╔════╝██╔══██╗██║ ██╔╝
---   ██║   ██║ █╗ ██║█████╗  ███████║█████╔╝
---   ██║   ██║███╗██║██╔══╝  ██╔══██║██╔═██╗
---   ██║   ╚███╔███╔╝███████╗██║  ██║██║  ██╗
---   ╚═╝    ╚══╝╚══╝ ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝
-
--- Mission Giver
+-- Repartidor de misiones
 lang["#MISSION_GIVER_TWEAK"] = "Tweak"
-lang["#MISSION_GIVER_TWEAK_SUBTITLE"] = "80's Tribe Road Captain"
-lang["#MISSION_GIVER_TWEAK_GREET_NEW"] = "What do you want? You got a death wish or somethin'?"
-lang["#MISSION_GIVER_TWEAK_GREET_N100"] = "You have a lot of nerve showing your face around here, asshole. You got two fuckin' seconds to give me a reason not to waste your ass right here."
-lang["#MISSION_GIVER_TWEAK_GREET_0"] = "I don't have all day, prospect. Spit it out."
-lang["#MISSION_GIVER_TWEAK_GREET_25"] = "You busy? We got shit to do, let's get moving."
-lang["#MISSION_GIVER_TWEAK_GREET_150"] = "Hey, new guy. You busy? There's plenty to do and we need all hands on deck."
-lang["#MISSION_GIVER_TWEAK_GREET_FINISHED"] = "Hey, killer, I ain't got anymore work for you. Not now, anyway. We're biding our time and getting shit ready though, just you wait. The 80's wont be complacent!"
-lang["#MISSION_GIVER_TWEAK_GREET_HOSTILE_NCR"] = "I know what you've been up to; you're just another NCR bottom bitch. You and the tribe have nothing to discuss until you bring fire and war to the NCR."
+lang["#MISSION_GIVER_TWEAK_SUBTITLE"] = "Capitán de Camino de la Tribu de los 80"
+lang["#MISSION_GIVER_TWEAK_GREET_NEW"] = "¿Qué quieres? ¿Tienes ganas de morir o algo?"
+lang["#MISSION_GIVER_TWEAK_GREET_N100"] = "Tienes mucho valor para mostrarte por aquí, imbécil. Tienes dos malditos segundos para darme una razón para no acabar contigo aquí mismo."
+lang["#MISSION_GIVER_TWEAK_GREET_0"] = "No tengo todo el día, recluta. Suéltalo."
+lang["#MISSION_GIVER_TWEAK_GREET_25"] = "¿Estás ocupado? Tenemos mierda que hacer, pongámonos en marcha."
+lang["#MISSION_GIVER_TWEAK_GREET_150"] = "Oye, novato. ¿Estás ocupado? Hay mucho que hacer y necesitamos a todos."
+lang["#MISSION_GIVER_TWEAK_GREET_FINISHED"] = "Oye, asesino, no tengo más trabajo para ti. No por ahora, de todos modos. Estamos esperando el momento y preparando las cosas, pero ya verás. ¡Los 80 no se quedarán quietos!"
+lang["#MISSION_GIVER_TWEAK_GREET_HOSTILE_NCR"] = "Sé lo que has estado haciendo; eres solo otro perro de la RNC. Tú y la tribu no tienen nada de qué hablar hasta que traigas fuego y guerra a la RNC."
 
--- Missions
-lang["#MISSION_TWEAK_OFFERING"] = "An Offering"
-lang["#MISSION_TWEAK_OFFERING_DESC"] = "Gotta admit, you got some balls coming out all the way. What do you hope to find out here, exactly? Death? Robbery at gunpoint? Botha those I can do for you. No, you're here to make money, aren't you? Aight, now that I can respect. But if you wanna ride with the meanest, baddest sons of bitches this side of New Reno you're gonna have to show us that you can pull your own weight. For now, I got a simple task for ya. What is that task, you ask?\n\n\nPay the entry fee. $250 NCR and we're in business. Why NCR, you ask? We're too far south for caps to be worth a shit, so we've got to use the paper. Well?"
-lang["#MISSION_TWEAK_OFFERING_HINT"] = "Pay Tweak $250 NCR Dollars. NCR Dollars can be acquired in many ways, but usually as quest rewards or selling items to vendors."
-lang["#MISSION_TWEAK_OFFERING_COMPLETE"] = "Heh... I like what I see, rookie. Alright, I think we can make use of you. I'll tell the boys not to shoot you on sight."
+-- Misiones
+lang["#MISSION_TWEAK_OFFERING"] = "Una Ofrenda"
+lang["#MISSION_TWEAK_OFFERING_DESC"] = "Debo admitir que tienes agallas para venir hasta aquí. ¿Qué esperas encontrar aquí, exactamente? ¿Muerte? ¿Robo a punta de pistola? Puedo hacerte ambas cosas. No, estás aquí para ganar dinero, ¿verdad? Bien, eso lo puedo respetar. Pero si quieres cabalgar con los hijos de puta más malos y rudos de esta parte de New Reno, vas a tener que demostrarnos que puedes valerte por ti mismo. Por ahora, tengo una tarea sencilla para ti. ¿Cuál es esa tarea, preguntas?\n\n\nPaga la tarifa de entrada. $250 de la RNC y estamos en el negocio. ¿Por qué dólares de la RNC, preguntas? Estamos demasiado al sur para que las tapas valgan mierda, así que tenemos que usar el papel. ¿Bueno?"
+lang["#MISSION_TWEAK_OFFERING_HINT"] = "Paga a Tweak $250 Dólares de la RNC. Los Dólares de la RNC se pueden adquirir de muchas maneras, pero generalmente como recompensas de misiones o vendiendo objetos a los vendedores."
+lang["#MISSION_TWEAK_OFFERING_COMPLETE"] = "Je... Me gusta lo que veo, novato. Bien, creo que podemos hacerte útil. Les diré a los chicos que no te disparen a la vista."
 
-lang["#MISSION_TWEAK_BLAST"] = "Blasting Caps"
-lang["#MISSION_TWEAK_BLAST_DESC"] = "Alright, now that we've got that friendly bit of extortion done, it's time to move on to actual work. Though I can't give you the details yet, we've got something big in the works and I think you showed up at a pretty damn good time.\n\n\nYou're a little too green to throw at the NCR, so instead you're gonna help us with long term prep. You familiar with the old limestone quarry near Salt Wells? I need you to go there and head into the caves near the abandoned shack. We've heard rumors of some dynamite down there and we're gonna need a shit ton of it."
-lang["#MISSION_TWEAK_BLAST_HINT"] = "Retrieve four sticks of dynamite for Tweak. They can be found in the limestone quarry in the northern caves. Alternatively, they can be bought or traded for by vendors in Salt Wells."
-lang["#MISSION_TWEAK_BLAST_COMPLETE"] = "Lemme get a sniff of that. Mm... still good. Good find, rookie. Now you're gonna start earning some actual money."
+lang["#MISSION_TWEAK_BLAST"] = "Explosivos"
+lang["#MISSION_TWEAK_BLAST_DESC"] = "Bien, ahora que hemos terminado con esa pequeña extorsión amistosa, es hora de pasar al trabajo real. Aunque no puedo darte los detalles todavía, tenemos algo grande en marcha y creo que llegaste en un momento bastante bueno.\n\n\nEres demasiado verde para enfrentarte a la RNC, así que en su lugar nos ayudarás con la preparación a largo plazo. ¿Conoces la antigua cantera de piedra caliza cerca de Salt Wells? Necesito que vayas allí y entres en las cuevas cerca de la choza abandonada. Hemos oído rumores de que hay dinamita allí abajo y vamos a necesitar una puta tonelada."
+lang["#MISSION_TWEAK_BLAST_HINT"] = "Recupera cuatro barras de dinamita para Tweak. Se pueden encontrar en la cantera de piedra caliza en las cuevas del norte. Alternativamente, se pueden comprar o intercambiar con vendedores en Salt Wells."
+lang["#MISSION_TWEAK_BLAST_COMPLETE"] = "Déjame oler eso. Mm... todavía buena. Buen hallazgo, novato. Ahora empezarás a ganar dinero de verdad."
 
-lang["#MISSION_TWEAK_TANKING"] = "Tanking the Ride"
-lang["#MISSION_TWEAK_TANKING_DESC"] = "Like I said earlier, that particular trip was long term prep. We've got plenty of time to kill until the boss sends the orders for us to do our thing, so we're instead gonna turn to some matters of maintenance. We gotta fix up our tanks here, and for that we need tools. Get into the nearbv NCR Ranger Outpost and see if you can nick the toolbox that the riot control guys use for their radio tower. Shouldn't be too hard to find."
-lang["#MISSION_TWEAK_TANKING_HINT"] = "Retrieve the Crimson Caravan Toolbox. It can be found inside the NCR Ranger Outpost."
-lang["#MISSION_TWEAK_TANKING_COMPLETE"] = "You got it? Sweet, this stuff will do the job just fine. Here's your pay."
-lang["#MISSION_TWEAK_TANKING_ITEMNAME"] = "Crimson Caravan Toolbox"
+lang["#MISSION_TWEAK_TANKING"] = "Arreglando el Vehículo"
+lang["#MISSION_TWEAK_TANKING_DESC"] = "Como dije antes, ese viaje en particular fue preparación a largo plazo. Tenemos mucho tiempo para matar hasta que el jefe envíe las órdenes para que hagamos lo nuestro, así que en su lugar nos dedicaremos a algunos asuntos de mantenimiento. Tenemos que arreglar nuestros tanques aquí, y para eso necesitamos herramientas. Entra en el Puesto de Avanzada de los Rangers de la RNC cercano y ve si puedes robar la caja de herramientas que usan los tipos de control de disturbios para su torre de radio. No debería ser demasiado difícil de encontrar."
+lang["#MISSION_TWEAK_TANKING_HINT"] = "Recupera la Caja de Herramientas de la Caravana Carmesí. Se puede encontrar dentro del Puesto de Avanzada de los Rangers de la RNC."
+lang["#MISSION_TWEAK_TANKING_COMPLETE"] = "¿Lo conseguiste? Genial, estas cosas servirán para el trabajo. Aquí está tu paga."
+lang["#MISSION_TWEAK_TANKING_ITEMNAME"] = "Caja de Herramientas de la Caravana Carmesí"
 
-lang["#MISSION_TWEAK_MUFFLER"] = "Muffler? I Hardly Know Her!"
-lang["#MISSION_TWEAK_MUFFLER_DESC"] = "Good job last time, that Toolbox was a big help. Problem is, we need more stuff to work with. Gotta find some shit, what was it...right! We need the precious metal from something that was called a 'Catalytic Converter', used on old cars that ran on gas based fuel, not nuclear power. Go try and track me down a muffler, those are what they were attached to in the old times."
-lang["#MISSION_TWEAK_MUFFLER_HINT"] = "Retrieve a truck muffler. There won't be any on the nuclear powered vehicles that litter the roads, but the junkyard might show some promise."
-lang["#MISSION_TWEAK_MUFFLER_COMPLETE"] = "Fine work rookie, you're really startin' to make yourself useful... don't let it go to your head."
-lang["#MISSION_TWEAK_MUFFLER_ITEMNAME"] = "Old Truck Muffler"
+lang["#MISSION_TWEAK_MUFFLER"] = "¿Silenciador? ¡Apenas la conozco!"
+lang["#MISSION_TWEAK_MUFFLER_DESC"] = "Buen trabajo la última vez, esa Caja de Herramientas fue de gran ayuda. El problema es que necesitamos más cosas con las que trabajar. Hay que encontrar algo de mierda, ¿qué era...? ¡Correcto! Necesitamos el metal precioso de algo que se llamaba 'Convertidor Catalítico', que se usaba en coches viejos que funcionaban con combustible de gas, no con energía nuclear. Ve a buscarme un silenciador, a eso estaban conectados en los viejos tiempos. (El nombre tiene sentido en Inglés)"
+lang["#MISSION_TWEAK_MUFFLER_HINT"] = "Recupera un silenciador de camión viejo. No habrá ninguno en los vehículos de energía nuclear que llenan las carreteras, pero el depósito de chatarra podría ser prometedor."
+lang["#MISSION_TWEAK_MUFFLER_COMPLETE"] = "Buen trabajo, novato, realmente estás empezando a ser útil... no dejes que se te suba a la cabeza."
+lang["#MISSION_TWEAK_MUFFLER_ITEMNAME"] = "Silenciador de Camión Viejo"
 
-lang["#MISSION_TWEAK_ASALTBATTERY"] = "A Salt and Battery"
-lang["#MISSION_TWEAK_ASALTBATTERY_DESC"] = "Rookie, there you are. Look we got one last job in the whole 'go get all the shit I tell you to' line of work...for now. We need a battery. And I ain't talkin just some regual fuck-off battery I mean a big ass battery. The battery from the huge, fuck-off crane in the quarry. Go get it, and don't bitch about how heavy it is. I see how much shit you carry in your pockets!"
-lang["#MISSION_TWEAK_ASALTBATERRY_HINT"] = "Retrieve the Crane Battery. The crane is located in the quarry."
-lang["#MISSION_TWEAK_ASALTBATTERY_COMPLETE"] = "Good find. Here, pick a gun. You're gonna be needing it real soon."
-lang["#MISSION_TWEAK_ASALTBATTERY_ITEMNAME"] = "Crane Battery"
+lang["#MISSION_TWEAK_ASALTBATTERY"] = "Una Batería y Sal"
+lang["#MISSION_TWEAK_ASALTBATTERY_DESC"] = "Novato, ahí estás. Mira, tenemos un último trabajo en esta línea de 've a buscar toda la mierda que te digo'... por ahora. Necesitamos una batería. Y no hablo de una batería normal, hablo de una batería grande. La batería de la enorme maldita grúa de la cantera. Ve a buscarla, y no te quejes de lo pesada que es. ¡Veo cuánta mierda llevas en tus bolsillos!"
+lang["#MISSION_TWEAK_ASALTBATERRY_HINT"] = "Recupera la Batería de la Grúa. La grúa está ubicada en la cantera."
+lang["#MISSION_TWEAK_ASALTBATTERY_COMPLETE"] = "Buen hallazgo. Toma, elige un arma. La vas a necesitar muy pronto."
+lang["#MISSION_TWEAK_ASALTBATTERY_ITEMNAME"] = "Batería de la Grúa"
 
-lang["#MISSION_TWEAK_CUTTINGTEETH"] = "Cutting Teeth"
-lang["#MISSION_TWEAK_CUTTINGTEETH_DESC"] = "Alright, you aren't totally useless, so I think it's time to actually start sending you into combat. It's still a little too early to jump into action against the NCR, but we've got plenty of shit that we need to shoot. I want you to go out and prove to me that you can fire a gun as well as you dig through trash. Go take care of some ghouls and then we'll go from there."
-lang["#MISSION_TWEAK_CUTTINGTEETH_HINT"] = "Eliminate ten of any type of Feral Ghoul in Salt Wells. Ghouls are commonly found near ruins or abandoned buildings."
-lang["#MISSION_TWEAK_CUTTINGTEETH_COMPLETE"] = "That's what I like to see, rookie. Now time for some real tests. Here's some cash."
+lang["#MISSION_TWEAK_CUTTINGTEETH"] = "Abriendo Boca"
+lang["#MISSION_TWEAK_CUTTINGTEETH_DESC"] = "Bien, no eres totalmente inútil, así que creo que es hora de empezar a enviarte al combate. Todavía es demasiado pronto para lanzarte a la acción contra la RNC, pero tenemos mucha mierda que necesitamos disparar. Quiero que salgas y me demuestres que sabes disparar un arma tan bien como rebuscar en la basura. Ve a encargarte de algunos necrófagos y luego continuamos desde ahí."
+lang["#MISSION_TWEAK_CUTTINGTEETH_HINT"] = "Elimina diez de cualquier tipo de Necrófago Salvaje en Salt Wells. Los necrófagos se encuentran comúnmente cerca de ruinas o edificios abandonados."
+lang["#MISSION_TWEAK_CUTTINGTEETH_COMPLETE"] = "Eso es lo que me gusta ver, novato. Ahora es el momento de las pruebas reales. Aquí tienes algo de dinero."
 
-lang["#MISSION_TWEAK_MIREMIREMENACE"] = "Mire Mire Menace"
-lang["#MISSION_TWEAK_MIREMIREMENACE_DESC"] = "Most ferals around here are sun-dried and easy to take out. So, to make sure this wasn't just a fluke, do us a favor. Go kill some of those big-bad mutant crabs, Mirelurks. They're a pain in our ass."
-lang["#MISSION_TWEAK_MIREMIREMENACE_HINT"] = "Hunt two Mirelurks of any type. Mirelurks can be found near the lake behind the town of Salt Wells."
-lang["#MISSION_TWEAK_MIREMIREMENACE_COMPLETE"] = "Rookie can crack open some crab shells. Good job, keep up the good work pal. Here's some shit for ya troubles."
+lang["#MISSION_TWEAK_MIREMIREMENACE"] = "Amenaza de Cieno"
+lang["#MISSION_TWEAK_MIREMIREMENACE_DESC"] = "La mayoría de los necrófagos por aquí están secos al sol y son fáciles de eliminar. Así que, para asegurarnos de que esto no fue una casualidad, haznos un favor. Ve a matar algunos de esos grandes y malos cangrejos mutantes, los Mirelurks. Son un dolor en el culo."
+lang["#MISSION_TWEAK_MIREMIREMENACE_HINT"] = "Caza dos Mirelurks de cualquier tipo. Los Mirelurks se pueden encontrar cerca del lago detrás del pueblo de Salt Wells."
+lang["#MISSION_TWEAK_MIREMIREMENACE_COMPLETE"] = "El novato puede abrir caparazones de cangrejo. Buen trabajo, sigue así, amigo. Aquí tienes algo de mierda por tus problemas."
 
-lang["#MISSION_TWEAK_INTHEGROUND"] = "In The Ground"
-lang["#MISSION_TWEAK_INTHEGROUND_DESC"] = "Ghouls, Mirelurks, a lot of good work rookie. Good job...but look, I still don't think you got chops for fightin' the NCR. Show me that you can really run and gun. There's a cave behind the factory; head down there, find an ant, and kill it; just one. You'll see why they're nasty."
-lang["#MISSION_TWEAK_INTHEGROUND_HINT"] = "Eliminate one giant ant. They can be found in the tunnels behind the factory."
-lang["#MISSION_TWEAK_INTHEGROUND_COMPLETE"] = "The soldiers are a lot more dangerous than the workers. Great work rookie, you earned this one."
+lang["#MISSION_TWEAK_INTHEGROUND"] = "En el Suelo"
+lang["#MISSION_TWEAK_INTHEGROUND_DESC"] = "Necrófagos, Mirelurks, mucho buen trabajo, novato. Buen trabajo... pero mira, todavía no creo que tengas agallas para luchar contra la RNC. Muéstrame que realmente puedes correr y disparar. Hay una cueva detrás de la fábrica; baja allí, encuentra una hormiga y mátala; solo una. Verás por qué son desagradables."
+lang["#MISSION_TWEAK_INTHEGROUND_HINT"] = "Elimina una hormiga gigante. Se pueden encontrar en los túneles detrás de la fábrica."
+lang["#MISSION_TWEAK_INTHEGROUND_COMPLETE"] = "Los soldados son mucho más peligrosos que las obreras. Gran trabajo, novato, te ganaste esta."
 
-lang["#MISSION_TWEAK_TROOPERS"] = "Taking On the Troopers"
-lang["#MISSION_TWEAK_TROOPERS_DESC"] = "Have you spent any amount of time in the NCR, rookie? Corporate swine, lobbyists, petty tyrants, and sycophants clinging to the old world like it will bring them deliverance... hmph.\n\nToday you're going to be striking at the symbol of their power; the humble trooper. Don't let their unkempt and ragged appearance fool you; NCR troopers are formidable. Their plate carriers can tank low caliber rounds, so you may need to bring something beefier or aim for their unprotected limbs. If you take down a patrol, you'll have proved your worth enough to officially join the tribe."
-lang["#MISSION_TWEAK_TROOPERS_HINT"] = "Eliminate two NCR Troopers of any kind. They can commonly be found patrolling the streets of Salt Wells. Attacking NCR Troopers will get you a bounty with the NCR, so be careful!"
-lang["#MISSION_TWEAK_TROOPERS_COMPLETE"] = "Your initiation is over; welcome to the 80s. You should head into camp and meet Gridlock."
+lang["#MISSION_TWEAK_TROOPERS"] = "Enfrentándose a los Soldados"
+lang["#MISSION_TWEAK_TROOPERS_DESC"] = "¿Has pasado algún tiempo en la RNC, novato? Cerdos corporativos, cabilderos, tiranos mezquinos y lameculos aferrados al viejo mundo como si les fuera a traer la salvación... hmph.\n\nHoy vas a atacar el símbolo de su poder; el humilde soldado. Que no te engañe su apariencia desaliñada y andrajosa; los soldados de la RNC son formidables. Sus chalecos portaplacas pueden resistir balas de bajo calibre, así que es posible que necesites algo más potente o apuntar a sus extremidades desprotegidas. Si derribas una patrulla, habrás demostrado tu valía suficiente para unirte oficialmente a la tribu."
+lang["#MISSION_TWEAK_TROOPERS_HINT"] = "Elimina dos Soldados de la RNC de cualquier tipo. Se pueden encontrar comúnmente patrullando las calles de Salt Wells. ¡Atacar a los Soldados de la RNC te dará una recompensa con la RNC, así que ten cuidado!"
+lang["#MISSION_TWEAK_TROOPERS_COMPLETE"] = "Tu iniciación ha terminado; bienvenido a los 80. Deberías entrar al campamento y conocer a Gridlock."
 
-lang["#MISSION_TWEAK_DAMAGEREPAIR"] = "Damage Repair"
-lang["#MISSION_TWEAK_DAMAGEREPAIR_DESC"] = "You still wanting to work on your reputation, $playername? Simple enough to do.\n\nPay up.\n"
-lang["#MISSION_TWEAK_DAMAGEREPAIR_HINT"] = "Pay Tweak $250 NCR Dollars. NCR Dollars can be acquired in many ways, but usually as quest rewards or selling items to vendors."
-lang["#MISSION_TWEAK_DAMAGEREPAIR_COMPLETE"] = "Keep the money coming and people will forget your crimes soon enough."
+lang["#MISSION_TWEAK_DAMAGEREPAIR"] = "Reparación de Daños"
+lang["#MISSION_TWEAK_DAMAGEREPAIR_DESC"] = "¿Todavía quieres trabajar en tu reputación, $playername? Bastante sencillo de hacer.\n\nPaga.\n"
+lang["#MISSION_TWEAK_DAMAGEREPAIR_HINT"] = "Paga a Tweak $250 Dólares de la RNC. Los Dólares de la RNC se pueden adquirir de muchas maneras, pero generalmente como recompensas de misiones o vendiendo objetos a los vendedores."
+lang["#MISSION_TWEAK_DAMAGEREPAIR_COMPLETE"] = "Sigue trayendo el dinero y la gente olvidará pronto tus crímenes."
 
-lang["#MISSION_TWEAK_BLOODPRICE"] = "Paying the Blood Price"
-lang["#MISSION_TWEAK_BLOODPRICE_DESC"] = "If you want to work on clearing your name, bring death to the enemies of the tribe. NCR troopers; kill as many as you can."
-lang["#MISSION_TWEAK_BLOODPRICE_HINT"] = "Eliminate 5 NCR Troopers for Tweak. They can be found all throughout Salt Wells."
-lang["#MISSION_TWEAK_BLOODPRICE_COMPLETE"] = "Spotters say you're putting in good work. It's a good start."
+lang["#MISSION_TWEAK_BLOODPRICE"] = "Pagando el Precio de Sangre"
+lang["#MISSION_TWEAK_BLOODPRICE_DESC"] = "Si quieres trabajar para limpiar tu nombre, trae la muerte a los enemigos de la tribu. Soldados de la RNC; mata a tantos como puedas."
+lang["#MISSION_TWEAK_BLOODPRICE_HINT"] = "Elimina 5 Soldados de la RNC para Tweak. Se pueden encontrar por todo Salt Wells."
+lang["#MISSION_TWEAK_BLOODPRICE_COMPLETE"] = "Los observadores dicen que estás haciendo un buen trabajo. Es un buen comienzo."
 
-lang["#MISSION_TWEAK_OLDMAN"] = "The Old Man"
-lang["#MISSION_TWEAK_OLDMAN_DESC"] = "You've faced every challenge I can give you, new guy; there's nothing more I can offer you. You've earned the right to enter camp; head inside and pay tribute to the Gridlock. The Old Man is our eldest member and leader. He's wearing power armour and looks fuckin' ancient; he's hard to miss.\n"
-lang["#MISSION_TWEAK_OLDMAN_HINT"] = "Offer tribute to Gridlock. Gridlock can be found outside the 80s Merchant Shack and is wearing power armor."
-lang["#MISSION_TWEAK_OLDMAN_COMPLETE"] = "Welcome to the tribe, young one. Your brothers and sisters welcome you with open arms."
-lang["#MISSION_TWEAK_OLDMAN_ITEMNAME"] = "tribute"
-
+lang["#MISSION_TWEAK_OLDMAN"] = "El Viejo"
+lang["#MISSION_TWEAK_OLDMAN_DESC"] = "Te has enfrentado a todos los desafíos que puedo darte, novato; no hay nada más que pueda ofrecerte. Te has ganado el derecho a entrar al campamento; entra y rinde tributo a Gridlock. El Viejo es nuestro miembro más anciano y líder. Lleva servoarmadura y parece jodidamente antiguo; es difícil no verlo.\n"
+lang["#MISSION_TWEAK_OLDMAN_HINT"] = "Ofrece tributo a Gridlock. Gridlock se puede encontrar fuera de la Cabaña de Comerciantes de los 80 y lleva servoarmadura."
+lang["#MISSION_TWEAK_OLDMAN_COMPLETE"] = "Bienvenido a la tribu, joven. Tus hermanos y hermanas te reciben con los brazos abiertos."
+lang["#MISSION_TWEAK_OLDMAN_ITEMNAME"] = "tributo"
 
 RELOADSCHEMA = true

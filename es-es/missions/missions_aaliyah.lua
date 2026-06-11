@@ -1,51 +1,53 @@
-local lang = RSRG.Languages["en"]
+local lang = RSRG.Languages["es-es"]
 
---  █████╗  █████╗ ██╗     ██╗██╗   ██╗ █████╗ ██╗  ██╗███████╗    ███╗   ███╗██╗███████╗███████╗██╗ ██████╗ ███╗   ██╗███████╗
--- ██╔══██╗██╔══██╗██║     ██║╚██╗ ██╔╝██╔══██╗██║  ██║██╔════╝    ████╗ ████║██║██╔════╝██╔════╝██║██╔═══██╗████╗  ██║██╔════╝
--- ███████║███████║██║     ██║ ╚████╔╝ ███████║███████║███████╗    ██╔████╔██║██║███████╗███████╗██║██║   ██║██╔██╗ ██║███████╗
--- ██╔══██║██╔══██║██║     ██║  ╚██╔╝  ██╔══██║██╔══██║╚════██║    ██║╚██╔╝██║██║╚════██║╚════██║██║██║   ██║██║╚██╗██║╚════██║
--- ██║  ██║██║  ██║███████╗██║   ██║   ██║  ██║██║  ██║███████║    ██║ ╚═╝ ██║██║███████║███████║██║╚██████╔╝██║ ╚████║███████║
--- ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝    ╚═╝     ╚═╝╚═╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
+--  ███████╗ ██████╗ ███████╗███████╗██╗   ██╗██╗     ███████╗███████╗
+--  ██╔════╝██╔════╝ ██╔════╝██╔════╝██║   ██║██║     ██╔════╝██╔════╝
+--  █████╗  ██║  ███╗█████╗  █████╗  ██║   ██║██║     █████╗  ███████╗
+--  ██╔══╝  ██║   ██║██╔══╝  ██╔══╝  ╚██╗ ██╔╝██║     ██╔══╝  ╚════██║
+--  ██║     ╚██████╔╝███████╗██║      ╚████╔╝ ███████╗███████╗███████║
+--  ╚═╝      ╚═════╝ ╚══════╝╚═╝       ╚═══╝  ╚══════╝╚══════╝╚══════╝
 
--- Mission Giver
+-- Repartidor de misiones
 lang["#MISSION_GIVER_AALIYAH"] = "Aaliyah"
-lang["#MISSION_GIVER_AALIYAH_SUBTITLE"] = "Huntress of the Sensih"
-lang["#MISSION_GIVER_AALIYAH_GREET_NEW"] = "I know faces well, but not yours. I must ask forgive; English is no good, yes? Am Aaliyah of the Sensih. If you look for something to do, maybe Jackson can help you."
-lang["#MISSION_GIVER_AALIYAH_GREET_N100"] = "I have nothing say to you. You find Jackson, not me. Begone."
-lang["#MISSION_GIVER_AALIYAH_GREET_0"] = "Hello! If Jackson send you me, you helpful. Am need help with few things if you have time."
-lang["#MISSION_GIVER_AALIYAH_GREET_100"] = "Greet, friend to the Sensih. You come visit or you look for something to do?\n\nI have tasks."
-lang["#MISSION_GIVER_AALIYAH_GREET_FINISHED"] = "Hello, friend! Am glad for visit, but have nothing can give you to do. Appreciate you drop by, yes?"
+lang["#MISSION_GIVER_AALIYAH_SUBTITLE"] = "Cazadora de los Sensih"
+lang["#MISSION_GIVER_AALIYAH_GREET_NEW"] = "Conozco bien las caras, pero la tuya no. Debo pedir disculpas; el inglés no es bueno, ¿sí? Soy Aaliyah de los Sensih. Si buscas algo que hacer, tal vez Jackson pueda ayudarte."
+lang["#MISSION_GIVER_AALIYAH_GREET_N100"] = "No tengo nada que decirte. Ve a Jackson, no a mí. Vete."
+lang["#MISSION_GIVER_AALIYAH_GREET_0"] = "¡Hola! Si Jackson te envió, eres útil. Necesito ayuda con algunas cosas si tienes tiempo."
+lang["#MISSION_GIVER_AALIYAH_GREET_100"] = "Saludos, amigo de los Sensih. ¿Vienes de visita o buscas algo que hacer?\n\nTengo tareas."
+lang["#MISSION_GIVER_AALIYAH_GREET_FINISHED"] = "Hola, amigo. Me alegra la visita, pero no tengo nada que pueda darte para hacer. Agradezco que te hayas pasado, ¿sí?"
 
--- Missions
+-- Misiones
 
-lang["#MISSION_AALIYAH_PRUNING"] = "Pruning"
-lang["#MISSION_AALIYAH_PRUNING_DESC"] = "If Jackson am send you to me, that means you can help. But... I do not knowing of you. I will give you task; you complete. Yolla Bolly has many bugs. I do not know word in English. You find skitterers, you kill them. Kill a few, yes? Your first test."
-lang["#MISSION_AALIYAH_PRUNING_HINT"] = "Kill 5 mantises for Aaliyah. They can be found all over Yolla Bolly."
-lang["#MISSION_AALIYAH_PRUNING_COMPLETE"] = "You kill them, then? Okay, I can find more tasks for you."
+lang["#MISSION_AALIYAH_PRUNING"] = "Poda"
+lang["#MISSION_AALIYAH_PRUNING_DESC"] = "Si Jackson te envió a mí, significa que puedes ayudar. Pero... no te conozco. Te daré una tarea; tú la completas. Yolla Bolly tiene muchos bichos. No sé la palabra en inglés. Encuentra correteadores, mátalos. Mata algunos, ¿sí? Tu primera prueba."
+lang["#MISSION_AALIYAH_PRUNING_HINT"] = "Mata 5 mantis para Aaliyah. Se pueden encontrar por todo Yolla Bolly."
+lang["#MISSION_AALIYAH_PRUNING_COMPLETE"] = "¿Los mataste, entonces? Bien, puedo encontrar más tareas para ti."
 
-lang["#MISSION_AALIYAH_NATURAL_WEAPONS"] = "Natural Weapons"
-lang["#MISSION_AALIYAH_NATURAL_WEAPONS_DESC"] = "Okay! So, am give you first lesson for hunting big game. How do stop charging deathclaw? Bleed or poison. I am teach you about nature's weapons. We use poison for bigger game; safer and cheaper than big bullets. I show you; bring me green gecko venom, yes?"
-lang["#MISSION_AALIYAH_NATURAL_WEAPONS_HINT"] = "Find 5 Green Gecko Poison Glands. They can be looted from green geckos or traded for from other players."
-lang["#MISSION_AALIYAH_NATURAL_WEAPONS_COMPLETE"] = "Good, good! Let see. You take poison darts or money, you pick."
+lang["#MISSION_AALIYAH_NATURAL_WEAPONS"] = "Armas Naturales"
+lang["#MISSION_AALIYAH_NATURAL_WEAPONS_DESC"] = "¡Bien! Te daré tu primera lección para cazar piezas mayores. ¿Cómo detener a un sanguinario que carga? Sangrado o veneno. Te enseñaré sobre las armas de la naturaleza. Usamos veneno para piezas mayores; más seguro y más barato que las balas grandes. Te lo muestro; tráeme veneno de gecko verde, ¿sí?"
+lang["#MISSION_AALIYAH_NATURAL_WEAPONS_HINT"] = "Encuentra 5 Glándulas de Veneno de Gecko Verde. Se pueden saquear de geckos verdes o intercambiar con otros jugadores."
+lang["#MISSION_AALIYAH_NATURAL_WEAPONS_COMPLETE"] = "¡Bien, bien! Veamos. Tomas dardos envenenados o dinero, tú eliges."
 
-lang["#MISSION_AALIYAH_TRAILS"] = "Clear the Trails"
-lang["#MISSION_AALIYAH_TRAILS_DESC"] = "Yolla Bolly have many threats. Rock-Biters, deathclaws, yao guai... but most many is gecko. Dangerous in big numeral, yes? Especially green. I ask you go hunt some, keep trails clear."
-lang["#MISSION_AALIYAH_TRAILS_HINT"] = "Kill 10 geckos for Aaliyah. They can be found all over Yolla Bolly."
-lang["#MISSION_AALIYAH_TRAILS_COMPLETE"] = "Gecko cries quiet down. Thank for help, outlander."
+lang["#MISSION_AALIYAH_TRAILS"] = "Limpiar los Caminos"
+lang["#MISSION_AALIYAH_TRAILS_DESC"] = "Yolla Bolly tiene muchas amenazas. Muerde Rocas, sanguinarios, yao guai... pero la mayoría son geckos. Peligrosos en gran número, ¿sí? Especialmente los verdes. Te pido que vayas a cazar algunos, mantén los caminos despejados."
+lang["#MISSION_AALIYAH_TRAILS_HINT"] = "Mata 10 geckos para Aaliyah. Se pueden encontrar por todo Yolla Bolly."
+lang["#MISSION_AALIYAH_TRAILS_COMPLETE"] = "Los llantos de gecko se calman. Gracias por la ayuda, forastero."
 
--- T2
+-- N2
 
-lang["#MISSION_AALIYAH_STING"] = "The Sting"
-lang["#MISSION_AALIYAH_STING_DESC"] = "Geckos am not only creature with venom. You seen radscorpion, yes? Big, nasty bug with big, nasty stinger. Stingers have venom glands too, make for power-full and pain-full poison. Can bring me some? Am need."
-lang["#MISSION_AALIYAH_STING_HINT"] = "Find 10 Radscorpion Poison Glands for Aaliyah. They can be looted from radscorpions or traded for from other players."
-lang["#MISSION_AALIYAH_STING_COMPLETE"] = "Perfect. I give you more darts, if want. Or money, if you no like darts."
+lang["#MISSION_AALIYAH_STING"] = "La Picadura"
+lang["#MISSION_AALIYAH_STING_DESC"] = "Los geckos no son las únicas criaturas con veneno. Has visto mutascorpius, ¿sí? Bichos grandes y desagradables con un aguijón grande y desagradable. Los aguijones también tienen glándulas de veneno, para un veneno poderoso y doloroso. ¿Puedes traerme algunos? Los necesito."
+lang["#MISSION_AALIYAH_STING_HINT"] = "Encuentra 10 Glándulas de Veneno de Mutascorpius para Aaliyah. Se pueden saquear de mutascorpius o intercambiar con otros jugadores."
+lang["#MISSION_AALIYAH_STING_COMPLETE"] = "Perfecto. Te daré más dardos, si quieres. O dinero, si no te gustan los dardos."
 
-lang["#MISSION_AALIYAH_FROM_BELOW"] = "They Came From Below"
-lang["#MISSION_AALIYAH_FROM_BELOW_DESC"] = "So, you fight gecko. This is good. More dangerous, though, am ants. Many, many ants. Rock-Biters blow up own tunnels and let ants swarm in. Is not bad on own, but they swarm into valley too! Can you help trim down their numerals?"
-lang["#MISSION_AALIYAH_FROM_BELOW_HINT"] = "Kill 10 ants for Aaliyah. They can be found in the mining tunnels underground."
-lang["#MISSION_AALIYAH_FROM_BELOW_COMPLETE"] = "Fighting in tunnels no fun, yes? Is very scary."
+lang["#MISSION_AALIYAH_FROM_BELOW"] = "Vinieron de Abajo"
+lang["#MISSION_AALIYAH_FROM_BELOW_DESC"] = "Así que, peleas contra geckos. Eso está bien. Más peligrosas, eso sí, son las hormigas. Muchas, muchas hormigas. Los Muerde Rocas volaron sus propios túneles y dejaron entrar un enjambre de hormigas. No está mal por sí solas, ¡pero también invaden el valle! ¿Puedes ayudar a reducir sus números?"
+lang["#MISSION_AALIYAH_FROM_BELOW_HINT"] = "Mata 10 hormigas para Aaliyah. Se pueden encontrar en los túneles de la mina subterráneos."
+lang["#MISSION_AALIYAH_FROM_BELOW_COMPLETE"] = "Pelear en túneles no es divertido, ¿verdad? Da mucho miedo."
 
-lang["#MISSION_AALIYAH_STITCH_JOB"] = "Stitch Job"
-lang["#MISSION_AALIYAH_STITCH_JOB_DESC"] = "So, am have a thought. You wish journey past Yolla Bolly in time, yes? You are needing better equipment for that. Can bring me sewing kit and thread? Am prepare something for you."
-lang["#MISSION_AALIYAH_STITCH_JOB_HINT"] = "Find 10 Thread and a Sewing Kit. Sewing Kits can be purchased or crafted. Thread can be purchased, salvaged from cloth, or scavenged."
-lang["#MISSION_AALIYAH_STITCH_JOB_COMPLETE"] = "Yes yes, this will do. I have more am need you to find me."
+lang["#MISSION_AALIYAH_STITCH_JOB"] = "Labor de Puntadas"
+lang["#MISSION_AALIYAH_STITCH_JOB_DESC"] = "Tengo una idea. Con el tiempo querrás viajar más allá de Yolla Bolly, ¿sí? Necesitarás mejor equipo para eso. ¿Puedes traerme un kit de costura e hilo? Te prepararé algo."
+lang["#MISSION_AALIYAH_STITCH_JOB_HINT"] = "Encuentra 10 Hilos y un Kit de Costura. Los Kits de Costura se pueden comprar o fabricar. El Hilo se puede comprar, recuperar de tela o saquear."
+lang["#MISSION_AALIYAH_STITCH_JOB_COMPLETE"] = "Sí, sí, esto servirá. Necesito que me encuentres más cosas."
+
+RELOADSCHEMA = true

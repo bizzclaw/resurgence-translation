@@ -1,43 +1,43 @@
-local lang = RSRG.Languages["en"]
+local lang = RSRG.Languages["es-es"]
 
 --[[
-███╗   ███╗██████╗        ██╗   ██╗ █████╗ ██╗   ██╗██╗  ████████╗     ██████╗██╗████████╗██╗   ██╗
-████╗ ████║██╔══██╗██╗    ██║   ██║██╔══██╗██║   ██║██║  ╚══██╔══╝    ██╔════╝██║╚══██╔══╝╚██╗ ██╔╝
-██╔████╔██║██████╔╝╚═╝    ██║   ██║███████║██║   ██║██║     ██║       ██║     ██║   ██║    ╚████╔╝
-██║╚██╔╝██║██╔══██╗██╗    ╚██╗ ██╔╝██╔══██║██║   ██║██║     ██║       ██║     ██║   ██║     ╚██╔╝
-██║ ╚═╝ ██║██████╔╝╚═╝     ╚████╔╝ ██║  ██║╚██████╔╝███████╗██║       ╚██████╗██║   ██║      ██║
-╚═╝     ╚═╝╚═════╝          ╚═══╝  ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝        ╚═════╝╚═╝   ╚═╝      ╚═╝
+██████╗        ██╗   ██╗ █████╗ ██╗   ██╗██╗  ████████╗     ██████╗██╗████████╗██╗   ██╗
+██╔══██╗██╗    ██║   ██║██╔══██╗██║   ██║██║  ╚══██╔══╝    ██╔════╝██║╚══██╔══╝╚██╗ ██╔╝
+██████╔╝╚═╝    ██║   ██║███████║██║   ██║██║     ██║       ██║     ██║   ██║    ╚████╔╝
+██╔══██╗██╗    ╚██╗ ██╔╝██╔══██║██║   ██║██║     ██║       ██║     ██║   ██║     ╚██╔╝
+██████╔╝╚═╝     ╚████╔╝ ██║  ██║╚██████╔╝███████╗██║       ╚██████╗██║   ██║      ██║
+╚═════╝          ╚═══╝  ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚═╝        ╚═════╝╚═╝   ╚═╝      ╚═╝
 ]]
--- ALL quests are dailies or weeklies due to limited entry time into VC
-lang["#MISSION_BOARD_VAULTCITY"] = "Vault City Task Board"
-lang["#MISSION_BOARD_VAULTCITY_SUBTITLE"] = "Tasks and Jobs"
-lang["#MISSION_BOARD_VAULTCITY_GREET"] = "This board contains several papers with jobs from people who are looking to hire others in this area. You can accept any job that you meet the requirements for.\n\n\nA list of available jobs are below."
 
-lang["#MISSION_VAULTCITY_FUELUPKEEP"] = "Fuel Upkeep"
-lang["#MISSION_VAULTCITY_FUELUPKEEP_DESC"] = "We need some fuel to upkeep our generators, sadly we dont have a way to reliably upkeep these as our other materials. You should hopefully be able to find these all over the wasteland."
-lang["#MISSION_VAULTCITY_FUELUPKEEP_HINT"] = "Hand over 20 nuclear material, you can find plenty of these in Yolla Bolly."
-lang["#MISSION_VAULTCITY_FUELUPKEEP_COMPLETE"] = "You've completed the task."
+-- Todas las misiones son diarias o semanales debido al tiempo limitado de entrada a Vault City
+lang["#MISSION_BOARD_VAULTCITY"] = "Tablón de Tareas de Vault City"
+lang["#MISSION_BOARD_VAULTCITY_SUBTITLE"] = "Tareas y Trabajos"
+lang["#MISSION_BOARD_VAULTCITY_GREET"] = "Este tablón contiene varios papeles con trabajos de personas que buscan contratar a otros en esta área. Puedes aceptar cualquier trabajo que cumpla con los requisitos.\n\n\nA continuación, una lista de trabajos disponibles."
 
-lang["#MISSION_VAULTCITY_PESTCONTROL"] = "Pest Control"
-lang["#MISSION_VAULTCITY_PESTCONTROL_DESC"] = "We need someone to take care of the local wildlife, they are wrecking havoc on pretty much everything. See what you can do."
-lang["#MISSION_VAULTCITY_PESTCONTROL_HINT"] = "Kill 20 radroaches and 10 molerats. These can be done anywhere."
-lang["#MISSION_VAULTCITY_PESTCONTROL_COMPLETE"] = "You've completed the task."
+lang["#MISSION_VAULTCITY_FUELUPKEEP"] = "Mantenimiento de Combustible"
+lang["#MISSION_VAULTCITY_FUELUPKEEP_DESC"] = "Necesitamos algo de combustible para mantener nuestros generadores. Lamentablemente no tenemos una forma confiable de mantener estos como con nuestros otros materiales. Con suerte, podrás encontrar estos por todo el yermo."
+lang["#MISSION_VAULTCITY_FUELUPKEEP_HINT"] = "Entrega 20 Material Nuclear. Puedes encontrar muchos de estos en Yolla Bolly."
+lang["#MISSION_VAULTCITY_FUELUPKEEP_COMPLETE"] = "Has completado la tarea."
 
-lang["#MISSION_VAULTCITY_VAULTTECSPONSOR"] = "Sponsored by Vault-Tec" --weekly
-lang["#MISSION_VAULTCITY_VAULTTECSPONSOR_DESC"] = "We need you to head to a nearby vault and retrieve a power control chip, one of ours managed to break and it takes a long time to create a new one."
-lang["#MISSION_VAULTCITY_VAULTTECSPONSOR_HINT"] = "Retrieve the power control chip from Salt Wells Vault."
-lang["#MISSION_VAULTCITY_VAULTTECSPONSOR_COMPLETE"] = "You've completed the task."
-lang["#MISSION_VAULTCITY_VAULTTECSPONSOR_ITEMNAME"] = "Power Control Chip"
+lang["#MISSION_VAULTCITY_PESTCONTROL"] = "Control de Plagas"
+lang["#MISSION_VAULTCITY_PESTCONTROL_DESC"] = "Necesitamos a alguien que se encargue de la fauna local. Están causando estragos en casi todo. Ve a ver qué puedes hacer."
+lang["#MISSION_VAULTCITY_PESTCONTROL_HINT"] = "Mata a 20 Mutarachas y 10 Ratas Topo. Esto se puede hacer en cualquier lugar."
+lang["#MISSION_VAULTCITY_PESTCONTROL_COMPLETE"] = "Has completado la tarea."
 
-lang["#MISSION_VAULTCITY_WATERPURIFICATION"] = "Water Purification"
-lang["#MISSION_VAULTCITY_WATERPURIFICATION_DESC"] = "We need a new supply of water to top up our reserves, this can just be dirty irradiated water since we can purify it ourselves."
-lang["#MISSION_VAULTCITY_WATERPURIFICATION_HINT"] = "Retrieve 20 Dirty Water"
-lang["#MISSION_VAULTCITY_WATERPURIFICATION_COMPLETE"] = "You've completed the task."
+lang["#MISSION_VAULTCITY_VAULTTECSPONSOR"] = "Patrocinado por Vault-Tec" --semanal
+lang["#MISSION_VAULTCITY_VAULTTECSPONSOR_DESC"] = "Necesitamos que vayas a un refugio cercano y recuperes un chip de control de energía. Uno de los nuestros se rompió y lleva mucho tiempo crear uno nuevo."
+lang["#MISSION_VAULTCITY_VAULTTECSPONSOR_HINT"] = "Recupera el chip de control de energía del Refugio de Salt Wells."
+lang["#MISSION_VAULTCITY_VAULTTECSPONSOR_COMPLETE"] = "Has completado la tarea."
+lang["#MISSION_VAULTCITY_VAULTTECSPONSOR_ITEMNAME"] = "Chip de Control de Energía"
 
-lang["#MISSION_VAULTCITY_OLDWORLDHABITS"] = "Old World Habits"
-lang["#MISSION_VAULTCITY_OLDWORLDHABITS_DESC"] = "There is a variety of old world cigarrettes that can be found around the outside, we are hoping to get an import of some of them, since we've grown quite a liking to them."
-lang["#MISSION_VAULTCITY_OLDWORLDHABITS_HINT"] = "Retrieve 5 Cigarrette Cartons, these can be found all over the wasteland."
-lang["#MISSION_VAULTCITY_OLDWORLDHABITS_COMPLETE"] = "You've completed the task."
+lang["#MISSION_VAULTCITY_WATERPURIFICATION"] = "Purificación de Agua"
+lang["#MISSION_VAULTCITY_WATERPURIFICATION_DESC"] = "Necesitamos un nuevo suministro de agua para rellenar nuestras reservas. Puede ser simplemente agua sucia irradiada, ya que podemos purificarla nosotros mismos."
+lang["#MISSION_VAULTCITY_WATERPURIFICATION_HINT"] = "Recupera 20 Agua Sucia."
+lang["#MISSION_VAULTCITY_WATERPURIFICATION_COMPLETE"] = "Has completado la tarea."
 
+lang["#MISSION_VAULTCITY_OLDWORLDHABITS"] = "Hábitos del Viejo Mundo"
+lang["#MISSION_VAULTCITY_OLDWORLDHABITS_DESC"] = "Hay una variedad de cigarrillos del viejo mundo que se pueden encontrar en el exterior. Esperamos importar algunos de ellos, ya que nos han cogido mucho gusto."
+lang["#MISSION_VAULTCITY_OLDWORLDHABITS_HINT"] = "Recupera 5 Cartones de Cigarrillos. Estos se pueden encontrar por todo el yermo."
+lang["#MISSION_VAULTCITY_OLDWORLDHABITS_COMPLETE"] = "Has completado la tarea."
 
 RELOADSCHEMA = true

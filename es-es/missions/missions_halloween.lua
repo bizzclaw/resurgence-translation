@@ -1,19 +1,21 @@
-local lang = RSRG.Languages["en"]
+local lang = RSRG.Languages["es-es"]
 
--- Mission Giver
-lang["#MISSION_GIVER_HALLOWEEN"] = "Odd Old Man"
-lang["#MISSION_GIVER_HALLOWEEN_SUBTITLE"] = "Stranger"
-lang["#MISSION_GIVER_HALLOWEEN_GREET_NEW"] = "Hey, hello there stranger.\n\nHave ye heard about the ghosts?"
-lang["#MISSION_GIVER_HALLOWEEN_GREET_0"] = "Hello there stranger.\n\nFind any lost souls?"
+-- Repartidor de misiones
+lang["#MISSION_GIVER_HALLOWEEN"] = "Viejo Extraño"
+lang["#MISSION_GIVER_HALLOWEEN_SUBTITLE"] = "Desconocido"
+lang["#MISSION_GIVER_HALLOWEEN_GREET_NEW"] = "Oye, hola, desconocido.\n\n¿Has oído hablar de los fantasmas?"
+lang["#MISSION_GIVER_HALLOWEEN_GREET_0"] = "Hola, desconocido.\n\n¿Encontraste alguna alma perdida?"
 lang["#MISSION_GIVER_HALLOWEEN_GREET_FINISHED"] = ""
 
--- Missions
-lang["#MISSION_HALLOWEEN_A"] = "Beware of the Curse."
-lang["#MISSION_HALLOWEEN_A_DESC"] = "The Souls of the damned, walking the earth with us. Something angered them- brought them back. Might be the way we're doing things, how the world turned out. Doesn't matter. They're spiteful. Chasing and cutting down anyone they see, and cursing those who live to tell the tale. Legend has it if one of 'em curses ye, ye will roam the earth forever undead.\nReturn one to its rest and I'll give ye some doodads I've got in me trunk."
-lang["#MISSION_HALLOWEEN_A_HINT"] = "They don't respect guns. Bullets go right through them. Only chance ye got is honorable combat."
-lang["#MISSION_HALLOWEEN_A_COMPLETE"] = "Aye, well done lad. Pick something you like."
+-- Misiones
+lang["#MISSION_HALLOWEEN_A"] = "Cuidado con la Maldición."
+lang["#MISSION_HALLOWEEN_A_DESC"] = "Las almas de los condenados, caminando sobre la tierra con nosotros. Algo las enfureció... las trajo de vuelta. Puede que sea la forma en que hacemos las cosas, cómo resultó el mundo. No importa. Son rencorosas. Persiguen y acuchillan a cualquiera que ven, y maldicen a aquellos que viven para contar la historia. Cuenta la leyenda que si uno de ellos te maldice, vagarás por la tierra eternamente no-muerto.\nDevuelve uno a su descanso y te daré algunas baratijas que tengo en mi baúl."
+lang["#MISSION_HALLOWEEN_A_HINT"] = "No respetan las armas. Las balas los atraviesan. Tu única oportunidad es el combate honorable."
+lang["#MISSION_HALLOWEEN_A_COMPLETE"] = "Sí, bien hecho, muchacho. Elige algo que te guste."
 
-lang["#MISSION_HALLOWEEN_B"] = "Strange Times"
-lang["#MISSION_HALLOWEEN_B_DESC"] = "The ghosts. They leave behind a piece of themselves when they go back. Bring me as much as you can and I'll give ye some doodads I've got in me trunk."
-lang["#MISSION_HALLOWEEN_B_HINT"] = "Be careful of the curse."
-lang["#MISSION_HALLOWEEN_B_COMPLETE"] = "Aye, well done lad. Have a look in me trunk. Pick something you like."
+lang["#MISSION_HALLOWEEN_B"] = "Tiempos Extraños"
+lang["#MISSION_HALLOWEEN_B_DESC"] = "Los fantasmas. Dejan una parte de sí mismos cuando se van. Tráeme todo lo que puedas y te daré algunas baratijas que tengo en mi baúl."
+lang["#MISSION_HALLOWEEN_B_HINT"] = "Ten cuidado con la maldición."
+lang["#MISSION_HALLOWEEN_B_COMPLETE"] = "Sí, bien hecho, muchacho. Échale un vistazo a mi baúl. Elige algo que te guste."
+
+RELOADSCHEMA = true

@@ -1,4 +1,4 @@
-local lang = RSRG.Languages["en"]
+local lang = RSRG.Languages["es-es"]
 
 --[[
 ██╗   ██╗ ██████╗     ██████╗  █████╗ ████████╗███████╗ ██████╗ ██╗   ██╗ █████╗ ██████╗ ██████╗
@@ -9,12 +9,12 @@ local lang = RSRG.Languages["en"]
   ╚═══╝   ╚═════╝     ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚══════╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═════╝
 ]]
 
-lang["#MISSION_GIVER_VCGATEGUARD"] = "Vault City Gate Guard"
-lang["#MISSION_GIVER_VCGATEGUARD_SUBTITLE"] = "Vault City Guard"
-lang["#MISSION_GIVER_VCGATEGUARD_GREET_NEW"] = "Hello! Welcome to Vault City! This is our own hometown of wonder. What you see out here is not representative of what we offer. Unfortunately you will require a pass to enter the town. The pass will give you access to our facilities for a set amount of time. Terms and Conditions apply."
-lang["#MISSION_GIVER_VCGATEGUARD_GREET_0"] = "We don't trust you, we cant offer entrance to anyone we meet. I am afraid you'll have to leave."
-lang["#MISSION_GIVER_VCGATEGUARD_GREET_100"] = "We have some new passes up for offer. Just 5000 caps and it's all yours!"
-lang["#MISSION_GIVER_VCGATEGUARD_GREET_FINISHED"] = "Sorry, we are not offering any additional passes today. Come back another day."
+lang["#MISSION_GIVER_VCGATEGUARD"] = "Guardia de la Puerta de Vault City"
+lang["#MISSION_GIVER_VCGATEGUARD_SUBTITLE"] = "Guardia de Vault City"
+lang["#MISSION_GIVER_VCGATEGUARD_GREET_NEW"] = "¡Hola! ¡Bienvenido a Vault City! Este es nuestro querido pueblo de las maravillas. Lo que ves aquí fuera no es representativo de lo que ofrecemos. Desafortunadamente, necesitarás un pase para entrar al pueblo. El pase te dará acceso a nuestras instalaciones por un tiempo determinado. Se aplican términos y condiciones."
+lang["#MISSION_GIVER_VCGATEGUARD_GREET_0"] = "No confiamos en ti, no podemos ofrecer entrada a cualquiera que conozcamos. Me temo que tendrás que irte."
+lang["#MISSION_GIVER_VCGATEGUARD_GREET_100"] = "Tenemos algunos pases nuevos en oferta. ¡Solo 5000 tapas y es todo tuyo!"
+lang["#MISSION_GIVER_VCGATEGUARD_GREET_FINISHED"] = "Lo siento, no estamos ofreciendo pases adicionales hoy. Vuelve otro día."
 
 --[[
 ███╗   ███╗██╗███████╗███████╗██╗ ██████╗ ███╗   ██╗███████╗
@@ -25,9 +25,9 @@ lang["#MISSION_GIVER_VCGATEGUARD_GREET_FINISHED"] = "Sorry, we are not offering 
 ╚═╝     ╚═╝╚═╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝
 ]]
 
-lang["#MISSION_VCGATEGUARD_VAULTTECCALLING"] = "Vault-Tec Calling!"
-lang["#MISSION_VCGATEGUARD_VAULTTECCALLING_DESC"] = "You'll need a pass to enter, I can offer you one for 5000 caps. Keep in mind I can only offer 1 a day to each person. And time is limited inside for security purposes."
-lang["#MISSION_VCGATEGUARD_VAULTTECCALLING_HINT"] = "Hand over 5000 bottle caps"
-lang["#MISSION_VCGATEGUARD_VAULTTECCALLING_COMPLETE"] = "Enjoy your stay!"
+lang["#MISSION_VCGATEGUARD_VAULTTECCALLING"] = "¡Llamada de Vault-Tec!"
+lang["#MISSION_VCGATEGUARD_VAULTTECCALLING_DESC"] = "Necesitarás un pase para entrar. Puedo ofrecerte uno por 5000 tapas. Ten en cuenta que solo puedo ofrecer uno al día a cada persona. Y el tiempo dentro es limitado por razones de seguridad."
+lang["#MISSION_VCGATEGUARD_VAULTTECCALLING_HINT"] = "Entrega 5000 tapas"
+lang["#MISSION_VCGATEGUARD_VAULTTECCALLING_COMPLETE"] = "¡Disfruta tu estancia!"
 
 RELOADSCHEMA = true
